@@ -1,0 +1,210 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Version details.
+ *
+ * @package    local
+ * @subpackage moodlemobileapp
+ * @copyright  2014 Juan Leyva <juanleyvadelgado@gmail.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+// Replacement patron json to moodle lang string definition forma
+// "about": "About", to $string['about'] = 'About';
+// First ' to \' then
+// "[^"]+"\s*:\s*"[^"]+"\s*,\s*\n by
+// $string['\1'] = '\2';\n
+
+$string['pluginname'] = 'Moodle Mobile language strings';
+
+$string['about'] = 'About';
+$string['add'] = 'Add';
+$string['addcontact'] = 'Add as contact';
+$string['addedtoqueue'] = 'You are offline; your operation has been added to the task queue.';
+$string['addfakenotifications'] = 'Add fake notifications';
+$string['addnote'] = 'Add a note';
+$string['address'] = 'Address';
+$string['addsite'] = 'Add a site';
+$string['allcachespurged'] = 'All caches purged';
+$string['areyousurereset'] = 'Are you sure you want to reset the application? All of your sites will be deleted.';
+$string['audionotavailable'] = 'Audio input hardware not available';
+$string['audiorecordinstructions'] = 'Press Record to start the audio recording, Stop to stop and upload the file.';
+$string['authenticating'] = 'Authenticating';
+$string['author'] = 'Author';
+$string['back'] = 'Back';
+$string['browsephotoalbums'] = 'Photo albums';
+$string['cacheexpirationtime'] = 'Cache expiration time (miliseconds)';
+$string['cancel'] = 'Cancel';
+$string['cannotaddnote'] = 'Network not reachable. Your note has been saved in task queue; you can resend it once you are online.';
+$string['cannotconnect'] = 'Cannot connect: Verify that your have typed correctly the URL and that your site uses Moodle 2.4 or later.';
+$string['cannotconnectssl'] = 'Cannot connect: Verify that your have typed correctly the URL, your site uses Moodle 2.4 or later and the SSL certificate is valid.';
+$string['cannotsendmessage'] = 'Network not reachable. Your message has been saved in task queue; you can resend it once you are online.';
+$string['city'] = 'City';
+$string['close'] = 'Close';
+$string['completed'] = 'Completed';
+$string['contact'] = 'Contact';
+$string['contactadd'] = 'Contact added to your phone contacts list';
+$string['content'] = 'Content';
+$string['contents'] = 'Contents';
+$string['contentyetnotavailable'] = 'This type of activity is not yet available via the mobile app';
+$string['continue'] = 'Continue';
+$string['country'] = 'Country';
+$string['csssynced'] = 'Remote CSS synced';
+$string['delete'] = 'Delete';
+$string['deletesite'] = 'Delete this site?';
+$string['deletesitefiles'] = 'Are you sure that you want to delete the downloaded files from this site?';
+$string['description'] = 'Description';
+$string['deviceinfo'] = 'Device info';
+$string['details'] = 'Details';
+$string['development'] = 'Development';
+$string['disablerdebugger'] = 'Disable remote debugging';
+$string['enablecss3transitions'] = 'Enable CSS3 Transitions';
+$string['errorcapturingaudio'] = 'Error capturing audio';
+$string['dodeletesite'] = 'Yes, delete this site completely.';
+$string['donotdeletesite'] = 'Oops, don\'t do it!';
+$string['downloadremotefile'] = 'Download remote file';
+$string['email'] = 'Email';
+$string['empty'] = 'empty';
+$string['enableautosync'] = 'Enable auto sync';
+$string['enableautosynccss'] = 'Enable synchronization of additional CSS style sheet';
+$string['enableautosynclang'] = 'Enable synchronization of language files';
+$string['enableautosyncws'] = 'Enable synchronization of operations and data';
+$string['enabledebugging'] = 'Enable debugging';
+$string['enablerdebugger'] = 'Enable remote debugging';
+$string['enablenotifications'] = 'Enable notifications';
+$string['enablenotificationswarning'] = '<p>In order to enable notifications we need to store information like your mobile device model and  operating system in the Moodle site.</p>';
+$string['error'] = 'Error';
+$string['errorcamera'] = 'Error accessing camera';
+$string['errorcameramsg'] = 'Device does not support a camera';
+$string['errorregisteringdeviceinmoodle'] = 'Error registering device in Moodle';
+$string['errorduringdevicetokenrequesttoapns'] = 'Error during device token request to APNS';
+$string['erroruploading'] = 'Error uploading file';
+$string['estimatedfreespace'] = 'Estimated free space';
+$string['filename'] = 'File name';
+$string['filesize'] = 'Size';
+$string['fileuploaded'] = 'File uploaded';
+$string['fileurl'] = 'File URL';
+$string['forcecsssync'] = 'Force CSS sync now';
+$string['forcelangsync'] = 'Force lang sync now';
+$string['forceofflinemode'] = 'Force offline mode';
+$string['fullname'] = 'Full name';
+$string['general'] = 'General';
+$string['grade'] = 'Grade';
+$string['help'] = 'Help';
+$string['helpmelogin'] = '<p>In order to log in, please verify that:</p>1. The Moodle site is version 2.4 or above.<br />2. The Moodle site administrator has enabled Mobile access.<br /><br /><p>To test the app in a Moodle demo site type <i>teacher</i> or <i>student</i> in the <i>Username</i> field and click the <b>Add button</b>.</p><p><a href=\'http://docs.moodle.org/en/Mobile_app\' target=\'_blank\'>Visit the Moodle documentation site for more detailed information and help.</a></p>';
+$string['icantlogin'] = 'I can\'t login';
+$string['imagestored'] = 'Your image has been stored in your private area';
+$string['info'] = 'Info';
+$string['initializing'] = 'Initializing...';
+$string['invalidaccount'] = 'Please check your login details or ask your site administrator to check the site configuration.';
+$string['invalidmoodleversion'] = 'Invalid Moodle version. The minium version required is: ';
+$string['invalidscheme'] = 'Please provide a valid site URL.';
+$string['invalidsite'] = 'The site URL is invalid.';
+$string['language'] = 'Language';
+$string['langsynced'] = 'Language synced';
+$string['license'] = 'License';
+$string['loadcordovaemulator'] = 'Load Cordova emulator';
+$string['loading'] = 'Loading';
+$string['lostconnection'] = 'We lost connection you need to reconnect. Your token is now invalid';
+$string['location'] = 'Location';
+$string['localpath'] = 'Local path';
+$string['logout'] = 'Logout';
+$string['message'] = 'Message';
+$string['messagesent'] = 'Message sent';
+$string['moodlehelp'] = 'Help';
+$string['mycourses'] = 'My courses';
+$string['name'] = 'Name';
+$string['networkerror'] = 'Network not reachable';
+$string['networkerrormsg'] = 'Network not enabled or not working.';
+$string['no'] = 'No';
+$string['notaskstobesynchronized'] = 'No tasks to be synchronized';
+$string['noteadded'] = 'Note added';
+$string['notifications'] = 'Notifications';
+$string['notificationsenabled'] = 'Notifications enabled';
+$string['notificationsdisabled'] = 'Notifications are disabled';
+$string['notificationshowtoenable'] = '';
+$string['notificationsnotsupported'] = 'Notifications are not yet supported on Android systems.';
+$string['offlinemode'] = 'Offline mode';
+$string['ok'] = 'OK';
+$string['participants'] = 'Participants';
+$string['password'] = 'Password';
+$string['passwordlabel'] = 'Password';
+$string['passwordnotnull'] = 'Please enter your password';
+$string['passwordrequired'] = 'Password required';
+$string['phone1'] = 'Phone';
+$string['phone2'] = 'Mobile';
+$string['preview'] = 'Preview';
+$string['purgecaches'] = 'Purge caches';
+$string['rdebuggingenabledfor'] = 'Remote debugging will be enabled during the following seconds: ';
+$string['record'] = 'Record';
+$string['recordstored'] = 'Your recording has been stored in your private area';
+$string['recordaudio'] = 'Audio';
+$string['replay'] = 'Replay';
+$string['reportabug'] = 'Report a bug';
+$string['reportbuginfo'] = 'Tap on the email button for sending a bug report via email<br /> <br /> <b>Don\'t forget to write a detailed description of the problem in the email body</b><br /> <br />Note that some debugging information will be attached (not private information)';
+$string['requiredfields'] = 'All required fields must be completed.';
+$string['resetapp'] = 'Reset application';
+$string['save'] = 'Save';
+$string['saving'] = 'Saving...';
+$string['select'] = 'Select';
+$string['selectsite'] = 'Select a site';
+$string['send'] = 'Send';
+$string['sendall'] = 'Send all';
+$string['sendmessage'] = 'Send a message';
+$string['sendnow'] = 'Send now';
+$string['settings'] = 'Settings';
+$string['showall'] = 'Show all';
+$string['showlog'] = 'Show log';
+$string['siteexists'] = 'This site already exists.';
+$string['sitename'] = 'Site name';
+$string['sites'] = 'Sites';
+$string['siteurl'] = 'Site URL';
+$string['siteurllabel'] = 'Site URL';
+$string['siteurlrequired'] = 'Site URL required, i.e <i>http://www.yourmoodlesite.abc or https://www.yourmoodlesite.efg</i>';
+$string['spaceusage'] = 'Space usage';
+$string['stop'] = 'Stop';
+$string['strings'] = 'Strings';
+$string['synchronization'] = 'Synchronization';
+$string['takephoto'] = 'Take photo';
+$string['takepicture'] = 'Camera';
+$string['taskqueue'] = 'Task queue';
+$string['therearentnotificationsyet'] = 'There are no notifications';
+$string['timecreated'] = 'Date added';
+$string['timemodified'] = 'Last modified';
+$string['total'] = 'Total';
+$string['totalusage'] = 'Total usage';
+$string['unexpectederror'] = 'Unexepected error. Please close and reopen the application to try again';
+$string['update'] = 'Update';
+$string['updatesite'] = 'Update the site';
+$string['upload'] = 'Upload';
+$string['uploadingtoprivatefiles'] = 'Uploading to your private files area';
+$string['uploading'] = 'Uploading';
+$string['username'] = 'Username';
+$string['usernamelabel'] = 'Username';
+$string['usernamerequired'] = 'Username required';
+$string['videofilenameprefix'] = 'iphone_upload-video';
+$string['viewableonthisapp'] = 'Viewable on this app';
+$string['warning'] = 'Warning';
+$string['website'] = 'Website';
+$string['welcome'] = 'Welcome to the Moodle mobile app';
+$string['writeherethebug'] = 'Write here a detailed description of the problem';
+$string['yes'] = 'Yes';
+$string['yourpassword'] = 'password';
+$string['yoursiteurl'] = 'https://yourmoodle.com';
+$string['yourusername'] = 'username';
+$string['reportbugmail'] = 'moodlemobilereport@gmail.com';
+$string['docsurl'] = 'http://docs.moodle.org/en/Mobile_app';
