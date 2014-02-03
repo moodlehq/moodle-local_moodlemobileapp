@@ -24,10 +24,10 @@
  */
 
 $string['pluginname'] = 'Moodle Mobile language strings';
-
-
-
-
+$string['about'] = 'About';
+$string['add'] = 'Add';
+$string['addcontact'] = 'Add as contact';
+$string['addedtoqueue'] = 'You are offline; your operation has been added to the task queue.';
 $string['about'] = 'About';
 $string['add'] = 'Add';
 $string['addcontact'] = 'Add as contact';
@@ -61,6 +61,7 @@ $string['contentyetnotavailable'] = 'This type of activity is not yet available 
 $string['continue'] = 'Continue';
 $string['country'] = 'Country';
 $string['csssynced'] = 'Remote CSS synced';
+$string['date'] = 'Date';
 $string['delete'] = 'Delete';
 $string['deletesite'] = 'Delete this site?';
 $string['deletesitefiles'] = 'Are you sure that you want to delete the downloaded files from this site?';
@@ -68,6 +69,8 @@ $string['description'] = 'Description';
 $string['deviceinfo'] = 'Device info';
 $string['details'] = 'Details';
 $string['development'] = 'Development';
+$string['downloadtime'] = 'Downloaded';
+$string['disablenotifications'] = 'Disable notifications';
 $string['disablerdebugger'] = 'Disable remote debugging';
 $string['enablecss3transitions'] = 'Enable CSS3 Transitions';
 $string['errorcapturingaudio'] = 'Error capturing audio';
@@ -83,6 +86,7 @@ $string['enableautosyncws'] = 'Enable synchronization of operations and data';
 $string['enabledebugging'] = 'Enable debugging';
 $string['enablerdebugger'] = 'Enable remote debugging';
 $string['enablenotifications'] = 'Enable notifications';
+$string['enablenotificationscheck'] = '<p>You should check first if your Moodle site supports PUSH notifications, please open your Moodle site and go to Administration / My profile settings / Messaging. If PUSH Notifications are enabled you should see a column called Mobile PUSH Notifications</p>';
 $string['enablenotificationswarning'] = '<p>In order to enable notifications we need to store information like your mobile device model and  operating system in the Moodle site.</p>';
 $string['error'] = 'Error';
 $string['errorcamera'] = 'Error accessing camera';
@@ -131,7 +135,7 @@ $string['no'] = 'No';
 $string['notaskstobesynchronized'] = 'No tasks to be synchronized';
 $string['noteadded'] = 'Note added';
 $string['notifications'] = 'Notifications';
-$string['notificationsenabled'] = 'Notifications enabled';
+$string['notificationsenabled'] = 'Notifications enabled for all your moodle sites';
 $string['notificationsdisabled'] = 'Notifications are disabled';
 $string['notificationshowtoenable'] = '';
 $string['notificationsnotsupported'] = 'Notifications are not yet supported on Android systems.';
@@ -184,12 +188,14 @@ $string['timecreated'] = 'Date added';
 $string['timemodified'] = 'Last modified';
 $string['total'] = 'Total';
 $string['totalusage'] = 'Total usage';
+$string['type'] = 'Type';
 $string['unexpectederror'] = 'Unexepected error. Please close and reopen the application to try again';
 $string['update'] = 'Update';
 $string['updatesite'] = 'Update the site';
 $string['upload'] = 'Upload';
 $string['uploadingtoprivatefiles'] = 'Uploading to your private files area';
 $string['uploading'] = 'Uploading';
+$string['userfrom'] = 'From';
 $string['username'] = 'Username';
 $string['usernamelabel'] = 'Username';
 $string['usernamerequired'] = 'Username required';
