@@ -23,13 +23,10 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-// Replacement patron json to moodle lang string definition forma
-// "about": "About", to $string['about'] = 'About';
-// First ' to \' then
-// "[^"]+"\s*:\s*"[^"]+"\s*,\s*\n by
-// $string['\1'] = '\2';\n
-
 $string['pluginname'] = 'Moodle Mobile language strings';
+
+
+
 
 $string['about'] = 'About';
 $string['add'] = 'Add';
