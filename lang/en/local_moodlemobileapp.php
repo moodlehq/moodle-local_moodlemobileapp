@@ -23,16 +23,28 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['appstoredescription'] = 'NOTE: This official Moodle Mobile app will ONLY work with Moodle sites that have been set up to allow it.  Please talk to your Moodle administrator if you have any problems connecting.
+
+If your Moodle site has been configured correctly, you can use this app to:
+
+- browse the content of your courses, even when offline
+- receive instant notifications of messages and other events
+- quickly find and contact other people in your courses
+- upload images, audio, videos and other files from your mobile device
+- view your course grades
+- and more!
+
+Please see http://docs.moodle.org/en/Mobile_app for all the latest information.
+
+We’d really appreciate any good reviews about the functionality so far, and your suggestions on what else you want this app to do!';
 $string['pluginname'] = 'Moodle Mobile language strings';
+
+
 $string['about'] = 'About';
 $string['add'] = 'Add';
 $string['addcontact'] = 'Add as contact';
 $string['addedtoqueue'] = 'You are offline; your operation has been added to the task queue.';
-$string['about'] = 'About';
 $string['activity'] = 'Activity';
-$string['add'] = 'Add';
-$string['addcontact'] = 'Add as contact';
-$string['addedtoqueue'] = 'You are offline; your operation has been added to the task queue.';
 $string['addfakenotifications'] = 'Add fake notifications';
 $string['addnote'] = 'Add a note';
 $string['address'] = 'Address';
