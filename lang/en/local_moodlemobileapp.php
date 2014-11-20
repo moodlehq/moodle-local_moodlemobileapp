@@ -270,6 +270,7 @@ $string['usernamerequired'] = 'Username required';
 $string['video'] = 'Video';
 $string['videofilenameprefix'] = 'iphone_upload-video';
 $string['videostored'] = 'Your video has been stored in your private area';
+$string['view'] = 'View';
 $string['viewableonthisapp'] = 'Viewable on this app';
 $string['warning'] = 'Warning';
 $string['webservicesnotenabled'] = 'Web Services are not enabled in your site. Please, contact your Moodle site administrator if you think mobile access should be enabled.';
