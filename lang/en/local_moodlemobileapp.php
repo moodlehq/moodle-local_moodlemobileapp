@@ -72,6 +72,7 @@ $string['cannotaddnote'] = 'Network not reachable. Your note has been saved in t
 $string['cannotconnect'] = 'Cannot connect: Verify that your have typed correctly the URL and that your site uses Moodle 2.4 or later.';
 $string['cannotconnectssl'] = 'Cannot connect: Verify that your have typed correctly the URL, your site uses Moodle 2.4 or later and the SSL certificate is valid.';
 $string['cannotsendmessage'] = 'Network not reachable. Your message has been saved in task queue; you can resend it once you are online.';
+$string['chooseaccountuploadfile'] = 'Choose an account to upload the file to';
 $string['city'] = 'City';
 $string['close'] = 'Close';
 $string['completed'] = 'Completed';
