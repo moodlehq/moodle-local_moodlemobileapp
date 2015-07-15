@@ -23,6 +23,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['pluginname'] = 'Moodle Mobile language strings';
+
 $string['mm.core.cancel'] = 'Cancel';
 $string['mm.core.cannotconnect'] = 'Cannot connect: Verify that your have typed correctly the URL and that your site uses Moodle 2.4 or later.';
 $string['mm.core.clearsearch'] = 'Clear search';
