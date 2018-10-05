@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version  = 2018100500;
+$plugin->version = 2018100501;
 $plugin->requires = 2013111800; // Require Moodle version (2.6).
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release  = '3.5.0';    // This should be the latest Mobile app version
+$plugin->release = '3.5.2';    // This should be the latest Mobile app version
 $plugin->component = 'local_moodlemobileapp';
