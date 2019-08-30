@@ -49,6 +49,7 @@ $string['addon.blog.showonlyyourentries'] = 'Show only your entries';
 $string['addon.calendar.calendarevent'] = 'Calendar event';
 $string['addon.calendar.calendarevents'] = 'Calendar events';
 $string['addon.calendar.calendarreminders'] = 'Calendar reminders';
+$string['addon.calendar.currentmonth'] = 'Current Month';
 $string['addon.calendar.defaultnotificationtime'] = 'Default notification time';
 $string['addon.calendar.errorloadevent'] = 'Error loading event.';
 $string['addon.calendar.errorloadevents'] = 'Error loading events.';
