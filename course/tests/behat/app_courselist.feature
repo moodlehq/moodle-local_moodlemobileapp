@@ -95,14 +95,14 @@ Feature: Test course list shown on app start tab
       | student2 | Z10    | student |
     When I enter the app
     And I log in as "student2"
+    Then I press "Display options" near "Course overview" in the app
     Then I should see "C1"
     And I should see "C2"
     And I should see "C3"
     And I should see "C4"
     And I should see "C5"
     And I should see "C6"
-    And I press "Information" near "Course overview" in the app
-    And I press "Filter my courses" in the app
+    Then I press "Filter my courses" in the app
     And I set the field "Filter my courses" to "fr" in the app
     Then I should not see "C1"
     And I should not see "C2"
@@ -110,7 +110,7 @@ Feature: Test course list shown on app start tab
     And I should see "C4"
     And I should not see "C5"
     And I should not see "C6"
-    And I press "Information" near "Course overview" in the app
+    And I press "Display options" near "Course overview" in the app
     And I press "Filter my courses" in the app
     Then I should see "C1"
     And I should see "C2"
