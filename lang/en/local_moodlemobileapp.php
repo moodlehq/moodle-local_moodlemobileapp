@@ -332,6 +332,7 @@ $string['core.errorrenamefile'] = 'Error renaming file. Please try again.';
 $string['core.errorsomedatanotdownloaded'] = 'If you downloaded this activity, please notice that some data isn\'t downloaded during the download process for performance and data usage reasons.';
 $string['core.errorsync'] = 'An error occurred while synchronising. Please try again.';
 $string['core.errorsyncblocked'] = 'This {{$a}} cannot be synchronised right now because of an ongoing process. Please try again later. If the problem persists, try restarting the app.';
+$string['core.errorurlschemeinvalidsite'] = 'This site URL cannot be opened in this app.';
 $string['core.filenameexist'] = 'File name already exists: {{$a}}';
 $string['core.fileuploader.audio'] = 'Audio';
 $string['core.fileuploader.camera'] = 'Camera';
