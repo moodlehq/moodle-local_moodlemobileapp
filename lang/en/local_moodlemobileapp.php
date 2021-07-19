@@ -340,6 +340,7 @@ $string['core.errorinvalidform'] = 'The form contains invalid data. Please check
 $string['core.errorinvalidresponse'] = 'Invalid response received. Please contact your site administrator if the error persists.';
 $string['core.errorloadingcontent'] = 'Error loading content.';
 $string['core.errorofflinedisabled'] = 'Offline browsing is disabled on your site. You need to be connected to the internet to use the app.';
+$string['core.erroropenfiledownloading'] = 'Error opening file: you need to wait for the download to complete.';
 $string['core.erroropenfilenoapp'] = 'Error opening file: no app found to open this type of file.';
 $string['core.erroropenfilenoextension'] = 'Error opening file: the file doesn\'t have an extension.';
 $string['core.erroropenpopup'] = 'This activity is trying to open a popup. This is not supported in the app.';
