@@ -156,9 +156,10 @@ class behat_app extends behat_base {
      *
      * @Then /^I should( not)? find (".+") in the app$/
      * @param bool $not
-     * @param object $locator
+     * @param string $locator
      */
-    public function i_find_in_the_app(bool $not, object $locator) {
+    public function i_find_in_the_app(bool $not, string $locator) {
+        $locator = $this->parse_element_locator($locator);
         $locatorjson = json_encode($locator);
 
         $this->spin(function() use ($not, $locatorjson) {
@@ -194,10 +195,11 @@ class behat_app extends behat_base {
      * Check if elements are selected in the app.
      *
      * @Then /^(".+") should( not)? be selected in the app$/
-     * @param object $locator
+     * @param string $locator
      * @param bool $not
      */
-    public function be_selected_in_the_app(object $locator, bool $not = false) {
+    public function be_selected_in_the_app(string $locator, bool $not = false) {
+        $locator = $this->parse_element_locator($locator);
         $locatorjson = json_encode($locator);
 
         $this->spin(function() use ($locatorjson, $not) {
@@ -469,7 +471,7 @@ class behat_app extends behat_base {
                     $element = $page->find('xpath', '//core-login-site-onboarding');
 
                     if ($element) {
-                        $this->i_press_in_the_app($this->parse_element_locator('"Skip"'));
+                        $this->i_press_in_the_app('"Skip"');
                     }
 
                     // Login screen found.
@@ -498,7 +500,7 @@ class behat_app extends behat_base {
         global $CFG;
 
         $this->i_set_the_field_in_the_app('Your site', $CFG->wwwroot);
-        $this->i_press_in_the_app($this->parse_element_locator('"Connect to your site"'));
+        $this->i_press_in_the_app('"Connect to your site"');
         $this->wait_for_pending_js();
     }
 
@@ -515,7 +517,7 @@ class behat_app extends behat_base {
 
         // Note there are two 'Log in' texts visible (the title and the button) so we have to use
         // a 'near' value here.
-        $this->i_press_in_the_app($this->parse_element_locator('"Log in" near "Forgotten"'));
+        $this->i_press_in_the_app('"Log in" near "Forgotten"');
 
         // Wait until the main page appears.
         $this->spin(
@@ -644,10 +646,11 @@ class behat_app extends behat_base {
      * distinguish visible items and the app always has many non-visible items in the DOM.
      *
      * @Then /^I press (".+") in the app$/
-     * @param object $locator Element locator
+     * @param string $locator Element locator
      * @throws DriverException If the press doesn't work
      */
-    public function i_press_in_the_app(object $locator) {
+    public function i_press_in_the_app(string $locator) {
+        $locator = $this->parse_element_locator($locator);
         $locatorjson = json_encode($locator);
 
         $this->spin(function() use ($locatorjson) {
@@ -672,11 +675,12 @@ class behat_app extends behat_base {
      *
      * @Then /^I (unselect|select) (".+") in the app$/
      * @param string $selectedtext
-     * @param object $locator
+     * @param string $locator
      * @throws DriverException If the press doesn't work
      */
-    public function i_select_in_the_app(string $selectedtext, object $locator) {
+    public function i_select_in_the_app(string $selectedtext, string $locator) {
         $selected = $selectedtext === 'select' ? 'YES' : 'NO';
+        $locator = $this->parse_element_locator($locator);
         $locatorjson = json_encode($locator);
 
         $this->spin(function() use ($selectedtext, $selected, $locatorjson) {
@@ -931,11 +935,10 @@ class behat_app extends behat_base {
     /**
      * Parse an element locator string.
      *
-     * @Transform /^".+"$/
      * @param string $text Element locator string.
      * @return object
      */
-    public function parse_element_locator($text): object {
+    public function parse_element_locator(string $text): object {
         preg_match('/^"((?:[^"]|\\")*?)"(?: "([^"]*?)")?(?: near "((?:[^"]|\\")*?)"(?: "([^"]*?)")?)?$/', $text, $matches);
 
         $locator = [
@@ -951,17 +954,6 @@ class behat_app extends behat_base {
         }
 
         return (object) $locator;
-    }
-
-    /**
-     * Parse a negation string.
-     *
-     * @Transform /^not $/
-     * @param string $not Negation string.
-     * @return bool
-     */
-    public function parse_negation(string $not): bool {
-        return !empty($not);
     }
 
     /**
