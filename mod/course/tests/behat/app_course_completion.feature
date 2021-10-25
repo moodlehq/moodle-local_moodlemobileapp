@@ -25,12 +25,12 @@ Feature: Check course completion feature.
     And I press "Course 1" near "Course overview" in the app
     # Set activities as completed.
     And I should find "0%" in the app
-    And I press "Mark First forum as done" in the app
+    And I click on "ion-button[title=\"Not completed: First forum. Select to mark as complete.\"]" "css"
     And I should find "50%" in the app
-    And I press "Mark Second forum as done" in the app
+    And I click on "ion-button[title=\"Not completed: Second forum. Select to mark as complete.\"]" "css"
     And I should find "100%" in the app
     # Set activities as not completed.
-    And I press "First forum is marked as done. Press to undo." in the app
+    And I click on "ion-button[title=\"Completed: First forum. Select to mark as not complete.\"]" "css"
     And I should find "50%" in the app
-    And I press "Second forum is marked as done. Press to undo." in the app
+    And I click on "ion-button[title=\"Completed: Second forum. Select to mark as not complete.\"]" "css"
     And I should find "0%" in the app
