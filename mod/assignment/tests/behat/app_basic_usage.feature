@@ -27,8 +27,8 @@ Feature: Test basic usage of assignment activity in app
     And I press "assignment1" in the app
     Then the header should be "assignment1" in the app
     And I should find "Test assignment description1" in the app
-    And I should find "Due:" in the app
-    And I should find "20 August 2002, 12:00 PM" in the app
+    And I should find "Due date" in the app
+    And I should find "Tuesday, 20 August 2002, 12:00 PM" in the app
 
     When I press "Add submission" in the app
     And I set the field "Online text submissions" to "Submission test" in the app
