@@ -127,7 +127,7 @@ Feature: Test basic usage of courses in app
     Then the header should be "assignment" in the app
     And I should find "Test assignment description" in the app
     And I should find "No attempt" in the app
-    And I should find "Due:" in the app
+    And I should find "Due date" in the app
 
     When I press "Add submission" in the app
     And I set the field "Online text submissions" to "test" in the app
@@ -137,7 +137,7 @@ Feature: Test basic usage of courses in app
     Then the header should be "assignment" in the app
     And I should find "Test assignment description" in the app
     And I should find "Submitted for grading" in the app
-    And I should find "Due:" in the app
+    And I should find "Due date" in the app
 
     # Grade assignment as teacher
     When I enter the app
