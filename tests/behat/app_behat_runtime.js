@@ -575,7 +575,7 @@
         titles = titles.filter(function(title) {
             return isElementVisible(title, document.body);
         });
-                
+
 
         if (titles.length > 1) {
             return 'ERROR: Too many possible titles';
@@ -599,7 +599,7 @@
     const behatSetField = function(field, value) {
         log('Action - Set field ' + field + ' to: ' + value);
 
-        
+
         const found = findElementsBasedOnText({ text: field, selector: 'input, textarea, [contenteditable="true"]' })[0];
         if (!found) {
             return 'ERROR: No matches for text';
