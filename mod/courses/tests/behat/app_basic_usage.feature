@@ -104,6 +104,7 @@ Feature: Test basic usage of courses in app
     # Configure assignment as teacher
     When I enter the app
     And I log in as "teacher1"
+    Then I press "Open block drawer" in the app
     Then I should find "Timeline" in the app
 
     Given I press "Course 1" near "Course overview" in the app
@@ -123,6 +124,7 @@ Feature: Test basic usage of courses in app
     # Submit assignment as student
     When I enter the app
     And I log in as "student1"
+    Then I press "Open block drawer" in the app
     And I press "Add submission" in the app
     Then the header should be "assignment" in the app
     And I should find "Test assignment description" in the app
@@ -142,6 +144,7 @@ Feature: Test basic usage of courses in app
     # Grade assignment as teacher
     When I enter the app
     And I log in as "teacher1"
+    Then I press "Open block drawer" in the app
     And I press "Grade" in the app
     Then the header should be "assignment" in the app
     And I should find "Test assignment description" in the app
