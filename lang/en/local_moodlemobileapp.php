@@ -615,4 +615,4 @@ $string['core.wsfunctionnotavailable'] = 'The web service function is not availa
 $string['core.youreoffline'] = 'You are offline';
 $string['core.youreonline'] = 'You are back online';
 $string['pluginname'] = 'Moodle Mobile language strings';
-
+$string['privacy_metadata'] = 'This plugin should only be used in development environments, and it does not store any user data.';
