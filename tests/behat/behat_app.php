@@ -69,9 +69,6 @@ class behat_app extends behat_base {
     /** @var bool Whether the app is running or not */
     protected $apprunning = false;
 
-    /** @var bool Checks whether the app is runing a legacy version (ionic 3) */
-    protected $islegacy;
-
     /**
      * Register listener.
      *
@@ -430,13 +427,6 @@ class behat_app extends behat_base {
                 $this->ionicurl = $this->start_or_reuse_ionic();
             }
 
-            // Check whether the app is running a legacy version.
-            $json = @file_get_contents("{$this->ionicurl}/assets/env.json") ?: @file_get_contents("{$this->ionicurl}/config.json");
-            $data = json_decode($json);
-            $appversion = $data->build->version ?? str_replace('-dev', '', $data->versionname);
-
-            $this->islegacy = version_compare($appversion, '3.9.5', '<');
-
             // Visit the Ionic URL.
             $this->getSession()->visit($this->ionicurl);
             $this->notify_load();
@@ -451,10 +441,7 @@ class behat_app extends behat_base {
             if ($title) {
                 $text = $title->getHtml();
 
-                if (
-                    ($this->islegacy && $text === 'Moodle Desktop') ||
-                    (!$this->islegacy && $text === 'Moodle App')
-                ) {
+                if ($text === 'Moodle App') {
                     return true;
                 }
             }
@@ -463,8 +450,6 @@ class behat_app extends behat_base {
         }, false, 60);
 
         // Run the scripts to install Moodle 'pending' checks.
-        $islegacyboolean = $this->islegacy ? 'true' : 'false';
-        $this->execute_script("window.BehatMoodleAppLegacy = $islegacyboolean;");
         $this->execute_script(file_get_contents(__DIR__ . '/app_behat_runtime.js'));
 
         if ($restart) {
@@ -481,9 +466,7 @@ class behat_app extends behat_base {
                     // Wait for the onboarding modal to open, if any.
                     $this->wait_for_pending_js();
 
-                    $element = $this->islegacy
-                        ? $page->find('xpath', '//page-core-login-site-onboarding')
-                        : $page->find('xpath', '//core-login-site-onboarding');
+                    $element = $page->find('xpath', '//core-login-site-onboarding');
 
                     if ($element) {
                         $this->i_press_in_the_app($this->parse_element_locator('"Skip"'));
@@ -514,8 +497,8 @@ class behat_app extends behat_base {
 
         global $CFG;
 
-        $this->i_set_the_field_in_the_app($this->islegacy ? 'campus.example.edu' : 'Your site', $CFG->wwwroot);
-        $this->i_press_in_the_app($this->parse_element_locator($this->islegacy ? '"Connect!"' : '"Connect to your site"'));
+        $this->i_set_the_field_in_the_app('Your site', $CFG->wwwroot);
+        $this->i_press_in_the_app($this->parse_element_locator('"Connect to your site"'));
         $this->wait_for_pending_js();
     }
 
@@ -551,7 +534,7 @@ class behat_app extends behat_base {
     /**
      * Presses standard buttons in the app.
      *
-     * @Given /^I press the (back|main menu|page menu|accounts menu) button in the app$/
+     * @Given /^I press the (back|more menu|page menu|user menu|main menu) button in the app$/
      * @param string $button Button type
      * @throws DriverException If the button push doesn't work
      */
@@ -879,7 +862,7 @@ class behat_app extends behat_base {
         );
 
         // Trigger Angular change detection
-        $session->executeScript($this->islegacy ? 'appRef.tick();' : 'ngZone.run(() => {});');
+        $session->executeScript('ngZone.run(() => {});');
     }
 
     /**
@@ -892,7 +875,7 @@ class behat_app extends behat_base {
 
         $this->spin(
             function() use ($session) {
-                $session->executeScript($this->islegacy ? 'appRef.tick();' : 'ngZone.run(() => {});');
+                $session->executeScript('ngZone.run(() => {});');
 
                 $nodes = $this->find_all('css', 'core-loading ion-spinner');
 
