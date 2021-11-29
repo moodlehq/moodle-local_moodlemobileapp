@@ -291,7 +291,7 @@ Feature: Test basic usage of messages in app
   Scenario: User blocking feature
     When I enter the app
     And I log in as "student2"
-    And I press "Course 1" near "Course overview" in the app
+    And I enter the course "Course 1" in the app
     And I press "Participants" in the app
     And I press "Student1 student1" in the app
     And I press "Message" in the app
@@ -302,7 +302,7 @@ Feature: Test basic usage of messages in app
 
     When I enter the app
     And I log in as "student1"
-    And I press "Course 1" near "Course overview" in the app
+    And I enter the course "Course 1" in the app
     And I press "Participants" in the app
     And I press "Student2 student2" in the app
     And I press "Message" in the app
@@ -310,7 +310,7 @@ Feature: Test basic usage of messages in app
 
     When I enter the app
     And I log in as "student2"
-    And I press "Course 1" near "Course overview" in the app
+    And I enter the course "Course 1" in the app
     And I press "Participants" in the app
     And I press "Student1 student1" in the app
     And I press "Message" in the app
@@ -324,7 +324,7 @@ Feature: Test basic usage of messages in app
 
     When I enter the app
     And I log in as "student1"
-    And I press "Course 1" near "Course overview" in the app
+    And I enter the course "Course 1" in the app
     And I press "Participants" in the app
     And I press "Student2 student2" in the app
     And I press "Message" in the app
@@ -336,7 +336,7 @@ Feature: Test basic usage of messages in app
   Scenario: Mute Unmute conversations
     When I enter the app
     And I log in as "student1"
-    And I press "Course 1" near "Course overview" in the app
+    And I enter the course "Course 1" in the app
     And I press "Participants" in the app
     And I press "Student2 student2" in the app
     And I press "Message" in the app
