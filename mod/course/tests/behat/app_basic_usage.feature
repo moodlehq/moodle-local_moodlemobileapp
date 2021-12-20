@@ -474,7 +474,9 @@ Feature: Test basic usage of one course in app
       | blockname        | contextlevel | reference | pagetypepattern | defaultregion | configdata                                                                                                   |
       | html             | Course       | C1        | course-view-*   | site-pre      | Tzo4OiJzdGRDbGFzcyI6Mjp7czo1OiJ0aXRsZSI7czoxNToiSFRNTCB0aXRsZSB0ZXN0IjtzOjQ6InRleHQiO3M6OToiYm9keSB0ZXN0Ijt9 |
       | activity_modules | Course       | C1        | course-view-*   | site-pre      |                                                                                                              |
-    When I enter the course "Course 1" as "student1" in the app
+    When I enter the app
+    And I log in as "student1"
+    And I press "Course 1" near "Course overview" in the app
     Then the header should be "Course 1" in the app
     And I should find "Choice course 1" in the app
     And I should find "assignment" in the app
