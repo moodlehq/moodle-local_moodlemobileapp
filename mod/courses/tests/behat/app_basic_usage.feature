@@ -102,9 +102,7 @@ Feature: Test basic usage of courses in app
 
   Scenario: Links to actions in Timeline work for teachers/students
     # Configure assignment as teacher
-    When I enter the app
-    And I log in as "teacher1"
-    And I enter the course "Course 1" in the app
+    Given I enter the course "Course 1" as "teacher1" in the app
     And I press "assignment" in the app
     And I press "Display options" in the app
     And I press "Open in browser" in the app
