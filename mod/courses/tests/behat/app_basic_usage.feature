@@ -104,10 +104,7 @@ Feature: Test basic usage of courses in app
     # Configure assignment as teacher
     When I enter the app
     And I log in as "teacher1"
-    Then I press "Open block drawer" in the app
-    Then I should find "Timeline" in the app
-
-    Given I press "Course 1" near "Course overview" in the app
+    And I press "Course 1" near "Course overview" in the app
     And I press "assignment" in the app
     And I press "Display options" in the app
     And I press "Open in browser" in the app
