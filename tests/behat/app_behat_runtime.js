@@ -373,16 +373,21 @@
      * @return {HTMLElement} Found elements
      */
     const findElementsBasedOnText = function(locator, insideSplitView) {
-        let topContainer = document.querySelector('ion-alert, ion-popover, ion-action-sheet, core-ion-tab.show-tab ion-page.show-page, ion-page.show-page, html');
+        let topContainer = Array
+                .from(document.querySelectorAll('ion-alert, ion-popover, ion-action-sheet, .ion-page:not(.ion-page-hidden)'))
+                .find(element => !element.closest('.ion-page-hidden'))
+            ?? document.querySelector('html');
 
         if (insideSplitView) {
-            topContainer = topContainer.querySelector('core-split-view ion-router-outlet');
+            topContainer = Array
+                .from(topContainer.querySelectorAll('core-split-view ion-router-outlet'))
+                .find(element => !element.closest('.ion-page-hidden'));
         }
 
         let container = topContainer;
 
         if (locator.within) {
-            const withinElements = findElementsBasedOnText(locator.within);
+            const withinElements = findElementsBasedOnText(locator.within, insideSplitView);
 
             if (withinElements.length === 0) {
                 throw new Error('There was no match for within text')
@@ -400,7 +405,7 @@
         }
 
         if (topContainer && locator.near) {
-            const nearElements = findElementsBasedOnText(locator.near);
+            const nearElements = findElementsBasedOnText(locator.near, insideSplitView);
 
             if (nearElements.length === 0) {
                 throw new Error('There was no match for near text')
