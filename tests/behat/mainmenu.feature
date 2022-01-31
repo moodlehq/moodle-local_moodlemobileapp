@@ -21,5 +21,5 @@ Feature: Main Menu opens the right page
     When I enter the app
     And I log in as "student"
     Then "Dashboard" should be selected in the app
-    And I should find "Timeline" in the app
+    And I should find "Course overview" in the app
     And "Dashboard" "text" should appear before "Site home" "text" in the ".core-tabs-bar" "css_element"
