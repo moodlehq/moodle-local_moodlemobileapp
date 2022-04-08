@@ -44,6 +44,11 @@ Read and modify the contents of your SD card - Contents are downloaded to the SD
 Network access - To be able to connect with your Moodle site and check if you are connected or not to switch to offline mode
 Run at startup - So you receive local notifications even when the app is running in the background
 Prevent phone from sleeping - So you can receive push notifications anytime';
+$string['addon.block_myoverview.browseallcourses'] = 'Browse all courses';
+$string['addon.block_myoverview.nocoursesenrolled'] = 'You\'re not enrolled in any courses yet.';
+$string['addon.block_myoverview.nocoursesenrolleddescription'] = 'Browse all available courses below and start learning.';
+$string['addon.block_myoverview.noresult'] = 'Your search didn\'t match any courses.';
+$string['addon.block_myoverview.noresultdescription'] = 'Try adjusting your filters or browse all courses below.';
 $string['addon.blog.errorloadentries'] = 'Error loading blog entries.';
 $string['addon.blog.showonlyyourentries'] = 'Show only your entries';
 $string['addon.calendar.calendarevent'] = 'Calendar event';
@@ -269,6 +274,7 @@ $string['core.cannotconnect'] = 'Cannot connect';
 $string['core.cannotconnecttrouble'] = 'We\'re having trouble connecting to your site.';
 $string['core.cannotconnectverify'] = '<strong>Please check the address is correct.</strong>';
 $string['core.cannotdownloadfiles'] = 'File downloading is disabled. Please contact your site administrator.';
+$string['core.cannotlogoutpageblocks'] = 'Please save or discard your changes before continuing.';
 $string['core.cannotopeninapp'] = 'This file may not work as expected on this device. Would you like to open it anyway?';
 $string['core.cannotopeninappdownload'] = 'This file may not work as expected on this device. Would you like to download it anyway?';
 $string['core.captureaudio'] = 'Record audio';
@@ -556,6 +562,8 @@ $string['core.settings.appversion'] = 'App version';
 $string['core.settings.cannotsyncloggedout'] = 'This site cannot be synchronised because you\'ve logged out. Please try again when you\'re logged in the site again.';
 $string['core.settings.cannotsyncoffline'] = 'Cannot synchronise offline.';
 $string['core.settings.cannotsyncwithoutwifi'] = 'Cannot synchronise because the current settings only allow to synchronise when connected to Wi-Fi. Please connect to a Wi-Fi network.';
+$string['core.settings.changelanguage'] = 'Change to {{$a}}';
+$string['core.settings.changelanguagealert'] = 'Changing the language will restart the app.';
 $string['core.settings.colorscheme'] = 'Color Scheme';
 $string['core.settings.colorscheme-dark'] = 'Dark';
 $string['core.settings.colorscheme-light'] = 'Light';
