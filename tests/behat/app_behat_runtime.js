@@ -749,13 +749,14 @@
      * Check whether an item is selected or not.
      *
      * @param {object} locator Element locator.
+     * @param {string} containerName Whether to search only inside a specific container.
      * @return {string} YES or NO if successful, or ERROR: followed by message
      */
-    const behatIsSelected = function(locator) {
-        log('Action - Is Selected', locator);
+    const behatIsSelected = function(locator, containerName) {
+        log('Action - Is Selected', {locator, containerName});
 
         try {
-            const element = findElementsBasedOnText(locator)[0];
+            const element = findElementsBasedOnText(locator, containerName)[0];
 
             return isElementSelected(element, document.body) ? 'YES' : 'NO';
         } catch (error) {

@@ -254,18 +254,34 @@ class behat_app extends behat_base {
     }
 
     /**
+     * Trigger pull to refresh
+     * 
+     * @When /^I pull to refresh in the app$/
+     */
+    public function i_refresh_list_in_the_app() {
+        $this->evaluate_async_script("behat.getAngularInstance('page-addon-notifications-list', 'AddonNotificationsListPage').refreshNotifications()");
+    }
+
+    /**
      * Check if elements are selected in the app.
-     *
-     * @Then /^(".+") should( not)? be selected in the app$/
+     * 
+     * @Then /^(".+") should( not)? be selected( inside the .+) in the app$/
      * @param string $locator
      * @param bool $not
+     * @param string $containerName
      */
-    public function be_selected_in_the_app(string $locator, bool $not = false) {
+    public function be_selected_in_the_app(string $locator, bool $not = false, string $containerName = '') {
         $locator = $this->parse_element_locator($locator);
         $locatorjson = json_encode($locator);
 
-        $this->spin(function() use ($locatorjson, $not) {
-            $result = $this->evaluate_script("return window.behat.isSelected($locatorjson);");
+        if (!empty($containerName)) {
+            preg_match('/^ inside the (.+)$/', $containerName, $matches);
+            $containerName = $matches[1];
+        }
+        $containerName = json_encode($containerName);
+
+        $this->spin(function() use ($locatorjson, $not, $containerName) {
+            $result = $this->evaluate_script("return window.behat.isSelected($locatorjson, $containerName);");
 
             switch ($result) {
                 case 'YES':
