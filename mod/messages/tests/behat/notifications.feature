@@ -60,6 +60,16 @@ Feature: Main Menu opens the right page
     When I press "Test 10" in the app
     Then I should find "Test 10 description" in the app
 
+    # Swipe to next notification
+    When I swipe to the right in the app
+    Then I should find "Test 11 description" in the app
+    But I should not find "Test 10 description" in the app
+
+    # Swipe to previous notification
+    When I swipe to the left in the app
+    Then I should find "Test 10 description" in the app
+    But I should not find "Test 09 description" in the app
+
   Scenario: Tablet navigation
     Given I enter the app
     And I change viewport size to "1200x640"
