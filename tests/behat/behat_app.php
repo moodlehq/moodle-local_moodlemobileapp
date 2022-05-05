@@ -683,23 +683,41 @@ class behat_app extends behat_base {
      * @param TableNode $data
      */
     public function i_receive_a_push_notification(TableNode $data) {
-        global $DB, $CFG;
-
         $data = (object) $data->getColumnsHash()[0];
-        $module = $DB->get_record('course_modules', ['idnumber' => $data->module]);
-        $discussion = $DB->get_record('forum_discussions', ['name' => $data->discussion]);
+        $notification = json_encode([
+            'message' => $data->message,
+            'title' => $data->title,
+            'count' => $data->count,
+            'sound' => '',
+            'image' => $data->image,
+            'additionalData' => array(
+                'foreground' => true,
+                'notId' => $data->id
+            ),
+        ]);
+
+        $this->evaluate_script("return window.pushNotifications.onMessageReceived($notification)");
+        $this->wait_for_pending_js();
+    }
+
+    /**
+     * Click push notifications.
+     *
+     * @Given /^I click on a push notification in the app for:$/
+     * @param TableNode $data
+     */
+    public function i_click_a_push_notification(TableNode $data) {
+        global $CFG;
+        $data = (object) $data->getColumnsHash()[0];
         $notification = json_encode([
             'site' => md5($CFG->wwwroot . $data->username),
-            'courseid' => $discussion->course,
-            'moodlecomponent' => 'mod_forum',
-            'name' => 'posts',
-            'contexturl' => '',
-            'notif' => 1,
-            'customdata' => [
-                'discussionid' => $discussion->id,
-                'cmid' => $module->id,
-                'instance' => $discussion->forum,
-            ],
+            'subject' => $data->subject,
+            'userfrom' => $data->userfrom,
+            'userto' => $data->userto,
+            'timecreated' => $data->timecreated,
+            'timeread' => $data->timeread,
+            'notif' => $data->notif,
+            'savedmessageid' => $data->savedmessageid
         ]);
 
         $this->evaluate_script("return window.pushNotifications.notificationClicked($notification)");

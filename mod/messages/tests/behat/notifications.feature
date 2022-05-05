@@ -39,7 +39,7 @@ Feature: Main Menu opens the right page
       | Test 29  | student2 | student1 | 1649766628  | 1649766602 |
       | Test 30  | student2 | student1 | 1649766629  | null       |
 
-
+  @alfonsodebug
   Scenario: Mobile navigation
     Given I enter the app
     And I log in as "student1"
@@ -49,6 +49,17 @@ Feature: Main Menu opens the right page
     When I load more items in the app
     Then I should find "Test 10" in the app
     And I should find "Test 01" in the app
+
+    # Receive a push notification
+    When I receive a push notification in the app for:
+      | username | title          | message      | count | id     | image                      |
+      | student1 | student2 title | Prueba push  | 1     | 77777  | assets/img/user-avatar.png |
+
+    # Open push notification
+    Then I click on a push notification in the app for:
+      | username | title    | message     | notif    | savedmessageid | subject | userfrom | userto   | timecreated | timeread |
+      | student1 | student2 | Prueba push | 77777111 | 77777111       | Push 01 | student2 | student1 | 1649766600  | null     |
+    And I press "Notifications" in the app
 
     # Open notification detail
     When I press "Test 30" in the app
