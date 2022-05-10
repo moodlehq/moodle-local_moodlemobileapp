@@ -667,3 +667,24 @@ $string['core.zoomin'] = 'Zoom In';
 $string['core.zoomout'] = 'Zoom Out';
 $string['pluginname'] = 'Moodle Mobile language strings';
 
+// Deprecated since v3.9.5
+$string['core.whoops'] = 'Oops!';
+$string['core.settings.spaceusagehelp'] = 'Deleting the stored information of the site will remove all the site offline data. This information allows you to use the app when offline. ';
+$string['core.settings.errordeletesitefiles'] = 'Error deleting site files.';
+$string['core.settings.deletesitefiles'] = 'Are you sure that you want to delete the downloaded files and cached data from the site \'{{sitename}}\'? You won\'t be able to use the app in offline mode.';
+$string['core.settings.deletesitefilestitle'] = 'Delete site files';
+$string['core.login.reconnectdescription'] = 'Your authentication token is invalid or has expired. You have to reconnect to the site.';
+$string['core.mainmenu.changesite'] = 'Change site';
+$string['core.mainmenu.website'] = 'Website';
+$string['core.login.localmobileunexpectedresponse'] = 'Moodle Mobile Additional Features check returned an unexpected response. You will be authenticated using the standard mobile service.';
+$string['core.course.confirmdeletemodulefiles'] = 'Are you sure you want to delete these files?';
+$string['core.course.confirmdeletestoreddata'] = 'Are you sure you want to delete the stored data?';
+$string['core.course.contents'] = 'Contents';
+$string['core.confirmgotabroot'] = 'Are you sure you want to go back to {{name}}?';
+$string['core.course.activitynotyetviewablesiteupgradeneeded'] = 'Your organisation\'s Moodle installation needs to be updated.';
+$string['core.course.askadmintosupport'] = 'Contact the site administrator and tell them you want to use this activity with the Moodle Mobile app.';
+$string['core.confirmgotabrootdefault'] = 'Are you sure you want to go to the initial page of the current tab?';
+$string['addon.storagemanager.deletecourse'] = 'Offload all course data';
+$string['addon.storagemanager.info'] = 'Files stored on your device make the app work faster and enable the app to be used offline. You can safely offload files if you need to free up storage space.';
+$string['addon.storagemanager.managestorage'] = 'Manage storage';
+$string['addon.storagemanager.storageused'] = 'File storage used:';
