@@ -546,13 +546,13 @@ class behat_app_helper extends behat_base {
         $domain = $parsed_url['host'];
         $url = $this->get_mobile_url_scheme() . "://$username@$domain?token=$token&privatetoken=$privatetoken";
 
-        $this->handle_url_and_wait_page_to_load($url, '//page-core-mainmenu');
-
-        if (empty($path)) {
-            return;
+        if (!empty($path)) {
+            $url .= '&redirect='.urlencode($CFG->behat_wwwroot.$path);
+        } else {
+            $successXPath = '//page-core-mainmenu';
         }
 
-        $this->open_moodleapp_custom_url($path, $successXPath);
+        $this->handle_url_and_wait_page_to_load($url, $successXPath);
     }
 
     /**
