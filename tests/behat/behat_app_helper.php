@@ -57,7 +57,7 @@ class behat_app_helper extends behat_base {
     protected $apprunning = false;
 
     /** @var string */
-    protected $installedversion = null;
+    protected $lmsversion = null;
 
     /**
      * Register listener.
@@ -92,7 +92,7 @@ class behat_app_helper extends behat_base {
      * This updates Moodle configuration and starts Ionic running, if it isn't already.
      */
     public function start_scenario() {
-        $this->restrict_tags();
+        $this->skip_restricted_tags_scenarios();
         $this->check_behat_setup();
         $this->fix_moodle_setup();
         $this->ionicurl = $this->start_or_reuse_ionic();
@@ -543,8 +543,9 @@ class behat_app_helper extends behat_base {
 
         // Generate custom URL.
         $parsed_url = parse_url($CFG->behat_wwwroot);
-        $domain = $parsed_url['host'];
-        $url = $this->get_mobile_url_scheme() . "://$username@$domain?token=$token&privatetoken=$privatetoken";
+        $domain = $parsed_url['host'] ?? '';
+        $rootpath = $parsed_url['path'] ?? '';
+        $url = $this->get_mobile_url_scheme() . "://$username@$domain$rootpath?token=$token&privatetoken=$privatetoken";
 
         if (!empty($path)) {
             $url .= '&redirect='.urlencode($CFG->behat_wwwroot.$path);
@@ -653,10 +654,11 @@ EOF;
     }
 
     /**
-     * Restrict tags to skip scenarios.
+     * Workaround while MDL-74621 is not integrated in all supported versions.
+     * This function will skip scenarios based on @lms_from and @lms_upto tags.
      */
-    public function restrict_tags() {
-        if (is_null($this->installedversion)) {
+    public function skip_restricted_tags_scenarios() {
+        if (is_null($this->lmsversion)) {
             global $CFG;
 
             $version = trim($CFG->release);
@@ -670,7 +672,7 @@ EOF;
             // Combine multiple dots in one.
             $version = preg_replace('/(\.{2,})/', '.', $version);
             // Trim possible leading and trailing dots.
-            $this->installedversion = trim($version, '.');
+            $this->lmsversion = trim($version, '.');
         }
 
         if ($this->has_version_restrictions()) {
@@ -680,20 +682,19 @@ EOF;
     }
 
     /**
-     * Gets if version is incompatible with the tags.
+     * Gets if version is incompatible with the @lms_from and @lms_upto tags.
      *
-     * @return bool If scenario has any incompatible tag.
+     * @return bool If scenario has any version incompatible tag.
      */
     protected function has_version_restrictions() : bool {
         $usedtags = behat_hooks::get_tags_for_scenario();
-        $prefix = 'lms';
 
-        $detectedversion_count = substr_count($this->installedversion, '.');
+        $detectedversioncount = substr_count($this->lmsversion, '.');
 
         // Set up relevant tags for each version.
-        $tags = [];
-        foreach ($usedtags as $usedtag => $ignored) {
-            if (!preg_match('~^'.$prefix.'_(from|upto)([0-9]+(?:\.[0-9]+)*)$~', $usedtag, $matches)) {
+        $usedtags = array_keys($usedtags);
+        foreach ($usedtags as $usedtag) {
+            if (!preg_match('~^lms_(from|upto)([0-9]+(?:\.[0-9]+)*)$~', $usedtag, $matches)) {
                 // No match, ignore.
                 continue;
             }
@@ -701,13 +702,13 @@ EOF;
             $direction = $matches[1];
             $version = $matches[2];
 
-            $version_count = substr_count($version, '.');
+            $versioncount = substr_count($version, '.');
 
             // Compare versions on same length.
-            $detected = $this->installedversion;
-            if ($version_count < $detectedversion_count) {
-                $detected_parts = explode('.', $this->installedversion);
-                array_splice($detected_parts, $version_count - $detectedversion_count);
+            $detected = $this->lmsversion;
+            if ($versioncount < $detectedversioncount) {
+                $detected_parts = explode('.', $this->lmsversion);
+                array_splice($detected_parts, $versioncount - $detectedversioncount);
                 $detected = implode('.', $detected_parts);
             }
 

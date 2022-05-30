@@ -408,75 +408,72 @@
         return getClosestMatching(element.parentElement, selector, container);
     };
 
+    // Containers that block containers behind them.
+    const blockingContainers = ['ION-ALERT', 'ION-POPOVER', 'ION-ACTION-SHEET', 'CORE-USER-TOURS-USER-TOUR', 'ION-PAGE'];
+
     /**
-     * Function to find top container element.
+     * Function to find top container elements.
      *
      * @param {string} containerName Whether to search inside the a container name.
-     * @return {HTMLElement} Found top container element.
+     * @return Found top container elements.
      */
-    const getCurrentTopContainerElement = function (containerName) {
-        let topContainer;
-        let containers;
-        const nonImplementedSelectors =
-            'ion-alert, ion-popover, ion-action-sheet, ion-modal, core-user-tours-user-tour.is-active, page-core-mainmenu, ion-app';
+    const getCurrentTopContainerElements = function (containerName) {
+        const topContainers = [];
+        let containers = Array.from(document.querySelectorAll([
+            'ion-alert.hydrated',
+            'ion-popover.hydrated',
+            'ion-action-sheet.hydrated',
+            'ion-modal.hydrated',
+            'core-user-tours-user-tour.is-active',
+            'ion-toast.hydrated',
+            'page-core-mainmenu',
+            'ion-app',
+        ].join(', ')));
 
-        switch (containerName) {
-            case 'html':
-                containers = document.querySelectorAll('html');
-                break;
-            case 'toast':
-                containers = document.querySelectorAll('ion-app ion-toast.hydrated');
-                containers = Array.from(containers).map(container => container.shadowRoot.querySelector('.toast-container'));
-                break;
-            case 'alert':
-                containers = document.querySelectorAll('ion-app ion-alert.hydrated');
-                break;
-            case 'action-sheet':
-                containers = document.querySelectorAll('ion-app ion-action-sheet.hydrated');
-                break;
-            case 'modal':
-                containers = document.querySelectorAll('ion-app ion-modal.hydrated');
-                break;
-            case 'popover':
-                containers = document.querySelectorAll('ion-app ion-popover.hydrated');
-                break;
-            case 'user-tour':
-                containers = document.querySelectorAll('core-user-tours-user-tour.is-active');
-                break;
-            default:
-                // Other containerName or not implemented.
-                containers = document.querySelectorAll(nonImplementedSelectors);
-        }
+        containers = containers
+            .filter(container => {
+                if (container.tagName === 'ION-ALERT') {
+                    // For some reason, in Behat sometimes alerts aren't removed from DOM, the close animation doesn't finish.
+                    // Filter alerts with pointer-events none since that style is set before the close animation starts.
+                    return container.style.pointerEvents !== 'none';
+                }
 
-        if (containers.length > 0) {
-            // Get the one with more zIndex.
-            topContainer =  Array.from(containers).reduce((a, b) => {
-                return  getComputedStyle(a).zIndex > getComputedStyle(b).zIndex ? a : b;
-            }, containers[0]);
-        }
+                // Ignore pages that are inside other visible pages.
+                return container.tagName !== 'ION-PAGE' || !container.closest('.ion-page.ion-page-hidden');
+            })
+            // Sort them by z-index.
+            .sort((a, b) =>  Number(getComputedStyle(b).zIndex) - Number(getComputedStyle(a).zIndex));
 
-        if (!topContainer) {
-            return null;
-        }
+        if (containerName === 'split-view content') {
+            // Find non hidden pages inside the containers.
+            containers.some(container => {
+                if (!container.classList.contains('ion-page')) {
+                    return false;
+                }
 
-        if (containerName == 'page' || containerName == 'split-view content') {
-            // Find non hidden pages inside the container.
-            let pageContainers = topContainer.querySelectorAll('.ion-page:not(.ion-page-hidden)');
-            pageContainers = Array.from(pageContainers).filter((page) => {
-                return !page.closest('.ion-page.ion-page-hidden');
+                const pageContainers = Array.from(container.querySelectorAll('.ion-page:not(.ion-page-hidden)'));
+                let topContainer = pageContainers.find((page) => !page.closest('.ion-page.ion-page-hidden')) ?? null;
+
+                topContainer = (topContainer || container).querySelector('core-split-view ion-router-outlet');
+                topContainer && topContainers.push(topContainer);
+
+                return !!topContainer;
             });
 
-            if (pageContainers.length > 0) {
-                // Get the more general one to avoid failing.
-                topContainer = pageContainers[0];
-            }
-
-            if (containerName == 'split-view content') {
-                topContainer = topContainer.querySelector('core-split-view ion-router-outlet');
-            }
+            return topContainers;
         }
 
-        return topContainer;
+        // Get containers until one blocks other views.
+        containers.find(container => {
+            if (container.tagName === 'ION-TOAST') {
+                container = container.shadowRoot?.querySelector('.toast-container') || container;
+            }
+            topContainers.push(container);
+
+            return blockingContainers.includes(container.tagName);
+        });
+
+        return topContainers;
     }
 
     /**
@@ -490,16 +487,29 @@
         return findElementsBasedOnText(locator, containerName)[0];
     }
 
+
     /**
      * Function to find elements based on their text or Aria label.
      *
-     * @param {object} locator Element locator.
-     * @param {string} containerName Whether to search only inside a specific container.
-     * @return {HTMLElement} Found elements
+     * @param locator Element locator.
+     * @param containerName Whether to search only inside a specific container.
+     * @return Found elements
      */
-    const findElementsBasedOnText = function(locator, containerName) {
-        let topContainer = getCurrentTopContainerElement(containerName);
+    const findElementsBasedOnText = function (locator, containerName = '') {
+        const topContainers = getCurrentTopContainerElements(containerName);
 
+        return topContainers.reduce((elements, container) =>
+            elements.concat(findElementsBasedOnTextInContainer(locator, container)), []);
+    }
+
+    /**
+     * Function to find elements based on their text or Aria label.
+     *
+     * @param locator Element locator.
+     * @param container Container to search in.
+     * @return Found elements
+     */
+    const findElementsBasedOnTextInContainer = function(locator, topContainer) {
         let container = topContainer;
 
         if (locator.within) {
