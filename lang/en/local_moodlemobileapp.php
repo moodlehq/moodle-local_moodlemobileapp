@@ -44,6 +44,10 @@ Read and modify the contents of your SD card - Contents are downloaded to the SD
 Network access - To be able to connect with your Moodle site and check if you are connected or not to switch to offline mode
 Run at startup - So you receive local notifications even when the app is running in the background
 Prevent phone from sleeping - So you can receive push notifications anytime';
+$string['pluginname'] = 'Moodle App language strings';
+$string['privacy_metadata'] = 'This plugin does not store any user data.';
+
+/* AUTO START */
 $string['addon.block_myoverview.browseallcourses'] = 'Browse all courses';
 $string['addon.block_myoverview.nocoursesenrolled'] = 'You\'re not enrolled in any courses yet.';
 $string['addon.block_myoverview.nocoursesenrolleddescription'] = 'Browse all available courses below and start learning.';
@@ -665,8 +669,7 @@ $string['core.youreoffline'] = 'You are offline';
 $string['core.youreonline'] = 'You are back online';
 $string['core.zoomin'] = 'Zoom In';
 $string['core.zoomout'] = 'Zoom Out';
-$string['pluginname'] = 'Moodle Mobile language strings';
-$string['privacy_metadata'] = 'This plugin does not store any user data.';
+/* AUTO END */
 
 // Deprecated since v3.9.5
 $string['core.whoops'] = 'Oops!';
