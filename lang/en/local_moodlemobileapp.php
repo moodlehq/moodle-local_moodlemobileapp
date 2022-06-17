@@ -666,6 +666,7 @@ $string['core.youreonline'] = 'You are back online';
 $string['core.zoomin'] = 'Zoom In';
 $string['core.zoomout'] = 'Zoom Out';
 $string['pluginname'] = 'Moodle Mobile language strings';
+$string['privacy_metadata'] = 'This plugin does not store any user data.';
 
 // Deprecated since v3.9.5
 $string['core.whoops'] = 'Oops!';
