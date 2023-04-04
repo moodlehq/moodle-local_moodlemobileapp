@@ -796,7 +796,7 @@ $string['core.settings.spaceusagehelp'] = 'Deleting the stored information of th
 $string['core.settings.errordeletesitefiles'] = 'Error deleting site files.';
 $string['core.settings.deletesitefiles'] = 'Are you sure that you want to delete the downloaded files and cached data from the site \'{{sitename}}\'? You won\'t be able to use the app in offline mode.';
 $string['core.settings.deletesitefilestitle'] = 'Delete site files';
-$string['core.login.reconnectdescription'] = 'Your authentication token is invalid or has expired. You have to reconnect to the site.';
+$string['core.login.reconnectdescription'] = 'Your session has expired. Please log in again to continue.';
 $string['core.mainmenu.changesite'] = 'Change site';
 $string['core.mainmenu.website'] = 'Website';
 $string['core.login.localmobileunexpectedresponse'] = 'Moodle Mobile Additional Features check returned an unexpected response. You will be authenticated using the standard mobile service.';
@@ -831,4 +831,3 @@ $string['core.whoissiteadmin'] = '"Site Administrators" are the people who manag
 $string['freemium.subscriptionplan_bma'] = 'BMA';
 $string['freemium.subscriptionplan_premium'] = 'Premium';
 $string['freemium.subscriptionplan_pro'] = 'Pro';
-
