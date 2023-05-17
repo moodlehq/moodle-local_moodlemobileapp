@@ -806,5 +806,14 @@
     "core.view": "ދެއްކުން",
     "core.year": "އަހަރު",
     "core.years": "އަހަރުތައް",
-    "core.yes": "އާދެ"
+    "core.yes": "އާދެ",
+    "workplace.contains": "ހިމެނެނީ",
+    "workplace.deleted": "ފުހެލެވިއްޖެ",
+    "workplace.doesnotcontain": "ނުހިމެނޭ",
+    "workplace.endswith": "ނިންމިފަ ވަނީ",
+    "workplace.fullname": "ފުރިހަމަ ނަން",
+    "workplace.isempty": "އިނީ ހުސްކޮށް",
+    "workplace.isequalto": "އެއްވަރުވަނީ",
+    "workplace.resetfilters": "ފިލްޓަރުތައް ރިސެޓްކޮށްލަން",
+    "workplace.startswith": "ފެށިފަ އިނީ"
 }

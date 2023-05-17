@@ -2207,5 +2207,15 @@
     "core.years": "年",
     "core.yes": "是的",
     "core.youreoffline": "您离线了",
-    "core.youreonline": "您重新上线了"
+    "core.youreonline": "您重新上线了",
+    "workplace.contains": "包含",
+    "workplace.deleted": "已经删除",
+    "workplace.doesnotcontain": "不包含",
+    "workplace.endswith": "以...结束",
+    "workplace.fullname": "全名",
+    "workplace.isempty": "为空",
+    "workplace.isequalto": "等于",
+    "workplace.resetfilters": "重置字段",
+    "workplace.roleincontext": "{{$a.context}}中的{{$a.role}}",
+    "workplace.startswith": "以...开始"
 }

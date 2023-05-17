@@ -1503,5 +1503,16 @@
     "core.whyisthisrequired": "Защо е нужно това?",
     "core.year": "година",
     "core.years": "години",
-    "core.yes": "Да"
+    "core.yes": "Да",
+    "workplace.contains": "съдържа",
+    "workplace.continue": "Продължаване",
+    "workplace.deleted": "Изтрит",
+    "workplace.doesnotcontain": "не съдържа",
+    "workplace.endswith": "приключва с",
+    "workplace.fullname": "Пълно наименование",
+    "workplace.isempty": "е празно",
+    "workplace.isequalto": "е равно на",
+    "workplace.resetfilters": "Нулиране на филтрите",
+    "workplace.roleincontext": "{{$a.role}} в контекст {{$a.context}}",
+    "workplace.startswith": "започва с"
 }

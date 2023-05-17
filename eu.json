@@ -1386,6 +1386,7 @@
     "core.cancel": "Utzi",
     "core.cannotconnect": "Ezin da gunearekin konektatu",
     "core.cannotdownloadfiles": "Zure eskola ala ikaskuntza-hornitzaileak fitxategiak jaistea desgaitu du.",
+    "core.cannotinstallapk": "Ezin da .apk fitxategirik instalatu",
     "core.cannotopeninapp": "Baliteke fitxategi hau gailu honetan behar bezala ez ibiltzea. Ireki nahi duzu hala ere?",
     "core.cannotopeninappdownload": "Baliteke fitxategi hau gailu honetan behar bezala ez ibiltzea. Jaitsi nahi duzu hala ere?",
     "core.captureaudio": "Grabatu audioa",
@@ -2239,5 +2240,15 @@
     "core.years": "urte",
     "core.yes": "Bai",
     "core.youreoffline": "Zure gailua lineaz kanpo zaude",
-    "core.youreonline": "Zure gailua berriz ere on-line dago"
+    "core.youreonline": "Zure gailua berriz ere on-line dago",
+    "workplace.contains": "daukana",
+    "workplace.deleted": "Ezabatuta",
+    "workplace.doesnotcontain": "ez daukana",
+    "workplace.endswith": "honela bukatzen da",
+    "workplace.fullname": "Izen osoa",
+    "workplace.isempty": "hutsik dago",
+    "workplace.isequalto": "honen berdina",
+    "workplace.resetfilters": "Garbitu iragazkiak",
+    "workplace.roleincontext": "{{$a.role}} hemen: {{$a.context}}",
+    "workplace.startswith": "honela hasten da"
 }

@@ -1386,6 +1386,7 @@
     "core.cancel": "Annuleer",
     "core.cannotconnect": "Kan niet verbinden",
     "core.cannotdownloadfiles": "Jouw school of leerinstituut heeft het downloaden van bestandenuitgeschakeld",
+    "core.cannotinstallapk": "Kan .apk-bestanden niet installeren",
     "core.cannotopeninapp": "Het zou kunnen dat dit bestand niet werkt zoals verwacht op dit toestel. Toch proberen te openen?",
     "core.cannotopeninappdownload": "Het zou kunnen dat dit bestand niet werkt zoals verwacht op dit toestel. Toch downloaden?",
     "core.captureaudio": "Audio opnemen",
@@ -2239,5 +2240,15 @@
     "core.years": "Jaren",
     "core.yes": "Ja",
     "core.youreoffline": "Je bent offline",
-    "core.youreonline": "Je bent terug online"
+    "core.youreonline": "Je bent terug online",
+    "workplace.contains": "bevat",
+    "workplace.deleted": "Verwijderd",
+    "workplace.doesnotcontain": "bevat niet",
+    "workplace.endswith": "eindigt op",
+    "workplace.fullname": "Volledige naam",
+    "workplace.isempty": "is leeg",
+    "workplace.isequalto": "is gelijk aan",
+    "workplace.resetfilters": "Reset filters",
+    "workplace.roleincontext": "{{$a.role}} in {{$a.context}}",
+    "workplace.startswith": "begint met"
 }

@@ -1675,5 +1675,15 @@
     "core.whyisthisrequired": "Miks seda nõutakse?",
     "core.year": "aasta",
     "core.years": "aastat",
-    "core.yes": "Jah"
+    "core.yes": "Jah",
+    "workplace.contains": "sisaldab",
+    "workplace.deleted": "Kustutatud",
+    "workplace.doesnotcontain": "ei sisalda",
+    "workplace.endswith": "lõpeb",
+    "workplace.fullname": "Täisnimi",
+    "workplace.isempty": "on tühi",
+    "workplace.isequalto": "on võrdne",
+    "workplace.resetfilters": "Lähtesta filtrid",
+    "workplace.roleincontext": "Roll {{$a.role}} kontekstis {{$a.context}}",
+    "workplace.startswith": "algab"
 }

@@ -2039,5 +2039,14 @@
     "core.years": "տարի",
     "core.yes": "Այո",
     "core.youreoffline": "Դուք անցանց եք",
-    "core.youreonline": "Դուք կրկին առցանց եք"
+    "core.youreonline": "Դուք կրկին առցանց եք",
+    "workplace.contains": "պարունակում է",
+    "workplace.deleted": "Ջնջնվել է",
+    "workplace.doesnotcontain": "չի պարունակում",
+    "workplace.endswith": "ավարտվում է",
+    "workplace.fullname": "Լրիվ անվանում",
+    "workplace.isempty": "դատարկ է",
+    "workplace.isequalto": "հավասար է",
+    "workplace.resetfilters": "Ետ բերել զտիչները",
+    "workplace.startswith": "սկսվում է"
 }

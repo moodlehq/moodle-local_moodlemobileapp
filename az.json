@@ -2224,5 +2224,14 @@
     "core.years": "illər",
     "core.yes": "Hə",
     "core.youreoffline": "Siz internetə qoşulmamısınız",
-    "core.youreonline": "Siz internetə qoşuldunuz"
+    "core.youreonline": "Siz internetə qoşuldunuz",
+    "workplace.contains": "yerləşdirilib",
+    "workplace.deleted": "Silindi",
+    "workplace.doesnotcontain": "yoxdur",
+    "workplace.endswith": "bitir ilə",
+    "workplace.fullname": "Tam ad",
+    "workplace.isempty": "boşdur",
+    "workplace.isequalto": "münasibdir ilə",
+    "workplace.resetfilters": "",
+    "workplace.startswith": "Başlayır ilə"
 }

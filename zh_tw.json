@@ -2152,5 +2152,17 @@
     "core.wsfunctionnotavailable": "行動服務功能無法使用",
     "core.year": "年",
     "core.years": "年",
-    "core.yes": "是"
+    "core.yes": "是",
+    "workplace.contains": "包含",
+    "workplace.deleted": "已刪除",
+    "workplace.doesnotcontain": "不包含",
+    "workplace.duedate": "截止日期",
+    "workplace.endswith": "結尾是",
+    "workplace.fullname": "完整名稱",
+    "workplace.isempty": "空的",
+    "workplace.isequalto": "等於",
+    "workplace.resetfilters": "重設過濾器",
+    "workplace.roleincontext": "{{$a.context}}中的{{$a.role}}",
+    "workplace.startswith": "開頭是",
+    "workplace.tablabel": "更多"
 }

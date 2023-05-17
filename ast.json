@@ -822,5 +822,14 @@
     "core.view": "Ver",
     "core.year": "añu",
     "core.years": "años",
-    "core.yes": "Sí"
+    "core.yes": "Sí",
+    "workplace.contains": "contién",
+    "workplace.deleted": "Esborrando",
+    "workplace.doesnotcontain": "nun contién",
+    "workplace.endswith": "acaba en",
+    "workplace.fullname": "Nome completu",
+    "workplace.isempty": "ta vacíu",
+    "workplace.isequalto": "ye igual a",
+    "workplace.resetfilters": "redefinir filtros",
+    "workplace.startswith": "entama con"
 }

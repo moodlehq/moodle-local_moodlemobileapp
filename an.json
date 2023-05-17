@@ -1276,5 +1276,15 @@
     "core.viewprofile": "Veyer perfil",
     "core.year": "anyo",
     "core.years": "anyos",
-    "core.yes": "Sí"
+    "core.yes": "Sí",
+    "workplace.contains": "contiene",
+    "workplace.deleted": "Borrau",
+    "workplace.doesnotcontain": "no contiene",
+    "workplace.endswith": "remata en",
+    "workplace.fullname": "Nombre completo",
+    "workplace.isempty": "ye vuedo",
+    "workplace.isequalto": "ye igual a",
+    "workplace.resetfilters": "Restablir filtros",
+    "workplace.roleincontext": "{{$a.role}} en {{$a.context}}",
+    "workplace.startswith": "prencipia con"
 }

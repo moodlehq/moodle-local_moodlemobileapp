@@ -1386,6 +1386,7 @@
     "core.cancel": "Zrušit",
     "core.cannotconnect": "Nelze se připojit k webu",
     "core.cannotdownloadfiles": "Vaše škola nebo poskytovatel výuky zakázal stahování souborů.",
+    "core.cannotinstallapk": "Soubory .apk nelze nainstalovat",
     "core.cannotopeninapp": "Tento soubor nemusí na tomto zařízení fungovat očekávaným způsobem. Chcete jej přesto otevřít?",
     "core.cannotopeninappdownload": "Tento soubor nemusí na tomto zařízení fungovat očekávaným způsobem. Chcete si jej přesto stáhnout?",
     "core.captureaudio": "Nahrát zvuk",
@@ -2239,5 +2240,15 @@
     "core.years": "roky",
     "core.yes": "Ano",
     "core.youreoffline": "Jste offline",
-    "core.youreonline": "Jste zpět online"
+    "core.youreonline": "Jste zpět online",
+    "workplace.contains": "obsahuje",
+    "workplace.deleted": "Odstraněno",
+    "workplace.doesnotcontain": "neobsahuje",
+    "workplace.endswith": "končí",
+    "workplace.fullname": "Celý název",
+    "workplace.isempty": "je prázdné",
+    "workplace.isequalto": "je rovno",
+    "workplace.resetfilters": "Resetovat filtry",
+    "workplace.roleincontext": "{{$a.role}} v {{$a.context}}",
+    "workplace.startswith": "začíná na"
 }

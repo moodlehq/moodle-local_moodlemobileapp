@@ -1410,5 +1410,15 @@
     "core.viewprofile": "གསལ་སྡུད་སྟོན།",
     "core.year": "ལོ།",
     "core.years": "ལོ།",
-    "core.yes": "ཨིན།"
+    "core.yes": "ཨིན།",
+    "workplace.contains": "ཡོད་མི་ཚུ་",
+    "workplace.deleted": "བཏོན་གཏང་ཡོདཔ",
+    "workplace.doesnotcontain": "ནང་ན་མིན་འདུག",
+    "workplace.endswith": "འདི་གི་ཐོག་ལས་མཇུག་བསྡུ།",
+    "workplace.fullname": "མིང་ཆ་ཚང་",
+    "workplace.isempty": "སྟོངམ་ཨིན།",
+    "workplace.isequalto": "མཉམ་པ་ལུ་ཨིན།",
+    "workplace.resetfilters": "ཚགས་མ་ཚུ་སྔར་སྒྲིག་",
+    "workplace.roleincontext": "{{$a.context}} ནང་ {{$a.role}}",
+    "workplace.startswith": "འདི་གི་ཐོག་ལུ་འགོ་བཙུགས།"
 }

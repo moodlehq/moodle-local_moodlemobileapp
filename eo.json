@@ -539,5 +539,8 @@
     "core.whatisyourage": "Kiom jaraĝa vi estas?",
     "core.year": "jaro",
     "core.years": "jaroj",
-    "core.yes": "Jes"
+    "core.yes": "Jes",
+    "workplace.deleted": "Viŝita",
+    "workplace.fullname": "Antaŭnomo kompletan",
+    "workplace.roleincontext": "{{$a.role}} en {{$a.context}}"
 }

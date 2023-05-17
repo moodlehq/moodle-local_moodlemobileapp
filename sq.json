@@ -459,5 +459,7 @@
     "core.view": "Pamja",
     "core.year": "viti",
     "core.years": "vitet",
-    "core.yes": "Po"
+    "core.yes": "Po",
+    "workplace.deleted": "U fshi",
+    "workplace.fullname": "Emri i plotë"
 }

@@ -304,5 +304,13 @@
     "core.userdeleted": "Рэгістрацыйны запіс карыстальніка быў выдалены",
     "core.users": "Карыстальнікі",
     "core.view": "Прагляд",
-    "core.yes": "Так"
+    "core.yes": "Так",
+    "workplace.contains": "зьмяшчае",
+    "workplace.deleted": "Выдаленае",
+    "workplace.doesnotcontain": "не зьмяшчае",
+    "workplace.endswith": "канчаецца на",
+    "workplace.fullname": "Поўнае імя",
+    "workplace.isempty": "адсутнічае",
+    "workplace.isequalto": "роўна",
+    "workplace.startswith": "пачынаецца з"
 }

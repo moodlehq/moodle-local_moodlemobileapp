@@ -378,5 +378,7 @@
     "core.whyisthisrequired": "چرا این مورد لازم است؟",
     "core.year": "سال",
     "core.years": "سال ها",
-    "core.yes": "بلی"
+    "core.yes": "بلی",
+    "workplace.deleted": "حذف شد",
+    "workplace.fullname": "نام و نام خانوادگی"
 }

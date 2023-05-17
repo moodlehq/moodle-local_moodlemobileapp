@@ -1386,6 +1386,7 @@
     "core.cancel": "Cancel·la",
     "core.cannotconnect": "No s'ha pogut connectar",
     "core.cannotdownloadfiles": "La descàrrega d'arxius està deshabilitada al vostre servei Mobile. Contacteu amb l'administrador.",
+    "core.cannotinstallapk": "Per qüestions de seguretat, no es poden instal·lar fitxers .apk",
     "core.cannotopeninapp": "El fitxer podria no obrir-se correctament en aquest dispositiu. El voleu obrir de totes maneres?",
     "core.cannotopeninappdownload": "El fitxer podria no obrir-se correctament en aquest dispositiu. El voleu descarregar de totes maneres?",
     "core.captureaudio": "Enregistra àudio",
@@ -2239,5 +2240,15 @@
     "core.years": "anys",
     "core.yes": "Sí",
     "core.youreoffline": "Esteu fora de línia",
-    "core.youreonline": "Torneu a estar en línia"
+    "core.youreonline": "Torneu a estar en línia",
+    "workplace.contains": "conté",
+    "workplace.deleted": "S'ha suprimit",
+    "workplace.doesnotcontain": "no conté",
+    "workplace.endswith": "acaba en",
+    "workplace.fullname": "Nom complet",
+    "workplace.isempty": "està buit",
+    "workplace.isequalto": "és igual a",
+    "workplace.resetfilters": "Reinicialitza els filtres",
+    "workplace.roleincontext": "{{$a.role}} a {{$a.context}}",
+    "workplace.startswith": "comença per"
 }

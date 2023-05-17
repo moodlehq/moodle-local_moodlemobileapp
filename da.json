@@ -2047,5 +2047,15 @@
     "core.wsfunctionnotavailable": "Denne webservicefunktion er ikke tilgængelig.",
     "core.year": "år",
     "core.years": "år",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.contains": "indeholder",
+    "workplace.deleted": "Slettet",
+    "workplace.doesnotcontain": "indeholder ikke",
+    "workplace.endswith": "ender på",
+    "workplace.fullname": "Fulde navn",
+    "workplace.isempty": "ikke udfyldt",
+    "workplace.isequalto": "er",
+    "workplace.resetfilters": "Nulstil filtre",
+    "workplace.roleincontext": "{{$a.role}} i {{$a.context}}",
+    "workplace.startswith": "starter med"
 }

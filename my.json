@@ -1299,5 +1299,9 @@
     "core.whyisthisrequired": "ဤအရာ လိုအပ်ရသောအကြောင်းအရင်းကိုပြောပါ။",
     "core.year": "နှစ်",
     "core.years": "နှစ်များ",
-    "core.yes": "ဟုတ်ကဲ့"
+    "core.yes": "ဟုတ်ကဲ့",
+    "workplace.deleted": "ဖျက်ပြီး",
+    "workplace.fullname": "အမည် အပြည့်အစုံ",
+    "workplace.resetfilters": "စိစစ်မှုများကို ပြန်လည်သတ်မှတ်ပါ",
+    "workplace.roleincontext": "{{$a.role}} in {{$a.context}}"
 }
