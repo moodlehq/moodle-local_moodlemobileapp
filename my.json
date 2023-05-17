@@ -1396,5 +1396,18 @@
     "core.whyisthisrequired": "ဤအရာ လိုအပ်ရသောအကြောင်းအရင်းကိုပြောပါ။",
     "core.year": "နှစ်",
     "core.years": "နှစ်များ",
-    "core.yes": "ဟုတ်ကဲ့"
+    "core.yes": "ဟုတ်ကဲ့",
+    "freemium.accept": "လက်ခံပါတယ်",
+    "freemium.feature_customlanguagestrings": "စိတ်ကြိုက်ပြင်ဆင်နိုင်သော ဘာသာစကား စာကြောင်းများ",
+    "freemium.feature_custommenuitems": "စိတ်ကြိုက်ပြင်ဆင်နိုင်သော မီနူးအမျိုးအစားများ",
+    "freemium.feature_disabledfeatures": "အသုံးပြုခွင့်ပိတ်ထားသော အရာများ",
+    "freemium.subscriptionfeature_disabled": "ပိတ်သည်/ပိတ်ပါ",
+    "freemium.subscriptionfeature_enabled": "ဖွင့်သည် / ခွင့်ပြုသည်",
+    "workplace.coursefiles": "Legacy course ဖိုင်များ",
+    "workplace.deleted": "ဖျက်ပြီး",
+    "workplace.fullname": "အမည် အပြည့်အစုံ",
+    "workplace.moreinfo": "ပိုမိုပြည့်စုံသော အချက်အလက်",
+    "workplace.nothingtodisplay": "ပြသရန်မရှိပါ",
+    "workplace.resetfilters": "စိစစ်မှုများကို ပြန်လည်သတ်မှတ်ပါ",
+    "workplace.roleincontext": "{{$a.role}} in {{$a.context}}"
 }

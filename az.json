@@ -2376,5 +2376,17 @@
     "core.youreoffline": "Siz internetə qoşulmamısınız",
     "core.youreonline": "Siz internetə qoşuldunuz",
     "core.zoomin": "Yaxınlaşdırın",
-    "core.zoomout": "Uzaqlaşdırın"
+    "core.zoomout": "Uzaqlaşdırın",
+    "freemium.accept": "Qəbul et",
+    "workplace.contains": "yerləşdirilib",
+    "workplace.coursefiles": "Kursun faylları (köhnəlmiş fayllar)",
+    "workplace.deleted": "Silindi",
+    "workplace.doesnotcontain": "yoxdur",
+    "workplace.endswith": "bitir ilə",
+    "workplace.fullname": "Tam ad",
+    "workplace.isempty": "boşdur",
+    "workplace.isequalto": "münasibdir ilə",
+    "workplace.nothingtodisplay": "Göstərməyə heç nə yoxdur",
+    "workplace.resetfilters": "",
+    "workplace.startswith": "Başlayır ilə"
 }

@@ -363,5 +363,6 @@
     "core.userdeleted": "S'ha suprimit este compte d'usuari",
     "core.year": "any",
     "core.years": "anys",
-    "core.yes": "Sí"
+    "core.yes": "Sí",
+    "freemium.accept": "Accepta"
 }

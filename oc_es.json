@@ -46,5 +46,6 @@
     "core.misc": "Diuersi",
     "core.settings.debugdisplay": "Mostrar messatges de depuracion",
     "core.sitemaintenance": "Aguest lòc ei actuamnent en manteniment e no ei disponible",
-    "core.user.address": "Direccion"
+    "core.user.address": "Direccion",
+    "freemium.accept": "Acceptar"
 }

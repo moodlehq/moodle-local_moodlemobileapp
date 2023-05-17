@@ -30,5 +30,6 @@
     "core.notenrolledprofile": "Denne profil er ikke tilgængelig da brugeren ikke er tilmeldt dette rum.",
     "core.selectacourse": "Vælg et rum",
     "core.thisdirection": "ltr",
-    "core.user.noparticipants": "Ingen deltagere fundet for dette forløb"
+    "core.user.noparticipants": "Ingen deltagere fundet for dette forløb",
+    "workplace.coursefiles": "Arvede rumfiler"
 }

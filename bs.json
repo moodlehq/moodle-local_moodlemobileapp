@@ -1184,5 +1184,18 @@
     "core.weeks": "sedmice",
     "core.year": "godina",
     "core.years": "godine",
-    "core.yes": "Da"
+    "core.yes": "Da",
+    "freemium.subscriptionfeature_enabled": "Omogućeno",
+    "workplace.contains": "sadrži",
+    "workplace.coursefiles": "Naslijeđene datoteke kursa",
+    "workplace.deleted": "Izbrisano",
+    "workplace.doesnotcontain": "ne sadrži",
+    "workplace.endswith": "završava se sa",
+    "workplace.fullname": "Puno ime",
+    "workplace.isempty": "je prazno",
+    "workplace.isequalto": "je jednako",
+    "workplace.nothingtodisplay": "Nema ničega za prikaz",
+    "workplace.resetfilters": "Resetuj filtere",
+    "workplace.roleincontext": "{{$a.role}} u {{$a.context}}",
+    "workplace.startswith": "počinje sa"
 }

@@ -2186,5 +2186,18 @@
     "core.years": "տարի",
     "core.yes": "Այո",
     "core.youreoffline": "Դուք անցանց եք",
-    "core.youreonline": "Դուք կրկին առցանց եք"
+    "core.youreonline": "Դուք կրկին առցանց եք",
+    "freemium.accept": "Հաստատել",
+    "workplace.contains": "պարունակում է",
+    "workplace.coursefiles": "Դասընթացի ֆայլեր",
+    "workplace.deleted": "Ջնջնվել է",
+    "workplace.doesnotcontain": "չի պարունակում",
+    "workplace.endswith": "ավարտվում է",
+    "workplace.fullname": "Լրիվ անվանում",
+    "workplace.isempty": "դատարկ է",
+    "workplace.isequalto": "հավասար է",
+    "workplace.moreinfo": "ավելի շատ ինֆորմացիա",
+    "workplace.nothingtodisplay": "Չկա ոչինչ, որպեսզի ցուցադրվի",
+    "workplace.resetfilters": "Ետ բերել զտիչները",
+    "workplace.startswith": "սկսվում է"
 }

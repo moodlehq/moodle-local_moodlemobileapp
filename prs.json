@@ -387,5 +387,11 @@
     "core.whyisthisrequired": "چرا این مورد لازم است؟",
     "core.year": "سال",
     "core.years": "سال ها",
-    "core.yes": "بلی"
+    "core.yes": "بلی",
+    "freemium.accept": "قبول",
+    "workplace.coursefiles": "فایل های کورس مجازی",
+    "workplace.deleted": "حذف شد",
+    "workplace.fullname": "نام و نام خانوادگی",
+    "workplace.moreinfo": "اطلاعات بیشتر",
+    "workplace.nothingtodisplay": "چیزی برای نمایش نیست"
 }

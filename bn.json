@@ -1174,5 +1174,18 @@
     "core.weeks": "সপ্তাহগুলি",
     "core.year": "বছর",
     "core.years": "বছর",
-    "core.yes": "হ্যাঁ"
+    "core.yes": "হ্যাঁ",
+    "freemium.accept": "গ্রহণ করা",
+    "freemium.subscriptionfeature_enabled": "সক্রিয় করুন",
+    "workplace.contains": "ধারণ করে",
+    "workplace.coursefiles": "উত্তরাধিকার পাঠ্যক্রম ফাইলসমূহ",
+    "workplace.deleted": "মুছে ফেলা হয়েছে",
+    "workplace.doesnotcontain": "ধারন করেনা",
+    "workplace.endswith": "এর সাথে শেষ হবে",
+    "workplace.fullname": "পূর্ণ নাম",
+    "workplace.isempty": "খালি",
+    "workplace.isequalto": "সমান",
+    "workplace.nothingtodisplay": "প্রদর্শনের জন্য কিছুই নেই",
+    "workplace.resetfilters": "পরিশোধক পুনঃনির্ধারণ",
+    "workplace.startswith": "এর সাথে শুরু"
 }

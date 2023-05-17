@@ -1286,5 +1286,20 @@
     "core.weeks": "semanas",
     "core.year": "anyo",
     "core.years": "anyos",
-    "core.yes": "Sí"
+    "core.yes": "Sí",
+    "freemium.accept": "Acceptar",
+    "freemium.subscriptionfeature_enabled": "Habilitau",
+    "workplace.contains": "contiene",
+    "workplace.coursefiles": "Fichers heredaus d'o curso",
+    "workplace.deleted": "Borrau",
+    "workplace.doesnotcontain": "no contiene",
+    "workplace.endswith": "remata en",
+    "workplace.fullname": "Nombre completo",
+    "workplace.isempty": "ye vuedo",
+    "workplace.isequalto": "ye igual a",
+    "workplace.moreinfo": "Mas información",
+    "workplace.nothingtodisplay": "Cosa que amostrar",
+    "workplace.resetfilters": "Restablir filtros",
+    "workplace.roleincontext": "{{$a.role}} en {{$a.context}}",
+    "workplace.startswith": "prencipia con"
 }
