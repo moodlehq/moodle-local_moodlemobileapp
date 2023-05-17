@@ -1306,11 +1306,5 @@
     "core.years": "anyos",
     "core.yes": "Sí",
     "freemium.accept": "Acceptar",
-    "freemium.subscriptionfeature_enabled": "Habilitau",
-    "workplace.coursefiles": "Fichers heredaus d'o curso",
-    "workplace.deleted": "Borrau",
-    "workplace.moreinfo": "Mas información",
-    "workplace.nothingtodisplay": "Cosa que amostrar",
-    "workplace.roleincontext": "{{$a.role}} en {{$a.context}}",
-    "workplace.teams.fullname": "Nombre completo"
+    "freemium.subscriptionfeature_enabled": "Habilitau"
 }

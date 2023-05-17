@@ -8,6 +8,5 @@
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.mod_url": "Weblink",
-    "core.notenrolledprofile": "You can't see the profile because this user is not enrolled in this space",
-    "workplace.coursefiles": "Legacy space files"
+    "core.notenrolledprofile": "You can't see the profile because this user is not enrolled in this space"
 }

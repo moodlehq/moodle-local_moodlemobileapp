@@ -157,7 +157,5 @@
     "core.users": "Utilisateurs",
     "core.view": "Vue",
     "core.week": "Semaine",
-    "core.yes": "Oui",
-    "workplace.deleted": "Supprimé",
-    "workplace.teams.fullname": "Nom complet"
+    "core.yes": "Oui"
 }

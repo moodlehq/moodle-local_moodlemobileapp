@@ -741,7 +741,6 @@
     "core.sharedfiles.replace": "Ersetzen",
     "core.sharedfiles.sharedfiles": "Geteilte Dateien",
     "core.sharedfiles.successstorefile": "Die Datei wurde erfolgreich gespeichert. Du kannst die Datei in den Bereich 'Meine Dateien' hochladen oder in einer Aktivität verwenden.",
-    "core.sitenotfound": "Website nicht gefunden",
     "core.sitenotfoundhelp": "Die eingegebene Website kann nicht gefunden werden. Prüfe die Tippfehler oder versuche es später erneut. Wenn du diese Meldung weiterhin sehen, wende dich an deine Schule oder deinen Lernanbieter.",
     "core.siteunavailablehelp": "Die Website \"{{site}}\" ist derzeit nicht verfügbar. Versuche es später noch einmal oder wende dich an deine Schule oder deinen Lernanbieter.",
     "core.sizetb": "TB",

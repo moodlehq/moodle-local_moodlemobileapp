@@ -736,10 +736,5 @@
     "core.yes": "Ооба",
     "freemium.accept": "Макулдук берүү",
     "freemium.subscriptionfeature_disabled": "Өчүрүлдү",
-    "freemium.subscriptionfeature_enabled": "Күйгүзүлгөн",
-    "workplace.coursefiles": "Курстун файлдары (мурдагы сактоо бөлүгү)",
-    "workplace.deleted": "Жок кылынды",
-    "workplace.moreinfo": "Кеӊири маалымат",
-    "workplace.nothingtodisplay": "Көрсөтүү үчүн эч нерсе жок",
-    "workplace.teams.fullname": "Аты-жөнү толугу менен"
+    "freemium.subscriptionfeature_enabled": "Күйгүзүлгөн"
 }

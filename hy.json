@@ -2188,10 +2188,5 @@
     "core.yes": "Այո",
     "core.youreoffline": "Դուք անցանց եք",
     "core.youreonline": "Դուք կրկին առցանց եք",
-    "freemium.accept": "Հաստատել",
-    "workplace.coursefiles": "Դասընթացի ֆայլեր",
-    "workplace.deleted": "Ջնջնվել է",
-    "workplace.moreinfo": "ավելի շատ ինֆորմացիա",
-    "workplace.nothingtodisplay": "Չկա ոչինչ, որպեսզի ցուցադրվի",
-    "workplace.teams.fullname": "Լրիվ անվանում"
+    "freemium.accept": "Հաստատել"
 }

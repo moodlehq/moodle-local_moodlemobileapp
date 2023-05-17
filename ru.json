@@ -2232,22 +2232,5 @@
     "freemium.feature_custommenuitems": "Пользовательские пункты меню",
     "freemium.feature_disabledfeatures": "Отключенные функции",
     "freemium.subscriptionfeature_disabled": "Отключено",
-    "freemium.subscriptionfeature_enabled": "Включено",
-    "workplace.coursefiles": "Файлы курса (устаревшее хранилище)",
-    "workplace.deleted": "Удалено",
-    "workplace.moreinfo": "Подробнее",
-    "workplace.nothingtodisplay": "Нечего показывать",
-    "workplace.roleincontext": "{{$a.role}} в контексте {{$a.context}}",
-    "workplace.teams.apply": "Применить",
-    "workplace.teams.filtercontains": "Содержит",
-    "workplace.teams.filterdoesnotcontain": "Не содержит",
-    "workplace.teams.filterendswith": "Заканчивается на",
-    "workplace.teams.filterisanyvalue": "Любое значение",
-    "workplace.teams.filterisempty": "Пусто",
-    "workplace.teams.filterisequalto": "Равно",
-    "workplace.teams.filterisnotempty": "Не пусто",
-    "workplace.teams.filterisnotequalto": "Не равно",
-    "workplace.teams.filterstartswith": "Начинается с",
-    "workplace.teams.fullname": "Полное имя",
-    "workplace.teams.resetall": "Сбросить все"
+    "freemium.subscriptionfeature_enabled": "Включено"
 }

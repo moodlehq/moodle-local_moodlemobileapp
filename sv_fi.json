@@ -353,7 +353,5 @@
     "core.user.phone2": "Mobiltelefon",
     "core.user.student": "Studerande",
     "core.user.teacher": "Lärare utan redigeringsrätt",
-    "core.userdeleted": "Ditt användartillstånd har raderats.",
-    "workplace.coursefiles": "Gamla filer på kursområdet",
-    "workplace.deleted": "Raderad"
+    "core.userdeleted": "Ditt användartillstånd har raderats."
 }

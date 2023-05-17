@@ -1347,11 +1347,5 @@
     "core.yes": "Da",
     "freemium.accept": "Accept",
     "freemium.subscriptionfeature_disabled": "Dezactivat",
-    "freemium.subscriptionfeature_enabled": "Activat",
-    "workplace.coursefiles": "Fișiere vechi de curs",
-    "workplace.deleted": "Șters",
-    "workplace.moreinfo": "Informații suplimentare",
-    "workplace.nothingtodisplay": "Nimic de afișat",
-    "workplace.roleincontext": "{{$a.role}} în {{$a.context}}",
-    "workplace.teams.fullname": "Nume complet"
+    "freemium.subscriptionfeature_enabled": "Activat"
 }

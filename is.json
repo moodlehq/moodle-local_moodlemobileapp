@@ -1130,11 +1130,5 @@
     "core.years": "ár",
     "core.yes": "Já",
     "freemium.accept": "Samþykkja",
-    "freemium.subscriptionfeature_enabled": "Virkjað",
-    "workplace.coursefiles": "Gamlar áfangaskrár",
-    "workplace.deleted": "Eytt",
-    "workplace.moreinfo": "Meiri upplýsingar",
-    "workplace.nothingtodisplay": "Ekkert til að birta",
-    "workplace.roleincontext": "{{$a.role}} í {{$a.context}}",
-    "workplace.teams.fullname": "Fullt nafn"
+    "freemium.subscriptionfeature_enabled": "Virkjað"
 }

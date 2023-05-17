@@ -2209,12 +2209,5 @@
     "freemium.feature_custommenuitems": "Тусгай цэсний зүйлс",
     "freemium.feature_disabledfeatures": "Идэвхгүй функцүүд",
     "freemium.subscriptionfeature_disabled": "Идэвхгүй",
-    "freemium.subscriptionfeature_enabled": "Идэвхжүүлсэн",
-    "workplace.coursefiles": "Хуучин хичээлийн файлууд",
-    "workplace.dates": "Огноо",
-    "workplace.deleted": "Устгагдсан",
-    "workplace.moreinfo": "Дэлгэрэнгүй мэдээлэл",
-    "workplace.nothingtodisplay": "Харуулах зүйл алга",
-    "workplace.roleincontext": "{{$a.context}} дахь {{$a.role}}",
-    "workplace.teams.fullname": "Бүтэн нэр"
+    "freemium.subscriptionfeature_enabled": "Идэвхжүүлсэн"
 }
