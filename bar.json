@@ -202,5 +202,11 @@
     "core.year": "Joa",
     "core.years": "Jare",
     "core.yes": "Fraale",
-    "freemium.accept": "Onemma"
+    "freemium.accept": "Onemma",
+    "workplace.coursefiles": "Olde Kuarsdatein",
+    "workplace.deleted": "glescht",
+    "workplace.teams.apply": "Owendn",
+    "workplace.teams.filtercontains": "Hot",
+    "workplace.teams.filterstartswith": "Fangt oa mid",
+    "workplace.teams.resetall": "Ois zrucksetzn"
 }

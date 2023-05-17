@@ -2443,5 +2443,14 @@
     "freemium.upsell_upgradefreeaccept": "Actualitza",
     "freemium.upsell_upgradefreemessage": "Actualment esteu al pla gratuït, actualitzeu per a desbloquejar més funcions.",
     "freemium.upsell_upgradefreepostpone": "Més tard",
-    "freemium.upsell_upgradefreetitle": "Actualitzeu el vostre pla"
+    "freemium.upsell_upgradefreetitle": "Actualitzeu el vostre pla",
+    "workplace.coursefiles": "Fitxers del curs heretats",
+    "workplace.deleted": "S'ha suprimit",
+    "workplace.moreinfo": "Més informació",
+    "workplace.nothingtodisplay": "No hi ha res per visualitzar",
+    "workplace.roleincontext": "{{$a.role}} a {{$a.context}}",
+    "workplace.teams.filterisempty": "Està buit",
+    "workplace.teams.filterisnotempty": "No està buit",
+    "workplace.teams.fullname": "Nom complet",
+    "workplace.teams.resetall": "Restableix-ho tot"
 }
