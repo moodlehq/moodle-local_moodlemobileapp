@@ -1,0 +1,28 @@
+name: Parse languages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'langindex.json'
+  schedule:
+    - cron:  '0 5 * * *'
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        version: ['3.9', '4.0', '4.1', '4.2', '4.3']
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup PHP with PECL extension
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.2'
+    - name: Parse
+      env:
+        GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+      run: ./parser/parse.sh ${{ matrix.version }}
