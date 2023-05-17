@@ -1141,5 +1141,19 @@
     "core.weeks": "setmanas",
     "core.year": "annada",
     "core.years": "annadas",
-    "core.yes": "Òc"
+    "core.yes": "Òc",
+    "freemium.subscriptionfeature_enabled": "Activat",
+    "workplace.contains": "conten",
+    "workplace.coursefiles": "Fichièrs del cors (obsolet)",
+    "workplace.deleted": "Suprimit",
+    "workplace.doesnotcontain": "conten pas",
+    "workplace.endswith": "s'acaba amb",
+    "workplace.fullname": "Nom complet",
+    "workplace.isempty": "es void",
+    "workplace.isequalto": "es egal a",
+    "workplace.moreinfo": "Mai d'informacion",
+    "workplace.nothingtodisplay": "Pas res d'afichar",
+    "workplace.resetfilters": "Reïnicializar los filtres",
+    "workplace.roleincontext": "{{$a.role}} dins {{$a.context}}",
+    "workplace.startswith": "comença amb"
 }

@@ -1886,5 +1886,19 @@
     "core.wsfunctionnotavailable": "មុខងារសេវាបណ្ដាញមិនមានទេ",
     "core.year": "ឆ្នាំ",
     "core.years": "ឆ្នាំ",
-    "core.yes": "បាទ/ចាស"
+    "core.yes": "បាទ/ចាស",
+    "freemium.accept": "ទទួល",
+    "workplace.contains": "មាន",
+    "workplace.coursefiles": "ឯកសារតំណែលក្នុងវគ្គសិក្សា",
+    "workplace.deleted": "បានលុប",
+    "workplace.doesnotcontain": "មិនមាន",
+    "workplace.endswith": "បញ្ចប់ដោយ",
+    "workplace.fullname": "ឈ្មោះពេញ",
+    "workplace.isempty": "ទទេ",
+    "workplace.isequalto": "ស្មើ",
+    "workplace.moreinfo": "ព័ត៌មានផ្សេងទៀត",
+    "workplace.nothingtodisplay": "មិនមានអ្វីបង្ហាញឡើយ",
+    "workplace.resetfilters": "កំណត់ការចម្រាញ់ឡើងវិញ",
+    "workplace.roleincontext": "{{$a.role}} ក្នុង {{$a.context}}",
+    "workplace.startswith": "ចាប់ផ្ដើមដោយ"
 }

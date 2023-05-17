@@ -211,5 +211,7 @@
     "core.user.phone2": "Fòn-làimh",
     "core.user.student": "Oileanach",
     "core.viewprofile": "Seall air chunntas",
-    "core.week": "Seachdain"
+    "core.week": "Seachdain",
+    "workplace.fullname": "Ainm slàn",
+    "workplace.nothingtodisplay": "Chan eil dad ann ri fhoillseachadh"
 }

@@ -601,5 +601,13 @@
     "core.weeks": "minggu",
     "core.year": "tahun",
     "core.years": "tahun",
-    "core.yes": "Ya"
+    "core.yes": "Ya",
+    "freemium.accept": "Terima",
+    "workplace.coursefiles": "Fail legasi kursus",
+    "workplace.deleted": "Dipadam",
+    "workplace.fullname": "Nama penuh",
+    "workplace.isempty": "adalah kosong",
+    "workplace.isequalto": "adalah sama dengan",
+    "workplace.nothingtodisplay": "Tiada untuk dipaparkan",
+    "workplace.startswith": "bermula dengan"
 }

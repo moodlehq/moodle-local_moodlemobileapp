@@ -67,5 +67,7 @@
     "core.thisdirection": "rtl",
     "core.user.address": "כתובת",
     "core.user.noparticipants": "לא נמצאו משתתפים עבור מרחב־לימוד זה",
-    "core.user.student": "תלמיד"
+    "core.user.student": "תלמיד",
+    "freemium.accept": "אישור",
+    "workplace.coursefiles": "קבצי מרחב־הלימוד כפי שנוהלו בגרסאות  קודמות"
 }

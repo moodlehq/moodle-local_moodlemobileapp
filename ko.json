@@ -2003,5 +2003,21 @@
     "core.years": "년",
     "core.yes": "예",
     "core.youreoffline": "오프라인 상태입니다",
-    "core.youreonline": "다시 온라인 상태입니다"
+    "core.youreonline": "다시 온라인 상태입니다",
+    "freemium.accept": "수락",
+    "freemium.subscriptionfeature_disabled": "비활성화",
+    "freemium.subscriptionfeature_enabled": "활성화 됨",
+    "workplace.contains": "포함",
+    "workplace.coursefiles": "예전 강좌 파일",
+    "workplace.deleted": "지워짐",
+    "workplace.doesnotcontain": "제외",
+    "workplace.endswith": "끝말",
+    "workplace.fullname": "전체 이름",
+    "workplace.isempty": "비었음",
+    "workplace.isequalto": "동일",
+    "workplace.moreinfo": "더 많은 정보",
+    "workplace.nothingtodisplay": "게시할 내용 없음",
+    "workplace.resetfilters": "필터 초기화",
+    "workplace.roleincontext": "{{$a.context}}에서 {{$a.role}}",
+    "workplace.startswith": "시작"
 }

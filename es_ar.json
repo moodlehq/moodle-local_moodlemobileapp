@@ -16,5 +16,6 @@
     "core.login.accounts": "Cuentas",
     "core.login.add": "Agregar",
     "core.settings.accessstatement": "Declaración de accesibilidad",
-    "core.user.address": "Dirección"
+    "core.user.address": "Dirección",
+    "freemium.accept": "Aceptar"
 }

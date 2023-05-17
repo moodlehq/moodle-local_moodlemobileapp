@@ -652,5 +652,10 @@
     "core.week": "კვირა",
     "core.year": "წელი",
     "core.years": "წლები",
-    "core.yes": "დიახ"
+    "core.yes": "დიახ",
+    "freemium.accept": "დაეთანხმე",
+    "workplace.deleted": "წაშლილია",
+    "workplace.fullname": "სრული სახელი",
+    "workplace.nothingtodisplay": "საჩვენებელი არაფერია",
+    "workplace.resetfilters": "გადატვირთე ფილტრები"
 }

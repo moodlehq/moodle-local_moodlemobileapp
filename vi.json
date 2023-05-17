@@ -1698,5 +1698,21 @@
     "core.years": "năm",
     "core.yes": "Có",
     "core.youreoffline": "Bạn đang offline",
-    "core.youreonline": "Bạn đang trở lại trực tuyến"
+    "core.youreonline": "Bạn đang trở lại trực tuyến",
+    "freemium.accept": "Chấp thuận",
+    "freemium.subscriptionfeature_disabled": "Vô hiệu hóa",
+    "freemium.subscriptionfeature_enabled": "Được kích hoạt",
+    "workplace.contains": "có chứa",
+    "workplace.coursefiles": "Các tập tin hợp lệ cho khóa học",
+    "workplace.deleted": "Đã xoá",
+    "workplace.doesnotcontain": "không chứa",
+    "workplace.endswith": "kết thúc bằng",
+    "workplace.fullname": "Tên đầy đủ",
+    "workplace.isempty": "rỗng",
+    "workplace.isequalto": "bằng với",
+    "workplace.moreinfo": "Thông tin thêm",
+    "workplace.nothingtodisplay": "Không có gì để hiển thị",
+    "workplace.resetfilters": "Đặt lại bộ lọc",
+    "workplace.roleincontext": "{{$a.role}} trong {{$a.context}}",
+    "workplace.startswith": "bắt đầu bằng"
 }

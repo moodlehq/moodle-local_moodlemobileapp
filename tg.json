@@ -1234,5 +1234,17 @@
     "core.weeks": "ҳафтаҳо",
     "core.year": "сол",
     "core.years": "солҳо",
-    "core.yes": "Ҳа"
+    "core.yes": "Ҳа",
+    "freemium.accept": "Қабул кардан",
+    "workplace.contains": "дар бар мегирад",
+    "workplace.coursefiles": "Файлҳои курс (махзани кӯҳнашуда)",
+    "workplace.deleted": "Нест карда шуд",
+    "workplace.doesnotcontain": "дар бар намегирад",
+    "workplace.endswith": "ба охир мерасад бо",
+    "workplace.fullname": "Номи пурра",
+    "workplace.isempty": "пур карда нашудааст",
+    "workplace.isequalto": "мувофиқат дорад бо",
+    "workplace.moreinfo": "Маълумоти изофӣ",
+    "workplace.nothingtodisplay": "Ҳеҷ чиз нишон дода нашавад",
+    "workplace.startswith": "сар мешавад аз"
 }

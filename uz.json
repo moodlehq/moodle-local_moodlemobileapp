@@ -1692,5 +1692,17 @@
     "core.years": "yillar",
     "core.yes": "Ha",
     "core.youreoffline": "Siz tarmoqsiz holdasiz",
-    "core.youreonline": "Siz yana tarmoqdasiz"
+    "core.youreonline": "Siz yana tarmoqdasiz",
+    "freemium.accept": "Qabul qilish",
+    "workplace.contains": "o'z ichiga oladi",
+    "workplace.coursefiles": "Eskirgan kurs fayllari",
+    "workplace.deleted": "O'chirib tashlandi",
+    "workplace.doesnotcontain": "o'z ichiga olmaydi",
+    "workplace.endswith": "bilan tugaydi",
+    "workplace.fullname": "To'liq ism",
+    "workplace.isempty": "bo'sh",
+    "workplace.isequalto": "ga teng",
+    "workplace.nothingtodisplay": "Ko'rsatgani hech narsa yo'q",
+    "workplace.resetfilters": "Tiklash maydonlari",
+    "workplace.startswith": "bila boshlanadi"
 }

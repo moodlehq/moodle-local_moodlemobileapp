@@ -483,5 +483,9 @@
     "core.wsfunctionnotavailable": "ವೆಬ್‌ ಸೇವಾ ಕಾರ್ಯವು ಈಗ ದೊರಕುತ್ತಿಲ್ಲ",
     "core.year": "ವರ್ಷ",
     "core.years": "ವರ್ಷಗಳು",
-    "core.yes": "ಹೌದು"
+    "core.yes": "ಹೌದು",
+    "freemium.accept": "ಸ್ವೀಕರಿಸು",
+    "workplace.fullname": "ಪೂರ್ಣ ನಾಮ",
+    "workplace.futureallocation": "ಭವಿಷ್ಯದ ಹಂಚಿಕೆ",
+    "workplace.moreinfo": "ಹೆಚ್ಚಿನ ಮಾಹಿತಿ"
 }

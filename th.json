@@ -775,5 +775,12 @@
     "core.whyisthisrequired": "ทำไมถึงต้องการข้อมูลนี้?",
     "core.year": "ปี",
     "core.years": "ปี",
-    "core.yes": "ใช่"
+    "core.yes": "ใช่",
+    "freemium.accept": "ยอมรับ",
+    "freemium.subscriptionfeature_enabled": "เปิดใช้",
+    "workplace.coursefiles": "ไฟล์คอร์สเก่า",
+    "workplace.deleted": "ลบแล้ว",
+    "workplace.fullname": "ชื่อเต็ม",
+    "workplace.moreinfo": "ข้อมูลเพิ่มเติม",
+    "workplace.nothingtodisplay": "ไม่มีสิ่งที่ต้องแสดง"
 }

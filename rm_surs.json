@@ -518,5 +518,15 @@
     "core.week": "Jamna",
     "core.year": "onn",
     "core.years": "onns",
-    "core.yes": "Gie"
+    "core.yes": "Gie",
+    "workplace.contains": "cuntegn",
+    "workplace.deleted": "Stizzau",
+    "workplace.doesnotcontain": "cuntegn buca",
+    "workplace.endswith": "finescha cun",
+    "workplace.fullname": "Il num entir",
+    "workplace.isempty": "ei vit",
+    "workplace.isequalto": "ei indetic cun",
+    "workplace.nothingtodisplay": "Nuot da mussar",
+    "workplace.resetfilters": "Metter anavos ils filters sin standard",
+    "workplace.startswith": "entscheiva cun"
 }

@@ -663,5 +663,12 @@
     "core.whyisthisrequired": "ولې دې ته اړتیا ده؟",
     "core.year": "کال",
     "core.years": "کلونه",
-    "core.yes": "هو"
+    "core.yes": "هو",
+    "freemium.accept": "منل",
+    "workplace.coursefiles": "د پاتشوني کورس دوتنې",
+    "workplace.deleted": "ړنګ شو",
+    "workplace.fullname": "بشپړ نوم",
+    "workplace.moreinfo": "نور معلومات",
+    "workplace.nothingtodisplay": "د ښودلو لپاره هیڅ نشته",
+    "workplace.resetfilters": "چاڼونه بیا تنظیم کړئ"
 }

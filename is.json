@@ -1109,5 +1109,20 @@
     "core.whyisthisrequired": "Hvers vegna er þessa krafist?",
     "core.year": "ár",
     "core.years": "ár",
-    "core.yes": "Já"
+    "core.yes": "Já",
+    "freemium.accept": "Samþykkja",
+    "freemium.subscriptionfeature_enabled": "Virkjað",
+    "workplace.contains": "Inniheldur",
+    "workplace.coursefiles": "Gamlar áfangaskrár",
+    "workplace.deleted": "Eytt",
+    "workplace.doesnotcontain": "Inniheldur ekki",
+    "workplace.endswith": "endar á",
+    "workplace.fullname": "Fullt nafn",
+    "workplace.isempty": "er óskráð",
+    "workplace.isequalto": "er jafnt og",
+    "workplace.moreinfo": "Meiri upplýsingar",
+    "workplace.nothingtodisplay": "Ekkert til að birta",
+    "workplace.resetfilters": "Hreinsa síur",
+    "workplace.roleincontext": "{{$a.role}} í {{$a.context}}",
+    "workplace.startswith": "hefst á"
 }

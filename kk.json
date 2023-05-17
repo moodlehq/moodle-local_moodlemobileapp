@@ -730,5 +730,10 @@
     "core.week": "Апта",
     "core.year": "жыл",
     "core.years": "жылдар",
-    "core.yes": "Иә"
+    "core.yes": "Иә",
+    "freemium.accept": "Қабылдауға",
+    "workplace.coursefiles": "Курс файлдары",
+    "workplace.deleted": "Жойылды",
+    "workplace.fullname": "Толық аты",
+    "workplace.nothingtodisplay": "Көрсететін ештеме жоқ"
 }

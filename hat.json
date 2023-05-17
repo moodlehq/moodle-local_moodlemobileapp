@@ -21,5 +21,7 @@
     "core.misc": "Divès",
     "core.settings.accessstatement": "Deklarasyon aksesibilite",
     "core.settings.debugdisplay": "Montre mesaj debogaj",
-    "core.sitemaintenance": "Sit la ap antreteni e kounye a li pa disponib"
+    "core.sitemaintenance": "Sit la ap antreteni e kounye a li pa disponib",
+    "freemium.subscriptionfeature_disabled": "Enfim",
+    "freemium.subscriptionfeature_enabled": "Pèmèt"
 }

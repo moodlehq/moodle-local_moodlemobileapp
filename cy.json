@@ -1094,5 +1094,18 @@
     "core.weeks": "wythnos",
     "core.year": "blwyddyn",
     "core.years": "blynyddoedd",
-    "core.yes": "Iawn"
+    "core.yes": "Iawn",
+    "freemium.subscriptionfeature_enabled": "Wedi'i alluogi",
+    "workplace.contains": "yn cynnwys",
+    "workplace.coursefiles": "Hen ffeiliau cwrs",
+    "workplace.deleted": "Wedi'i ddileu",
+    "workplace.doesnotcontain": "ddim yn cynnwys",
+    "workplace.endswith": "yn gorffen gyda",
+    "workplace.fullname": "Enw llawn",
+    "workplace.isempty": "yn wag",
+    "workplace.isequalto": "yn hafal i",
+    "workplace.nothingtodisplay": "Dim i'w ddangos",
+    "workplace.resetfilters": "Ailosod hidlyddion",
+    "workplace.roleincontext": "{{$a.role}} yn {{$a.context}}",
+    "workplace.startswith": "dechrau gyda"
 }

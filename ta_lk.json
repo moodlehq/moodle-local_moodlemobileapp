@@ -926,5 +926,16 @@
     "core.week": "வாரம்",
     "core.year": "ஆண்டு",
     "core.years": "ஆண்டுகள்",
-    "core.yes": "ஆம்"
+    "core.yes": "ஆம்",
+    "workplace.coursefiles": "Legacy பாடநெறிக் கோப்புகள்",
+    "workplace.deleted": "அழிக்கப்பட்டது",
+    "workplace.doesnotcontain": "கொண்டிருக்கவில்லை",
+    "workplace.endswith": "முடிவு இதனுடன்: ",
+    "workplace.fullname": "முழுப் பெயர்",
+    "workplace.isempty": "வெறுமையாக இருக்கிறதா",
+    "workplace.isequalto": "சமமானதாக இருக்கிறதா இதற்கு: ",
+    "workplace.moreinfo": "மேலதிக தகவல்",
+    "workplace.nothingtodisplay": "காட்ட எதுவும் இல்லை",
+    "workplace.resetfilters": "வடிகள் மீளமைவு",
+    "workplace.startswith": "தொடக்கம் இதனுடன்:"
 }

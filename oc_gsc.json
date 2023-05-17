@@ -1063,5 +1063,18 @@
     "core.week": "Setmana",
     "core.year": "annada",
     "core.years": "annadas",
-    "core.yes": "Tiò"
+    "core.yes": "Tiò",
+    "freemium.subscriptionfeature_enabled": "Activat",
+    "workplace.contains": "conten",
+    "workplace.coursefiles": "Fichèrs deu cors (obsolet)",
+    "workplace.deleted": "Suprimit",
+    "workplace.doesnotcontain": "conten pas",
+    "workplace.endswith": "s'acaba dab",
+    "workplace.fullname": "Nom complet",
+    "workplace.isempty": "es vueit",
+    "workplace.isequalto": "es egau a",
+    "workplace.nothingtodisplay": "Pas arren d'amuishar",
+    "workplace.resetfilters": "Reïniciauizar los filtres",
+    "workplace.roleincontext": "{{$a.role}} dens {{$a.context}}",
+    "workplace.startswith": "comença dab"
 }

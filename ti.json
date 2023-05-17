@@ -664,5 +664,12 @@
     "core.whyisthisrequired": "ንምንታይ እዩ እዚ ዘድሊ?",
     "core.year": "ዓመት",
     "core.years": "ዓማውቲ",
-    "core.yes": "እወ"
+    "core.yes": "እወ",
+    "freemium.accept": "ንምቅባል",
+    "freemium.subscriptionfeature_enabled": "ዝተፈቐዱ",
+    "workplace.coursefiles": "ውርሻ ፋይላት ዓይንታት ትምህርቲ",
+    "workplace.deleted": "ተደምሲሱ",
+    "workplace.fullname": "ምሉእ ስም",
+    "workplace.moreinfo": "ተወሳኺ ሓበሬታ",
+    "workplace.nothingtodisplay": "ዝረአ ነገር የለን"
 }

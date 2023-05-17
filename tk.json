@@ -464,5 +464,12 @@
     "core.user.editingteacher": "Mugallym",
     "core.user.email": "Email adres",
     "core.user.emailagain": "Email (Täzeden)",
-    "core.user.student": "okuwçy"
+    "core.user.student": "okuwçy",
+    "freemium.accept": "Kabul et",
+    "workplace.contains": "Düzümine girýär -",
+    "workplace.doesnotcontain": "düzümine girenok",
+    "workplace.endswith": "gutarýar şunuň bilen -",
+    "workplace.isempty": "boş",
+    "workplace.isequalto": "deňdir",
+    "workplace.startswith": "başlat şunuň bilen -"
 }

@@ -501,5 +501,12 @@
     "core.strftimetime": "%I:%M %p",
     "core.tag.noresultsfor": "Awukho umphumela we \"{{$a}}\"",
     "core.tag.searchtags": "Cinga ama tags",
-    "core.thisdirection": "ltr"
+    "core.thisdirection": "ltr",
+    "workplace.contains": "contains",
+    "workplace.doesnotcontain": "Akufaki lutho",
+    "workplace.endswith": "kugcina nge",
+    "workplace.isempty": "Akunalutho",
+    "workplace.isequalto": "Kulingana ne",
+    "workplace.resetfilters": "Reset filters",
+    "workplace.startswith": "Qala nge"
 }
