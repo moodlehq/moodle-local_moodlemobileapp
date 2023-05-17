@@ -1839,5 +1839,15 @@
     "core.wsfunctionnotavailable": "Funkcija web servisa nije dostupna.",
     "core.year": "godina",
     "core.years": "godine",
-    "core.yes": "Da"
+    "core.yes": "Da",
+    "freemium.accept": "Prihvati",
+    "freemium.feature_disabledfeatures": "Onemogućene značajke",
+    "freemium.subscriptionfeature_disabled": "Onemogućeno",
+    "freemium.subscriptionfeature_enabled": "Omogućeno",
+    "workplace.coursefiles": "Datoteke e-kolegija",
+    "workplace.deleted": "Izbrisano",
+    "workplace.moreinfo": "Više informacija",
+    "workplace.nothingtodisplay": "Ništa za prikazati",
+    "workplace.roleincontext": "{{$a.role}} u {{$a.context}}",
+    "workplace.teams.fullname": "Puni naziv"
 }

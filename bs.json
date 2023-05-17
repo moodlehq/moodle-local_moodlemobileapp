@@ -1189,5 +1189,11 @@
     "core.weeks": "sedmice",
     "core.year": "godina",
     "core.years": "godine",
-    "core.yes": "Da"
+    "core.yes": "Da",
+    "freemium.subscriptionfeature_enabled": "Omogućeno",
+    "workplace.coursefiles": "Naslijeđene datoteke kursa",
+    "workplace.deleted": "Izbrisano",
+    "workplace.nothingtodisplay": "Nema ničega za prikaz",
+    "workplace.roleincontext": "{{$a.role}} u {{$a.context}}",
+    "workplace.teams.fullname": "Puno ime"
 }

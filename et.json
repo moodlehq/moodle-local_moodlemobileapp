@@ -1765,5 +1765,17 @@
     "core.whyisthisrequired": "Miks seda nõutakse?",
     "core.year": "aasta",
     "core.years": "aastat",
-    "core.yes": "Jah"
+    "core.yes": "Jah",
+    "freemium.accept": "Aktsepteeri",
+    "freemium.feature_customlanguagestrings": "Kohandatud keelestringid",
+    "freemium.feature_custommenuitems": "Kohandatava menüü elemendid",
+    "freemium.feature_disabledfeatures": "Keelatud funktsioonid",
+    "freemium.subscriptionfeature_disabled": "Keelatud",
+    "freemium.subscriptionfeature_enabled": "Lubatud",
+    "workplace.coursefiles": "Kursuse pärandfailid",
+    "workplace.deleted": "Kustutatud",
+    "workplace.moreinfo": "Rohkem teavet",
+    "workplace.nothingtodisplay": "Pole midagi kuvada",
+    "workplace.roleincontext": "Roll {{$a.role}} kontekstis {{$a.context}}",
+    "workplace.teams.fullname": "Täisnimi"
 }

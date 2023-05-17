@@ -454,5 +454,9 @@
     "core.week": "Java",
     "core.year": "viti",
     "core.years": "vitet",
-    "core.yes": "Po"
+    "core.yes": "Po",
+    "freemium.accept": "Pranoj",
+    "workplace.coursefiles": "Skedarët e kursit",
+    "workplace.deleted": "U fshi",
+    "workplace.teams.fullname": "Emri i plotë"
 }

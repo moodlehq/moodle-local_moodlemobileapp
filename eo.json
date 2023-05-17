@@ -555,5 +555,12 @@
     "core.whatisyourage": "Kiom jaraĝa vi estas?",
     "core.year": "jaro",
     "core.years": "jaroj",
-    "core.yes": "Jes"
+    "core.yes": "Jes",
+    "freemium.accept": "Akcepti",
+    "workplace.coursefiles": "Dosieroj hereditaj de la kurso",
+    "workplace.deleted": "Viŝita",
+    "workplace.moreinfo": "Pli da info",
+    "workplace.nothingtodisplay": "Nenio montri",
+    "workplace.roleincontext": "{{$a.role}} en {{$a.context}}",
+    "workplace.teams.fullname": "Antaŭnomo kompletan"
 }

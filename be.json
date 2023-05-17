@@ -414,5 +414,11 @@
     "core.whyisthisrequired": "Чаму гэта патрэбна?",
     "core.year": "год",
     "core.years": "гадоў",
-    "core.yes": "Так"
+    "core.yes": "Так",
+    "freemium.accept": "Прыняць",
+    "workplace.coursefiles": "Спадкаемныя файлы курса",
+    "workplace.deleted": "Выдален.",
+    "workplace.moreinfo": "Болей інфармацыі",
+    "workplace.nothingtodisplay": "Няма чаго паказваць",
+    "workplace.teams.fullname": "Поўнае імя"
 }
