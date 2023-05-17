@@ -2064,12 +2064,5 @@
     "freemium.feature_custommenuitems": "Mukautetut valikkokohdat",
     "freemium.feature_disabledfeatures": "Käytöstä poistetut ominaisuudet",
     "freemium.subscriptionfeature_disabled": "Pois päältä",
-    "freemium.subscriptionfeature_enabled": "Käytössä",
-    "workplace.coursefiles": "Perinteiset kurssitiedostot",
-    "workplace.deleted": "Poistettu",
-    "workplace.moreinfo": "Lisätietoja",
-    "workplace.nothingtodisplay": "Ei näytettävää",
-    "workplace.roleincontext": "{{$a.role}} kontekstissa {{$a.context}}",
-    "workplace.sortbylastaccess": "Järjestä viimeksi käytetyn mukaan",
-    "workplace.teams.fullname": "Koko nimi"
+    "freemium.subscriptionfeature_enabled": "Käytössä"
 }

@@ -14,6 +14,5 @@
     "core.login.loginsteps": "Para tener acceso completo a este sitio, necesitas primeramente crear una cuenta.",
     "core.login.policyagree": "Tú deberás estar de acuerdo con estas condiciones antes de seguir usando este sitio. ¿Estás de acuerdo?",
     "core.mod_url": "Enlace web",
-    "core.notenrolledprofile": "Tú no puedes ver el perfil porque este usuario no está inscrito en este espacio",
-    "workplace.coursefiles": "Archivos de espacio heredados"
+    "core.notenrolledprofile": "Tú no puedes ver el perfil porque este usuario no está inscrito en este espacio"
 }

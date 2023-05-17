@@ -1,6 +1,4 @@
 {
     "core.decsep": ".",
-    "core.listsep": ",",
-    "workplace.orgstructure": "Organization structure",
-    "workplace.teams.orgstructure": "Organization structure"
+    "core.listsep": ","
 }

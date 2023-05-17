@@ -2264,22 +2264,5 @@
     "freemium.feature_custommenuitems": "Прилагођене ставке менија",
     "freemium.feature_disabledfeatures": "Искључене функције",
     "freemium.subscriptionfeature_disabled": "Онемогућено",
-    "freemium.subscriptionfeature_enabled": "Омогућено",
-    "workplace.coursefiles": "Наслеђене датотеке курса",
-    "workplace.deleted": "Обрисано",
-    "workplace.moreinfo": "Више информација",
-    "workplace.nothingtodisplay": "Нема ничега за приказ",
-    "workplace.roleincontext": "{{$a.role}} у {{$a.context}}",
-    "workplace.teams.apply": "Примени",
-    "workplace.teams.filtercontains": "Садржи",
-    "workplace.teams.filterdoesnotcontain": "Не садржи",
-    "workplace.teams.filterendswith": "Завршава се",
-    "workplace.teams.filterisanyvalue": "Је било која вредност",
-    "workplace.teams.filterisempty": "Је празно",
-    "workplace.teams.filterisequalto": "Је једнако",
-    "workplace.teams.filterisnotempty": "Није празно",
-    "workplace.teams.filterisnotequalto": "Није једнако",
-    "workplace.teams.filterstartswith": "Почиње са",
-    "workplace.teams.fullname": "Пуно име",
-    "workplace.teams.resetall": "Ресетуј све"
+    "freemium.subscriptionfeature_enabled": "Омогућено"
 }

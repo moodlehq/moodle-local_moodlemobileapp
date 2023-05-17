@@ -1818,22 +1818,5 @@
     "freemium.feature_custommenuitems": "Egyedi menüpontok",
     "freemium.feature_disabledfeatures": "Kikapcsolt funkciók",
     "freemium.subscriptionfeature_disabled": "Kikapcsolva",
-    "freemium.subscriptionfeature_enabled": "Bekapcsolva",
-    "workplace.coursefiles": "Korábbi kurzusállományok",
-    "workplace.deleted": "Törölve",
-    "workplace.moreinfo": "További részletek",
-    "workplace.nothingtodisplay": "Nincs mit megjeleníteni",
-    "workplace.roleincontext": "{{$a.role}} {{$a.context}} környezetben",
-    "workplace.teams.apply": "Alkalmaz",
-    "workplace.teams.filtercontains": "Tartalmaz:",
-    "workplace.teams.filterdoesnotcontain": "Nem tartalmaz:",
-    "workplace.teams.filterendswith": "Vége:",
-    "workplace.teams.filterisanyvalue": "Tetszőleges érték",
-    "workplace.teams.filterisempty": "Üres",
-    "workplace.teams.filterisequalto": "egyenlő ezzel",
-    "workplace.teams.filterisnotempty": "Nem üres",
-    "workplace.teams.filterisnotequalto": "Nem egyenlő",
-    "workplace.teams.filterstartswith": "Kezdete:",
-    "workplace.teams.fullname": "Teljes név",
-    "workplace.teams.resetall": "Az összes visszaállítása"
+    "freemium.subscriptionfeature_enabled": "Bekapcsolva"
 }

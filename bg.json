@@ -1571,14 +1571,5 @@
     "freemium.accept": "Приемам",
     "freemium.feature_disabledfeatures": "Деактивирани функции",
     "freemium.subscriptionfeature_disabled": "Изключено",
-    "freemium.subscriptionfeature_enabled": "Разрешено",
-    "workplace.continue": "Продължаване",
-    "workplace.coursefiles": "Остарели файлове на курса",
-    "workplace.deleted": "Изтрит",
-    "workplace.moreinfo": "Повече информация",
-    "workplace.nothingtodisplay": "Няма нищо за показване",
-    "workplace.roleincontext": "{{$a.role}} в контекст {{$a.context}}",
-    "workplace.sortbyname": "Подреждане по име",
-    "workplace.teams.apply": "Прилагане",
-    "workplace.teams.fullname": "Пълно наименование"
+    "freemium.subscriptionfeature_enabled": "Разрешено"
 }

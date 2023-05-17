@@ -2324,11 +2324,5 @@
     "freemium.feature_custommenuitems": "Postavke menija po meri",
     "freemium.feature_disabledfeatures": "Onemogočene funkcije",
     "freemium.subscriptionfeature_disabled": "Onemogočeno",
-    "freemium.subscriptionfeature_enabled": "Omogočeno",
-    "workplace.coursefiles": "Podedovane datoteke predmeta",
-    "workplace.deleted": "Izbrisano",
-    "workplace.moreinfo": "Več o tem",
-    "workplace.nothingtodisplay": "Ničesar za prikaz",
-    "workplace.roleincontext": "{{$a.role}} v {{$a.context}}",
-    "workplace.teams.fullname": "Polno ime"
+    "freemium.subscriptionfeature_enabled": "Omogočeno"
 }

@@ -1,5 +1,4 @@
 {
     "core.decsep": ",",
-    "core.listsep": ";",
-    "workplace.certified": "Certificeret"
+    "core.listsep": ";"
 }

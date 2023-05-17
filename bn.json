@@ -1192,9 +1192,5 @@
     "core.years": "বছর",
     "core.yes": "হ্যাঁ",
     "freemium.accept": "গ্রহণ করা",
-    "freemium.subscriptionfeature_enabled": "সক্রিয় করুন",
-    "workplace.coursefiles": "উত্তরাধিকার পাঠ্যক্রম ফাইলসমূহ",
-    "workplace.deleted": "মুছে ফেলা হয়েছে",
-    "workplace.nothingtodisplay": "প্রদর্শনের জন্য কিছুই নেই",
-    "workplace.teams.fullname": "পূর্ণ নাম"
+    "freemium.subscriptionfeature_enabled": "সক্রিয় করুন"
 }
