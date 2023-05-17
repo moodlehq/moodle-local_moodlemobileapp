@@ -879,5 +879,11 @@
     "core.weeks": "هەفتەکان",
     "core.year": "ساڵ",
     "core.years": "ساڵەکان",
-    "core.yes": "بەڵێ"
+    "core.yes": "بەڵێ",
+    "workplace.coursefiles": "فایلە کۆنەکانی کۆرس",
+    "workplace.deleted": "سڕایەوە",
+    "workplace.moreinfo": "زانیاری زیاتر",
+    "workplace.nothingtodisplay": "هیچ شتێک نیە بۆ نیشاندان",
+    "workplace.roleincontext": "{{$a.role}} لەناو {{$a.context}}",
+    "workplace.teams.fullname": "ناوی تەواو"
 }

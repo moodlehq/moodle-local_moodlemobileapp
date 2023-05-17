@@ -944,5 +944,10 @@
     "core.week": "வாரம்",
     "core.year": "ஆண்டு",
     "core.years": "ஆண்டுகள்",
-    "core.yes": "ஆம்"
+    "core.yes": "ஆம்",
+    "workplace.coursefiles": "Legacy பாடநெறிக் கோப்புகள்",
+    "workplace.deleted": "அழிக்கப்பட்டது",
+    "workplace.moreinfo": "மேலதிக தகவல்",
+    "workplace.nothingtodisplay": "காட்ட எதுவும் இல்லை",
+    "workplace.teams.fullname": "முழுப் பெயர்"
 }

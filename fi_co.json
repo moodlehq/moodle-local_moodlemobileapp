@@ -30,5 +30,6 @@
     "core.listsep": ";",
     "core.notenrolledprofile": "Profiilia ei voida näyttää, sillä tämä käyttäjä ei ole kirjautuneena tähän työtilaan.",
     "core.selectacourse": "Valitse työtila",
-    "core.user.noparticipants": "Tälle työtilalle ei löytynyt osallistujia"
+    "core.user.noparticipants": "Tälle työtilalle ei löytynyt osallistujia",
+    "workplace.coursefiles": "Perinteiset työtilatiedostot"
 }

@@ -2436,5 +2436,22 @@
     "freemium.feature_custommenuitems": "Untuk daftar lengkap pengidentifikasi string, lihat dokumentasi.",
     "freemium.feature_disabledfeatures": "Fitur yang dinonaktifkan",
     "freemium.subscriptionfeature_disabled": "Nonaktifkan",
-    "freemium.subscriptionfeature_enabled": "Aktifkan"
+    "freemium.subscriptionfeature_enabled": "Aktifkan",
+    "workplace.coursefiles": "Berkas kursus lawas",
+    "workplace.deleted": "Dihapus",
+    "workplace.moreinfo": "Info lebih lanjut",
+    "workplace.nothingtodisplay": "Tidak ada yang ditampilkan",
+    "workplace.roleincontext": "{{$a.role}} pada {{$a.context}}",
+    "workplace.teams.apply": "Terapkan",
+    "workplace.teams.filtercontains": "Berisi",
+    "workplace.teams.filterdoesnotcontain": "Tidak mengandung",
+    "workplace.teams.filterendswith": "Diakhiri dengan",
+    "workplace.teams.filterisanyvalue": "nilai apa pun",
+    "workplace.teams.filterisempty": "kosong",
+    "workplace.teams.filterisequalto": "sama dengan",
+    "workplace.teams.filterisnotempty": "tidak kosong",
+    "workplace.teams.filterisnotequalto": "tidak sama dengan",
+    "workplace.teams.filterstartswith": "Dimulai dengan",
+    "workplace.teams.fullname": "Nama lengkap",
+    "workplace.teams.resetall": "Setel ulang semua"
 }

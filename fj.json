@@ -208,5 +208,9 @@
     "core.week": "Macawa",
     "core.year": "Yabaki",
     "core.years": "Vei yabaki",
-    "core.yes": "Io"
+    "core.yes": "Io",
+    "workplace.coursefiles": "Faile ni lesoni",
+    "workplace.deleted": "Sa bokoci oti",
+    "workplace.nothingtodisplay": "Sega ni dua na ka me vakaraitaki",
+    "workplace.teams.fullname": "Yacamu taucoko"
 }

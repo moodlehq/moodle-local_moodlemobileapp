@@ -1695,5 +1695,9 @@
     "core.yes": "Ha",
     "core.youreoffline": "Siz tarmoqsiz holdasiz",
     "core.youreonline": "Siz yana tarmoqdasiz",
-    "freemium.accept": "Qabul qilish"
+    "freemium.accept": "Qabul qilish",
+    "workplace.coursefiles": "Eskirgan kurs fayllari",
+    "workplace.deleted": "O'chirib tashlandi",
+    "workplace.nothingtodisplay": "Ko'rsatgani hech narsa yo'q",
+    "workplace.teams.fullname": "To'liq ism"
 }

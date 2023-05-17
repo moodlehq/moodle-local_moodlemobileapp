@@ -1710,5 +1710,11 @@
     "core.youreonline": "Bạn đang trở lại trực tuyến",
     "freemium.accept": "Chấp thuận",
     "freemium.subscriptionfeature_disabled": "Vô hiệu hóa",
-    "freemium.subscriptionfeature_enabled": "Được kích hoạt"
+    "freemium.subscriptionfeature_enabled": "Được kích hoạt",
+    "workplace.coursefiles": "Các tập tin hợp lệ cho khóa học",
+    "workplace.deleted": "Đã xoá",
+    "workplace.moreinfo": "Thông tin thêm",
+    "workplace.nothingtodisplay": "Không có gì để hiển thị",
+    "workplace.roleincontext": "{{$a.role}} trong {{$a.context}}",
+    "workplace.teams.fullname": "Tên đầy đủ"
 }

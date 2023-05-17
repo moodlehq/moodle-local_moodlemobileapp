@@ -659,5 +659,8 @@
     "core.year": "წელი",
     "core.years": "წლები",
     "core.yes": "დიახ",
-    "freemium.accept": "დაეთანხმე"
+    "freemium.accept": "დაეთანხმე",
+    "workplace.deleted": "წაშლილია",
+    "workplace.nothingtodisplay": "საჩვენებელი არაფერია",
+    "workplace.teams.fullname": "სრული სახელი"
 }
