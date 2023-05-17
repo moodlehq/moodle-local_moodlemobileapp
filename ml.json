@@ -225,5 +225,9 @@
     "core.whyisthisrequired": "എന്തുകൊണ്ട് ഇത് ആവശ്യമാണ്?",
     "core.year": "വർഷം",
     "core.years": "വർഷങ്ങൾ",
-    "core.yes": "അതെ"
+    "core.yes": "അതെ",
+    "freemium.accept": "സ്വീകരിക്കുക",
+    "workplace.coursefiles": "പഴയ പഠനക്രമ രേഖകള്‍",
+    "workplace.deleted": "നീക്കം ചെയ്തു",
+    "workplace.teams.fullname": "മുഴുവന്‍ പേരു"
 }

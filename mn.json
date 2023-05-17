@@ -2194,5 +2194,18 @@
     "core.years": "жил",
     "core.yes": "Тийм",
     "core.youreoffline": "Та оффлайн горимд байна",
-    "core.youreonline": "Та онлайн эргэн ирлээ"
+    "core.youreonline": "Та онлайн эргэн ирлээ",
+    "freemium.accept": "Зөвшөөрөх",
+    "freemium.feature_customlanguagestrings": "Тусгай хэлний тэмдэгт мөрүүд",
+    "freemium.feature_custommenuitems": "Тусгай цэсний зүйлс",
+    "freemium.feature_disabledfeatures": "Идэвхгүй функцүүд",
+    "freemium.subscriptionfeature_disabled": "Идэвхгүй",
+    "freemium.subscriptionfeature_enabled": "Идэвхжүүлсэн",
+    "workplace.coursefiles": "Хуучин хичээлийн файлууд",
+    "workplace.dates": "Огноо",
+    "workplace.deleted": "Устгагдсан",
+    "workplace.moreinfo": "Дэлгэрэнгүй мэдээлэл",
+    "workplace.nothingtodisplay": "Харуулах зүйл алга",
+    "workplace.roleincontext": "{{$a.context}} дахь {{$a.role}}",
+    "workplace.teams.fullname": "Бүтэн нэр"
 }

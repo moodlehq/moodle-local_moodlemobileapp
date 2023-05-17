@@ -1148,5 +1148,12 @@
     "core.weeks": "setmanas",
     "core.year": "annada",
     "core.years": "annadas",
-    "core.yes": "Òc"
+    "core.yes": "Òc",
+    "freemium.subscriptionfeature_enabled": "Activat",
+    "workplace.coursefiles": "Fichièrs del cors (obsolet)",
+    "workplace.deleted": "Suprimit",
+    "workplace.moreinfo": "Mai d'informacion",
+    "workplace.nothingtodisplay": "Pas res d'afichar",
+    "workplace.roleincontext": "{{$a.role}} dins {{$a.context}}",
+    "workplace.teams.fullname": "Nom complet"
 }

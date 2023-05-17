@@ -120,5 +120,8 @@
     "core.week": "septimana",
     "core.year": "annus",
     "core.years": "annī",
-    "core.yes": "sīc"
+    "core.yes": "sīc",
+    "workplace.coursefiles": "scapī classis",
+    "workplace.deleted": "delētus",
+    "workplace.teams.fullname": "nōmen"
 }

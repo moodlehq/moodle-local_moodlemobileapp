@@ -438,5 +438,13 @@
     "core.whyisthisrequired": "Pro ite est netzessàriu?",
     "core.year": "annu",
     "core.years": "annos",
-    "core.yes": "Eja"
+    "core.yes": "Eja",
+    "freemium.accept": "Atzeta",
+    "freemium.subscriptionfeature_disabled": "Disativadu",
+    "freemium.subscriptionfeature_enabled": "Ativa",
+    "workplace.coursefiles": "Archìvios retrodatados de su cursu",
+    "workplace.deleted": "Cantzelladu",
+    "workplace.moreinfo": "Àteras informatziones",
+    "workplace.nothingtodisplay": "Nudda de ammustrare",
+    "workplace.teams.fullname": "Nòmine e sangunadu"
 }

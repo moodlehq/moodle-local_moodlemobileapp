@@ -925,5 +925,11 @@
     "core.whyisthisrequired": "මෙය අවශ්ය වන්නේ ඇයි?",
     "core.year": "අවුරුද්ද",
     "core.years": "අවුරුදු",
-    "core.yes": "ඔව්"
+    "core.yes": "ඔව්",
+    "freemium.accept": "පිළිගන්න",
+    "workplace.coursefiles": "උරුම පාඨමාලා ‍ගොනු",
+    "workplace.deleted": "මකා හරින ලදි",
+    "workplace.moreinfo": "තවත් උදව්",
+    "workplace.nothingtodisplay": "පෙන්වීමට කිසිවක් නොමැත.",
+    "workplace.teams.fullname": "සම්පූර්ණ නම"
 }

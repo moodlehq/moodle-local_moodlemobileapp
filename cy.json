@@ -1097,5 +1097,11 @@
     "core.weeks": "wythnos",
     "core.year": "blwyddyn",
     "core.years": "blynyddoedd",
-    "core.yes": "Iawn"
+    "core.yes": "Iawn",
+    "freemium.subscriptionfeature_enabled": "Wedi'i alluogi",
+    "workplace.coursefiles": "Hen ffeiliau cwrs",
+    "workplace.deleted": "Wedi'i ddileu",
+    "workplace.nothingtodisplay": "Dim i'w ddangos",
+    "workplace.roleincontext": "{{$a.role}} yn {{$a.context}}",
+    "workplace.teams.fullname": "Enw llawn"
 }

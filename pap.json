@@ -49,5 +49,6 @@
     "core.mod_assign": "Tarea",
     "core.settings.accessstatement": "Declaración di accesibilidad",
     "core.settings.debugdisplay": "Mustra mensahe di falta",
-    "core.sitemaintenance": "E sitio ta den mantencion i no ta disponibel aworaki"
+    "core.sitemaintenance": "E sitio ta den mantencion i no ta disponibel aworaki",
+    "freemium.accept": "Accepta"
 }

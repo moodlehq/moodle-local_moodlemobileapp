@@ -811,5 +811,12 @@
     "core.whyisthisrequired": "Bakit kailangan ito?",
     "core.year": "taon",
     "core.years": "taon",
-    "core.yes": "Oo"
+    "core.yes": "Oo",
+    "freemium.accept": "Tanggapin",
+    "freemium.subscriptionfeature_enabled": "Naka-enable",
+    "workplace.coursefiles": "Mga legacy na file ng kurso",
+    "workplace.deleted": "Nabura na",
+    "workplace.moreinfo": "Marami pang impormasyon",
+    "workplace.nothingtodisplay": "Walang maipapakita",
+    "workplace.teams.fullname": "Buong pangalan"
 }

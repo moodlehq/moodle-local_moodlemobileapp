@@ -42,5 +42,6 @@
     "core.user.participants": "Participantes",
     "core.user.phone1": "Teléfono",
     "core.user.phone2": "Celular",
-    "core.user.profile": "Perfil"
+    "core.user.profile": "Perfil",
+    "freemium.accept": "Aceptar"
 }

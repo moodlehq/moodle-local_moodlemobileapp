@@ -655,5 +655,9 @@
     "core.week": "კვირა",
     "core.year": "წელი",
     "core.years": "წლები",
-    "core.yes": "დიახ"
+    "core.yes": "დიახ",
+    "freemium.accept": "დაეთანხმე",
+    "workplace.deleted": "წაშლილია",
+    "workplace.nothingtodisplay": "საჩვენებელი არაფერია",
+    "workplace.teams.fullname": "სრული სახელი"
 }
