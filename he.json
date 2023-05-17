@@ -1876,5 +1876,17 @@
     "core.years": "שנים",
     "core.yes": "כן",
     "core.youreoffline": "אין חיבור לרשת",
-    "core.youreonline": "חיבור לרשת חודש"
+    "core.youreonline": "חיבור לרשת חודש",
+    "workplace.contains": "מכיל",
+    "workplace.deleted": "נמחק",
+    "workplace.doesnotcontain": "לא מכיל",
+    "workplace.endswith": "נגמר ב-",
+    "workplace.fullname": "שם מלא",
+    "workplace.isempty": "הינו ריק",
+    "workplace.isequalto": "שווה ל-",
+    "workplace.learning": "למידה",
+    "workplace.myteams": "צוותים",
+    "workplace.resetfilters": "איפוס שדות",
+    "workplace.roleincontext": "{{$a.role}} ב- {{$a.context}}",
+    "workplace.startswith": "התחל ב-"
 }

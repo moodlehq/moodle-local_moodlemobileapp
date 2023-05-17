@@ -1706,5 +1706,15 @@
     "core.whyisthisrequired": "Miért van erre szükség?",
     "core.year": "év",
     "core.years": "év",
-    "core.yes": "Igen"
+    "core.yes": "Igen",
+    "workplace.contains": "tartalmaz",
+    "workplace.deleted": "Törölve",
+    "workplace.doesnotcontain": "nem tartalmaz",
+    "workplace.endswith": "vége",
+    "workplace.fullname": "Teljes név",
+    "workplace.isempty": "üres",
+    "workplace.isequalto": "egyenlő",
+    "workplace.resetfilters": "Szűrők visszaállítása",
+    "workplace.roleincontext": "{{$a.role}} {{$a.context}} környezetben",
+    "workplace.startswith": "kezdete"
 }

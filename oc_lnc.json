@@ -1121,5 +1121,15 @@
     "core.viewprofile": "Afichar lo perfil",
     "core.year": "annada",
     "core.years": "annadas",
-    "core.yes": "Òc"
+    "core.yes": "Òc",
+    "workplace.contains": "conten",
+    "workplace.deleted": "Suprimit",
+    "workplace.doesnotcontain": "conten pas",
+    "workplace.endswith": "s'acaba amb",
+    "workplace.fullname": "Nom complet",
+    "workplace.isempty": "es void",
+    "workplace.isequalto": "es egal a",
+    "workplace.resetfilters": "Reïnicializar los filtres",
+    "workplace.roleincontext": "{{$a.role}} dins {{$a.context}}",
+    "workplace.startswith": "comença amb"
 }

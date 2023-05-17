@@ -271,6 +271,7 @@
     "core.browser": "Browser",
     "core.cannotconnect": "Keine Verbindung zur Website",
     "core.cannotdownloadfiles": "Deine Schule oder dein Lernanbieter haben das Herunterladen von Dateien deaktiviert.",
+    "core.cannotinstallapk": "Dateien mit der Endung .apk können nicht installiert werden.",
     "core.cannotopeninapp": "Diese Datei funktioniert auf diesem Gerät möglicherweise nicht. Möchtest du sie trotzdem öffnen?",
     "core.cannotopeninappdownload": "Diese Datei funktioniert auf diesem Gerät möglicherweise nicht. Möchtest du sie trotzdem herunterladen?",
     "core.captureaudio": "Audio aufnehmen",

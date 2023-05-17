@@ -2238,5 +2238,17 @@
     "core.years": "anos",
     "core.yes": "Si",
     "core.youreoffline": "Vostede está sen conexión",
-    "core.youreonline": "Vostede volve estar en liña"
+    "core.youreonline": "Vostede volve estar en liña",
+    "workplace.contains": "contén",
+    "workplace.deleted": "Eliminado",
+    "workplace.doesnotcontain": "non contén",
+    "workplace.endswith": "remata en",
+    "workplace.filterstab": "Filtros",
+    "workplace.fullname": "Nome completo",
+    "workplace.isempty": "está baleiro",
+    "workplace.isequalto": "é igual a",
+    "workplace.isnotempty": "Non está baleiro",
+    "workplace.resetfilters": "Reiniciar os filtros",
+    "workplace.roleincontext": "{{$a.role}} en {{$a.context}}",
+    "workplace.startswith": "comeza con"
 }

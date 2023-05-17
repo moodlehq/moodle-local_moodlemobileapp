@@ -1099,5 +1099,15 @@
     "core.whyisthisrequired": "Hvers vegna er þessa krafist?",
     "core.year": "ár",
     "core.years": "ár",
-    "core.yes": "Já"
+    "core.yes": "Já",
+    "workplace.contains": "Inniheldur",
+    "workplace.deleted": "Eytt",
+    "workplace.doesnotcontain": "Inniheldur ekki",
+    "workplace.endswith": "endar á",
+    "workplace.fullname": "Fullt nafn",
+    "workplace.isempty": "er óskráð",
+    "workplace.isequalto": "er jafnt og",
+    "workplace.resetfilters": "Hreinsa síur",
+    "workplace.roleincontext": "{{$a.role}} í {{$a.context}}",
+    "workplace.startswith": "hefst á"
 }

@@ -2237,5 +2237,17 @@
     "core.years": "ປີ",
     "core.yes": "ແມ່ນແລ້ວ",
     "core.youreoffline": "ທ່ານໄດ້ອອຟລາຍ",
-    "core.youreonline": "ທ່ານກັບມາອອນລາຍ"
+    "core.youreonline": "ທ່ານກັບມາອອນລາຍ",
+    "workplace.contains": "ບັນຈຸມີ",
+    "workplace.deleted": "ລຶບແລ້ວ",
+    "workplace.doesnotcontain": "ບໍ່ໄດ້ບັນຈຸ",
+    "workplace.endswith": "ສິ້ນສຸດກັບ",
+    "workplace.filterstab": "ຕົວກອງ",
+    "workplace.fullname": "ຊື່ເຕັມ",
+    "workplace.isempty": "ແມ່ນຫວ່າງເປົ່າ",
+    "workplace.isequalto": "ແມ່ນທຽບເທົ່າກັບ",
+    "workplace.isnotempty": "ບໍ່ຫວ່າງເປົ່າ",
+    "workplace.resetfilters": "ຕັ້ງຄ່າຕົວກັ່ນຕອງຄືນໃໝ່",
+    "workplace.roleincontext": "{{$a.role}} ໃນ {{$a.context}}",
+    "workplace.startswith": "ເລີ່ມດ້ວຍ"
 }

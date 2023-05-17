@@ -516,5 +516,7 @@
     "core.whyisthisrequired": "Hví er hetta kravt?",
     "core.year": "ár",
     "core.years": "ár",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.deleted": "Strikað",
+    "workplace.fullname": "Fult navn"
 }

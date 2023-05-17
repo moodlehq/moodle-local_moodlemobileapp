@@ -1728,5 +1728,15 @@
     "core.years": "년",
     "core.yes": "예",
     "core.youreoffline": "오프라인 상태입니다",
-    "core.youreonline": "다시 온라인 상태입니다"
+    "core.youreonline": "다시 온라인 상태입니다",
+    "workplace.contains": "포함",
+    "workplace.deleted": "지워짐",
+    "workplace.doesnotcontain": "제외",
+    "workplace.endswith": "끝말",
+    "workplace.fullname": "전체 이름",
+    "workplace.isempty": "비었음",
+    "workplace.isequalto": "동일",
+    "workplace.resetfilters": "필터 초기화",
+    "workplace.roleincontext": "{{$a.context}}에서 {{$a.role}}",
+    "workplace.startswith": "시작"
 }

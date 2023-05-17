@@ -2239,5 +2239,16 @@
     "core.years": "år",
     "core.yes": "Ja",
     "core.youreoffline": "Du är offline",
-    "core.youreonline": "Du är online igen"
+    "core.youreonline": "Du är online igen",
+    "workplace.contains": "innehåller",
+    "workplace.deleted": "Borttaget",
+    "workplace.doesnotcontain": "innehåller inte",
+    "workplace.endswith": "slutar med",
+    "workplace.fullname": "Fullständigt namn",
+    "workplace.isempty": "är tom",
+    "workplace.isequalto": "är lika med",
+    "workplace.resetfilters": "Återställ filter",
+    "workplace.roleincontext": "{{$a.role}} i {{$a.context}}",
+    "workplace.startswith": "börjar med",
+    "workplace.tablabel": "Mer"
 }

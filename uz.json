@@ -1715,5 +1715,14 @@
     "core.years": "yillar",
     "core.yes": "Ha",
     "core.youreoffline": "Siz tarmoqsiz holdasiz",
-    "core.youreonline": "Siz yana tarmoqdasiz"
+    "core.youreonline": "Siz yana tarmoqdasiz",
+    "workplace.contains": "o'z ichiga oladi",
+    "workplace.deleted": "O'chirib tashlandi",
+    "workplace.doesnotcontain": "o'z ichiga olmaydi",
+    "workplace.endswith": "bilan tugaydi",
+    "workplace.fullname": "To'liq ism",
+    "workplace.isempty": "bo'sh",
+    "workplace.isequalto": "ga teng",
+    "workplace.resetfilters": "Tiklash maydonlari",
+    "workplace.startswith": "bila boshlanadi"
 }

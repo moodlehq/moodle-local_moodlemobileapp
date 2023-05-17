@@ -212,5 +212,6 @@
     "core.user.phone1": "Fòn",
     "core.user.phone2": "Fòn-làimh",
     "core.user.student": "Oileanach",
-    "core.viewprofile": "Seall air chunntas"
+    "core.viewprofile": "Seall air chunntas",
+    "workplace.fullname": "Ainm slàn"
 }

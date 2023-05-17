@@ -1386,6 +1386,7 @@
     "core.cancel": "Batal",
     "core.cannotconnect": "Tidak dapat terhubungTidak dapat terhubung",
     "core.cannotdownloadfiles": "Sekolah atau penyedia pembelajaran Anda telah menonaktifkan pengunduhan berkas.",
+    "core.cannotinstallapk": "Tidak dapat menginstal berkas .apk",
     "core.cannotopeninapp": "Berkas mungkin tidak akan berfungsi seperti diharapkan pada perangkat ini. Apakah Anda tetap ingin membukanya?",
     "core.cannotopeninappdownload": "Berkas mungkin tidak akan berfungsi seperti diharapkan pada perangkat ini. Apakah Anda tetap ingin mengunduhnya?",
     "core.captureaudio": "Rekam audio",
@@ -2223,5 +2224,15 @@
     "core.years": "Tahun",
     "core.yes": "Ya",
     "core.youreoffline": "Anda sedang offline",
-    "core.youreonline": "Anda kembali online"
+    "core.youreonline": "Anda kembali online",
+    "workplace.contains": "mengandung",
+    "workplace.deleted": "Dihapus",
+    "workplace.doesnotcontain": "tidak mengandung",
+    "workplace.endswith": "diakhiri dengan",
+    "workplace.fullname": "Nama lengkap",
+    "workplace.isempty": "kosong",
+    "workplace.isequalto": "sama dengan",
+    "workplace.resetfilters": "Setel ulang filter",
+    "workplace.roleincontext": "{{$a.role}} pada {{$a.context}}",
+    "workplace.startswith": "diawali dengan"
 }

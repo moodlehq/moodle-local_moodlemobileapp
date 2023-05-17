@@ -1386,6 +1386,7 @@
     "core.cancel": "Cancelar",
     "core.cannotconnect": "Não é possível estabelecer a ligação",
     "core.cannotdownloadfiles": "A descarga de ficheiros está desativada. Por favor, contacte o administrador do site.",
+    "core.cannotinstallapk": "Por questões de segurança, não pode instalar aplicações desconhecidas no seu dispositivo a partir desta aplicação. Abra o ficheiro no navegador.",
     "core.cannotopeninapp": "Este ficheiro pode não funcionar como esperado neste dispositivo. Pretende abri-lo mesmo assim?",
     "core.cannotopeninappdownload": "Este ficheiro pode não funcionar como esperado neste dispositivo. Pretende descarregá-lo mesmo assim?",
     "core.captureaudio": "Gravar áudio",
@@ -2239,5 +2240,16 @@
     "core.years": "anos",
     "core.yes": "Sim",
     "core.youreoffline": "O seu dispositivo está offline",
-    "core.youreonline": "O seu dispositivo está online novamente"
+    "core.youreonline": "O seu dispositivo está online novamente",
+    "workplace.apply": "Aplicar",
+    "workplace.contains": "contém",
+    "workplace.deleted": "Apagado(a)",
+    "workplace.doesnotcontain": "não contém",
+    "workplace.endswith": "termina em",
+    "workplace.fullname": "Nome completo",
+    "workplace.isempty": "está vazio",
+    "workplace.isequalto": "é igual a",
+    "workplace.resetfilters": "Reiniciar filtros",
+    "workplace.roleincontext": "{{$a.role}} em {{$a.context}}",
+    "workplace.startswith": "começa com"
 }

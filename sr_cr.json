@@ -2082,5 +2082,15 @@
     "core.wsfunctionnotavailable": "Функција веб service није доступна.",
     "core.year": "година",
     "core.years": "година",
-    "core.yes": "Да"
+    "core.yes": "Да",
+    "workplace.contains": "садржи",
+    "workplace.deleted": "Обрисано",
+    "workplace.doesnotcontain": "не садржи",
+    "workplace.endswith": "завршава се са",
+    "workplace.fullname": "Пуно име",
+    "workplace.isempty": "је празно",
+    "workplace.isequalto": "је једнако",
+    "workplace.resetfilters": "Ресетуј филтере",
+    "workplace.roleincontext": "{{$a.role}} у {{$a.context}}",
+    "workplace.startswith": "почиње са"
 }

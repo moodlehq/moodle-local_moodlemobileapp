@@ -1382,6 +1382,7 @@
     "core.cancel": "Anuluj",
     "core.cannotconnect": "Nie można się połączyć",
     "core.cannotdownloadfiles": "Pobieranie plików jest wyłączone. Skontaktuj się z administratorem strony.",
+    "core.cannotinstallapk": "Nie można zainstalować plików .apk",
     "core.cannotopeninapp": "Ten plik może nie działać na tym urządzeniu. Czy nadal chcesz go otworzyć?",
     "core.cannotopeninappdownload": "Ten plik może nie działać na tym urządzeniu. Czy nadal chcesz go pobrać?",
     "core.captureaudio": "Zapisz audio",
@@ -2219,5 +2220,16 @@
     "core.years": "lata",
     "core.yes": "Tak",
     "core.youreoffline": "Jesteś offline",
-    "core.youreonline": "Jesteś ponownie online"
+    "core.youreonline": "Jesteś ponownie online",
+    "workplace.contains": "zawiera",
+    "workplace.deleted": "Usunięto",
+    "workplace.doesnotcontain": "nie zawiera",
+    "workplace.endswith": "kończy się na",
+    "workplace.fullname": "Pełna nazwa",
+    "workplace.isempty": "jest pusty",
+    "workplace.isequalto": "równa się",
+    "workplace.resetfilters": "Resetuj pola",
+    "workplace.roleincontext": "{{$a.role}} w kontekście {{$a.context}}",
+    "workplace.startswith": "rozpoczyna się od",
+    "workplace.tablabel": "Więcej"
 }

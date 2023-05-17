@@ -1910,5 +1910,14 @@
     "core.years": "жил",
     "core.yes": "Тийм",
     "core.youreoffline": "Та оффлайн горимд байна",
-    "core.youreonline": "Та онлайн эргэн ирлээ"
+    "core.youreonline": "Та онлайн эргэн ирлээ",
+    "workplace.contains": "агуулсан",
+    "workplace.deleted": "Устгагдсан",
+    "workplace.doesnotcontain": "агуулаагүй",
+    "workplace.endswith": "-ээр төгсдөг",
+    "workplace.fullname": "Бүтэн нэр",
+    "workplace.isempty": "хоосон байна",
+    "workplace.isequalto": "тэнцүү байна",
+    "workplace.roleincontext": "{{$a.context}} дахь {{$a.role}}",
+    "workplace.startswith": "-ээс эхэлдэг"
 }

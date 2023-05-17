@@ -1304,5 +1304,15 @@
     "core.whyisthisrequired": "De ce este necesar acest lucru?",
     "core.year": "an",
     "core.years": "ani",
-    "core.yes": "Da"
+    "core.yes": "Da",
+    "workplace.contains": "conține",
+    "workplace.deleted": "Șters",
+    "workplace.doesnotcontain": "nu conține",
+    "workplace.endswith": "se termină în",
+    "workplace.fullname": "Nume complet",
+    "workplace.isempty": "este gol",
+    "workplace.isequalto": "este egal cu",
+    "workplace.resetfilters": "Resetează filtre",
+    "workplace.roleincontext": "{{$a.role}} în {{$a.context}}",
+    "workplace.startswith": "începe cu"
 }

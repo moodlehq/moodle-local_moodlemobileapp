@@ -802,5 +802,8 @@
     "core.whyisthisrequired": "Bakit kailangan ito?",
     "core.year": "taon",
     "core.years": "taon",
-    "core.yes": "Oo"
+    "core.yes": "Oo",
+    "workplace.deleted": "Nabura na",
+    "workplace.fullname": "Buong pangalan",
+    "workplace.resetfilters": "Ireset ang field"
 }

@@ -115,5 +115,7 @@
     "core.view": "aspectus",
     "core.year": "annus",
     "core.years": "annī",
-    "core.yes": "sīc"
+    "core.yes": "sīc",
+    "workplace.deleted": "delētus",
+    "workplace.fullname": "nōmen"
 }

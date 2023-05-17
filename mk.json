@@ -1191,5 +1191,15 @@
     "core.whyisthisrequired": "Зошто е ова потребно?",
     "core.year": "година",
     "core.years": "години",
-    "core.yes": "Да"
+    "core.yes": "Да",
+    "workplace.contains": "содржи",
+    "workplace.deleted": "Избришано",
+    "workplace.doesnotcontain": "не содржи",
+    "workplace.endswith": "завржува со",
+    "workplace.fullname": "Целосно име",
+    "workplace.isempty": "е празно",
+    "workplace.isequalto": "е еднакво на",
+    "workplace.resetfilters": "Ресетирај филтри",
+    "workplace.roleincontext": "{{$a.role}} во {{$a.context}}",
+    "workplace.startswith": "започнува со"
 }

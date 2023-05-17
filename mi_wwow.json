@@ -989,5 +989,14 @@
     "core.viewprofile": "Tiro kōtaha",
     "core.year": "tau",
     "core.years": "ngā tau",
-    "core.yes": "Āe"
+    "core.yes": "Āe",
+    "workplace.contains": "Whai",
+    "workplace.deleted": "Kua Mukua",
+    "workplace.doesnotcontain": "Kāore e whai mana",
+    "workplace.endswith": "ka mutu kme te",
+    "workplace.fullname": "Ingoa katoa",
+    "workplace.isempty": "kua wātea",
+    "workplace.isequalto": "kua ōrite ki",
+    "workplace.resetfilters": "Tautuhi anō ngā tātari",
+    "workplace.startswith": "Tīmata ai ki te"
 }

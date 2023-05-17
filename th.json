@@ -608,5 +608,7 @@
     "core.whyisthisrequired": "ทำไมถึงต้องการข้อมูลนี้?",
     "core.year": "ปี",
     "core.years": "ปี",
-    "core.yes": "ใช่"
+    "core.yes": "ใช่",
+    "workplace.deleted": "ลบแล้ว",
+    "workplace.fullname": "ชื่อเต็ม"
 }

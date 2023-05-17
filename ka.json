@@ -648,5 +648,8 @@
     "core.viewprofile": "პროფილის ნახვა",
     "core.year": "წელი",
     "core.years": "წლები",
-    "core.yes": "დიახ"
+    "core.yes": "დიახ",
+    "workplace.deleted": "წაშლილია",
+    "workplace.fullname": "სრული სახელი",
+    "workplace.resetfilters": "გადატვირთე ფილტრები"
 }

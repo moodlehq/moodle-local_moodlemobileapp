@@ -728,5 +728,14 @@
     "core.viewprofile": "Peržiūrėti profilį",
     "core.year": "metai",
     "core.years": "metai",
-    "core.yes": "Taip"
+    "core.yes": "Taip",
+    "workplace.contains": "yra",
+    "workplace.deleted": "Panaikinta",
+    "workplace.doesnotcontain": "nėra",
+    "workplace.endswith": "baigiasi",
+    "workplace.fullname": "Visas pavadinimas",
+    "workplace.isempty": "tuščia",
+    "workplace.isequalto": "lygu",
+    "workplace.resetfilters": "Nustatyti filtrus iš naujo",
+    "workplace.startswith": "pradėta"
 }

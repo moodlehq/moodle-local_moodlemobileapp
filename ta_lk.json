@@ -926,5 +926,13 @@
     "core.viewprofile": "விபரக்கோவையைப் பார்",
     "core.year": "ஆண்டு",
     "core.years": "ஆண்டுகள்",
-    "core.yes": "ஆம்"
+    "core.yes": "ஆம்",
+    "workplace.deleted": "அழிக்கப்பட்டது",
+    "workplace.doesnotcontain": "கொண்டிருக்கவில்லை",
+    "workplace.endswith": "முடிவு இதனுடன்: ",
+    "workplace.fullname": "முழுப் பெயர்",
+    "workplace.isempty": "வெறுமையாக இருக்கிறதா",
+    "workplace.isequalto": "சமமானதாக இருக்கிறதா இதற்கு: ",
+    "workplace.resetfilters": "வடிகள் மீளமைவு",
+    "workplace.startswith": "தொடக்கம் இதனுடன்:"
 }

@@ -1225,5 +1225,13 @@
     "core.viewprofile": "Профил дида шавад",
     "core.year": "сол",
     "core.years": "солҳо",
-    "core.yes": "Ҳа"
+    "core.yes": "Ҳа",
+    "workplace.contains": "дар бар мегирад",
+    "workplace.deleted": "Нест карда шуд",
+    "workplace.doesnotcontain": "дар бар намегирад",
+    "workplace.endswith": "ба охир мерасад бо",
+    "workplace.fullname": "Номи пурра",
+    "workplace.isempty": "пур карда нашудааст",
+    "workplace.isequalto": "мувофиқат дорад бо",
+    "workplace.startswith": "сар мешавад аз"
 }

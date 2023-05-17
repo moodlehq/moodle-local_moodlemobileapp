@@ -2054,5 +2054,15 @@
     "core.wsfunctionnotavailable": "Функция веб-службы не доступна.",
     "core.year": "г.",
     "core.years": "г.",
-    "core.yes": "Да"
+    "core.yes": "Да",
+    "workplace.contains": "содержит",
+    "workplace.deleted": "Удалено",
+    "workplace.doesnotcontain": "не содержит",
+    "workplace.endswith": "заканчивается на",
+    "workplace.fullname": "Полное имя",
+    "workplace.isempty": "не заполнено",
+    "workplace.isequalto": "совпадает с",
+    "workplace.resetfilters": "Сбросить фильтры",
+    "workplace.roleincontext": "{{$a.role}} в контексте {{$a.context}}",
+    "workplace.startswith": "начинается с"
 }

@@ -126,5 +126,7 @@
     "core.userdeleted": "Le compte de ce·tte participant·e a été supprimé",
     "core.users": "Participant·es",
     "core.view": "Vue",
-    "core.yes": "Oui"
+    "core.yes": "Oui",
+    "workplace.deleted": "Supprimé",
+    "workplace.fullname": "Nom complet"
 }

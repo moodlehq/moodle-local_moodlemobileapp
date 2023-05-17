@@ -142,5 +142,7 @@
     "core.userdeleted": "Denne brukeren er slettet",
     "core.users": "Brukere",
     "core.view": "Vis",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.deleted": "Slettet",
+    "workplace.fullname": "Fullt navn"
 }

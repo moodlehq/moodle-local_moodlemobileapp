@@ -1464,5 +1464,15 @@
     "core.years": "năm",
     "core.yes": "Có",
     "core.youreoffline": "Bạn đang offline",
-    "core.youreonline": "Bạn đang trở lại trực tuyến"
+    "core.youreonline": "Bạn đang trở lại trực tuyến",
+    "workplace.contains": "có chứa",
+    "workplace.deleted": "Đã xoá",
+    "workplace.doesnotcontain": "không chứa",
+    "workplace.endswith": "kết thúc bằng",
+    "workplace.fullname": "Tên đầy đủ",
+    "workplace.isempty": "rỗng",
+    "workplace.isequalto": "bằng với",
+    "workplace.resetfilters": "Đặt lại bộ lọc",
+    "workplace.roleincontext": "{{$a.role}} trong {{$a.context}}",
+    "workplace.startswith": "bắt đầu bằng"
 }

@@ -622,5 +622,7 @@
     "core.user.phone1": "Телефон",
     "core.user.phone2": "Мобилдик телефон",
     "core.user.student": "Студент",
-    "core.user.teacher": "Ассистент (редакциялоо укугусуз)"
+    "core.user.teacher": "Ассистент (редакциялоо укугусуз)",
+    "workplace.deleted": "Жок кылынды",
+    "workplace.fullname": "Аты-жөнү толугу менен"
 }

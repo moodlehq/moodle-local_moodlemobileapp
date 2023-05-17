@@ -898,5 +898,9 @@
     "core.wsfunctionnotavailable": "वेब सेवा फ़ंक्शन उपलब्ध नहीं है।",
     "core.year": "साल",
     "core.years": "सालो",
-    "core.yes": "हाँ"
+    "core.yes": "हाँ",
+    "workplace.deleted": "डिलीट कर दिया गया",
+    "workplace.endswith": "साथ समाप्त होता है",
+    "workplace.fullname": "पूरा नाम",
+    "workplace.isempty": "खाली है"
 }

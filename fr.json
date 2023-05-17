@@ -1386,6 +1386,7 @@
     "core.cancel": "Annuler",
     "core.cannotconnect": "Connexion impossible",
     "core.cannotdownloadfiles": "Votre institution a désactivé le téléchargement de fichiers.",
+    "core.cannotinstallapk": "Impossible d'installer des fichiers .apk",
     "core.cannotopeninapp": "Ce fichier pourrait ne pas fonctionner comme attendu sur cet appareil. Voulez-vous quand même l'ouvrir ?",
     "core.cannotopeninappdownload": "Ce fichier pourrait ne pas fonctionner comme attendu sur cet appareil. Voulez-vous quand même le télécharger ?",
     "core.captureaudio": "Enregistrer un son",
@@ -2239,5 +2240,19 @@
     "core.years": "ans",
     "core.yes": "Oui",
     "core.youreoffline": "Votre appareil est déconnecté",
-    "core.youreonline": "Votre appareil est de nouveau connecté"
+    "core.youreonline": "Votre appareil est de nouveau connecté",
+    "workplace.apply": "Appliquer",
+    "workplace.contains": "contient",
+    "workplace.deleted": "Supprimé",
+    "workplace.doesnotcontain": "ne contient pas",
+    "workplace.endswith": "se termine par",
+    "workplace.fullname": "Nom complet",
+    "workplace.isempty": "est vide",
+    "workplace.isequalto": "est égal à",
+    "workplace.open": "Ouvert",
+    "workplace.overdue": "En retard",
+    "workplace.program": "Programme",
+    "workplace.resetfilters": "Réinitialiser les filtres",
+    "workplace.roleincontext": "{{$a.role}} dans {{$a.context}}",
+    "workplace.startswith": "commence par"
 }

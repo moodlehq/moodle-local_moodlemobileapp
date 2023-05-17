@@ -643,5 +643,8 @@
     "core.whyisthisrequired": "ولې دې ته اړتیا ده؟",
     "core.year": "کال",
     "core.years": "کلونه",
-    "core.yes": "هو"
+    "core.yes": "هو",
+    "workplace.deleted": "ړنګ شو",
+    "workplace.fullname": "بشپړ نوم",
+    "workplace.resetfilters": "چاڼونه بیا تنظیم کړئ"
 }

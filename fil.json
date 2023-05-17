@@ -157,5 +157,7 @@
     "core.userdeleted": "Ang tala ng user na ito ay nabura na",
     "core.users": "Mga User",
     "core.view": "Tingnan",
-    "core.yes": "Oo"
+    "core.yes": "Oo",
+    "workplace.deleted": "Burado na",
+    "workplace.fullname": "Buong pangalan"
 }

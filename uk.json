@@ -2237,5 +2237,16 @@
     "core.years": "роки",
     "core.yes": "Так",
     "core.youreoffline": "Ви офлайн",
-    "core.youreonline": "Ви знову в мережі"
+    "core.youreonline": "Ви знову в мережі",
+    "workplace.contains": "містить",
+    "workplace.deleted": "Видалено",
+    "workplace.doesnotcontain": "не містить",
+    "workplace.endswith": "закінчується на",
+    "workplace.fullname": "Повна назва",
+    "workplace.isempty": "порожній",
+    "workplace.isequalto": "дорівнює",
+    "workplace.resetfilters": "Скинути фільтри",
+    "workplace.roleincontext": "{{$a.role}} в {{$a.context}}",
+    "workplace.startswith": "починається з",
+    "workplace.tablabel": "Більше"
 }

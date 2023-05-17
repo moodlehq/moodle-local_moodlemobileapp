@@ -723,5 +723,7 @@
     "core.view": "பார்வை",
     "core.year": "ஆண்டு",
     "core.years": "ஆண்டுகள்",
-    "core.yes": "ஆம்"
+    "core.yes": "ஆம்",
+    "workplace.deleted": "நீக்கப்பட்டது",
+    "workplace.fullname": "முழுப் பெயர்"
 }

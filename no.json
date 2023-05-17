@@ -2039,5 +2039,15 @@
     "core.whyisthisrequired": "Hvorfor er dette påkrevd?",
     "core.year": "år",
     "core.years": "år",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.contains": "inneholder",
+    "workplace.deleted": "Slettet",
+    "workplace.doesnotcontain": "inneholder ikke",
+    "workplace.endswith": "slutter med",
+    "workplace.fullname": "Fullt navn",
+    "workplace.isempty": "er tom",
+    "workplace.isequalto": "er lik",
+    "workplace.resetfilters": "Nullstill filtre",
+    "workplace.roleincontext": "{{$a.role}} i {{$a.context}}",
+    "workplace.startswith": "starter med"
 }

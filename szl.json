@@ -807,5 +807,8 @@
     "core.whyisthishappening": "Czymu tak sie dzieje?",
     "core.wsfunctionnotavailable": "Funkcyjŏ web service je niyprzistympnŏ.",
     "core.youreoffline": "Je żeś oflajn",
-    "core.youreonline": "Je żeś zaś onlajn"
+    "core.youreonline": "Je żeś zaś onlajn",
+    "workplace.deleted": "Usunięto",
+    "workplace.fullname": "Połne miano",
+    "workplace.tablabel": "Wiyncyj"
 }

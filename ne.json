@@ -207,5 +207,7 @@
     "core.users": "प्रयोगकर्ताहरु",
     "core.view": "दृश्यावलोकन",
     "core.viewprofile": "पाश्र्वचित्र हेर्नुहोस्",
-    "core.yes": "हो"
+    "core.yes": "हो",
+    "workplace.deleted": "मेटियो",
+    "workplace.fullname": "पूरा नाम"
 }

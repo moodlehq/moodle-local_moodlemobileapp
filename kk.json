@@ -726,5 +726,7 @@
     "core.viewprofile": "Профилді қарап шығу",
     "core.year": "жыл",
     "core.years": "жылдар",
-    "core.yes": "Иә"
+    "core.yes": "Иә",
+    "workplace.deleted": "Жойылды",
+    "workplace.fullname": "Толық аты"
 }

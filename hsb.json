@@ -1603,5 +1603,8 @@
     "core.whyisthisrequired": "Čehodla je to trěbne?",
     "core.year": "Lěto",
     "core.years": "Lěta",
-    "core.yes": "Haj"
+    "core.yes": "Haj",
+    "workplace.deleted": "wotstronja",
+    "workplace.fullname": "Dospołnym mjeno",
+    "workplace.resetfilters": "Filtry wróćo sadźić"
 }

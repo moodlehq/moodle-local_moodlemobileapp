@@ -594,5 +594,10 @@
     "core.viewprofile": "Lihat profil",
     "core.year": "tahun",
     "core.years": "tahun",
-    "core.yes": "Ya"
+    "core.yes": "Ya",
+    "workplace.deleted": "Dipadam",
+    "workplace.fullname": "Nama penuh",
+    "workplace.isempty": "adalah kosong",
+    "workplace.isequalto": "adalah sama dengan",
+    "workplace.startswith": "bermula dengan"
 }

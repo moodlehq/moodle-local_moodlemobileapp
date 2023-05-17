@@ -854,5 +854,8 @@
     "core.viewprofile": "پرۆفایل ببینه‌",
     "core.year": "ساڵ",
     "core.years": "ساڵەکان",
-    "core.yes": "بەڵێ"
+    "core.yes": "بەڵێ",
+    "workplace.deleted": "سڕایەوە",
+    "workplace.fullname": "ناوی تەواو",
+    "workplace.roleincontext": "{{$a.role}} لەناو {{$a.context}}"
 }

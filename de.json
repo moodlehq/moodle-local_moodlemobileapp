@@ -1386,6 +1386,7 @@
     "core.cancel": "Abbrechen",
     "core.cannotconnect": "Keine Verbindung zur Website",
     "core.cannotdownloadfiles": "Ihre Schule oder Ihr Lernanbieter haben das Herunterladen von Dateien deaktiviert.",
+    "core.cannotinstallapk": "Dateien mit der Endung .apk können nicht installiert werden.",
     "core.cannotopeninapp": "Diese Datei funktioniert auf diesem Gerät möglicherweise nicht. Möchten Sie sie trotzdem öffnen?",
     "core.cannotopeninappdownload": "Diese Datei funktioniert auf diesem Gerät möglicherweise nicht. Möchten Sie sie trotzdem herunterladen?",
     "core.captureaudio": "Audio aufnehmen",
@@ -2239,5 +2240,18 @@
     "core.years": "Jahre",
     "core.yes": "Ja",
     "core.youreoffline": "Das Gerät ist offline.",
-    "core.youreonline": "Das Gerät ist wieder online."
+    "core.youreonline": "Das Gerät ist wieder online.",
+    "workplace.active": "Aktiv",
+    "workplace.contains": "enthält",
+    "workplace.deleted": "Gelöscht",
+    "workplace.doesnotcontain": "enthält nicht",
+    "workplace.endswith": "endet mit",
+    "workplace.filterstab": "Filter",
+    "workplace.fullname": "Vollständiger Name",
+    "workplace.isempty": "ist leer",
+    "workplace.isequalto": "ist gleich mit",
+    "workplace.isnotempty": "Is nicht leer",
+    "workplace.resetfilters": "Filter zurücksetzen",
+    "workplace.roleincontext": "{{$a.role}} in {{$a.context}}",
+    "workplace.startswith": "beginnt mit"
 }

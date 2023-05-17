@@ -1041,5 +1041,13 @@
     "core.whyisthisrequired": "ఇది ఎందుకు అవసరం?",
     "core.year": "సంవత్సరం",
     "core.years": "సంవత్సరాలు",
-    "core.yes": "ఔను"
+    "core.yes": "ఔను",
+    "workplace.contains": "కలిగి",
+    "workplace.deleted": "తొలగించాం",
+    "workplace.doesnotcontain": "కలిగి లేదు",
+    "workplace.endswith": "ముగుస్తుంది",
+    "workplace.fullname": "పూర్తి పేరు",
+    "workplace.isempty": "ఖాళీగా ఉంది",
+    "workplace.isequalto": "సమానం",
+    "workplace.startswith": "మొదలవుతుంది"
 }

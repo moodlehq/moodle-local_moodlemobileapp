@@ -1070,5 +1070,14 @@
     "core.wsfunctionnotavailable": "Webservice फंक्शन उपलब्ध नाही.",
     "core.year": "वर्ष",
     "core.years": "वर्षे",
-    "core.yes": "होय"
+    "core.yes": "होय",
+    "workplace.contains": "मध्ये",
+    "workplace.deleted": "काढुन टाकले",
+    "workplace.doesnotcontain": "काहीही नाही",
+    "workplace.endswith": "शेवट",
+    "workplace.fullname": "पुर्ण नाव",
+    "workplace.isempty": "रिकामा",
+    "workplace.isequalto": "च्या सारखा",
+    "workplace.resetfilters": "पुर्वत्तत फिल्टर",
+    "workplace.startswith": "शुरू करा"
 }

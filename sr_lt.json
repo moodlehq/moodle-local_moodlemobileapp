@@ -2082,5 +2082,15 @@
     "core.wsfunctionnotavailable": "Funkcija veb service nije dostupna.",
     "core.year": "godina",
     "core.years": "godina",
-    "core.yes": "Da"
+    "core.yes": "Da",
+    "workplace.contains": "sadrži",
+    "workplace.deleted": "Obrisano",
+    "workplace.doesnotcontain": "ne sadrži",
+    "workplace.endswith": "završava se sa",
+    "workplace.fullname": "Puno ime",
+    "workplace.isempty": "je prazno",
+    "workplace.isequalto": "je jednako",
+    "workplace.resetfilters": "Resetuj filtere",
+    "workplace.roleincontext": "{{$a.role}} u {{$a.context}}",
+    "workplace.startswith": "počinje sa"
 }

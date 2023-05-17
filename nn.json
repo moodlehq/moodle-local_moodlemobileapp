@@ -350,5 +350,7 @@
     "core.userdeleted": "Denne brukaren er sletta",
     "core.users": "Brukarar",
     "core.view": "Vising",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.deleted": "Sletta",
+    "workplace.fullname": "Fullt namn"
 }

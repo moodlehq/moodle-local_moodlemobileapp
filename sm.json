@@ -559,5 +559,7 @@
     "core.userdeleted": "O lenei tagata ua uma ona tapeina",
     "core.users": "Tagata fa'aaoga",
     "core.view": "Va'aiga",
-    "core.yes": "IOE"
+    "core.yes": "IOE",
+    "workplace.deleted": "Ua tape",
+    "workplace.fullname": "Igoa atoa"
 }

@@ -1386,6 +1386,7 @@
     "core.cancel": "キャンセル",
     "core.cannotconnect": "接続できません。",
     "core.cannotdownloadfiles": "ダウンロードしようとしているファイルは、あなたのモバイルサービスでは無効になっています。あなたのサイト管理者に連絡してください。",
+    "core.cannotinstallapk": "APKファイルをインストールできません。",
     "core.cannotopeninapp": "このファイルはこのデバイスでは期待通りに動作しない可能性があります。とにかく開いてみますか?",
     "core.cannotopeninappdownload": "このファイルはこのデバイスでは期待通りに動作しない可能性があります。とにかくダウンロードしてみますか?",
     "core.captureaudio": "オーディオを録音する",
@@ -2239,5 +2240,15 @@
     "core.years": "年",
     "core.yes": "Yes",
     "core.youreoffline": "あなたはオフラインです。",
-    "core.youreonline": "あなたはオンラインに戻りました。"
+    "core.youreonline": "あなたはオンラインに戻りました。",
+    "workplace.contains": "次の文字を含む",
+    "workplace.deleted": "削除完了",
+    "workplace.doesnotcontain": "次の文字を含まない",
+    "workplace.endswith": "次の文字で終わる",
+    "workplace.fullname": "フルネーム",
+    "workplace.isempty": "空白",
+    "workplace.isequalto": "次の文字と等しい",
+    "workplace.resetfilters": "フィルタをリセットする",
+    "workplace.roleincontext": "{{$a.role}} - {{$a.context}}",
+    "workplace.startswith": "次の文字で始まる"
 }

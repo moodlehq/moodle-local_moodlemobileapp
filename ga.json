@@ -624,5 +624,13 @@
     "core.view": "Amharc",
     "core.year": "bliana",
     "core.years": "blianta",
-    "core.yes": "Tá/Sea"
+    "core.yes": "Tá/Sea",
+    "workplace.contains": "...ann",
+    "workplace.deleted": "Scriosta",
+    "workplace.doesnotcontain": "Níl ... ann",
+    "workplace.endswith": "Críochnaíonn sé le",
+    "workplace.fullname": "Ainm iomlán",
+    "workplace.isempty": "Ta sé folamh",
+    "workplace.isequalto": "Tá sé cothrom le",
+    "workplace.startswith": "tosaíonn sé le ..."
 }
