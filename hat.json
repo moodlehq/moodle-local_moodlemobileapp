@@ -1,0 +1,18 @@
+{
+    "addon.calendar.allday": "Tout jounen",
+    "addon.calendar.calendar": "Kalandriye",
+    "addon.calendar.categoryevents": "Kategori evènman",
+    "addon.calendar.confirmeventdelete": "Ou sèten ou vle elimine evènman \"{{$a}}\"?",
+    "addon.calendar.daynext": "Jou apre a",
+    "addon.calendar.dayprev": "Jou anvan an",
+    "addon.calendar.eventduration": "Dire",
+    "addon.calendar.eventkind": "Kategori evènman",
+    "addon.calendar.eventname": "Tit evènman an",
+    "addon.mod_forum.advanced": "Avanse",
+    "core.accounts": "kont",
+    "core.agelocationverification": "Verifikasyon laj ak kote w rete",
+    "core.courses.frontpage": "Paj devan",
+    "core.decsep": ".",
+    "core.listsep": ";",
+    "core.settings.debugdisplay": "Montre mesaj debogaj"
+}

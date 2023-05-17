@@ -1,0 +1,20 @@
+{
+    "addon.mod_assign.multipleteams_desc": "グループで課題を提出する必要があります。あなたは2つ以上のグループのメンバーです。提出できるためにはあなたは1つのみのグループのメンバーである必要があります。あなたのグループメンバーシップを変更するにはトレーナーにご連絡ください。",
+    "addon.mod_assign.noteam_desc": "この課題はグループで提出する必要があります。あなたはどのグループにも属していないため提出を作成することはできません。グループに追加されるにはあなたのトレーナーにご連絡ください。",
+    "addon.mod_assign.submissioneditable": "学習者はこの提出を編集できます。",
+    "addon.mod_assign.submissionnoteditable": "学習者はこの提出を編集できません。",
+    "addon.mod_feedback.non_respondents_students": "未回答の学習者 ({{$a}})",
+    "addon.mod_lesson.defaultessayresponse": "あなたの作文はあなたのトレーナーによって評定されます。",
+    "addon.mod_lesson.displayofgrade": "評点を表示する (学習者のみ)",
+    "addon.mod_lesson.modattemptsnoteacher": "学習者レビューは学習者にのみ表示されます。",
+    "addon.mod_lesson.teacherjumpwarning": "このレッスンでは {{$a.cluster}} ジャンプまたは {{$a.unseen}} ジャンプが使用されています。代わりに「次のページ」へのジャンプが使用されます。これらのジャンプを確認するには学習者としてログインしてください。",
+    "addon.mod_lesson.teacherongoingwarning": "進行中の評点は学習者にのみ表示されます。進行中の評点をテストするには学習者としてログインしてください。",
+    "addon.mod_lesson.teachertimerwarning": "タイマーは学習者に対してのみ作動します。タイマーをテストするには学習者としてログインしてください。",
+    "core.course.hiddenfromstudents": "学習者から秘匿",
+    "core.decsep": ".",
+    "core.listsep": ",",
+    "core.teachers": "トレーナー",
+    "core.user.editingteacher": "トレーナー",
+    "core.user.student": "学習者",
+    "core.user.teacher": "編集権限のないトレーナー"
+}
