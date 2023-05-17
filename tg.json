@@ -1253,5 +1253,10 @@
     "core.year": "сол",
     "core.years": "солҳо",
     "core.yes": "Ҳа",
-    "freemium.accept": "Қабул кардан"
+    "freemium.accept": "Қабул кардан",
+    "workplace.coursefiles": "Файлҳои курс (махзани кӯҳнашуда)",
+    "workplace.deleted": "Нест карда шуд",
+    "workplace.moreinfo": "Маълумоти изофӣ",
+    "workplace.nothingtodisplay": "Ҳеҷ чиз нишон дода нашавад",
+    "workplace.teams.fullname": "Номи пурра"
 }

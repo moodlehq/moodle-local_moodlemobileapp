@@ -527,5 +527,8 @@
     "core.whyisthisrequired": "Hví er hetta kravt?",
     "core.year": "ár",
     "core.years": "ár",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.coursefiles": "Gamlar skeiðsfílur",
+    "workplace.deleted": "Strikað",
+    "workplace.teams.fullname": "Fult navn"
 }

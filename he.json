@@ -1940,5 +1940,18 @@
     "core.youreonline": "חיבור לרשת חודש",
     "freemium.accept": "אישור",
     "freemium.feature_custommenuitems": "תפריט מותאם",
-    "freemium.subscriptionfeature_enabled": "מאופשר"
+    "freemium.subscriptionfeature_enabled": "מאופשר",
+    "workplace.coursefiles": "קבצי הקורס כפי שנוהלו בגרסאות  קודמות",
+    "workplace.deleted": "נמחק",
+    "workplace.moreinfo": "מידע נוסף",
+    "workplace.mylearning": "הלמידה שלי",
+    "workplace.nothingtodisplay": "אין כלום להציג",
+    "workplace.orgstructure": "מבנה ארגוני",
+    "workplace.programs": "תוכניות לימודים",
+    "workplace.roleincontext": "{{$a.role}} ב- {{$a.context}}",
+    "workplace.teams.fullname": "שם מלא",
+    "workplace.teams.learning": "למידה",
+    "workplace.teams.myteams": "צוותים",
+    "workplace.teams.orgstructure": "מבנה ארגוני",
+    "workplace.teams.pluginname": "הצוותים שלי"
 }

@@ -894,5 +894,8 @@
     "core.viewprofile": "Čájet profiilla",
     "core.wheredoyoulive": "Guđe riikkas ásat?",
     "freemium.feature_customlanguagestrings": "Giellaheiveheamit",
-    "freemium.feature_custommenuitems": "Iešdefinerejuvvon fálloelemeanttat"
+    "freemium.feature_custommenuitems": "Iešdefinerejuvvon fálloelemeanttat",
+    "workplace.deleted": "Sihkkojuvvon",
+    "workplace.nothingtodisplay": "Ii leat maid čájeha",
+    "workplace.teams.fullname": "Olles namma"
 }

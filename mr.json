@@ -1067,5 +1067,9 @@
     "core.wsfunctionnotavailable": "Webservice फंक्शन उपलब्ध नाही.",
     "core.year": "वर्ष",
     "core.years": "वर्षे",
-    "core.yes": "होय"
+    "core.yes": "होय",
+    "workplace.coursefiles": "कोर्स फाईलस्",
+    "workplace.deleted": "काढुन टाकले",
+    "workplace.nothingtodisplay": "दाखविण्यासाठी काहीही नाही",
+    "workplace.teams.fullname": "पुर्ण नाव"
 }

@@ -2013,5 +2013,11 @@
     "core.youreonline": "다시 온라인 상태입니다",
     "freemium.accept": "수락",
     "freemium.subscriptionfeature_disabled": "비활성화",
-    "freemium.subscriptionfeature_enabled": "활성화 됨"
+    "freemium.subscriptionfeature_enabled": "활성화 됨",
+    "workplace.coursefiles": "예전 강좌 파일",
+    "workplace.deleted": "지워짐",
+    "workplace.moreinfo": "더 많은 정보",
+    "workplace.nothingtodisplay": "게시할 내용 없음",
+    "workplace.roleincontext": "{{$a.context}}에서 {{$a.role}}",
+    "workplace.teams.fullname": "전체 이름"
 }

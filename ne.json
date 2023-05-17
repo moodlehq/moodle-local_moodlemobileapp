@@ -217,5 +217,9 @@
     "core.view": "दृश्यावलोकन",
     "core.viewprofile": "पाश्र्वचित्र हेर्नुहोस्",
     "core.yes": "हो",
-    "freemium.accept": "स्वीकार्नु होस्"
+    "freemium.accept": "स्वीकार्नु होस्",
+    "workplace.coursefiles": "पूरानो पाठ्यक्रम फाईलहरु",
+    "workplace.deleted": "मेटियो",
+    "workplace.moreinfo": "अझ धेरै जानकारी",
+    "workplace.teams.fullname": "पूरा नाम"
 }

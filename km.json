@@ -1894,5 +1894,11 @@
     "core.year": "ឆ្នាំ",
     "core.years": "ឆ្នាំ",
     "core.yes": "បាទ/ចាស",
-    "freemium.accept": "ទទួល"
+    "freemium.accept": "ទទួល",
+    "workplace.coursefiles": "ឯកសារតំណែលក្នុងវគ្គសិក្សា",
+    "workplace.deleted": "បានលុប",
+    "workplace.moreinfo": "ព័ត៌មានផ្សេងទៀត",
+    "workplace.nothingtodisplay": "មិនមានអ្វីបង្ហាញឡើយ",
+    "workplace.roleincontext": "{{$a.role}} ក្នុង {{$a.context}}",
+    "workplace.teams.fullname": "ឈ្មោះពេញ"
 }
