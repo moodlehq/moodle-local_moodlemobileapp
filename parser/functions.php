@@ -205,14 +205,19 @@ function build_lang(&$language) {
     // Sort and save.
     ksort($translations);
     save_json($lang.'.json', $translations);
-    $language->lastupdate = time();
 
+    $language->lastupdate = time();
     $language->translated = count($translations);
+    $lmsstring = get_translation_strings($langfoldername, 'langconfig');
+    $language->name = $lmsstring['thislanguage'];
+
     $percentage = floor($language->translated/$STATS->total * 100);
     $bar = progressbar($percentage);
+
     if (strlen($lang) <= 2 && !$parent) {
         echo "\t";
     }
+
     echo "\t\t$language->translated of $STATS->total -> $percentage% $bar ($language->local local)\n";
 }
 

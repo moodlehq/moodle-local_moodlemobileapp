@@ -62,7 +62,7 @@ function get_languages {
         if [ -f $LANG_JSON ] && [ $force -eq 0 ]; then
             md5_old=`jq -r .\"$lang\".md5 $LANG_JSON`
             if [[ "$md5" == "$md5_old" ]]; then
-                 echo "Same Md5 on $name ($lang) language, skipping..."
+                echo "Same Md5 on $name ($lang) language, skipping..."
                 continue;
             fi
         fi
