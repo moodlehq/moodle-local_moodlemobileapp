@@ -38,6 +38,7 @@
     "addon.mod_assign.submissionstatus_draft": "טיוטא (לא הוגש)",
     "addon.mod_assign.submissionstatus_marked": "ניתן ציון",
     "addon.mod_assign.submissionstatus_new": "אין הגשה",
+    "addon.mod_data.timemodified": "מועד השינוי",
     "addon.mod_forum.advanced": "מתקדם",
     "core.accounts": "חשבונות",
     "core.add": "הוספה",
