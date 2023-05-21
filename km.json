@@ -331,7 +331,7 @@
     "addon.mod_assign.numwords": "{{$a}} ពាក្យ",
     "addon.mod_assign.outof": "{{$a.current}} លើ {{$a.total}}",
     "addon.mod_assign.overdue": "<font color=\"red\">កិច្ចការផុតកំណត់: {{$a}}</font>",
-    "addon.mod_assign.submission": "ការដាក់ស្នើ",
+    "addon.mod_assign.submission": "កិច្ចការ",
     "addon.mod_assign.submissioneditable": "សិស្សអាចកែសម្រួលកិច្ចការនេះ",
     "addon.mod_assign.submissionnoteditable": "សិស្សមិនអាចកែសម្រួលកិច្ចការនេះទេ",
     "addon.mod_assign.submissionnotsupported": "កិច្ចការនេះមិនអាចប្រើបានក្នុងកម្មវិធីទូរស័ព្ទទេ ហើយ អាចមិនមានព័ត៌មានទាំងអស់ទេ ។",
