@@ -2067,5 +2067,13 @@
     "workplace.nothingtodisplay": "Ei näytettävää",
     "workplace.roleincontext": "{{$a.role}} kontekstissa {{$a.context}}",
     "workplace.sortbylastaccess": "Järjestä viimeksi käytetyn mukaan",
-    "workplace.teams.fullname": "Koko nimi"
+    "workplace.teams.apply": "Ota käyttöön",
+    "workplace.teams.filtercontains": "Sisältää",
+    "workplace.teams.filterdoesnotcontain": "Ei sisällä",
+    "workplace.teams.filterisempty": "On tyhjä",
+    "workplace.teams.filterisequalto": "On yhtä suuri kuin",
+    "workplace.teams.filterisnotempty": "Ei ole tyhjä",
+    "workplace.teams.filterisnotequalto": "Ei ole yhtä suuri kuin",
+    "workplace.teams.fullname": "Koko nimi",
+    "workplace.teams.resetall": "Nollaa kaikki"
 }
