@@ -1896,6 +1896,7 @@
     "core.reminders.units": "Yksiköt",
     "core.remove": "Poista",
     "core.reportbuilder.reports": "Raportit",
+    "core.reportbuilder.reportsource": "Raportin lähde",
     "core.reportbuilder.timecreated": "Luomisaika",
     "core.required": "Vaadittu",
     "core.requireduserdatamissing": "Tältä käyttäjältä puuttuu vaadittuja tietoja profiilistaan. Ole hyvä ja täytä tiedot sivustolla ja yritä uudestaan.<br>{{$a}}",

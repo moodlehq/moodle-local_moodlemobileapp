@@ -29,5 +29,6 @@
     "core.strftimerecent": "%m月 %d日 %H:%M",
     "core.strftimerecentfull": "%Y年 %m月 %d日(%a) %H:%M",
     "core.strftimetime": "%H:%M",
-    "core.thisdirection": "ltr"
+    "core.thisdirection": "ltr",
+    "freemium.accept": "はい"
 }
