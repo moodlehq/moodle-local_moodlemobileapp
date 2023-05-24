@@ -476,7 +476,7 @@
     "addon.mod_choice.publishinfonever": "Rezultatele acestei activități nu vor fi publicate după ce răspundeți.",
     "addon.mod_choice.removemychoice": "Șterge alegerea mea",
     "addon.mod_choice.responses": "Răspunsuri",
-    "addon.mod_choice.responsesresultgraphdescription": "{{number}}% dintre utilizatori au ales varianta: {{text}}.",
+    "addon.mod_choice.responsesresultgraphdescription": "{{number}}% dintre utilizatori au ales opțiunea: {{text}}.",
     "addon.mod_choice.responsesresultgraphheader": "Afișează graficul",
     "addon.mod_choice.resultsnotsynced": "Ultimul tău răspuns trebuie să fie sincronizat înainte de a fi inclus în rezultate.",
     "addon.mod_choice.savemychoice": "Salvează formularul meu de evaluare",
