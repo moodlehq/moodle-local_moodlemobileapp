@@ -1501,7 +1501,7 @@
     "core.clearsearch": "Zoekresultaten leegmaken",
     "core.clearstoreddata": "Opslag leeg maken {{$a}}",
     "core.clicktohideshow": "Klik om te vergroten of te verkleinen",
-    "core.clicktoseefull": "Klik hier om de volledige inhoud te zien",
+    "core.clicktoseefull": "Klik hier om de volledige inhoud te zien.",
     "core.close": "Sluit",
     "core.collapse": "Samenklappen",
     "core.comments": "Notities",
