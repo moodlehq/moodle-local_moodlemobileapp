@@ -1790,7 +1790,7 @@
     "core.login.createuserandpass": "Trieu un nom d'usuari i una contrasenya",
     "core.login.credentialsdescription": "Introduïu el vostre nom d'usuari i contrasenya per iniciar sessió.",
     "core.login.emailconfirmsent": "<p>S'ha enviat un correu a la vostra adreça <b>{{$a}}</b></p>\n<p>Conté instruccions senzilles per completar el registre.</p>\n<p>Si seguiu tenint problemes, contacteu amb l'administrador del lloc.</p>",
-    "core.login.emailconfirmsentnoemail": "<p>S'hauria d'haver enviat un missatge a la vostra adreça electrònica.</p><p>Conté instruccions senzilles per completar el vostre registre.</p>",
+    "core.login.emailconfirmsentnoemail": "<p>S'ha enviat un missatge a la vostra adreça electrònica.</p><p>Conté instruccions senzilles per completar el vostre registre.</p>",
     "core.login.emailconfirmsentsuccess": "El correu de confirmació s'ha enviat correctament.",
     "core.login.emailnotmatch": "Les adreces de correu electrònic no coincideixen",
     "core.login.erroraccesscontrolalloworigin": "La crida Cross-Origin que esteu intentant ha sigut rebutjada. Si us plau, visiteu https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium per més informació",
