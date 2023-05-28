@@ -2129,7 +2129,7 @@
     "core.strftimedatefullshort": "%d/%m/%y",
     "core.strftimedateshort": "%d %B",
     "core.strftimedatetime": "%d %B %Y, %H:%M",
-    "core.strftimedatetimeshort": "%d/%m/%Y, %H:%M",
+    "core.strftimedatetimeshort": "%d-%m-%Y, %H:%M",
     "core.strftimedaydate": "%A, %d %B %Y",
     "core.strftimedaydatetime": "%A, %d %B %Y, %H:%M",
     "core.strftimedayshort": "%A, %d %B",
