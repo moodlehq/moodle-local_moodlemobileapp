@@ -348,7 +348,7 @@
     "addon.mod_assign.gradedby": "Ocenio/la",
     "addon.mod_assign.gradedfollowupsubmit": "Ocenjeno - primljen naknadno dostavljen rad",
     "addon.mod_assign.gradedon": "Ocenjeno",
-    "addon.mod_assign.gradelocked": "Ова оцена је закључана или преписана у књизи оцена.",
+    "addon.mod_assign.gradelocked": "Ova ocena je zaključana ili izmenjena u knjizi ocena.",
     "addon.mod_assign.gradenotsynced": "Ocena nije sinhronizovana",
     "addon.mod_assign.gradeoutof": "Ocena od {{$a}}",
     "addon.mod_assign.gradingstatus": "Status ocenjivanja",
