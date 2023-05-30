@@ -129,7 +129,7 @@
     "addon.calendar.reminders": "Atgādinājumi",
     "addon.calendar.repeatedevents": "Atkārtoti notikumi",
     "addon.calendar.repeateditall": "Lietot izmaiņas visiem {{$a}} šīs atkārtojumu sērijas notikumiem",
-    "addon.calendar.repeateditthis": "Lietot izmaiņas tikai šim notikumam",
+    "addon.calendar.repeateditthis": "Pielietot izmaiņas tikai šim notikumam",
     "addon.calendar.repeatevent": "Atkārtot šo notikumu",
     "addon.calendar.repeatweeksl": "Atkārtot katru nedēļu, izveidojot kopumā",
     "addon.calendar.sat": "Se",
