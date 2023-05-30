@@ -1112,7 +1112,7 @@
     "addon.privatefiles.files": "Bestanden",
     "addon.privatefiles.privatefiles": "Privébestanden",
     "addon.privatefiles.sitefiles": "Sitebestanden",
-    "addon.qtype_essay.maxwordlimitboundary": "De woordlimiet voor deze vraag is $a.limit}}  woorden en je probeert {{$a.count}} woorden in te dienen. Kort je antwoord in en probeer het opnieuw.",
+    "addon.qtype_essay.maxwordlimitboundary": "De woordlimiet voor deze vraag is {{$a.limit}}  woorden en je probeert {{$a.count}} woorden in te dienen. Kort je antwoord in en probeer het opnieuw.",
     "addon.qtype_essay.minwordlimitboundary": "Deze vraag vereist een antwoord van ten minste {{$a.limit}} woorden en u probeert {{$a.count}} woorden in te dienen. Breid je antwoord uit en probeer het opnieuw.",
     "addon.report_insights.actionsaved": "Je feedback van '{{$a}}'  is opgeslagen.",
     "addon.report_insights.fixedack": "Aanvaard",
