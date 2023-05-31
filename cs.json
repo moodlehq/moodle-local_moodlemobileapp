@@ -1793,7 +1793,7 @@
     "core.login.emailconfirmsentnoemail": "<p>Na vaši adresu měl být zaslán e-mail.</p><p>Obsahuje snadné pokyny k dokončení registrace.</p>",
     "core.login.emailconfirmsentsuccess": "Potvrzovací e-mail byl úspěšně odeslán",
     "core.login.emailnotmatch": "E-maily se neshodují",
-    "core.login.erroraccesscontrolalloworigin": "Cross-Origin volání -  váš pokus o provedení byl odmítnut. Zkontrolujte prosím https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium",
+    "core.login.erroraccesscontrolalloworigin": "Cross-Origin volání -  váš pokus o provedení byl odmítnut. Zkontrolujte prosím https://moodledev.io/general/app/development/setup/app-in-browser",
     "core.login.errordeletesite": "Při odstraňování tohoto účtu došlo k chybě. Prosím, zkuste to znovu.",
     "core.login.errorexampleurl": "URL https://campus.example.edu je pouze příklad URL adresy, nejedná se o skutečný web. <strong> Použijte prosím adresu URL vaší školy nebo organizace. </strong>",
     "core.login.errorqrnoscheme": "Tato URL adresa není platná přihlašovací URL adresa.",
