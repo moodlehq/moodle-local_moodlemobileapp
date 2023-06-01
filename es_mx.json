@@ -1915,7 +1915,7 @@
     "core.login.emailconfirmsentnoemail": "<p>Un Email debería de haberse enviado a su dirección.</p><p>Contiene instrucciones fáciles para completar su registro.</p>",
     "core.login.emailconfirmsentsuccess": "Email de confirmación enviado exitosamente",
     "core.login.emailnotmatch": "No coinciden los Emails",
-    "core.login.erroraccesscontrolalloworigin": "La llamada de Orígen Cruzado (''Cross-Origin'') que Usted está tratando de realizar ha sido rechazada. Por favor revise https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium",
+    "core.login.erroraccesscontrolalloworigin": "La llamada de Orígen Cruzado (''Cross-Origin'') que Usted está tratando de realizar ha sido rechazada. Por favor revise https://moodledev.io/general/app/development/setup/app-in-browser",
     "core.login.errordeletesite": "Ocurrió un error al eliminar esta cuenta. Por favor inténtelo nuevamente.",
     "core.login.errorexampleurl": "La URL https://campus.example.edu es solamente un ejemplo de URL. No es un sitio real. <strong>Por favor, use la URL del sitio de su escuela o su organización.</strong>",
     "core.login.errorqrnoscheme": "Esta URL no es una URL válida para ingresar.",
