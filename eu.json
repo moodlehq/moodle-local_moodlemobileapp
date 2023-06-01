@@ -1793,7 +1793,7 @@
     "core.login.emailconfirmsentnoemail": "<p>Zure helbidera e-posta mezu bat bidali da.</p><p>Bertan erregistroa amaitzeko argibide errazak aurkituko dituzu.</p>",
     "core.login.emailconfirmsentsuccess": "Berrespen e-maila ondo bidali da",
     "core.login.emailnotmatch": "E-posta helbideak ez datoz bat",
-    "core.login.erroraccesscontrolalloworigin": "Saiatzen ari zaren cross-origin deia ez da onartu. Ikusi mesedez https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium",
+    "core.login.erroraccesscontrolalloworigin": "Saiatzen ari zaren cross-origin deia ez da onartu. Ikusi mesedez https://moodledev.io/general/app/development/setup/app-in-browser",
     "core.login.errordeletesite": "Errorea gertatu da kontu hau ezabatzean. Mesedez saiatu berriro beranduago.",
     "core.login.errorexampleurl": "https://campus.adibidea.eus URLa adibide bat baino ez da, ez da benetako gune bat. <strong>Erabili ezazu mesedez zure eskola edo erakundearen gunearen URLa.</strong>",
     "core.login.errorqrnoscheme": "URL hau ez da saioa hasteko URL baliagarria.",
