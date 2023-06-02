@@ -1944,7 +1944,7 @@
     "core.login.emailconfirmsentnoemail": "<p>Foi enviado um e-mail para o seu endereço.</p><p> Contém instruções fáceis para concluir o seu registo.</p>",
     "core.login.emailconfirmsentsuccess": "E-mail de confirmação enviado com sucesso",
     "core.login.emailnotmatch": "Os e-mails não coincidem",
-    "core.login.erroraccesscontrolalloworigin": "A acção de Cross-Origin que tentou executar foi rejeitada. Por favor, para mais informações consulte 'https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium'",
+    "core.login.erroraccesscontrolalloworigin": "A ação de Cross-Origin que tentou executar foi rejeitada. Por favor, para mais informações consulte 'https://moodledev.io/general/app/development/setup/app-in-browser'",
     "core.login.errordeletesite": "Ocorreu um erro ao apagar esta conta. Por favor, tente novamente.",
     "core.login.errorexampleurl": "O URL 'https://campus.example.edu' é apenas um exemplo de URL, não é um site real. <strong>Use o URL do site da sua escola ou organização.</strong>",
     "core.login.errorqrnoscheme": "Este URL não é um URL de autenticação válido.",
