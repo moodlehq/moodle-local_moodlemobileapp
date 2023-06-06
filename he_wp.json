@@ -38,6 +38,7 @@
     "addon.mod_assign.submissionstatus_new": "אין הגשה",
     "addon.mod_data.timemodified": "מועד השינוי",
     "addon.mod_forum.advanced": "מתקדם",
+    "addon.mod_quiz.stateabandoned": "טרם הוגש",
     "core.accounts": "חשבונות",
     "core.add": "הוספה",
     "core.agelocationverification": "אימות גיל ומיקום",
