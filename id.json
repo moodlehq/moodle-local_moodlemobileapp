@@ -851,7 +851,7 @@
     "addon.mod_quiz.reattemptquiz": "Mencoba ulang kuis",
     "addon.mod_quiz.requirepasswordmessage": "Diperlukan kata sandi untuk membuka kuis ini",
     "addon.mod_quiz.returnattempt": "Kembali ke usaha",
-    "addon.mod_quiz.review": "Ulasan",
+    "addon.mod_quiz.review": "Reviu",
     "addon.mod_quiz.reviewofattempt": "Ulasan pencobaan {{$a}}",
     "addon.mod_quiz.reviewofpreview": "Ulasan pratinjau",
     "addon.mod_quiz.showall": "Tampilkan semua pertanyaan pada satu halaman",
