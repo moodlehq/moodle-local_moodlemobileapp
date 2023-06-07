@@ -2410,6 +2410,8 @@
     "workplace.information": "Informații",
     "workplace.iunderstand": "Înțeleg",
     "workplace.moreinfo": "Informații suplimentare",
+    "workplace.myavailable.blocktitle": "Noi cursuri disponibile ({{$a}})",
+    "workplace.myavailable.pluginname": "Noi cursuri disponibile",
     "workplace.mycourses": "Cursurile mele",
     "workplace.nothingtodisplay": "Nimic de afișat",
     "workplace.notset": "Nu este setat",
