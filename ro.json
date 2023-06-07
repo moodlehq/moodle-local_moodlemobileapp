@@ -2359,6 +2359,8 @@
     "workplace.isnotempty": "Nu este liber",
     "workplace.iunderstand": "Înțeleg",
     "workplace.moreinfo": "Informații suplimentare",
+    "workplace.myavailable.blocktitle": "Noi cursuri disponibile ({{$a}})",
+    "workplace.myavailable.pluginname": "Noi cursuri disponibile",
     "workplace.mycourses": "Cursurile mele",
     "workplace.myteams": "Echipe",
     "workplace.nothingtodisplay": "Nimic de afișat",
