@@ -11,6 +11,7 @@ fi
 
 LANGPACKSFOLDER="/tmp/moodle-langpacks" # Langpacks will be downloaded here.
 SERVER_URL='https://download.moodle.org/'
+BRANCHNAME="langpack_$LANGVERSION"
 
 # DEFAULT fallback file for unreleased versions
 LANGINDEX_URL='https://raw.githubusercontent.com/moodlehq/moodle-local_moodlemobileapp/main/langindex.json'
@@ -84,10 +85,10 @@ if [ ! -z $GIT_TOKEN ] && [ ! -z $GITHUB_REPOSITORY ]; then
     mkdir /tmp/runtimefiles
     cp parser/*.php /tmp/runtimefiles
 
-    git checkout $LANGVERSION
+    git checkout $BRANCHNAME
     if [ $? -ne 0 ]; then
         # Branch does not exists yet.
-        git checkout --orphan $LANGVERSION
+        git checkout --orphan $BRANCHNAME
         git rm --cached -r .
     fi
 
@@ -135,7 +136,7 @@ if [ ! -z $GIT_TOKEN ] && [ ! -z $GITHUB_REPOSITORY ]; then
 
     git commit -m "[auto-generated] Update lang files for version $LANGVERSION"
 
-    git push -u origin $LANGVERSION
+    git push -u origin $BRANCHNAME
 fi
 
 echo "All done!";
