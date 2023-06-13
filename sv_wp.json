@@ -14,7 +14,18 @@
     "workplace.completeallinorder": "Slutför i bestämd ordning",
     "workplace.completeatleast": "Slutför minst",
     "workplace.completed": "Slutförd",
+    "workplace.content": "Innehåll",
+    "workplace.course": "Kurs",
+    "workplace.coursenotavailable": "Kurs inte tillgänglig",
     "workplace.duedate": "Förfallodatum",
+    "workplace.errorloadingprogram": "Fel vid inläsning av program",
+    "workplace.futureallocation": "Framtida tilldelning",
+    "workplace.notcompleted": "Inte slutfört",
+    "workplace.notenrolledprograms": "Du är inte registrerad på något program",
+    "workplace.notset": "Inte angivet",
+    "workplace.open": "Öppen",
     "workplace.overdue": "Förfallit",
+    "workplace.program": "Program",
+    "workplace.setsandcoursesnotfound": "Hittade inga serier eller kurser",
     "workplace.tablabel": "Mer"
 }
