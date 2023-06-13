@@ -1862,6 +1862,8 @@
     "core.h5p.phone": "Telefon",
     "core.h5p.play": "Afișați H5P",
     "core.h5p.pleaseWait": "Te rugăm să aștepți...",
+    "core.h5p.publisherDescription": "Descrierea editorului",
+    "core.h5p.publisherFieldTitle": "Editor",
     "core.h5p.remove": "Elimină",
     "core.h5p.removeChip": "Elimină :chip din listă",
     "core.h5p.removeImage": "Elimină imagine",
