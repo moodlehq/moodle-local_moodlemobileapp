@@ -1944,7 +1944,7 @@
     "core.login.emailconfirmsentnoemail": "<p> Adresinize bir e-posta gönderilmelidir. </p> <p> Kaydınızı tamamlamak için kolay talimatlar içerir. </p> <p> Sorun yaşamaya devam ederseniz, site yöneticisine başvurun. </ p>",
     "core.login.emailconfirmsentsuccess": "Onaylama e-postası başarıyla gönderildi",
     "core.login.emailnotmatch": "E-postalar uyuymuyor",
-    "core.login.erroraccesscontrolalloworigin": "Gerçekleştirmeye çalıştığınız siteler arası arama reddedildi. Lütfen https://docs.moodle.org/dev/Moodle_Mobile_development_using_Chrome_or_Chromium adresini kontrol edin",
+    "core.login.erroraccesscontrolalloworigin": "Gerçekleştirmeye çalıştığınız çapraz kökenli çağrı reddedildi. Lütfen https://moodledev.io/general/app/development/setup/app-in-browser adresini kontrol edin",
     "core.login.errordeletesite": "Bu site silinirken bir hata oluştu. Lütfen tekrar deneyin.",
     "core.login.errorexampleurl": "Https://campus.example.edu URL'si yalnızca örnek bir URL'dir, gerçek bir site değildir. <strong> Lütfen okulunuzun veya kuruluşunuzun sitesinin URL'sini kullanın. </strong>",
     "core.login.errorqrnoscheme": "Bu URL geçerli bir giriş URL'si değil.",
