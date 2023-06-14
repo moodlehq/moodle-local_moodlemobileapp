@@ -320,7 +320,7 @@
     "addon.messages.warningconversationmessagenotsent": "Nu am putut trimite mesajul (mesajele) către conversația {{user}}. {{error}}",
     "addon.messages.warningmessagenotsent": "Nu am putut trimite mesajul (mesajele) către utilizatorul {{user}}. {{error}}",
     "addon.messages.wouldliketocontactyou": "Dorește să vă contacteze",
-    "addon.messages.you": "Dumneavoastră:",
+    "addon.messages.you": "Tu:",
     "addon.messages.youhaveblockeduser": "Ați blocat acest utilizator",
     "addon.messages.yourcontactrequestpending": "Solicitarea dvs. de contact este în așteptare cu {{$a}}",
     "addon.mod_assign.addattempt": "Permite altă încercare",
