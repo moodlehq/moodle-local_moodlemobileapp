@@ -463,7 +463,7 @@
     "addon.mod_feedback.modulenameplural": "بازخوردها",
     "addon.mod_feedback.next_page": "صفحهٔ بعد",
     "addon.mod_feedback.non_anonymous": "نام کاربران ثبت و به همراه پاسخ‌ها نمایش داده خواهد شد",
-    "addon.mod_feedback.non_anonymous_entries": "اطلاعا وارد شده به صورت غیر ناشناس",
+    "addon.mod_feedback.non_anonymous_entries": "اطلاعات وارد شده به صورت غیر ناشناس ({{$a}})",
     "addon.mod_feedback.non_respondents_students": "شاگردانی که پاسخ نداده‌اند",
     "addon.mod_feedback.not_selected": "انتخاب نشده",
     "addon.mod_feedback.not_started": "شروع نکرده است",
