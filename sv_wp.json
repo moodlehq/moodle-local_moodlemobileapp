@@ -1,5 +1,7 @@
 {
+    "addon.storagemanager.alldata": "All data",
     "core.decsep": ",",
     "core.labelsep": ":",
-    "core.listsep": ";"
+    "core.listsep": ";",
+    "core.usersuspended": "Registrering avstängd"
 }
