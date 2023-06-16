@@ -78,7 +78,6 @@
     "addon.mod_assign.addnewattemptfromprevious": "Agiunghe unu tentativu nou basadu subra de un'intrega anteriore",
     "addon.mod_assign.addsubmission": "Agiunghe un'intrega",
     "addon.mod_assign.allowsubmissionsfromdate": "Permite intregas dae",
-    "addon.mod_assign.allowsubmissionsfromdatesummary": "Custa tarea at a atzetare intregas dae <strong>{{$a}}</strong>",
     "addon.mod_assign.applytoteam": "Àplica is votos e sa retroatzione a su grupu intreu",
     "addon.mod_assign.assignmentisdue": "Tarea iscadida",
     "addon.mod_assign.attemptnumber": "Tentativu nùmeru",

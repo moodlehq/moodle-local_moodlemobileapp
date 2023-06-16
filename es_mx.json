@@ -879,7 +879,7 @@
     "addon.mod_quiz.gradehighest": "Calificación más alta",
     "addon.mod_quiz.grademethod": "Método de calificación",
     "addon.mod_quiz.gradesofar": "{{$a.method}}: {{$a.mygrade}} / {{$a.quizgrade}}.",
-    "addon.mod_quiz.marks": "Puntos",
+    "addon.mod_quiz.marks": "Calificación",
     "addon.mod_quiz.modulenameplural": "Exámenes",
     "addon.mod_quiz.mustbesubmittedby": "Este intento debe ser enviado para {{$a}}.",
     "addon.mod_quiz.noquestions": "Aún no se han agregado preguntas",

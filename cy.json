@@ -137,7 +137,6 @@
     "addon.mod_chat.nomessages": "Dim neges eto",
     "addon.mod_chat.saidto": "wedi cael ei ddweud wrth",
     "addon.mod_chat.send": "Anfon",
-    "addon.mod_chat.sessionstart": "Bydd y sesiwn sgwrsio yn dechrau mewn: {{$a}}",
     "addon.mod_chat.talk": "Siarad",
     "addon.mod_chat.viewreport": "Gweld sesiynau sgwrsio blaenorol",
     "addon.mod_choice.choiceoptions": "Opsiynau'r modiwl Dewis",
