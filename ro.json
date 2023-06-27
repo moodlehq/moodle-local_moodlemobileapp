@@ -1803,6 +1803,7 @@
     "core.h5p.disciplines": "Discipline",
     "core.h5p.download": "Descarcă",
     "core.h5p.downloadtitle": "Descărcați acest conținut sub formă de fișier H5P.",
+    "core.h5p.editInfoTitle": "Editează informațiile din <strong>:title</strong>",
     "core.h5p.editingFailed": "Editarea a eșuat.",
     "core.h5p.editor": "Editor",
     "core.h5p.emailAddress": "Adresă de email",
