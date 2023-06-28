@@ -1430,7 +1430,7 @@
     "core.course.confirmpartialdownloadsize": "Olet lataamassa <strong>vähintään</strong> {{size}}.{{availableSpace}} Oletko varma, että haluat jatkaa?",
     "core.course.couldnotloadsectioncontent": "Osion sisältöä ei pystytty lataamaan. Ole hyvä ja yritä uudelleen.",
     "core.course.couldnotloadsections": "Osioita ei pystytty lataamaan. Ole hyvä ja yritä uudelleen.",
-    "core.course.courseindex": "Kurssi-indeksi",
+    "core.course.courseindex": "Kurssisisältö",
     "core.course.coursesummary": "Kurssikuvaus",
     "core.course.done": "Tehty",
     "core.course.downloadcourse": "Lataa kurssi",
