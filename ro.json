@@ -841,7 +841,7 @@
     "addon.mod_quiz.clearchoice": "Șterge alegerea mea",
     "addon.mod_quiz.comment": "Comentariu",
     "addon.mod_quiz.completedon": "Completat pe",
-    "addon.mod_quiz.confirmclose": "După ce trimiteți răspunsurile, nu veți mai putea modifica răspunsurile pentru această încercare.",
+    "addon.mod_quiz.confirmclose": "După ce trimiți răspunsurile, nu le vei mai putea modifica.",
     "addon.mod_quiz.confirmstart": "Încercarea dvs. va avea o limită de timp de {{$a}}. Când începeți testul, cronometrul va începe să numărătoarea inversă și nu poate fi întreruptă sau pusă pe pauză. Trebuie să terminați încercarea înainte ca timpul să expire. Sigur doriți să începeți acum?",
     "addon.mod_quiz.confirmstartheader": "Test cronometrat",
     "addon.mod_quiz.connectionerror": "S-a pierdut conexiunea la rețea. (Auto-salvarea a eșuat).\n\nNotează orice răspunsuri inserate pe această pagină în ultimele minute, apoi încearcă să te conectezi din nou.\n\nDupă stabilirea conexiunii, răspunsurile dvs. ar trebui să fie salvate și acest mesaj va dispărea.",
