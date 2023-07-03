@@ -1454,7 +1454,7 @@
     "core.course.failed": "Hylätty",
     "core.course.hiddenfromstudents": "Piilotettu opiskelijoilta",
     "core.course.hiddenoncoursepage": "Piilotettu, mutta pääsy sallittu",
-    "core.course.highlighted": "Korostetut",
+    "core.course.highlighted": "Korostettu",
     "core.course.nocontentavailable": "Yhtään sisältöä ei ole tällä hetkellä saatavilla.",
     "core.course.overriddennotice": "Sinun arvosanasi tältä aktiviteetilta käsiteltiin manuaalisesti.",
     "core.course.relativedatessubmissionduedateafter": "{{$a.datediffstr}} kurssin aloituksen jälkeen",
