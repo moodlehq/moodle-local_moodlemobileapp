@@ -1396,7 +1396,7 @@
     "core.course.activitynotyetviewableremoteaddon": "La risorsa alla quale si sta accedendo non è supportata per l'accesso mobile, accedi cliccando su Apri nel Browser.",
     "core.course.allsections": "Tutte le sezioni",
     "core.course.confirmdeletemodulefiles": "Sei sicuro di eliminare questi file?",
-    "core.course.confirmdownload": "Stai per scaricare {size}}.{{availableSpace}} Vuoi continuare?",
+    "core.course.confirmdownload": "Stai per scaricare {{size}}.{{availableSpace}} Vuoi continuare?",
     "core.course.confirmdownloadunknownsize": "Non è stato possibile calcolare la dimensione del download.{{availableSpace}} Vuoi continuare?",
     "core.course.confirmdownloadzerosize": "Stai per iniziare il download. {{availableSpace}} Sei sicuro di voler continuare?",
     "core.course.confirmlimiteddownload": "Non sei collagato al Wi-Fi.",
