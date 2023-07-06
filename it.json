@@ -1467,7 +1467,7 @@
     "core.course.completion_setby:manual:done": "{{$a.activityname}} è stato spuntato da {{$a.setby}} come completato. Premere per annullare.",
     "core.course.completion_setby:manual:markdone": "{{$a.activityname}} è stato spuntato da {{$a.setby}} come non completato. Premere per annullare.",
     "core.course.completionrequirements": "Criteri di completamento di {{$a}}",
-    "core.course.confirmdownload": "Stai per scaricare {size}}.{{availableSpace}} Vuoi continuare?",
+    "core.course.confirmdownload": "Stai per scaricare {{size}}.{{availableSpace}} Vuoi continuare?",
     "core.course.confirmdownloadunknownsize": "Non è stato possibile calcolare la dimensione del download.{{availableSpace}} Vuoi continuare?",
     "core.course.confirmdownloadzerosize": "Stai per iniziare il download. {{availableSpace}} Sei sicuro di voler continuare?",
     "core.course.confirmlimiteddownload": "Non sei collagato al Wi-Fi.",
