@@ -10,7 +10,7 @@ if [ -z $LANGVERSION ]; then
 fi
 
 LANGPACKSFOLDER="/tmp/moodle-langpacks" # Langpacks will be downloaded here.
-SERVER_URL='https://download.moodle.org/'
+SERVER_URL='https://packaging.moodle.org/'
 BRANCHNAME="langpack_$LANGVERSION"
 
 # DEFAULT fallback file for unreleased versions
@@ -22,7 +22,7 @@ function download_file {
 
     pushd $LANGPACKSFOLDER > /dev/null
 
-    curl -s $url --output $filename > /dev/null
+    curl -L -s $url --output $filename > /dev/null
     size=$(du -k "$filename" | cut -f 1)
     if [ ! -n $filename ] || [ $size -le 1 ]; then
         echo "Wrong or corrupt file $filename"
@@ -69,7 +69,7 @@ function get_languages {
         fi
 
         echo "Getting $name ($lang) language..."
-        download_file "$SERVER_URL/download.php/direct/langpack/$LANGVERSION/$lang.zip"
+        download_file "$SERVER_URL/langpack/$LANGVERSION/$lang.zip"
     done < $LANGPACKSFOLDER/languages.md5
 }
 
