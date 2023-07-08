@@ -2199,7 +2199,7 @@
     "core.nopermissionerror": "Sie haben aktuell kein Recht, um dies zu tun.",
     "core.nopermissions": "Sie haben aktuell nicht das Recht, dies zu tun ({{$a}}).",
     "core.nopermissiontoaccesspage": "Sie haben kein Recht, auf diese Seite zuzugreifen.",
-    "core.noreplyname": "Antworten Sie nicht auf diese E-Mail.",
+    "core.noreplyname": "Antworten Sie nicht auf diese E-Mail",
     "core.noresults": "Keine Ergebnisse",
     "core.noselection": "Keine Auswahl",
     "core.notapplicable": "n/a",
