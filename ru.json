@@ -969,7 +969,7 @@
     "addon.mod_workshop.deletesubmission": "Удалить ответ",
     "addon.mod_workshop.editsubmission": "Редактировать работу",
     "addon.mod_workshop.feedbackauthor": "Отзыв для автора",
-    "addon.mod_workshop.feedbackby": "Отзыв на {{$a}}",
+    "addon.mod_workshop.feedbackby": "Отзыв от {{$a}}",
     "addon.mod_workshop.feedbackreviewer": "Отзыв для рецензента",
     "addon.mod_workshop.givengrades": "Данные оценки",
     "addon.mod_workshop.gradecalculated": "Вычисленная оценка за работу",
