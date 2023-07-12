@@ -620,7 +620,7 @@
     "core.nopasswordchangeforced": "Du kannst nicht weitermachen, ohne dein Kennwort zu ändern.",
     "core.nopermissionerror": "Du hast aktuell kein Recht, um dies zu tun.",
     "core.nopermissions": "Du hast derzeit keine Rechte, dies zu tun ({{$a}}).",
-    "core.noreplyname": "Antworte nicht auf diese E-Mail.",
+    "core.noreplyname": "Antworte nicht auf diese E-Mail",
     "core.notapplicable": "n/a",
     "core.notdownloadable": "Nicht herunterladbar",
     "core.notingroup": "Diese Aktivität ist nur für Gruppenmitglieder zugänglich. Du bist kein Gruppenmitglied.",
