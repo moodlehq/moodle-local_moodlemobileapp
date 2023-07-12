@@ -1804,6 +1804,7 @@
     "core.h5p.authorname": "Nom de l'autor",
     "core.h5p.authorrole": "Funció de l'autor",
     "core.h5p.by": "per",
+    "core.h5p.cancelPublishConfirmationDialogConfirmButtonText": "Sí",
     "core.h5p.cancellabel": "Cancel·la",
     "core.h5p.ccattribution": "Attribution (CC BY)",
     "core.h5p.ccattributionnc": "Attribution-NonCommercial (CC BY-NC)",
