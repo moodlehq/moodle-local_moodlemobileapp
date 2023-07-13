@@ -64,7 +64,7 @@
     "addon.block_starredcourses.nocourses": "Brak kursów oznaczonych gwiazdką",
     "addon.block_starredcourses.pluginname": "Kursy oznaczone gwiazdką",
     "addon.block_tags.pluginname": "Tagi",
-    "addon.block_timeline.duedate": "Termin oddania",
+    "addon.block_timeline.duedate": "Termin wykonania",
     "addon.block_timeline.next30days": "Kolejne 30 dni",
     "addon.block_timeline.next3months": "Kolejne 3 miesiące",
     "addon.block_timeline.next6months": "Kolejne 6 miesięcy",
