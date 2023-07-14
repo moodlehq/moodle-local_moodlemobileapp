@@ -104,7 +104,6 @@
     "addon.mod_chat.modulenameplural": "அரட்டைகள்",
     "addon.mod_chat.nomessages": "இன்னும் ஒரு செய்தியும் இல்லை",
     "addon.mod_chat.send": "அனுப்பப்பட்டது",
-    "addon.mod_chat.sessionstart": "அரட்டை அமர்வு ஆரம்பிக்கப்பட்டிருக்கும்: {{$a}}",
     "addon.mod_chat.viewreport": "கடந்த அமர்வுகளைப் பார்க்க",
     "addon.mod_choice.full": "முழு",
     "addon.mod_choice.modulenameplural": "தெரிவுகள்",

@@ -106,7 +106,6 @@
     "addon.mod_chat.messageyoubeep": "Du knackade på {{$a}}",
     "addon.mod_chat.modulenameplural": "Chattar",
     "addon.mod_chat.nomessages": "Inga meddelanden",
-    "addon.mod_chat.sessionstart": "Chatsessionen kommer att börja om: {{$a}}",
     "addon.mod_chat.viewreport": "Visa tidigare chatsessioner",
     "addon.mod_choice.choiceoptions": "Svarsalternativ",
     "addon.mod_choice.modulenameplural": "Opinionsmätningar",

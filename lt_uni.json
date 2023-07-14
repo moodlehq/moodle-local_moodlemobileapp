@@ -82,7 +82,6 @@
     "addon.mod_chat.messageyoubeep": "Jūs pyptelėjote {{$a}}",
     "addon.mod_chat.saidto": "pasakė",
     "addon.mod_chat.send": "Siųsti",
-    "addon.mod_chat.sessionstart": "Pokalbio seansas bus pradėtas po: {{$a}}",
     "addon.mod_chat.talk": "Kalbėti",
     "addon.mod_chat.viewreport": "Peržiūrėti ankstesnius pokalbių seansus",
     "addon.mod_choice.choiceoptions": "Pasirinkimo parinktys",
