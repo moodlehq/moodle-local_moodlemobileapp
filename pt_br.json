@@ -663,7 +663,7 @@
     "addon.mod_glossary.fullmatch": "Criar links apenas a partir de palavras inteiras",
     "addon.mod_glossary.linking": "Auto-link",
     "addon.mod_glossary.modulenameplural": "Glossários",
-    "addon.mod_glossary.noentriesfound": "Nenhuma entrada foi encontrada",
+    "addon.mod_glossary.noentriesfound": "Nenhuma entrada foi encontrada.",
     "addon.mod_glossary.searchquery": "Consulta de pesquisa",
     "addon.mod_glossary.tagarea_glossary_entries": "Itens do Glossário",
     "addon.mod_h5pactivity.all_attempts": "Todas as tentativas do usuário",
