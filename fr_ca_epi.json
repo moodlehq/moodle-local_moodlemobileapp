@@ -84,6 +84,7 @@
     "core.now": "maintenant",
     "core.numwords": "{{$a}} mots",
     "core.ok": "Ok",
+    "core.parentlanguage": "fr_ca",
     "core.phone": "Téléphone",
     "core.previous": "Précédent",
     "core.reminders.delete": "Supprimer",

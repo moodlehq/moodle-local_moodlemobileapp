@@ -39,6 +39,7 @@
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.notenrolledprofile": "This profile is not available because this user is not enrolled in this class.",
+    "core.parentlanguage": "en_us",
     "core.selectacourse": "Select a class",
     "core.strftimedate": "%B %d, %Y",
     "core.strftimedatefullshort": "%m/%d/%y",

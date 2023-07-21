@@ -14,6 +14,7 @@
     "core.listsep": ",",
     "core.login.loginsteps": "For full access to this site, you first need to create an account.",
     "core.notenrolledprofile": "This profile is not available because this user is not enrolled in this course.",
+    "core.parentlanguage": "en",
     "core.settings.license": "License",
     "core.strftimedate": "%B %d, %Y",
     "core.strftimedatefullshort": "%m/%d/%y",

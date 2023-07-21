@@ -2130,6 +2130,7 @@
     "core.openwith": "Abrir con ...",
     "core.othergroups": "Otros grupos",
     "core.pagea": "Página {{$a}}",
+    "core.parentlanguage": "es",
     "core.percentagenumber": "{{$a}}%",
     "core.phone": "Teléfono",
     "core.pictureof": "Imagen de {{$a}}",

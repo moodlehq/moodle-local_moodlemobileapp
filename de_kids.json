@@ -45,6 +45,7 @@
     "core.login.policyagreement": "Wichtige Infos zum Datenschutz.  Unbedingt lesen.",
     "core.login.policyagreementclick": "Hier findest du Informationen zum Datenschutz. Unbedingt lesen.",
     "core.mainmenu.logout": "Abmelden",
+    "core.parentlanguage": "de_du",
     "core.strftimedate": "%d. %B %Y",
     "core.strftimedatefullshort": "%d.%m.%y",
     "core.strftimedateshort": "%d. %B",

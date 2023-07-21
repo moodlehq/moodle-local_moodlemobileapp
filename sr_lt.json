@@ -1933,6 +1933,7 @@
     "core.openinbrowser": "Otvori u veb čitaču",
     "core.othergroups": "Druge grupe",
     "core.pagea": "Stranica {{$a}}",
+    "core.parentlanguage": "en",
     "core.percentagenumber": "{{$a}}%",
     "core.phone": "Telefon",
     "core.pictureof": "Slika {{$a}}",

@@ -18,5 +18,6 @@
     "core.labelsep": ":",
     "core.listsep": ";",
     "core.mod_scorm": "Paquete SCORM",
+    "core.parentlanguage": "es",
     "core.settings.accessstatement": "Declaración de accesabilidad"
 }

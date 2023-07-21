@@ -29,6 +29,7 @@
     "core.fulllistofcourses": "Kaikki työtilat",
     "core.listsep": ";",
     "core.notenrolledprofile": "Profiilia ei voida näyttää, sillä tämä käyttäjä ei ole kirjautuneena tähän työtilaan.",
+    "core.parentlanguage": "fi",
     "core.selectacourse": "Valitse työtila",
     "core.user.noparticipants": "Tälle työtilalle ei löytynyt osallistujia",
     "workplace.coursefiles": "Perinteiset työtilatiedostot"
