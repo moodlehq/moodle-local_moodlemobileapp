@@ -98,6 +98,7 @@
     "core.now": "ngayon",
     "core.numwords": "{{$a}} salita",
     "core.ok": "OK",
+    "core.parentlanguage": "tl",
     "core.phone": "Telepono",
     "core.previous": "Nakaraan",
     "core.required": "Kinakailangan",

@@ -21,6 +21,7 @@
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
+    "core.parentlanguage": "no",
     "core.usersuspended": "Registrering suspendert",
     "workplace.aboutthiscourse": "Om dette kurset",
     "workplace.aboutthisprogram": "Om dette programmet",

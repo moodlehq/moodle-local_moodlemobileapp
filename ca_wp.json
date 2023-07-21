@@ -148,6 +148,7 @@
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.mod_h5pactivity": "H5P",
+    "core.parentlanguage": "ca",
     "core.settings.accessstatement": "Declaració d'accessibilitat",
     "core.strftimedate": "%d %B %Y",
     "core.strftimedatefullshort": "%d/%m/%y",

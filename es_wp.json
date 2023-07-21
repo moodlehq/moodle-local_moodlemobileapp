@@ -9,6 +9,7 @@
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
+    "core.parentlanguage": "es",
     "core.strftimedate": "%d %B %Y",
     "core.strftimedatefullshort": "%d/%m/%y",
     "core.strftimedateshort": "%d %B",

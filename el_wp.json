@@ -1690,6 +1690,7 @@
     "core.openinbrowser": "Ανοίξτε στον περιηγητή.",
     "core.othergroups": "Άλλες ομάδες",
     "core.pagea": "Σελίδα {{$a}}",
+    "core.parentlanguage": "el",
     "core.percentagenumber": "{{$a}}%",
     "core.phone": "Τηλέφωνο",
     "core.pictureof": "Φωτογραφία {{$a}}",
