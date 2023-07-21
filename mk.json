@@ -1092,6 +1092,7 @@
     "core.online": "Онлајн",
     "core.othergroups": "Други групи",
     "core.pagea": "Страница {{$a}}",
+    "core.parentlanguage": "en",
     "core.phone": "Телефон",
     "core.pictureof": "Слика од {{$a}}",
     "core.previous": "Претходно",

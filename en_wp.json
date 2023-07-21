@@ -13,6 +13,7 @@
     "core.course.hiddenfromstudents": "Hidden from learners",
     "core.decsep": ".",
     "core.listsep": ",",
+    "core.parentlanguage": "en",
     "core.teachers": "Trainers",
     "core.user.editingteacher": "Trainer",
     "core.user.student": "Learner",

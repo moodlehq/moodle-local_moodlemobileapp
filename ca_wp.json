@@ -151,6 +151,7 @@
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.mod_h5pactivity": "H5P",
+    "core.parentlanguage": "ca",
     "core.reportbuilder.modifiedby": "Modificat per",
     "core.settings.accessstatement": "Declaració d'accessibilitat",
     "core.strftimedate": "%d %B %Y",

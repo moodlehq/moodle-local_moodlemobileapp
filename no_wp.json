@@ -21,6 +21,7 @@
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
+    "core.parentlanguage": "no",
     "core.reportbuilder.modifiedby": "Endret av",
     "core.usersuspended": "Registrering suspendert"
 }
