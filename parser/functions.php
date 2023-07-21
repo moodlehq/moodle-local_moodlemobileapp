@@ -141,15 +141,12 @@ function build_lang(&$language) {
 
     $language->local = 0;
 
-    $langparts = explode('-', $lang, 2);
-    $parentname = $langparts[0] ? $langparts[0] : "";
-    $parent = "";
+    $parent = get_parent_language($lang);
 
     echo "Processing $language->name ($lang)";
     // Check parent language exists.
-    if ($parentname != $lang && get_langpack_folder($parentname)) {
-        echo " Parent: $parentname";
-        $parent = $parentname;
+    if (!empty($parent)) {
+        echo " Parent: $parent";
     }
 
     $langFile = false;
@@ -305,4 +302,29 @@ function get_translation_strings($langfoldername, $file) {
 function progressbar($percentage, $length = 10) {
     $done = floor($percentage / $length);
     return "\t".str_repeat('=', $done) . str_repeat('-', $length - $done);
+}
+
+/**
+ * Get parent language code from a particular language.
+ *
+ * @param $lang Lang code
+ * @returns Parent language code if any is available or empty otherwise.
+ */
+function get_parent_language($lang) {
+    $langfoldername = get_langpack_folder($lang);
+
+    $langconfigstr = get_translation_strings($langfoldername, 'langconfig');
+    $parentname = isset($langconfigstr['parentlanguage']) && !empty($langconfigstr['parentlanguage']) ? $langconfigstr['parentlanguage'] : "";
+
+    if (empty($parentname)) {
+        // Guess it from language code.
+        $langparts = explode('_', $lang, 2);
+        $parentname = $langparts[0] ? $langparts[0] : "";
+    }
+
+    if ($parentname != $lang && get_langpack_folder($parentname)) {
+        return $parentname;
+    }
+
+    return "";
 }
