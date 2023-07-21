@@ -1,4 +1,5 @@
 {
     "core.decsep": ",",
-    "core.listsep": ";"
+    "core.listsep": ";",
+    "core.parentlanguage": "da"
 }

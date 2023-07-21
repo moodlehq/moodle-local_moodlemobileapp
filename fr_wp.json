@@ -35,6 +35,7 @@
     "core.labelsep": " ",
     "core.listsep": ";",
     "core.mod_h5pactivity": "H5P",
+    "core.parentlanguage": "fr",
     "core.reportbuilder.modifiedby": "Modifié par",
     "core.settings.accessstatement": "Déclaration d'accessibilité",
     "core.usersuspended": "Inscription suspendue"

@@ -406,6 +406,7 @@
     "core.numwords": "{{$a}} كلمة",
     "core.ok": "حسنا",
     "core.pagea": "صفحة {{$a}}",
+    "core.parentlanguage": "ar",
     "core.phone": "الهاتف",
     "core.pictureof": "صورة {{$a}}",
     "core.previous": "السابق",

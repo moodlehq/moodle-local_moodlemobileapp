@@ -2022,6 +2022,7 @@
     "core.openinbrowser": "Отвори у веб читачу",
     "core.othergroups": "Друге групе",
     "core.pagea": "Страница {{$a}}",
+    "core.parentlanguage": "en",
     "core.percentagenumber": "{{$a}}%",
     "core.phone": "Телефон",
     "core.pictureof": "Слика {{$a}}",

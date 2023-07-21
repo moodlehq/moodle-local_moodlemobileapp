@@ -94,6 +94,7 @@
     "core.now": "maintenant",
     "core.numwords": "{{$a}} mots",
     "core.ok": "Ok",
+    "core.parentlanguage": "fr",
     "core.phone": "Téléphone",
     "core.previous": "Précédent",
     "core.question.feedback": "Rétroaction",

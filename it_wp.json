@@ -6,5 +6,6 @@
     "core.courses.addtofavourites": "Inserisci il corso tra i preferiti",
     "core.decsep": ",",
     "core.labelsep": ":",
-    "core.listsep": ";"
+    "core.listsep": ";",
+    "core.parentlanguage": "it"
 }

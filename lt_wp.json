@@ -3,5 +3,6 @@
     "addon.mod_assign.submittedundertime": "Užduotis buvo pateikta {{$a}} per nustatytą terminą",
     "addon.mod_assign.timelimit": "Laiko limitas",
     "core.decsep": ".",
-    "core.listsep": ";"
+    "core.listsep": ";",
+    "core.parentlanguage": "lt"
 }

@@ -309,6 +309,7 @@
     "core.nocomments": "Inga kommentarer",
     "core.nograde": "Inget vitsord",
     "core.noselection": "Inget valt",
+    "core.parentlanguage": "sv",
     "core.pictureof": "Bild av {{$a}}",
     "core.previous": "Föregående",
     "core.question.answer": "Svar",

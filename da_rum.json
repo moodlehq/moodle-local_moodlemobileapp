@@ -28,6 +28,7 @@
     "core.listsep": ";",
     "core.login.loginsteps": "For at få fuld adgang til systemet skal du oprette en brugerkonto på siden. Hvert enkelt rum kan også have en \"tilmeldingsnøgle\", den skal du først bruge senere. <b>Sådan gør du:</b> <ol> <li>Udfyld <a href=\"{{$a}}\">Ny Profil</a>-formularen med dine oplysninger.</li> <li>En e-mail vil derefter blive sendt til din e-mail-adresse.</li> <li>Læs din e-mail og klik på det tilsendte link.</li> <li>Din profil bliver bekræftet og du bliver logget ind.</li> <li>Vælg derefter det rum, som du vil deltage i.</li> <li>Hvis du bliver bedt om en \"tilmeldingsnøgle\" skal du bruge den, du har fået udleveret. Det vil give dig adgang til rummet.</li> <li>Du har nu fuld adgang til rummet og fra nu af skal du kun at bruge brugernavn og adgangskode for at logge ind.</li> </ol>",
     "core.notenrolledprofile": "Denne profil er ikke tilgængelig da brugeren ikke er tilmeldt dette rum.",
+    "core.parentlanguage": "da",
     "core.selectacourse": "Vælg et rum",
     "core.thisdirection": "ltr",
     "core.user.lastcourseaccess": "Sidste adgang til rum",

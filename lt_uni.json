@@ -662,6 +662,7 @@
     "core.offline": "Neprisijungęs",
     "core.ok": "Gerai",
     "core.online": "Prisijungęs",
+    "core.parentlanguage": "lt",
     "core.pictureof": "{{$a}} paveikslėlis",
     "core.question.correct": "Teisinga",
     "core.question.feedback": "Grįžtamasis ryšys",

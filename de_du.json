@@ -633,6 +633,7 @@
     "core.opensecurityquestion": "Sicherheitsfrage öffnen",
     "core.opensettings": "Einstellungen öffnen",
     "core.openwith": "Öffnen mit ...",
+    "core.parentlanguage": "de",
     "core.percentagenumber": "{{$a}}%",
     "core.phone": "Telefon",
     "core.play": "Abspielen",
