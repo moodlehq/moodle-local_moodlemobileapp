@@ -8,6 +8,7 @@
     "core.listsep": ",",
     "core.maxfilesize": "Maximale Dateigrösse: {{$a}}",
     "core.maxsizeandattachments": "Maximale Grösse für neue Dateien: {{$a.size}}, Maximale Anzahl von Anhängen: {{$a.attachments}}",
+    "core.parentlanguage": "de",
     "core.strftimedate": "%d. %B %Y",
     "core.strftimedatefullshort": "%d.%m.%y",
     "core.strftimedateshort": "%d. %B",

@@ -19,6 +19,7 @@
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
+    "core.parentlanguage": "no",
     "workplace.active": "Aktive",
     "workplace.all": "Alle",
     "workplace.anydepartment": "Minst en",

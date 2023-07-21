@@ -287,6 +287,7 @@
     "core.numwords": "کلمات {{$a}}",
     "core.ok": "خوب",
     "core.pagea": "صفحه {{$a}}",
+    "core.parentlanguage": "fa",
     "core.paymentinstant": "برای پرداخت پول از دکمه زیر استفاده کنید و در عرض چند دقیقه ثبت نام کنید!",
     "core.phone": "تلفن",
     "core.pictureof": "تصویر {{$a}}",

@@ -97,6 +97,7 @@
     "core.now": "ngayon",
     "core.numwords": "{{$a}} salita",
     "core.ok": "OK",
+    "core.parentlanguage": "tl",
     "core.paymentinstant": "Gamitin ang pindutan sa ibaba para makapagbayad at ma-enrol sa loob lang ng ilang minuto!",
     "core.phone": "Telepono",
     "core.previous": "Nakaraan",

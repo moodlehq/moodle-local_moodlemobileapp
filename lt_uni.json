@@ -649,6 +649,7 @@
     "core.offline": "Neprisijungęs",
     "core.ok": "Gerai",
     "core.online": "Prisijungęs",
+    "core.parentlanguage": "lt",
     "core.paymentinstant": "Naudokite toliau pateiktą mygtuką, kad sumokėtumėte ir būtumėte įregistruoti per kelias minutes.",
     "core.pictureof": "{{$a}} paveikslėlis",
     "core.question.correct": "Teisinga",

@@ -1070,6 +1070,7 @@
     "core.online": "Онлајн",
     "core.othergroups": "Други групи",
     "core.pagea": "Страница {{$a}}",
+    "core.parentlanguage": "en",
     "core.paymentinstant": "Користете го копчето долу за да платите и да се се запишете за неколку минути!",
     "core.phone": "Телефон",
     "core.pictureof": "Слика од {{$a}}",

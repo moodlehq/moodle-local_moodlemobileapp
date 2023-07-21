@@ -17,5 +17,6 @@
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
-    "core.mod_scorm": "Paquete SCORM"
+    "core.mod_scorm": "Paquete SCORM",
+    "core.parentlanguage": "es"
 }

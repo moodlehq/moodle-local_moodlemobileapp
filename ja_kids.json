@@ -13,6 +13,7 @@
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.mod_glossary": "ようごしゅう",
+    "core.parentlanguage": "ja",
     "core.strftimedate": "%Y年 %m月 %d日",
     "core.strftimedatefullshort": "%y/%m/%d",
     "core.strftimedateshort": "%m/%d",

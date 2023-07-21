@@ -405,6 +405,7 @@
     "core.numwords": "{{$a}} كلمة",
     "core.ok": "حسنا",
     "core.pagea": "صفحة {{$a}}",
+    "core.parentlanguage": "ar",
     "core.paymentinstant": "استخدم الزر أدناه للدفع والتسجيل في غضون دقائق!",
     "core.phone": "الهاتف",
     "core.pictureof": "صورة {{$a}}",

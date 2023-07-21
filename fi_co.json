@@ -28,6 +28,7 @@
     "core.fulllistofcourses": "Kaikki työtilat",
     "core.listsep": ";",
     "core.notenrolledprofile": "Profiilia ei voida näyttää, sillä tämä käyttäjä ei ole kirjautuneena tähän työtilaan.",
+    "core.parentlanguage": "fi",
     "core.paymentinstant": "Napsauta painiketta maksaaksesi työtilasta ja liittyäksesi työtilaan.",
     "core.selectacourse": "Valitse työtila",
     "core.user.noparticipants": "Tälle työtilalle ei löytynyt osallistujia"

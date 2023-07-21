@@ -1,6 +1,7 @@
 {
     "core.decsep": ",",
     "core.listsep": ";",
+    "core.parentlanguage": "nl",
     "workplace.active": "Actief",
     "workplace.all": "Alle",
     "workplace.anydepartment": "Elke",

@@ -39,6 +39,7 @@
     "core.login.login": "Dugg",
     "core.mainmenu.home": "Xët wu njëkk",
     "core.mainmenu.logout": "Génn",
+    "core.parentlanguage": "fr",
     "core.search": "Seet",
     "core.strftimedate": "%%d %%B %%Y",
     "core.strftimedatefullshort": "%%d %%b %%y",

@@ -831,6 +831,7 @@
     "core.ok": "சரி",
     "core.online": "இணையுள்ள நிலை",
     "core.pagea": "பக்கம் {{$a}}",
+    "core.parentlanguage": "ta",
     "core.paymentinstant": "கீழுள்ள பொத்தானைப் பயன்படுத்தி சில நிமிடங்களில் பணம் கட்டி சேர்ந்து கொள்ளுங்கள்!",
     "core.phone": "தொலைபேசி",
     "core.pictureof": "{{$a}} இன் படம்",

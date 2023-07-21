@@ -2,6 +2,7 @@
     "core.accounts": "Бүртгэлүүд",
     "core.decsep": ".",
     "core.listsep": ",",
+    "core.parentlanguage": "mn",
     "core.user.address": "Хаяг",
     "core.user.city": "Хот"
 }

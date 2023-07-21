@@ -549,6 +549,7 @@
     "core.opensecurityquestion": "Sicherheitsfrage öffnen",
     "core.opensettings": "Einstellungen öffnen",
     "core.openwith": "Öffnen mit ...",
+    "core.parentlanguage": "de",
     "core.paymentinstant": "Klicke auf die Taste, um die Teilnahmegebühr zu bezahlen. Sobald der Zahlvorgang abgeschlossen ist, wirst du automatisch in den Kurs eingeschrieben.",
     "core.percentagenumber": "{{$a}}%",
     "core.phone": "Telefon",

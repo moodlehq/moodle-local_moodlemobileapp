@@ -83,6 +83,7 @@
     "core.now": "maintenant",
     "core.numwords": "{{$a}} mots",
     "core.ok": "Ok",
+    "core.parentlanguage": "fr_ca",
     "core.paymentinstant": "Le bouton ci-dessous vous permet de payer et de vous inscrire en quelques minutes !",
     "core.phone": "Téléphone",
     "core.previous": "Précédent",

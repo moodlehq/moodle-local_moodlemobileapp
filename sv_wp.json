@@ -2,6 +2,7 @@
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
+    "core.parentlanguage": "sv",
     "workplace.active": "Aktiv",
     "workplace.certificationmsgactive": "Certifiering <strong>\"{{$a.fullname}}\"</strong> måste slutföras före <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "Certifiering <strong>\"{{$a.fullname}}\"</strong> är slutförd",
