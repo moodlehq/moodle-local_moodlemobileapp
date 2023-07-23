@@ -1025,6 +1025,8 @@
     "core.folder": "ဖိုင်တွဲ",
     "core.fulllistofcourses": "သင်တန်းများအားလုံး",
     "core.grades.aggregatemean": "အဆင့်ပျမ်းမျှ",
+    "core.grades.aggregatesum": "နဂိုအဆင့်",
+    "core.grades.average": "ပျမ်းမျှ",
     "core.grades.badgrade": "ပံ့ပိုးထားသော အဆင့် မမှန်ကန်ပါ။",
     "core.grades.calculatedgrade": "တွက်ချက်ထားသော အဆင့်",
     "core.grades.category": "အမျိုးအစား",
