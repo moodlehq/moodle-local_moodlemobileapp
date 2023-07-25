@@ -1,5 +1,7 @@
 {
     "core.decsep": ".",
     "core.listsep": ",",
-    "core.parentlanguage": "en_us"
+    "core.parentlanguage": "en_us",
+    "workplace.orgstructure": "Organization structure",
+    "workplace.teams.orgstructure": "Organization structure"
 }

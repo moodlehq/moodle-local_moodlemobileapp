@@ -2162,5 +2162,12 @@
     "freemium.feature_custommenuitems": "Brugerdefinerede menupunkter",
     "freemium.feature_disabledfeatures": "Deaktiverede funktioner",
     "freemium.subscriptionfeature_disabled": "Deaktiveret",
-    "freemium.subscriptionfeature_enabled": "Aktiveret"
+    "freemium.subscriptionfeature_enabled": "Aktiveret",
+    "workplace.continue": "Fortsæt",
+    "workplace.coursefiles": "Arvede kursusfiler",
+    "workplace.deleted": "Slettet",
+    "workplace.moreinfo": "Mere information",
+    "workplace.nothingtodisplay": "Ingenting at vise",
+    "workplace.roleincontext": "{{$a.role}} i {{$a.context}}",
+    "workplace.teams.fullname": "Fulde navn"
 }

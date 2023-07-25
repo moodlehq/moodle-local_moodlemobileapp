@@ -747,5 +747,10 @@
     "core.year": "жыл",
     "core.years": "жылдар",
     "core.yes": "Иә",
-    "freemium.accept": "Қабылдауға"
+    "freemium.accept": "Қабылдауға",
+    "workplace.continue": "Жалғастыру",
+    "workplace.coursefiles": "Курс файлдары",
+    "workplace.deleted": "Жойылды",
+    "workplace.nothingtodisplay": "Көрсететін ештеме жоқ",
+    "workplace.teams.fullname": "Толық аты"
 }

@@ -1237,5 +1237,12 @@
     "core.yes": "Да",
     "freemium.accept": "Прифати",
     "freemium.subscriptionfeature_disabled": "Онeвозможено",
-    "freemium.subscriptionfeature_enabled": "Овозможено"
+    "freemium.subscriptionfeature_enabled": "Овозможено",
+    "workplace.continue": "Продолжи",
+    "workplace.coursefiles": "Датотеки од изминати курсеви",
+    "workplace.deleted": "Избришано",
+    "workplace.moreinfo": "Повеќе информации",
+    "workplace.nothingtodisplay": "Нема ништо за приказ",
+    "workplace.roleincontext": "{{$a.role}} во {{$a.context}}",
+    "workplace.teams.fullname": "Име и презиме"
 }

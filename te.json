@@ -1104,5 +1104,11 @@
     "freemium.feature_custommenuitems": "కస్టమ్ మెను అంశాలు",
     "freemium.feature_disabledfeatures": "నిలిపివేయబడిన లక్షణాలు",
     "freemium.subscriptionfeature_disabled": "డిసేబుల్ చేయబడింది",
-    "freemium.subscriptionfeature_enabled": "ఎనేబుల్ చెయ్యబడింది"
+    "freemium.subscriptionfeature_enabled": "ఎనేబుల్ చెయ్యబడింది",
+    "workplace.continue": "కొనసాగించు",
+    "workplace.coursefiles": "లెగసీ కోర్సు ఫైళ్లు",
+    "workplace.deleted": "తొలగించాం",
+    "workplace.moreinfo": "మరింత సమాచారం",
+    "workplace.nothingtodisplay": "చూపించడానికేమీ లేదు",
+    "workplace.teams.fullname": "పూర్తి పేరు"
 }

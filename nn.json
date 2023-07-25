@@ -362,5 +362,11 @@
     "core.users": "Brukarar",
     "core.view": "Vising",
     "core.week": "Veke",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.continue": "Hald fram",
+    "workplace.coursefiles": "Kursfiler",
+    "workplace.deleted": "Sletta",
+    "workplace.moreinfo": "Meir informasjon",
+    "workplace.nothingtodisplay": "Ingenting å vise",
+    "workplace.teams.fullname": "Fullt namn"
 }

@@ -823,5 +823,11 @@
     "core.years": "taon",
     "core.yes": "Oo",
     "freemium.accept": "Tanggapin",
-    "freemium.subscriptionfeature_enabled": "Naka-enable"
+    "freemium.subscriptionfeature_enabled": "Naka-enable",
+    "workplace.continue": "Ituloy",
+    "workplace.coursefiles": "Mga legacy na file ng kurso",
+    "workplace.deleted": "Nabura na",
+    "workplace.moreinfo": "Marami pang impormasyon",
+    "workplace.nothingtodisplay": "Walang maipapakita",
+    "workplace.teams.fullname": "Buong pangalan"
 }

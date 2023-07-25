@@ -1434,5 +1434,12 @@
     "core.year": "ལོ།",
     "core.years": "ལོ།",
     "core.yes": "ཨིན།",
-    "freemium.subscriptionfeature_enabled": "ལྕོགས་ཅན་བཟོ་ཡོདཔ།"
+    "freemium.subscriptionfeature_enabled": "ལྕོགས་ཅན་བཟོ་ཡོདཔ།",
+    "workplace.continue": "འཕྲོ་མཐུད།",
+    "workplace.coursefiles": "སློབ་ཚན་ཡིག་སྣོད་ཚུ།",
+    "workplace.deleted": "བཏོན་གཏང་ཡོདཔ",
+    "workplace.moreinfo": "གནས་ཚུལ་མངམ།",
+    "workplace.nothingtodisplay": "བཀྲམ་སྟོན་འབད་ནིའི་དོན་ལུ་ག་ནི་ཡང་མིན་འདུག",
+    "workplace.roleincontext": "{{$a.context}} ནང་ {{$a.role}}",
+    "workplace.teams.fullname": "མིང་ཆ་ཚང་"
 }

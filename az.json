@@ -2372,5 +2372,10 @@
     "core.youreonline": "Siz internetə qoşuldunuz",
     "core.zoomin": "Yaxınlaşdırın",
     "core.zoomout": "Uzaqlaşdırın",
-    "freemium.accept": "Qəbul et"
+    "freemium.accept": "Qəbul et",
+    "workplace.continue": "Davam et",
+    "workplace.coursefiles": "Kursun faylları (köhnəlmiş fayllar)",
+    "workplace.deleted": "Silindi",
+    "workplace.nothingtodisplay": "Göstərməyə heç nə yoxdur",
+    "workplace.teams.fullname": "Tam ad"
 }

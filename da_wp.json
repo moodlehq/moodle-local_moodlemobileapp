@@ -1,5 +1,6 @@
 {
     "core.decsep": ",",
     "core.listsep": ";",
-    "core.parentlanguage": "da"
+    "core.parentlanguage": "da",
+    "workplace.certified": "Certificeret"
 }

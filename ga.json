@@ -644,5 +644,9 @@
     "core.week": "Seachtain",
     "core.year": "bliana",
     "core.years": "blianta",
-    "core.yes": "Tá/Sea"
+    "core.yes": "Tá/Sea",
+    "workplace.continue": "Lean ar aghaidh",
+    "workplace.coursefiles": "Seanchomhaid cúrsaí",
+    "workplace.deleted": "Scriosta",
+    "workplace.teams.fullname": "Ainm iomlán"
 }

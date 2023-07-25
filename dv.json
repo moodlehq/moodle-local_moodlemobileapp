@@ -824,5 +824,10 @@
     "core.week": "ހަފްތާ",
     "core.year": "އަހަރު",
     "core.years": "އަހަރުތައް",
-    "core.yes": "އާދެ"
+    "core.yes": "އާދެ",
+    "workplace.continue": "ކުރިޔަށްދިޔުމަށް",
+    "workplace.coursefiles": "ކޯސް ފައިލްތަށް",
+    "workplace.deleted": "ފުހެލެވިއްޖެ",
+    "workplace.nothingtodisplay": "ދައްކާކަށް އެއްޗެއްނެތް",
+    "workplace.teams.fullname": "ފުރިހަމަ ނަން"
 }

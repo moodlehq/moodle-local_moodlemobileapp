@@ -1074,5 +1074,11 @@
     "core.year": "annada",
     "core.years": "annadas",
     "core.yes": "Tiò",
-    "freemium.subscriptionfeature_enabled": "Activat"
+    "freemium.subscriptionfeature_enabled": "Activat",
+    "workplace.continue": "Contunhar",
+    "workplace.coursefiles": "Fichèrs deu cors (obsolet)",
+    "workplace.deleted": "Suprimit",
+    "workplace.nothingtodisplay": "Pas arren d'amuishar",
+    "workplace.roleincontext": "{{$a.role}} dens {{$a.context}}",
+    "workplace.teams.fullname": "Nom complet"
 }

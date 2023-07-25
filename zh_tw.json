@@ -2221,5 +2221,17 @@
     "freemium.feature_customlanguagestrings": "自訂的語言字串",
     "freemium.feature_custommenuitems": "自訂的選單項目",
     "freemium.feature_disabledfeatures": "關閉的功能",
-    "freemium.subscriptionfeature_enabled": "已經啟動"
+    "freemium.subscriptionfeature_enabled": "已經啟動",
+    "workplace.continue": "繼續",
+    "workplace.coursefiles": "舊版的課程檔案",
+    "workplace.deleted": "已刪除",
+    "workplace.duedate": "截止日期",
+    "workplace.moreinfo": "更多資訊",
+    "workplace.nothingtodisplay": "沒什麼可顯示",
+    "workplace.roleincontext": "{{$a.context}}中的{{$a.role}}",
+    "workplace.tablabel": "更多",
+    "workplace.teams.filterisempty": "空的",
+    "workplace.teams.filterisnotempty": "不為空",
+    "workplace.teams.fullname": "完整名稱",
+    "workplace.teams.resetall": "全部重設"
 }
