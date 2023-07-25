@@ -373,7 +373,7 @@
     "addon.mod_assign.hiddenuser": "Katılımcı",
     "addon.mod_assign.latesubmissions": "Gecikmiş gönderimler",
     "addon.mod_assign.latesubmissionsaccepted": "{{$a}} tarihine kadar izin verildi",
-    "addon.mod_assign.markingworkflowstate": "İş akış durumunu işaretleme",
+    "addon.mod_assign.markingworkflowstate": "Değerlendirme iş akışı durumu",
     "addon.mod_assign.markingworkflowstateinmarking": "İşaretlemede",
     "addon.mod_assign.markingworkflowstateinreview": "İncelemede",
     "addon.mod_assign.markingworkflowstatenotmarked": "İşaretli değil",
