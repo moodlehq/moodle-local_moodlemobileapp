@@ -1,5 +1,8 @@
 {
     "core.decsep": ",",
     "core.listsep": ";",
-    "core.parentlanguage": "da"
+    "core.parentlanguage": "da",
+    "core.reportbuilder.modifiedby": "Ændret af",
+    "core.reportbuilder.reportsource": "Rapportens kilde",
+    "core.usersuspended": "Registrering suspenderet"
 }
