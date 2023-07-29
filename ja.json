@@ -1576,7 +1576,7 @@
     "core.course.errorgetmodule": "活動データの取得中にエラーが発生しました。",
     "core.course.failed": "失敗",
     "core.course.hiddenfromstudents": "学生から秘匿",
-    "core.course.hiddenoncoursepage": "利用可、しかしコースページに表示しない",
+    "core.course.hiddenoncoursepage": "利用可能、しかしコースページに表示しない",
     "core.course.highlighted": "ハイライト",
     "core.course.insufficientavailablequota": "あなたのデバイスではこのダウンロードを保存するためのスペースを確保できませんでした。アプリおよびシステムアップデートのために容量が確保されている可能性があります。最初にストレージの空き容量を確保してください。",
     "core.course.insufficientavailablespace": "あなたは {{size}} をダウンロードしようとしています。あなたのデバイスを正常に動作させるために十分なスペースがありません。最初にストレージの空き容量を確保してください。",
