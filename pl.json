@@ -523,7 +523,7 @@
     "addon.mod_data.other": "Inne",
     "addon.mod_data.recordapproved": "Wpis zatwierdzony",
     "addon.mod_data.recorddeleted": "Wpis usunięty",
-    "addon.mod_data.recorddisapproved": "Wpis odrzucony",
+    "addon.mod_data.recorddisapproved": "Wpis niezatwierdzony",
     "addon.mod_data.resetsettings": "Resetuj filtry",
     "addon.mod_data.search": "Szukaj",
     "addon.mod_data.searchbytagsnotsupported": "Przepraszamy, wyszukiwanie po tagach nie jest obsługiwane przez aplikację.",
