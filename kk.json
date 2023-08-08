@@ -532,6 +532,7 @@
     "core.comments.commentscount": "Пікірлер ({{$a}})",
     "core.commentscount": "Пікірлер ({{$a}})",
     "core.considereddigitalminor": "Сіз бұл сайтта тіркелгі жасау үшін тым жассыз.",
+    "core.content": "Мазмұны",
     "core.continue": "Жалғастыру",
     "core.course": "Курс",
     "core.course.section": "Бөлім",
@@ -734,7 +735,7 @@
     "core.years": "жылдар",
     "core.yes": "Иә",
     "freemium.accept": "Қабылдауға",
-    "workplace.coursefiles": "Курс файлдары",
+    "workplace.coursefiles": "Ескірген курс файлдары",
     "workplace.deleted": "Жойылды",
     "workplace.nothingtodisplay": "Көрсететін ештеме жоқ",
     "workplace.teams.fullname": "Толық аты"
