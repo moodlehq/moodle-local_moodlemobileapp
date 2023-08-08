@@ -352,7 +352,7 @@
     "addon.mod_assign.currentgrade": "Bieżąca ocena w dzienniku ocen",
     "addon.mod_assign.cutoffdate": "Ostateczny termin",
     "addon.mod_assign.defaultteam": "Domyślna grupa",
-    "addon.mod_assign.duedate": "Termin oddania",
+    "addon.mod_assign.duedate": "Termin wykonania",
     "addon.mod_assign.duedateno": "Brak daty ważności",
     "addon.mod_assign.duedatereached": "Minął termin oddania tego zadania",
     "addon.mod_assign.editingstatus": "Edycja statusu",
