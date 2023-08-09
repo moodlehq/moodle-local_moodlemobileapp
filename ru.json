@@ -1652,6 +1652,7 @@
     "core.group": "Группа",
     "core.groupsseparate": "Изолированные группы",
     "core.groupsvisible": "Видимые группы",
+    "core.h5p.a11yTitle:label": "Ярлык вспомогательных технологий (ВТ)",
     "core.h5p.acceptTerms": "Я принимаю <a href=\":url\" target=\"_blank\">условия использования</a>",
     "core.h5p.accountDetailsLinkText": "здесь",
     "core.h5p.add": "Добавить",
