@@ -1579,7 +1579,7 @@
     "core.course.errordownloadingsection": "Error durante la descarga de la sección.",
     "core.course.errorgetmodule": "Error recuperando los datos de la actividad.",
     "core.course.failed": "Fallido",
-    "core.course.hiddenfromstudents": "No mostrado a los estudiantes",
+    "core.course.hiddenfromstudents": "Ocultado a los estudiantes",
     "core.course.hiddenoncoursepage": "Disponibles pero no visibles en la página del curso",
     "core.course.highlighted": "Destacado",
     "core.course.insufficientavailablequota": "Su dispositivo no pudo encontrar espacio para guardar esta descarga. Debe estar reservando espacio para la actualización del sistema y de la aplicación. Por favor libere espacio en la memoria primero.",
