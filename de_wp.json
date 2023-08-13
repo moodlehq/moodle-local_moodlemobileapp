@@ -54,7 +54,7 @@
     "workplace.myinprogress.blocktitle": "Laufende Kurse ({{$a}})",
     "workplace.myinprogress.donthide": "Nicht verbergen",
     "workplace.myinprogress.hidden": "Verborgen",
-    "workplace.myinprogress.hidefromview": "Aus Ansicht verbergen",
+    "workplace.myinprogress.hidefromview": "Verbergen",
     "workplace.myinprogress.nocourses": "Sie haben keine laufenden Kurse",
     "workplace.myinprogress.pluginname": "Laufende Kurse",
     "workplace.myinprogress.showhidden": "Verborgenes anzeigen",
