@@ -69,6 +69,8 @@
     "core.strftimedaydatetime": "%A, %d %B %Y, %I:%M %p",
     "core.user.address": "כתובת",
     "freemium.accept": "אישור",
+    "workplace.active": "פעיל",
+    "workplace.content": "תוכן",
     "workplace.learning": "למידה",
     "workplace.mylearning": "הלמידה שלי",
     "workplace.myteams": "צוותים",
