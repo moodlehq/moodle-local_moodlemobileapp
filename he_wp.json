@@ -66,6 +66,8 @@
     "core.sitemaintenance": "האתר נמצא בתחזוקה ולכן אינו זמין כרגע",
     "core.strftimedaydatetime": "%A, %d %B %Y, %I:%M %p",
     "core.user.address": "כתובת",
+    "workplace.active": "פעיל",
+    "workplace.content": "תוכן",
     "workplace.learning": "למידה",
     "workplace.myteams": "צוותים"
 }
