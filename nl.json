@@ -2419,7 +2419,7 @@
     "core.user.supportmessagesent": "Je bericht is verzonden.",
     "core.user.supportsubject": "[App] {{subject}}",
     "core.user.teacher": "Leraar zonder bewerken",
-    "core.user.useraccount": "Gebruikersaccount",
+    "core.user.useraccount": "Account",
     "core.user.userwithid": "Gebruiker met ID {{id}}",
     "core.user.webpage": "Webpagina",
     "core.userdeleted": "De account van deze gebruiker is verwijderd",
