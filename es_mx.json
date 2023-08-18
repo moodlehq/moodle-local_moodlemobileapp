@@ -2509,7 +2509,7 @@
     "core.user.roles": "Roles",
     "core.user.sendemail": "Email",
     "core.user.student": "Estudiante",
-    "core.user.support": "Soporte de contacto del sitio",
+    "core.user.support": "Ponerse en contacto con soporte del sitio",
     "core.user.supportmessagesent": "Su mensaje ha sido enviado.",
     "core.user.supportsubject": "[App] {{subject}}",
     "core.user.teacher": "Profesor sin permiso de edición",
