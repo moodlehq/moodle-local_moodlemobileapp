@@ -1477,6 +1477,7 @@
     "core.course.failed": "Neuspešno",
     "core.course.hiddenfromstudents": "Skrito za udeležence",
     "core.course.hiddenoncoursepage": "Na voljo, a ni prikazano na strani predmeta",
+    "core.course.highlighted": "Poudarjeno",
     "core.course.insufficientavailablequota": "Naprava ni mogla dodeliti prostora za shranjevanje tega prenosa. Morda je prostor rezerviran za posodobitve aplikacij in sistemov. Pred prenosom počistite nekaj prostora za shranjevanje.",
     "core.course.insufficientavailablespace": "Prenesti poskušate {{size}}. Vaša naprava bo zato imela premalo prostora za normalno delovanje. Najprej počistite nekaj prostora za shranjevanje.",
     "core.course.manualcompletionnotsynced": "Ročno zaključevanje ni bilo sinhronizirano.",
