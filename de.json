@@ -967,7 +967,7 @@
     "addon.mod_scorm.offlineattemptnote": "Dieser Versuch enthält Daten, die noch nicht synchronisiert wurden.",
     "addon.mod_scorm.offlineattemptovermax": "Dieser Versuch kann nicht gesendet werden, weil Sie die maximale Anzahl von Versuchen überschritten haben.",
     "addon.mod_scorm.organizations": "Organisationen",
-    "addon.mod_scorm.passed": "Abgeschlossen",
+    "addon.mod_scorm.passed": "Bestanden",
     "addon.mod_scorm.reviewmode": "Überprüfungsmodus",
     "addon.mod_scorm.score": "Bewertung",
     "addon.mod_scorm.scormstatusnotdownloaded": "Dieses Lernpaket ist noch nicht heruntergeladen. Es wird automatisch geladen, wenn Sie es öffnen.",
