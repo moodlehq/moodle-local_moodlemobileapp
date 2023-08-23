@@ -1426,6 +1426,7 @@
     "core.settings.errordeletesitefiles": "Грешка при изтриването на файловете на сайта.",
     "core.settings.errorsyncsite": "Грешка при синхронизацията на данните от сайта. Моля проверете Вашата връзка към Интернет и опитайте пак.",
     "core.settings.estimatedfreespace": "Пресметнато свободно пространство",
+    "core.settings.fontsizecharacter": "A",
     "core.settings.general": "Общо",
     "core.settings.language": "Език",
     "core.settings.license": "Лицензи",
