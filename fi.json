@@ -906,7 +906,7 @@
     "addon.mod_wiki.newpagetitle": "Uusi sivun otsikko",
     "addon.mod_wiki.nocontent": "Tälle sivulle ei ole sisältöä",
     "addon.mod_wiki.notingroup": "Ei ryhmässä",
-    "addon.mod_wiki.pageexists": "Tämä sivu on jo olemassa. Ohjataan olemassa olevalle sivulle.",
+    "addon.mod_wiki.pageexists": "Tämä sivu on jo olemassa.",
     "addon.mod_wiki.pagename": "Sivun nimi",
     "addon.mod_wiki.tagarea_wiki_pages": "Wiki-sivut",
     "addon.mod_wiki.titleshouldnotbeempty": "Otsikko ei saa olla tyhjä",
