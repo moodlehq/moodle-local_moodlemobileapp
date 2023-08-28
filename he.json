@@ -1946,6 +1946,7 @@
     "freemium.feature_custommenuitems": "תפריט מותאם",
     "freemium.subscriptionfeature_enabled": "מאופשר",
     "workplace.active": "פעיל",
+    "workplace.completeallinorder": "השלימו הכל לפי הסדר",
     "workplace.content": "תוכן",
     "workplace.continue": "המשך",
     "workplace.coursefiles": "קבצי הקורס כפי שנוהלו בגרסאות  קודמות",
@@ -1955,9 +1956,11 @@
     "workplace.nothingtodisplay": "אין כלום להציג",
     "workplace.orgstructure": "מבנה ארגוני",
     "workplace.programs": "תוכניות לימודים",
+    "workplace.recentlyaccessedcourses": "קורסים אשר נצפו לאחרונה",
     "workplace.roleincontext": "{{$a.role}} ב- {{$a.context}}",
     "workplace.teams.filterisanyvalue": "כל ערך",
     "workplace.teams.fullname": "שם מלא",
     "workplace.teams.orgstructure": "מבנה ארגוני",
-    "workplace.teams.pluginname": "הצוותים שלי"
+    "workplace.teams.pluginname": "הצוותים שלי",
+    "workplace.todo": "נדרש:"
 }
