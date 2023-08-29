@@ -1005,7 +1005,7 @@
     "addon.mod_workshop.submissiondeleteconfirm": "Tem a certeza de que pretende apagar esta submissão?",
     "addon.mod_workshop.submissiongrade": "Nota máxima do trabalho",
     "addon.mod_workshop.submissiongradeof": "Nota do trabalho (em {{$a}})",
-    "addon.mod_workshop.submissionrequiredcontent": "Tem de inserir texto ou adicionar um ficheiro",
+    "addon.mod_workshop.submissionrequiredcontent": "Tem de inserir texto ou adicionar um ficheiro.",
     "addon.mod_workshop.submissionrequiredtitle": "É necessário indicar um título.",
     "addon.mod_workshop.submissionsreport": "Relatório das submissões do workshop",
     "addon.mod_workshop.submissiontitle": "Titulo",
