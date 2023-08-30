@@ -555,7 +555,7 @@
     "addon.mod_data.noaccess": "Ez duzu orri honetara sarbiderik",
     "addon.mod_data.nomatch": "Ez da aurkitu bat datorren sarrerarik!",
     "addon.mod_data.norecords": "Oraindik sarrerarik ez",
-    "addon.mod_data.notapproved": "Onarpenaren zai",
+    "addon.mod_data.notapproved": "Onarpenaren zain",
     "addon.mod_data.notopenyet": "Sentitzen dugu, jarduera hau ez dago eskuragarri {{$a}} arte",
     "addon.mod_data.numrecords": "{{$a}} sarrera",
     "addon.mod_data.other": "Beste bat",
