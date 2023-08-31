@@ -591,6 +591,7 @@
     "addon.mod_h5pactivity.result_other": "Nepoznata vrsta interakcije",
     "addon.mod_h5pactivity.review_my_attempts": "Prikaz mojih pokušaja rješavanja",
     "addon.mod_h5pactivity.score": "Rezultat",
+    "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} od {{$a.maxscore}}",
     "addon.mod_h5pactivity.totalscore": "Ukupni rezultat",
     "addon.mod_imscp.deploymenterror": "Pogreška pri pokretanju paketa!",
     "addon.mod_imscp.modulenameplural": "IMS paketi",
