@@ -838,6 +838,8 @@
     "core.pictureof": "{{$a}} ගේ පින්තුරය",
     "core.previous": "පසුගිය",
     "core.proceed": "ඉදිරියට යන්න",
+    "core.question.answer": "පිළිතුර",
+    "core.question.answersaved": "පිළිතුර සුරකින ලදී",
     "core.quotausage": "ඔබ දැනට ඔබගේ {{$a.total}} සීමාවෙන් {{$a.used}} භාවිතා කර ඇත.",
     "core.refresh": "නැවුම් කරන්න.",
     "core.reminders.delete": "මකන්න",
