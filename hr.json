@@ -1304,6 +1304,7 @@
     "core.course.enddate": "Datum završetka e-kolegija",
     "core.course.hiddenfromstudents": "Skriveno od studenata",
     "core.course.hiddenoncoursepage": "Dostupno, ali nije prikazano na stranici e-kolegija",
+    "core.course.highlighted": "Istaknuto",
     "core.course.nextactivity": "Sljedeća aktivnost",
     "core.course.overriddennotice": "Konačna ocjena za ovu aktivnost ručno je podešena.",
     "core.course.refreshcourse": "Osvježi e-kolegij",
