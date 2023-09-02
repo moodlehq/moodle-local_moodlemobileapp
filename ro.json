@@ -2418,6 +2418,7 @@
     "workplace.programlinksingle": "Vezi detaliile programului",
     "workplace.programs": "Programe",
     "workplace.programstructure": "Structura programului",
+    "workplace.progress": "{{$a}}% finalizat",
     "workplace.recentlyaccessedcourses": "Cursuri adăugate recent",
     "workplace.resetfilters": "Resetează filtre",
     "workplace.roleincontext": "{{$a.role}} în {{$a.context}}",
