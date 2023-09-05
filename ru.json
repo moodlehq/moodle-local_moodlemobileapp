@@ -1996,7 +1996,7 @@
     "core.tag.tags": "Теги",
     "core.teachers": "Преподаватели",
     "core.thereisdatatosync": "Есть {{$a}} для синхронизации, созданные вне сети.",
-    "core.thisdirection": "ltr",
+    "core.thisdirection": "слева направо",
     "core.time": "Время",
     "core.timesup": "Время закончилось!",
     "core.today": "Сегодня",
