@@ -2276,6 +2276,7 @@
     "core.removefiles": "Remover ficheiros {{$a}}",
     "core.reportbuilder.filtersapplied": "Pode haver filtros aplicados a esta exibição. Para editar os filtros ou alterar a ordenação, <a href=\"{{$a}}\">abra este relatório no seu navegador.</a>",
     "core.reportbuilder.hidecolumns": "Ocultar colunas",
+    "core.reportbuilder.modifiedby": "Modificado por",
     "core.reportbuilder.reports": "Relatórios",
     "core.reportbuilder.reportsource": "Origem do relatório",
     "core.reportbuilder.showcolumns": "Mostrar colunas",
