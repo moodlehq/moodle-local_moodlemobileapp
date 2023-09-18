@@ -1823,7 +1823,7 @@
     "core.login.onboardingwelcome": "Dobrodošli u Moodle aplikaciju!",
     "core.login.password": "Lozinka",
     "core.login.passwordforgotten": "Zaboravljena lozinka",
-    "core.login.passwordforgotteninstructions2": "Za resetovanje Vaše lozinke upišite svoje korisničko ime ili elektronsku adresu. Ukoliko ti podaci postoje u bazi podataka, biće Vam poslata poruka na elektronsku adresu sa uputstvom kako ponovo da dobijete pristup.",
+    "core.login.passwordforgotteninstructions2": "Za resetovanje vaše lozinke upišite svoje korisničko ime ili elektronsku adresu. Ukoliko ti podaci postoje u bazi podataka, biće vam poslata poruka na elektronsku adresu sa uputstvom kako ponovo da dobijete pristup.",
     "core.login.passwordrequired": "Neophodna je lozinka",
     "core.login.policyaccept": "Razumem i pristajem",
     "core.login.policyagree": "Da bi ste nastavili korišćenje ovog sajta morate se složiti sa pravilima korišćenja. Da li se slažete?",
