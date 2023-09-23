@@ -762,7 +762,7 @@
     "addon.mod_lesson.attemptsremaining": "Il vous reste {{$a}} tentative(s)",
     "addon.mod_lesson.averagescore": "Note moyenne",
     "addon.mod_lesson.averagetime": "Durée moyenne",
-    "addon.mod_lesson.branchtable": "Table de contenu",
+    "addon.mod_lesson.branchtable": "Contenu",
     "addon.mod_lesson.cannotfindattempt": "Erreur : impossible de trouver la tentative",
     "addon.mod_lesson.cannotfinduser": "Erreur : impossible de trouver les utilisateurs",
     "addon.mod_lesson.clusterjump": "Question non vue du groupe",
