@@ -842,7 +842,7 @@
     "addon.mod_quiz.outofshort": "{{$a.grade}}/{{$a.maxgrade}}",
     "addon.mod_quiz.overallfeedback": "Retroalimentación global según calificación",
     "addon.mod_quiz.overdue": "Vencido",
-    "addon.mod_quiz.overduemustbesubmittedby": "Este intento actualmente está vencido. Usted ya debería de haberlo enviado. Si Usted pretende que le califiquen este examen, debe de enviarlo a más tardar antes de {{$a}}.Si no lo envía para entonces, no se le contarán puntos de calificación para este intento.",
+    "addon.mod_quiz.overduemustbesubmittedby": "Este intento actualmente está vencido. Usted ya debería de haberlo enviado. Si Usted pretende que le califiquen este examen, debe de enviarlo a más tardar antes de {{$a}}. Si no lo envía para entonces, no se le contarán puntos de calificación para este intento.",
     "addon.mod_quiz.preview": "Vista previa",
     "addon.mod_quiz.previewquiznow": "Previsualizar el examen ahora",
     "addon.mod_quiz.question": "Pregunta",
