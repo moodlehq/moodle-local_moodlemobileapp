@@ -318,6 +318,7 @@
     "addon.mod_forum.unreadpostsnumber": "{{$a}} непрачытаных пастоў",
     "addon.mod_forum.yourreply": "Вашы адказ",
     "addon.mod_page.modulenameplural": "Старонкі",
+    "addon.mod_url.modulenameplural": "Спасылкі",
     "addon.mod_workshop.assess": "Ацаніць",
     "addon.mod_workshop.modulenameplural": "Практыкумы",
     "addon.mod_workshop.reassess": "Доступ ізноў",
