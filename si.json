@@ -111,6 +111,7 @@
     "addon.mod_assign.attemptreopenmethod_manual": "අතින්",
     "addon.mod_assign.attemptreopenmethod_untilpass": "සමත් වන තුරු ස්වයංක්‍රීයව",
     "addon.mod_assign.attemptsettings": "Automatically until pass",
+    "addon.mod_assign.cutoffdate": "කපා හැරීමේ දිනය",
     "addon.mod_assign.duedate": "නියමිත දිනය",
     "addon.mod_assign.editsubmission": "මගේ ඉදිරිපත් කිරීම සංස්කරණය කරන්න",
     "addon.mod_assign.grade": "ශ්‍රේණිය",
