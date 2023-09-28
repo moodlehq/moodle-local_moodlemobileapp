@@ -1638,7 +1638,7 @@
     "workplace.moreinfo": "اطلاعات بیشتر",
     "workplace.nothingtodisplay": "چیزی برای نمایش وجود ندارد",
     "workplace.roleincontext": "{{$a.role}} در {{$a.context}}",
-    "workplace.teams.apply": "اعمال",
+    "workplace.teams.apply": "اِعمال کردن",
     "workplace.teams.filtercontains": "شامل شود",
     "workplace.teams.filterdoesnotcontain": "شامل نشود",
     "workplace.teams.filterendswith": "پایان یابد با",
