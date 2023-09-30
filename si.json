@@ -392,6 +392,8 @@
     "addon.mod_survey.modulenameplural": "සමීක්ෂණ",
     "addon.mod_survey.responses": "ප්‍රතිචාර",
     "addon.mod_wiki.modulenameplural": "විකි",
+    "addon.mod_wiki.newpagehdr": "නව පිටුව",
+    "addon.mod_wiki.newpagetitle": "නව පිටු මාතෘකාව",
     "addon.mod_wiki.pagename": "පිටු නම",
     "addon.mod_workshop.assess": "අගයන්න",
     "addon.mod_workshop.assessmentsettings": "තක්සේරු සැකසුම්",
