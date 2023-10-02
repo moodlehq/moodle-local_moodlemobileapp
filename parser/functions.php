@@ -149,12 +149,6 @@ function build_lang(&$language) {
         echo " Parent: $parent";
     }
 
-    $langFile = false;
-    if (file_exists($lang.'.json')) {
-        // Load lang files just once.
-        $langFile = load_json($lang.'.json');
-    }
-
     $translations = [];
     // Add the translation to the array.
     foreach ($LANGINDEX as $file => $keys) {
