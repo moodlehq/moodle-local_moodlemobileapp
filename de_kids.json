@@ -35,6 +35,7 @@
     "core.login.createuserandpass": "Trage hier den Namen ein, mit dem du dich anmelden möchtest. Suche dir ein Kennwort aus. Merke dir beide Wörter gut. Das Kennwort solltest du unbedingt geheim behalten.",
     "core.login.emailconfirmsent": "<p>Danke für deine Anmeldung.</p><p>Wir haben dir jetzt eine E-Mail geschickt. Schau in deinem elektronischen Briefkasten nach. In der E-Mail ist ein Link, den du noch anklicken musst. Dann wissen wir, dass deine E-Mail-Adresse <b>{{$a}}</b> stimmt, und du kannst Moodle benutzen.</p>",
     "core.login.forcepasswordchangenotice": "Ändere jetzt erst einmal dein Kennwort und merke es dir gut",
+    "core.login.forgotaccount": "Kennwort vergessen?",
     "core.login.invalidemail": "Die E-Mail-Adresse funktioniert nicht.",
     "core.login.login": "Anmelden",
     "core.login.loginsteps": "Wir freuen uns, dass du dich hier anmelden möchtest. Wenn du noch nie angemeldet warst, frage deine Lehrerin oder deinen Lehrer nach den Zugangsdaten.",

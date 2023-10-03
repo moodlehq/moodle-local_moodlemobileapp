@@ -1,6 +1,7 @@
 {
     "addon.block_calendarmonth.pluginname": "Mìosachan",
     "addon.block_newsitems.pluginname": "Naidheachd as ùire",
+    "addon.block_searchforums.pluginname": "Lorg sna foruman",
     "addon.block_sitemainmenu.pluginname": "Prìomh chlàr-iùil",
     "addon.blog.publishtonoone": "Thu fhèin (dreach)",
     "addon.blog.publishtosite": "Duine sam bith air an làraich seo",
@@ -156,7 +157,7 @@
     "core.login.createaccount": "Cruthaich mo chunntas ùr",
     "core.login.firsttime": "An e seo an ciad turas a tha thu an seo?",
     "core.login.forcepasswordchangenotice": "Feumaidh tu am facal-faire agad atharrachadh gus dol air adhart",
-    "core.login.forgotten": "Air d' ainm-cleachdaidh no d' fhacal-faire a dhiochuimhneachadh?",
+    "core.login.forgotaccount": "Facal-faire air chall?",
     "core.login.help": "Cuideachadh",
     "core.login.invaliddate": "Ceann-là ceàrr",
     "core.login.missingemail": "Seòladh puist-d a dhìth",

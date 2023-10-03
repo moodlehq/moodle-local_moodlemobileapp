@@ -1,4 +1,5 @@
 {
+    "addon.mod_forum.searchresults": "Resultats de la cerca: {{$a}}",
     "addon.mod_h5pactivity.all_attempts": "Tots els intents de l'usuari",
     "addon.mod_h5pactivity.answer_checked": "Resposta comprovada",
     "addon.mod_h5pactivity.answer_correct": "La resposta és correcta.",
