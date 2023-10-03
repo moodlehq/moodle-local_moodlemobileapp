@@ -417,6 +417,7 @@
     "addon.mod_workshop.switchphase40": "ඇගයීමේ අදියර වෙත මාරු වන්න",
     "addon.mod_workshop.switchphase50": "වැඩමුළුව වසන්න",
     "addon.mod_workshop.userplancurrentphase": "වත්මන් අදියර",
+    "addon.mod_workshop_assessment_accumulative.dimensionnumber": "පැතිකඩ {{$a}}",
     "addon.notes.addnewnote": "නව සටහනක් එක් කරන්න",
     "addon.notes.coursenotes": "පාඨමාලා සටහන්",
     "addon.notes.deleteconfirm": "මෙම සටහන මකා දමන්නද?",
