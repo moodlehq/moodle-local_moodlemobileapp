@@ -1116,6 +1116,7 @@
     "core.courses.courses": "Курсове",
     "core.courses.errorloadcategories": "Възникна грешка докато се зареждаха категории.",
     "core.courses.errorloadcourses": "Грешка при зареждането на курсовете.",
+    "core.courses.favourite": "Курс със звезда",
     "core.courses.frontpage": "Начална страница",
     "core.courses.hidecourse": "Премахване от изгеда",
     "core.courses.ignore": "Игнорирай",

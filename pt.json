@@ -367,7 +367,7 @@
     "addon.mod_assign.markingworkflowstatenotmarked": "Não avaliado",
     "addon.mod_assign.markingworkflowstatereadyforrelease": "Avaliação validada",
     "addon.mod_assign.markingworkflowstatereadyforreview": "Avaliação concluída",
-    "addon.mod_assign.markingworkflowstatereleased": "Lançada",
+    "addon.mod_assign.markingworkflowstatereleased": "Nota lançada",
     "addon.mod_assign.modulenameplural": "Trabalhos",
     "addon.mod_assign.multipleteams": "Inscrito em mais do que um grupo",
     "addon.mod_assign.multipleteams_desc": "Este trabalho requer submissão em grupos. Você é membro de mais do que um grupo. Para conseguir submeter deve ser membro de apenas um grupo. Por favor, contacte o seu professor para alterar a sua participação nos grupos.",
