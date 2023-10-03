@@ -1837,5 +1837,12 @@
     "freemium.feature_custommenuitems": "Kohandatava menüü elemendid",
     "freemium.feature_disabledfeatures": "Keelatud funktsioonid",
     "freemium.subscriptionfeature_disabled": "Keelatud",
-    "freemium.subscriptionfeature_enabled": "Lubatud"
+    "freemium.subscriptionfeature_enabled": "Lubatud",
+    "workplace.continue": "Jätka",
+    "workplace.coursefiles": "Kursuse pärandfailid",
+    "workplace.deleted": "Kustutatud",
+    "workplace.moreinfo": "Rohkem teavet",
+    "workplace.nothingtodisplay": "Pole midagi kuvada",
+    "workplace.roleincontext": "Roll {{$a.role}} kontekstis {{$a.context}}",
+    "workplace.teams.fullname": "Täisnimi"
 }

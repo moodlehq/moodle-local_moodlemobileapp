@@ -7,5 +7,14 @@
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
-    "core.parentlanguage": "it"
+    "core.parentlanguage": "it",
+    "workplace.active": "Attivo",
+    "workplace.certificationmsgactive": "La certificazione <strong>\"{{$a.fullname}}\"</strong> deve essere completate entro il <strong>{{$a.date}}</strong>",
+    "workplace.certificationmsgcompleted": "La certificazione <strong>\"{{$a.fullname}}\"</strong> è stata completata",
+    "workplace.certificationmsgcompletedexpired": "rong>\"{{$a.fullname}}\"</strong> è stata completata. Scadrà il <strong>{{$a.date}}</strong>",
+    "workplace.certifications": "Certificazioni",
+    "workplace.completed": "Completato",
+    "workplace.content": "Contenuto",
+    "workplace.course": "Corso",
+    "workplace.enddate": "Data di fine"
 }

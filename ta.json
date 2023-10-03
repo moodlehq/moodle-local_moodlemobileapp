@@ -755,5 +755,10 @@
     "core.year": "ஆண்டு",
     "core.years": "ஆண்டுகள்",
     "core.yes": "ஆம்",
-    "freemium.accept": "ஏற்கவும்"
+    "freemium.accept": "ஏற்கவும்",
+    "workplace.continue": "தொடர்க",
+    "workplace.coursefiles": "பாடத்திட்டத்தின் கோப்புகள்",
+    "workplace.deleted": "நீக்கப்பட்டது",
+    "workplace.nothingtodisplay": "வெளிக்காட்டுவதற்கு ஒன்றுமில்லை",
+    "workplace.teams.fullname": "முழுப் பெயர்"
 }

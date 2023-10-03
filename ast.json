@@ -844,5 +844,10 @@
     "core.week": "Selmana",
     "core.year": "añu",
     "core.years": "años",
-    "core.yes": "Sí"
+    "core.yes": "Sí",
+    "workplace.continue": "Siguir",
+    "workplace.coursefiles": "Ficheros del cursu",
+    "workplace.deleted": "Esborrando",
+    "workplace.nothingtodisplay": "Na que ver",
+    "workplace.teams.fullname": "Nome completu"
 }

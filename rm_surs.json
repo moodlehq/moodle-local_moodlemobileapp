@@ -534,5 +534,9 @@
     "core.week": "Jamna",
     "core.year": "onn",
     "core.years": "onns",
-    "core.yes": "Gie"
+    "core.yes": "Gie",
+    "workplace.continue": "Cuntinuar",
+    "workplace.deleted": "Stizzau",
+    "workplace.nothingtodisplay": "Nuot da mussar",
+    "workplace.teams.fullname": "Il num entir"
 }

@@ -67,5 +67,13 @@
     "core.sitemaintenance": "האתר נמצא בתחזוקה ולכן אינו זמין כרגע",
     "core.strftimedaydatetime": "%A, %d %B %Y, %I:%M %p",
     "core.user.address": "כתובת",
-    "freemium.accept": "אישור"
+    "freemium.accept": "אישור",
+    "workplace.active": "פעיל",
+    "workplace.content": "תוכן",
+    "workplace.mylearning": "הלמידה שלי",
+    "workplace.orgstructure": "מבנה ארגוני",
+    "workplace.programs": "תוכניות לימודים",
+    "workplace.teams.filterisanyvalue": "כל ערך",
+    "workplace.teams.orgstructure": "מבנה ארגוני",
+    "workplace.teams.pluginname": "הצוותים שלי"
 }

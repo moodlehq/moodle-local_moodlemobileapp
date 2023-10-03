@@ -150,5 +150,9 @@
     "core.users": "Brukere",
     "core.view": "Vis",
     "core.week": "Uke",
-    "core.yes": "Ja"
+    "core.yes": "Ja",
+    "workplace.continue": "Fortsett",
+    "workplace.coursefiles": "Kursfiler",
+    "workplace.deleted": "Slettet",
+    "workplace.teams.fullname": "Fullt navn"
 }

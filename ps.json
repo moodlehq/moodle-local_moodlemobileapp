@@ -1411,5 +1411,11 @@
     "freemium.upsell_upgradefreeaccept": "پورته کول",
     "freemium.upsell_upgradefreemessage": "تاسو اوس په وړیا پلان کې یاست، د نورو ځانګړتیاوو د خلاصولو لپاره پورته کړئ.",
     "freemium.upsell_upgradefreepostpone": "وروسته",
-    "freemium.upsell_upgradefreetitle": "خپل پلان پورته کړئ"
+    "freemium.upsell_upgradefreetitle": "خپل پلان پورته کړئ",
+    "workplace.continue": "دوام ورکړئ",
+    "workplace.coursefiles": "د پاتشوني کورس دوتنې",
+    "workplace.deleted": "ړنګ شو",
+    "workplace.moreinfo": "نور معلومات",
+    "workplace.nothingtodisplay": "د ښودلو لپاره هیڅ نشته",
+    "workplace.teams.fullname": "بشپړ نوم"
 }

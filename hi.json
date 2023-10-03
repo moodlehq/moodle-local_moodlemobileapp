@@ -944,5 +944,11 @@
     "core.years": "सालो",
     "core.yes": "हाँ",
     "freemium.accept": "स्वीकारें",
-    "freemium.subscriptionfeature_enabled": "सक्रिय"
+    "freemium.subscriptionfeature_enabled": "सक्रिय",
+    "workplace.continue": "जारी रखें",
+    "workplace.coursefiles": "पुरानी  कोर्स फ़ाइलें",
+    "workplace.deleted": "डिलीट कर दिया गया",
+    "workplace.moreinfo": "और जानकारी",
+    "workplace.nothingtodisplay": "दिखाने के लिये कुछ नहीं",
+    "workplace.teams.fullname": "पूरा नाम"
 }

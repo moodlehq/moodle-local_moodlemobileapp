@@ -57,5 +57,6 @@
     "core.tag.tagarea_course": "Classes",
     "core.thisdirection": "ltr",
     "core.user.lastcourseaccess": "Last access to class",
-    "core.user.noparticipants": "No participants found for this class"
+    "core.user.noparticipants": "No participants found for this class",
+    "workplace.coursefiles": "Legacy class files"
 }

@@ -1447,5 +1447,22 @@
     "freemium.feature_custommenuitems": "စိတ်ကြိုက်ပြင်ဆင်နိုင်သော မီနူးအမျိုးအစားများ",
     "freemium.feature_disabledfeatures": "အသုံးပြုခွင့်ပိတ်ထားသော အရာများ",
     "freemium.subscriptionfeature_disabled": "ပိတ်သည်/ပိတ်ပါ",
-    "freemium.subscriptionfeature_enabled": "ဖွင့်သည် / ခွင့်ပြုသည်"
+    "freemium.subscriptionfeature_enabled": "ဖွင့်သည် / ခွင့်ပြုသည်",
+    "workplace.continue": "ဆက်လက်၍",
+    "workplace.coursefiles": "Legacy course ဖိုင်များ",
+    "workplace.deleted": "ဖျက်ပြီး",
+    "workplace.moreinfo": "ပိုမိုပြည့်စုံသော အချက်အလက်",
+    "workplace.nothingtodisplay": "ပြသရန်မရှိပါ",
+    "workplace.roleincontext": "{{$a.role}} in {{$a.context}}",
+    "workplace.teams.apply": "လျှောက်ထားသည်",
+    "workplace.teams.filtercontains": "ပါဝင်သည်",
+    "workplace.teams.filterdoesnotcontain": "မပါဝင်ပါ",
+    "workplace.teams.filterendswith": "ဖြင့်ပြီးဆုံးသည်",
+    "workplace.teams.filterisanyvalue": "တန်ဖိုးရှိပါသလား",
+    "workplace.teams.filterisempty": "ဘာမှမရှိပါ",
+    "workplace.teams.filterisequalto": "နှင့်ညီမျှသော",
+    "workplace.teams.filterisnotequalto": "နှင့်မညီမျှပါ",
+    "workplace.teams.filterstartswith": "ဖြင့်စတင်ပါ",
+    "workplace.teams.fullname": "အမည် အပြည့်အစုံ",
+    "workplace.teams.resetall": "အားလုံးကိုပြန်လည်သတ်မှတ်ပါ"
 }

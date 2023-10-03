@@ -15,5 +15,6 @@
     "core.login.policyagree": "Tú deberás estar de acuerdo con estas condiciones antes de seguir usando este sitio. ¿Estás de acuerdo?",
     "core.mod_url": "Enlace web",
     "core.notenrolledprofile": "Tú no puedes ver el perfil porque este usuario no está inscrito en este espacio",
-    "core.parentlanguage": "es_mx"
+    "core.parentlanguage": "es_mx",
+    "workplace.coursefiles": "Archivos de espacio heredados"
 }

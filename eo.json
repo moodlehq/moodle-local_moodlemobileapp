@@ -567,5 +567,12 @@
     "core.year": "jaro",
     "core.years": "jaroj",
     "core.yes": "Jes",
-    "freemium.accept": "Akcepti"
+    "freemium.accept": "Akcepti",
+    "workplace.continue": "Daŭrigi",
+    "workplace.coursefiles": "Dosieroj hereditaj de la kurso",
+    "workplace.deleted": "Viŝita",
+    "workplace.moreinfo": "Pli da info",
+    "workplace.nothingtodisplay": "Nenio montri",
+    "workplace.roleincontext": "{{$a.role}} en {{$a.context}}",
+    "workplace.teams.fullname": "Antaŭnomo kompletan"
 }

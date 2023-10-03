@@ -791,5 +791,11 @@
     "core.years": "ปี",
     "core.yes": "ใช่",
     "freemium.accept": "ยอมรับ",
-    "freemium.subscriptionfeature_enabled": "เปิดใช้"
+    "freemium.subscriptionfeature_enabled": "เปิดใช้",
+    "workplace.continue": "ขั้นต่อไป",
+    "workplace.coursefiles": "ไฟล์คอร์สเก่า",
+    "workplace.deleted": "ลบแล้ว",
+    "workplace.moreinfo": "ข้อมูลเพิ่มเติม",
+    "workplace.nothingtodisplay": "ไม่มีสิ่งที่ต้องแสดง",
+    "workplace.teams.fullname": "ชื่อเต็ม"
 }

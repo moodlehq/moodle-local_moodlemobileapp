@@ -422,6 +422,7 @@
     "addon.mod_workshop.switchphase40": "ඇගයීමේ අදියර වෙත මාරු වන්න",
     "addon.mod_workshop.switchphase50": "වැඩමුළුව වසන්න",
     "addon.mod_workshop.userplancurrentphase": "වත්මන් අදියර",
+    "addon.mod_workshop_assessment_accumulative.dimensionnumber": "පැතිකඩ {{$a}}",
     "addon.notes.addnewnote": "නව සටහනක් එක් කරන්න",
     "addon.notes.coursenotes": "පාඨමාලා සටහන්",
     "addon.notes.deleteconfirm": "මෙම සටහන මකා දමන්නද?",
@@ -1028,5 +1029,11 @@
     "core.year": "අවුරුද්ද",
     "core.years": "අවුරුදු",
     "core.yes": "ඔව්",
-    "freemium.accept": "පිළිගන්න"
+    "freemium.accept": "පිළිගන්න",
+    "workplace.continue": "පවත්වා ගෙන යන්න",
+    "workplace.coursefiles": "උරුම පාඨමාලා ‍ගොනු",
+    "workplace.deleted": "මකා හරින ලදි",
+    "workplace.moreinfo": "තවත් උදව්",
+    "workplace.nothingtodisplay": "පෙන්වීමට කිසිවක් නොමැත.",
+    "workplace.teams.fullname": "සම්පූර්ණ නම"
 }

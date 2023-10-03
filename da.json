@@ -2627,5 +2627,12 @@
     "freemium.upsell_upgradefreeaccept": "Opgrader",
     "freemium.upsell_upgradefreemessage": "Du er i øjeblikket på den gratis plan. Opgradér for at låse op for flere funktioner.",
     "freemium.upsell_upgradefreepostpone": "Senere",
-    "freemium.upsell_upgradefreetitle": "Opgrader din plan"
+    "freemium.upsell_upgradefreetitle": "Opgrader din plan",
+    "workplace.continue": "Fortsæt",
+    "workplace.coursefiles": "Arvede kursusfiler",
+    "workplace.deleted": "Slettet",
+    "workplace.moreinfo": "Mere information",
+    "workplace.nothingtodisplay": "Ingenting at vise",
+    "workplace.roleincontext": "{{$a.role}} i {{$a.context}}",
+    "workplace.teams.fullname": "Fulde navn"
 }

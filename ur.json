@@ -1755,5 +1755,12 @@
     "freemium.feature_custommenuitems": "اپنی مرضی کے مینو آئٹمز",
     "freemium.feature_disabledfeatures": "غیر فعال خصوصیات",
     "freemium.subscriptionfeature_disabled": "غیر فعال",
-    "freemium.subscriptionfeature_enabled": "فعال"
+    "freemium.subscriptionfeature_enabled": "فعال",
+    "workplace.continue": "جاری رہے",
+    "workplace.coursefiles": "میراثی کورس کی فائلیں",
+    "workplace.deleted": "اخراج ہو چکا",
+    "workplace.moreinfo": "مزید معلومات",
+    "workplace.nothingtodisplay": "ظاہر کرنے کے لیے کچھ نہیں ہے",
+    "workplace.roleincontext": "{{$a.role}} {{$a.context}} میں",
+    "workplace.teams.fullname": "پورا نام"
 }

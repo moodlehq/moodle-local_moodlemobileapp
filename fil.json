@@ -165,5 +165,9 @@
     "core.users": "Mga User",
     "core.view": "Tingnan",
     "core.week": "Linggo",
-    "core.yes": "Oo"
+    "core.yes": "Oo",
+    "workplace.continue": "Ituloy",
+    "workplace.coursefiles": "Mga file ng kurso",
+    "workplace.deleted": "Burado na",
+    "workplace.teams.fullname": "Buong pangalan"
 }
