@@ -191,7 +191,7 @@
     "addon.coursecompletion.coursecompletion": "Dovršenost e-kolegija",
     "addon.coursecompletion.criteria": "Kriterij",
     "addon.coursecompletion.criteriagroup": "Grupa kriterija",
-    "addon.coursecompletion.criteriarequiredall": "Potrebno je zadovoljenje svih doljnjih kriterija",
+    "addon.coursecompletion.criteriarequiredall": "Potrebno je zadovoljenje svih kriterija prikazanih ispod",
     "addon.coursecompletion.criteriarequiredany": "Potrebno je zadovoljenje bilo kojeg doljnjeg kriterija",
     "addon.coursecompletion.inprogress": "U tijeku",
     "addon.coursecompletion.manualselfcompletion": "Ručni dovršetak",
