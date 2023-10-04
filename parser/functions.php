@@ -149,16 +149,35 @@ function build_lang(&$language) {
         echo " Parent: $parent";
     }
 
+    $langFile = false;
+    if (file_exists($lang.'.json')) {
+        // Load lang files just once.
+        $langFile = load_json($lang.'.json');
+    }
+
     $translations = [];
     // Add the translation to the array.
     foreach ($LANGINDEX as $file => $keys) {
         $lmsstring = get_translation_strings($langfoldername, $file);
         if (empty($lmsstring)) {
+            if ($lang == 'en') {
+                echo "\n*DEBUG* File $file not found in $lang\n";
+            }
             continue;
         }
 
         foreach ($keys as $appkey => $lmskey) {
             if (!isset($lmsstring[$lmskey])) {
+                if ($appkey != 'core.parentlanguage') {
+                    if ($langFile && isset($langFile[$appkey])) {
+                        if ($lang == 'en') {
+                            echo "\n*DEBUG* $appkey not found in $lang using fallback \n";
+                        }
+                        $translations[$appkey] = $langFile[$appkey];
+                    } else if ($lang == 'en') {
+                        echo "\n*DEBUG* $appkey not found in $lang!!! \n";
+                    }
+                }
                 continue;
             }
 
@@ -175,9 +194,7 @@ function build_lang(&$language) {
             } else {
                 // @TODO: Remove that line when core.cannotconnect and core.login.invalidmoodleversion are completelly changed to use $a
                 if (($appkey == 'core.cannotconnect' || $appkey == 'core.login.invalidmoodleversion') && strpos($text, '2.4')) {
-                    if (DEBUG) {
-                        echo "****** Found 2.4 \n";
-                    }
+                    echo "\n*DEBUG* Found 2.4 in $lang $appkey \n";
                     $text = str_replace('2.4', '{{$a}}', $text);
                 }
                 $language->local++;

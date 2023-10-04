@@ -73,6 +73,12 @@ function get_languages {
     done < $LANGPACKSFOLDER/languages.md5
 }
 
+force=0
+
+if [ ! -d $LANGPACKSFOLDER ]; then
+    mkdir $LANGPACKSFOLDER
+fi
+
 if [ ! -z $GIT_TOKEN ] && [ ! -z $GITHUB_REPOSITORY ]; then
     # Set up Github Actions bot user
     # See https://github.community/t/github-actions-bot-email-address/17204/6
@@ -101,15 +107,14 @@ if [ ! -f 'langindex.json' ]; then
 
     download_file "$LANGINDEX_URL"
 
-    cp $LANGPACKSFOLDER langindex.json
+    cp $LANGPACKSFOLDER/langindex.json langindex.json
 fi
 
 langindexupdate=`date -r langindex.json +%s`
 currenttime=`date +%s`
 ellapsedtime=$((currenttime - langindexupdate))
-force=0
 if [ $ellapsedtime -lt 3600 ]; then
-    echo 'Recently updated, force update all languages'
+    echo 'Index recently updated, force update all languages'
     force=1
 fi
 
