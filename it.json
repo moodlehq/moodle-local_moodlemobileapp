@@ -1870,7 +1870,7 @@
     "core.login.invalidaccount": "Verificare le proprie credenziali o chiedere all'amministratore del sito di controllare la configurazione del sito.",
     "core.login.invaliddate": "Data non corretta",
     "core.login.invalidemail": "Indirizzo email non valido",
-    "core.login.invalidmoodleversion": "Versione di Moodle non valida. La versione minima richiesta è la {{$a}}:",
+    "core.login.invalidmoodleversion": "La versione di Moodle non è valida. La versione minima richiesta è la {{$a}} o versioni successive.",
     "core.login.invalidsite": "L'URL del sito non è valida",
     "core.login.invalidtime": "Orario non valido",
     "core.login.invalidurl": "La URL specificata non è valida",
