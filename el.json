@@ -2348,6 +2348,7 @@
     "workplace.review": "Εξέταση",
     "workplace.roleincontext": "με ρόλο: «{{$a.role}}» στο πλαίσιο: «{{$a.context}}»",
     "workplace.seecontent": "Δείτε το περιεχόμενο",
+    "workplace.start": "Έναρξη",
     "workplace.startdate": "Ημερομηνία έναρξης",
     "workplace.suspended": "Σε αναστολή",
     "workplace.tablabel": "Περισσότερα",

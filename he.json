@@ -1974,6 +1974,8 @@
     "workplace.roleincontext": "{{$a.role}} ב- {{$a.context}}",
     "workplace.teams.filterisanyvalue": "כל ערך",
     "workplace.teams.fullname": "שם מלא",
+    "workplace.teams.learning": "למידה",
+    "workplace.teams.myteams": "צוותים",
     "workplace.teams.orgstructure": "מבנה ארגוני",
     "workplace.teams.pluginname": "הצוותים שלי",
     "workplace.todo": "נדרש:"

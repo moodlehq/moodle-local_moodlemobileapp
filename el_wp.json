@@ -1970,6 +1970,7 @@
     "workplace.roleincontext": "με ρόλο: «{{$a.role}}» στο πλαίσιο: «{{$a.context}}»",
     "workplace.seecontent": "Δες το περιεχόμενο",
     "workplace.setsandcoursesnotfound": "Δεν βρέθηκαν σύνολα ή μαθήματα",
+    "workplace.start": "Έναρξη",
     "workplace.startdate": "Ημερομηνία έναρξης",
     "workplace.suspended": "Αναστελμένο",
     "workplace.teams.fullname": "Πλήρες όνομα"
