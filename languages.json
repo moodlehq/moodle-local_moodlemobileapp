@@ -233,10 +233,10 @@
     },
     "hr": {
         "lang": "hr",
-        "md5": "d195f0960c7949cc1008add1a5b726c5",
+        "md5": "b096e0491b391a683bc65b7acffb5557",
         "name": "Hrvatski",
         "local": 163,
-        "lastupdate": 1696396023,
+        "lastupdate": 1696425408,
         "translated": 1854
     },
     "cs": {
@@ -321,10 +321,10 @@
     },
     "en": {
         "lang": "en",
-        "md5": "56744a946ec97cbdf27a4313a8210acd",
+        "md5": "9434b8c765c5f686dcce6513adfbb04a",
         "name": "English",
         "local": 687,
-        "lastupdate": 1696396023,
+        "lastupdate": 1696425408,
         "translated": 2563
     },
     "en_ca": {
@@ -461,10 +461,10 @@
     },
     "fr": {
         "lang": "fr",
-        "md5": "38b3c4eb5ad2cf4c896adaa92bab12f5",
+        "md5": "bc1f8943c75899449ede724c9d3a0f55",
         "name": "Français",
         "local": 686,
-        "lastupdate": 1696396024,
+        "lastupdate": 1696425408,
         "translated": 2472
     },
     "fr_ca_epi": {
@@ -637,10 +637,10 @@
     },
     "he": {
         "lang": "he",
-        "md5": "611859f2c17725ed96c063c2d6a43c2e",
+        "md5": "4f0671d826f6cf2dc55bc83ec60d9ddc",
         "name": "עברית",
         "local": 260,
-        "lastupdate": 1696396024,
+        "lastupdate": 1696425408,
         "translated": 1949
     },
     "he_wp": {
@@ -733,10 +733,10 @@
     },
     "it": {
         "lang": "it",
-        "md5": "f9152abe9bfff85b638e06bdc609525e",
+        "md5": "88c25fc717696045cb4391a4c8dc3008",
         "name": "Italiano",
         "local": 375,
-        "lastupdate": 1696396024,
+        "lastupdate": 1696425408,
         "translated": 2246
     },
     "it_wp": {
@@ -757,10 +757,10 @@
     },
     "ja": {
         "lang": "ja",
-        "md5": "74e16e1992839d7c294b310da4b511f4",
+        "md5": "ad28c2e840acd3af9011e3225b5755ab",
         "name": "日本語",
         "local": 686,
-        "lastupdate": 1696396024,
+        "lastupdate": 1696425408,
         "translated": 2506
     },
     "ja_wp": {
@@ -909,11 +909,11 @@
     },
     "lt": {
         "lang": "lt",
-        "md5": "98dde403621fd1a2a80667bf05aa14f2",
+        "md5": "4a36096877f437e763eb1fab8eabd83c",
         "name": "Lietuvių",
-        "local": 313,
-        "lastupdate": 1696396024,
-        "translated": 2092
+        "local": 321,
+        "lastupdate": 1696425408,
+        "translated": 2105
     },
     "lt_wp": {
         "lang": "lt_wp",
@@ -1109,11 +1109,11 @@
     },
     "no": {
         "lang": "no",
-        "md5": "d7fb4a76f0ac1737e8abb1f27fa35dfa",
+        "md5": "26113ce2f832de0ca8bd5b83c45f803c",
         "name": "Norsk",
-        "local": 686,
-        "lastupdate": 1696396025,
-        "translated": 2471
+        "local": 687,
+        "lastupdate": 1696425408,
+        "translated": 2482
     },
     "nb": {
         "lang": "nb",
@@ -1197,10 +1197,10 @@
     },
     "pl": {
         "lang": "pl",
-        "md5": "c754d68c895d3c279569fa93d7d8c47a",
+        "md5": "a63374246db4abc204d113cb78ad4268",
         "name": "Polski",
         "local": 654,
-        "lastupdate": 1696396025,
+        "lastupdate": 1696425408,
         "translated": 2431
     },
     "pt_br": {
@@ -1221,11 +1221,11 @@
     },
     "pt": {
         "lang": "pt",
-        "md5": "4513cacfd410f51abc915213a5b85d8d",
+        "md5": "29ddc2cac99de6195370a573bf4cfbe4",
         "name": "Português - Portugal",
-        "local": 686,
-        "lastupdate": 1696396025,
-        "translated": 2470
+        "local": 687,
+        "lastupdate": 1696425408,
+        "translated": 2471
     },
     "pan": {
         "lang": "pan",
@@ -1245,10 +1245,10 @@
     },
     "ro": {
         "lang": "ro",
-        "md5": "f6f1f883bbe1026035d19fde79fc21e2",
+        "md5": "5c3e7aec20e478657913cac7f3bcb751",
         "name": "Română",
         "local": 602,
-        "lastupdate": 1696396025,
+        "lastupdate": 1696425408,
         "translated": 2431
     },
     "ro_wp": {
@@ -1341,10 +1341,10 @@
     },
     "szl": {
         "lang": "szl",
-        "md5": "d24ad34b309793205f003de4ae830319",
+        "md5": "43560a6c1409d5c21861098e5a0837b2",
         "name": "Ślōnski",
         "local": 486,
-        "lastupdate": 1696396025,
+        "lastupdate": 1696425408,
         "translated": 2256
     },
     "sd_ap": {
@@ -1357,11 +1357,11 @@
     },
     "si": {
         "lang": "si",
-        "md5": "36a7fd537a84e4d5bfceee80a50163df",
+        "md5": "1b49ebf61374159cb322bb836f3c4024",
         "name": "සිංහල",
         "local": 0,
-        "lastupdate": 1696396025,
-        "translated": 1022
+        "lastupdate": 1696425408,
+        "translated": 1025
     },
     "sk": {
         "lang": "sk",
@@ -1469,10 +1469,10 @@
     },
     "sv": {
         "lang": "sv",
-        "md5": "c71dce7d8976a260955ad9c8ffb009c7",
+        "md5": "611869e2e03eab00fef6ad5227d6a2b3",
         "name": "Svenska",
         "local": 614,
-        "lastupdate": 1696396025,
+        "lastupdate": 1696425408,
         "translated": 2396
     },
     "sv_wp": {
