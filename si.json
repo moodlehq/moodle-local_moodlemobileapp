@@ -680,6 +680,7 @@
     "assets.mimetypes.application/pdf": "PDF ලිපිලේඛනය",
     "assets.mimetypes.application/vnd.ms-excel": "එක්සෙල් පැතුරුම්පත",
     "assets.mimetypes.application/vnd.ms-powerpoint": "පවර්පොයින්ට් ඉදිරිපත් කිරීම",
+    "assets.mimetypes.archive": "සංරක්ෂිතය ({{$a.EXT}})",
     "assets.mimetypes.document/unknown": "ගොනුව",
     "assets.mimetypes.group:web_image": "වෙබයේ භාවිතා වන රූප ගොනු",
     "assets.mimetypes.text/plain": "පාඨ ගොනුව",
