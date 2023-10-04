@@ -1924,7 +1924,7 @@
     "core.login.invalidaccount": "Te rugăm să verifici datele de conectare și să încerci din nou.",
     "core.login.invaliddate": "Datele nu sunt valide",
     "core.login.invalidemail": "Adresă de e-mail incorectă",
-    "core.login.invalidmoodleversion": "Versiunea Moodle este invalidă. Versiunea minimă este {{$a}}",
+    "core.login.invalidmoodleversion": "Versiunea Moodle este invalidă. Versiunea minimă este {{$a}}.",
     "core.login.invalidsite": "Adresa URL este invalidă.",
     "core.login.invalidurl": "URL specificat nevalid",
     "core.login.invalidvaluemax": "Valoarea maximă este {{$a}}",

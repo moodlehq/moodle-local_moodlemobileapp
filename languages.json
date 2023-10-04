@@ -105,10 +105,10 @@
     },
     "eu": {
         "lang": "eu",
-        "md5": "5302b0c3f2d76d8685e2a47d44ad68f7",
+        "md5": "eb66fbe8488c92eed8e8f47ec5b3741a",
         "name": "Euskara",
         "local": 739,
-        "lastupdate": 1696396019,
+        "lastupdate": 1696425417,
         "translated": 2545
     },
     "bar": {
@@ -233,18 +233,18 @@
     },
     "hr": {
         "lang": "hr",
-        "md5": "136ce2885b249fff83616fe463267508",
+        "md5": "2f18687f2641ea295e31876be0b2894c",
         "name": "Hrvatski",
         "local": 161,
-        "lastupdate": 1696396019,
+        "lastupdate": 1696425417,
         "translated": 1870
     },
     "cs": {
         "lang": "cs",
-        "md5": "71ebc52e2c44949be425e034bc70a629",
+        "md5": "0e4ed6562ab14c870dcacaf614fabb6b",
         "name": "Čeština",
         "local": 739,
-        "lastupdate": 1696396019,
+        "lastupdate": 1696425417,
         "translated": 2544
     },
     "da_kursus": {
@@ -321,10 +321,10 @@
     },
     "en": {
         "lang": "en",
-        "md5": "8d66e15efe9779090bf77ae0d76fcbb5",
+        "md5": "17708e03379a9589a12da6915ae53887",
         "name": "English",
         "local": 740,
-        "lastupdate": 1696396019,
+        "lastupdate": 1696425417,
         "translated": 2648
     },
     "en_ca": {
@@ -461,10 +461,10 @@
     },
     "fr": {
         "lang": "fr",
-        "md5": "19655f19a8724cb06d22f79578957845",
+        "md5": "62769ea8fe41f9fc626dafeaef7e73de",
         "name": "Français",
         "local": 739,
-        "lastupdate": 1696396020,
+        "lastupdate": 1696425417,
         "translated": 2547
     },
     "fr_ca_epi": {
@@ -533,10 +533,10 @@
     },
     "de": {
         "lang": "de",
-        "md5": "75b14b6e9668dfa0bb2cb1b13a5a339e",
+        "md5": "10c8d943ae1196a64078848eefd885de",
         "name": "Deutsch",
         "local": 739,
-        "lastupdate": 1696396020,
+        "lastupdate": 1696425417,
         "translated": 2547
     },
     "de_wp": {
@@ -637,10 +637,10 @@
     },
     "he": {
         "lang": "he",
-        "md5": "f89bee680d52b2d61e378b2e085f6810",
+        "md5": "3f2985161dcf9f13aeaa8d1a5cbe6a2a",
         "name": "עברית",
         "local": 258,
-        "lastupdate": 1696396020,
+        "lastupdate": 1696425417,
         "translated": 1955
     },
     "he_wp": {
@@ -733,10 +733,10 @@
     },
     "it": {
         "lang": "it",
-        "md5": "35f7859fbd9215ba1e8246926fe65fba",
+        "md5": "adfa87a5f284e38a18555f0f9055ae78",
         "name": "Italiano",
         "local": 375,
-        "lastupdate": 1696396020,
+        "lastupdate": 1696425417,
         "translated": 2279
     },
     "it_wp": {
@@ -757,10 +757,10 @@
     },
     "ja": {
         "lang": "ja",
-        "md5": "ab28470e988a91b70a6d46cb39a93656",
+        "md5": "d4eb568d3944b6a42a67019ee8ead7cc",
         "name": "日本語",
         "local": 739,
-        "lastupdate": 1696396020,
+        "lastupdate": 1696425417,
         "translated": 2582
     },
     "ja_wp": {
@@ -909,11 +909,11 @@
     },
     "lt": {
         "lang": "lt",
-        "md5": "6df7d6d24aab29581d0c241ee8e56816",
+        "md5": "637ce90e640ebefd6606d857ca53a120",
         "name": "Lietuvių",
-        "local": 309,
-        "lastupdate": 1696396020,
-        "translated": 2111
+        "local": 318,
+        "lastupdate": 1696425417,
+        "translated": 2125
     },
     "lt_wp": {
         "lang": "lt_wp",
@@ -1109,11 +1109,11 @@
     },
     "no": {
         "lang": "no",
-        "md5": "baf005af174c2e88ff220717c0d9820d",
+        "md5": "9b9a51d9ec79c03540e498d21b45508a",
         "name": "Norsk",
-        "local": 739,
-        "lastupdate": 1696396021,
-        "translated": 2547
+        "local": 740,
+        "lastupdate": 1696425417,
+        "translated": 2559
     },
     "nb": {
         "lang": "nb",
@@ -1197,10 +1197,10 @@
     },
     "pl": {
         "lang": "pl",
-        "md5": "89438bfa0f03ae07d735b786e71a92b4",
+        "md5": "07b804f8650ffa62b86155663ae52fb7",
         "name": "Polski",
         "local": 704,
-        "lastupdate": 1696396021,
+        "lastupdate": 1696425417,
         "translated": 2506
     },
     "pt_br": {
@@ -1221,11 +1221,11 @@
     },
     "pt": {
         "lang": "pt",
-        "md5": "37a1f860c123427ea261c2dae174e465",
+        "md5": "45cbd51c2fc0bbc2b46acf0fb0858f27",
         "name": "Português - Portugal",
-        "local": 739,
-        "lastupdate": 1696396021,
-        "translated": 2545
+        "local": 740,
+        "lastupdate": 1696425417,
+        "translated": 2546
     },
     "pan": {
         "lang": "pan",
@@ -1245,10 +1245,10 @@
     },
     "ro": {
         "lang": "ro",
-        "md5": "376118bae1dc0203990e5d988fd8b7c3",
+        "md5": "71215e140bf0e9bdee80f6ef06a4e41a",
         "name": "Română",
         "local": 647,
-        "lastupdate": 1696396021,
+        "lastupdate": 1696425417,
         "translated": 2502
     },
     "ro_wp": {
@@ -1341,10 +1341,10 @@
     },
     "szl": {
         "lang": "szl",
-        "md5": "8f20c5200982b3e991eab5a6e1fb4419",
+        "md5": "de5482bdeabf636810f1f8cc9da5f74f",
         "name": "Ślōnski",
         "local": 476,
-        "lastupdate": 1696396021,
+        "lastupdate": 1696425417,
         "translated": 2267
     },
     "sd_ap": {
@@ -1357,11 +1357,11 @@
     },
     "si": {
         "lang": "si",
-        "md5": "79a6264f215d455614baa4e0e0f0a19f",
+        "md5": "522eea4fea59496bb75ccd4701de3434",
         "name": "සිංහල",
         "local": 0,
-        "lastupdate": 1696396021,
-        "translated": 1018
+        "lastupdate": 1696425417,
+        "translated": 1021
     },
     "sk": {
         "lang": "sk",
@@ -1429,10 +1429,10 @@
     },
     "es": {
         "lang": "es",
-        "md5": "fb80ad9d67f37e143814eb5f8061c2c8",
+        "md5": "e117eaed7740d6b1b00eae77b3653862",
         "name": "Español - Internacional",
         "local": 739,
-        "lastupdate": 1696396021,
+        "lastupdate": 1696425417,
         "translated": 2647
     },
     "es_ve": {
@@ -1469,10 +1469,10 @@
     },
     "sv": {
         "lang": "sv",
-        "md5": "f551580c80a8d30dabd7d37b9e6004cf",
+        "md5": "4cf9d9bba1e9479b0087ad1b8f1fe921",
         "name": "Svenska",
         "local": 607,
-        "lastupdate": 1696396021,
+        "lastupdate": 1696425417,
         "translated": 2410
     },
     "sv_wp": {
