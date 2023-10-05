@@ -2561,5 +2561,19 @@
     "workplace.teams.pluginname": "Team overview",
     "workplace.todo": "To-do:",
     "workplace.withsubdepartments": "Include subdepartments",
-    "workplace.withsubpositions": "Include subpositions"
+    "workplace.withsubpositions": "Include subpositions",
+    "core.cannotconnecttrouble": "We're having trouble connecting to your site.",
+    "core.cannotconnectverify": "<strong>Please check the address is correct.</strong>",
+    "core.reportcontent": "Report content",
+    "core.reportuser": "Report user",
+    "core.typehere": "Type here",
+    "freemium.report": "Report",
+    "freemium.reportcontentmessage": "I would like to report <a href=\"{{url}}\" target=\"_blank\">this content</a>.",
+    "freemium.reportedby": "Reported by <a href=\"{{url}}\" target=\"_blank\">this user</a>.",
+    "freemium.reportreason": "*Reason for reporting: {{message}}",
+    "freemium.reportsent": "Report sent.",
+    "freemium.reportusermessage": "I would like to report <a href=\"{{url}}\" target=\"_blank\">this user</a>.",
+    "freemium.whyreportcontent": "Why are you reporting this content? (optional)",
+    "freemium.whyreportuser": "Why are you reporting this user? (optional)",
+    "workplace.fullnameplaceholder": "For example: John Smith"
 }
