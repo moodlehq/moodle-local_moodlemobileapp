@@ -2646,5 +2646,18 @@
     "workplace.teams.seeprofile": "See profile",
     "workplace.teams.withsubdepartments": "Include subdepartments",
     "workplace.teams.withsubpositions": "Include subpositions",
-    "workplace.todo": "To-do:"
+    "workplace.todo": "To-do:",
+    "core.reportcontent": "Report content",
+    "core.reportuser": "Report user",
+    "core.typehere": "Type here",
+    "freemium.report": "Report",
+    "freemium.reportcontentmessage": "I would like to report <a href=\"{{url}}\" target=\"_blank\">this content</a>.",
+    "freemium.reportedby": "Reported by <a href=\"{{url}}\" target=\"_blank\">this user</a>.",
+    "freemium.reportreason": "*Reason for reporting: {{message}}",
+    "freemium.reportsent": "Report sent.",
+    "freemium.reportusermessage": "I would like to report <a href=\"{{url}}\" target=\"_blank\">this user</a>.",
+    "freemium.whyreportcontent": "Why are you reporting this content? (optional)",
+    "freemium.whyreportuser": "Why are you reporting this user? (optional)",
+    "workplace.teams.isoverdue": "Has overdue or expired items",
+    "core.reportbuilder.reportsource": "Report source"
 }
