@@ -371,6 +371,7 @@
     "addon.mod_glossary.errconceptalreadyexists": "Гэты тэрмін ужо існуе. Дублікаты забаронены для гэтага слоўніка.",
     "addon.mod_glossary.fillfields": "Тэрмін і азначэньне з'яўляюцца абавязковымі палямі.",
     "addon.mod_glossary.fullmatch": "Супастаўляць толькі цэлыя словы",
+    "addon.mod_glossary.linking": "Аўтаспасыланьне",
     "addon.mod_h5pactivity.all_attempts": "Усе спробы карыстальніка",
     "addon.mod_h5pactivity.answer_checked": "Адказ правераны",
     "addon.mod_h5pactivity.answer_correct": "Вашы адказ слушны",
