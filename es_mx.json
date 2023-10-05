@@ -2040,7 +2040,7 @@
     "core.login.sitenotallowed": "Este sitio ya no está disponible.",
     "core.login.sitepolicynotagreederror": "No se aceptó la política del sitio.",
     "core.login.siteurl": "URL del sitio",
-    "core.login.siteurlrequired": "La URL del sitio es obligatoria, por ejemplo <i>http://www.susitiomoodle.com o  https://www.susitiomoodle.mx</i>",
+    "core.login.siteurlrequired": "La URL del sitio es obligatoria, por ejemplo <i>https://www.susitiomoodle.mx</i>",
     "core.login.startsignup": "Comience ahora creando una cuenta nueva",
     "core.login.stillcantconnect": "¿Todavía no puede conectarse?",
     "core.login.supplyinfo": "Más detalles",
