@@ -2004,7 +2004,7 @@
     "core.login.sitenotallowed": "Este sitio ya no está disponible.",
     "core.login.sitepolicynotagreederror": "No se aceptó la política del sitio.",
     "core.login.siteurl": "URL del sitio",
-    "core.login.siteurlrequired": "La URL del sitio es obligatoria, por ejemplo <i>http://www.yourmoodlesite.es o  https://www.yourmoodlesite.org</i>",
+    "core.login.siteurlrequired": "La URL del sitio es obligatoria, por ejemplo <i>https://campus.example.edu</i>",
     "core.login.startsignup": "Crear nueva cuenta",
     "core.login.stillcantconnect": "¿Todavía no puede conectar?",
     "core.login.supplyinfo": "Por favor, escriba algunos datos sobre usted",
