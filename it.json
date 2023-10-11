@@ -1898,7 +1898,7 @@
     "core.login.or": "Oppure",
     "core.login.password": "Password",
     "core.login.passwordforgotten": "Password dimenticata",
-    "core.login.passwordforgotteninstructions2": "Per recuperare la password, inserisci lo username oppure l'email nei campi sottostanti. Se il dato inserito è presente nel database, riceverai un'email con le istruzioni per completare il recupero.",
+    "core.login.passwordforgotteninstructions2": "Per recuperare la password, inserisci a tua scelta lo username oppure l'email in uno solo dei campi sottostanti. Se il dato inserito è presente nel database, riceverai un'email con le istruzioni per completare il recupero.",
     "core.login.passwordrequired": "Password necessaria",
     "core.login.policyaccept": "Ho letto le condizioni e le accetto",
     "core.login.policyagree": "Per continuare ad usare questo sito, è necessario accettare le condizioni riportate.",
