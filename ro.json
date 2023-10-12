@@ -726,7 +726,7 @@
     "addon.mod_h5pactivity.attempts": "Încercări",
     "addon.mod_h5pactivity.attempts_none": "Acest utilizator nu are încercări de afișat.",
     "addon.mod_h5pactivity.attempts_report": "Raport de încercări",
-    "addon.mod_h5pactivity.completion": "Completare",
+    "addon.mod_h5pactivity.completion": "Finalizare",
     "addon.mod_h5pactivity.downloadh5pfile": "Descarcă fișierul H5P",
     "addon.mod_h5pactivity.duration": "Durata",
     "addon.mod_h5pactivity.errorgetactivity": "Eroare la obținerea datelor despre activitatea H5P.",
