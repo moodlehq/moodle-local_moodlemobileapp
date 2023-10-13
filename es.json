@@ -792,7 +792,7 @@
     "addon.mod_lesson.maximumnumberofattemptsreached": "Se ha alcanzado el número máximo de intentos. Traslado a la página siguiente",
     "addon.mod_lesson.modattemptsnoteacher": "La revisión del estudiante sólo está disponible para los estudiantes.",
     "addon.mod_lesson.modulenameplural": "Lecciones",
-    "addon.mod_lesson.noanswer": "Una o más preguntas no se han contestado. Por favor regrese y de una respuesta.",
+    "addon.mod_lesson.noanswer": "No ha contestado a una o más preguntas. Por favor, regrese y responda a todas las preguntas.",
     "addon.mod_lesson.nolessonattempts": "No se han hecho intentos de practicar esta lección.",
     "addon.mod_lesson.nolessonattemptsgroup": "{{$a}} miembros del grupo no han realizado ningún intento en esta lección.",
     "addon.mod_lesson.notcompleted": "Sin finalizar",
