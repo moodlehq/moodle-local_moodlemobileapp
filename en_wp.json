@@ -11,6 +11,7 @@
     "addon.mod_lesson.teacherongoingwarning": "Ongoing score is only displayed for learner.  Log in as a learner to test ongoing score.",
     "addon.mod_lesson.teachertimerwarning": "Timer only works for learners.  Test the timer by logging in as a learner.",
     "core.course.hiddenfromstudents": "Hidden from learners",
+    "core.course.studentsmust": "Learners must",
     "core.decsep": ".",
     "core.listsep": ",",
     "core.parentlanguage": "en",
