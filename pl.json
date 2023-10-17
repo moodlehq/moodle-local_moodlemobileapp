@@ -1118,7 +1118,7 @@
     "addon.qtype_essay.maxwordlimitboundary": "Limit słów dla tego pytania wynosi {{$a.limit}} słów, a Ty próbujesz przesłać {{$a.count}} słów. Skróć odpowiedź i spróbuj ponownie.",
     "addon.qtype_essay.minwordlimitboundary": "To pytanie wymaga odpowiedzi na co najmniej {{$a.limit}} słów, a Ty próbujesz przesłać {{$a.count}} słów. Rozwiń swoją odpowiedź i spróbuj ponownie.",
     "addon.report_insights.actionsaved": "Twój komentarz na temat '{{$a}}' został zapisany.",
-    "addon.report_insights.fixedack": "Potwierdź",
+    "addon.report_insights.fixedack": "Zaakceptuj",
     "addon.report_insights.incorrectlyflagged": "Niepoprawnie oflagowane",
     "addon.report_insights.notapplicable": "Nie dotyczy",
     "addon.report_insights.notuseful": "Nieprzydatne",
