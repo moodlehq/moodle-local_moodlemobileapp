@@ -1478,6 +1478,7 @@
     "core.course.confirmpartialdownloadsize": "Zdaj nameravate prenesti <strong>vsaj</strong> {{size}}. {{availableSpace}} Ali ste prepričani, da želite nadaljevati?",
     "core.course.couldnotloadsectioncontent": "Vsebine razdelka ni bilo mogoče naložiti. Prosim poskusite kasneje.",
     "core.course.couldnotloadsections": "Poglavja ni bilo mogoče naložiti. Prosim poskusite kasneje.",
+    "core.course.courseindex": "Kazalo predmeta",
     "core.course.coursesummary": "Povzetek predmeta",
     "core.course.done": "Opravljeno",
     "core.course.downloadcourse": "Prenos predmeta",
