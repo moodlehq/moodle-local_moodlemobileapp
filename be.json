@@ -440,6 +440,8 @@
     "addon.mod_lesson.lowscore": "Нізкі бал",
     "addon.mod_lesson.lowtime": "Меншы час",
     "addon.mod_lesson.maximumnumberofattemptsreached": "Дасягнута максімальная колькасьць спробаў - Пераход на наступную старонку",
+    "addon.mod_lesson.modattemptsnoteacher": "Студэнты могуць аглядваць толькі працу студэнтаў.",
+    "addon.mod_lesson.modulenameplural": "Заняткі",
     "addon.mod_page.modulenameplural": "Старонкі",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
