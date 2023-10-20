@@ -845,7 +845,7 @@
     "addon.mod_quiz.confirmstart": "Test ma limit czasu: {{$a}}. <br>\nCzas będzie odliczany od momentu, kiedy rozpoczniesz swoją próbę. Musisz ją zakończyć przed jego upływem.<br>\nCzy jesteś pewien, że chcesz rozpocząć teraz?",
     "addon.mod_quiz.confirmstartheader": "Limit czasu",
     "addon.mod_quiz.connectionerror": "Utracono połączenie. (Automatyczny zapis nie powiódł się).\n\nZanotuj wszystkie odpowiedzi, jakich udzieliłeś na tej stronie w ciągu ostatnich kilku minut i spróbuj połączyć się z siecią ponownie.\n\nKiedy połączenie zostanie nawiązane, Twoje odpowiedzi zostaną zapisane, a ten komunikat zniknie.",
-    "addon.mod_quiz.continueattemptquiz": "Kontynuuj ostatnie podejście",
+    "addon.mod_quiz.continueattemptquiz": "Kontynuuj swoje podejście",
     "addon.mod_quiz.continuepreview": "Kontynuuj ostatni podgląd",
     "addon.mod_quiz.errorbehaviournotsupported": "Nie możesz podejść do tego testu w aplikacji, ponieważ zachowanie pytań nie jest obsługiwane przez aplikację:",
     "addon.mod_quiz.errordownloading": "Błąd pobierania wymaganych danych.",
