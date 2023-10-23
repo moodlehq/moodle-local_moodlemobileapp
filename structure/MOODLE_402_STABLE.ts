@@ -41,12 +41,13 @@ export type BlockStarredcoursesGetStarredCoursesWSResponse = {
     shortname: string; // Shortname.
     idnumber: string; // Idnumber.
     summary: string; // Summary.
-    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     startdate: number; // Startdate.
     enddate: number; // Enddate.
     visible: boolean; // Visible.
     showactivitydates: boolean; // Showactivitydates.
     showcompletionconditions: boolean; // Showcompletionconditions.
+    pdfexportfont: string; // Pdfexportfont.
     fullnamedisplay: string; // Fullnamedisplay.
     viewurl: string; // Viewurl.
     courseimage: string; // Courseimage.
@@ -147,6 +148,7 @@ export type CoreBlockFetchAddableBlocksWSParams = {
     pagetype: string; // The type of the page.
     pagelayout: string; // The layout of the page.
     subpage?: string; // The subpage identifier.
+    pagehash?: string; // Page hash.
 };
 
 /**
@@ -155,6 +157,7 @@ export type CoreBlockFetchAddableBlocksWSParams = {
 export type CoreBlockFetchAddableBlocksWSResponse = { // List of addable blocks in a given page.
     name: string; // The name of the block.
     title: string; // The title of the block.
+    blockform: string; // If this block type has a form when it is being added then the classname of the form.
 }[];
 
 /**
@@ -181,7 +184,7 @@ export type CoreBlockGetCourseBlocksWSResponse = {
         contents?: {
             title: string; // Block title.
             content: string; // Block contents.
-            contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             footer: string; // Block footer.
             files: CoreWSExternalFile[];
         }; // Block contents (if required).
@@ -219,7 +222,7 @@ export type CoreBlockGetDashboardBlocksWSResponse = {
         contents?: {
             title: string; // Block title.
             content: string; // Block contents.
-            contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             footer: string; // Block footer.
             files: CoreWSExternalFile[];
         }; // Block contents (if required).
@@ -267,7 +270,7 @@ export type CoreBlogGetEntriesWSResponse = {
         coursemoduleid: number; // Course module id where the post was created.
         subject: string; // Post subject.
         summary: string; // Post summary.
-        summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         content: string; // Post content.
         uniquehash: string; // Post unique hash.
         rating: number; // Post rating.
@@ -348,7 +351,7 @@ export type CoreCalendarCreateCalendarEventsWSParams = {
     events: {
         name: string; // Event name.
         description?: string; // Description.
-        format?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         courseid?: number; // Course id.
         groupid?: number; // Group id.
         repeats?: number; // Number of repeats.
@@ -368,7 +371,7 @@ export type CoreCalendarCreateCalendarEventsWSResponse = {
         id: number; // Event id.
         name: string; // Event name.
         description?: string; // Description.
-        format: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         courseid: number; // Course id.
         groupid: number; // Group id.
         userid: number; // User id.
@@ -422,7 +425,7 @@ export type CoreCalendarGetActionEventsByCourseWSResponse = {
         id: number; // Id.
         name: string; // Name.
         description?: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         location?: string; // Location.
         categoryid?: number; // Categoryid.
         groupid?: number; // Groupid.
@@ -468,12 +471,13 @@ export type CoreCalendarGetActionEventsByCourseWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -496,6 +500,7 @@ export type CoreCalendarGetActionEventsByCourseWSResponse = {
         editurl: string; // Editurl.
         viewurl: string; // Viewurl.
         formattedtime: string; // Formattedtime.
+        formattedlocation: string; // Formattedlocation.
         isactionevent: boolean; // Isactionevent.
         iscourseevent: boolean; // Iscourseevent.
         iscategoryevent: boolean; // Iscategoryevent.
@@ -536,7 +541,7 @@ export type CoreCalendarGetActionEventsByCoursesWSResponse = {
             id: number; // Id.
             name: string; // Name.
             description?: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             location?: string; // Location.
             categoryid?: number; // Categoryid.
             groupid?: number; // Groupid.
@@ -582,12 +587,13 @@ export type CoreCalendarGetActionEventsByCoursesWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 summary: string; // Summary.
-                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 startdate: number; // Startdate.
                 enddate: number; // Enddate.
                 visible: boolean; // Visible.
                 showactivitydates: boolean; // Showactivitydates.
                 showcompletionconditions: boolean; // Showcompletionconditions.
+                pdfexportfont: string; // Pdfexportfont.
                 fullnamedisplay: string; // Fullnamedisplay.
                 viewurl: string; // Viewurl.
                 courseimage: string; // Courseimage.
@@ -610,6 +616,7 @@ export type CoreCalendarGetActionEventsByCoursesWSResponse = {
             editurl: string; // Editurl.
             viewurl: string; // Viewurl.
             formattedtime: string; // Formattedtime.
+            formattedlocation: string; // Formattedlocation.
             isactionevent: boolean; // Isactionevent.
             iscourseevent: boolean; // Iscourseevent.
             iscategoryevent: boolean; // Iscategoryevent.
@@ -653,7 +660,7 @@ export type CoreCalendarGetActionEventsByTimesortWSResponse = {
         id: number; // Id.
         name: string; // Name.
         description?: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         location?: string; // Location.
         categoryid?: number; // Categoryid.
         groupid?: number; // Groupid.
@@ -699,12 +706,13 @@ export type CoreCalendarGetActionEventsByTimesortWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -727,6 +735,7 @@ export type CoreCalendarGetActionEventsByTimesortWSResponse = {
         editurl: string; // Editurl.
         viewurl: string; // Viewurl.
         formattedtime: string; // Formattedtime.
+        formattedlocation: string; // Formattedlocation.
         isactionevent: boolean; // Isactionevent.
         iscourseevent: boolean; // Iscourseevent.
         iscategoryevent: boolean; // Iscategoryevent.
@@ -798,7 +807,7 @@ export type CoreCalendarGetCalendarDayViewWSResponse = {
         id: number; // Id.
         name: string; // Name.
         description?: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         location?: string; // Location.
         categoryid?: number; // Categoryid.
         groupid?: number; // Groupid.
@@ -844,12 +853,13 @@ export type CoreCalendarGetCalendarDayViewWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -872,6 +882,7 @@ export type CoreCalendarGetCalendarDayViewWSResponse = {
         editurl: string; // Editurl.
         viewurl: string; // Viewurl.
         formattedtime: string; // Formattedtime.
+        formattedlocation: string; // Formattedlocation.
         isactionevent: boolean; // Isactionevent.
         iscourseevent: boolean; // Iscourseevent.
         iscategoryevent: boolean; // Iscategoryevent.
@@ -963,7 +974,7 @@ export type CoreCalendarGetCalendarEventByIdWSResponse = {
         id: number; // Id.
         name: string; // Name.
         description?: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         location?: string; // Location.
         categoryid?: number; // Categoryid.
         groupid?: number; // Groupid.
@@ -1009,12 +1020,13 @@ export type CoreCalendarGetCalendarEventByIdWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -1037,6 +1049,7 @@ export type CoreCalendarGetCalendarEventByIdWSResponse = {
         editurl: string; // Editurl.
         viewurl: string; // Viewurl.
         formattedtime: string; // Formattedtime.
+        formattedlocation: string; // Formattedlocation.
         isactionevent: boolean; // Isactionevent.
         iscourseevent: boolean; // Iscourseevent.
         iscategoryevent: boolean; // Iscategoryevent.
@@ -1083,7 +1096,7 @@ export type CoreCalendarGetCalendarEventsWSResponse = {
         id: number; // Event id.
         name: string; // Event name.
         description?: string; // Description.
-        format: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         courseid: number; // Course id.
         categoryid?: number; // Category id (only for category events).
         groupid: number; // Group id.
@@ -1160,7 +1173,7 @@ export type CoreCalendarGetCalendarMonthlyViewWSResponse = {
                 id: number; // Id.
                 name: string; // Name.
                 description?: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 location?: string; // Location.
                 categoryid?: number; // Categoryid.
                 groupid?: number; // Groupid.
@@ -1206,12 +1219,13 @@ export type CoreCalendarGetCalendarMonthlyViewWSResponse = {
                     shortname: string; // Shortname.
                     idnumber: string; // Idnumber.
                     summary: string; // Summary.
-                    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                     startdate: number; // Startdate.
                     enddate: number; // Enddate.
                     visible: boolean; // Visible.
                     showactivitydates: boolean; // Showactivitydates.
                     showcompletionconditions: boolean; // Showcompletionconditions.
+                    pdfexportfont: string; // Pdfexportfont.
                     fullnamedisplay: string; // Fullnamedisplay.
                     viewurl: string; // Viewurl.
                     courseimage: string; // Courseimage.
@@ -1234,6 +1248,7 @@ export type CoreCalendarGetCalendarMonthlyViewWSResponse = {
                 editurl: string; // Editurl.
                 viewurl: string; // Viewurl.
                 formattedtime: string; // Formattedtime.
+                formattedlocation: string; // Formattedlocation.
                 isactionevent: boolean; // Isactionevent.
                 iscourseevent: boolean; // Iscourseevent.
                 iscategoryevent: boolean; // Iscategoryevent.
@@ -1344,7 +1359,7 @@ export type CoreCalendarGetCalendarUpcomingViewWSResponse = {
         id: number; // Id.
         name: string; // Name.
         description?: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         location?: string; // Location.
         categoryid?: number; // Categoryid.
         groupid?: number; // Groupid.
@@ -1390,12 +1405,13 @@ export type CoreCalendarGetCalendarUpcomingViewWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -1418,6 +1434,7 @@ export type CoreCalendarGetCalendarUpcomingViewWSResponse = {
         editurl: string; // Editurl.
         viewurl: string; // Viewurl.
         formattedtime: string; // Formattedtime.
+        formattedlocation: string; // Formattedlocation.
         isactionevent: boolean; // Isactionevent.
         iscourseevent: boolean; // Iscourseevent.
         iscategoryevent: boolean; // Iscategoryevent.
@@ -1476,7 +1493,7 @@ export type CoreCalendarSubmitCreateUpdateFormWSResponse = {
         id: number; // Id.
         name: string; // Name.
         description?: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         location?: string; // Location.
         categoryid?: number; // Categoryid.
         groupid?: number; // Groupid.
@@ -1522,12 +1539,13 @@ export type CoreCalendarSubmitCreateUpdateFormWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -1550,6 +1568,7 @@ export type CoreCalendarSubmitCreateUpdateFormWSResponse = {
         editurl: string; // Editurl.
         viewurl: string; // Viewurl.
         formattedtime: string; // Formattedtime.
+        formattedlocation: string; // Formattedlocation.
         isactionevent: boolean; // Isactionevent.
         iscourseevent: boolean; // Iscourseevent.
         iscategoryevent: boolean; // Iscategoryevent.
@@ -1585,7 +1604,7 @@ export type CoreCalendarUpdateEventStartDayWSResponse = {
         id: number; // Id.
         name: string; // Name.
         description?: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         location?: string; // Location.
         categoryid?: number; // Categoryid.
         groupid?: number; // Groupid.
@@ -1631,12 +1650,13 @@ export type CoreCalendarUpdateEventStartDayWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -1659,6 +1679,7 @@ export type CoreCalendarUpdateEventStartDayWSResponse = {
         editurl: string; // Editurl.
         viewurl: string; // Viewurl.
         formattedtime: string; // Formattedtime.
+        formattedlocation: string; // Formattedlocation.
         isactionevent: boolean; // Isactionevent.
         iscourseevent: boolean; // Iscourseevent.
         iscategoryevent: boolean; // Iscategoryevent.
@@ -1697,7 +1718,7 @@ export type CoreCommentAddCommentsWSParams = {
 export type CoreCommentAddCommentsWSResponse = {
     id: number; // Comment ID.
     content: string; // The content text formatted.
-    format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     timecreated: number; // Time created (timestamp).
     strftimeformat: string; // Time format.
     profileurl: string; // URL profile.
@@ -1740,7 +1761,7 @@ export type CoreCommentGetCommentsWSResponse = {
     comments: { // List of comments.
         id: number; // Comment ID.
         content: string; // The content text formatted.
-        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         timecreated: number; // Time created (timestamp).
         strftimeformat: string; // Time format.
         profileurl: string; // URL profile.
@@ -1859,7 +1880,7 @@ export type CoreCompetencyListCourseCompetenciesWSResponse = {
         shortname: string; // Shortname.
         idnumber: string; // Idnumber.
         description: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         sortorder: number; // Sortorder.
         parentid: number; // Parentid.
         path: string; // Path.
@@ -2102,7 +2123,7 @@ export type CoreCourseGetCategoriesWSResponse = {
     name: string; // Category name.
     idnumber?: string; // Category id number.
     description: string; // Category description.
-    descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     parent: number; // Parent category id.
     sortorder: number; // Category sorting order.
     coursecount: number; // Number of courses in this category.
@@ -2145,7 +2166,7 @@ export type CoreCourseGetContentsWSResponse = {
     name: string; // Section name.
     visible?: number; // Is the section visible.
     summary: string; // Section description.
-    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     section?: number; // Section number inside the course.
     hiddenbynumsections?: number; // Whether is a section hidden in the course format.
     uservisible?: boolean; // Is the section visible for the user?.
@@ -2370,7 +2391,7 @@ export type CoreCourseGetCoursesWSResponse = {
     displayname: string; // Course display name.
     idnumber?: string; // Id number.
     summary: string; // Summary.
-    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     format: string; // Course format: weeks, topics, social, site,..
     showgrades?: number; // 1 if grades are shown, otherwise 0.
     newsitems?: number; // Number of recent items appearing on the course page.
@@ -2430,11 +2451,12 @@ export type CoreCourseGetCoursesByFieldWSResponse = {
         fullname: string; // Course full name.
         displayname: string; // Course display name.
         shortname: string; // Course short name.
+        courseimage?: string; // Course image.
         categoryid: number; // Category id.
         categoryname: string; // Category name.
         sortorder?: number; // Sort order in the category.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         summaryfiles?: CoreWSExternalFile[];
         overviewfiles: CoreWSExternalFile[];
         showactivitydates: boolean; // Whether the activity dates are shown or not.
@@ -2510,12 +2532,13 @@ export type CoreCourseGetEnrolledCoursesByTimelineClassificationWSResponse = {
         shortname: string; // Shortname.
         idnumber: string; // Idnumber.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         startdate: number; // Startdate.
         enddate: number; // Enddate.
         visible: boolean; // Visible.
         showactivitydates: boolean; // Showactivitydates.
         showcompletionconditions: boolean; // Showcompletionconditions.
+        pdfexportfont: string; // Pdfexportfont.
         fullnamedisplay: string; // Fullnamedisplay.
         viewurl: string; // Viewurl.
         courseimage: string; // Courseimage.
@@ -2555,12 +2578,13 @@ export type CoreCourseGetEnrolledCoursesWithActionEventsByTimelineClassification
         shortname: string; // Shortname.
         idnumber: string; // Idnumber.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         startdate: number; // Startdate.
         enddate: number; // Enddate.
         visible: boolean; // Visible.
         showactivitydates: boolean; // Showactivitydates.
         showcompletionconditions: boolean; // Showcompletionconditions.
+        pdfexportfont: string; // Pdfexportfont.
         fullnamedisplay: string; // Fullnamedisplay.
         viewurl: string; // Viewurl.
         courseimage: string; // Courseimage.
@@ -2595,12 +2619,13 @@ export type CoreCourseGetRecentCoursesWSResponse = { // Courses.
     shortname: string; // Shortname.
     idnumber: string; // Idnumber.
     summary: string; // Summary.
-    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     startdate: number; // Startdate.
     enddate: number; // Enddate.
     visible: boolean; // Visible.
     showactivitydates: boolean; // Showactivitydates.
     showcompletionconditions: boolean; // Showcompletionconditions.
+    pdfexportfont: string; // Pdfexportfont.
     fullnamedisplay: string; // Fullnamedisplay.
     viewurl: string; // Viewurl.
     courseimage: string; // Courseimage.
@@ -2705,11 +2730,12 @@ export type CoreCourseSearchCoursesWSResponse = {
         fullname: string; // Course full name.
         displayname: string; // Course display name.
         shortname: string; // Course short name.
+        courseimage?: string; // Course image.
         categoryid: number; // Category id.
         categoryname: string; // Category name.
         sortorder?: number; // Sort order in the category.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         summaryfiles?: CoreWSExternalFile[];
         overviewfiles: CoreWSExternalFile[];
         showactivitydates: boolean; // Whether the activity dates are shown or not.
@@ -2832,7 +2858,7 @@ export type CoreEnrolGetEnrolledUsersWSResponse = {
     lastaccess?: number; // Last access to the site (0 if never).
     lastcourseaccess?: number; // Last access to the course (0 if never).
     description?: string; // User profile description.
-    descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     city?: string; // Home city of the user.
     country?: string; // Home country code of the user, such as AU or CZ.
     profileimageurlsmall?: string; // User image profile URL - small version.
@@ -2847,7 +2873,7 @@ export type CoreEnrolGetEnrolledUsersWSResponse = {
         id: number; // Group id.
         name: string; // Group name.
         description: string; // Group description.
-        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     }[];
     roles?: { // User roles.
         roleid: number; // Role id.
@@ -2886,8 +2912,9 @@ export type CoreEnrolGetUsersCoursesWSResponse = {
     idnumber: string; // Id number of course.
     visible: number; // 1 means visible, 0 means not yet visible course.
     summary?: string; // Summary.
-    summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     format?: string; // Course format: weeks, topics, social, site.
+    courseimage?: string; // The course image URL.
     showgrades?: boolean; // True if grades are shown, otherwise false.
     lang?: string; // Forced course language.
     enablecompletion?: boolean; // True if completion is enabled, otherwise false.
@@ -2947,14 +2974,15 @@ export type CoreEnrolSearchUsersWSResponse = {
     timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
     mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
     description?: string; // User profile description.
-    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     city?: string; // Home city of the user.
     country?: string; // Home country code of the user, such as AU or CZ.
     profileimageurlsmall: string; // User image profile URL - small version.
     profileimageurl: string; // User image profile URL - big version.
     customfields?: { // User custom fields (also known as user profile fields).
         type: string; // The type of the custom field - text field, checkbox...
-        value: string; // The value of the custom field.
+        value: string; // The value of the custom field (as stored in the database).
+        displayvalue?: string; // The value of the custom field for display.
         name: string; // The name of the custom field.
         shortname: string; // The shortname of the custom field - to be able to build the field class in the code.
     }[];
@@ -3089,6 +3117,106 @@ export type CoreGetComponentStringsWSResponse = {
     stringid: string; // String id.
     string: string; // Translated string.
 }[];
+
+/**
+ * Params of core_grades_get_enrolled_users_for_search_widget WS.
+ */
+export type CoreGradesGetEnrolledUsersForSearchWidgetWSParams = {
+    courseid: number; // Course Id.
+    actionbaseurl: string; // The base URL for the user option.
+    groupid?: number; // Group Id.
+};
+
+/**
+ * Data returned by core_grades_get_enrolled_users_for_search_widget WS.
+ */
+export type CoreGradesGetEnrolledUsersForSearchWidgetWSResponse = {
+    users: {
+        id: number; // ID of the user.
+        profileimage?: string; // The location of the users larger image.
+        url?: string; // The link to the user report.
+        fullname?: string; // The full name of the user.
+        email?: string; // An email address - allow email as root@localhost.
+        active: boolean; // Are we currently on this item?.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_grades_get_enrolled_users_for_selector WS.
+ */
+export type CoreGradesGetEnrolledUsersForSelectorWSParams = {
+    courseid: number; // Course Id.
+    groupid?: number; // Group Id.
+};
+
+/**
+ * Data returned by core_grades_get_enrolled_users_for_selector WS.
+ */
+export type CoreGradesGetEnrolledUsersForSelectorWSResponse = {
+    users: {
+        id: number; // ID of the user.
+        profileimage?: string; // The location of the users larger image.
+        fullname?: string; // The full name of the user.
+        email?: string; // An email address - allow email as root@localhost.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_grades_get_gradeitems WS.
+ */
+export type CoreGradesGetGradeitemsWSParams = {
+    courseid: number; // Course ID.
+};
+
+/**
+ * Data returned by core_grades_get_gradeitems WS.
+ */
+export type CoreGradesGetGradeitemsWSResponse = {
+    gradeItems: {
+        id: string; // An ID for the grade item.
+        itemname: string; // The full name of the grade item.
+        category?: string; // The grade category of the grade item.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_grades_get_groups_for_search_widget WS.
+ */
+export type CoreGradesGetGroupsForSearchWidgetWSParams = {
+    courseid: number; // Course Id.
+};
+
+/**
+ * Data returned by core_grades_get_groups_for_search_widget WS.
+ */
+export type CoreGradesGetGroupsForSearchWidgetWSResponse = {
+    groups: {
+        id: string; // An ID for the group.
+        name: string; // The full name of the group.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_grades_get_groups_for_selector WS.
+ */
+export type CoreGradesGetGroupsForSelectorWSParams = {
+    courseid: number; // Course Id.
+};
+
+/**
+ * Data returned by core_grades_get_groups_for_selector WS.
+ */
+export type CoreGradesGetGroupsForSelectorWSResponse = {
+    groups: {
+        id: string; // An ID for the group.
+        name: string; // The full name of the group.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
 
 /**
  * Params of core_grades_grader_gradingpanel_point_fetch WS.
@@ -3226,7 +3354,7 @@ export type CoreGroupGetActivityAllowedGroupsWSResponse = {
         id: number; // Group record id.
         name: string; // Group name.
         description: string; // Group description text.
-        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         idnumber: string; // Id number.
         courseid?: number; // Course id.
     }[];
@@ -3266,7 +3394,7 @@ export type CoreGroupGetCourseGroupingsWSResponse = {
     courseid: number; // Id of course.
     name: string; // Multilang compatible name, course unique.
     description: string; // Grouping description text.
-    descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     idnumber: string; // Id number.
 }[];
 
@@ -3285,9 +3413,11 @@ export type CoreGroupGetCourseGroupsWSResponse = {
     courseid: number; // Id of course.
     name: string; // Group name.
     description: string; // Group description text.
-    descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     enrolmentkey: string; // Group enrol secret phrase.
     idnumber: string; // Id number.
+    visibility: number; // Group visibility mode. 0 = Visible to all. 1 = Visible to members. 2 = See own membership. 3 = Membership is hidden.
+    participation: boolean; // Participation mode.
 }[];
 
 /**
@@ -3307,7 +3437,7 @@ export type CoreGroupGetCourseUserGroupsWSResponse = {
         id: number; // Group record id.
         name: string; // Group name.
         description: string; // Group description text.
-        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         idnumber: string; // Id number.
         courseid?: number; // Course id.
     }[];
@@ -3920,7 +4050,7 @@ export type CoreMessageGetMessagesWSResponse = {
         subject: string; // The message subject.
         text: string; // The message text formated.
         fullmessage: string; // The message.
-        fullmessageformat: number; // Fullmessage format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        fullmessageformat: number; // Fullmessage format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         fullmessagehtml: string; // The message in html.
         smallmessage: string; // The shorten message.
         notification: number; // Is a notification?.
@@ -4389,7 +4519,7 @@ export type CoreMessageSendInstantMessagesWSParams = {
     messages: {
         touserid: number; // Id of the user to send the private message.
         text: string; // The text of the message.
-        textformat?: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        textformat?: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         clientmsgid?: string; // Your own client id for the message. If this id is provided, the fail message id will be returned to you.
     }[];
 };
@@ -4415,7 +4545,7 @@ export type CoreMessageSendMessagesToConversationWSParams = {
     conversationid: number; // Id of the conversation.
     messages: {
         text: string; // The text of the message.
-        textformat?: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        textformat?: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     }[];
 };
 
@@ -4490,7 +4620,7 @@ export type CoreNotesCreateNotesWSParams = {
         publishstate: string; // 'personal', 'course' or 'site'.
         courseid: number; // Course id of the note (in Moodle a note can only be created into a course, even for site and personal notes).
         text: string; // The text of the message - text or HTML.
-        format?: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format?: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         clientnoteid?: string; // Your own client id for the note. If this id is provided, the fail message id will be returned to you.
     }[];
 };
@@ -4533,7 +4663,7 @@ export type CoreNotesGetCourseNotesWSResponse = {
         courseid: number; // Id of the course.
         userid: number; // User id.
         content: string; // The content text formated.
-        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         created: number; // Time created (timestamp).
         lastmodified: number; // Time of last modification (timestamp).
         usermodified: number; // User id of the creator of this note.
@@ -4544,7 +4674,7 @@ export type CoreNotesGetCourseNotesWSResponse = {
         courseid: number; // Id of the course.
         userid: number; // User id.
         content: string; // The content text formated.
-        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         created: number; // Time created (timestamp).
         lastmodified: number; // Time of last modification (timestamp).
         usermodified: number; // User id of the creator of this note.
@@ -4555,7 +4685,7 @@ export type CoreNotesGetCourseNotesWSResponse = {
         courseid: number; // Id of the course.
         userid: number; // User id.
         content: string; // The content text formated.
-        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        format: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         created: number; // Time created (timestamp).
         lastmodified: number; // Time of last modification (timestamp).
         usermodified: number; // User id of the creator of this note.
@@ -4655,6 +4785,123 @@ export type CoreRatingGetItemRatingsWSResponse = {
         rating: string; // Rating on scale.
         timemodified: number; // Time modified (timestamp).
     }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_reportbuilder_list_reports WS.
+ */
+export type CoreReportbuilderListReportsWSParams = {
+    page?: number; // Page number.
+    perpage?: number; // Reports per page.
+};
+
+/**
+ * Data returned by core_reportbuilder_list_reports WS.
+ */
+export type CoreReportbuilderListReportsWSResponse = {
+    reports: {
+        name: string; // Name.
+        source: string; // Source.
+        type: number; // Type.
+        uniquerows: boolean; // Uniquerows.
+        conditiondata: string; // Conditiondata.
+        settingsdata: string; // Settingsdata.
+        contextid: number; // Contextid.
+        component: string; // Component.
+        area: string; // Area.
+        itemid: number; // Itemid.
+        usercreated: number; // Usercreated.
+        id: number; // Id.
+        timecreated: number; // Timecreated.
+        timemodified: number; // Timemodified.
+        usermodified: number; // Usermodified.
+        sourcename: string; // Sourcename.
+        modifiedby: {
+            id: number; // Id.
+            email: string; // Email.
+            idnumber: string; // Idnumber.
+            phone1: string; // Phone1.
+            phone2: string; // Phone2.
+            department: string; // Department.
+            institution: string; // Institution.
+            fullname: string; // Fullname.
+            identity: string; // Identity.
+            profileurl: string; // Profileurl.
+            profileimageurl: string; // Profileimageurl.
+            profileimageurlsmall: string; // Profileimageurlsmall.
+        };
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_reportbuilder_retrieve_report WS.
+ */
+export type CoreReportbuilderRetrieveReportWSParams = {
+    reportid: number; // Report ID.
+    page?: number; // Page number.
+    perpage?: number; // Reports per page.
+};
+
+/**
+ * Data returned by core_reportbuilder_retrieve_report WS.
+ */
+export type CoreReportbuilderRetrieveReportWSResponse = {
+    details: {
+        name: string; // Name.
+        source: string; // Source.
+        type: number; // Type.
+        uniquerows: boolean; // Uniquerows.
+        conditiondata: string; // Conditiondata.
+        settingsdata: string; // Settingsdata.
+        contextid: number; // Contextid.
+        component: string; // Component.
+        area: string; // Area.
+        itemid: number; // Itemid.
+        usercreated: number; // Usercreated.
+        id: number; // Id.
+        timecreated: number; // Timecreated.
+        timemodified: number; // Timemodified.
+        usermodified: number; // Usermodified.
+        sourcename: string; // Sourcename.
+        modifiedby: {
+            id: number; // Id.
+            email: string; // Email.
+            idnumber: string; // Idnumber.
+            phone1: string; // Phone1.
+            phone2: string; // Phone2.
+            department: string; // Department.
+            institution: string; // Institution.
+            fullname: string; // Fullname.
+            identity: string; // Identity.
+            profileurl: string; // Profileurl.
+            profileimageurl: string; // Profileimageurl.
+            profileimageurlsmall: string; // Profileimageurlsmall.
+        };
+    };
+    data: {
+        headers: string[]; // Headers.
+        rows: { // Rows.
+            columns: string[]; // Columns.
+        }[];
+        totalrowcount: number; // Totalrowcount.
+    };
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_reportbuilder_view_report WS.
+ */
+export type CoreReportbuilderViewReportWSParams = {
+    reportid: number; // Report ID.
+};
+
+/**
+ * Data returned by core_reportbuilder_view_report WS.
+ */
+export type CoreReportbuilderViewReportWSResponse = {
+    status: boolean; // Success.
     warnings?: CoreWSExternalWarning[];
 };
 
@@ -4851,6 +5098,7 @@ export type CoreUserAddUserDeviceWSParams = {
     version: string; // The device version '6.1.2' or '4.2.2' etc.
     pushid: string; // The device PUSH token/key/identifier/registration id.
     uuid: string; // The device UUID.
+    publickey?: string; // The app generated public key.
 };
 
 /**
@@ -4922,14 +5170,15 @@ export type CoreUserGetCourseUserProfilesWSResponse = {
     timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
     mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
     description?: string; // User profile description.
-    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     city?: string; // Home city of the user.
     country?: string; // Home country code of the user, such as AU or CZ.
     profileimageurlsmall: string; // User image profile URL - small version.
     profileimageurl: string; // User image profile URL - big version.
     customfields?: { // User custom fields (also known as user profile fields).
         type: string; // The type of the custom field - text field, checkbox...
-        value: string; // The value of the custom field.
+        value: string; // The value of the custom field (as stored in the database).
+        displayvalue?: string; // The value of the custom field for display.
         name: string; // The name of the custom field.
         shortname: string; // The shortname of the custom field - to be able to build the field class in the code.
     }[];
@@ -4941,7 +5190,7 @@ export type CoreUserGetCourseUserProfilesWSResponse = {
         id: number; // Group id.
         name: string; // Group name.
         description: string; // Group description.
-        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     }[];
     roles?: { // User roles.
         roleid: number; // Role id.
@@ -5031,14 +5280,15 @@ export type CoreUserGetUsersByFieldWSResponse = {
     timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
     mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
     description?: string; // User profile description.
-    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     city?: string; // Home city of the user.
     country?: string; // Home country code of the user, such as AU or CZ.
     profileimageurlsmall: string; // User image profile URL - small version.
     profileimageurl: string; // User image profile URL - big version.
     customfields?: { // User custom fields (also known as user profile fields).
         type: string; // The type of the custom field - text field, checkbox...
-        value: string; // The value of the custom field.
+        value: string; // The value of the custom field (as stored in the database).
+        displayvalue?: string; // The value of the custom field for display.
         name: string; // The name of the custom field.
         shortname: string; // The shortname of the custom field - to be able to build the field class in the code.
     }[];
@@ -5101,6 +5351,23 @@ export type CoreUserUpdatePictureWSParams = {
 export type CoreUserUpdatePictureWSResponse = {
     success: boolean; // True if the image was updated, false otherwise.
     profileimageurl?: string; // New profile user image url.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_user_update_user_device_public_key WS.
+ */
+export type CoreUserUpdateUserDevicePublicKeyWSParams = {
+    uuid: string; // The device UUID.
+    appid: string; // The app id, something like com.moodle.moodlemobile.
+    publickey: string; // The app generated public key.
+};
+
+/**
+ * Data returned by core_user_update_user_device_public_key WS.
+ */
+export type CoreUserUpdateUserDevicePublicKeyWSResponse = {
+    status: boolean; // Whether the request was successful.
     warnings?: CoreWSExternalWarning[];
 };
 
@@ -5212,6 +5479,71 @@ export type CoreWebserviceGetSiteInfoWSResponse = {
 };
 
 /**
+ * Params of core_xapi_delete_state WS.
+ */
+export type CoreXapiDeleteStateWSParams = {
+    component: string; // Component name.
+    activityId: string; // XAPI activity ID IRI.
+    agent: string; // The xAPI agent json.
+    stateId: string; // The xAPI state ID.
+    registration?: string; // The xAPI registration UUID.
+};
+
+/**
+ * Data returned by core_xapi_delete_state WS.
+ */
+export type CoreXapiDeleteStateWSResponse = boolean;
+
+/**
+ * Params of core_xapi_get_state WS.
+ */
+export type CoreXapiGetStateWSParams = {
+    component: string; // Component name.
+    activityId: string; // XAPI activity ID IRI.
+    agent: string; // The xAPI agent json.
+    stateId: string; // The xAPI state ID.
+    registration?: string; // The xAPI registration UUID.
+};
+
+/**
+ * Data returned by core_xapi_get_state WS.
+ */
+export type CoreXapiGetStateWSResponse = string;
+
+/**
+ * Params of core_xapi_get_states WS.
+ */
+export type CoreXapiGetStatesWSParams = {
+    component: string; // Component name.
+    activityId: string; // XAPI activity ID IRI.
+    agent: string; // The xAPI agent json.
+    registration?: string; // The xAPI registration UUID.
+    since?: string; // Filter ids stored since the timestamp (exclusive).
+};
+
+/**
+ * Data returned by core_xapi_get_states WS.
+ */
+export type CoreXapiGetStatesWSResponse = string[];
+
+/**
+ * Params of core_xapi_post_state WS.
+ */
+export type CoreXapiPostStateWSParams = {
+    component: string; // Component name.
+    activityId: string; // XAPI activity ID IRI.
+    agent: string; // The xAPI agent json.
+    stateId: string; // The xAPI state ID.
+    stateData: string; // JSON object with the state data.
+    registration?: string; // The xAPI registration UUID.
+};
+
+/**
+ * Data returned by core_xapi_post_state WS.
+ */
+export type CoreXapiPostStateWSResponse = boolean;
+
+/**
  * Params of core_xapi_statement_post WS.
  */
 export type CoreXapiStatementPostWSParams = {
@@ -5283,6 +5615,62 @@ export type EnrolSelfGetInstanceInfoWSResponse = {
 };
 
 /**
+ * Params of gradereport_grader_get_users_in_report WS.
+ */
+export type GradereportGraderGetUsersInReportWSParams = {
+    courseid: number; // Course ID.
+};
+
+/**
+ * Data returned by gradereport_grader_get_users_in_report WS.
+ */
+export type GradereportGraderGetUsersInReportWSResponse = {
+    users: {
+        id: number; // ID of the user.
+        username?: string; // The username.
+        firstname?: string; // The first name(s) of the user.
+        lastname?: string; // The family name of the user.
+        fullname: string; // The fullname of the user.
+        email?: string; // An email address - allow email as root@localhost.
+        address?: string; // Postal address.
+        phone1?: string; // Phone 1.
+        phone2?: string; // Phone 2.
+        department?: string; // Department.
+        institution?: string; // Institution.
+        idnumber?: string; // An arbitrary ID code number perhaps from the institution.
+        interests?: string; // User interests (separated by commas).
+        firstaccess?: number; // First access to the site (0 if never).
+        lastaccess?: number; // Last access to the site (0 if never).
+        auth?: string; // Auth plugins include manual, ldap, etc.
+        suspended?: boolean; // Suspend user account, either false to enable user login or true to disable it.
+        confirmed?: boolean; // Active user: 1 if confirmed, 0 otherwise.
+        lang?: string; // Language code such as "en", must exist on server.
+        calendartype?: string; // Calendar type such as "gregorian", must exist on server.
+        theme?: string; // Theme name such as "standard", must exist on server.
+        timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
+        mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+        description?: string; // User profile description.
+        descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        city?: string; // Home city of the user.
+        country?: string; // Home country code of the user, such as AU or CZ.
+        profileimageurlsmall: string; // User image profile URL - small version.
+        profileimageurl: string; // User image profile URL - big version.
+        customfields?: { // User custom fields (also known as user profile fields).
+            type: string; // The type of the custom field - text field, checkbox...
+            value: string; // The value of the custom field (as stored in the database).
+            displayvalue?: string; // The value of the custom field for display.
+            name: string; // The name of the custom field.
+            shortname: string; // The shortname of the custom field - to be able to build the field class in the code.
+        }[];
+        preferences?: { // Users preferences.
+            name: string; // The name of the preferences.
+            value: string; // The value of the preference.
+        }[];
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of gradereport_overview_get_course_grades WS.
  */
 export type GradereportOverviewGetCourseGradesWSParams = {
@@ -5315,6 +5703,41 @@ export type GradereportOverviewViewGradeReportWSParams = {
  */
 export type GradereportOverviewViewGradeReportWSResponse = {
     status: boolean; // Status: true if success.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of gradereport_singleview_get_grade_items_for_search_widget WS.
+ */
+export type GradereportSingleviewGetGradeItemsForSearchWidgetWSParams = {
+    courseid: number; // Course Id.
+};
+
+/**
+ * Data returned by gradereport_singleview_get_grade_items_for_search_widget WS.
+ */
+export type GradereportSingleviewGetGradeItemsForSearchWidgetWSResponse = {
+    gradeitems: {
+        id?: number; // ID of the grade item.
+        name?: string; // The full name of the grade item.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of gradereport_user_get_access_information WS.
+ */
+export type GradereportUserGetAccessInformationWSParams = {
+    courseid: number; // Course to check.
+};
+
+/**
+ * Data returned by gradereport_user_get_access_information WS.
+ */
+export type GradereportUserGetAccessInformationWSResponse = {
+    canviewusergradereport: boolean; // Whether the user can view the user grade report.
+    canviewmygrades: boolean; // Whether the user can view his grades in the course.
+    canviewallgrades: boolean; // Whether the user can view all users grades in the course.
     warnings?: CoreWSExternalWarning[];
 };
 
@@ -5372,7 +5795,7 @@ export type GradereportUserGetGradeItemsWSResponse = {
             numusers?: number; // Num users in course.
             averageformatted?: string; // Grade average.
             feedback?: string; // Grade feedback.
-            feedbackformat?: number; // Feedback format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            feedbackformat?: number; // Feedback format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -5401,7 +5824,6 @@ export type GradereportUserGetGradesTableWSResponse = {
                 class: string; // Class.
                 colspan: number; // Col span.
                 content: string; // Cell content.
-                celltype: string; // Cell type.
                 id: string; // Id.
             }; // The item returned data.
             leader?: {
@@ -5453,6 +5875,7 @@ export type GradereportUserGetGradesTableWSResponse = {
                 content: string; // Cell content.
                 headers: string; // Headers.
             }; // Contributiontocoursetotal column.
+            parentcategories: number[];
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -5573,7 +5996,7 @@ export type MessagePopupGetPopupNotificationsWSResponse = {
 
         text: string; // The message text formated.
         fullmessage: string; // The message.
-        fullmessageformat: number; // Fullmessage format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        fullmessageformat: number; // Fullmessage format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         fullmessagehtml: string; // The message in html.
         smallmessage: string; // The shorten message.
         contexturl: string; // Context URL.
@@ -5656,7 +6079,7 @@ export type ModAssignGetAssignmentsWSResponse = {
             requiresubmissionstatement: number; // Student must accept submission statement.
             preventsubmissionnotingroup?: number; // Prevent submission not in group.
             submissionstatement?: string; // Submission statement formatted.
-            submissionstatementformat?: number; // Submissionstatement format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            submissionstatementformat?: number; // Submissionstatement format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             configs: { // Configuration settings.
                 id?: number; // Assign_plugin_config id.
                 assignment?: number; // Assignment id.
@@ -5666,11 +6089,11 @@ export type ModAssignGetAssignmentsWSResponse = {
                 value: string; // Value.
             }[];
             intro?: string; // Assignment intro, not allways returned because it deppends on the activity configuration.
-            introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             introfiles?: CoreWSExternalFile[];
             introattachments?: CoreWSExternalFile[];
             activity?: string; // Description of activity.
-            activityformat?: number; // Activity format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            activityformat?: number; // Activity format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             activityattachments?: CoreWSExternalFile[];
             timelimit?: number; // Time limit to complete assigment.
             submissionattachments?: number; // Flag to only show files during submission.
@@ -5761,14 +6184,15 @@ export type ModAssignGetParticipantWSResponse = {
         timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
         mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
         description?: string; // User profile description.
-        descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         city?: string; // Home city of the user.
         country?: string; // Home country code of the user, such as AU or CZ.
         profileimageurlsmall: string; // User image profile URL - small version.
         profileimageurl: string; // User image profile URL - big version.
         customfields?: { // User custom fields (also known as user profile fields).
             type: string; // The type of the custom field - text field, checkbox...
-            value: string; // The value of the custom field.
+            value: string; // The value of the custom field (as stored in the database).
+            displayvalue?: string; // The value of the custom field for display.
             name: string; // The name of the custom field.
             shortname: string; // The shortname of the custom field - to be able to build the field class in the code.
         }[];
@@ -5817,7 +6241,7 @@ export type ModAssignGetSubmissionsWSResponse = {
                     name: string; // Field name.
                     description: string; // Field description.
                     text: string; // Field value.
-                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 }[];
             }[];
             gradingstatus?: string; // Grading status.
@@ -5876,7 +6300,7 @@ export type ModAssignGetSubmissionStatusWSResponse = {
                     name: string; // Field name.
                     description: string; // Field description.
                     text: string; // Field value.
-                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 }[];
             }[];
             gradingstatus?: string; // Grading status.
@@ -5903,7 +6327,7 @@ export type ModAssignGetSubmissionStatusWSResponse = {
                     name: string; // Field name.
                     description: string; // Field description.
                     text: string; // Field value.
-                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 }[];
             }[];
             gradingstatus?: string; // Grading status.
@@ -5947,7 +6371,7 @@ export type ModAssignGetSubmissionStatusWSResponse = {
                 name: string; // Field name.
                 description: string; // Field description.
                 text: string; // Field value.
-                format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             }[];
         }[];
     }; // Feedback for the last attempt.
@@ -5975,7 +6399,7 @@ export type ModAssignGetSubmissionStatusWSResponse = {
                     name: string; // Field name.
                     description: string; // Field description.
                     text: string; // Field value.
-                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 }[];
             }[];
             gradingstatus?: string; // Grading status.
@@ -6002,7 +6426,7 @@ export type ModAssignGetSubmissionStatusWSResponse = {
                 name: string; // Field name.
                 description: string; // Field description.
                 text: string; // Field value.
-                format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             }[];
         }[];
     }[];
@@ -6012,7 +6436,7 @@ export type ModAssignGetSubmissionStatusWSResponse = {
             activity?: CoreWSExternalFile[];
         }; // Intro and activity attachments.
         activity?: string; // Text of activity.
-        activityformat?: number; // Activity format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        activityformat?: number; // Activity format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     }; // Extra information about assignment.
     warnings?: CoreWSExternalWarning[];
 };
@@ -6099,14 +6523,15 @@ export type ModAssignListParticipantsWSResponse = {
     lastaccess?: number; // Last access to the site (0 if never).
     suspended?: boolean; // Suspend user account, either false to enable user login or true to disable it.
     description?: string; // User profile description.
-    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     city?: string; // Home city of the user.
     country?: string; // Home country code of the user, such as AU or CZ.
     profileimageurlsmall?: string; // User image profile URL - small version.
     profileimageurl?: string; // User image profile URL - big version.
     customfields?: { // User custom fields (also known as user profile fields).
         type: string; // The type of the custom field - text field, checkbox...
-        value: string; // The value of the custom field.
+        value: string; // The value of the custom field (as stored in the database).
+        displayvalue?: string; // The value of the custom field for display.
         name: string; // The name of the custom field.
         shortname: string; // The shortname of the custom field - to be able to build the field class in the code.
     }[];
@@ -6205,7 +6630,7 @@ export type ModAssignSaveGradeWSParams = {
                     criterionid: number; // Criterion id.
                     levelid?: number; // Level id.
                     remark?: string; // Remark.
-                    remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                    remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                     score: number; // Maximum score.
                 }[];
             }[];
@@ -6217,7 +6642,7 @@ export type ModAssignSaveGradeWSParams = {
                     criterionid: number; // Criterion id.
                     levelid?: number; // Level id.
                     remark?: string; // Remark.
-                    remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                    remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 }[];
             }[];
         }; // Items.
@@ -6256,7 +6681,7 @@ export type ModAssignSaveGradesWSParams = {
                         criterionid: number; // Criterion id.
                         levelid?: number; // Level id.
                         remark?: string; // Remark.
-                        remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                        remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                         score: number; // Maximum score.
                     }[];
                 }[];
@@ -6268,7 +6693,7 @@ export type ModAssignSaveGradesWSParams = {
                         criterionid: number; // Criterion id.
                         levelid?: number; // Level id.
                         remark?: string; // Remark.
-                        remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                        remarkformat?: number; // Remark format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                     }[];
                 }[];
             }; // Items.
@@ -6496,19 +6921,20 @@ export type ModBigbluebuttonbnGetBigbluebuttonbnsByCoursesWSParams = {
  */
 export type ModBigbluebuttonbnGetBigbluebuttonbnsByCoursesWSResponse = {
     bigbluebuttonbns: {
-        id: number; // Module id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Name.
-        intro: string; // Description.
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         meetingid: string; // Meeting id.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
-        introfiles: CoreWSExternalFile[];
         timemodified: number; // Last time the instance was modified.
-        section: number; // Course section id.
-        visible: number; // Module visibility.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -6614,6 +7040,7 @@ export type ModBigbluebuttonbnMeetingInfoWSResponse = {
     cmid: number; // CM id.
     userlimit: number; // User limit.
     bigbluebuttonbnid: string; // Bigbluebuttonbn instance id.
+    groupid?: number; // Bigbluebuttonbn group id.
     meetingid: string; // Meeting id.
     openingtime?: number; // Opening time.
     closingtime?: number; // Closing time.
@@ -6635,6 +7062,13 @@ export type ModBigbluebuttonbnMeetingInfoWSResponse = {
         name: string; // Presentation name.
     }[];
     joinurl: string; // Join URL.
+    guestaccessenabled?: boolean; // Guest access enabled.
+    guestjoinurl?: string; // Guest URL.
+    guestpassword?: string; // Guest join password.
+    features?: { // List of features for the instance.
+        name: string; // Feature name.
+        isenabled: boolean; // Whether the feature is enabled.
+    }[];
 };
 
 /**
@@ -6680,23 +7114,24 @@ export type ModBookGetBooksByCoursesWSParams = {
  */
 export type ModBookGetBooksByCoursesWSResponse = {
     books: {
-        id: number; // Book id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Book name.
-        intro: string; // The Book intro.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         numbering: number; // Book numbering configuration.
         navstyle: number; // Book navigation style configuration.
         customtitles: number; // Book custom titles type.
         revision?: number; // Book revision.
         timecreated?: number; // Time of creation.
         timemodified?: number; // Time of last modification.
-        section?: number; // Course section id.
-        visible?: boolean; // Visible.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -6752,23 +7187,24 @@ export type ModChatGetChatsByCoursesWSParams = {
  */
 export type ModChatGetChatsByCoursesWSResponse = {
     chats: {
-        id: number; // Chat id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Chat name.
-        intro: string; // The Chat intro.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         chatmethod?: string; // Chat method (sockets, ajax, header_js).
         keepdays?: number; // Keep days.
         studentlogs?: number; // Student logs visible to everyone.
         chattime?: number; // Chat time.
         schedule?: number; // Schedule type.
         timemodified?: number; // Time of last modification.
-        section?: number; // Course section id.
-        visible?: boolean; // Visible.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -6974,13 +7410,18 @@ export type ModChoiceGetChoicesByCoursesWSParams = {
  */
 export type ModChoiceGetChoicesByCoursesWSResponse = {
     choices: {
-        id: number; // Choice instance id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Choice name.
-        intro: string; // The choice intro.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         publish?: boolean; // If choice is published.
         showresults?: number; // 0 never, 1 after answer, 2 after close, 3 always.
         display?: number; // Display mode (vertical, horizontal).
@@ -6995,10 +7436,6 @@ export type ModChoiceGetChoicesByCoursesWSResponse = {
         timemodified?: number; // Time of last modification.
         completionsubmit?: boolean; // Completion on user submission.
         showavailable?: boolean; // Show available spaces.
-        section?: number; // Course section id.
-        visible?: boolean; // Visible.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -7137,7 +7574,8 @@ export type ModDataGetDatabasesByCoursesWSResponse = {
         course: number; // Course id.
         name: string; // Database name.
         intro: string; // The Database intro.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        lang: string; // Forced activity language.
         comments: boolean; // Comments enabled.
         timeavailablefrom: number; // Timeavailablefrom field.
         timeavailableto: number; // Timeavailableto field.
@@ -7630,14 +8068,15 @@ export type ModFeedbackGetFeedbacksByCoursesWSResponse = {
         course: number; // Course id this feedback is part of.
         name: string; // Feedback name.
         intro: string; // Feedback introduction text.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        lang: string; // Forced activity language.
         anonymous: number; // Whether the feedback is anonymous.
         email_notification?: boolean; // Whether email notifications will be sent to teachers.
         multiple_submit: boolean; // Whether multiple submissions are allowed.
         autonumbering: boolean; // Whether questions should be auto-numbered.
         site_after_submit?: string; // Link to next page after submission.
         page_after_submit?: string; // Text to display after submission.
-        page_after_submitformat?: number; // Page_after_submit format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        page_after_submitformat?: number; // Page_after_submit format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         publish_stats: boolean; // Whether stats should be published.
         timeopen?: number; // Allow answers from this time.
         timeclose?: number; // Allow answers until this time.
@@ -7987,23 +8426,24 @@ export type ModFolderGetFoldersByCoursesWSParams = {
  */
 export type ModFolderGetFoldersByCoursesWSResponse = {
     folders: {
-        id: number; // Module id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Page name.
-        intro: string; // Summary.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
-        introfiles: CoreWSExternalFile[];
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         revision: number; // Incremented when after each file changes, to avoid cache.
         timemodified: number; // Last time the folder was modified.
         display: number; // Display type of folder contents on a separate page or inline.
         showexpanded: number; // 1 = expanded, 0 = collapsed for sub-folders.
         showdownloadfolder: number; // Whether to show the download folder button.
         forcedownload: number; // Whether file download is forced.
-        section: number; // Course section id.
-        visible: number; // Module visibility.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -8073,7 +8513,7 @@ export type ModForumAddDiscussionPostWSParams = {
                                                          // this param is validated in the external function.
 
     }[];
-    messageformat?: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    messageformat?: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
 };
 
 /**
@@ -8087,7 +8527,7 @@ export type ModForumAddDiscussionPostWSResponse = {
         subject: string; // Subject.
         replysubject: string; // Replysubject.
         message: string; // Message.
-        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         author: {
             id?: number; // Id.
             fullname?: string; // Fullname.
@@ -8260,7 +8700,7 @@ export type ModForumGetDiscussionPostWSResponse = {
         subject: string; // Subject.
         replysubject: string; // Replysubject.
         message: string; // Message.
-        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         author: {
             id?: number; // Id.
             fullname?: string; // Fullname.
@@ -8398,7 +8838,7 @@ export type ModForumGetDiscussionPostsWSResponse = {
         subject: string; // Subject.
         replysubject: string; // Replysubject.
         message: string; // Message.
-        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         author: {
             id?: number; // Id.
             fullname?: string; // Fullname.
@@ -8629,7 +9069,7 @@ export type ModForumGetForumDiscussionsWSResponse = {
         mailed: number; // Mailed?.
         subject: string; // The post subject.
         message: string; // The post message.
-        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         messagetrust: number; // Can we trust?.
         messageinlinefiles?: CoreWSExternalFile[];
         attachment: string; // Has attachments?.
@@ -8683,7 +9123,7 @@ export type ModForumGetForumDiscussionsPaginatedWSResponse = {
         mailed: number; // Mailed?.
         subject: string; // The post subject.
         message: string; // The post message.
-        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         messagetrust: number; // Can we trust?.
         messageinlinefiles?: CoreWSExternalFile[];
         attachment: string; // Has attachments?.
@@ -8720,8 +9160,9 @@ export type ModForumGetForumsByCoursesWSResponse = {
     type: string; // The forum type.
     name: string; // Forum name.
     intro: string; // The forum intro.
-    introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     introfiles?: CoreWSExternalFile[];
+    lang?: string; // Forced activity language.
     duedate?: number; // Duedate for the user.
     cutoffdate?: number; // Cutoffdate for the user.
     assessed: number; // Aggregate type.
@@ -8980,7 +9421,7 @@ export type ModForumUpdateDiscussionPostWSParams = {
     postid: number; // Post to be updated. It can be a discussion topic post.
     subject?: string; // Updated post subject.
     message?: string; // Updated post message (HTML assumed if messageformat is not provided).
-    messageformat?: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    messageformat?: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     options?: { // Configuration options for the post.
         name: string; // The allowed keys (value format) are:
                              // pinned (bool); (only for discussions) whether to pin this discussion or not
@@ -9037,7 +9478,7 @@ export type ModGlossaryAddEntryWSParams = {
     glossaryid: number; // Glossary id.
     concept: string; // Glossary concept.
     definition: string; // Glossary concept definition.
-    definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     options?: { // Optional settings.
         name: string; // The allowed keys (value format) are:
                          // inlineattachmentsid (int); the draft file area id for inline attachments
@@ -9151,7 +9592,7 @@ export type ModGlossaryGetEntriesByAuthorWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9238,7 +9679,7 @@ export type ModGlossaryGetEntriesByAuthorIdWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9323,7 +9764,7 @@ export type ModGlossaryGetEntriesByCategoryWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9411,7 +9852,7 @@ export type ModGlossaryGetEntriesByDateWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9496,7 +9937,7 @@ export type ModGlossaryGetEntriesByLetterWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9584,7 +10025,7 @@ export type ModGlossaryGetEntriesBySearchWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9669,7 +10110,7 @@ export type ModGlossaryGetEntriesByTermWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9755,7 +10196,7 @@ export type ModGlossaryGetEntriesToApproveWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9833,7 +10274,7 @@ export type ModGlossaryGetEntryByIdWSResponse = {
         userpictureurl: string; // Author picture.
         concept: string; // The concept.
         definition: string; // The definition.
-        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         definitiontrust: boolean; // The definition trust flag.
         definitioninlinefiles?: CoreWSExternalFile[];
         attachment: boolean; // Whether or not the entry has attachments.
@@ -9908,13 +10349,18 @@ export type ModGlossaryGetGlossariesByCoursesWSParams = {
  */
 export type ModGlossaryGetGlossariesByCoursesWSResponse = {
     glossaries: {
-        id: number; // Glossary id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Glossary name.
-        intro: string; // The Glossary intro.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         allowduplicatedentries: number; // If enabled, multiple entries can have the same concept name.
         displayformat: string; // Display format type.
         mainglossary: number; // If enabled this glossary is a main glossary.
@@ -9938,10 +10384,6 @@ export type ModGlossaryGetGlossariesByCoursesWSResponse = {
         timecreated: number; // Time created.
         timemodified: number; // Time modified.
         completionentries: number; // Number of entries to complete.
-        section: number; // Section.
-        visible: number; // Visible.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping ID.
         browsemodes: string[];
         canaddentry?: number; // Whether the user can add a new entry.
     }[];
@@ -9980,7 +10422,7 @@ export type ModGlossaryUpdateEntryWSParams = {
     entryid: number; // Glossary entry id to update.
     concept: string; // Glossary concept.
     definition: string; // Glossary concept definition.
-    definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    definitionformat: number; // Definition format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     options?: { // Optional settings.
         name: string; // The allowed keys (value format) are:
                          // inlineattachmentsid (int); the draft file area id for inline attachments
@@ -10103,7 +10545,7 @@ export type ModH5pactivityGetH5pactivitiesByCoursesWSResponse = {
         timecreated?: number; // Timestamp of when the instance was added to the course.
         timemodified?: number; // Timestamp of when the instance was last modified.
         intro: string; // H5P activity description.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         grade?: number; // The maximum grade for submission.
         displayoptions: number; // H5P Button display options.
         enabletracking: number; // Enable xAPI tracking.
@@ -10140,6 +10582,10 @@ export type ModH5pactivityGetH5pactivitiesByCoursesWSResponse = {
             mimetype?: string; // File mime type.
         };
     }[];
+    h5pglobalsettings?: {
+        enablesavestate: boolean; // Whether saving state is enabled.
+        savestatefreq?: number; // How often (in seconds) state is saved.
+    }; // H5P global settings.
     warnings?: CoreWSExternalWarning[];
 };
 
@@ -10332,21 +10778,22 @@ export type ModImscpGetImscpsByCoursesWSParams = {
  */
 export type ModImscpGetImscpsByCoursesWSResponse = {
     imscps: {
-        id: number; // IMSCP id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
         name: string; // Activity name.
-        intro?: string; // The IMSCP intro.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        intro?: string; // Activity introduction.
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         revision?: number; // Revision.
         keepold?: number; // Number of old IMSCP to keep.
         structure?: string; // IMSCP structure.
         timemodified?: string; // Time of last modification.
-        section?: number; // Course section id.
-        visible?: boolean; // If visible.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -10378,18 +10825,19 @@ export type ModLabelGetLabelsByCoursesWSParams = {
  */
 export type ModLabelGetLabelsByCoursesWSResponse = {
     labels: {
-        id: number; // Module id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Label name.
-        intro: string; // Label contents.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
-        introfiles: CoreWSExternalFile[];
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         timemodified: number; // Last time the label was modified.
-        section: number; // Course section id.
-        visible: number; // Module visibility.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -10503,7 +10951,8 @@ export type ModLessonGetLessonWSResponse = {
         coursemodule: number; // Course module id.
         name: string; // Lesson name.
         intro?: string; // Lesson introduction text.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        lang: string; // Forced activity language.
         practice?: boolean; // Practice lesson?.
         modattempts?: boolean; // Allow student review?.
         usepassword?: boolean; // Password protected lesson?.
@@ -10609,7 +11058,8 @@ export type ModLessonGetLessonsByCoursesWSResponse = {
         coursemodule: number; // Course module id.
         name: string; // Lesson name.
         intro?: string; // Lesson introduction text.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        lang: string; // Forced activity language.
         practice?: boolean; // Practice lesson?.
         modattempts?: boolean; // Allow student review?.
         usepassword?: boolean; // Password protected lesson?.
@@ -10699,7 +11149,7 @@ export type ModLessonGetPageDataWSResponse = {
         timemodified: number; // Timestamp for when the page was last modified.
         title?: string; // The title of this page.
         contents?: string; // The contents of this page.
-        contentsformat?: number; // Contents format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        contentsformat?: number; // Contents format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         displayinmenublock: boolean; // Toggles display in the left menu block.
         type: number; // The type of the page [question | structure].
         typeid: number; // The unique identifier for the page type.
@@ -10721,9 +11171,9 @@ export type ModLessonGetPageDataWSResponse = {
         timecreated?: number; // A timestamp of when the answer was created.
         timemodified?: number; // A timestamp of when the answer was modified.
         answer?: string; // Possible answer text.
-        answerformat?: number; // Answer format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        answerformat?: number; // Answer format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         response?: string; // Response text for the answer.
-        responseformat?: number; // Response format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        responseformat?: number; // Response format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     }[];
     messages: {
         message: string; // Message.
@@ -10761,7 +11211,7 @@ export type ModLessonGetPagesWSResponse = {
             timemodified: number; // Timestamp for when the page was last modified.
             title?: string; // The title of this page.
             contents?: string; // The contents of this page.
-            contentsformat?: number; // Contents format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            contentsformat?: number; // Contents format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             displayinmenublock: boolean; // Toggles display in the left menu block.
             type: number; // The type of the page [question | structure].
             typeid: number; // The unique identifier for the page type.
@@ -10851,7 +11301,7 @@ export type ModLessonGetUserAttemptWSResponse = {
             timemodified: number; // Timestamp for when the page was last modified.
             title?: string; // The title of this page.
             contents?: string; // The contents of this page.
-            contentsformat?: number; // Contents format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            contentsformat?: number; // Contents format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             displayinmenublock: boolean; // Toggles display in the left menu block.
             type: number; // The type of the page [question | structure].
             typeid: number; // The unique identifier for the page type.
@@ -10864,7 +11314,7 @@ export type ModLessonGetUserAttemptWSResponse = {
         answerdata?: {
             score: string; // The score (text version).
             response: string; // The response text.
-            responseformat: number; // Response. format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            responseformat: number; // Response. format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             answers?: string[][]; // User answers.
         }; // Answer data (empty in content pages created in Moodle 1.x).
     }[];
@@ -11045,13 +11495,18 @@ export type ModLtiGetLtisByCoursesWSParams = {
  */
 export type ModLtiGetLtisByCoursesWSResponse = {
     ltis: {
-        id: number; // External tool id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // LTI name.
-        intro?: string; // The LTI intro.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        name: string; // Activity name.
+        intro?: string; // Activity introduction.
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         timecreated?: number; // Time of creation.
         timemodified?: number; // Time of last modification.
         typeid?: number; // Type id.
@@ -11073,10 +11528,6 @@ export type ModLtiGetLtisByCoursesWSResponse = {
         servicesalt?: string; // Service salt.
         icon?: string; // Alternative icon URL.
         secureicon?: string; // Secure icon URL.
-        section?: number; // Course section id.
-        visible?: number; // Visible.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -11127,15 +11578,20 @@ export type ModPageGetPagesByCoursesWSParams = {
  */
 export type ModPageGetPagesByCoursesWSResponse = {
     pages: {
-        id: number; // Module id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Page name.
-        intro: string; // Summary.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
-        introfiles: CoreWSExternalFile[];
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         content: string; // Page content.
-        contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         contentfiles: CoreWSExternalFile[];
         legacyfiles: number; // Legacy files flag.
         legacyfileslast: number; // Legacy files last control flag.
@@ -11143,10 +11599,6 @@ export type ModPageGetPagesByCoursesWSResponse = {
         displayoptions: string; // Display options (width, height).
         revision: number; // Incremented when after each file changes, to avoid cache.
         timemodified: number; // Last time the page was modified.
-        section: number; // Course section id.
-        visible: number; // Module visibility.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -11238,6 +11690,8 @@ export type ModQuizGetAttemptDataWSResponse = {
         slot: number; // Slot number.
         type: string; // Question type, i.e: multichoice.
         page: number; // Page of the quiz this question appears on.
+        questionnumber: string; // The question number to display for this question, e.g. "7", "i" or "Custom-B)".
+        number?: number; // DO NOT USE. Use questionnumber. Only retained for backwards compatibility.
         html: string; // The question rendered.
         responsefileareas?: { // Response file areas including files.
             area: string; // File area name.
@@ -11247,7 +11701,6 @@ export type ModQuizGetAttemptDataWSResponse = {
         lastactiontime?: number; // The timestamp of the most recent step in this question attempt.
         hasautosavedstep?: boolean; // Whether this question attempt has autosaved data.
         flagged: boolean; // Whether the question is flagged or not.
-        number?: number; // Question ordering number in the quiz.
         state?: string; // The state where the question is in.
                  // It will not be returned if the user cannot see it due to the quiz display correctness settings.
 
@@ -11313,6 +11766,8 @@ export type ModQuizGetAttemptReviewWSResponse = {
         slot: number; // Slot number.
         type: string; // Question type, i.e: multichoice.
         page: number; // Page of the quiz this question appears on.
+        questionnumber: string; // The question number to display for this question, e.g. "7", "i" or "Custom-B)".
+        number?: number; // DO NOT USE. Use questionnumber. Only retained for backwards compatibility.
         html: string; // The question rendered.
         responsefileareas?: { // Response file areas including files.
             area: string; // File area name.
@@ -11322,7 +11777,6 @@ export type ModQuizGetAttemptReviewWSResponse = {
         lastactiontime?: number; // The timestamp of the most recent step in this question attempt.
         hasautosavedstep?: boolean; // Whether this question attempt has autosaved data.
         flagged: boolean; // Whether the question is flagged or not.
-        number?: number; // Question ordering number in the quiz.
         state?: string; // The state where the question is in.
                  // It will not be returned if the user cannot see it due to the quiz display correctness settings.
 
@@ -11358,6 +11812,8 @@ export type ModQuizGetAttemptSummaryWSResponse = {
         slot: number; // Slot number.
         type: string; // Question type, i.e: multichoice.
         page: number; // Page of the quiz this question appears on.
+        questionnumber: string; // The question number to display for this question, e.g. "7", "i" or "Custom-B)".
+        number?: number; // DO NOT USE. Use questionnumber. Only retained for backwards compatibility.
         html: string; // The question rendered.
         responsefileareas?: { // Response file areas including files.
             area: string; // File area name.
@@ -11367,7 +11823,6 @@ export type ModQuizGetAttemptSummaryWSResponse = {
         lastactiontime?: number; // The timestamp of the most recent step in this question attempt.
         hasautosavedstep?: boolean; // Whether this question attempt has autosaved data.
         flagged: boolean; // Whether the question is flagged or not.
-        number?: number; // Question ordering number in the quiz.
         state?: string; // The state where the question is in.
                  // It will not be returned if the user cannot see it due to the quiz display correctness settings.
 
@@ -11444,7 +11899,7 @@ export type ModQuizGetQuizFeedbackForGradeWSParams = {
  */
 export type ModQuizGetQuizFeedbackForGradeWSResponse = {
     feedbacktext: string; // The comment that corresponds to this grade (empty for none).
-    feedbacktextformat?: number; // Feedbacktext format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+    feedbacktextformat?: number; // Feedbacktext format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
     feedbackinlinefiles?: CoreWSExternalFile[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -11476,13 +11931,18 @@ export type ModQuizGetQuizzesByCoursesWSParams = {
  */
 export type ModQuizGetQuizzesByCoursesWSResponse = {
     quizzes: {
-        id: number; // Standard Moodle primary key.
-        course: number; // Foreign key reference to the course this quiz is part of.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
-        name: string; // Quiz name.
-        intro?: string; // Quiz introduction text.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        course: number; // Course id.
+        name: string; // Activity name.
+        intro?: string; // Activity introduction.
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         timeopen?: number; // The time when this quiz opens. (0 = no restriction.).
         timeclose?: number; // The time when this quiz closes. (0 = no restriction.).
         timelimit?: number; // The time limit for quiz attempts, in seconds.
@@ -11513,8 +11973,8 @@ export type ModQuizGetQuizzesByCoursesWSResponse = {
 
         reviewattempt?: number; // Whether users are allowed to review their quiz
                                                                  // attempts at various times. This is a bit field, decoded by the
-                                                                 // mod_quiz_display_options class. It is formed by ORing together
-                                                                 // the constants defined there.
+                                                                 // \mod_quiz\question\display_options class. It is formed by ORing
+                                                                 // together the constants defined there.
 
         reviewcorrectness?: number; // Whether users are allowed to review their quiz
                                                                      // attempts at various times.
@@ -11587,10 +12047,6 @@ export type ModQuizGetQuizzesByCoursesWSResponse = {
         autosaveperiod?: number; // Auto-save delay.
         hasfeedback?: number; // Whether the quiz has any non-blank feedback text.
         hasquestions?: number; // Whether the quiz has questions.
-        section?: number; // Course section id.
-        visible?: number; // Module visibility.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Grouping id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -11834,13 +12290,18 @@ export type ModResourceGetResourcesByCoursesWSParams = {
  */
 export type ModResourceGetResourcesByCoursesWSResponse = {
     resources: {
-        id: number; // Module id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Page name.
-        intro: string; // Summary.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
-        introfiles: CoreWSExternalFile[];
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         contentfiles: CoreWSExternalFile[];
         tobemigrated: number; // Whether this resource was migrated.
         legacyfiles: number; // Legacy files flag.
@@ -11850,10 +12311,6 @@ export type ModResourceGetResourcesByCoursesWSResponse = {
         filterfiles: number; // If filters should be applied to the resource content.
         revision: number; // Incremented when after each file changes, to avoid cache.
         timemodified: number; // Last time the resource was modified.
-        section: number; // Course section id.
-        visible: number; // Module visibility.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -11923,13 +12380,18 @@ export type ModScormGetScormsByCoursesWSParams = {
  */
 export type ModScormGetScormsByCoursesWSResponse = {
     scorms: {
-        id: number; // SCORM id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // SCORM name.
-        intro: string; // The SCORM intro.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         packagesize?: number; // SCORM zip package size.
         packageurl?: string; // SCORM zip package URL.
         version?: string; // SCORM version (SCORM_12, SCORM_13, SCORM_AICC).
@@ -11968,10 +12430,6 @@ export type ModScormGetScormsByCoursesWSResponse = {
         completionstatusallscos?: number; // Require all scos to return completion status.
         autocommit?: boolean; // Save track data automatically?.
         timemodified?: number; // Time of last modification.
-        section?: number; // Course section id.
-        visible?: boolean; // Visible.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -12143,23 +12601,24 @@ export type ModSurveyGetSurveysByCoursesWSParams = {
  */
 export type ModSurveyGetSurveysByCoursesWSResponse = {
     surveys: {
-        id: number; // Survey id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // Survey name.
-        intro?: string; // The Survey intro.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        name: string; // Activity name.
+        intro?: string; // Activity introduction.
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         template?: number; // Survey type.
         days?: number; // Days.
         questions?: string; // Question ids.
         surveydone?: number; // Did I finish the survey?.
         timecreated?: number; // Time of creation.
         timemodified?: number; // Time of last modification.
-        section?: number; // Course section id.
-        visible?: number; // Visible.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -12210,22 +12669,23 @@ export type ModUrlGetUrlsByCoursesWSParams = {
  */
 export type ModUrlGetUrlsByCoursesWSResponse = {
     urls: {
-        id: number; // Module id.
+        id: number; // Activity instance id.
         coursemodule: number; // Course module id.
         course: number; // Course id.
-        name: string; // URL name.
-        intro: string; // Summary.
-        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
-        introfiles: CoreWSExternalFile[];
+        name: string; // Activity name.
+        intro: string; // Activity introduction.
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         externalurl: string; // External URL.
         display: number; // How to display the url.
         displayoptions: string; // Display options (width, height).
         parameters: string; // Parameters to append to the URL.
         timemodified: number; // Last time the url was modified.
-        section: number; // Course section id.
-        visible: number; // Module visibility.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -12281,7 +12741,7 @@ export type ModWikiGetPageContentsWSResponse = {
         userid: number; // Page's user ID.
         title: string; // Page title.
         cachedcontent: string; // Page contents.
-        contentformat?: number; // Cachedcontent format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        contentformat?: number; // Cachedcontent format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         caneditpage: boolean; // True if user can edit the page.
         version?: number; // Latest version of the page.
         tags?: { // Tags.
@@ -12369,7 +12829,7 @@ export type ModWikiGetSubwikiPagesWSResponse = {
         caneditpage: boolean; // True if user can edit the page.
         firstpage: boolean; // True if it's the first page.
         cachedcontent?: string; // Page contents.
-        contentformat?: number; // Cachedcontent format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        contentformat?: number; // Cachedcontent format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         contentsize?: number; // Size of page contents in bytes (doesn't include size of attached files).
         tags?: { // Tags.
             id: number; // Tag id.
@@ -12420,13 +12880,18 @@ export type ModWikiGetWikisByCoursesWSParams = {
  */
 export type ModWikiGetWikisByCoursesWSResponse = {
     wikis: {
-        id: number; // Wiki ID.
-        coursemodule: number; // Course module ID.
-        course: number; // Course ID.
-        name: string; // Wiki name.
-        intro?: string; // Wiki intro.
-        introformat?: number; // Wiki intro format. format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        id: number; // Activity instance id.
+        coursemodule: number; // Course module id.
+        course: number; // Course id.
+        name: string; // Activity name.
+        intro?: string; // Activity introduction.
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: boolean; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
         timecreated?: number; // Time of creation.
         timemodified?: number; // Time of last modification.
         firstpagetitle?: string; // First page title.
@@ -12435,10 +12900,6 @@ export type ModWikiGetWikisByCoursesWSResponse = {
         forceformat?: number; // 1 if format is forced, 0 otherwise.
         editbegin?: number; // Edit begin.
         editend?: number; // Edit end.
-        section?: number; // Course section ID.
-        visible?: number; // 1 if visible, 0 otherwise.
-        groupmode?: number; // Group mode.
-        groupingid?: number; // Group ID.
         cancreatepages: boolean; // True if user can create pages.
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -12602,14 +13063,14 @@ export type ModWorkshopGetAssessmentWSResponse = {
 
         gradinggradeoverby: number; // The id of the user who has overridden the grade for submission.
         feedbackauthor: string; // The comment/feedback from the reviewer for the author.
-        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         feedbackauthorattachment: number; // Are there some files attached to the feedbackauthor field?
                  // Sets to 1 by file_postupdate_standard_filemanager().
 
         feedbackreviewer?: string; // The comment/feedback from the teacher for the reviewer.
                  // For example the reason why the grade for assessment was overridden.
 
-        feedbackreviewerformat?: number; // Feedbackreviewer format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackreviewerformat?: number; // Feedbackreviewer format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         feedbackcontentfiles: { // Feedbackcontentfiles.
             filename?: string; // File name.
             filepath?: string; // File path.
@@ -12784,14 +13245,14 @@ export type ModWorkshopGetReviewerAssessmentsWSResponse = {
 
         gradinggradeoverby: number; // The id of the user who has overridden the grade for submission.
         feedbackauthor: string; // The comment/feedback from the reviewer for the author.
-        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         feedbackauthorattachment: number; // Are there some files attached to the feedbackauthor field?
                  // Sets to 1 by file_postupdate_standard_filemanager().
 
         feedbackreviewer?: string; // The comment/feedback from the teacher for the reviewer.
                  // For example the reason why the grade for assessment was overridden.
 
-        feedbackreviewerformat?: number; // Feedbackreviewer format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackreviewerformat?: number; // Feedbackreviewer format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         feedbackcontentfiles: { // Feedbackcontentfiles.
             filename?: string; // File name.
             filepath?: string; // File path.
@@ -12836,7 +13297,7 @@ export type ModWorkshopGetSubmissionWSResponse = {
         timemodified: number; // Timestamp when the submission has been updated.
         title: string; // The submission title.
         content: string; // Submission text.
-        contentformat?: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        contentformat?: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         contenttrust: number; // The trust mode of the data.
         attachment: number; // Used by File API file_postupdate_standard_filemanager.
         grade?: number; // Aggregated grade for the submission. The grade is a decimal number from interval 0..100.
@@ -12849,7 +13310,7 @@ export type ModWorkshopGetSubmissionWSResponse = {
         feedbackauthor?: string; // Teacher comment/feedback for the author of the submission, for example describing the reasons
                  // for the grade overriding.
 
-        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         timegraded?: number; // The timestamp when grade or gradeover was recently modified.
         published: boolean; // Shall the submission be available to other when the workshop is closed.
         late: number; // Has this submission been submitted after the deadline or during the assessment phase?.
@@ -12908,14 +13369,14 @@ export type ModWorkshopGetSubmissionAssessmentsWSResponse = {
 
         gradinggradeoverby: number; // The id of the user who has overridden the grade for submission.
         feedbackauthor: string; // The comment/feedback from the reviewer for the author.
-        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         feedbackauthorattachment: number; // Are there some files attached to the feedbackauthor field?
                  // Sets to 1 by file_postupdate_standard_filemanager().
 
         feedbackreviewer?: string; // The comment/feedback from the teacher for the reviewer.
                  // For example the reason why the grade for assessment was overridden.
 
-        feedbackreviewerformat?: number; // Feedbackreviewer format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackreviewerformat?: number; // Feedbackreviewer format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         feedbackcontentfiles: { // Feedbackcontentfiles.
             filename?: string; // File name.
             filepath?: string; // File path.
@@ -12966,7 +13427,7 @@ export type ModWorkshopGetSubmissionsWSResponse = {
         timemodified: number; // Timestamp when the submission has been updated.
         title: string; // The submission title.
         content: string; // Submission text.
-        contentformat?: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        contentformat?: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         contenttrust: number; // The trust mode of the data.
         attachment: number; // Used by File API file_postupdate_standard_filemanager.
         grade?: number; // Aggregated grade for the submission. The grade is a decimal number from interval 0..100.
@@ -12979,7 +13440,7 @@ export type ModWorkshopGetSubmissionsWSResponse = {
         feedbackauthor?: string; // Teacher comment/feedback for the author of the submission, for example describing the reasons
                  // for the grade overriding.
 
-        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        feedbackauthorformat?: number; // Feedbackauthor format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         timegraded?: number; // The timestamp when grade or gradeover was recently modified.
         published: boolean; // Shall the submission be available to other when the workshop is closed.
         late: number; // Has this submission been submitted after the deadline or during the assessment phase?.
@@ -13112,11 +13573,12 @@ export type ModWorkshopGetWorkshopsByCoursesWSResponse = {
         course: number; // Course id this workshop is part of.
         name: string; // Workshop name.
         intro: string; // Workshop introduction text.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
+        lang: string; // Forced activity language.
         instructauthors?: string; // Instructions for the submission phase.
-        instructauthorsformat?: number; // Instructauthors format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        instructauthorsformat?: number; // Instructauthors format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         instructreviewers?: string; // Instructions for the assessment phase.
-        instructreviewersformat?: number; // Instructreviewers format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        instructreviewersformat?: number; // Instructreviewers format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         timemodified?: number; // The timestamp when the module was modified.
         phase?: number; // The current phase of workshop (0 = not available, 1 = submission, 2 = assessment, 3 = closed).
         useexamples?: boolean; // Optional feature: students practise evaluating on example submissions from teacher.
@@ -13142,7 +13604,7 @@ export type ModWorkshopGetWorkshopsByCoursesWSResponse = {
         assessmentend?: number; // 0 = will be closed manually, greater than 0 the timestamp of the end of the assessment phase.
         phaseswitchassessment?: boolean; // Automatically switch to the assessment phase after the submissions deadline.
         conclusion?: string; // A text to be displayed at the end of the workshop.
-        conclusionformat?: number; // Conclusion format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        conclusionformat?: number; // Conclusion format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         overallfeedbackmode?: number; // Mode of the overall feedback support.
         overallfeedbackfiles?: number; // Number of allowed attachments to the overall feedback.
         overallfeedbackfiletypes?: string; // Comma separated list of file extensions.
@@ -13365,7 +13827,7 @@ export type ToolLpDataForCourseCompetenciesPageWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             sortorder: number; // Sortorder.
             parentid: number; // Parentid.
             path: string; // Path.
@@ -13389,7 +13851,7 @@ export type ToolLpDataForCourseCompetenciesPageWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             sortorder: number; // Sortorder.
             parentid: number; // Parentid.
             path: string; // Path.
@@ -13460,7 +13922,7 @@ export type ToolLpDataForCourseCompetenciesPageWSResponse = {
         plans: {
             name: string; // Name.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             userid: number; // Userid.
             templateid: number; // Templateid.
             origtemplateid: number; // Origtemplateid.
@@ -13529,7 +13991,7 @@ export type ToolLpDataForCourseCompetenciesPageWSResponse = {
             template?: {
                 shortname: string; // Shortname.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 duedate: number; // Duedate.
                 visible: boolean; // Visible.
                 contextid: number; // Contextid.
@@ -13566,7 +14028,7 @@ export type ToolLpDataForPlanPageWSResponse = {
     plan: {
         name: string; // Name.
         description: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         userid: number; // Userid.
         templateid: number; // Templateid.
         origtemplateid: number; // Origtemplateid.
@@ -13635,7 +14097,7 @@ export type ToolLpDataForPlanPageWSResponse = {
         template?: {
             shortname: string; // Shortname.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             duedate: number; // Duedate.
             visible: boolean; // Visible.
             contextid: number; // Contextid.
@@ -13660,7 +14122,7 @@ export type ToolLpDataForPlanPageWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             sortorder: number; // Sortorder.
             parentid: number; // Parentid.
             path: string; // Path.
@@ -13769,7 +14231,7 @@ export type ToolLpDataForPlansPageWSResponse = {
     plans: {
         name: string; // Name.
         description: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         userid: number; // Userid.
         templateid: number; // Templateid.
         origtemplateid: number; // Origtemplateid.
@@ -13838,7 +14300,7 @@ export type ToolLpDataForPlansPageWSResponse = {
         template?: {
             shortname: string; // Shortname.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             duedate: number; // Duedate.
             visible: boolean; // Visible.
             contextid: number; // Contextid.
@@ -13883,12 +14345,13 @@ export type ToolLpDataForUserCompetencySummaryWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
             showactivitydates: boolean; // Showactivitydates.
             showcompletionconditions: boolean; // Showcompletionconditions.
+            pdfexportfont: string; // Pdfexportfont.
             fullnamedisplay: string; // Fullnamedisplay.
             viewurl: string; // Viewurl.
             courseimage: string; // Courseimage.
@@ -13904,7 +14367,7 @@ export type ToolLpDataForUserCompetencySummaryWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             sortorder: number; // Sortorder.
             parentid: number; // Parentid.
             path: string; // Path.
@@ -13923,7 +14386,7 @@ export type ToolLpDataForUserCompetencySummaryWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             sortorder: number; // Sortorder.
             parentid: number; // Parentid.
             path: string; // Path.
@@ -13942,7 +14405,7 @@ export type ToolLpDataForUserCompetencySummaryWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             visible: boolean; // Visible.
             scaleid: number; // Scaleid.
             scaleconfiguration: string; // Scaleconfiguration.
@@ -14142,12 +14605,13 @@ export type ToolLpDataForUserCompetencySummaryInCourseWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 summary: string; // Summary.
-                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 startdate: number; // Startdate.
                 enddate: number; // Enddate.
                 visible: boolean; // Visible.
                 showactivitydates: boolean; // Showactivitydates.
                 showcompletionconditions: boolean; // Showcompletionconditions.
+                pdfexportfont: string; // Pdfexportfont.
                 fullnamedisplay: string; // Fullnamedisplay.
                 viewurl: string; // Viewurl.
                 courseimage: string; // Courseimage.
@@ -14163,7 +14627,7 @@ export type ToolLpDataForUserCompetencySummaryInCourseWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 sortorder: number; // Sortorder.
                 parentid: number; // Parentid.
                 path: string; // Path.
@@ -14182,7 +14646,7 @@ export type ToolLpDataForUserCompetencySummaryInCourseWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 sortorder: number; // Sortorder.
                 parentid: number; // Parentid.
                 path: string; // Path.
@@ -14201,7 +14665,7 @@ export type ToolLpDataForUserCompetencySummaryInCourseWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 visible: boolean; // Visible.
                 scaleid: number; // Scaleid.
                 scaleconfiguration: string; // Scaleconfiguration.
@@ -14383,12 +14847,13 @@ export type ToolLpDataForUserCompetencySummaryInCourseWSResponse = {
         shortname: string; // Shortname.
         idnumber: string; // Idnumber.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         startdate: number; // Startdate.
         enddate: number; // Enddate.
         visible: boolean; // Visible.
         showactivitydates: boolean; // Showactivitydates.
         showcompletionconditions: boolean; // Showcompletionconditions.
+        pdfexportfont: string; // Pdfexportfont.
         fullnamedisplay: string; // Fullnamedisplay.
         viewurl: string; // Viewurl.
         courseimage: string; // Courseimage.
@@ -14409,7 +14874,7 @@ export type ToolLpDataForUserCompetencySummaryInCourseWSResponse = {
     plans: { // Plans.
         name: string; // Name.
         description: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         userid: number; // Userid.
         templateid: number; // Templateid.
         origtemplateid: number; // Origtemplateid.
@@ -14478,7 +14943,7 @@ export type ToolLpDataForUserCompetencySummaryInCourseWSResponse = {
         template?: {
             shortname: string; // Shortname.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             duedate: number; // Duedate.
             visible: boolean; // Visible.
             contextid: number; // Contextid.
@@ -14521,12 +14986,13 @@ export type ToolLpDataForUserCompetencySummaryInPlanWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 summary: string; // Summary.
-                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 startdate: number; // Startdate.
                 enddate: number; // Enddate.
                 visible: boolean; // Visible.
                 showactivitydates: boolean; // Showactivitydates.
                 showcompletionconditions: boolean; // Showcompletionconditions.
+                pdfexportfont: string; // Pdfexportfont.
                 fullnamedisplay: string; // Fullnamedisplay.
                 viewurl: string; // Viewurl.
                 courseimage: string; // Courseimage.
@@ -14542,7 +15008,7 @@ export type ToolLpDataForUserCompetencySummaryInPlanWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 sortorder: number; // Sortorder.
                 parentid: number; // Parentid.
                 path: string; // Path.
@@ -14561,7 +15027,7 @@ export type ToolLpDataForUserCompetencySummaryInPlanWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 sortorder: number; // Sortorder.
                 parentid: number; // Parentid.
                 path: string; // Path.
@@ -14580,7 +15046,7 @@ export type ToolLpDataForUserCompetencySummaryInPlanWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 visible: boolean; // Visible.
                 scaleid: number; // Scaleid.
                 scaleconfiguration: string; // Scaleconfiguration.
@@ -14759,7 +15225,7 @@ export type ToolLpDataForUserCompetencySummaryInPlanWSResponse = {
     plan: {
         name: string; // Name.
         description: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         userid: number; // Userid.
         templateid: number; // Templateid.
         origtemplateid: number; // Origtemplateid.
@@ -14828,7 +15294,7 @@ export type ToolLpDataForUserCompetencySummaryInPlanWSResponse = {
         template?: {
             shortname: string; // Shortname.
             description: string; // Description.
-            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+            descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
             duedate: number; // Duedate.
             visible: boolean; // Visible.
             contextid: number; // Contextid.
@@ -14866,7 +15332,7 @@ export type ToolLpDataForUserEvidenceListPageWSResponse = {
         userid: number; // Userid.
         name: string; // Name.
         description: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         url: string; // Url.
         id: number; // Id.
         timecreated: number; // Timecreated.
@@ -14903,7 +15369,7 @@ export type ToolLpDataForUserEvidenceListPageWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 sortorder: number; // Sortorder.
                 parentid: number; // Parentid.
                 path: string; // Path.
@@ -14978,7 +15444,7 @@ export type ToolLpDataForUserEvidencePageWSResponse = {
         userid: number; // Userid.
         name: string; // Name.
         description: string; // Description.
-        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
         url: string; // Url.
         id: number; // Id.
         timecreated: number; // Timecreated.
@@ -15015,7 +15481,7 @@ export type ToolLpDataForUserEvidencePageWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 description: string; // Description.
-                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                descriptionformat?: number; // Description format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN.
                 sortorder: number; // Sortorder.
                 parentid: number; // Parentid.
                 path: string; // Path.
@@ -15239,6 +15705,7 @@ export type ToolMobileGetPublicConfigWSResponse = {
                  // (only if age verification is enabled).
 
     supportpage?: string; // Site support page link.
+    supportavailability?: number; // Determines who has access to contact site support.
     autolang?: number; // Whether to detect default language
                  // from browser setting.
 

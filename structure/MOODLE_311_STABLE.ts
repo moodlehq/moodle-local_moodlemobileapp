@@ -145,6 +145,7 @@ export type CoreBlockFetchAddableBlocksWSParams = {
     pagecontextid: number; // The context ID of the page.
     pagetype: string; // The type of the page.
     pagelayout: string; // The layout of the page.
+    subpage?: string; // The subpage identifier.
 };
 
 /**
@@ -5625,6 +5626,52 @@ export type ModAssignGetParticipantWSResponse = {
 };
 
 /**
+ * Params of mod_assign_get_submissions WS.
+ */
+export type ModAssignGetSubmissionsWSParams = {
+    assignmentids: number[]; // 1 or more assignment ids.
+    status?: string; // Status.
+    since?: number; // Submitted since.
+    before?: number; // Submitted before.
+};
+
+/**
+ * Data returned by mod_assign_get_submissions WS.
+ */
+export type ModAssignGetSubmissionsWSResponse = {
+    assignments: { // Assignment submissions.
+        assignmentid: number; // Assignment id.
+        submissions: {
+            id: number; // Submission id.
+            userid: number; // Student id.
+            attemptnumber: number; // Attempt number.
+            timecreated: number; // Submission creation time.
+            timemodified: number; // Submission last modified time.
+            status: string; // Submission status.
+            groupid: number; // Group id.
+            assignment?: number; // Assignment id.
+            latest?: number; // Latest attempt.
+            plugins?: { // Plugins.
+                type: string; // Submission plugin type.
+                name: string; // Submission plugin name.
+                fileareas?: { // Fileareas.
+                    area: string; // File area.
+                    files?: CoreWSExternalFile[];
+                }[];
+                editorfields?: { // Editorfields.
+                    name: string; // Field name.
+                    description: string; // Field description.
+                    text: string; // Field value.
+                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+                }[];
+            }[];
+            gradingstatus?: string; // Grading status.
+        }[];
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of mod_assign_get_submission_status WS.
  */
 export type ModAssignGetSubmissionStatusWSParams = {
@@ -5798,52 +5845,6 @@ export type ModAssignGetSubmissionStatusWSResponse = {
                 text: string; // Field value.
                 format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
             }[];
-        }[];
-    }[];
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of mod_assign_get_submissions WS.
- */
-export type ModAssignGetSubmissionsWSParams = {
-    assignmentids: number[]; // 1 or more assignment ids.
-    status?: string; // Status.
-    since?: number; // Submitted since.
-    before?: number; // Submitted before.
-};
-
-/**
- * Data returned by mod_assign_get_submissions WS.
- */
-export type ModAssignGetSubmissionsWSResponse = {
-    assignments: { // Assignment submissions.
-        assignmentid: number; // Assignment id.
-        submissions: {
-            id: number; // Submission id.
-            userid: number; // Student id.
-            attemptnumber: number; // Attempt number.
-            timecreated: number; // Submission creation time.
-            timemodified: number; // Submission last modified time.
-            status: string; // Submission status.
-            groupid: number; // Group id.
-            assignment?: number; // Assignment id.
-            latest?: number; // Latest attempt.
-            plugins?: { // Plugins.
-                type: string; // Submission plugin type.
-                name: string; // Submission plugin name.
-                fileareas?: { // Fileareas.
-                    area: string; // File area.
-                    files?: CoreWSExternalFile[];
-                }[];
-                editorfields?: { // Editorfields.
-                    name: string; // Field name.
-                    description: string; // Field description.
-                    text: string; // Field value.
-                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
-                }[];
-            }[];
-            gradingstatus?: string; // Grading status.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -6326,25 +6327,6 @@ export type ModChatGetChatLatestMessagesWSResponse = {
 };
 
 /**
- * Params of mod_chat_get_chat_users WS.
- */
-export type ModChatGetChatUsersWSParams = {
-    chatsid: string; // Chat session id (obtained via mod_chat_login_user).
-};
-
-/**
- * Data returned by mod_chat_get_chat_users WS.
- */
-export type ModChatGetChatUsersWSResponse = {
-    users: { // List of users.
-        id: number; // User id.
-        fullname: string; // User full name.
-        profileimageurl: string; // User picture URL.
-    }[];
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
  * Params of mod_chat_get_chats_by_courses WS.
  */
 export type ModChatGetChatsByCoursesWSParams = {
@@ -6373,6 +6355,25 @@ export type ModChatGetChatsByCoursesWSResponse = {
         visible?: boolean; // Visible.
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of mod_chat_get_chat_users WS.
+ */
+export type ModChatGetChatUsersWSParams = {
+    chatsid: string; // Chat session id (obtained via mod_chat_login_user).
+};
+
+/**
+ * Data returned by mod_chat_get_chat_users WS.
+ */
+export type ModChatGetChatUsersWSResponse = {
+    users: { // List of users.
+        id: number; // User id.
+        fullname: string; // User full name.
+        profileimageurl: string; // User picture URL.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -7577,7 +7578,7 @@ export type ModFolderGetFoldersByCoursesWSResponse = {
         course: number; // Course id.
         name: string; // Page name.
         intro: string; // Summary.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
         introfiles: CoreWSExternalFile[];
         revision: number; // Incremented when after each file changes, to avoid cache.
         timemodified: number; // Last time the folder was modified.
@@ -8117,6 +8118,89 @@ export type ModForumGetForumAccessInformationWSResponse = {
     cancanoverridecutoff?: boolean; // Whether the user has the capability mod/forum:canoverridecutoff allowed.
     cancantogglefavourite?: boolean; // Whether the user has the capability mod/forum:cantogglefavourite allowed.
     cangrade?: boolean; // Whether the user has the capability mod/forum:grade allowed.
+};
+
+/**
+ * Params of mod_forum_get_forum_discussion_posts WS.
+ */
+export type ModForumGetForumDiscussionPostsWSParams = {
+    discussionid: number; // Discussion ID.
+    sortby?: string; // Sort by this element: id, created or modified.
+    sortdirection?: string; // Sort direction: ASC or DESC.
+};
+
+/**
+ * Data returned by mod_forum_get_forum_discussion_posts WS.
+ */
+export type ModForumGetForumDiscussionPostsWSResponse = {
+    posts: {
+        id: number; // Post id.
+        discussion: number; // Discussion id.
+        parent: number; // Parent id.
+        userid: number; // User id.
+        created: number; // Creation time.
+        modified: number; // Time modified.
+        mailed: number; // Mailed?.
+        subject: string; // The post subject.
+        message: string; // The post message.
+        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        messagetrust: number; // Can we trust?.
+        messageinlinefiles?: CoreWSExternalFile[];
+        attachment: string; // Has attachments?.
+        attachments?: CoreWSExternalFile[];
+        totalscore: number; // The post message total score.
+        mailnow: number; // Mail now?.
+        children: number[];
+        canreply: boolean; // The user can reply to posts?.
+        postread: boolean; // The post was read.
+        userfullname: string; // Post author full name.
+        userpictureurl?: string; // Post author picture.
+        deleted: boolean; // This post has been removed.
+        isprivatereply: boolean; // The post is a private reply.
+        tags?: { // Tags.
+            id: number; // Tag id.
+            name: string; // Tag name.
+            rawname: string; // The raw, unnormalised name for the tag as entered by users.
+            isstandard: boolean; // Whether this tag is standard.
+            tagcollid: number; // Tag collection id.
+            taginstanceid: number; // Tag instance id.
+            taginstancecontextid: number; // Context the tag instance belongs to.
+            itemid: number; // Id of the record tagged.
+            ordering: number; // Tag ordering.
+            flag: number; // Whether the tag is flagged as inappropriate.
+        }[];
+    }[];
+    ratinginfo?: {
+        contextid: number; // Context id.
+        component: string; // Context name.
+        ratingarea: string; // Rating area name.
+        canviewall?: boolean; // Whether the user can view all the individual ratings.
+        canviewany?: boolean; // Whether the user can view aggregate of ratings of others.
+        scales?: { // Different scales used information.
+            id: number; // Scale id.
+            courseid?: number; // Course id.
+            name?: string; // Scale name (when a real scale is used).
+            max: number; // Max value for the scale.
+            isnumeric: boolean; // Whether is a numeric scale.
+            items?: { // Scale items. Only returned for not numerical scales.
+                value: number; // Scale value/option id.
+                name: string; // Scale name.
+            }[];
+        }[];
+        ratings?: { // The ratings.
+            itemid: number; // Item id.
+            scaleid?: number; // Scale id.
+            userid?: number; // User who rated id.
+            aggregate?: number; // Aggregated ratings grade.
+            aggregatestr?: string; // Aggregated ratings as string.
+            aggregatelabel?: string; // The aggregation label.
+            count?: number; // Ratings count (used when aggregating).
+            rating?: number; // The rating the user gave.
+            canrate?: boolean; // Whether the user can rate the item.
+            canviewaggregate?: boolean; // Whether the user can view the aggregated grade.
+        }[];
+    }; // Rating information.
+    warnings?: CoreWSExternalWarning[];
 };
 
 /**
@@ -9759,7 +9843,7 @@ export type ModH5pactivityGetResultsWSResponse = {
  */
 export type ModH5pactivityGetUserAttemptsWSParams = {
     h5pactivityid: number; // H5p activity instance id.
-    sortorder?: string; // Sort by this element: id, firstname.
+    sortorder?: string; // Sort by either user id, firstname or lastname (with optional asc/desc).
     page?: number; // Current page.
     perpage?: number; // Items per page.
     firstinitial?: string; // Users whose first name starts with $firstinitial.
@@ -9904,7 +9988,7 @@ export type ModLabelGetLabelsByCoursesWSResponse = {
         course: number; // Course id.
         name: string; // Label name.
         intro: string; // Label contents.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
         introfiles: CoreWSExternalFile[];
         timemodified: number; // Last time the label was modified.
         section: number; // Course section id.
@@ -10653,10 +10737,10 @@ export type ModPageGetPagesByCoursesWSResponse = {
         course: number; // Course id.
         name: string; // Page name.
         intro: string; // Summary.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
         introfiles: CoreWSExternalFile[];
         content: string; // Page content.
-        contentformat?: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
         contentfiles: CoreWSExternalFile[];
         legacyfiles: number; // Legacy files flag.
         legacyfileslast: number; // Legacy files last control flag.
@@ -11356,7 +11440,7 @@ export type ModResourceGetResourcesByCoursesWSResponse = {
         course: number; // Course id.
         name: string; // Page name.
         intro: string; // Summary.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
         introfiles: CoreWSExternalFile[];
         contentfiles: CoreWSExternalFile[];
         tobemigrated: number; // Whether this resource was migrated.
@@ -11429,86 +11513,6 @@ export type ModScormGetScormAttemptCountWSResponse = {
 };
 
 /**
- * Params of mod_scorm_get_scorm_sco_tracks WS.
- */
-export type ModScormGetScormScoTracksWSParams = {
-    scoid: number; // Sco id.
-    userid: number; // User id.
-    attempt?: number; // Attempt number (0 for last attempt).
-};
-
-/**
- * Data returned by mod_scorm_get_scorm_sco_tracks WS.
- */
-export type ModScormGetScormScoTracksWSResponse = {
-    data: {
-        attempt: number; // Attempt number.
-        tracks: {
-            element: string; // Element name.
-            value: string; // Element value.
-        }[];
-    }; // SCO data.
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of mod_scorm_get_scorm_scoes WS.
- */
-export type ModScormGetScormScoesWSParams = {
-    scormid: number; // Scorm instance id.
-    organization?: string; // Organization id.
-};
-
-/**
- * Data returned by mod_scorm_get_scorm_scoes WS.
- */
-export type ModScormGetScormScoesWSResponse = {
-    scoes: {
-        id: number; // Sco id.
-        scorm: number; // Scorm id.
-        manifest: string; // Manifest id.
-        organization: string; // Organization id.
-        parent: string; // Parent.
-        identifier: string; // Identifier.
-        launch: string; // Launch file.
-        scormtype: string; // Scorm type (asset, sco).
-        title: string; // Sco title.
-        sortorder: number; // Sort order.
-        extradata?: { // Additional SCO data.
-            element: string; // Element name.
-            value: string; // Element value.
-        }[];
-    }[];
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of mod_scorm_get_scorm_user_data WS.
- */
-export type ModScormGetScormUserDataWSParams = {
-    scormid: number; // Scorm instance id.
-    attempt: number; // Attempt number.
-};
-
-/**
- * Data returned by mod_scorm_get_scorm_user_data WS.
- */
-export type ModScormGetScormUserDataWSResponse = {
-    data: {
-        scoid: number; // Sco id.
-        userdata: {
-            element: string; // Element name.
-            value: string; // Element value.
-        }[];
-        defaultdata: {
-            element: string; // Element name.
-            value: string; // Element value.
-        }[];
-    }[];
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
  * Params of mod_scorm_get_scorms_by_courses WS.
  */
 export type ModScormGetScormsByCoursesWSParams = {
@@ -11570,6 +11574,86 @@ export type ModScormGetScormsByCoursesWSResponse = {
         visible?: boolean; // Visible.
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of mod_scorm_get_scorm_scoes WS.
+ */
+export type ModScormGetScormScoesWSParams = {
+    scormid: number; // Scorm instance id.
+    organization?: string; // Organization id.
+};
+
+/**
+ * Data returned by mod_scorm_get_scorm_scoes WS.
+ */
+export type ModScormGetScormScoesWSResponse = {
+    scoes: {
+        id: number; // Sco id.
+        scorm: number; // Scorm id.
+        manifest: string; // Manifest id.
+        organization: string; // Organization id.
+        parent: string; // Parent.
+        identifier: string; // Identifier.
+        launch: string; // Launch file.
+        scormtype: string; // Scorm type (asset, sco).
+        title: string; // Sco title.
+        sortorder: number; // Sort order.
+        extradata?: { // Additional SCO data.
+            element: string; // Element name.
+            value: string; // Element value.
+        }[];
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of mod_scorm_get_scorm_sco_tracks WS.
+ */
+export type ModScormGetScormScoTracksWSParams = {
+    scoid: number; // Sco id.
+    userid: number; // User id.
+    attempt?: number; // Attempt number (0 for last attempt).
+};
+
+/**
+ * Data returned by mod_scorm_get_scorm_sco_tracks WS.
+ */
+export type ModScormGetScormScoTracksWSResponse = {
+    data: {
+        attempt: number; // Attempt number.
+        tracks: {
+            element: string; // Element name.
+            value: string; // Element value.
+        }[];
+    }; // SCO data.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of mod_scorm_get_scorm_user_data WS.
+ */
+export type ModScormGetScormUserDataWSParams = {
+    scormid: number; // Scorm instance id.
+    attempt: number; // Attempt number.
+};
+
+/**
+ * Data returned by mod_scorm_get_scorm_user_data WS.
+ */
+export type ModScormGetScormUserDataWSResponse = {
+    data: {
+        scoid: number; // Sco id.
+        userdata: {
+            element: string; // Element name.
+            value: string; // Element value.
+        }[];
+        defaultdata: {
+            element: string; // Element name.
+            value: string; // Element value.
+        }[];
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -11733,7 +11817,7 @@ export type ModUrlGetUrlsByCoursesWSResponse = {
         course: number; // Course id.
         name: string; // URL name.
         intro: string; // Summary.
-        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
         introfiles: CoreWSExternalFile[];
         externalurl: string; // External URL.
         display: number; // How to display the url.
