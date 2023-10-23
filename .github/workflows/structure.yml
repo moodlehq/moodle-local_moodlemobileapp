@@ -1,0 +1,68 @@
+name: Update Moodle WS Structure
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 4 * * 1' # Mondays morning.
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        moodle_branch: ['master', 'MOODLE_403_STABLE', 'MOODLE_402_STABLE', 'MOODLE_401_STABLE', 'MOODLE_400_STABLE', 'MOODLE_311_STABLE']
+    env:
+      dbtype: pgsql
+      php: 8.0
+      MOODLE_BRANCH: ${{ matrix.moodle_branch || 'master' }}
+      MOODLE_REPOSITORY: 'https://github.com/moodle/moodle'
+    steps:
+    - name: Checking out code
+      uses: actions/checkout@v3
+
+    - name: Checking out Moodle ${{ env.MOODLE_BRANCH }}
+      run: |
+        git clone --branch $MOODLE_BRANCH --depth 1 $MOODLE_REPOSITORY $GITHUB_WORKSPACE/moodle
+
+    - name: Setting up DB ${{ env.dbtype }}
+      uses: m4nu56/postgresql-action@v1
+      with:
+        postgresql version: 13
+        postgresql db: test
+        postgresql user: test
+        postgresql password: test
+    - name: Setting up PHP ${{ env.php }}
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: ${{ env.php }}
+        ini-values: max_input_vars=5000
+        coverage: none
+
+    - name: Setting up Moodle
+      env:
+        dbtype: ${{ env.dbtype }}
+      run: |
+        cp structure/config-template.php $GITHUB_WORKSPACE/moodle/config.php
+        pushd $GITHUB_WORKSPACE/moodle
+        echo "pathtophp=$(which php)" >> $GITHUB_ENV # Inject installed pathtophp to env. The template config needs it.
+        mkdir ../moodledata
+        php admin/cli/install_database.php --agree-license --adminpass=1234 --adminemail=admin@moodle.invalid --fullname=Structure --shortname=structure --summary=Structure
+        popd
+
+    - name: Run structure script
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+        git remote set-url origin https://$GIT_TOKEN@github.com/$GITHUB_REPOSITORY.git
+        git fetch -q origin
+        php structure/get_all_ws_structures.php $GITHUB_WORKSPACE/moodle > structure/${{ env.MOODLE_BRANCH }}.ts
+        git add structure/*.ts
+        git commit -m "[auto-generated] Update structure file for ${{ env.MOODLE_BRANCH }}"
+        git pull -r
+        git push
+        if [ $? -ne 0 ]; then
+          sleep $((RANDOM % 30))
+          git pull -r
+          git push
+        fi
