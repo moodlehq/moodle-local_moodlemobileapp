@@ -209,6 +209,7 @@
     "addon.enrol_guest.guestaccess_withoutpassword": "دسترسی مهمان",
     "addon.enrol_guest.guestaccess_withpassword": "دسترسی مهمان",
     "addon.enrol_guest.passwordinvalid": "رمز دسترسی اشتباه است، لطفاً دوباره سعی کنید",
+    "addon.enrol_self.nopassword": "به کلید ثبت‌نام نیازی نیست.",
     "addon.enrol_self.password": "کلید ثبت نام",
     "addon.enrol_self.pluginname": "ثبت‌نام خود",
     "addon.messageoutput_airnotifier.processorsettingsdesc": "پیکربندی دستگاه‌ها",
