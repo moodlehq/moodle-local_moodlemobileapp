@@ -38,11 +38,4 @@ require_once('functions.php');
 
 $structures = get_all_ws_structures();
 
-foreach ($structures as $wsname => $structure) {
-
-    remove_default_closures($structure->parameters_desc);
-    print_ws_structure($wsname, $structure->parameters_desc, true);
-
-    remove_default_closures($structure->returns_desc);
-    print_ws_structure($wsname, $structure->returns_desc, false);
-}
+print_ws_structures($structures);

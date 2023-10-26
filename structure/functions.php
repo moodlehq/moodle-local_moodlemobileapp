@@ -90,20 +90,96 @@ function convert_key_type($key, $type, $required, $indentation) {
 /**
  * Print structure ready to use.
  */
-function print_ws_structure($name, $structure, $useparams) {
+function print_ws_structures($structures) {
+    foreach ($structures as $wsname => $structure) {
+        $type = getTSTypeFromName($wsname);
+
+        print_ws_structure($wsname, $type, $structure, true);
+        print_ws_structure($wsname, $type, $structure, false);
+    }
+}
+
+/**
+ * Print params or return structures.
+ */
+function print_ws_structure($wsname, $type, $structure, $useparams) {
     if ($useparams) {
-        $type = implode('', array_map('ucfirst', explode('_', $name))) . 'WSParams';
-        $comment = "Params of $name WS.";
+        $comment = "Params of $wsname WS.";
+        $type .= 'WSParams';
+        $typestructure = $structure->parameters_desc;
+        $export = '';
     } else {
-        $type = implode('', array_map('ucfirst', explode('_', $name))) . 'WSResponse';
-        $comment = "Data returned by $name WS.";
+        $comment = "Data returned by $wsname WS.";
+        $type .= 'WSResponse';
+        $typestructure = $structure->returns_desc;
+        $export = 'export ';
     }
 
     echo "
 /**
- * $comment
+ * $comment";
+    if (!empty($structure->description)) {
+        echo "
+ *
+ * WS Description: $structure->description";
+    }
+    if (isset($structure->deprecated) && $structure->deprecated) {
+        echo "
+ *
+ * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated";
+    }
+    /* echo "
+ * WS Type: $structure->type
+ * Allowed from AJAX: " . ($structure->allowed_from_ajax ? 'yes' : 'no') . "
+ * Read only session: " . ($structure->readonlysession ? 'yes' : 'no') . "
+ * Login required: " . ($structure->loginrequired ? 'yes' : 'no');*/
+echo "
  */
-export type $type = ".convert_to_ts(null, $structure).";\n";
+${export}type $type = ".convert_to_ts(null, $typestructure).";\n";
+}
+
+/**
+ * Returns TS Type From WS Name.
+ */
+function getTSTypeFromName($wsname) {
+    $type = implode('', array_map('ucfirst', explode('_', $wsname) ) );
+    $search = [
+        '/^Block/',
+        '/^Mod/',
+        '/^Enrol/',
+        '/^Gradereport/',
+        '/^CoreCalendar/',
+        '/^CoreBadges/',
+        '/^CoreBlog/',
+        '/^CoreCompetency/',
+        '/^CoreFiles/',
+        '/^CoreMessage/',
+        '/^CoreNotes/',
+        '/^MessageAirnotifier/',
+        '/^ReportInsights/',
+        '/^ToolLp/',
+        '/^ToolMobile/',
+    ];
+
+    $replaces = [
+        'AddonBlock',
+        'AddonMod',
+        'AddonEnrol',
+        'CoreGradesGradereport',
+        'AddonCalendar',
+        'AddonBadges',
+        'AddonBlog',
+        'AddonCompetency',
+        'AddonPrivateFiles',
+        'AddonMessages',
+        'AddonNotes',
+        'AddonMessageOutputAirnotifier',
+        'AddonReportInsights',
+        'AddonCompetency',
+        'CoreSite',
+    ];
+
+    return preg_replace($search, $replaces, $type);
 }
 
 /**

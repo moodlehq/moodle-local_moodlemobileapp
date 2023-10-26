@@ -104,26 +104,3 @@ function convert_to_ts($key, $value, $boolisnumber = false, $indentation = '', $
         return "{}; // WARNING: Unknown structure: $key " . get_class($value);
     }
 }
-
-/**
- * Remove all closures (anonymous functions) in the default values so the object can be serialized.
- */
-function remove_default_closures($value) {
-    if ($value instanceof external_warnings || $value instanceof external_files) {
-        // Ignore these types.
-
-    } else if ($value instanceof external_value) {
-        if ($value->default instanceof Closure) {
-            $value->default = null;
-        }
-
-    } else if ($value instanceof external_single_structure) {
-
-        foreach ($value->keys as $subvalue) {
-            remove_default_closures($subvalue);
-        }
-
-    } else if ($value instanceof external_multiple_structure) {
-        remove_default_closures($value->content);
-    }
-}
