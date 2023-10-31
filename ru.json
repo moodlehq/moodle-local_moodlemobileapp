@@ -396,7 +396,7 @@
     "addon.mod_assign.submissionstatusheading": "Состояние ответа",
     "addon.mod_assign.submissionteam": "Группы",
     "addon.mod_assign.submitassignment": "Отправить на проверку",
-    "addon.mod_assign.submitassignment_help": "Однажды представив ответ на это задание Вы больше не сможете  изменить его.",
+    "addon.mod_assign.submitassignment_help": "После отправки ответа на это задание Вы больше не сможете изменить его.",
     "addon.mod_assign.submittedearly": "Ответ на задание представлен заранее - {{$a}}",
     "addon.mod_assign.submittedlate": "Ответ на задание представлен с опозданием - {{$a}}",
     "addon.mod_assign.submittedovertime": "Ответ на задание было отправлен на {{$a}} позже установленного срока",

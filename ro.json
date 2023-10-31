@@ -1505,6 +1505,7 @@
     "core.completion-alt-manual-y-override": "Finalizat: {{$a.modname}} (setat de {{$a.overrideuser}}). Selectați pentru a marca ca nefinalizat.",
     "core.confirmcanceledit": "Sigur vrei să pleci de pe această pagină? Toate modificările vor fi pierdute.",
     "core.confirmdeletefile": "Sunteți sigur că doriți să ștergeți acest fișier?",
+    "core.confirmleaveunknownchanges": "Sigur vrei să părăsești această pagină? Dacă ai modificări pe care nu le-ai salvat, acestea se vor pierde.",
     "core.confirmloss": "Ești sigur? Toate modificările se vor pierde.",
     "core.confirmopeninbrowser": "Doriți să deschideți într-un browser web?",
     "core.connectionlost": "S-a pierdut conexiunea la site",
