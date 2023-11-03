@@ -315,7 +315,7 @@
     "addon.mod_assign.allowsubmissionsfromdate": "Разрешить выполнение задания с",
     "addon.mod_assign.allowsubmissionsfromdatesummary": "Ответы на это задание будут приниматься с <strong>{{$a}}</strong>",
     "addon.mod_assign.applytoteam": "Применить оценки и отзывы для всей группы.",
-    "addon.mod_assign.assignmentisdue": "Задание должно быть сдано",
+    "addon.mod_assign.assignmentisdue": "Задание уже должно быть выполнено",
     "addon.mod_assign.assigntimeleft": "Оставшееся время",
     "addon.mod_assign.attemptnumber": "Номер попытки",
     "addon.mod_assign.attemptreopenmethod": "Дополнительные попытки",
