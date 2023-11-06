@@ -1372,7 +1372,6 @@
     "core.course.viewcourse": "មើលវគ្គសិក្សា",
     "core.course.warningmanualcompletionmodified": "ការបំពេញដោយមិនស្វ័យប្រវត្តិត្រូវបានកែតម្រូវនៅលើគេហទំព័រ",
     "core.course.warningofflinemanualcompletiondeleted": "ការបំពេញដោយដៃនៅក្រៅបណ្តាញខ្លះនៃវគ្គសិក្សា '{{name}}' បានលុប{{error}}",
-    "core.coursedetails": "ព័ត៌មានលម្អិតអំពីវគ្គសិក្សា",
     "core.courses.addtofavourites": "ដាក់ផ្កាយវគ្គសិក្សានេះ",
     "core.courses.aria:coursecategory": "ប្រភេទវគ្គសិក្សា",
     "core.courses.aria:coursename": "ឈ្មោះវគ្គសិក្សា",

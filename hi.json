@@ -517,7 +517,6 @@
     "core.course.viewcourse": "पाठ्यक्रम देखें",
     "core.course.warningmanualcompletionmodified": "एक गतिविधि के मैनुअल पूरा होने को साइट पर संशोधित किया गया था।",
     "core.course.warningofflinemanualcompletiondeleted": "निश्चित रूप से '{{name}}' के कुछ ऑफ़लाइन मैनुअल को हटा दिया गया है। {{error}}",
-    "core.coursedetails": "पाठ्यक्रम विवरण",
     "core.courses.addtofavourites": "इस पाठ्यक्रम को स्टार दें",
     "core.courses.aria:courseprogress": "कोर्स की प्रगति:",
     "core.courses.availablecourses": "उपलब्ध पाठ्यक्रम",

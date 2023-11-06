@@ -1135,7 +1135,6 @@
     "core.course.useactivityonbrowser": "Siz uni qurilmangizning veb-brauzeri yordamida ishlatishingiz mumkin",
     "core.course.warningmanualcompletionmodified": "Bu saytda qo'lda yakunlash jarayoni o'zgartirildi.",
     "core.course.warningofflinemanualcompletiondeleted": "\"{{ism}}\" kursni tarmoqsiz holda o'chirish yakunlandi.{{xato}}",
-    "core.coursedetails": "Kurs tafsilotlari",
     "core.coursenogroups": "Siz ushbu kursning biron bir guruhiga a'zo emassiz",
     "core.courses.addtofavourites": "Kursga yulduzcha qoʻyish",
     "core.courses.aria:coursename": "Kurs nomi",

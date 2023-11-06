@@ -676,7 +676,6 @@
     "addon.mod_forum.removefromfavourites": "ຢຸດໝາຍດາວການສົນທະນານີ້",
     "addon.mod_forum.reply": "ຕອບກັບ",
     "addon.mod_forum.replyplaceholder": "ຂຽນການຕອບກັບຂອງທ່ານ...",
-    "addon.mod_forum.searchresults": "ຜົນການຊອກຫາ: {{$a}}",
     "addon.mod_forum.subject": "ເລື່ອງ",
     "addon.mod_forum.tagarea_forum_posts": "ໂພສເວທີສົນທະນາ",
     "addon.mod_forum.thisforumhasduedate": "ວັນທີຮອດກຳນົດສຳລັບການໂພສຫາເວທີສົນທະນານີ້ແມ່ນ {{$a}}.",
@@ -1609,7 +1608,6 @@
     "core.course.viewcourse": "ເບິ່ງລາຍວິຊາ",
     "core.course.warningmanualcompletionmodified": "ການສຳເລັດດ້ວຍຕົວເອງຂອງກິດຈະກຳແມ່ນໄດ້ດັດແກ້ແລ້ວໃນເວັບໄຊທ໌.",
     "core.course.warningofflinemanualcompletiondeleted": "ບາງການສຳເລັດດ້ວຍຕົວເອງອອຟລາຍຂອງລາຍວິຊາ '{{name}}' ໄດ້ຖືກລຶບແລ້ວ. {{error}}",
-    "core.coursedetails": "ລາຍລະອຽດວິຊາ",
     "core.coursenogroups": "ທ່ານບໍ່ແມ່ນສະມາຊິກຂອງກຸ່ມໃດໜຶ່ງໃນລາຍວິຊານີ້.",
     "core.courses.addtofavourites": "ໝາຍດາວລາຍວິຊານີ້",
     "core.courses.aria:coursecategory": "ປະເພດລາຍວິຊາ",
@@ -2426,5 +2424,6 @@
     "workplace.teams.filterstab": "ຕົວກອງ",
     "workplace.teams.filterstartswith": "ໝາຍດາວກັບ",
     "workplace.teams.fullname": "ຊື່ເຕັມ",
+    "workplace.teams.learning": "ການຮຽນຮູ້",
     "workplace.teams.resetall": "ຕັ້ງຄ່າຄືນໃໝ່ທັງໝົດ"
 }

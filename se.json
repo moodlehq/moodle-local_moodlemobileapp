@@ -731,7 +731,6 @@
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} ovdal kursaálgima",
     "core.course.startdate": "Oahppoálgima beaivi",
     "core.course.viewcourse": "Čájet kurssa",
-    "core.coursedetails": "Kursadetáljjat",
     "core.courses.addtofavourites": "Merke favorihttan",
     "core.courses.aria:coursecategory": "Kursakategoriija",
     "core.courses.aria:coursename": "Kursanamma",

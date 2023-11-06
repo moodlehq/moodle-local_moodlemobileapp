@@ -182,7 +182,6 @@
     "core.course.relativedatessubmissionduedatebefore": "{{$a. dateiffstr}} قبل از شروع کورس",
     "core.course.section": "بخش",
     "core.course.startdate": "تاریخ شروع کورس",
-    "core.coursedetails": "جزئیات کورس",
     "core.courses.aria:coursecategory": "کتگوری کورس",
     "core.courses.aria:coursename": "نام کورس",
     "core.courses.aria:favourite": "کورس شروع شد",

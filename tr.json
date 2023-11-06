@@ -681,7 +681,6 @@
     "addon.mod_forum.removefromfavourites": "Bu tartışmayı kaldır",
     "addon.mod_forum.reply": "Yanıtla",
     "addon.mod_forum.replyplaceholder": "Cevap yazınız ...",
-    "addon.mod_forum.searchresults": "Arama sonuçları: {{$a}}",
     "addon.mod_forum.subject": "Konu",
     "addon.mod_forum.tagarea_forum_posts": "Forum mesajları",
     "addon.mod_forum.thisforumhasduedate": "Bu foruma kayıt için son tarih {{$a}}.",
@@ -926,7 +925,6 @@
     "addon.mod_quiz.stateoverdue": "Süresi dolmuş",
     "addon.mod_quiz.stateoverduedetails": "{{$a}} tarafından teslim edilmelidir",
     "addon.mod_quiz.status": "Durum",
-    "addon.mod_quiz.submission_confirmation_unanswered": "Yanıtı olmayan sorular: {{$a}}",
     "addon.mod_quiz.submitallandfinish": "Tümünü gönder ve bitir",
     "addon.mod_quiz.summaryofattempt": "Uygulama özeti",
     "addon.mod_quiz.summaryofattempts": "Önceki uygulamalarınızın özeti",
@@ -1624,7 +1622,6 @@
     "core.course.warningmanualcompletionmodified": "Bir etkinliğin manuel olarak tamamlanması sitede değiştirildi.",
     "core.course.warningofflinemanualcompletiondeleted": "'{{name}}' dersin bazı çevrimdışı manuel tamamlamaları silindi. {{error}}",
     "core.course.youmust": "Yapmalısın",
-    "core.coursedetails": "Kurs ayrıntıları",
     "core.coursenogroups": "Bu kursun herhangi bir grubunun üyesi değilsiniz.",
     "core.courses.addtofavourites": "Kursu favorilere ekle",
     "core.courses.aria:coursecategory": "Kurs kategorisi",
@@ -2653,6 +2650,5 @@
     "workplace.teams.filterisnotequalto": "Eşit değil",
     "workplace.teams.filterstartswith": "İle başlar",
     "workplace.teams.fullname": "Tam adı",
-    "workplace.teams.myteams": "Takımlar",
     "workplace.teams.resetall": "Hepsini sıfırla"
 }

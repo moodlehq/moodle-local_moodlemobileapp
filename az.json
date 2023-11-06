@@ -1588,7 +1588,6 @@
     "core.course.viewcourse": "Kursa baxış",
     "core.course.warningmanualcompletionmodified": "Əməliyyatın əl ilə tamamlanması saytda dəyişdirildi.",
     "core.course.warningofflinemanualcompletiondeleted": "'{{name}}' kursunun bəzi şəbəkədən kənar tamamlanması silindi. {{error}}",
-    "core.coursedetails": "Kursun təfərrüatları",
     "core.coursenogroups": "Siz bu kursun heç bir qrupunun üzvü deyilsiniz.",
     "core.courses.addtofavourites": "Bu kursu işarələyin",
     "core.courses.aria:coursecategory": "Kurs kateqoriyası",

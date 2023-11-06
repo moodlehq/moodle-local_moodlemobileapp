@@ -494,7 +494,6 @@
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} курс башталганча",
     "core.course.section": "Бөлүм",
     "core.course.startdate": "Курсту баштоо күнү",
-    "core.coursedetails": "Курс тууралуу маалымат",
     "core.courses.availablecourses": "Жеткиликтүү курстар",
     "core.courses.categories": "Курстардын категориялары",
     "core.courses.courses": "Курстар",

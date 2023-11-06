@@ -1171,7 +1171,6 @@
     "core.course.viewcourse": "Ke kursej",
     "core.course.warningmanualcompletionmodified": "Manuelny zakónčenje jedyn aktiwitu bu na webstronje změniło.",
     "core.course.warningofflinemanualcompletiondeleted": "Manuelny offline-zakónčenju kursa '{{name}}' bu wotstronja. {{error}}",
-    "core.coursedetails": "Detaile ke kursej",
     "core.coursenogroups": "Woni njejsu z čłonom skupinje w tutym kurs.",
     "core.courses.addtofavourites": "Kurs jako faworit woznamjenja",
     "core.courses.aria:coursecategory": "Wobłuku kursa",

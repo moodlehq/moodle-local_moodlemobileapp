@@ -1390,7 +1390,6 @@
     "core.course.startdate": "Ημερομηνία έναρξης μαθήματος",
     "core.course.thisweek": "Αυτή η εβδομάδα",
     "core.course.viewcourse": "Προβολή μαθήματος",
-    "core.coursedetails": "Λεπτομέρειες μαθήματος",
     "core.courses.addtofavourites": "Επισήμανση του μαθήματος με αστερίσκο",
     "core.courses.aria:coursecategory": "Κατηγορία μαθήματος",
     "core.courses.aria:coursename": "Όνομα μαθήματος",
@@ -1970,8 +1969,8 @@
     "workplace.roleincontext": "με ρόλο: «{{$a.role}}» στο πλαίσιο: «{{$a.context}}»",
     "workplace.seecontent": "Δες το περιεχόμενο",
     "workplace.setsandcoursesnotfound": "Δεν βρέθηκαν σύνολα ή μαθήματα",
-    "workplace.start": "Έναρξη",
     "workplace.startdate": "Ημερομηνία έναρξης",
     "workplace.suspended": "Αναστελμένο",
-    "workplace.teams.fullname": "Πλήρες όνομα"
+    "workplace.teams.fullname": "Πλήρες όνομα",
+    "workplace.teams.learning": "Μάθηση"
 }

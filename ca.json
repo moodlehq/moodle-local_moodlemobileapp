@@ -1606,7 +1606,6 @@
     "core.course.viewcourse": "Visualitza el curs",
     "core.course.warningmanualcompletionmodified": "S'ha modificat la compleció manual d'una activitat a la web.",
     "core.course.warningofflinemanualcompletiondeleted": "S'han eliminat algunes dades fora de línia de compleció manual del curs «{{name}}».{{error}}",
-    "core.coursedetails": "Detalls del curs",
     "core.coursenogroups": "No sou membre de cap grup d'aquest curs.",
     "core.courses.addtofavourites": "Destaca el curs",
     "core.courses.aria:coursecategory": "Categoria de curs",

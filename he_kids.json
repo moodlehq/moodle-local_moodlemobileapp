@@ -20,7 +20,6 @@
     "addon.mod_lesson.teacherjumpwarning": "שיעור זה משתמש בקפיצת {{$a.cluster}} או בקפיצת {{$a.unseen}}. במקום זה, יעשה שימוש בקפיצת 'העמוד הבא'. התחבר כתלמיד על מנת לבחון את הקפיצות הללו.",
     "addon.mod_lesson.teacherongoingwarning": "תוצאה מצטברת מוצגת רק בפני התלמיד. התחבר כתלמיד כדי לבחון את התוצאה המתמשכת.",
     "addon.mod_lesson.teachertimerwarning": "שעון העצר עובד רק לתלמידים. התחבר כתלמיד כדי לבחון את שעון העצר.",
-    "addon.mod_quiz.submission_confirmation_unanswered": "שאלות שלא נענו: {{$a}}",
     "addon.notes.coursenotes": "הערות על התלמיד הזמינות לכל המורים במרחב־לימוד",
     "addon.notes.personalnotes": "הערות על התלמיד הזמינות לך בלבד",
     "addon.notes.sitenotes": "הערות על התלמיד הזמינות לכל המורים במערכת",

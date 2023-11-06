@@ -793,7 +793,6 @@
     "core.course.useactivityonbrowser": "تاسو لاهم کولی شئ دا د خپل وسیلې ویب لټونګر په کارولو سره وکاروئ.",
     "core.course.warningmanualcompletionmodified": "د یو فعالیت لارښود بشپړ شوی په سایټ کې تعدیل شوی.",
     "core.course.warningofflinemanualcompletiondeleted": "د کورس ځینې نالیکه لارښود بشپړول '{{name}}' ړنګ شوي دي. {{ error }}",
-    "core.coursedetails": "د کورس توضیحات",
     "core.coursenogroups": "تاسو د دې کورس د کومې ډلې غړی نه یاست.",
     "core.courses.aria:coursecategory": "د کورس وېشنیزه",
     "core.courses.aria:coursename": "د کورس نوم",

@@ -681,7 +681,6 @@
     "addon.mod_forum.removefromfavourites": "Retirar o destaque deste debate",
     "addon.mod_forum.reply": "Responder",
     "addon.mod_forum.replyplaceholder": "Escriba a súa resposta...",
-    "addon.mod_forum.searchresults": "Resultados da busca: {{$a}}",
     "addon.mod_forum.subject": "Asunto",
     "addon.mod_forum.tagarea_forum_posts": "Comentarios do foro",
     "addon.mod_forum.thisforumhasduedate": "A data límite para comentar neste foro é o {{$a}}.",
@@ -926,7 +925,6 @@
     "addon.mod_quiz.stateoverdue": "Atrasada",
     "addon.mod_quiz.stateoverduedetails": "Debe entregada por {{$a}}",
     "addon.mod_quiz.status": "Estado",
-    "addon.mod_quiz.submission_confirmation_unanswered": "Preguntas sen resposta: {{$a}}",
     "addon.mod_quiz.submitallandfinish": "Entregar todo e finalizar",
     "addon.mod_quiz.summaryofattempt": "Resumo do intento",
     "addon.mod_quiz.summaryofattempts": "Resumo dos seus intentos anteriores",
@@ -1624,7 +1622,6 @@
     "core.course.warningmanualcompletionmodified": "O completado manual dunha actividade foi modificado no sitio.",
     "core.course.warningofflinemanualcompletiondeleted": "Foi eliminada unha parte do completado manual sen conexión do curso «{{name}}». {{erro}}",
     "core.course.youmust": "Vde. debe",
-    "core.coursedetails": "Detalles do curso",
     "core.coursenogroups": "Vostede non é membro de ningún grupo deste curso.",
     "core.courses.addtofavourites": "Destacar este curso",
     "core.courses.aria:coursecategory": "Categoría de cursos",
@@ -2650,5 +2647,6 @@
     "workplace.teams.filterstab": "Filtros",
     "workplace.teams.filterstartswith": "Comeza con",
     "workplace.teams.fullname": "Nome completo",
+    "workplace.teams.learning": "Aprendizaxe",
     "workplace.teams.resetall": "Restabelecer todo"
 }

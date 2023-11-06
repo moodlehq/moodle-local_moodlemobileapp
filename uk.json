@@ -678,7 +678,6 @@
     "addon.mod_forum.removefromfavourites": "Видалити з обраних це обговорення",
     "addon.mod_forum.reply": "Відповісти",
     "addon.mod_forum.replyplaceholder": "Напишіть свою відповідь...",
-    "addon.mod_forum.searchresults": "Результати пошуку: {{$a}}",
     "addon.mod_forum.subject": "Тема",
     "addon.mod_forum.tagarea_forum_posts": "Повідомлення на форумі",
     "addon.mod_forum.thisforumhasduedate": "Термін для публікації на цьому форумі {{$a}}.",
@@ -922,7 +921,6 @@
     "addon.mod_quiz.stateoverdue": "Прострочено",
     "addon.mod_quiz.stateoverduedetails": "Повинно бути надіслано {{$a}}",
     "addon.mod_quiz.status": "Статус",
-    "addon.mod_quiz.submission_confirmation_unanswered": "Запитання без відповіді: {{$a}}",
     "addon.mod_quiz.submitallandfinish": "Відправити все та завершити",
     "addon.mod_quiz.summaryofattempt": "Результати спроби",
     "addon.mod_quiz.summaryofattempts": "Результати ваших попередніх спроб",
@@ -1614,7 +1612,6 @@
     "core.course.warningmanualcompletionmodified": "На сайті було змінено ручне завершення діяльності.",
     "core.course.warningofflinemanualcompletiondeleted": "Деякі офлайнові ручні завершення курсу \"{{name}}\" видалено. {{помилка}}",
     "core.course.youmust": "Ви маєте",
-    "core.coursedetails": "Деталі курсу",
     "core.coursenogroups": "Ви не є членом жодної групи цього курсу.",
     "core.courses.addtofavourites": "Позначити цей курс зірочкою",
     "core.courses.aria:coursecategory": "Категорія курсу",
@@ -2511,6 +2508,7 @@
     "workplace.teams.filterisnotequalto": "Не дорівнює",
     "workplace.teams.filterstartswith": "Починається з",
     "workplace.teams.fullname": "Повна назва",
+    "workplace.teams.learning": "Навчання",
     "workplace.teams.pluginname": "Мої команди",
     "workplace.teams.resetall": "Скинути все"
 }
