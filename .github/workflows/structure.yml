@@ -9,6 +9,7 @@ jobs:
   structure:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         moodle_branch: ['master', 'MOODLE_403_STABLE', 'MOODLE_402_STABLE', 'MOODLE_401_STABLE', 'MOODLE_400_STABLE', 'MOODLE_311_STABLE']
     env:
@@ -58,7 +59,14 @@ jobs:
         git fetch -q origin
         php structure/get_all_ws_structures.php $GITHUB_WORKSPACE/moodle > structure/${{ env.MOODLE_BRANCH }}.ts
         git add structure/*.ts
+        git diff --cached --exit-code
+        if [ $? -eq 0 ]; then
+          # Nothing to commit
+          exit 0
+        fi
+
         git commit -m "[auto-generated] Update structure file for ${{ env.MOODLE_BRANCH }}"
+
         git pull -r
         git push
         if [ $? -ne 0 ]; then
