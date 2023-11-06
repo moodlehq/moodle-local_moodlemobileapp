@@ -962,7 +962,7 @@
     "addon.mod_scorm.offlineattemptovermax": "Dette forsøket kan ikke sendes fordi du overskred maksimalt antall forsøk.",
     "addon.mod_scorm.organizations": "Organisasjoner",
     "addon.mod_scorm.passed": "Bestått",
-    "addon.mod_scorm.reviewmode": "TIl info: Du har allerede fullført",
+    "addon.mod_scorm.reviewmode": "Repetisjonsvisning",
     "addon.mod_scorm.score": "Poengsum",
     "addon.mod_scorm.scormstatusnotdownloaded": "Denne SCORM-pakken lastes ikke ned. Den lastes ned automatisk når du åpner den.",
     "addon.mod_scorm.scormstatusoutdated": "Denne SCORM-pakken er endret siden forrige nedlasting. Den lastes ned automatisk når du åpner den.",
