@@ -801,6 +801,7 @@ $string['freemium.upsell_upgradefreeaccept'] = 'Upgrade';
 $string['freemium.upsell_upgradefreemessage'] = 'You are currently on the free plan, upgrade to unlock more features.';
 $string['freemium.upsell_upgradefreepostpone'] = 'Later';
 $string['freemium.upsell_upgradefreetitle'] = 'Upgrade your plan';
+$string['workplace.teams.isoverdue'] = 'Has overdue or expired items';
 
 /* AUTO END */
 
