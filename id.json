@@ -1730,7 +1730,7 @@
     "core.folder": "Folder",
     "core.forcepasswordchangenotice": "Anda harus mengubah kata sandi Anda untuk memproses lebih lanjut.",
     "core.fulllistofcourses": "Semua kursus",
-    "core.fullnameandsitename": "{{namalengkap}} ({{{{namalengkap}} ({{namasitus}})namasitus}})",
+    "core.fullnameandsitename": "{{fullname}} ({{sitename}})",
     "core.fullscreen": "Layar penuh",
     "core.grades.aggregatemean": "Nilai rata-rata",
     "core.grades.aggregatesum": "Natural",
