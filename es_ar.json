@@ -1,0 +1,22 @@
+{
+    "addon.mod_forum.advanced": "Avanzado",
+    "addon.mod_workshop.tasktodo": "Tareas pendientes",
+    "core.accounts": "Cuentas",
+    "core.add": "Agregar",
+    "core.agelocationverification": "Verificación de edad y ubicación",
+    "core.all": "Todos",
+    "core.allgroups": "Todos los grupos",
+    "core.comments.addcomment": "Agregar un comentario ...",
+    "core.course.completion_automatic:todo": "Pendiente:",
+    "core.course.completion_setby:auto:todo": "Pendiente: {{$a.condition}} (establecido por {{$a.setby}})",
+    "core.decsep": ".",
+    "core.editor.h3": "Encabezado (grande)",
+    "core.labelsep": ":",
+    "core.listsep": ",",
+    "core.login.accounts": "Cuentas",
+    "core.login.add": "Agregar",
+    "core.parentlanguage": "es",
+    "core.settings.accessstatement": "Declaración de accesibilidad",
+    "core.user.address": "Dirección",
+    "freemium.accept": "Aceptar"
+}
