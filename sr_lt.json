@@ -1801,7 +1801,7 @@
     "core.login.invalidaccount": "Proverite svoje podatke za prijavu ili zamolite vašeg administratora da proveri konfiguraciju sajta.",
     "core.login.invaliddate": "Neispravan datum",
     "core.login.invalidemail": "Neispravna adresa elektronske pošte",
-    "core.login.invalidmoodleversion": "Neispravna Moodle verzija. Neophodna je, minimalno, verzija {{$a}}.",
+    "core.login.invalidmoodleversion": "Verzija sistema je previše stara. Moodle App radi sa verzijom {{$a}} i novijim.",
     "core.login.invalidsite": "URL adresa sajta nije ispravna.",
     "core.login.invalidtime": "Neispravno vreme",
     "core.login.invalidurl": "Navedena je neispravna URL adresa",
