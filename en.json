@@ -2751,6 +2751,7 @@
     "workplace.teams.filterstartswith": "Starts with",
     "workplace.teams.fullname": "Full name",
     "workplace.teams.globalmanager": "Manager",
+    "workplace.teams.isoverdue": "Has overdue or expired items",
     "workplace.teams.jobsnumber": "Jobs",
     "workplace.teams.learning": "Learning",
     "workplace.teams.orgfiltercustomise": "Customise",
