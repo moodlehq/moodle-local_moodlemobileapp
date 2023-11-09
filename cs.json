@@ -2543,5 +2543,6 @@
     "workplace.teams.filterisnotequalto": "Nerovná se",
     "workplace.teams.filterstartswith": "Začíná s",
     "workplace.teams.fullname": "Celý název",
+    "workplace.teams.isoverdue": "Má položky po termínu nebo jim vypršela platnost",
     "workplace.teams.resetall": "Resetovat vše"
 }
