@@ -2006,7 +2006,7 @@
     "core.login.siteurlrequired": "رابط الموقع مطلوب.. مثل <i>http://www.yourmoodlesite.org</i>",
     "core.login.startsignup": "إنشاء اشتراك جديد",
     "core.login.stillcantconnect": "أما زلت غير قادر على الاتصال؟",
-    "core.login.supplyinfo": "الرجاء إدخال تفاصيل أكثر",
+    "core.login.supplyinfo": "المزيد من التفاصيل",
     "core.login.toggleremove": "تحرير قائمة الحسابات",
     "core.login.username": "اسم المستخدم",
     "core.login.usernameoremail": "أدخل اسم المستخدم كاملاً أو عنوان البريد الإلكتروني",
@@ -2473,5 +2473,6 @@
     "workplace.resetfilters": "إعادة تعيين المرشحات",
     "workplace.roleincontext": "{{$a.role}} في {{$a.context}}",
     "workplace.seecontent": "مشاهدة المحتوى",
-    "workplace.startswith": "يبدأ بـ"
+    "workplace.startswith": "يبدأ بـ",
+    "workplace.teams.pluginname": "نظرة عامة على الفريق"
 }
