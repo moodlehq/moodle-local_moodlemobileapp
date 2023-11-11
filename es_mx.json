@@ -2752,6 +2752,7 @@
     "workplace.teams.filterstartswith": "Comienza con",
     "workplace.teams.fullname": "Nombre completo",
     "workplace.teams.globalmanager": "Mánager (gestor)",
+    "workplace.teams.isoverdue": "Tiene elementos caducos o expirados",
     "workplace.teams.jobsnumber": "Trabajos",
     "workplace.teams.learning": "Aprendizaje",
     "workplace.teams.orgfiltercustomise": "Personalizar",
