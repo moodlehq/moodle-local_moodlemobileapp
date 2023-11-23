@@ -723,7 +723,7 @@
     "addon.mod_h5pactivity.answer_pass": "Respuesta correcta",
     "addon.mod_h5pactivity.attempt": "Intento",
     "addon.mod_h5pactivity.attempt_completion_no": "Este intento no está marcado como completado",
-    "addon.mod_h5pactivity.attempt_completion_yes": "Este intento no está completado",
+    "addon.mod_h5pactivity.attempt_completion_yes": "Este intento está completado",
     "addon.mod_h5pactivity.attempt_success_fail": "Fallo",
     "addon.mod_h5pactivity.attempt_success_pass": "Aprobado",
     "addon.mod_h5pactivity.attempt_success_unknown": "No informado",
