@@ -2714,6 +2714,8 @@
   "workplace.orgstructure": "tool_organisation",
   "workplace.overdue": "tool_program",
   "workplace.pluginname": "tool_program/programsoverview_mobile",
+  "workplace.proceedtocourse": "tool_catalogue",
+  "workplace.proceedtoprogram": "tool_catalogue",
   "workplace.program": "tool_catalogue",
   "workplace.programhelptext": "tool_catalogue",
   "workplace.programhelptitle": "tool_catalogue",
