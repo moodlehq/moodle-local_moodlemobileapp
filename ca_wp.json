@@ -315,6 +315,8 @@
     "workplace.orgstructure": "Estructura d’organització",
     "workplace.overdue": "Endarrerit",
     "workplace.pluginname": "Visió general dels programes",
+    "workplace.proceedtocourse": "Accedeix al contingut del curs",
+    "workplace.proceedtoprogram": "Accedeix al contingut del programa",
     "workplace.program": "Programa",
     "workplace.programhelptext": "<ul><li>Els programes poden contenir diferents cursos</li><li>Completa els cursos per a completar el programa</li></ul>",
     "workplace.programhelptitle": "Què es un programa?",

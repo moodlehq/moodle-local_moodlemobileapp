@@ -2713,6 +2713,8 @@
     "workplace.orgstructure": "組織構造",
     "workplace.overdue": "期限切れ",
     "workplace.pluginname": "プログラム概要",
+    "workplace.proceedtocourse": "コースコンテンツに進む",
+    "workplace.proceedtoprogram": "プログラム内容に進む",
     "workplace.program": "プログラム",
     "workplace.programhelptext": "<ul><li>プログラムには様々なコースが含まれています。</li><li>各コースを(1つ以上またはすべて)完了するとプログラム完了となります。</li></ul>",
     "workplace.programhelptitle": "プログラムとは？",

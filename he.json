@@ -1966,6 +1966,7 @@
     "workplace.mylearning": "הלמידה שלי",
     "workplace.nothingtodisplay": "אין כלום להציג",
     "workplace.orgstructure": "מבנה ארגוני",
+    "workplace.proceedtocourse": "המשיכו לתוכן הקורס",
     "workplace.programs": "תוכניות לימודים",
     "workplace.recentlyaccessedcourses": "קורסים אשר נצפו לאחרונה",
     "workplace.roleincontext": "{{$a.role}} ב- {{$a.context}}",

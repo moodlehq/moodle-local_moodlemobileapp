@@ -67,6 +67,8 @@
     "workplace.orgstructure": "Organisation",
     "workplace.overdue": "Überfällig",
     "workplace.pluginname": "Übersicht über Programme",
+    "workplace.proceedtocourse": "Weiter zum Kursinhalt",
+    "workplace.proceedtoprogram": "Weiter zum Programminhalt",
     "workplace.program": "Programm",
     "workplace.programhelptext": "<ul><li>Programme können verschiedene Kurse enthalten</li><li>Schliessen Sie die Kurse ab, um das Programm abzuschließen</li></ul>",
     "workplace.programhelptitle": "Was ist ein Programm?",

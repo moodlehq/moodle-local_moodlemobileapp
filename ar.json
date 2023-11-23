@@ -2636,6 +2636,7 @@
     "workplace.expired": "منتهية الصلاحية",
     "workplace.moreinfo": "المزيد من المعلومات",
     "workplace.nothingtodisplay": "لا شيء لعرضه",
+    "workplace.proceedtocourse": "المواصلة إلى محتويات المقرر",
     "workplace.roleincontext": "{{$a.role}} في {{$a.context}}",
     "workplace.seecontent": "مشاهدة المحتوى",
     "workplace.teams.anydepartment": "أَيّما",
