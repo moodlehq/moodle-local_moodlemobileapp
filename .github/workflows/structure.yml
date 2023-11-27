@@ -11,10 +11,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        moodle_branch: ['master', 'MOODLE_403_STABLE', 'MOODLE_402_STABLE', 'MOODLE_401_STABLE', 'MOODLE_400_STABLE', 'MOODLE_311_STABLE']
+        moodle_branch: ['master', 'MOODLE_403_STABLE', 'MOODLE_402_STABLE', 'MOODLE_401_STABLE']
     env:
       dbtype: pgsql
-      php: 8.0
+      php: 8.1
       MOODLE_BRANCH: ${{ matrix.moodle_branch || 'master' }}
       MOODLE_REPOSITORY: 'https://github.com/moodle/moodle'
     steps:
