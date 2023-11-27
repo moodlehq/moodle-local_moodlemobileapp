@@ -637,6 +637,7 @@
     "addon.mod_workshop.modulenameplural": "အလုပ်ရုံဆွေးနွေးပွဲများ",
     "addon.mod_workshop.nogradeyet": "အဆင့်သတ်မှတ်ထားခြင်း မရှိသေးပါ",
     "addon.mod_workshop.notassessed": "အကဲမဖြတ်ရသေးပါ",
+    "addon.mod_workshop.notoverridden": "ထပ်၍မှတ်သားထားခြင်း မရှိပါ",
     "addon.mod_workshop.noyoursubmission": "သင်၏ အလုပ်ကို မတင်ပြရသေးပါ",
     "addon.mod_workshop.overallfeedback": "ခြုံငုံအကြံပြုချက်",
     "addon.mod_workshop.publishedsubmissions": "ထုတ်ဝေပြီးသောတင်ပြချက်များ",
