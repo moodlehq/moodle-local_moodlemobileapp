@@ -551,6 +551,7 @@
     "addon.mod_lesson.youranswer": "Вашы адказ",
     "addon.mod_lesson.yourcurrentgradeisoutof": "Вашая цяперашняя адзнака {{$a.grade}} з {{$a.total}}",
     "addon.mod_lesson.youshouldview": "Вы мусіце адказаць прынамсі: {{$a}} раз(а)",
+    "addon.mod_lti.modulenameplural": "Вонкавыя сродкі",
     "addon.mod_page.modulenameplural": "Старонкі",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
