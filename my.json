@@ -575,6 +575,7 @@
     "addon.mod_resource.modifieddate": "ပြန်လည်ပြပြင်ထားသည် {{$a}}",
     "addon.mod_resource.modulenameplural": "ဖိုင်များ",
     "addon.mod_resource.uploadeddate": "တင်ထားပြီး {{$a}}",
+    "addon.mod_scorm.asset": "ပိုင်ဆိုင်မှု",
     "addon.mod_scorm.assetlaunched": "Asset - Viewed",
     "addon.mod_scorm.attempts": "ကြိုးပမ်းမှုများ",
     "addon.mod_scorm.averageattempt": "ပျမ်းမျှကြိုးပမ်းမှုများ",
