@@ -1795,6 +1795,7 @@
     "core.h5p.add": "Tambahkan",
     "core.h5p.additionallicenseinfo": "Informasi tambahan tentang lisensi",
     "core.h5p.address": "Alamat",
+    "core.h5p.age": "Usia tipikal",
     "core.h5p.ageDescription": "Target pemirsa konten ini. Kemungkinan format masukan dipisahkan dengan koma: \"1,34-45,-50,59-\".",
     "core.h5p.altText": "Teks alternatif",
     "core.h5p.author": "Penulis",
