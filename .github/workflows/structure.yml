@@ -57,20 +57,30 @@ jobs:
 
         git remote set-url origin https://$GIT_TOKEN@github.com/$GITHUB_REPOSITORY.git
         git fetch -q origin
+
+        echo "Executing PHP script..."
+
         php structure/get_all_ws_structures.php $GITHUB_WORKSPACE/moodle > structure/${{ env.MOODLE_BRANCH }}.ts
+
         git add structure/*.ts
-        git diff --cached --exit-code
-        if [ $? -eq 0 ]; then
-          # Nothing to commit
+
+        echo "Checking if there are any changes to commit"
+        if [ -z "$(git diff --cached)" ]; then
+          echo "No changes detected, exiting"
           exit 0
         fi
 
+        echo "Committing changes"
         git commit -m "[auto-generated] Update structure file for ${{ env.MOODLE_BRANCH }}"
+        echo "Pushing changes"
 
         git pull -r
         git push
         if [ $? -ne 0 ]; then
+          echo "Push failed, retrying in ~30 seconds"
           sleep $((RANDOM % 30))
           git pull -r
           git push
         fi
+
+        echo "Changes pushed successfully"
