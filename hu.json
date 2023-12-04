@@ -729,7 +729,7 @@
     "addon.mod_quiz.clearchoice": "Választásom törlése",
     "addon.mod_quiz.comment": "Megjegyzés",
     "addon.mod_quiz.completedon": "Befejezés dátuma",
-    "addon.mod_quiz.confirmclose": "A leadás után a próbálkozással kapcsolatos válaszait nem módosíthatja.",
+    "addon.mod_quiz.confirmclose": "A leadás után a válaszait nem módosíthatja.",
     "addon.mod_quiz.confirmstart": "A teszthez {{$a}} időkorlát kapcsolódik. Kezdéskor elindul a visszaszámlálás, amelyet nem szakíthat meg. A vége előtt le kell adnia a tesztet. Biztosan készen áll a kezdésre?",
     "addon.mod_quiz.confirmstartheader": "Időkorlát",
     "addon.mod_quiz.connectionerror": "A hálózati kapcsolat megszűnt (az automatikus mentés nem sikerült).\n\nJegyezze fel az oldalon megadott esetleges válaszokat, majd próbáljon meg újból kapcsolódni.\n\nHa sikerül. válaszainak mentése után ez az üzenet eltűnik.",
