@@ -396,6 +396,7 @@ export type AddonBlogGetEntriesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         attachmentfiles?: { // Attachmentfiles.
             filename?: string; // File name.
@@ -406,6 +407,7 @@ export type AddonBlogGetEntriesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         tags?: { // Tags.
             id: number; // Tag id.
@@ -418,6 +420,7 @@ export type AddonBlogGetEntriesWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     totalentries: number; // The total number of entries found.
@@ -2502,6 +2505,7 @@ export type CoreCourseGetContentsWSResponse = {
                 itemid: number; // Id of the record tagged.
                 ordering: number; // Tag ordering.
                 flag: number; // Whether the tag is flagged as inappropriate.
+                viewurl?: string; // The url to view the tag.
             }[];
         }[];
         contentsinfo?: {
@@ -2778,6 +2782,8 @@ export type CoreCourseGetCoursesByFieldWSResponse = {
             name: string; // Course format option name.
             value: string; // Course format option value.
         }[];
+        communicationroomname?: string; // Communication tool room name.
+        communicationroomurl?: string; // Communication tool room URL.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -7217,6 +7223,7 @@ export type AddonModAssignGetAssignmentsWSResponse = {
             maxattempts: number; // Maximum number of attempts allowed.
             markingworkflow: number; // Enable marking workflow.
             markingallocation: number; // Enable marking allocation.
+            markinganonymous: number; // Enable marking anonymous.
             requiresubmissionstatement: number; // Student must accept submission statement.
             preventsubmissionnotingroup?: number; // Prevent submission not in group.
             submissionstatement?: string; // Submission statement formatted.
@@ -9000,6 +9007,7 @@ export type AddonModDataGetDatabasesByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -9065,6 +9073,7 @@ export type AddonModDataGetEntriesWSResponse = {
                 mimetype?: string; // File mime type.
                 isexternalfile?: boolean; // Whether is an external file.
                 repositorytype?: string; // The repository type for the external files.
+                icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
             }[];
         }[];
         tags?: { // Tags.
@@ -9078,6 +9087,7 @@ export type AddonModDataGetEntriesWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     totalcount: number; // Total count of records.
@@ -9130,6 +9140,7 @@ export type AddonModDataGetEntryWSResponse = {
                 mimetype?: string; // File mime type.
                 isexternalfile?: boolean; // Whether is an external file.
                 repositorytype?: string; // The repository type for the external files.
+                icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
             }[];
         }[];
         tags?: { // Tags.
@@ -9143,6 +9154,7 @@ export type AddonModDataGetEntryWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     };
     entryviewcontents?: string; // The entry as is rendered in the site.
@@ -9280,6 +9292,7 @@ export type AddonModDataSearchEntriesWSResponse = {
                 mimetype?: string; // File mime type.
                 isexternalfile?: boolean; // Whether is an external file.
                 repositorytype?: string; // The repository type for the external files.
+                icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
             }[];
         }[];
         tags?: { // Tags.
@@ -9293,6 +9306,7 @@ export type AddonModDataSearchEntriesWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     totalcount: number; // Total count of records returned by the search.
@@ -9518,6 +9532,7 @@ export type AddonModFeedbackGetFeedbacksByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         pageaftersubmitfiles?: { // Pageaftersubmitfiles.
             filename?: string; // File name.
@@ -9528,6 +9543,7 @@ export type AddonModFeedbackGetFeedbacksByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -11195,6 +11211,7 @@ export type AddonModGlossaryGetEntriesByAuthorWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     ratinginfo?: {
@@ -11286,6 +11303,7 @@ export type AddonModGlossaryGetEntriesByAuthorIdWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     ratinginfo?: {
@@ -11375,6 +11393,7 @@ export type AddonModGlossaryGetEntriesByCategoryWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
         categoryid?: number; // The category ID. This may be '-1' when the entry is not categorised.
         categoryname?: string; // The category name. May be empty when the entry is not categorised, or the request was limited to one category.
@@ -11467,6 +11486,7 @@ export type AddonModGlossaryGetEntriesByDateWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     ratinginfo?: {
@@ -11556,6 +11576,7 @@ export type AddonModGlossaryGetEntriesByLetterWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     ratinginfo?: {
@@ -11648,6 +11669,7 @@ export type AddonModGlossaryGetEntriesBySearchWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     ratinginfo?: {
@@ -11737,6 +11759,7 @@ export type AddonModGlossaryGetEntriesByTermWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     ratinginfo?: {
@@ -11827,6 +11850,7 @@ export type AddonModGlossaryGetEntriesToApproveWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     ratinginfo?: {
@@ -11909,6 +11933,7 @@ export type AddonModGlossaryGetEntryByIdWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     };
     ratinginfo?: {
@@ -12205,6 +12230,7 @@ export type AddonModH5pactivityGetH5pactivitiesByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         package: { // Package.
             filename?: string; // File name.
@@ -12215,6 +12241,7 @@ export type AddonModH5pactivityGetH5pactivitiesByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         deployedfile?: {
             filename?: string; // File name.
@@ -12694,6 +12721,7 @@ export type AddonModLessonGetLessonWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         mediafiles?: { // Mediafiles.
             filename?: string; // File name.
@@ -12704,6 +12732,7 @@ export type AddonModLessonGetLessonWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     };
     warnings?: CoreWSExternalWarning[];
@@ -12811,6 +12840,7 @@ export type AddonModLessonGetLessonsByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         mediafiles?: { // Mediafiles.
             filename?: string; // File name.
@@ -12821,6 +12851,7 @@ export type AddonModLessonGetLessonsByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -14700,6 +14731,7 @@ export type AddonModWikiGetPageContentsWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }; // Page.
     warnings?: CoreWSExternalWarning[];
@@ -14799,6 +14831,7 @@ export type AddonModWikiGetSubwikiPagesWSResponse = {
             itemid: number; // Id of the record tagged.
             ordering: number; // Tag ordering.
             flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -15077,6 +15110,7 @@ export type AddonModWorkshopGetAssessmentWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         feedbackattachmentfiles: { // Feedbackattachmentfiles.
             filename?: string; // File name.
@@ -15087,6 +15121,7 @@ export type AddonModWorkshopGetAssessmentWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     };
     warnings?: CoreWSExternalWarning[];
@@ -15275,6 +15310,7 @@ export type AddonModWorkshopGetReviewerAssessmentsWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         feedbackattachmentfiles: { // Feedbackattachmentfiles.
             filename?: string; // File name.
@@ -15285,6 +15321,7 @@ export type AddonModWorkshopGetReviewerAssessmentsWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -15340,6 +15377,7 @@ export type AddonModWorkshopGetSubmissionWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         attachmentfiles?: { // Attachmentfiles.
             filename?: string; // File name.
@@ -15350,6 +15388,7 @@ export type AddonModWorkshopGetSubmissionWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     };
     warnings?: CoreWSExternalWarning[];
@@ -15407,6 +15446,7 @@ export type AddonModWorkshopGetSubmissionAssessmentsWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         feedbackattachmentfiles: { // Feedbackattachmentfiles.
             filename?: string; // File name.
@@ -15417,6 +15457,7 @@ export type AddonModWorkshopGetSubmissionAssessmentsWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -15478,6 +15519,7 @@ export type AddonModWorkshopGetSubmissionsWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         attachmentfiles?: { // Attachmentfiles.
             filename?: string; // File name.
@@ -15488,6 +15530,7 @@ export type AddonModWorkshopGetSubmissionsWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     }[];
     totalcount: number; // Total count of submissions.
@@ -15658,6 +15701,7 @@ export type AddonModWorkshopGetWorkshopsByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         instructauthorsfiles?: { // Instructauthorsfiles.
             filename?: string; // File name.
@@ -15668,6 +15712,7 @@ export type AddonModWorkshopGetWorkshopsByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         instructreviewersfiles?: { // Instructreviewersfiles.
             filename?: string; // File name.
@@ -15678,6 +15723,7 @@ export type AddonModWorkshopGetWorkshopsByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
         conclusionfiles?: { // Conclusionfiles.
             filename?: string; // File name.
@@ -15688,6 +15734,7 @@ export type AddonModWorkshopGetWorkshopsByCoursesWSResponse = {
             mimetype?: string; // File mime type.
             isexternalfile?: boolean; // Whether is an external file.
             repositorytype?: string; // The repository type for the external files.
+            icon?: string; // Relative path to the relevant file type icon based on the file's mime type.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
