@@ -1013,7 +1013,7 @@
     "addon.mod_workshop.areainstructreviewers": "Instrucciones para la evaluación",
     "addon.mod_workshop.assess": "Evaluar",
     "addon.mod_workshop.assessedsubmission": "Envío evaluado",
-    "addon.mod_workshop.assessmentform": "Formato de evaluación",
+    "addon.mod_workshop.assessmentform": "Formulario de evaluación",
     "addon.mod_workshop.assessmentsettings": "Configuración de la evaluación",
     "addon.mod_workshop.assessmentstrategynotsupported": "Estrategia de calificación {{$a}} no soportada",
     "addon.mod_workshop.assessmentweight": "Ponderación de la evaluación",
