@@ -363,7 +363,7 @@
     "addon.mod_assign.grade": "Calificación",
     "addon.mod_assign.graded": "Calificado",
     "addon.mod_assign.gradedby": "Calificado por",
-    "addon.mod_assign.gradedfollowupsubmit": "Calificado - entrega de seguimiento recibida",
+    "addon.mod_assign.gradedfollowupsubmit": "Calificado - vuelto a entregar",
     "addon.mod_assign.gradedon": "Calificado sobre",
     "addon.mod_assign.gradelocked": "Esta calificación está bloqueada o ha sido modificada en el libro de calificaciones",
     "addon.mod_assign.gradenotsynced": "Calificación no sincronizada",
