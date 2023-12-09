@@ -341,7 +341,7 @@
     "addon.mod_assign.grade": "Įvertinimas",
     "addon.mod_assign.graded": "Įvertinta",
     "addon.mod_assign.gradedby": "Įvertino",
-    "addon.mod_assign.gradedfollowupsubmit": "Įvertinta – gautas tolesnis pateikimas",
+    "addon.mod_assign.gradedfollowupsubmit": "Įvertinta - pakartotinai pateikta",
     "addon.mod_assign.gradedon": "Įvertinta",
     "addon.mod_assign.gradelocked": "Šis įvertinimas yra užrakintas arba pakeistas įvertinimų knygelėje.",
     "addon.mod_assign.gradeoutof": "Įvertinimas (iš galimų {{$a}})",

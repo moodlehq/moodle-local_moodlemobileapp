@@ -363,7 +363,7 @@
     "addon.mod_assign.grade": "Známka",
     "addon.mod_assign.graded": "Udělena známka",
     "addon.mod_assign.gradedby": "Hodnoceno",
-    "addon.mod_assign.gradedfollowupsubmit": "Ohodnoceno - poté odevzdáno další řešení",
+    "addon.mod_assign.gradedfollowupsubmit": "Ohodnoceno - znovu odesláno",
     "addon.mod_assign.gradedon": "Hodnoceno dne",
     "addon.mod_assign.gradelocked": "Známka je v klasifikaci kurzu zamčena nebo přepsána.",
     "addon.mod_assign.gradenotsynced": "Známky nejsou synchronizovány",
