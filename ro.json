@@ -376,7 +376,7 @@
     "addon.mod_assign.grade": "Notă",
     "addon.mod_assign.graded": "Notat",
     "addon.mod_assign.gradedby": "Notat de",
-    "addon.mod_assign.gradedfollowupsubmit": "Notat -  urmărire notă primită",
+    "addon.mod_assign.gradedfollowupsubmit": "Notat -  retrimis",
     "addon.mod_assign.gradedon": "Notat în data de",
     "addon.mod_assign.gradelocked": "Această notă este blocată sau suprascrisă în catalog.",
     "addon.mod_assign.gradenotsynced": "Nivel nesincronizat",
