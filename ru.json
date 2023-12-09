@@ -345,7 +345,7 @@
     "addon.mod_assign.grade": "Оценка",
     "addon.mod_assign.graded": "Оценено",
     "addon.mod_assign.gradedby": "Оценено",
-    "addon.mod_assign.gradedfollowupsubmit": "Оценено - получен исправленный ответ",
+    "addon.mod_assign.gradedfollowupsubmit": "Оценено - исправленный ответ",
     "addon.mod_assign.gradedon": "Оценено в",
     "addon.mod_assign.gradelocked": "Эта оценка заблокирована или изменена в журнале оценок.",
     "addon.mod_assign.gradenotsynced": "Оценка не синхронизирована",
