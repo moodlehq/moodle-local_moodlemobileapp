@@ -3386,6 +3386,67 @@ export type CoreGradesGetEnrolledUsersForSearchWidgetWSResponse = {
 };
 
 /**
+ * Params of core_grades_get_gradable_users WS.
+ *
+ * WS Description: Returns the gradable users in a course
+ */
+type CoreGradesGetGradableUsersWSParams = {
+    courseid: number; // Course Id.
+    groupid?: number; // Group Id.
+    onlyactive?: boolean; // Only active enrolment.
+};
+
+/**
+ * Data returned by core_grades_get_gradable_users WS.
+ *
+ * WS Description: Returns the gradable users in a course
+ */
+export type CoreGradesGetGradableUsersWSResponse = {
+    users: {
+        id: number; // ID of the user.
+        username?: string; // The username.
+        firstname?: string; // The first name(s) of the user.
+        lastname?: string; // The family name of the user.
+        fullname: string; // The fullname of the user.
+        email?: string; // An email address - allow email as root@localhost.
+        address?: string; // Postal address.
+        phone1?: string; // Phone 1.
+        phone2?: string; // Phone 2.
+        department?: string; // Department.
+        institution?: string; // Institution.
+        idnumber?: string; // An arbitrary ID code number perhaps from the institution.
+        interests?: string; // User interests (separated by commas).
+        firstaccess?: number; // First access to the site (0 if never).
+        lastaccess?: number; // Last access to the site (0 if never).
+        auth?: string; // Auth plugins include manual, ldap, etc.
+        suspended?: boolean; // Suspend user account, either false to enable user login or true to disable it.
+        confirmed?: boolean; // Active user: 1 if confirmed, 0 otherwise.
+        lang?: string; // Language code such as "en", must exist on server.
+        calendartype?: string; // Calendar type such as "gregorian", must exist on server.
+        theme?: string; // Theme name such as "standard", must exist on server.
+        timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
+        mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+        description?: string; // User profile description.
+        descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN or 4 = MARKDOWN).
+        city?: string; // Home city of the user.
+        country?: string; // Home country code of the user, such as AU or CZ.
+        profileimageurlsmall: string; // User image profile URL - small version.
+        profileimageurl: string; // User image profile URL - big version.
+        customfields?: { // User custom fields (also known as user profile fields).
+            type: string; // The type of the custom field - text field, checkbox...
+            value: string; // The value of the custom field.
+            name: string; // The name of the custom field.
+            shortname: string; // The shortname of the custom field - to be able to build the field class in the code.
+        }[];
+        preferences?: { // Users preferences.
+            name: string; // The name of the preferences.
+            value: string; // The value of the preference.
+        }[];
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of core_grades_get_groups_for_search_widget WS.
  *
  * WS Description: Get the group/(s) for a course
