@@ -372,7 +372,7 @@
     "addon.mod_assign.grade": "Not",
     "addon.mod_assign.graded": "Not verildi",
     "addon.mod_assign.gradedby": "Notu veren",
-    "addon.mod_assign.gradedfollowupsubmit": "Notlandı - ek gönderi alındı",
+    "addon.mod_assign.gradedfollowupsubmit": "Not verildi - yeniden gönderildi",
     "addon.mod_assign.gradedon": "Not verildi",
     "addon.mod_assign.gradelocked": "Bu not kilitli veya not defterinde geçersiz kılınmıştır.",
     "addon.mod_assign.gradenotsynced": "Not senkronize edilmedi",
