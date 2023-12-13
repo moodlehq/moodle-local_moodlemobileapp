@@ -364,7 +364,7 @@
     "addon.mod_assign.grade": "Note",
     "addon.mod_assign.graded": "Noté",
     "addon.mod_assign.gradedby": "Évalué par",
-    "addon.mod_assign.gradedfollowupsubmit": "Évalué - travail supplémentaire reçu",
+    "addon.mod_assign.gradedfollowupsubmit": "Évalué - de nouveau remis",
     "addon.mod_assign.gradedon": "Évalué le",
     "addon.mod_assign.gradelocked": "Cette note est verrouillée ou modifiée dans le carnet de notes.",
     "addon.mod_assign.gradenotsynced": "Note non synchronisée",
