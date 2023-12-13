@@ -347,7 +347,7 @@
     "addon.mod_assign.grade": "Оцена",
     "addon.mod_assign.graded": "Оцењено",
     "addon.mod_assign.gradedby": "Оценио/ла",
-    "addon.mod_assign.gradedfollowupsubmit": "Оцењено - примљен накнадно достављен рад",
+    "addon.mod_assign.gradedfollowupsubmit": "Оцењено - поново предат рад",
     "addon.mod_assign.gradedon": "Оцењено",
     "addon.mod_assign.gradelocked": "Ова оцена је закључана или измењена у књизи оцена.",
     "addon.mod_assign.gradenotsynced": "Оцена није синхронизована",
