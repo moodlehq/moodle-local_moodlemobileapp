@@ -2128,7 +2128,7 @@
     "core.login.reconnectsupportsubject": "再接続のサポートを必要とする",
     "core.login.reconnecttosite": "サイトに再接続する",
     "core.login.removeaccount": "アカウントを削除する",
-    "core.login.resendemail": "メールを再送する",
+    "core.login.resendemail": "確認メールを再送する",
     "core.login.searchby": "検索:",
     "core.login.security_question": "セキュリティ質問",
     "core.login.selectacountry": "国を選択する",
