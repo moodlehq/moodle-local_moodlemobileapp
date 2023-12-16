@@ -1908,7 +1908,7 @@
     "core.login.profileinvaliddata": "Некорректное значение",
     "core.login.recaptchachallengeimage": "картинка испытания reCAPTCHA",
     "core.login.reconnect": "Переподключение",
-    "core.login.resendemail": "Отправить письмо еще раз",
+    "core.login.resendemail": "Повторно отправить письмо с подтверждением",
     "core.login.searchby": "Искать по:",
     "core.login.security_question": "Секретный вопрос",
     "core.login.selectacountry": "Выберите страну",

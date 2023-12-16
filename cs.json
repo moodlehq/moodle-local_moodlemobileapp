@@ -2128,7 +2128,7 @@
     "core.login.reconnectsupportsubject": "Potřebujete pomoc s obnovením připojení",
     "core.login.reconnecttosite": "Znovu se připojte k webu",
     "core.login.removeaccount": "Odstranit účet",
-    "core.login.resendemail": "Přeposlat email",
+    "core.login.resendemail": "Znovu odeslat potvrzovací e-mail",
     "core.login.searchby": "Hledat pomocí:",
     "core.login.security_question": "Bezpečnostní otázka",
     "core.login.selectacountry": "Vyberte zemi",

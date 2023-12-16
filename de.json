@@ -2128,7 +2128,7 @@
     "core.login.reconnectsupportsubject": "Benötigen Sie Hilfe beim Wiederverbinden",
     "core.login.reconnecttosite": "Neu verbinden zur Website",
     "core.login.removeaccount": "Nutzerkonto aus der Liste entfernen",
-    "core.login.resendemail": "E-Mail erneut senden",
+    "core.login.resendemail": "E-Mail zur Bestätigung erneut senden",
     "core.login.searchby": "Suche nach:",
     "core.login.security_question": "Sicherheitsfrage",
     "core.login.selectacountry": "Land auswählen",
