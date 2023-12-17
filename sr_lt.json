@@ -1936,7 +1936,7 @@
     "core.login.recaptchaexpired": "Verifikacija je istekla. Ponovo odgovorite na bezbednosno pitanje.",
     "core.login.recaptchaincorrect": "Odgovor na bezbednosno pitanje je netačan.",
     "core.login.reconnect": "Povežite se ponovo",
-    "core.login.resendemail": "Pošalji ponovo e-poruku",
+    "core.login.resendemail": "Pošalji ponovo e-poruku za potvrdu",
     "core.login.searchby": "Pretraga po:",
     "core.login.security_question": "Bezbednosno pitanje",
     "core.login.selectacountry": "Izaberi državu",
