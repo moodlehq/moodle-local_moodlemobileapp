@@ -2128,7 +2128,7 @@
     "core.login.reconnectsupportsubject": "Trenger hjelp til å koble til igjen",
     "core.login.reconnecttosite": "Koble til portalen på nytt",
     "core.login.removeaccount": "Fjern konto",
-    "core.login.resendemail": "Send epost på nytt",
+    "core.login.resendemail": "Send bekreftelses-epost på nytt",
     "core.login.searchby": "Søk med:",
     "core.login.security_question": "Sikkerhetsspørmål",
     "core.login.selectacountry": "Velg et land",
