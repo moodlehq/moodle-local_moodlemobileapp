@@ -360,6 +360,7 @@
     "core.login.changepassword": "تغير كلمة المرور",
     "core.login.createaccount": "إنشاء حسابي الجديد",
     "core.login.createuserandpass": "إختر اسم المستخدم وكلمة المرور الخاصين بك",
+    "core.login.emailconfirmsent": "<p> <b>{{$a}}</b>تم إرسال بريد إلكتروني إلى عنوانك </p>\n<p>.يحتوي على تعليمات سهلة لإتمام عملية التسجيل</p>\n<p>.إذا استمرت المشكلة، فاتصل بمسؤول الموقع</p>",
     "core.login.emailconfirmsentsuccess": "تم إرسال بريد التأكيد الإلكتروني بنجاح",
     "core.login.firsttime": "هل هذه هي المرة الأولى لك هنا؟",
     "core.login.forcepasswordchangenotice": "يجب عليك تغيير كلمة المرور الخاصة بك للمتابعة.",
