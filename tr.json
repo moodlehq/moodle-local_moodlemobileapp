@@ -2124,7 +2124,7 @@
     "core.login.reconnectsupportsubject": "Yeniden bağlanmak için yardıma ihtiyacınız var",
     "core.login.reconnecttosite": "Siteye yeniden bağlan",
     "core.login.removeaccount": "Hesabı kaldır",
-    "core.login.resendemail": "Elektronik postayı tekrar gönder",
+    "core.login.resendemail": "Onay e-postasını yeniden gönder",
     "core.login.searchby": "Arama ölçütü:",
     "core.login.security_question": "Güvenlik sorusu",
     "core.login.selectacountry": "Bir ülke seç",

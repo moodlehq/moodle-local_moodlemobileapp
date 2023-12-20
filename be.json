@@ -573,6 +573,8 @@
     "addon.mod_quiz.attemptnumber": "Спроба",
     "addon.mod_quiz.attemptquiznow": "Паспрабаваць выканаць тэст зараз",
     "addon.mod_quiz.attemptstate": "Статус",
+    "addon.mod_quiz.comment": "Каментар",
+    "addon.mod_quiz.completedon": "Выканана",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
     "addon.mod_resource.uploadeddate": "Запампована {{$a}}",
