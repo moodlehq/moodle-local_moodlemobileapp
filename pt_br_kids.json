@@ -1,0 +1,17 @@
+{
+    "addon.badges.badges": "Medalhas",
+    "addon.badges.issuancedetails": "Validade da medalha",
+    "addon.badges.noalignment": "Esta medalha não possui habilidades ou padrões externos especificados.",
+    "addon.badges.nobadges": "Atualmente, não há medalhas disponíveis para os usuários conquistarem.",
+    "addon.badges.norelated": "Esta medalha não possui medalhas relacionadas.",
+    "addon.badges.relatedbages": "Medalhas Relacionadas",
+    "addon.badges.warnexpired": "(Esta medalha expirou!)",
+    "addon.block_badges.pluginname": "Medalhas mais recentes",
+    "addon.coursecompletion.nottracked": "Atualmente, você não está sendo acompanhado no progresso deste curso",
+    "addon.mod_quiz.confirmclose": "Depois que você enviar suas respostas, não será possível alterá-las.",
+    "core.courses.notenroled": "Você não está matriculado neste curso",
+    "core.decsep": ".",
+    "core.labelsep": ":",
+    "core.listsep": ",",
+    "core.parentlanguage": "pt_br"
+}
