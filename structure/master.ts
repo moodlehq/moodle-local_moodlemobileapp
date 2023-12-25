@@ -2433,6 +2433,7 @@ export type CoreCourseGetContentsWSResponse = {
         visibleoncoursepage?: number; // Is the module visible on course page.
         modicon: string; // Activity icon url.
         modname: string; // Activity module type.
+        purpose: string; // The module purpose.
         modplural: string; // Activity module plural name.
         availability?: string; // Module availability settings.
         indent: number; // Number of identation in the site.
