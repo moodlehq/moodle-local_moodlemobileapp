@@ -1596,7 +1596,7 @@
     "core.login.invalidaccount": "Ελέγξτε τα στοιχεία σύνδεσης ή ζητήστε από τον διαχειριστή του ιστότοπού σας να ελέγξει τη διαμόρφωση του ιστότοπου.",
     "core.login.invaliddate": "Μη έγκυρη ημερομηνία",
     "core.login.invalidemail": "Εσφαλμένη διεύθυνση ηλεκτρονικού ταχυδρομείου",
-    "core.login.invalidmoodleversion": "Μη έγκυρη έκδοση Moodle. Η ελάχιστη απαιτούμενη έκδοση είναι η {{$a}}.",
+    "core.login.invalidmoodleversion": "Η έκδοση του Moodle που χρησιμοποιείτε είναι πολύ παλιά. Το Moodle App λειτουργεί με ιστότοπους που χρησιμοποιούν έκδοση {{$a}} ή νεότερη.",
     "core.login.invalidsite": "Η διεύθυνση ιστότοπου δεν είναι έγκυρη.",
     "core.login.invalidtime": "Μη έγκυρη ώρα",
     "core.login.invalidurl": "Μη έγκυρο URL",
