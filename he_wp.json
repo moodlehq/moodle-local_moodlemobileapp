@@ -1,5 +1,7 @@
 {
     "addon.block_newsitems.pluginname": "חדשות אחרונות",
+    "addon.block_recentlyaccessedcourses.pluginname": "קורסים בהם צפיתם לאחרונה",
+    "addon.block_recentlyaccesseditems.pluginname": "רכיבים בהם צפיתם לאחרונה",
     "addon.mod_assign.addattempt": "אפשר ניסיון נוסף",
     "addon.mod_assign.addnewattempt": "הוסף ניסיון חדש",
     "addon.mod_assign.addnewattemptfromprevious": "הוסף ניסיון חדש המבוסס על הגשה קודמת",
@@ -71,13 +73,16 @@
     "core.user.address": "כתובת",
     "freemium.accept": "אישור",
     "workplace.active": "פעיל",
+    "workplace.completeallinorder": "השלימו הכל לפי הסדר",
     "workplace.content": "תוכן",
     "workplace.mylearning": "הלמידה שלי",
     "workplace.orgstructure": "מבנה ארגוני",
     "workplace.programs": "תוכניות לימודים",
+    "workplace.recentlyaccessedcourses": "קורסים בהם צפיתם לאחרונה",
     "workplace.teams.filterisanyvalue": "כל ערך",
     "workplace.teams.learning": "למידה",
     "workplace.teams.myteams": "צוותים",
     "workplace.teams.orgstructure": "מבנה ארגוני",
-    "workplace.teams.pluginname": "הצוותים שלי"
+    "workplace.teams.pluginname": "הצוותים שלי",
+    "workplace.todo": "נדרש:"
 }
