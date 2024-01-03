@@ -898,7 +898,7 @@
     "addon.mod_quiz.outof": "{{$a.grade}} z {{$a.maxgrade}}",
     "addon.mod_quiz.outofpercent": "{{$a.grade}} pkt. na {{$a.maxgrade}} pkt. możliwych do uzyskania ({{$a.percent}}%)",
     "addon.mod_quiz.outofshort": "{{$a.grade}}/{{$a.maxgrade}}",
-    "addon.mod_quiz.overallfeedback": "Całościowa informacja zwrotna",
+    "addon.mod_quiz.overallfeedback": "Całościowa inf. zwrotna",
     "addon.mod_quiz.overdue": "Opóźnienie",
     "addon.mod_quiz.overduemustbesubmittedby": "To podejście jest opóźnione (karencja): powinno było zostać zatwierdzone i złożone. Jeśli chcesz, aby zostało ocenione, musisz je zatwierdzić i złożyć do: {{$a}} . Jeśli nie zrobisz tego do tego czasu, żadne punkty za to podejście nie zostaną przyznane.",
     "addon.mod_quiz.preview": "Podgląd",
