@@ -524,7 +524,7 @@
     "addon.mod_data.errormustsupplyvalue": "Вы должны здесь указать значение.",
     "addon.mod_data.expired": "К сожалению, этот элемент закрыт {{$a}} и более не доступен",
     "addon.mod_data.fields": "Поля",
-    "addon.mod_data.foundrecords": "Найдено записей: {{$a.num}}/{{$a.max}}. (<a href=\"{{$a.reseturl}}\">Сбросить фильтры</a>)",
+    "addon.mod_data.foundrecords": "Найдено записей: {{$a.num}}/{{$a.max}}. (<a href=\"{{$a.reseturl}}\">Очистить все фильтры</a>)",
     "addon.mod_data.latlongboth": "Необходимо задать и широту, и долготу.",
     "addon.mod_data.menuchoose": "Выбрать...",
     "addon.mod_data.modulenameplural": "Базы данных",
