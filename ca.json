@@ -2113,7 +2113,7 @@
     "core.login.reconnectsupportsubject": "Necessito ajuda per tornar a connectar",
     "core.login.reconnecttosite": "Torneu-vos a connectar al lloc",
     "core.login.removeaccount": "Elimina el compte d'usuari",
-    "core.login.resendemail": "Reenvia el correu",
+    "core.login.resendemail": "Reenvia el correu de confirmació",
     "core.login.searchby": "Cerca per:",
     "core.login.security_question": "Pregunta de seguretat",
     "core.login.selectacountry": "Selecciona un país",

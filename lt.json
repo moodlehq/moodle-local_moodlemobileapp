@@ -1880,7 +1880,7 @@
     "core.login.profileinvaliddata": "Neleistina reikšmė",
     "core.login.recaptchachallengeimage": "reCAPTCHA išbandymo paveiksliukas",
     "core.login.reconnect": "Jungtis pakartotinai",
-    "core.login.resendemail": "Siųsti el. laišką dar kartą",
+    "core.login.resendemail": "Pakartotinai išsiųsti patvirtinimo el. laišką",
     "core.login.security_question": "Saugumo klausimas",
     "core.login.selectacountry": "Pasirinkti šalį",
     "core.login.signupplugindisabled": "{{$a}} neįjungtas.",
