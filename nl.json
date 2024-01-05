@@ -364,7 +364,7 @@
     "addon.mod_assign.grade": "Beoordeling",
     "addon.mod_assign.graded": "Beoordeeld",
     "addon.mod_assign.gradedby": "Beoordeeld door",
-    "addon.mod_assign.gradedfollowupsubmit": "Beoordeeld - opvolgingsinzending ontvangen",
+    "addon.mod_assign.gradedfollowupsubmit": "Beoordeeld - opnieuw ingestuurd",
     "addon.mod_assign.gradedon": "Beoordeeld op",
     "addon.mod_assign.gradelocked": "Dit cijfer is geblokkeerd of overschreven in de cijferlijst.",
     "addon.mod_assign.gradenotsynced": "Cijfer niet gesynchroniseerd",

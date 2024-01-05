@@ -364,7 +364,7 @@
     "addon.mod_assign.grade": "Nilai",
     "addon.mod_assign.graded": "Telah dinilai",
     "addon.mod_assign.gradedby": "Dinilai oleh",
-    "addon.mod_assign.gradedfollowupsubmit": "Dinilai - Ajuan tindak lanjut diterima",
+    "addon.mod_assign.gradedfollowupsubmit": "Dinilai - dikirim ulang",
     "addon.mod_assign.gradedon": "Dinilai pada",
     "addon.mod_assign.gradelocked": "Nilai ini dikunci atau disampingkan dalam buku nilai.",
     "addon.mod_assign.gradenotsynced": "Nilai belum disinkronisasi.",
