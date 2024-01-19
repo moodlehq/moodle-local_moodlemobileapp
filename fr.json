@@ -885,7 +885,7 @@
     "addon.mod_quiz.marks": "Points",
     "addon.mod_quiz.modulenameplural": "Tests",
     "addon.mod_quiz.mustbesubmittedby": "Cette tentative doit être envoyée avant {{$a}}.",
-    "addon.mod_quiz.noquestions": "Aucune question n'a été encore ajoutée",
+    "addon.mod_quiz.noquestions": "Aucune question n'a encore été ajoutée",
     "addon.mod_quiz.noreviewattempt": "Vous n'êtes pas autorisé à relire cette tentative.",
     "addon.mod_quiz.notyetgraded": "Pas encore évalué",
     "addon.mod_quiz.opentoc": "Ouvrir la navigation",
