@@ -564,6 +564,7 @@
     "addon.mod_quiz.connectionerror": "Сеткавае злучэньне парушана (Няўдалае аўтазахаваньне).\n\nЗахавайце ўсе водклічы, уведзеныя на гэтай старонцы за апошнія некалькі хвілін, потым паспрабуйце перадалучыцца.\n\nПасьля перадалучэньня вашыя водклічы будуць захаваныя і гэтае паведамленьне зьнікне.",
     "addon.mod_quiz.continueattemptquiz": "Працягнуць сваю спробу",
     "addon.mod_quiz.continuepreview": "Працягнуць апошні прадпрагляд",
+    "addon.mod_quiz.feedback": "Водгук",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
     "addon.mod_resource.uploadeddate": "Запампована {{$a}}",
