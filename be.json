@@ -570,6 +570,7 @@
     "addon.mod_quiz.gradeaverage": "Сярэдняя адзнака",
     "addon.mod_quiz.gradehighest": "Найвысокая адзнака",
     "addon.mod_quiz.grademethod": "Метад ацэньваньня",
+    "addon.mod_quiz.gradesofar": "{{$a.method}}: {{$a.mygrade}} / {{$a.quizgrade}}.",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
     "addon.mod_resource.uploadeddate": "Запампована {{$a}}",

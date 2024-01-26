@@ -1,6 +1,7 @@
 {
     "addon.mod_forum.advanced": "Avanzado",
     "addon.mod_workshop.tasktodo": "Tareas pendientes",
+    "addon.storagemanager.deleteall": "Borrar todo",
     "core.accounts": "Cuentas",
     "core.add": "Agregar",
     "core.agelocationverification": "Verificación de edad y ubicación",
@@ -21,6 +22,7 @@
     "core.comments.addcomment": "Agregar un comentario ...",
     "core.comments.comments": "Comentarios",
     "core.comments.commentscount": "Comentarios ({{$a}})",
+    "core.comments.deletecommentbyon": "Eliminar comentario publicado por {{$a.user}} a las {{$a.time}}",
     "core.commentscount": "Comentarios ({{$a}})",
     "core.considereddigitalminor": "No tiene edad suficiente para crear una cuenta en este sitio",
     "core.content": "Contenido",
@@ -29,6 +31,12 @@
     "core.courses.availablecourses": "Cursos disponibles",
     "core.courses.categories": "Categorías del curso",
     "core.decsep": ".",
+    "core.delete": "Borrar",
+    "core.description": "Descripción",
+    "core.digitalminor": "Menor digital",
+    "core.digitalminor_desc": "Pedir a padres/madres/tutores-as que se pongan en contacto:",
+    "core.download": "Descargar",
+    "core.downloadfile": "Descargar archivo",
     "core.editor.h3": "Encabezado (grande)",
     "core.labelsep": ":",
     "core.listsep": ",",
@@ -37,8 +45,13 @@
     "core.login.cancel": "Cancelar",
     "core.login.changepassword": "Cambiar contraseña",
     "core.parentlanguage": "es",
+    "core.reminders.delete": "Borrar",
     "core.settings.accessstatement": "Declaración de accesibilidad",
     "core.user.address": "Dirección",
     "core.user.city": "Ciudad/localidad",
-    "freemium.accept": "Aceptar"
+    "core.user.description": "Descripción",
+    "core.user.editingteacher": "Docente",
+    "core.user.student": "Estudiante",
+    "freemium.accept": "Aceptar",
+    "workplace.deleted": "Eliminado"
 }

@@ -2505,7 +2505,7 @@
     "freemium.settingsoptionsfingerprint": "指紋認証ログインを有効にする",
     "freemium.subscription": "サイトサブスクリプション",
     "freemium.subscriptiondetails": "サブスクリプション詳細",
-    "freemium.subscriptionfeature_disabled": "ダッシュボード",
+    "freemium.subscriptionfeature_disabled": "無効",
     "freemium.subscriptionfeature_enabled": "有効",
     "freemium.subscriptionfeature_exceeded_customlanguagestrings": "{{ overflowCount }} 件のカスタム言語ストリングは無視されます。",
     "freemium.subscriptionfeature_exceeded_custommenuitems": "{{ overflowCount }} 件のカスタムメニューアイテムは無視されます。",
