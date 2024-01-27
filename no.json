@@ -769,7 +769,7 @@
     "addon.mod_lesson.displayofgrade": "Visning av karakter (kun for studenter)",
     "addon.mod_lesson.displayscorewithessays": "<p>Du fikk {{$a.score}} av {{$a.tempmaxgrade}} på de spørsmålene som ble regnet ut automatisk.<p/><p>Teksten(e) du skrev som svar på {{$a.essayquestions}} vil bli vurdert av en lærer og lagt til den endelige karakteren din senere.</p><p>Karakteren din uten tekstvurdering er nå {{$a.score}} av {{$a.grade}} mulige.</p>",
     "addon.mod_lesson.displayscorewithoutessays": "Du har {{$a.score}} poeng (av {{$a.grade}}).",
-    "addon.mod_lesson.emptypassword": "Passorfeltet kan ikke være tomt",
+    "addon.mod_lesson.emptypassword": "Passordfeltet kan ikke være tomt",
     "addon.mod_lesson.enterpassword": "Skriv inn passordet",
     "addon.mod_lesson.eolstudentoutoftimenoanswers": "Du svarte ikke på noen spørsmål. Du fikk 0 poeng på denne leksjonen.",
     "addon.mod_lesson.errorprefetchrandombranch": "Denne leksjonen inneholder et hopp til en tilfeldig innholdsside. Det kan ikke forsøkes i appen før den er startet i en nettleser.",
