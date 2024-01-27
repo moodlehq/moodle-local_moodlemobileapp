@@ -1628,7 +1628,7 @@
     "core.course.viewcourse": "コースを表示する",
     "core.course.warningmanualcompletionmodified": "サイトの活動の手動完了が修正されました。",
     "core.course.warningofflinemanualcompletiondeleted": "コース「 {{name}} 」の一部のオフライン手動完了が削除されました。{{error}}",
-    "core.course.youmust": "あなたが必要なこと:",
+    "core.course.youmust": "あなたに必要なこと:",
     "core.coursenogroups": "あなたはこのコースのどのグループにも属していません。",
     "core.courses.addtofavourites": "このコースに星を付ける",
     "core.courses.aria:coursecategory": "コースカテゴリ",
