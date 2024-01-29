@@ -2342,7 +2342,7 @@
     "core.settings.deviceos": "Sistema Operativo del dispositivo",
     "core.settings.disableall": "Deshabilitar notificaciones",
     "core.settings.disabled": "Deshabilitado",
-    "core.settings.disallowed": "Bloqueo desactivado",
+    "core.settings.disallowed": "No permitido",
     "core.settings.displayformat": "Formato de visualización",
     "core.settings.enabledownloadsection": "Habilitar descargar secciones",
     "core.settings.enablefirebaseanalytics": "Habilitar Analítica Firebase",
