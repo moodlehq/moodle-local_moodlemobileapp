@@ -2366,7 +2366,7 @@
     "core.settings.deviceos": "Sistema Operativo del dispositivo",
     "core.settings.disableall": "Deshabilitar notificaciones",
     "core.settings.disabled": "Deshabilitado",
-    "core.settings.disallowed": "Bloqueo desactivado",
+    "core.settings.disallowed": "No permitido",
     "core.settings.displayformat": "Formato de visualización",
     "core.settings.enableanalytics": "Habilitar Analítica",
     "core.settings.enableanalyticsdescription": "Si se habilita, la App colectará datos anónimos de uso.",
