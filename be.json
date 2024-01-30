@@ -586,6 +586,8 @@
     "addon.mod_quiz.gradehighest": "Найвысокая адзнака",
     "addon.mod_quiz.grademethod": "Метад ацэньваньня",
     "addon.mod_quiz.gradesofar": "{{$a.method}}: {{$a.mygrade}} / {{$a.quizgrade}}.",
+    "addon.mod_quiz.marks": "Адзнакі",
+    "addon.mod_quiz.modulenameplural": "Тэсты",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
     "addon.mod_resource.uploadeddate": "Запампована {{$a}}",
