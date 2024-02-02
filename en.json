@@ -743,7 +743,7 @@
     "addon.mod_h5pactivity.noparticipants": "No participants to display",
     "addon.mod_h5pactivity.offlinedisabledwarning": "You need to be online to view the H5P package.",
     "addon.mod_h5pactivity.outcome": "Outcome",
-    "addon.mod_h5pactivity.previewmode": "This content is displayed in preview mode. No attempt tracking will be stored.",
+    "addon.mod_h5pactivity.previewmode": "You are in preview mode.",
     "addon.mod_h5pactivity.result_fill-in": "Fill-in text",
     "addon.mod_h5pactivity.result_other": "Unknown interaction type",
     "addon.mod_h5pactivity.review_user_attempts": "View user attempts ({{$a}})",
