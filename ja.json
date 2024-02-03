@@ -743,7 +743,7 @@
     "addon.mod_h5pactivity.noparticipants": "表示する参加者はいません。",
     "addon.mod_h5pactivity.offlinedisabledwarning": "あなたがH5Pパッケージを表示するにはオンラインにする必要があります。",
     "addon.mod_h5pactivity.outcome": "アウトカム",
-    "addon.mod_h5pactivity.previewmode": "このコンテンツはプレビューモードで表示されています。受験追跡は保存されません。",
+    "addon.mod_h5pactivity.previewmode": "あなたはプレビューモードです。",
     "addon.mod_h5pactivity.result_fill-in": "テキスト入力",
     "addon.mod_h5pactivity.result_other": "不明なインタラクションタイプ",
     "addon.mod_h5pactivity.review_user_attempts": "ユーザ受験を表示する ({{$a}})",

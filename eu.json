@@ -743,7 +743,7 @@
     "addon.mod_h5pactivity.noparticipants": "Ez dago partaiderik erakusteko",
     "addon.mod_h5pactivity.offlinedisabledwarning": "Online egon behar duzu H5P paketea ikusi ahal izateko.",
     "addon.mod_h5pactivity.outcome": "Emaitza",
-    "addon.mod_h5pactivity.previewmode": "Eduki hau aurrebista moduan erakusten da. Ez da saiakeraren jarraipenik gordeko.",
+    "addon.mod_h5pactivity.previewmode": "Aurrebista modua erabiltzen ari zara.",
     "addon.mod_h5pactivity.result_fill-in": "Bete beharreko testua",
     "addon.mod_h5pactivity.result_other": "Interakzio-mota ezezaguna",
     "addon.mod_h5pactivity.review_user_attempts": "Ikusi erabiltzaileen saiakerak ({{$a}})",
