@@ -707,7 +707,7 @@
     "addon.mod_h5pactivity.no_compatible_track": "Этот активный элемент ({{$a}}) не предоставляет информацию отслеживания или предоставленный способ отслеживания не совместим с текущей версией элемента.",
     "addon.mod_h5pactivity.noparticipants": "Нет участников для отображения",
     "addon.mod_h5pactivity.outcome": "Результат",
-    "addon.mod_h5pactivity.previewmode": "Этот контент отображается в режиме предварительного просмотра. Отслеживание попыток не будет сохранено.",
+    "addon.mod_h5pactivity.previewmode": "Вы используете режим предварительного просмотра.",
     "addon.mod_h5pactivity.result_fill-in": "Заполнить текст",
     "addon.mod_h5pactivity.result_other": "Неизвестный тип интерактива",
     "addon.mod_h5pactivity.review_user_attempts": "Просмотр попыток пользователя ({{$a}})",

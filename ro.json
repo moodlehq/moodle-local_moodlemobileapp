@@ -757,7 +757,7 @@
     "addon.mod_h5pactivity.noparticipants": "Niciun participant de afișat",
     "addon.mod_h5pactivity.offlinedisabledwarning": "Trebuie să fiți online pentru a vedea pachetul H5P.",
     "addon.mod_h5pactivity.outcome": "Rezultat",
-    "addon.mod_h5pactivity.previewmode": "Acest conținut este afișat în modul previzualizare. Nu va fi stocată nicio informație de urmărire a încercării.",
+    "addon.mod_h5pactivity.previewmode": "Ești în modul previzualizare.",
     "addon.mod_h5pactivity.result_fill-in": "Text completat",
     "addon.mod_h5pactivity.result_other": "Tipul de interacțiune necunoscut",
     "addon.mod_h5pactivity.review_user_attempts": "Vezi încercările utilizatorilor ({{$a}})",

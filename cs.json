@@ -757,7 +757,7 @@
     "addon.mod_h5pactivity.noparticipants": "Žádní účastníci k zobrazení",
     "addon.mod_h5pactivity.offlinedisabledwarning": "K zobrazení balíčku H5P budete muset být online.",
     "addon.mod_h5pactivity.outcome": "Výsledek",
-    "addon.mod_h5pactivity.previewmode": "Tento obsah se zobrazí v režimu náhledu. Sledování pokusů nebude uloženo.",
+    "addon.mod_h5pactivity.previewmode": "Jste v režimu náhledu.",
     "addon.mod_h5pactivity.result_fill-in": "Vyplnit text",
     "addon.mod_h5pactivity.result_other": "Neznámý typ interakce",
     "addon.mod_h5pactivity.review_user_attempts": "Zobrazit pokusy uživatele ({{$a}})",
