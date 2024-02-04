@@ -715,7 +715,7 @@
     "addon.mod_h5pactivity.no_compatible_track": "Ova interakcija ({{$a}}) ne pruža informacije o praćenju ili navedeno\n         praćenje nije kompatibilno sa trenutnom verzijom aktivnosti.",
     "addon.mod_h5pactivity.noparticipants": "Nema učesnika za prikaz",
     "addon.mod_h5pactivity.outcome": "Ishod",
-    "addon.mod_h5pactivity.previewmode": "Ovaj sadržaj se prikazuje u režimu pregleda. Praćenje pokušaja neće biti sačuvano.",
+    "addon.mod_h5pactivity.previewmode": "Nalazite se u režimu pregleda.",
     "addon.mod_h5pactivity.result_fill-in": "Popunite tekst",
     "addon.mod_h5pactivity.result_other": "Nepoznati tip interakcije",
     "addon.mod_h5pactivity.review_user_attempts": "Pogledajte pokušaje korisnika ({{$a}})",
