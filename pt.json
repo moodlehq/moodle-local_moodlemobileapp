@@ -743,7 +743,7 @@
     "addon.mod_h5pactivity.noparticipants": "Nenhum participante para mostrar",
     "addon.mod_h5pactivity.offlinedisabledwarning": "Tem de estar online para visualizar o pacote H5P.",
     "addon.mod_h5pactivity.outcome": "Resultado da aprendizagem",
-    "addon.mod_h5pactivity.previewmode": "Este conteúdo está a ser exibido no modo de visualização. Nenhuma monitorização da tentativa será armazenada.",
+    "addon.mod_h5pactivity.previewmode": "Está em modo de pré-visualização.",
     "addon.mod_h5pactivity.result_fill-in": "Preencher espaços",
     "addon.mod_h5pactivity.result_other": "Tipo de interação desconhecido",
     "addon.mod_h5pactivity.review_user_attempts": "Ver tentativas do utilizador ({{$a}})",
