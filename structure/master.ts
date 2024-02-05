@@ -6554,6 +6554,7 @@ export type CoreWebserviceGetSiteInfoWSResponse = {
     usersessionscount?: number; // Number of active sessions for current user.
                  // Only returned when limitconcurrentlogins is used.
 
+    policyagreed?: number; // Whether user accepted all the policies.
 };
 
 /**
@@ -10676,68 +10677,6 @@ export type AddonModForumGetForumDiscussionsWSResponse = {
         canreply: boolean; // Can the user reply to the discussion.
         canlock: boolean; // Can the user lock the discussion.
         canfavourite: boolean; // Can the user star the discussion.
-    }[];
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of mod_forum_get_forum_discussions_paginated WS.
- *
- * WS Description: ** DEPRECATED ** Please do not call this function any more.
-                          Returns a list of forum discussions optionally sorted and paginated.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-type AddonModForumGetForumDiscussionsPaginatedWSParams = {
-    forumid: number; // Forum instance id.
-    sortby?: string; // Sort by this element: id, timemodified, timestart or timeend.
-    sortdirection?: string; // Sort direction: ASC or DESC.
-    page?: number; // Current page.
-    perpage?: number; // Items per page.
-};
-
-/**
- * Data returned by mod_forum_get_forum_discussions_paginated WS.
- *
- * WS Description: ** DEPRECATED ** Please do not call this function any more.
-                          Returns a list of forum discussions optionally sorted and paginated.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-export type AddonModForumGetForumDiscussionsPaginatedWSResponse = {
-    discussions: {
-        id: number; // Post id.
-        name: string; // Discussion name.
-        groupid: number; // Group id.
-        timemodified: number; // Time modified.
-        usermodified: number; // The id of the user who last modified.
-        timestart: number; // Time discussion can start.
-        timeend: number; // Time discussion ends.
-        discussion: number; // Discussion id.
-        parent: number; // Parent id.
-        userid: number; // User who started the discussion id.
-        created: number; // Creation time.
-        modified: number; // Time modified.
-        mailed: number; // Mailed?.
-        subject: string; // The post subject.
-        message: string; // The post message.
-        messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
-        messagetrust: number; // Can we trust?.
-        messageinlinefiles?: CoreWSExternalFile[];
-        attachment: string; // Has attachments?.
-        attachments?: CoreWSExternalFile[];
-        totalscore: number; // The post message total score.
-        mailnow: number; // Mail now?.
-        userfullname: string; // Post author full name.
-        usermodifiedfullname: string; // Post modifier full name.
-        userpictureurl: string; // Post author picture.
-        usermodifiedpictureurl: string; // Post modifier picture.
-        numreplies: number; // The number of replies in the discussion.
-        numunread: number; // The number of unread discussions.
-        pinned: boolean; // Is the discussion pinned.
-        locked: boolean; // Is the discussion locked.
-        canreply: boolean; // Can the user reply to the discussion.
-        canlock: boolean; // Can the user lock the discussion.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -18055,4 +17994,66 @@ export type ToolMoodlenetVerifyWebfingerWSResponse = {
     result: boolean; // Was the passed content a valid WebFinger?.
     message: string; // Our message for the user.
     domain?: string; // Domain to redirect the user to.
+};
+
+/**
+ * Params of tool_policy_get_user_acceptances WS.
+ *
+ * WS Description: Get user policies acceptances.
+ */
+type ToolPolicyGetUserAcceptancesWSParams = {
+    userid?: number; // The user id we want to retrieve the acceptances.
+};
+
+/**
+ * Data returned by tool_policy_get_user_acceptances WS.
+ *
+ * WS Description: Get user policies acceptances.
+ */
+export type ToolPolicyGetUserAcceptancesWSResponse = {
+    policies?: { // Policies and acceptance status for the given user.
+        policyid: number; // The policy id.
+        versionid: number; // The policy version id.
+        agreementstyle: number; // The policy agreement style. 0: consent page, 1: own page.
+        optional: number; // Whether the policy is optional. 0: compulsory, 1: optional.
+        revision: string; // The policy revision.
+        status: number; // The policy status. 0: draft, 1: active, 2: archived.
+        name: string; // The policy name.
+        summary?: string; // The policy summary.
+        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        content?: string; // The policy content.
+        contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        acceptance?: {
+            status: number; // The acceptance status. 0: declined, 1: accepted.
+            lang: string; // The policy lang.
+            timemodified: number; // The time the acceptance was set.
+            usermodified: number; // The user who accepted.
+            note?: string; // The policy note/remarks.
+            modfullname?: string; // The fullname who accepted on behalf.
+        }; // Acceptance status for the given user.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of tool_policy_set_acceptances_status WS.
+ *
+ * WS Description: Set the acceptance status (accept or decline only) for the indicated policies for the given user.
+ */
+type ToolPolicySetAcceptancesStatusWSParams = {
+    policies: { // Policies acceptances for the given user.
+        versionid: number; // The policy version id.
+        status: number; // The policy acceptance status. 0: decline, 1: accept.
+    }[];
+    userid?: number; // The user id we want to set the acceptances. Default is the current user.
+};
+
+/**
+ * Data returned by tool_policy_set_acceptances_status WS.
+ *
+ * WS Description: Set the acceptance status (accept or decline only) for the indicated policies for the given user.
+ */
+export type ToolPolicySetAcceptancesStatusWSResponse = {
+    policyagreed: number; // Whether the user has provided acceptance to all current site policies. 1 if yes, 0 if not.
+    warnings?: CoreWSExternalWarning[];
 };
