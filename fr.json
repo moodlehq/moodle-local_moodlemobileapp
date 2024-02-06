@@ -771,7 +771,7 @@
     "addon.mod_lesson.displayscorewithoutessays": "Votre score est de {{$a.score}} (sur {{$a.grade}}).",
     "addon.mod_lesson.emptypassword": "Le mot de passe ne peut pas être vide",
     "addon.mod_lesson.enterpassword": "Veuillez saisir le mot de passe :",
-    "addon.mod_lesson.eolstudentoutoftimenoanswers": "vous n'avez répondu à aucune question. Votre note pour cette leçon est de 0.",
+    "addon.mod_lesson.eolstudentoutoftimenoanswers": "Vous n'avez répondu à aucune question. Votre note pour cette leçon est de 0.",
     "addon.mod_lesson.errorprefetchrandombranch": "Cette leçon comporte un saut vers une page aléatoire. Elle ne peut être effectuée dans l'app avant d'avoir été commencée dans un navigateur.",
     "addon.mod_lesson.errorreviewretakenotlast": "Cette tentative ne peut plus être relue, car une autre tentative a été terminée.",
     "addon.mod_lesson.finish": "Terminer",
