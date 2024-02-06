@@ -592,6 +592,7 @@
     "addon.mod_quiz.preview": "Прадпрагляд",
     "addon.mod_quiz.previewquiznow": "Неадкладны прадпрагляд тэсту",
     "addon.mod_quiz.question": "Пытаньне",
+    "addon.mod_quiz.quiznavigation": "Навігацыя па тэсту",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
     "addon.mod_resource.uploadeddate": "Запампована {{$a}}",
