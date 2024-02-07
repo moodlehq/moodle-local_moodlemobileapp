@@ -827,7 +827,7 @@
     "addon.mod_quiz.confirmstart": "Vaš poskus ima časovno omejitev {{$a}}. Čas se bo začel odštevati od trenutka, ko začnete z reševanjem, in ga ni mogoče ustaviti. Vaš poskus morate zaključiti, preden se čas izteče. Ste prepričani, da želite začeti zdaj?",
     "addon.mod_quiz.confirmstartheader": "Časovna omejitev",
     "addon.mod_quiz.connectionerror": "Ni omrežne povezave. (Samodejno shranjevanje ni uspelo.)\n\n Zapomnite si vse odgovore na tej strani v zadnjih minutah, nato se poskusite ponovno povezati.\n\n Ko se povezava ponovno vzpostavi, se bi morali vaši odgovoriti shraniti, to sporočilo pa bo izginilo.",
-    "addon.mod_quiz.continueattemptquiz": "Nadaljujte z zadnjim poskusom",
+    "addon.mod_quiz.continueattemptquiz": "Nadaljujte z vašim poskusom",
     "addon.mod_quiz.continuepreview": "Nadaljujte z zadnjim predogledm",
     "addon.mod_quiz.errorbehaviournotsupported": "Tega kviza v aplikaciji ni mogoče rešiti, ker aplikacija ne podpira teh tipov vprašanj:",
     "addon.mod_quiz.errordownloading": "Napaka pri prenosu zahtevanih podatkov.",

@@ -1410,7 +1410,7 @@
     "core.edit": "עריכה",
     "core.editor.autosavesucceeded": "הטיוטה נשמרה.",
     "core.editor.bold": "מודגש",
-    "core.editor.clear": "ניקוי עיצוב",
+    "core.editor.clear": "ניקוי עיצוב (אשר בדר\"כ מגיע מהעתקת תוכן של מסמך WORD)",
     "core.editor.h3": "כותרת (גדולה)",
     "core.editor.h4": "כותרת (בינונית)",
     "core.editor.h5": "כותרת (קטנה)",

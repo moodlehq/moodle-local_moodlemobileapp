@@ -757,7 +757,7 @@
     "addon.mod_h5pactivity.noparticipants": "Sin participantes para mostrar",
     "addon.mod_h5pactivity.offlinedisabledwarning": "Usted necesita estar en línea para ver el paquete H5P.",
     "addon.mod_h5pactivity.outcome": "Resultado",
-    "addon.mod_h5pactivity.previewmode": "Este contenido es mostrado en modo previsualización. No se almacenará ningún monitoreo del intento.",
+    "addon.mod_h5pactivity.previewmode": "Usted está en modo de previsualización.",
     "addon.mod_h5pactivity.result_fill-in": "Texto a rellenar",
     "addon.mod_h5pactivity.result_other": "Tipo desconocido de interacción",
     "addon.mod_h5pactivity.review_user_attempts": "Ver intentos del usuario ({{$a}})",
