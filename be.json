@@ -603,6 +603,8 @@
     "addon.mod_quiz.question": "Пытаньне",
     "addon.mod_quiz.quiznavigation": "Навігацыя па тэсту",
     "addon.mod_quiz.reattemptquiz": "Паспрабаваць выканаць тэст",
+    "addon.mod_quiz.returnattempt": "Вярнуцца да спробы выкананьня",
+    "addon.mod_quiz.review": "Прагляд",
     "addon.mod_resource.modifieddate": "Зьменена {{$a}}",
     "addon.mod_resource.modulenameplural": "Файлы",
     "addon.mod_resource.uploadeddate": "Запампована {{$a}}",
