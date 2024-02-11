@@ -690,7 +690,7 @@
     "addon.mod_quiz.overdue": "Закъсняло предаване",
     "addon.mod_quiz.overduemustbesubmittedby": "Това изпълнение е закъсняло. Трябва вече да е предадено. Ако искате този тест да бъде оценен, Вие трябва да го предадете до {{$a}}. Ако не го направите до тогава, оценката от това изпълнение няма да се отчете.",
     "addon.mod_quiz.preview": "Преглед",
-    "addon.mod_quiz.previewquiznow": "Преглед на теста сега",
+    "addon.mod_quiz.previewquiznow": "Преглеждане на теста сега",
     "addon.mod_quiz.question": "Въпрос",
     "addon.mod_quiz.quiznavigation": "Навигация в теста",
     "addon.mod_quiz.quizpassword": "Парола за теста",
