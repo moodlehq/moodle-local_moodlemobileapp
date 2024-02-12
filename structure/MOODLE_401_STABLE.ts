@@ -3162,6 +3162,7 @@ type CoreEnrolSearchUsersWSParams = {
     searchanywhere: boolean; // Find a match anywhere, or only at the beginning.
     page: number; // Page number.
     perpage: number; // Number per page.
+    contextid?: number; // Context ID.
 };
 
 /**
