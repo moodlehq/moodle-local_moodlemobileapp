@@ -2227,6 +2227,7 @@ export type CoreCompletionGetActivitiesCompletionStatusWSResponse = {
                 description: string; // Completion description.
             };
         }[];
+        isoverallcomplete?: boolean; // Whether the overall completion state of this course module should be marked as complete or not.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -2470,6 +2471,7 @@ export type CoreCourseGetContentsWSResponse = {
                     description: string; // Description.
                 };
             }[];
+            isoverallcomplete?: boolean; // Whether the overall completion state of this course module should be marked as complete or not.
         };
         downloadcontent?: number; // The download content value.
         dates?: { // Course dates.
@@ -3276,6 +3278,7 @@ type CoreEnrolSearchUsersWSParams = {
     searchanywhere: boolean; // Find a match anywhere, or only at the beginning.
     page: number; // Page number.
     perpage: number; // Number per page.
+    contextid?: number; // Context ID.
 };
 
 /**
@@ -13515,10 +13518,13 @@ export type AddonModQuizGetAttemptDataWSResponse = {
         lastactiontime?: number; // The timestamp of the most recent step in this question attempt.
         hasautosavedstep?: boolean; // Whether this question attempt has autosaved data.
         flagged: boolean; // Whether the question is flagged or not.
-        state?: string; // The state where the question is in.
+        state?: string; // The state where the question is in terms of correctness.
                  // It will not be returned if the user cannot see it due to the quiz display correctness settings.
 
-        status?: string; // Current formatted state of the question.
+        stateclass?: string; // A machine-readable class name for the state that this question attempt is in, as returned by question_usage_by_activity::get_question_state_class().
+                 // Always returned.
+
+        status?: string; // Human readable state of the question.
         blockedbyprevious?: boolean; // Whether the question is blocked by the previous question.
         mark?: string; // The mark awarded.
                  // It will be returned only if the user is allowed to see it.
@@ -13595,10 +13601,13 @@ export type AddonModQuizGetAttemptReviewWSResponse = {
         lastactiontime?: number; // The timestamp of the most recent step in this question attempt.
         hasautosavedstep?: boolean; // Whether this question attempt has autosaved data.
         flagged: boolean; // Whether the question is flagged or not.
-        state?: string; // The state where the question is in.
+        state?: string; // The state where the question is in terms of correctness.
                  // It will not be returned if the user cannot see it due to the quiz display correctness settings.
 
-        status?: string; // Current formatted state of the question.
+        stateclass?: string; // A machine-readable class name for the state that this question attempt is in, as returned by question_usage_by_activity::get_question_state_class().
+                 // Always returned.
+
+        status?: string; // Human readable state of the question.
         blockedbyprevious?: boolean; // Whether the question is blocked by the previous question.
         mark?: string; // The mark awarded.
                  // It will be returned only if the user is allowed to see it.
@@ -13645,10 +13654,13 @@ export type AddonModQuizGetAttemptSummaryWSResponse = {
         lastactiontime?: number; // The timestamp of the most recent step in this question attempt.
         hasautosavedstep?: boolean; // Whether this question attempt has autosaved data.
         flagged: boolean; // Whether the question is flagged or not.
-        state?: string; // The state where the question is in.
+        state?: string; // The state where the question is in terms of correctness.
                  // It will not be returned if the user cannot see it due to the quiz display correctness settings.
 
-        status?: string; // Current formatted state of the question.
+        stateclass?: string; // A machine-readable class name for the state that this question attempt is in, as returned by question_usage_by_activity::get_question_state_class().
+                 // Always returned.
+
+        status?: string; // Human readable state of the question.
         blockedbyprevious?: boolean; // Whether the question is blocked by the previous question.
         mark?: string; // The mark awarded.
                  // It will be returned only if the user is allowed to see it.
@@ -13658,6 +13670,7 @@ export type AddonModQuizGetAttemptSummaryWSResponse = {
 
         settings?: string; // Question settings (JSON encoded).
     }[];
+    totalunanswered?: number; // Total unanswered questions.
     warnings?: CoreWSExternalWarning[];
 };
 
