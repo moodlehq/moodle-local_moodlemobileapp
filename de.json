@@ -2480,7 +2480,7 @@
     "core.updaterequired": "Aktualisierung der App notwendig",
     "core.updaterequireddesc": "Aktualisieren Sie Ihre App auf die Version {{$a}}",
     "core.upgraderunning": "Diese Website wird gerade aktualisiert. Versuchen Sie es später nochmal.",
-    "core.user": "Nutzer",
+    "core.user": "Nutzer/in",
     "core.user.address": "Adresse",
     "core.user.city": "Stadt",
     "core.user.completeprofile": "Profil vervollständigen",
