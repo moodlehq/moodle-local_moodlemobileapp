@@ -627,7 +627,7 @@
     "addon.mod_h5pactivity.maxscore": "Max. pontszám",
     "addon.mod_h5pactivity.modulenameplural": "H5P",
     "addon.mod_h5pactivity.myattempts": "Próbálkozásaim",
-    "addon.mod_h5pactivity.no_compatible_track": "Ez a művelet ({$ a}}) nem ad nyomkövetési információt, vagy a nyomon követés nem kompatibilis a jelenlegi tevékenységi verzióval.",
+    "addon.mod_h5pactivity.no_compatible_track": "Ez a művelet ({{$a}}) nem ad nyomkövetési információt, vagy a nyomon követés nem kompatibilis a jelenlegi tevékenységi verzióval.",
     "addon.mod_h5pactivity.noparticipants": "Nincs megjeleníthető résztvevő",
     "addon.mod_h5pactivity.outcome": "Eredmény",
     "addon.mod_h5pactivity.previewmode": "A tartalom előnézetben jelenik meg. A próbálkozások követésére nem kerül sor.",

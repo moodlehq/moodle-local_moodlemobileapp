@@ -1,4 +1,5 @@
 {
+    "addon.block_selfcompletion.pluginname": "Kurs abschliessen",
     "addon.mod_feedback.numberoutofrange": "Zahl ausserhalb des Bereichs",
     "addon.mod_workshop.switchphase50": "Gegenseitige Beurteilung abschliessen",
     "core.close": "Schliessen",
