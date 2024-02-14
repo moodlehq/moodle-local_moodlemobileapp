@@ -700,7 +700,7 @@
     "addon.mod_h5pactivity.noparticipants": "Nėra rodomų dalyvių",
     "addon.mod_h5pactivity.offlinedisabledwarning": "Norėdami peržiūrėti H5P paketą, turite būti prisijungę.",
     "addon.mod_h5pactivity.outcome": "Rezultatas",
-    "addon.mod_h5pactivity.previewmode": "Šis turinys yra rodomas peržiūros režimu. Bandymai nebus išsaugoti.",
+    "addon.mod_h5pactivity.previewmode": "Esate peržiūros režime.",
     "addon.mod_h5pactivity.result_fill-in": "Užpildyti tekstą",
     "addon.mod_h5pactivity.result_other": "Nežinomas",
     "addon.mod_h5pactivity.review_user_attempts": "Peržiūrėti naudotojo bandymus (({{$a}})",
