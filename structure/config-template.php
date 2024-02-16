@@ -39,20 +39,11 @@ $CFG->prefix    = 'm_';
 $CFG->dboptions = ['dbcollation' => 'utf8mb4_bin'];
 
 $host = 'localhost';
-$CFG->wwwroot   = "http://{$host}";
+$CFG->wwwroot   = "http://localhost";
 $CFG->dataroot  = realpath(dirname(__DIR__)) . '/moodledata';
 $CFG->admin     = 'admin';
 $CFG->directorypermissions = 0777;
 
-// Debug options - possible to be controlled by flag in future.
-$CFG->debug = (E_ALL | E_STRICT); // DEBUG_DEVELOPER.
-$CFG->debugdisplay = 1;
-$CFG->debugstringids = 1; // Add strings=1 to url to get string ids.
-$CFG->perfdebug = 15;
-$CFG->debugpageinfo = 1;
-$CFG->allowthemechangeonurl = 1;
-$CFG->passwordpolicy = 0;
-$CFG->cronclionly = 0;
 $CFG->pathtophp = getenv('pathtophp');
 
 require_once(__DIR__ . '/lib/setup.php');
