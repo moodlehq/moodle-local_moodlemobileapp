@@ -15933,6 +15933,183 @@ export type ToolAnalyticsPotentialContextsWSResponse = {
 }[];
 
 /**
+ * Params of tool_dataprivacy_cancel_data_request WS.
+ *
+ * WS Description: Cancel the data request made by the user
+ */
+type ToolDataprivacyCancelDataRequestWSParams = {
+    requestid: number; // The request ID.
+};
+
+/**
+ * Data returned by tool_dataprivacy_cancel_data_request WS.
+ *
+ * WS Description: Cancel the data request made by the user
+ */
+export type ToolDataprivacyCancelDataRequestWSResponse = {
+    result: boolean; // The processing result.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of tool_dataprivacy_contact_dpo WS.
+ *
+ * WS Description: Contact the site Data Protection Officer(s)
+ */
+type ToolDataprivacyContactDpoWSParams = {
+    message: string; // The user's message to the Data Protection Officer(s).
+};
+
+/**
+ * Data returned by tool_dataprivacy_contact_dpo WS.
+ *
+ * WS Description: Contact the site Data Protection Officer(s)
+ */
+export type ToolDataprivacyContactDpoWSResponse = {
+    result: boolean; // The processing result.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of tool_dataprivacy_create_data_request WS.
+ *
+ * WS Description: Creates a data request.
+ */
+type ToolDataprivacyCreateDataRequestWSParams = {
+    type: number; // The type of data request to create. 1 for export, 2 for data deletion.
+    comments?: string; // Comments for the data request.
+    foruserid?: number; // The id of the user to create the data request for. Empty for current user.
+};
+
+/**
+ * Data returned by tool_dataprivacy_create_data_request WS.
+ *
+ * WS Description: Creates a data request.
+ */
+export type ToolDataprivacyCreateDataRequestWSResponse = {
+    datarequestid: number; // The id of the created data request.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of tool_dataprivacy_get_access_information WS.
+ *
+ * WS Description: Retrieving privacy API access (permissions) information for the current user.
+ */
+type ToolDataprivacyGetAccessInformationWSParams = {
+};
+
+/**
+ * Data returned by tool_dataprivacy_get_access_information WS.
+ *
+ * WS Description: Retrieving privacy API access (permissions) information for the current user.
+ */
+export type ToolDataprivacyGetAccessInformationWSResponse = {
+    cancontactdpo: boolean; // Can contact dpo.
+    canmanagedatarequests: boolean; // Can manage data requests.
+    cancreatedatadownloadrequest: boolean; // Can create data download request for self.
+    cancreatedatadeletionrequest: boolean; // Can create data deletion request for self.
+    hasongoingdatadownloadrequest: boolean; // Has ongoing data download request.
+    hasongoingdatadeletionrequest: boolean; // Has ongoing data deletion request.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of tool_dataprivacy_get_data_requests WS.
+ *
+ * WS Description: Gets data request.
+ */
+type ToolDataprivacyGetDataRequestsWSParams = {
+    userid?: number; // The id of the user to get the data requests for. Empty for all users.
+    statuses?: number[]; // The statuses of the data requests to get.
+                 // 0 for pending 1 preprocessing, 2 awaiting approval, 3 approved,
+                 // 4 processed, 5 completed, 6 cancelled, 7 rejected.
+
+    types?: number[]; // The types of the data requests to get. 1 for export, 2 for data deletion.
+    creationmethods?: number[]; // The creation methods of the data requests to get. 0 for manual, 1 for automatic.
+    sort?: string; // The field to sort the data requests by.
+    limitfrom?: number; // The number to start getting the data requests from.
+    limitnum?: number; // The number of data requests to get.
+};
+
+/**
+ * Data returned by tool_dataprivacy_get_data_requests WS.
+ *
+ * WS Description: Gets data request.
+ */
+export type ToolDataprivacyGetDataRequestsWSResponse = {
+    requests: { // The data requests.
+        type: number; // Type.
+        comments: string; // Comments.
+        commentsformat: number; // Commentsformat.
+        userid: number; // Userid.
+        requestedby: number; // Requestedby.
+        status: number; // Status.
+        dpo: number; // Dpo.
+        dpocomment: string; // Dpocomment.
+        dpocommentformat: number; // Dpocommentformat.
+        systemapproved: boolean; // Systemapproved.
+        creationmethod: number; // Creationmethod.
+        id: number; // Id.
+        timecreated: number; // Timecreated.
+        timemodified: number; // Timemodified.
+        usermodified: number; // Usermodified.
+        foruser: {
+            id: number; // Id.
+            email: string; // Email.
+            idnumber: string; // Idnumber.
+            phone1: string; // Phone1.
+            phone2: string; // Phone2.
+            department: string; // Department.
+            institution: string; // Institution.
+            fullname: string; // Fullname.
+            identity: string; // Identity.
+            profileurl: string; // Profileurl.
+            profileimageurl: string; // Profileimageurl.
+            profileimageurlsmall: string; // Profileimageurlsmall.
+        };
+        requestedbyuser?: {
+            id: number; // Id.
+            email: string; // Email.
+            idnumber: string; // Idnumber.
+            phone1: string; // Phone1.
+            phone2: string; // Phone2.
+            department: string; // Department.
+            institution: string; // Institution.
+            fullname: string; // Fullname.
+            identity: string; // Identity.
+            profileurl: string; // Profileurl.
+            profileimageurl: string; // Profileimageurl.
+            profileimageurlsmall: string; // Profileimageurlsmall.
+        };
+        dpouser?: {
+            id: number; // Id.
+            email: string; // Email.
+            idnumber: string; // Idnumber.
+            phone1: string; // Phone1.
+            phone2: string; // Phone2.
+            department: string; // Department.
+            institution: string; // Institution.
+            fullname: string; // Fullname.
+            identity: string; // Identity.
+            profileurl: string; // Profileurl.
+            profileimageurl: string; // Profileimageurl.
+            profileimageurlsmall: string; // Profileimageurlsmall.
+        };
+        messagehtml?: string; // Messagehtml.
+        typename: string; // Typename.
+        typenameshort: string; // Typenameshort.
+        statuslabel: string; // Statuslabel.
+        statuslabelclass: string; // Statuslabelclass.
+        canreview?: boolean; // Canreview.
+        approvedeny?: boolean; // Approvedeny.
+        allowfiltering?: boolean; // Allowfiltering.
+        canmarkcomplete?: boolean; // Canmarkcomplete.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of tool_lp_data_for_course_competencies_page WS.
  *
  * WS Description: Load the data for the course competencies page template.
