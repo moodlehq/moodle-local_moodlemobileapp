@@ -2175,10 +2175,13 @@
     "workplace.teams.apply": "Ota käyttöön",
     "workplace.teams.filtercontains": "Sisältää",
     "workplace.teams.filterdoesnotcontain": "Ei sisällä",
+    "workplace.teams.filterendswith": "Loppuu",
+    "workplace.teams.filterisanyvalue": "On mikä tahansa arvo",
     "workplace.teams.filterisempty": "On tyhjä",
     "workplace.teams.filterisequalto": "On yhtä suuri kuin",
     "workplace.teams.filterisnotempty": "Ei ole tyhjä",
     "workplace.teams.filterisnotequalto": "Ei ole yhtä suuri kuin",
+    "workplace.teams.filterstartswith": "Alkaa",
     "workplace.teams.fullname": "Koko nimi",
     "workplace.teams.resetall": "Nollaa kaikki"
 }
