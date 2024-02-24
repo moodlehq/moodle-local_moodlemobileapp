@@ -787,7 +787,7 @@
     "addon.mod_quiz.timeleft": "זמן נותר",
     "addon.mod_quiz.timetaken": "הזמן שלקח",
     "addon.mod_quiz.unit": "שם יחידת־המידה (באנגלית)",
-    "addon.mod_quiz.yourfinalgradeis": "ציונך הסופי בבוחן זה הוא \" {{$a}}\" מתוך",
+    "addon.mod_quiz.yourfinalgradeis": "ציונך הסופי בבוחן זה הוא {{$a}}",
     "addon.mod_resource.errorwhileloadingthecontent": "שגיאה בזמן טעינת התוכן.",
     "addon.mod_resource.modifieddate": "{{$a}} השתנה",
     "addon.mod_resource.modulenameplural": "קבצים",
