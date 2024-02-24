@@ -743,7 +743,7 @@
     "addon.mod_h5pactivity.noparticipants": "لا مشاركين لعرضهم",
     "addon.mod_h5pactivity.offlinedisabledwarning": "ينبغي أن تكون متصلاً بالإنترنت لمعاينة رزمة H5P .",
     "addon.mod_h5pactivity.outcome": "الحصيلة",
-    "addon.mod_h5pactivity.previewmode": "يجري عرض المحتوى بنمط العرض المسبق. لن يتم حفظ تعقب المحاولة.",
+    "addon.mod_h5pactivity.previewmode": "أنت الآن بنمط العرض المسبق.",
     "addon.mod_h5pactivity.result_fill-in": "نص ملء الفراغ",
     "addon.mod_h5pactivity.result_other": "نوع تفاعل مجهول",
     "addon.mod_h5pactivity.review_user_attempts": "معاينة محاولات المستخدم ({{$a}})",
