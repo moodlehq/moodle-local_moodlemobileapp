@@ -595,7 +595,7 @@
     "addon.mod_quiz.outof": "{{$a.grade}} з {{$a.maxgrade}}",
     "addon.mod_quiz.outofpercent": "{{$a.grade}} з {{$a.maxgrade}} ({{$a.percent}}%)",
     "addon.mod_quiz.outofshort": "{{$a.grade}}/{{$a.maxgrade}}",
-    "addon.mod_quiz.overallfeedback": "Агульны водгук",
+    "addon.mod_quiz.overallfeedback": "Выніковы водгук",
     "addon.mod_quiz.overdue": "Пратэрмінавана",
     "addon.mod_quiz.overduemustbesubmittedby": "Гэтае спроба пратэрмінавана. Яе ўжо трэба было адправіць. Калі вы жадаеце атрымаць адзнаку за гэты тэст, вы мусіце адправіць яе да {{$a}}. Калі вы не адправіце яе да гэтага часу, адзнакі за гэтую спробу ня будуць залічаны.",
     "addon.mod_quiz.preview": "Прадпрагляд",

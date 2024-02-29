@@ -1,6 +1,7 @@
 {
     "addon.mod_scorm.suspended": "Avstängd",
     "addon.storagemanager.alldata": "All data",
+    "core.course.youmust": "Du ska",
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",
