@@ -1175,7 +1175,7 @@
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} преди началото на курса",
     "core.course.section": "Секция",
     "core.course.startdate": "Дата на започване на курса",
-    "core.course.studentsmust": "Студентите трябва",
+    "core.course.studentsmust": "Обучаваните трябва",
     "core.course.thisweek": "Тази седмица",
     "core.course.todo": "Да направя",
     "core.course.tour_navigation_course_index_student_title": "Намерете своя път наоколо",
