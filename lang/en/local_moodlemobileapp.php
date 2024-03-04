@@ -844,3 +844,11 @@ $string['freemium.autologoutclosingtheapp'] = 'Immediately after leaving the app
 $string['freemium.autologoutdefault'] = 'Default';
 $string['freemium.feature_autologout'] = 'Auto logout';
 $string['freemium.settingsoptions_autologout'] = 'Auto logout';
+
+// Deprecated since v4.4.0
+$string['core.login.policyaccept'] = 'I understand and agree';
+$string['core.login.policyacceptmandatory'] = 'I understand and agree to the mandatory site policies';
+$string['core.login.policyagree'] = 'You must agree to this policy to continue using this site. Do you agree?';
+$string['core.login.policyagreement'] = 'Site policy agreement';
+$string['core.login.policyagreementclick'] = 'Link to site policy agreement';
+$string['core.login.sitepolicynotagreederror'] = 'Site policy not agreed.';
