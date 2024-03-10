@@ -879,7 +879,7 @@
     "addon.mod_quiz.status": "Состояние",
     "addon.mod_quiz.submitallandfinish": "Отправить всё и завершить тест",
     "addon.mod_quiz.summaryofattempt": "Результат попытки",
-    "addon.mod_quiz.summaryofattempts": "Результаты ваших предыдущих попыток",
+    "addon.mod_quiz.summaryofattempts": "Ваши попытки",
     "addon.mod_quiz.timeleft": "Оставшееся время",
     "addon.mod_quiz.timetaken": "Прошло времени",
     "addon.mod_quiz.unit": "Единица измерения",
