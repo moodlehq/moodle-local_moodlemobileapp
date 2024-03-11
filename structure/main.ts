@@ -26,6 +26,7 @@ export type AddonBlockRecentlyaccesseditemsGetRecentItemsWSResponse = { // The m
     courseviewurl: string; // Courseviewurl.
     icon: string; // Icon.
     purpose: string; // Purpose.
+    branded?: boolean; // Branded.
 }[];
 
 /**
@@ -339,6 +340,80 @@ export type CoreBlockGetDashboardBlocksWSResponse = {
 };
 
 /**
+ * Params of core_blog_add_entry WS.
+ *
+ * WS Description: Creates a new blog post entry.
+ */
+type AddonBlogAddEntryWSParams = {
+    subject: string; // Blog subject.
+    summary: string; // Blog post content.
+    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+    options?: { // Optional settings.
+        name: string; // The allowed keys (value format) are:
+                         // inlineattachmentsid (int); the draft file area id for inline attachments. Default to 0.
+                         // attachmentsid (int); the draft file area id for attachments. Default to 0.
+                         // publishstate (str); the publish state of the entry (draft, site or public). Default to site.
+                         // courseassoc (int); the course id to associate the entry with. Default to 0.
+                         // modassoc (int); the module id to associate the entry with. Default to 0.
+                         // tags (str); the tags to associate the entry with, comma separated. Default to empty.
+
+        value: string; // The value of the option (validated inside the function).
+    }[];
+};
+
+/**
+ * Data returned by core_blog_add_entry WS.
+ *
+ * WS Description: Creates a new blog post entry.
+ */
+export type AddonBlogAddEntryWSResponse = {
+    entryid: number; // The new entry id.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_blog_delete_entry WS.
+ *
+ * WS Description: Deletes a blog post entry.
+ */
+type AddonBlogDeleteEntryWSParams = {
+    entryid: number; // The entry id to remove.
+};
+
+/**
+ * Data returned by core_blog_delete_entry WS.
+ *
+ * WS Description: Deletes a blog post entry.
+ */
+export type AddonBlogDeleteEntryWSResponse = {
+    status: boolean; // True indicates the entry was deleted.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_blog_get_access_information WS.
+ *
+ * WS Description: Retrieves permission information for the current user.
+ */
+type AddonBlogGetAccessInformationWSParams = {
+};
+
+/**
+ * Data returned by core_blog_get_access_information WS.
+ *
+ * WS Description: Retrieves permission information for the current user.
+ */
+export type AddonBlogGetAccessInformationWSResponse = {
+    canview: boolean; // Whether the user can view blogs.
+    cansearch: boolean; // Whether the user can search blogs.
+    canviewdrafts: boolean; // Whether the user can view drafts.
+    cancreate: boolean; // Whether the user can create blog entries.
+    canmanageentries: boolean; // Whether the user can manage blog entries.
+    canmanageexternal: boolean; // Whether the user can manage external blogs.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of core_blog_get_entries WS.
  *
  * WS Description: Returns blog entries.
@@ -422,8 +497,69 @@ export type AddonBlogGetEntriesWSResponse = {
             flag: number; // Whether the tag is flagged as inappropriate.
             viewurl?: string; // The url to view the tag.
         }[];
+        canedit?: boolean; // Whether the user can edit the post.
     }[];
     totalentries: number; // The total number of entries found.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_blog_prepare_entry_for_edition WS.
+ *
+ * WS Description: Prepare a draft area for editing a blog entry..
+ */
+type AddonBlogPrepareEntryForEditionWSParams = {
+    entryid: number; // The entry id to edit.
+};
+
+/**
+ * Data returned by core_blog_prepare_entry_for_edition WS.
+ *
+ * WS Description: Prepare a draft area for editing a blog entry..
+ */
+export type AddonBlogPrepareEntryForEditionWSResponse = {
+    inlineattachmentsid: number; // Draft item id for the text editor.
+    attachmentsid: number; // Draft item id for the file manager.
+    areas: { // File areas including options.
+        area: string; // File area name.
+        options: { // Draft file area options.
+            name: string; // Name of option.
+            value: string; // Value of option.
+        }[];
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_blog_update_entry WS.
+ *
+ * WS Description: Updates a blog entry.
+ */
+type AddonBlogUpdateEntryWSParams = {
+    entryid: number; // Blog entry id to update.
+    subject: string; // Blog subject.
+    summary: string; // Blog post content.
+    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+    options?: { // Optional settings.
+        name: string; // The allowed keys (value format) are:
+                         // inlineattachmentsid (int); the draft file area id for inline attachments. Default to 0.
+                         // attachmentsid (int); the draft file area id for attachments. Default to 0.
+                         // publishstate (str); the publish state of the entry (draft, site or public). Default to site.
+                         // courseassoc (int); the course id to associate the entry with. Default to 0.
+                         // modassoc (int); the module id to associate the entry with. Default to 0.
+                         // tags (str); the tags to associate the entry with, comma separated. Default to empty.
+
+        value: string; // The value of the option (validated inside the function).
+    }[];
+};
+
+/**
+ * Data returned by core_blog_update_entry WS.
+ *
+ * WS Description: Updates a blog entry.
+ */
+export type AddonBlogUpdateEntryWSResponse = {
+    status: boolean; // The update result, true if everything went well.
     warnings?: CoreWSExternalWarning[];
 };
 
@@ -641,6 +777,7 @@ export type AddonCalendarGetActionEventsByCourseWSResponse = {
             showitemcount: boolean; // Showitemcount.
         };
         purpose: string; // Purpose.
+        branded?: boolean; // Branded.
         url: string; // Url.
     }[];
     firstid: number; // Firstid.
@@ -761,6 +898,7 @@ export type AddonCalendarGetActionEventsByCoursesWSResponse = {
                 showitemcount: boolean; // Showitemcount.
             };
             purpose: string; // Purpose.
+            branded?: boolean; // Branded.
             url: string; // Url.
         }[];
         firstid: number; // Firstid.
@@ -884,6 +1022,7 @@ export type AddonCalendarGetActionEventsByTimesortWSResponse = {
             showitemcount: boolean; // Showitemcount.
         };
         purpose: string; // Purpose.
+        branded?: boolean; // Branded.
         url: string; // Url.
     }[];
     firstid: number; // Firstid.
@@ -1043,6 +1182,7 @@ export type AddonCalendarGetCalendarDayViewWSResponse = {
             showitemcount: boolean; // Showitemcount.
         };
         purpose: string; // Purpose.
+        branded?: boolean; // Branded.
         url: string; // Url.
         islastday: boolean; // Islastday.
         popupname: string; // Popupname.
@@ -1214,6 +1354,7 @@ export type AddonCalendarGetCalendarEventByIdWSResponse = {
             showitemcount: boolean; // Showitemcount.
         };
         purpose: string; // Purpose.
+        branded?: boolean; // Branded.
         url: string; // Url.
     };
     warnings?: CoreWSExternalWarning[];
@@ -1425,6 +1566,7 @@ export type AddonCalendarGetCalendarMonthlyViewWSResponse = {
                     showitemcount: boolean; // Showitemcount.
                 };
                 purpose: string; // Purpose.
+                branded?: boolean; // Branded.
                 url: string; // Url.
                 islastday: boolean; // Islastday.
                 popupname: string; // Popupname.
@@ -1614,6 +1756,7 @@ export type AddonCalendarGetCalendarUpcomingViewWSResponse = {
             showitemcount: boolean; // Showitemcount.
         };
         purpose: string; // Purpose.
+        branded?: boolean; // Branded.
         url: string; // Url.
         islastday: boolean; // Islastday.
         popupname: string; // Popupname.
@@ -1752,6 +1895,7 @@ export type AddonCalendarSubmitCreateUpdateFormWSResponse = {
             showitemcount: boolean; // Showitemcount.
         };
         purpose: string; // Purpose.
+        branded?: boolean; // Branded.
         url: string; // Url.
     };
     validationerror?: boolean; // Invalid form data.
@@ -1867,6 +2011,7 @@ export type AddonCalendarUpdateEventStartDayWSResponse = {
             showitemcount: boolean; // Showitemcount.
         };
         purpose: string; // Purpose.
+        branded?: boolean; // Branded.
         url: string; // Url.
     };
 };
@@ -3420,6 +3565,33 @@ export type AddonPrivateFilesGetUnusedDraftItemidWSResponse = {
     userid: number; // File area user id.
     filearea: string; // File area name.
     itemid: number; // File are item id.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_filters_get_all_states WS.
+ *
+ * WS Description: Retrieve all the filters and their states (including overridden ones in any context).
+ */
+type CoreFiltersGetAllStatesWSParams = {
+};
+
+/**
+ * Data returned by core_filters_get_all_states WS.
+ *
+ * WS Description: Retrieve all the filters and their states (including overridden ones in any context).
+ */
+export type CoreFiltersGetAllStatesWSResponse = {
+    filters: { // All filters states.
+        contextlevel: string; // The context level where the filters are:
+                             // (coursecat, course, module).
+
+        instanceid: number; // The instance id of item associated with the context.
+        contextid: number; // The context id.
+        filter: string; // Filter plugin name.
+        state: number; // Filter state: 1 for on, -1 for off, -9999 if disabled.
+        sortorder: number; // Execution order.
+    }[];
     warnings?: CoreWSExternalWarning[];
 };
 
@@ -16106,6 +16278,7 @@ export type ToolDataprivacyGetDataRequestsWSResponse = {
         approvedeny?: boolean; // Approvedeny.
         allowfiltering?: boolean; // Allowfiltering.
         canmarkcomplete?: boolean; // Canmarkcomplete.
+        downloadlink?: string; // Downloadlink.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
