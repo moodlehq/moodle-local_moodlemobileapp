@@ -651,6 +651,8 @@
     "addon.privatefiles.files": "Файлы",
     "addon.privatefiles.privatefiles": "Асабістыя файлы",
     "addon.privatefiles.sitefiles": "Файлы сайта",
+    "addon.qtype_essay.maxwordlimitboundary": "Ліміт словаў для гэтага пытаньня {{$a.limit}}, вы спрабуеце адправіць {{$a.count}} словаў. Калі ласка, скараціце свой водкліч і паспрабуйце наноў.",
+    "addon.qtype_essay.minwordlimitboundary": "Гэты водкліч пытаньня патрабуе прынамсі {{$a.limit}} словаў. Вы спрабуеце адправіць {{$a.count}} словаў. Калі ласка, пашырце свой водкліч і паспрабуйце наноў.",
     "addon.storagemanager.deleteall": "Выдаліць усё",
     "assets.mimetypes.application/dash_xml": "Dynamic Adaptive Streaming over HTTP (MPEG-DASH)",
     "assets.mimetypes.application/epub_zip": "кніга EPUB",
