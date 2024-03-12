@@ -1,4 +1,5 @@
 {
+    "addon.storagemanager.alldata": "Alle data",
     "core.decsep": ",",
     "core.listsep": ";",
     "core.parentlanguage": "da",
@@ -102,6 +103,7 @@
     "workplace.teams.filterstartswith": "Starter med",
     "workplace.teams.globalmanager": "Manager",
     "workplace.teams.jobsnumber": "Jobs",
+    "workplace.teams.learning": "Læring",
     "workplace.teams.orgfiltercustomise": "Tilpas",
     "workplace.teams.orgfilterdirectreports": "Vis kun mine egne direkte rapporter",
     "workplace.teams.orgfiltereverybody": "Vis alle, der rapporterer til mig",
