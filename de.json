@@ -1583,7 +1583,7 @@
     "core.course.errorgetmodule": "Fehler beim Laden von Aktivitätsdaten",
     "core.course.failed": "Nicht bestanden",
     "core.course.hiddenfromstudents": "Für Teilnehmer/innen verborgen",
-    "core.course.hiddenoncoursepage": "Verfügbar, aber auf Kursseite verborgen",
+    "core.course.hiddenoncoursepage": "Verfügbar, aber auf Kursseite nicht anzeigen",
     "core.course.highlighted": "Hervorgehoben",
     "core.course.insufficientavailablequota": "Ihr Gerät konnte für das Herunterladen keinen Speicherplatz zuweisen. Möglicherweise ist Speicherplatz für anstehende App- oder Systemupdates reserviert. Sorgen Sie zuerst für ausreichend freien Speicher.",
     "core.course.insufficientavailablespace": "Sie versuchen, {{size}} herunterzuladen. Ihr Gerät hat danach möglicherweise nicht genügend Platz, um normal zu funktionieren. Sorgen Sie zuerst für ausreichend freien Speicher.",
