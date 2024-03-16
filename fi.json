@@ -1922,7 +1922,7 @@
     "core.mod_lti": "Ulkoinen työkalu",
     "core.mod_page": "Sivu",
     "core.mod_quiz": "Tentti",
-    "core.mod_resource": "Aineisto",
+    "core.mod_resource": "Tiedosto",
     "core.mod_scorm": "SCORM-paketti",
     "core.mod_survey": "Kysely",
     "core.mod_url": "Verkko-osoite",
