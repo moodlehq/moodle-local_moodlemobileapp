@@ -18395,6 +18395,9 @@ export type ToolPolicyGetUserAcceptancesWSResponse = {
             note?: string; // The policy note/remarks.
             modfullname?: string; // The fullname who accepted on behalf.
         }; // Acceptance status for the given user.
+        canaccept: boolean; // Whether the policy can be accepted.
+        candecline: boolean; // Whether the policy can be declined.
+        canrevoke: boolean; // Whether the policy can be revoked.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -18408,6 +18411,7 @@ type ToolPolicySetAcceptancesStatusWSParams = {
     policies: { // Policies acceptances for the given user.
         versionid: number; // The policy version id.
         status: number; // The policy acceptance status. 0: decline, 1: accept.
+        note?: string; // Any comments added by a user when giving consent on behalf of another user.
     }[];
     userid?: number; // The user id we want to set the acceptances. Default is the current user.
 };
