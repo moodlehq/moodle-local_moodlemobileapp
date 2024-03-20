@@ -743,7 +743,7 @@
     "addon.mod_h5pactivity.noparticipants": "Ingen deltakere å vise",
     "addon.mod_h5pactivity.offlinedisabledwarning": "Du må være online for å vise H5P-pakken.",
     "addon.mod_h5pactivity.outcome": "Resultat",
-    "addon.mod_h5pactivity.previewmode": "Innholdet vises i forhåndsvisningsmodus. Ingen forsøkssporing vil lagres.",
+    "addon.mod_h5pactivity.previewmode": "Du er i forhåndsvisningsmodus",
     "addon.mod_h5pactivity.result_fill-in": "Utfyllingstekst",
     "addon.mod_h5pactivity.result_other": "Ukjent interaksjonstype",
     "addon.mod_h5pactivity.review_user_attempts": "Vis brukerforsøk ({{$a}})",
