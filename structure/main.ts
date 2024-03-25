@@ -3456,6 +3456,7 @@ export type CoreEnrolSearchUsersWSResponse = {
     theme?: string; // Theme name such as "standard", must exist on server.
     timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
     mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+    trackforums?: number; // Whether the user is tracking forums.
     description?: string; // User profile description.
     descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
     city?: string; // Home city of the user.
@@ -3720,6 +3721,7 @@ export type CoreGradesGetEnrolledUsersForSelectorWSResponse = {
         theme?: string; // Theme name such as "standard", must exist on server.
         timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
         mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+        trackforums?: number; // Whether the user is tracking forums.
         description?: string; // User profile description.
         descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         city?: string; // Home city of the user.
@@ -3782,6 +3784,7 @@ export type CoreGradesGetGradableUsersWSResponse = {
         theme?: string; // Theme name such as "standard", must exist on server.
         timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
         mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+        trackforums?: number; // Whether the user is tracking forums.
         description?: string; // User profile description.
         descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         city?: string; // Home city of the user.
@@ -6379,6 +6382,7 @@ export type CoreUserGetCourseUserProfilesWSResponse = {
     theme?: string; // Theme name such as "standard", must exist on server.
     timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
     mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+    trackforums?: number; // Whether the user is tracking forums.
     description?: string; // User profile description.
     descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
     city?: string; // Home city of the user.
@@ -6501,6 +6505,7 @@ export type CoreUserGetUsersByFieldWSResponse = {
     theme?: string; // Theme name such as "standard", must exist on server.
     timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
     mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+    trackforums?: number; // Whether the user is tracking forums.
     description?: string; // User profile description.
     descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
     city?: string; // Home city of the user.
@@ -6980,6 +6985,7 @@ export type CoreGradesGradereportGraderGetUsersInReportWSResponse = {
         theme?: string; // Theme name such as "standard", must exist on server.
         timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
         mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+        trackforums?: number; // Whether the user is tracking forums.
         description?: string; // User profile description.
         descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         city?: string; // Home city of the user.
@@ -7579,6 +7585,7 @@ export type AddonModAssignGetParticipantWSResponse = {
         theme?: string; // Theme name such as "standard", must exist on server.
         timezone?: string; // Timezone code such as Australia/Perth, or 99 for default.
         mailformat?: number; // Mail format code is 0 for plain text, 1 for HTML etc.
+        trackforums?: number; // Whether the user is tracking forums.
         description?: string; // User profile description.
         descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         city?: string; // Home city of the user.
@@ -7938,6 +7945,7 @@ export type AddonModAssignListParticipantsWSResponse = {
     firstaccess?: number; // First access to the site (0 if never).
     lastaccess?: number; // Last access to the site (0 if never).
     suspended?: boolean; // Suspend user account, either false to enable user login or true to disable it.
+    trackforums?: number; // Whether the user is tracking forums.
     description?: string; // User profile description.
     descriptionformat?: number; // Int format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
     city?: string; // Home city of the user.
