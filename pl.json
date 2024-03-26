@@ -1976,6 +1976,7 @@
     "core.h5p.years": "Lata",
     "core.h5p.yearsfrom": "Lata (od)",
     "core.h5p.yearsto": "Lata (do)",
+    "core.h5p.zip": "Zip",
     "core.hasdatatosync": "{{$a}} zawiera dane offline do synchronizacji.",
     "core.help": "Pomoc",
     "core.hide": "Ukryj",
