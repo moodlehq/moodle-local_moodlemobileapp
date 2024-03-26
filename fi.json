@@ -199,7 +199,7 @@
     "addon.competency.status": "Tila",
     "addon.competency.template": "Oppimissuunnitelmamalli",
     "addon.competency.uponcoursecompletion": "Kurssin suorituksen jälkeen:",
-    "addon.competency.usercompetencystatus_idle": "Turha",
+    "addon.competency.usercompetencystatus_idle": "Ei käytössä",
     "addon.competency.usercompetencystatus_inreview": "Arvioitavana",
     "addon.competency.usercompetencystatus_waitingforreview": "Odottaa arviointia",
     "addon.competency.userplans": "Oppimissuunnitelmat",

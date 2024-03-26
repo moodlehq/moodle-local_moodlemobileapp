@@ -1,5 +1,7 @@
 {
     "core.decsep": ".",
     "core.labelsep": ":",
-    "core.listsep": ","
+    "core.listsep": ",",
+    "core.settings.accessstatement": "Ingxelo yokufumaneka",
+    "freemium.accept": "Yamkela"
 }
