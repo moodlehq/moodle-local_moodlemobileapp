@@ -1824,6 +1824,7 @@
     "core.h5p.years": "Год(ы)",
     "core.h5p.yearsfrom": "Годы (с)",
     "core.h5p.yearsto": "Годы (до)",
+    "core.h5p.zip": "Zip",
     "core.hasdatatosync": "Это {{$a}} имеет данные, добавленные вне сети, для синхронизации.",
     "core.help": "Справка",
     "core.hide": "Скрыть",
