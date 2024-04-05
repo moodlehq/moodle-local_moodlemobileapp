@@ -742,7 +742,7 @@
     "addon.mod_h5pactivity.noparticipants": "Tidak ada peserta untuk ditampilkan",
     "addon.mod_h5pactivity.offlinedisabledwarning": "Anda harus daring untuk melihat paket H5P.",
     "addon.mod_h5pactivity.outcome": "Capaian",
-    "addon.mod_h5pactivity.previewmode": "Konten ini ditampilkan dalam mode pratinjau. Tidak ada upaya pelacakan akan disimpan.",
+    "addon.mod_h5pactivity.previewmode": "Anda berada dalam mode pratinjau.",
     "addon.mod_h5pactivity.result_fill-in": "Isi teks",
     "addon.mod_h5pactivity.result_other": "Jenis interaksi tidak dikenal",
     "addon.mod_h5pactivity.review_user_attempts": "Lihat upaya pengguna ({{$a}})",
