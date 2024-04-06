@@ -760,7 +760,7 @@
     "addon.mod_h5pactivity.previewmode": "あなたはプレビューモードです。",
     "addon.mod_h5pactivity.result_fill-in": "テキスト入力",
     "addon.mod_h5pactivity.result_other": "不明なインタラクションタイプ",
-    "addon.mod_h5pactivity.review_user_attempts": "ユーザ受験を表示する ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "表示する ({{$a}})",
     "addon.mod_h5pactivity.score": "点数",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} / {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "開始日時",

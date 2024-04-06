@@ -760,7 +760,7 @@
     "addon.mod_h5pactivity.previewmode": "Vous êtes en mode prévisualisation.",
     "addon.mod_h5pactivity.result_fill-in": "Texte à trous",
     "addon.mod_h5pactivity.result_other": "Type d’interaction inconnu",
-    "addon.mod_h5pactivity.review_user_attempts": "Consulter les tentatives utilisateur ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "Consulter ({{$a}})",
     "addon.mod_h5pactivity.score": "Score",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} sur {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "Date de début",

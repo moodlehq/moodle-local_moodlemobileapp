@@ -718,7 +718,7 @@
     "addon.mod_h5pactivity.previewmode": "Налазите се у режиму прегледа.",
     "addon.mod_h5pactivity.result_fill-in": "Попуните текст",
     "addon.mod_h5pactivity.result_other": "Непознати тип интеракције",
-    "addon.mod_h5pactivity.review_user_attempts": "Погледајте покушаје корисника ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "Погледајте ({{$a}})",
     "addon.mod_h5pactivity.score": "Резултат",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} од укупно {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "Датум почетка",
