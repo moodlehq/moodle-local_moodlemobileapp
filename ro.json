@@ -760,7 +760,7 @@
     "addon.mod_h5pactivity.previewmode": "Ești în modul previzualizare.",
     "addon.mod_h5pactivity.result_fill-in": "Text completat",
     "addon.mod_h5pactivity.result_other": "Tipul de interacțiune necunoscut",
-    "addon.mod_h5pactivity.review_user_attempts": "Vezi încercările utilizatorilor ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "Vezi ({{$a}})",
     "addon.mod_h5pactivity.score": "Notă",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} din {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "Data de început",
