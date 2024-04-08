@@ -50,7 +50,7 @@ export type AddonBlockStarredcoursesGetStarredCoursesWSResponse = {
     shortname: string; // Shortname.
     idnumber: string; // Idnumber.
     summary: string; // Summary.
-    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+    summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
     startdate: number; // Startdate.
     enddate: number; // Enddate.
     visible: boolean; // Visible.
@@ -733,7 +733,7 @@ export type AddonCalendarGetActionEventsByCourseWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -854,7 +854,7 @@ export type AddonCalendarGetActionEventsByCoursesWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 summary: string; // Summary.
-                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+                summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
                 startdate: number; // Startdate.
                 enddate: number; // Enddate.
                 visible: boolean; // Visible.
@@ -978,7 +978,7 @@ export type AddonCalendarGetActionEventsByTimesortWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -1138,7 +1138,7 @@ export type AddonCalendarGetCalendarDayViewWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -1310,7 +1310,7 @@ export type AddonCalendarGetCalendarEventByIdWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -1522,7 +1522,7 @@ export type AddonCalendarGetCalendarMonthlyViewWSResponse = {
                     shortname: string; // Shortname.
                     idnumber: string; // Idnumber.
                     summary: string; // Summary.
-                    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+                    summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
                     startdate: number; // Startdate.
                     enddate: number; // Enddate.
                     visible: boolean; // Visible.
@@ -1712,7 +1712,7 @@ export type AddonCalendarGetCalendarUpcomingViewWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -1851,7 +1851,7 @@ export type AddonCalendarSubmitCreateUpdateFormWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -1967,7 +1967,7 @@ export type AddonCalendarUpdateEventStartDayWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -2950,6 +2950,7 @@ type CoreCourseGetEnrolledCoursesByTimelineClassificationWSParams = {
     customfieldname?: string; // Used when classification = customfield.
     customfieldvalue?: string; // Used when classification = customfield.
     searchvalue?: string; // The value a user wishes to search against.
+    requiredfields?: string[]; // Array of the only field names that need to be returned. If empty, all fields will be returned.
 };
 
 /**
@@ -2964,7 +2965,7 @@ export type CoreCourseGetEnrolledCoursesByTimelineClassificationWSResponse = {
         shortname: string; // Shortname.
         idnumber: string; // Idnumber.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         startdate: number; // Startdate.
         enddate: number; // Enddate.
         visible: boolean; // Visible.
@@ -3014,7 +3015,7 @@ export type CoreCourseGetEnrolledCoursesWithActionEventsByTimelineClassification
         shortname: string; // Shortname.
         idnumber: string; // Idnumber.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         startdate: number; // Startdate.
         enddate: number; // Enddate.
         visible: boolean; // Visible.
@@ -3059,7 +3060,7 @@ export type CoreCourseGetRecentCoursesWSResponse = { // Courses.
     shortname: string; // Shortname.
     idnumber: string; // Idnumber.
     summary: string; // Summary.
-    summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+    summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
     startdate: number; // Startdate.
     enddate: number; // Enddate.
     visible: boolean; // Visible.
@@ -16861,7 +16862,7 @@ export type AddonCompetencyDataForUserCompetencySummaryWSResponse = {
             shortname: string; // Shortname.
             idnumber: string; // Idnumber.
             summary: string; // Summary.
-            summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             startdate: number; // Startdate.
             enddate: number; // Enddate.
             visible: boolean; // Visible.
@@ -17125,7 +17126,7 @@ export type AddonCompetencyDataForUserCompetencySummaryInCourseWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 summary: string; // Summary.
-                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+                summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
                 startdate: number; // Startdate.
                 enddate: number; // Enddate.
                 visible: boolean; // Visible.
@@ -17367,7 +17368,7 @@ export type AddonCompetencyDataForUserCompetencySummaryInCourseWSResponse = {
         shortname: string; // Shortname.
         idnumber: string; // Idnumber.
         summary: string; // Summary.
-        summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         startdate: number; // Startdate.
         enddate: number; // Enddate.
         visible: boolean; // Visible.
@@ -17510,7 +17511,7 @@ export type AddonCompetencyDataForUserCompetencySummaryInPlanWSResponse = {
                 shortname: string; // Shortname.
                 idnumber: string; // Idnumber.
                 summary: string; // Summary.
-                summaryformat: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+                summaryformat?: number; // Summary format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
                 startdate: number; // Startdate.
                 enddate: number; // Enddate.
                 visible: boolean; // Visible.
