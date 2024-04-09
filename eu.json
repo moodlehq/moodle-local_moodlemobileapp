@@ -760,7 +760,7 @@
     "addon.mod_h5pactivity.previewmode": "Aurrebista modua erabiltzen ari zara.",
     "addon.mod_h5pactivity.result_fill-in": "Bete beharreko testua",
     "addon.mod_h5pactivity.result_other": "Interakzio-mota ezezaguna",
-    "addon.mod_h5pactivity.review_user_attempts": "Ikusi erabiltzaileen saiakerak ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "Ikusi ({{$a}})",
     "addon.mod_h5pactivity.score": "Puntuazioa",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} gehieneko {{$a.maxscore}}(e)tik",
     "addon.mod_h5pactivity.startdate": "Hasiera-data",

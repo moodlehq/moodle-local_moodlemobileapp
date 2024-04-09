@@ -760,7 +760,7 @@
     "addon.mod_h5pactivity.previewmode": "Este contenido se muestra en modo de vista previa.",
     "addon.mod_h5pactivity.result_fill-in": "Rellene texto",
     "addon.mod_h5pactivity.result_other": "Tipo de interacción desconocida",
-    "addon.mod_h5pactivity.review_user_attempts": "Ver los intentos de usuario ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "Ver ({{$a}})",
     "addon.mod_h5pactivity.score": "Puntuación",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} de un máximo de {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "Fecha de inicio",
