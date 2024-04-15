@@ -13679,6 +13679,11 @@ export type AddonModQuizGetAttemptDataWSResponse = {
                                                      // state changes.  NULL means never check.
 
         sumgrades?: number; // Total marks for this attempt.
+        gradeitemmarks?: { // If the quiz has additional grades set up, the mark for each grade for this attempt.
+            name: string; // The name of this grade item.
+            grade: number; // The grade this attempt earned for this item.
+            maxgrade: number; // The total this grade is out of.
+        }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
     };
     messages: string[]; // Access messages, will only be returned for users with mod/quiz:preview capability,
@@ -13761,6 +13766,11 @@ export type AddonModQuizGetAttemptReviewWSResponse = {
                                                      // state changes.  NULL means never check.
 
         sumgrades?: number; // Total marks for this attempt.
+        gradeitemmarks?: { // If the quiz has additional grades set up, the mark for each grade for this attempt.
+            name: string; // The name of this grade item.
+            grade: number; // The grade this attempt earned for this item.
+            maxgrade: number; // The total this grade is out of.
+        }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
     };
     additionaldata: {
@@ -14135,6 +14145,11 @@ export type AddonModQuizGetUserAttemptsWSResponse = {
                                                      // state changes.  NULL means never check.
 
         sumgrades?: number; // Total marks for this attempt.
+        gradeitemmarks?: { // If the quiz has additional grades set up, the mark for each grade for this attempt.
+            name: string; // The name of this grade item.
+            grade: number; // The grade this attempt earned for this item.
+            maxgrade: number; // The total this grade is out of.
+        }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -14267,6 +14282,11 @@ export type AddonModQuizStartAttemptWSResponse = {
                                                      // state changes.  NULL means never check.
 
         sumgrades?: number; // Total marks for this attempt.
+        gradeitemmarks?: { // If the quiz has additional grades set up, the mark for each grade for this attempt.
+            name: string; // The name of this grade item.
+            grade: number; // The grade this attempt earned for this item.
+            maxgrade: number; // The total this grade is out of.
+        }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
     };
     warnings?: CoreWSExternalWarning[];
