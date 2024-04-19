@@ -5,6 +5,8 @@
     "core.labelsep": ":",
     "core.listsep": ";",
     "core.parentlanguage": "sv",
+    "core.user.manager": "Administratör",
+    "core.user.student": "Deltagare",
     "core.usersuspended": "Registrering avstängd",
     "workplace.aboutthiscourse": "Om kursen",
     "workplace.aboutthisprogram": "Om programmet",
