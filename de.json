@@ -327,7 +327,7 @@
     "addon.mod_assign.addattempt": "Weiteren Versuch zulassen",
     "addon.mod_assign.addnewattempt": "Neuen Versuch hinzufügen",
     "addon.mod_assign.addnewattemptfromprevious": "Neuen Versuch basierend auf der vorherigen Lösung abgeben",
-    "addon.mod_assign.addsubmission": "Abgabe hinzufügen",
+    "addon.mod_assign.addsubmission": "Aufgabenlösung hinzufügen",
     "addon.mod_assign.allowsubmissionsanddescriptionfromdatesummary": "Die Aufgabendetails und die Lösungsabgabe sind verfügbar ab <strong>{{$a}}</strong>",
     "addon.mod_assign.allowsubmissionsfromdate": "Abgabebeginn",
     "addon.mod_assign.allowsubmissionsfromdatesummary": "Abgabe möglich ab <strong>{{$a}}</strong>",
