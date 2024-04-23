@@ -2525,7 +2525,7 @@
     "core.user.emailagain": "メールアドレス (もう一度)",
     "core.user.errorloaduser": "ユーザの読み込み中にエラーが発生しました。",
     "core.user.firstname": "名",
-    "core.user.idnumber": "IDナンバー",
+    "core.user.idnumber": "IDナンバ",
     "core.user.institution": "所属組織",
     "core.user.interests": "興味のあること",
     "core.user.lastcourseaccess": "コースへの最終アクセス",
