@@ -519,7 +519,7 @@
     "addon.mod_choice.responsesresultgraphdescription": "{{number}}% dos usuários escolheram a opção: {{text}}.",
     "addon.mod_choice.responsesresultgraphheader": "Visualização do gráfico",
     "addon.mod_choice.resultsnotsynced": "Sua última resposta deve ser sincronizada antes de ser incluída nos resultados.",
-    "addon.mod_choice.savemychoice": "Gravar a minha resposta",
+    "addon.mod_choice.savemychoice": "Salvar minha escolha",
     "addon.mod_choice.userchoosethisoption": "Usuários que escolheram esta opção",
     "addon.mod_choice.yourselection": "A sua escolha",
     "addon.mod_data.actionsmenu": "Menu de ações",
