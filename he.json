@@ -1482,6 +1482,7 @@
     "core.h5p.authorcommentsdescription": "הערות עבור עורך התוכן. (המלל הזה לא יפורסם כחלק ממידע זוכיות היוצרים).",
     "core.h5p.authorname": "שם הכותב/ת",
     "core.h5p.authorrole": "תפקיד הכותב/ת",
+    "core.h5p.back": "לעמוד פעילות H5P",
     "core.h5p.by": "על ידי",
     "core.h5p.cancellabel": "ביטול",
     "core.h5p.ccattribution": "ייחוס (CC BY)",
