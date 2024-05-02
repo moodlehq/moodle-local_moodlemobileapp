@@ -81,7 +81,7 @@
     "addon.blog.blogentries": "Blog članci",
     "addon.blog.linktooriginalentry": "Link ka izvornom blog članku",
     "addon.blog.noentriesyet": "Ovde nema dostupnih чланака",
-    "addon.blog.publishtonoone": "Vi (nacrt)",
+    "addon.blog.publishtonoone": "Vi (radna verzija)",
     "addon.blog.publishtosite": "Svima na ovom sajtu",
     "addon.blog.publishtoworld": "Svima na svetu",
     "addon.blog.siteblogheading": "Blog sajta",
@@ -2192,6 +2192,6 @@
     "workplace.teams.filterisnotempty": "Nije prazno",
     "workplace.teams.filterisnotequalto": "Nije jednako",
     "workplace.teams.filterstartswith": "Počinje sa",
-    "workplace.teams.fullname": "Puno ime",
+    "workplace.teams.fullname": "Puno naziv",
     "workplace.teams.resetall": "Resetuj sve"
 }
