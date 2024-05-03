@@ -756,7 +756,7 @@
     "addon.mod_h5pactivity.previewmode": "أنت الآن بنمط العرض المسبق.",
     "addon.mod_h5pactivity.result_fill-in": "نص ملء الفراغ",
     "addon.mod_h5pactivity.result_other": "نوع تفاعل مجهول",
-    "addon.mod_h5pactivity.review_user_attempts": "معاينة محاولات المستخدم ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "معاينة ({{$a}})",
     "addon.mod_h5pactivity.score": "الدرجة",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} من أصل {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "تاريخ البدء",
