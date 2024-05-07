@@ -2117,7 +2117,7 @@
     "core.login.policyacceptmandatory": "Ulertzen eta onartzen ditut guneko derrigorrezko politikak",
     "core.login.policyagree": "Gune hau erabiltzen jarraitu aurretik politika honi onespena eman behar diozu. Ados al zaude?",
     "core.login.policyagreement": "Guneko politiken onespena",
-    "core.login.policyagreementclick": "Guneko politikak irakurtzeko esteka",
+    "core.login.policyagreementclick": "Guneko politiken onespena irakurtzeko esteka",
     "core.login.potentialidps": "Sartu beste kontu bat erabiliz:",
     "core.login.profileinvaliddata": "Balio ezegokia",
     "core.login.recaptchachallengeimage": "reCAPTCHA erronkaren irudia",
