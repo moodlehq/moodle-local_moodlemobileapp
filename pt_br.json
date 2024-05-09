@@ -2558,6 +2558,8 @@
     "workplace.coursenotavailable": "Curso não disponível",
     "workplace.courses": "Cursos",
     "workplace.dates": "Datas",
+    "workplace.datesenddate": "Data final",
+    "workplace.datesstartdate": "Data de início",
     "workplace.deleted": "Excluído",
     "workplace.dontshowagain": "Não mostrar essa mensagem novamente",
     "workplace.duedate": "Data de entrega",
