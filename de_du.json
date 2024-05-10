@@ -880,5 +880,6 @@
     "freemium.upsell_upgradefreeaccept": "Erweitern",
     "freemium.upsell_upgradefreemessage": "Du nutzt aktuell das freien Plan. Erweitere diesen, um mehr Möglichkeiten freizuschalten.",
     "freemium.upsell_upgradefreepostpone": "Später",
-    "freemium.upsell_upgradefreetitle": "Erweitere deinen Plan"
+    "freemium.upsell_upgradefreetitle": "Erweitere deinen Plan",
+    "workplace.teams.isoverdue": "Enthält überfällige oder abgelaufene Elemente"
 }
