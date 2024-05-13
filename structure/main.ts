@@ -5781,6 +5781,19 @@ export type CoreReportbuilderListReportsWSResponse = {
         timemodified: number; // Timemodified.
         usermodified: number; // Usermodified.
         sourcename: string; // Sourcename.
+        tags: { // Tags.
+            id: number; // Tag id.
+            name: string; // Tag name.
+            rawname: string; // The raw, unnormalised name for the tag as entered by users.
+            isstandard: boolean; // Whether this tag is standard.
+            tagcollid: number; // Tag collection id.
+            taginstanceid: number; // Tag instance id.
+            taginstancecontextid: number; // Context the tag instance belongs to.
+            itemid: number; // Id of the record tagged.
+            ordering: number; // Tag ordering.
+            flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
+        }[];
         modifiedby: {
             id: number; // Id.
             email: string; // Email.
@@ -5833,6 +5846,19 @@ export type CoreReportbuilderRetrieveReportWSResponse = {
         timemodified: number; // Timemodified.
         usermodified: number; // Usermodified.
         sourcename: string; // Sourcename.
+        tags: { // Tags.
+            id: number; // Tag id.
+            name: string; // Tag name.
+            rawname: string; // The raw, unnormalised name for the tag as entered by users.
+            isstandard: boolean; // Whether this tag is standard.
+            tagcollid: number; // Tag collection id.
+            taginstanceid: number; // Tag instance id.
+            taginstancecontextid: number; // Context the tag instance belongs to.
+            itemid: number; // Id of the record tagged.
+            ordering: number; // Tag ordering.
+            flag: number; // Whether the tag is flagged as inappropriate.
+            viewurl?: string; // The url to view the tag.
+        }[];
         modifiedby: {
             id: number; // Id.
             email: string; // Email.
