@@ -760,7 +760,7 @@
     "addon.mod_h5pactivity.previewmode": "Du er i forhåndsvisningsmodus",
     "addon.mod_h5pactivity.result_fill-in": "Utfyllingstekst",
     "addon.mod_h5pactivity.result_other": "Ukjent interaksjonstype",
-    "addon.mod_h5pactivity.review_user_attempts": "Vis brukerforsøk ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "Vis ({{$a}})",
     "addon.mod_h5pactivity.score": "Poeng",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} av maksimalt {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "Startdato",
