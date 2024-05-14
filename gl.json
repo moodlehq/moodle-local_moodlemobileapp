@@ -1631,7 +1631,7 @@
     "core.courses.availablecourses": "Cursos dispoñíbeis",
     "core.courses.browserenrolinstructions": "Levarémolo ao navegador do seu dispositivo. Unha vez que teña completada a súa inscrición, volva a esta apli.",
     "core.courses.cannotretrievemorecategories": "Non é posíbel recuperar as categorías máis profundas do nivel {{$a}}.",
-    "core.courses.categories": "Categorías de curso",
+    "core.courses.categories": "Categorías de cursos",
     "core.courses.completeenrolmentbrowser": "Completar a matriculación no navegador",
     "core.courses.courses": "Cursos",
     "core.courses.downloadcourses": "Descargar todos os cursos",
