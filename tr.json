@@ -760,7 +760,7 @@
     "addon.mod_h5pactivity.previewmode": "Önizleme modundasınız.",
     "addon.mod_h5pactivity.result_fill-in": "Doldurma metni",
     "addon.mod_h5pactivity.result_other": "Bilinmeyen etkileşim türü",
-    "addon.mod_h5pactivity.review_user_attempts": "Kullanıcı denemelerini görüntüle ({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "({{$a}}) görüntüle",
     "addon.mod_h5pactivity.score": "PUAN",
     "addon.mod_h5pactivity.score_out_of": "{{$a.maxscore}} dışında {{$a.rawscore}}",
     "addon.mod_h5pactivity.startdate": "Başlangıç tarihi",
