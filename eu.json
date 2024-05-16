@@ -2343,7 +2343,7 @@
     "core.settings.disabled": "Desgaituta",
     "core.settings.disallowed": "Blokeatuta",
     "core.settings.displayformat": "Erakusteko modua",
-    "core.settings.enabledownloadsection": "Gaitu gaien deskarga",
+    "core.settings.enabledownloadsection": "Gaitu atalen deskarga",
     "core.settings.enablefirebaseanalytics": "Gaitu Firebase analytics",
     "core.settings.enablefirebaseanalyticsdescription": "Gaituz gero, aplikazioak erabilera-datuak anonimoki bilduko ditu.",
     "core.settings.enablerichtexteditor": "Gaitu testu-editorea",
