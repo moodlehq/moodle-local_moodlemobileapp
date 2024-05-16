@@ -2369,7 +2369,7 @@
     "core.settings.displayformat": "Erakusteko modua",
     "core.settings.enableanalytics": "Gaitu analitikak",
     "core.settings.enableanalyticsdescription": "Gaituz gero, aplikazioak erabileraren datu anonimoak bilduko ditu",
-    "core.settings.enabledownloadsection": "Gaitu gaien deskarga",
+    "core.settings.enabledownloadsection": "Gaitu atalen deskarga",
     "core.settings.enablerichtexteditor": "Gaitu testu-editorea",
     "core.settings.enablerichtexteditordescription": "Gaituz gero, testu-editorea erakutsiko da edukia sartu ahal den lekuetan.",
     "core.settings.encryptedpushsupported": "Zifratutako push jakinarazpenak onartuta",
