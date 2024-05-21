@@ -124,7 +124,7 @@
     "addon.calendar.monthlyview": "Месечен изглед",
     "addon.calendar.newevent": "Ново събитие",
     "addon.calendar.noevents": "Няма събития",
-    "addon.calendar.nopermissiontoupdatecalendar": "За съжаление Вие нямате право да актуализирате календарно събитие",
+    "addon.calendar.nopermissiontoupdatecalendar": "Съжаляваме, но нямате разрешение да актуализирате събитието в календара.",
     "addon.calendar.repeatedevents": "Повтарящи се събития",
     "addon.calendar.repeateditall": "Промените да се приложат също и за другите {{$a}} събития от тази серия",
     "addon.calendar.repeateditthis": "Прилагане на промени само за това събитие",
