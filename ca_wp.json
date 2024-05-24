@@ -85,7 +85,7 @@
     "addon.mod_h5pactivity.no_compatible_track": "Aquesta interacció ({{$a}}) no proporciona informació de seguiment o el seguiment proporcionat no és compatible amb la versió actual de l'activitat.",
     "addon.mod_h5pactivity.noparticipants": "No hi ha participants per a mostrar",
     "addon.mod_h5pactivity.outcome": "Resultat",
-    "addon.mod_h5pactivity.previewmode": "Aquest contingut es mostra en manera de vista prèvia. No s'emmagatzemarà en el seguiment dels intents.",
+    "addon.mod_h5pactivity.previewmode": "Aquest contingut es mostra en manera de vista prèvia.",
     "addon.mod_h5pactivity.result_fill-in": "Text a emplenar",
     "addon.mod_h5pactivity.result_other": "Tipus d'interacció desconeguda",
     "addon.mod_h5pactivity.review_user_attempts": "Veure els intents dels usuaris ({{$a}})",
