@@ -327,7 +327,7 @@
     "addon.mod_assign.attemptnumber": "Номер попытки",
     "addon.mod_assign.attemptreopenmethod": "Дополнительные попытки",
     "addon.mod_assign.attemptreopenmethod_manual": "Вручную",
-    "addon.mod_assign.attemptreopenmethod_untilpass": "Автоматически (до проходной оценки)",
+    "addon.mod_assign.attemptreopenmethod_untilpass": "Автоматически (до проходного балла)",
     "addon.mod_assign.attemptsettings": "Настройки попытки",
     "addon.mod_assign.beginassignment": "Приступить к выполнению задания",
     "addon.mod_assign.caneditsubmission": "Вы можете отредактировать свой ответ и отправить его по истечении срока, но он будет помечен как опоздавший.",
