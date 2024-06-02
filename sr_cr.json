@@ -929,7 +929,7 @@
     "addon.mod_resource.errorwhileloadingthecontent": "Грешка приликом учитавања садржаја.",
     "addon.mod_resource.modifieddate": "Измењено {{$a}}",
     "addon.mod_resource.modulenameplural": "Датотеке",
-    "addon.mod_resource.openthefile": "Отвори датотеку",
+    "addon.mod_resource.openthefile": "Отвори",
     "addon.mod_resource.resourcestatusoutdated": "Ова датотека се променила од када сте је последњи пут отворили.",
     "addon.mod_resource.resourcestatusoutdatedconfirm": "Постоји новија верзија ове датотеке. Да бисте је видели, повежите свој уређај на интернет.",
     "addon.mod_resource.uploadeddate": "Постављено {{$a}}",
