@@ -922,7 +922,7 @@
     "addon.mod_resource.errorwhileloadingthecontent": "Greška prilikom učitavanja sadržaja.",
     "addon.mod_resource.modifieddate": "Izmenjeno {{$a}}",
     "addon.mod_resource.modulenameplural": "Datoteke",
-    "addon.mod_resource.openthefile": "Otvori datoteku",
+    "addon.mod_resource.openthefile": "Otvori",
     "addon.mod_resource.resourcestatusoutdated": "Ova datoteka se promenila od kada ste je poslednji put otvorili.",
     "addon.mod_resource.resourcestatusoutdatedconfirm": "Postoji novija verzija ove datoteke. Da biste je videli, povežite svoj uređaj na internet.",
     "addon.mod_resource.uploadeddate": "Postavljeno {{$a}}",
