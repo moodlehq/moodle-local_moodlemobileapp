@@ -8340,6 +8340,7 @@ export type AddonModBigbluebuttonbnGetRecordingsToImportWSResponse = {
             type?: string; // Column type.
             sortable?: boolean; // Whether this column is sortable.
             allowHTML?: boolean; // Whether this column contains HTML.
+            formatter?: string; // Formatter name.
         }[];
         data: string;
     };
