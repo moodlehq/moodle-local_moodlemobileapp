@@ -2,6 +2,7 @@
     "addon.mod_scorm.enter": "Starta",
     "addon.mod_scorm.suspended": "Avstängd",
     "addon.storagemanager.alldata": "All data",
+    "core.course.studentsmust": "Deltagare måste",
     "core.course.youmust": "Du ska",
     "core.decsep": ",",
     "core.labelsep": ":",
