@@ -1,6 +1,11 @@
 {
+    "core.add": "Legg til",
+    "core.comments.addcomment": "Legg til en kommentar…",
     "core.decsep": ".",
     "core.labelsep": ":",
     "core.listsep": ",",
-    "core.parentlanguage": "no"
+    "core.login.add": "Legg til",
+    "core.parentlanguage": "no",
+    "core.user.address": "Adresse",
+    "freemium.accept": "Aksepter"
 }
