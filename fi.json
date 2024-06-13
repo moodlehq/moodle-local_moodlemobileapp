@@ -1828,7 +1828,7 @@
     "core.login.confirmdeletesite": "Oletko varma, että haluat poistaa sivuston {{sitename}}?",
     "core.login.connect": "Yhdistä!",
     "core.login.connecttomoodle": "Yhdistä Moodleen",
-    "core.login.createaccount": "Luo uusi käyttäjätunnus.",
+    "core.login.createaccount": "Luo uusi käyttäjätunnus",
     "core.login.createuserandpass": "Valitse käyttäjätunnus ja salasana",
     "core.login.credentialsdescription": "Ole hyvä ja kirjoita käyttäjänimesi ja salasanasi, jotta voit kirjautua sisään.",
     "core.login.emailconfirmsent": "<p>Vahvistusviesti on lähetetty osoitteeseesi <b>{{$a}}</b></p>\n   <p>Se sisältää ohjeet, kuinka voit vahvistaa käyttäjätunnuksesi.</p>\n   <p>Jos vahvistuksessa on ongelmia, ota yhteyttä ylläpitäjään.</p>",
