@@ -1066,6 +1066,8 @@
     "addon.privatefiles.files": "File",
     "addon.privatefiles.privatefiles": "File personali",
     "addon.privatefiles.sitefiles": "File del sito",
+    "addon.qtype_essay.maxwordlimitboundary": "Il limite di parole per questa domanda è di {{$a.limit}} parole e stai tentando di inviare {{$a.count}} parole. Accorcia la risposta e riprova.",
+    "addon.qtype_essay.minwordlimitboundary": "Questa domanda richiede una risposta di almeno {{$a.limit}} parole e stai tentando di inviare {{$a.count}} parole. Per favore espandi la tua risposta e riprova.",
     "addon.report_insights.actionsaved": "Il tuo feedback su '{{$a}}' è stato salvato",
     "addon.report_insights.fixedack": "Accetta",
     "addon.report_insights.incorrectlyflagged": "Contrassegnate erroneamente",
