@@ -2003,7 +2003,7 @@
     "core.settings.deviceos": "SO del dispositivo",
     "core.settings.disableall": "Disabilita le notifiche",
     "core.settings.disabled": "Disabilitato",
-    "core.settings.disallowed": "Non consentito",
+    "core.settings.disallowed": "Sbloccato",
     "core.settings.displayformat": "Formato di visualizzazione",
     "core.settings.enabledownloadsection": "Abilita scaricamento sezioni",
     "core.settings.enablefirebaseanalytics": "Abilita analitica Firebase",
