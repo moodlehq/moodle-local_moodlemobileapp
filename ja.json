@@ -1837,7 +1837,7 @@
     "core.h5p.altText": "代替テキスト",
     "core.h5p.author": "作成者",
     "core.h5p.authorcomments": "作成者コメント",
-    "core.h5p.authorcommentsdescription": "コンテンツのエディタのコメントです (このテキストは著作権情報の一部としては公開されません)。",
+    "core.h5p.authorcommentsdescription": "コンテンツ編集者のコメントです (このテキストは著作権情報の一部としては公開されません)。",
     "core.h5p.authorname": "作成者名",
     "core.h5p.authorrole": "作成者ロール",
     "core.h5p.back": "戻る",
