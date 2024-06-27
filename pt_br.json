@@ -797,7 +797,7 @@
     "addon.mod_lesson.errorreviewretakenotlast": "Esta tentativa não pode mais ser revisada porque outra tentativa foi finalizada.",
     "addon.mod_lesson.finish": "Finalizado",
     "addon.mod_lesson.finishretakeoffline": "Esta tentativa foi finalizada offline.",
-    "addon.mod_lesson.firstwrong": "Você respondeu incorretamente. Você gostaria de tentar novamente a questão? (Se você responder a pergunta corretamente, sua pontuação final não será alterada.)",
+    "addon.mod_lesson.firstwrong": "Você respondeu incorretamente. Você gostaria de tentar novamente a questão? (Se você responder a questão corretamente, sua pontuação final não será alterada.)",
     "addon.mod_lesson.gotoendoflesson": "Ir para o final da lição",
     "addon.mod_lesson.grade": "Avaliação",
     "addon.mod_lesson.highscore": "Pontuação alta",
