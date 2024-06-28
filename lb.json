@@ -31,7 +31,7 @@
     "addon.calendar.invalidtimedurationuntil": "Den Datum an d'Zäit déi s du fir \"dauert bis\" aginn hues, läit virum Ufankt vum Event. Verbesser dëst ir s du weider méchs.",
     "addon.calendar.mon": "Mé",
     "addon.calendar.monday": "Méindeg",
-    "addon.calendar.monthlyview": "Iwwersiicht pro Mount",
+    "addon.calendar.monthnext": "nächste Mount",
     "addon.calendar.newevent": "neien Event",
     "addon.calendar.repeatedevents": "Widderholten Eventer",
     "addon.calendar.repeateditall": "Maach d'Ännerungen och an deenen aneren {{$a}} Eventer an dëse Widderhuelungsserien.",

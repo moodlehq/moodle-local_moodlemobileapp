@@ -1,4 +1,5 @@
 {
+    "addon.blog.associatewithcourse": "Blog om rummet \"{{$a.coursename}}\"",
     "addon.calendar.courseevents": "Rumbegivenheder",
     "addon.calendar.typecourse": "Rum",
     "addon.coursecompletion.coursecompletion": "Rumfuldførelse",
@@ -20,6 +21,7 @@
     "core.courses.searchcourses": "Find rum",
     "core.courses.therearecourses": "Der er {{$a}} rum",
     "core.decsep": ",",
+    "core.firstdayofweek": "1",
     "core.fulllistofcourses": "Alle rum",
     "core.grades.contributiontocoursetotal": "Bidrag til rummets total",
     "core.labelsep": ":",

@@ -4,6 +4,7 @@
     "core.category": "Rummad",
     "core.comments.addcomment": "Ouzhpennañ un evezhiadenn",
     "core.decsep": ".",
+    "core.firstdayofweek": "1",
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.login.add": "Ouzhpennañ",

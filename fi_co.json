@@ -1,5 +1,6 @@
 {
     "addon.block_completionstatus.pluginname": "Työtilasuoritusten tila",
+    "addon.blog.associatewithcourse": "Blogi työtilasta {{$a.coursename}}",
     "addon.calendar.courseevents": "Työtilan tapahtumat",
     "addon.calendar.typecourse": "Työtilatapahtuma",
     "addon.coursecompletion.completecourse": "Merkitse työtila suoritetuksi",
@@ -27,10 +28,12 @@
     "core.courses.searchcourses": "Etsi työtiloja",
     "core.courses.therearecourses": "Yhteensä {{$a}} työtilaa",
     "core.decsep": ",",
+    "core.firstdayofweek": "0",
     "core.fulllistofcourses": "Kaikki työtilat",
     "core.listsep": ";",
     "core.notenrolledprofile": "Profiilia ei voida näyttää, sillä tämä käyttäjä ei ole kirjautuneena tähän työtilaan.",
     "core.parentlanguage": "fi",
+    "core.policy.idontagree": "Ei kiitos, en hyväksy käytännettä {{$a}}",
     "core.selectacourse": "Valitse työtila",
     "core.user.noparticipants": "Tälle työtilalle ei löytynyt osallistujia",
     "workplace.coursefiles": "Perinteiset työtilatiedostot"

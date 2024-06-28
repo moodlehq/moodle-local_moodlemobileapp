@@ -1,5 +1,7 @@
 {
+    "addon.calendar.monthnext": "Киләсе ай",
     "core.decsep": ",",
+    "core.firstdayofweek": "1",
     "core.labelsep": ":",
     "core.listsep": ";",
     "core.settings.accessstatement": "Аңлаешлыкның хисабы",

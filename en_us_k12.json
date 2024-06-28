@@ -1,5 +1,6 @@
 {
     "addon.block_completionstatus.pluginname": "Class completion status",
+    "addon.blog.associatewithcourse": "Blog about class {{$a.coursename}}",
     "addon.calendar.courseevents": "Class events",
     "addon.calendar.typecourse": "Class event",
     "addon.competency.competenciesmostoftennotproficientincourse": "Competencies most often not proficient in this class",
@@ -32,6 +33,7 @@
     "core.courses.searchcourses": "Search classes",
     "core.courses.therearecourses": "There are {{$a}} classes",
     "core.decsep": ".",
+    "core.firstdayofweek": "0",
     "core.fulllistofcourses": "All classes",
     "core.grades.contributiontocoursetotal": "Contribution to class total",
     "core.labelsep": ":",

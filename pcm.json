@@ -1,4 +1,6 @@
 {
+    "addon.blog.addnewentry": "Add one new entry",
+    "addon.blog.entrytitle": "Title of Entry",
     "addon.blog.noentriesyet": "No visible entries dey here",
     "core.add": "Add",
     "core.all": "Everything",

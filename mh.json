@@ -1,5 +1,6 @@
 {
     "core.decsep": ".",
+    "core.firstdayofweek": "0",
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.strftimedate": "%d %B %Y",

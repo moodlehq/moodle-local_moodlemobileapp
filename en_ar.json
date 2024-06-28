@@ -44,6 +44,7 @@
     "addon.mod_lesson.youshouldview": "Ye should answer at least: {{$a}}",
     "addon.mod_quiz.confirmclose": "Once ye submit, ye will no longer be able to change yer answers for this attempt.",
     "addon.mod_quiz.noreviewattempt": "Ye are not allowed to review this attempt.",
+    "addon.mod_quiz.noreviewuntil": "Ye are not allowed to review this quiz until {{$a}}",
     "addon.mod_quiz.overduemustbesubmittedby": "This attempt is now overdue. It should already have been submitted. If ye would like this quiz to be graded, ye must submit it by {{$a}}. If ye do not submit it by then, no marks from this attempt will be counted.",
     "addon.mod_quiz.requirepasswordmessage": "To attempt this quiz ye need to know the quiz password",
     "addon.mod_quiz.summaryofattempts": "Summary of yer previous attempts",
@@ -70,7 +71,6 @@
     "core.forcepasswordchangenotice": "Ye must change yer password to proceed.",
     "core.labelsep": ":",
     "core.listsep": ",",
-    "core.login.createuserandpass": "Choose yer username and password",
     "core.login.emailconfirmsent": "<p>An email should have been sent to yer address at <b>{{$a}}</b></p>\n   <p>It contains easy instructions to complete yer registration.</p>\n   <p>If ye continue to have difficulty, contact the site administrator.</p>",
     "core.login.firsttime": "Is this yer first time here?",
     "core.login.forcepasswordchangenotice": "Ye must change yer password to proceed.",
@@ -78,7 +78,6 @@
     "core.login.loginsteps": "Ahoy! For full access to courses you'll need to take\n   a minute to create a new account for yourself on this web site.\n   Each of the individual courses may also have a one-time\n   \"enrolment key\", which ye won't need until later. Here are\n   the steps:\n   <ol>\n   <li>Fill out the <a href=\"{{$a}}\">New Account</a> form with yer details.</li>\n   <li>An email will be immediately sent to yer email address.</li>\n   <li>Read yer email, and click on the web link it contains.</li>\n   <li>Yer account will be confirmed and ye will be logged in.</li>\n   <li>Now, select the course ye want to participate in.</li>\n   <li>If ye are prompted for an \"enrolment key\" - use the one\n   that yer teacher has given you. This will \"enrol\" ye in the\n   course.</li>\n   <li>Ye can now access the full course. From now on ye will only need\n   to enter yer personal username and password (in the form on this page)\n   to log in and access any course ye have enrolled in.</li>\n   </ol>",
     "core.login.mustconfirm": "Ye need to confirm yer boarding credentials",
     "core.login.passwordforgotteninstructions2": "To reset yer password, submit yer username or yer email address below. If we can find ye in the database, an email will be sent to yer email address, with instructions how to get access again.",
-    "core.login.policyagree": "Ye must agree to this policy to continue using this site.  Do ye agree?",
     "core.login.potentialidps": "Log in using yer account on:",
     "core.mainmenu.logout": "Disembark",
     "core.no": "Nay",
@@ -89,5 +88,7 @@
     "core.notingroup": "Sorry, but ye need to be part of a group to see this activity.",
     "core.ok": "Aye!",
     "core.parentlanguage": "en",
+    "core.policy.policyagree": "Ye must agree to this policy to continue using this site.  Do ye agree?",
+    "core.search.err_minlength": "Ye must enter at least {{$a.format}} characters here.",
     "core.yes": "Aye"
 }

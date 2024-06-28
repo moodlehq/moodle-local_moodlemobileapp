@@ -10,6 +10,7 @@
     "core.add": "ついか",
     "core.comments.addcomment": "コメントをついかする ...",
     "core.decsep": ".",
+    "core.firstdayofweek": "0",
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.login.accounts": "アカウント",
