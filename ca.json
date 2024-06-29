@@ -896,7 +896,7 @@
     "addon.mod_quiz.gradehighest": "Qualificació més alta",
     "addon.mod_quiz.grademethod": "Mètode de qualificació",
     "addon.mod_quiz.gradesofar": "{{$a.method}}: {{$a.mygrade}} / {{$a.quizgrade}}.",
-    "addon.mod_quiz.marks": "Punts",
+    "addon.mod_quiz.marks": "Notes",
     "addon.mod_quiz.modulenameplural": "Qüestionaris",
     "addon.mod_quiz.mustbesubmittedby": "Aquest intent s'ha de trametre abans de {{$a}}.",
     "addon.mod_quiz.noquestions": "Encara no s'han afegit preguntes",
