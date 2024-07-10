@@ -1702,7 +1702,7 @@
     "core.errorinvalidform": "Comproveu que tots els camps requerits s'han emplenat i que les dades que heu introduït tenen el format correcte.",
     "core.errorinvalidresponse": "S'ha rebut una resposta inesperada per al servei web {{method}}.",
     "core.errorloadingcontent": "S'ha produït un error en carregar el contingut.",
-    "core.errorofflinedisabled": "La navegació fora de línia està deshabilitada al seu lloc web. Necessita tornar-se a connectar a Internet per fer servir l'aplicació.",
+    "core.errorofflinedisabled": "La navegació fora de línia està inhabilitada al vostre lloc web. Necessiteu tornar-vos a connectar a Internet per fer servir l'aplicació mòbil.",
     "core.erroropenfiledownloading": "Error en obrir el fitxer: espereu que finalitzi la descàrrega.",
     "core.erroropenfilenoapp": "S'ha produït un error en obrir el fitxer: no s'ha trobat cap aplicació per obrir aquest tipus de fitxer.",
     "core.erroropenfilenoextension": "S'ha produït un error obrint el fitxer: el fitxer no té extensió.",
