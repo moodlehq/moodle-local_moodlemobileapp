@@ -1638,7 +1638,7 @@
     "core.courses.mycourses": "Kursusku",
     "core.courses.mymoodle": "Dasbor",
     "core.courses.nocourses": "Tidak ada informasi kursus untuk ditampilkan.",
-    "core.courses.nocoursesyet": "Belum ada kursus saat ini.",
+    "core.courses.nocoursesyet": "Belum ada kursus pada kategori ini",
     "core.courses.nosearchresults": "Tidak ada hasil",
     "core.courses.notenroled": "Anda tidak terdaftar dalam kursus ini",
     "core.courses.notenrollable": "Anda tidak dapat mendaftarkan diri ke materi.",
