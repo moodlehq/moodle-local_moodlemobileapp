@@ -1148,6 +1148,7 @@
     "addon.privatefiles.sitefiles": "Berkas situs",
     "addon.qtype_essay.maxwordlimitboundary": "Batas kata untuk soal ini adalah {{$a.limit}} kata dan Anda mencoba mengirimkan {{$a.count}} kata. Harap persingkat jawaban Anda dan coba lagi.",
     "addon.qtype_essay.minwordlimitboundary": "Soal ini membutuhkan jawaban minimal {{$a.limit}} kata dan Anda mencoba mengirimkan {{$a.count}} kata. Perluas jawaban Anda dan coba lagi.",
+    "addon.qtype_ordering.moved": "{{$a.item}} dipindahkan. Posisi baru: {{$a.position}} dari {{$a.total}}.",
     "addon.report_insights.actionsaved": "Umpan balik Anda tentang '{{$a}}' telah disimpan.",
     "addon.report_insights.fixedack": "Setujui",
     "addon.report_insights.incorrectlyflagged": "Salah ditandai",
