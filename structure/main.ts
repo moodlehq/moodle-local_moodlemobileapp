@@ -5082,20 +5082,6 @@ export type AddonMessagesGetUserMessagePreferencesWSResponse = {
                     locked: boolean; // Is locked by admin?.
                     lockedmessage?: string; // Text to display if locked.
                     userconfigured: number; // Is configured?.
-                    loggedin: {
-                        name: string; // Name.
-                        displayname: string; // Display name.
-                        checked: boolean; // Is checked?.
-                    }; // DEPRECATED ATTRIBUTE -
-                                                     // Kept for backward compatibility, use enabled instead.
-
-                    loggedoff: {
-                        name: string; // Name.
-                        displayname: string; // Display name.
-                        checked: boolean; // Is checked?.
-                    }; // DEPRECATED ATTRIBUTE -
-                                                     // Kept for backward compatibility, use enabled instead.
-
                     enabled: boolean; // Is enabled?.
                 }[];
             }[];
@@ -5142,20 +5128,6 @@ export type AddonMessagesGetUserNotificationPreferencesWSResponse = {
                     locked: boolean; // Is locked by admin?.
                     lockedmessage?: string; // Text to display if locked.
                     userconfigured: number; // Is configured?.
-                    loggedin: {
-                        name: string; // Name.
-                        displayname: string; // Display name.
-                        checked: boolean; // Is checked?.
-                    }; // DEPRECATED ATTRIBUTE -
-                                                     // Kept for backward compatibility, use enabled instead.
-
-                    loggedoff: {
-                        name: string; // Name.
-                        displayname: string; // Display name.
-                        checked: boolean; // Is checked?.
-                    }; // DEPRECATED ATTRIBUTE -
-                                                     // Kept for backward compatibility, use enabled instead.
-
                     enabled: boolean; // Is enabled?.
                 }[];
             }[];
@@ -18327,6 +18299,7 @@ export type CoreSiteGetPublicConfigWSResponse = {
     tool_mobile_setuplink?: string; // App download page.
     tool_mobile_qrcodetype?: number; // QR login configuration.
     warnings?: CoreWSExternalWarning[];
+    showloginform: number; // Display default login form.
 };
 
 /**
