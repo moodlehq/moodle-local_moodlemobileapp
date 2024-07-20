@@ -1495,6 +1495,7 @@
     "core.selectagroup": "Избиране на група",
     "core.send": "Изпращане",
     "core.sending": "Изпраща се",
+    "core.serverconnection": "Грешка при свързване със сървъра",
     "core.settings.about": "Относно",
     "core.settings.accessstatement": "Оператор за достъпност",
     "core.settings.currentlanguage": "Текущ език",
