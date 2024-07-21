@@ -756,7 +756,7 @@
     "addon.mod_h5pactivity.attempts": "Tentatives",
     "addon.mod_h5pactivity.attempts_none": "Cette utilisateur n’a pas de tentative.",
     "addon.mod_h5pactivity.attempts_report": "Rapport des tentatives",
-    "addon.mod_h5pactivity.completion": "Complétude",
+    "addon.mod_h5pactivity.completion": "Achèvement",
     "addon.mod_h5pactivity.downloadh5pfile": "Télécharger le fichier H5P",
     "addon.mod_h5pactivity.duration": "Durée",
     "addon.mod_h5pactivity.errorgetactivity": "Erreur lors de la récupération des données d’activité H5P.",
