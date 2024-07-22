@@ -2861,7 +2861,8 @@ type CoreCourseGetCoursesByFieldWSParams = {
                  // ids: comma separated course ids
                  // shortname: course short name
                  // idnumber: course id number
-                 // category: category id the course belongs to.
+                 // category: category id the course belongs to
+                 // sectionid: section id that belongs to a course.
 
     value?: string; // The value to match.
 };
@@ -6525,6 +6526,28 @@ export type CoreUserGetUsersByFieldWSResponse = {
 }[];
 
 /**
+ * Params of core_user_prepare_private_files_for_edition WS.
+ *
+ * WS Description: Prepares the draft area for user private files.
+ */
+type CoreUserPreparePrivateFilesForEditionWSParams = {
+};
+
+/**
+ * Data returned by core_user_prepare_private_files_for_edition WS.
+ *
+ * WS Description: Prepares the draft area for user private files.
+ */
+export type CoreUserPreparePrivateFilesForEditionWSResponse = {
+    draftitemid: number; // Draft item id for the file area.
+    areaoptions: { // Draft file area options.
+        name: string; // Name of option.
+        value: string; // Value of option.
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of core_user_remove_user_device WS.
  *
  * WS Description: Remove a user device from the Moodle database.
@@ -6589,6 +6612,25 @@ type CoreUserUpdatePictureWSParams = {
 export type CoreUserUpdatePictureWSResponse = {
     success: boolean; // True if the image was updated, false otherwise.
     profileimageurl?: string; // New profile user image url.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of core_user_update_private_files WS.
+ *
+ * WS Description: Copy files from a draft area to users private files area.
+ */
+type CoreUserUpdatePrivateFilesWSParams = {
+    draftitemid: number; // The draft item id with the files.
+};
+
+/**
+ * Data returned by core_user_update_private_files WS.
+ *
+ * WS Description: Copy files from a draft area to users private files area.
+ */
+export type CoreUserUpdatePrivateFilesWSResponse = {
+    status: boolean; // The update result, true if everything went well.
     warnings?: CoreWSExternalWarning[];
 };
 
