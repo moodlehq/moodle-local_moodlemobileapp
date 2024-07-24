@@ -715,7 +715,7 @@
     "addon.mod_h5pactivity.previewmode": "Esate peržiūros režime.",
     "addon.mod_h5pactivity.result_fill-in": "Užpildyti tekstą",
     "addon.mod_h5pactivity.result_other": "Nežinomas",
-    "addon.mod_h5pactivity.review_user_attempts": "Peržiūrėti naudotojo bandymus (({{$a}})",
+    "addon.mod_h5pactivity.review_user_attempts": "Peržiūrėti ({{$a}})",
     "addon.mod_h5pactivity.score": "Balas",
     "addon.mod_h5pactivity.score_out_of": "{{$a.rawscore}} iš {{$a.maxscore}}",
     "addon.mod_h5pactivity.startdate": "Pradžios data",
