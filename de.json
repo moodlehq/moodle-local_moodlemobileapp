@@ -2334,7 +2334,7 @@
     "core.settings.cordovadeviceuuid": "Cordova Device UUID",
     "core.settings.cordovaversion": "Cordova Version",
     "core.settings.currentlanguage": "Aktuelle Sprache",
-    "core.settings.debugdisplay": "Debug-Meldungen anzeigen",
+    "core.settings.debugdisplay": "Debug-Mitteilungen anzeigen",
     "core.settings.debugdisplaydescription": "Wenn diese Option aktiviert ist, werden zusätzliche Fehlerdaten angezeigt.",
     "core.settings.developeroptions": "Entwickleroptionen",
     "core.settings.deviceinfo": "Geräteinformationen",
