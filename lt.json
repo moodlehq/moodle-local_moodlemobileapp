@@ -881,7 +881,7 @@
     "addon.mod_quiz.submission_confirmation_unanswered": "Neatsakyti klausimai: {{$a}}",
     "addon.mod_quiz.submitallandfinish": "Pateikti viską ir baigti",
     "addon.mod_quiz.summaryofattempt": "Bandymo suvestinė",
-    "addon.mod_quiz.summaryofattempts": "Ankstesnių bandymų suvestinė",
+    "addon.mod_quiz.summaryofattempts": "Jūsų bandymai",
     "addon.mod_quiz.timeleft": "Likęs laikas",
     "addon.mod_quiz.unit": "Vienetai",
     "addon.mod_quiz.warningattemptfinished": "Bandymas neprisijungus atmestas nes buvo baigtas arba neaptiktas.",
