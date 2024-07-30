@@ -1749,6 +1749,7 @@
     "core.removefiles": "הסרת קבצים {{$a}}",
     "core.reportbuilder.reports": "דוחות",
     "core.reportbuilder.reportsource": "מקור הדוח",
+    "core.reportbuilder.timecreated": "מועד יצירה",
     "core.required": "דרוש",
     "core.requireduserdatamissing": "למשתמש זה חסרים שדות נדרשים בפרופיל המשתמש. יש להשלים מידע זה באתר המוודל שלך ולנסות שוב.<br>{{$a}}",
     "core.resourcedisplayopen": "באותו דף",
