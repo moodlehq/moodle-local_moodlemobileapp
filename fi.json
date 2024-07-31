@@ -348,7 +348,7 @@
     "addon.mod_assign.grade": "Arvosana",
     "addon.mod_assign.graded": "Arvioitu",
     "addon.mod_assign.gradedby": "Arvioija",
-    "addon.mod_assign.gradedfollowupsubmit": "Arvioitu - uusi palautus tullut",
+    "addon.mod_assign.gradedfollowupsubmit": "Arvioitu - uudelleen palautettu",
     "addon.mod_assign.gradedon": "Arviointipäivä",
     "addon.mod_assign.gradelocked": "Tämä arvosana on lukittu tai ylitetty arviointikirjassa",
     "addon.mod_assign.gradenotsynced": "Arvosanaa ei ole synkronoitu",
