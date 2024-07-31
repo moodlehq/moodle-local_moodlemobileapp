@@ -1071,6 +1071,7 @@
     "addon.privatefiles.sitefiles": "Svetainės failai",
     "addon.qtype_essay.maxwordlimitboundary": "Šio klausimo žodžių limitas yra {{$a.limit}} žodžiai, o jūs bandote pateikti {{$a.count}} žodžius. Sutrumpinkite atsakymą ir bandykite dar kartą.",
     "addon.qtype_essay.minwordlimitboundary": "Šis klausimas reikalauja bent {{$a.limit}} žodžių atsakymo, o jūs bandote pateikti {{$a.count}} žodžius. Išplėskite atsakymą ir bandykite dar kartą.",
+    "addon.qtype_ordering.moved": "{{$a.item}} perkeltas. Nauja pozicija: {{$a.position}} iš {{$a.total}}.",
     "addon.report_insights.actionsaved": "Jūsų atsiliepimas '{{$a}}' buvo išsaugotas.",
     "addon.report_insights.fixedack": "Sutikti",
     "addon.report_insights.incorrectlyflagged": "Neteisingai pažymėta",
