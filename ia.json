@@ -1,5 +1,13 @@
 {
+    "core.accounts": "Contos",
+    "core.add": "Adde",
+    "core.comments.addcomment": "Adde un commento",
     "core.decsep": ".",
     "core.labelsep": ":",
-    "core.listsep": ","
+    "core.listsep": ",",
+    "core.login.accounts": "Contos",
+    "core.login.add": "Adde",
+    "core.settings.accessstatement": "Instruction de Accessibilitate",
+    "core.user.address": "Adresse",
+    "freemium.accept": "Accepta"
 }
