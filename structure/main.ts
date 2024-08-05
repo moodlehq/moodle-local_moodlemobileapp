@@ -3586,9 +3586,7 @@ type CoreFiltersGetAllStatesWSParams = {
  */
 export type CoreFiltersGetAllStatesWSResponse = {
     filters: { // All filters states.
-        contextlevel: string; // The context level where the filters are:
-                             // (coursecat, course, module).
-
+        contextlevel: string; // The context level where the filters are: (coursecat, course, module).
         instanceid: number; // The instance id of item associated with the context.
         contextid: number; // The context id.
         filter: string; // Filter plugin name.
@@ -3605,9 +3603,7 @@ export type CoreFiltersGetAllStatesWSResponse = {
  */
 type CoreFiltersGetAvailableInContextWSParams = {
     contexts: { // The list of contexts to check.
-        contextlevel: string; // The context level where the filters are:
-                             // (coursecat, course, module).
-
+        contextlevel: string; // The context level where the filters are: (coursecat, course, module).
         instanceid: number; // The instance id of item associated with the context.
     }[];
 };
@@ -3619,9 +3615,7 @@ type CoreFiltersGetAvailableInContextWSParams = {
  */
 export type CoreFiltersGetAvailableInContextWSResponse = {
     filters: { // Available filters.
-        contextlevel: string; // The context level where the filters are:
-                             // (coursecat, course, module).
-
+        contextlevel: string; // The context level where the filters are: (coursecat, course, module).
         instanceid: number; // The instance id of item associated with the context.
         contextid: number; // The context id.
         filter: string; // Filter plugin name.
