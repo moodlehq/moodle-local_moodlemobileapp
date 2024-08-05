@@ -1325,6 +1325,7 @@
     "core.course.completionrequirements": "דרישות השלמה ל: {{$a}}",
     "core.course.couldnotloadsectioncontent": "אין אפשרות לטעון ולהציג את תוכן יחידת ההוראה. יש לנסות שוב מאוחר יותר.",
     "core.course.couldnotloadsections": "אין אפשרות לטעון ולהציג את יחידות ההוראה, יש לנסות שוב מאוחר יותר.",
+    "core.course.courseindex": "אינדקס של הקורס",
     "core.course.coursesummary": "תקציר הקורס",
     "core.course.done": "הושלם",
     "core.course.downloadcourse": "הורדת הקורס",
