@@ -5,6 +5,7 @@
     "addon.mod_assign.markingworkflowstatenotmarked": "Not graded",
     "addon.mod_assign.markingworkflowstatereadyforreview": "Grading completed",
     "addon.mod_quiz.marks": "Points",
+    "core.courses.enrolme": "Enroll me",
     "core.courses.notenroled": "You are not enrolled in this course",
     "core.decsep": ".",
     "core.h5p.pddl": "Public Domain Dedication and License",
