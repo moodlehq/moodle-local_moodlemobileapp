@@ -65,7 +65,7 @@
     "addon.block_recentlyaccessedcourses.pluginname": "最近アクセスされたコース",
     "addon.block_recentlyaccesseditems.noitems": "最近のアイテムなし",
     "addon.block_recentlyaccesseditems.pluginname": "最近アクセスされたアイテム",
-    "addon.block_rssclient.pluginname": "リモートRSSフィード",
+    "addon.block_rssclient.pluginname": "RSSフィード",
     "addon.block_searchforums.pluginname": "フォーラムを検索する",
     "addon.block_selfcompletion.pluginname": "自己完了",
     "addon.block_sitemainmenu.pluginname": "メインメニュー",
