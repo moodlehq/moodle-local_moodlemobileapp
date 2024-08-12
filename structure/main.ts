@@ -3832,6 +3832,7 @@ export type CoreGradesGetGradeitemsWSResponse = {
  */
 type CoreGradesGetGroupsForSearchWidgetWSParams = {
     courseid: number; // Course Id.
+    cmid?: number; // Course module Id.
 };
 
 /**
@@ -3855,6 +3856,7 @@ export type CoreGradesGetGroupsForSearchWidgetWSResponse = {
  */
 type CoreGradesGetGroupsForSelectorWSParams = {
     courseid: number; // Course Id.
+    cmid?: number; // Course module Id.
 };
 
 /**
@@ -4140,6 +4142,7 @@ export type CoreGroupGetCourseUserGroupsWSResponse = {
  */
 type CoreGroupGetGroupsForSelectorWSParams = {
     courseid: number; // Course Id.
+    cmid?: number; // Course module Id.
 };
 
 /**
