@@ -355,7 +355,7 @@
     "addon.mod_assign.allowsubmissionsfromdate": "Autoriser la remise dès le",
     "addon.mod_assign.allowsubmissionsfromdatesummary": "Ce devoir acceptera les remises à <strong>{{$a}}</strong>",
     "addon.mod_assign.applytoteam": "Appliquer les notes et le feedback à tout le groupe",
-    "addon.mod_assign.assignmentisdue": "Devoir à effectuer",
+    "addon.mod_assign.assignmentisdue": "Devoir à rendre",
     "addon.mod_assign.assigntimeleft": "Temps restant",
     "addon.mod_assign.attemptnumber": "Numéro de tentative",
     "addon.mod_assign.attemptreopenmethod": "Tentatives supplémentaires",
