@@ -806,7 +806,7 @@
     "addon.mod_quiz.clearchoice": "Poista valintani",
     "addon.mod_quiz.comment": "Kommentti",
     "addon.mod_quiz.completedon": "Valmis",
-    "addon.mod_quiz.confirmclose": "Kun palautat tentin, et voi enää muokata vastauksiasi tältä vastauskerralta.",
+    "addon.mod_quiz.confirmclose": "Kun palautat tentin, et voi enää muokata vastauksiasi.",
     "addon.mod_quiz.confirmcontinueoffline": "Tätä suorituskertaa ei ole synkronoitu sitten {{$a}}. Jos olet jatkanut tätä suoritusta toisella laitteella, voit menettää nämä tiedot.",
     "addon.mod_quiz.confirmleavequizonerror": "Vastauksia tallennettaessa tapahtui virhe. Oletko varma, että haluat poistua tentistä?",
     "addon.mod_quiz.confirmstart": "Tenttisuorituksen aikaraja on {{$a}}. Suoritusajan laskeminen alkaa siitä hetkestä, kun aloitat tentin. Tentti tulee lopettaa ennen kuin suoritusaika menee umpeen. Haluatko varmasti aloittaa tentin nyt?",

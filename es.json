@@ -65,7 +65,7 @@
     "addon.block_recentlyaccessedcourses.pluginname": "Cursos a los que se ha accedido recientemente",
     "addon.block_recentlyaccesseditems.noitems": "Sin elementos recientes",
     "addon.block_recentlyaccesseditems.pluginname": "Elementos accedidos recientemente",
-    "addon.block_rssclient.pluginname": "Canal RSS remoto",
+    "addon.block_rssclient.pluginname": "Canales RSS",
     "addon.block_searchforums.pluginname": "Buscar en los foros",
     "addon.block_selfcompletion.pluginname": "Autocompletar",
     "addon.block_sitemainmenu.pluginname": "Menú principal",
