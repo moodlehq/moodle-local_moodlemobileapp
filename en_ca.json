@@ -1,0 +1,8 @@
+{
+    "core.decsep": ".",
+    "core.labelsep": ":",
+    "core.listsep": ",",
+    "core.parentlanguage": "en",
+    "core.strftimedatefullshort": "%Y-%m-%d",
+    "core.strftimedatetimeshort": "%Y-%m-%d, %H:%M"
+}
