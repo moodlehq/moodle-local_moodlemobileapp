@@ -969,7 +969,7 @@
     "addon.mod_url.pointingtourl": "此资源指向的网址。",
     "addon.mod_wiki.cannoteditpage": "您不能编辑此页面。",
     "addon.mod_wiki.cannotviewpage": "您不能查看此页面。",
-    "addon.mod_wiki.createpage": "建立页面",
+    "addon.mod_wiki.createpage": "创建页面",
     "addon.mod_wiki.editingpage": "编辑页面“{{$a}}”",
     "addon.mod_wiki.errorloadingpage": "加载页面出错。",
     "addon.mod_wiki.errornowikiavailable": "此 wiki 还没有任何内容。",
