@@ -2566,6 +2566,8 @@ export type CoreCourseGetContentsWSResponse = {
     hiddenbynumsections?: number; // Whether is a section hidden in the course format.
     uservisible?: boolean; // Is the section visible for the user?.
     availabilityinfo?: string; // Availability information.
+    component?: string; // The delegate component of this section if any.
+    itemid?: number; // The optional item id delegate component can use to identify its instance.
     modules: { // List of module.
         id: number; // Activity id.
         url?: string; // Activity url.
