@@ -1963,7 +1963,7 @@
     "core.h5p.hideadvanced": "拡張要素を隠す",
     "core.h5p.icon": "アイコン",
     "core.h5p.iconDescription": "640 x 480pxです。選択されていない場合、コンテンツはカテゴリアイコンを使用します。",
-    "core.h5p.invalidAge": "典型的な年齢の入力形式が無効です。入力可能な形式はカンマで区切ってください: 1, 34-45, -50, -59-",
+    "core.h5p.invalidAge": "典型的な年齢の入力形式が無効です。カンマ区切りで入力可能な形式は次のとおりです: 1, 34-45, -50, -59-",
     "core.h5p.keywordExists": "キーワードがすでに存在します!",
     "core.h5p.keywords": "キーワード",
     "core.h5p.keywordsDescription": "あなたはカンマで区切って複数キーワードを追加できます。キーワードを確定するには「Enter」または「追加」を押してください。",
