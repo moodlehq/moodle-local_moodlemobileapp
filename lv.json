@@ -1598,6 +1598,7 @@
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} pirms kursa sākuma",
     "core.course.section": "Sadaļa",
     "core.course.startdate": "Kursa sākuma datums",
+    "core.course.studentsmust": "Studentiem nepieciešams",
     "core.course.thisweek": "Šī nedēļa",
     "core.course.todo": "Izdarīt",
     "core.course.tour_navigation_course_index_student_content": "Pārlūkojiet aktivitātes un sekojiet līdzi progresam.",
