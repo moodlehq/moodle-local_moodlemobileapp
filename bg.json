@@ -1556,6 +1556,7 @@
     "core.scanqr": "Сканиране на QR код",
     "core.search": "Търсене",
     "core.search.allcourses": "Всички курсове",
+    "core.search.err_minlength": "Тук трябва да въведете поне {{$a.format}} символа.",
     "core.search.filterheader": "Филтър",
     "core.search.globalsearch": "Търсене в сайта",
     "core.searchresults": "Резултати от търсенето",

@@ -1848,6 +1848,7 @@
     "core.grades.nooutcome": "Brak efektu uczenia się",
     "core.grades.notgraded": "Nieocenione",
     "core.grades.outcome": "Wynik",
+    "core.grades.pass": "Zaliczone",
     "core.grades.percentage": "Procentowo",
     "core.grades.range": "Zakres",
     "core.grades.rank": "Pozycja na tle grupy",
