@@ -590,7 +590,7 @@
     "addon.mod_feedback.maximal": "azami (en fazla)",
     "addon.mod_feedback.minimal": "asgari (en az)",
     "addon.mod_feedback.mode": "Mod",
-    "addon.mod_feedback.modulenameplural": "Anket (Ger ibildirim)",
+    "addon.mod_feedback.modulenameplural": "Geri Bildirim",
     "addon.mod_feedback.non_anonymous": "Kullanıcıların adları kaydedilecek ve cevaplarıyla birlikte gösterilecek",
     "addon.mod_feedback.non_anonymous_entries": "anonim olmayan kayıtlar({{$a}})",
     "addon.mod_feedback.non_respondents_students": "Yanıt vermeyen öğrenciler ({{$a}})",
