@@ -2065,7 +2065,7 @@
     "core.login.help": "Aide",
     "core.login.instructions": "Instructions",
     "core.login.invalidaccount": "Veuillez vérifier vos données de connexion et réessayer.",
-    "core.login.invaliddate": "Date invalide",
+    "core.login.invaliddate": "Date non valide",
     "core.login.invalidemail": "Adresse de courriel incorrecte",
     "core.login.invalidmoodleversion": "Cette version de Moodle est trop ancienne. L’app Moodle ne fonctionne qu’avec les sites qui utilsent {{$a}} ou une version ultérieure.",
     "core.login.invalidsite": "L’URL du site n’est pas valide.",
