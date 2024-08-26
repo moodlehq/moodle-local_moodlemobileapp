@@ -110,6 +110,8 @@ export type AddonBadgesGetUserBadgeByHashWSResponse = {
         dateissued: number; // Date issued.
         dateexpire: number; // Date expire.
         visible?: number; // Visible.
+        recipientid: number; // Id of the awarded user.
+        recipientfullname: string; // Full name of the awarded user.
         email?: string; // User email.
         version?: string; // Version.
         language?: string; // Language.
@@ -194,6 +196,8 @@ export type AddonBadgesGetUserBadgesWSResponse = {
         dateissued: number; // Date issued.
         dateexpire: number; // Date expire.
         visible?: number; // Visible.
+        recipientid: number; // Id of the awarded user.
+        recipientfullname: string; // Full name of the awarded user.
         email?: string; // User email.
         version?: string; // Version.
         language?: string; // Language.
