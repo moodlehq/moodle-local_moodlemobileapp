@@ -70,6 +70,44 @@ export type AddonBlockStarredcoursesGetStarredCoursesWSResponse = {
 }[];
 
 /**
+ * Params of core_badges_get_badge WS.
+ *
+ * WS Description: Retrieves a badge by id.
+ */
+type AddonBadgesGetBadgeWSParams = {
+    id: number; // Badge id.
+};
+
+/**
+ * Data returned by core_badges_get_badge WS.
+ *
+ * WS Description: Retrieves a badge by id.
+ */
+export type AddonBadgesGetBadgeWSResponse = {
+    badge: {
+        type: string; // BadgeClass.
+        id: string; // Unique identifier for this badgeclass.
+        issuer?: string; // Unique identifier for this badgeclass.
+        name: string; // Name of the badgeclass.
+        image: string; // URL to the image.
+        description: string; // Description of the badge class.
+        hostedUrl?: string; // Identifier of the open badge for this assertion.
+        alignment?: { // Alignment.
+            id?: number; // Alignment id.
+            badgeid?: number; // Badge id.
+            targetName?: string; // Target name.
+            targetUrl?: string; // Target URL.
+            targetDescription?: string; // Target description.
+            targetFramework?: string; // Target framework.
+            targetCode?: string; // Target code.
+        }[];
+        criteriaUrl?: string; // CriteriaUrl.
+        criteriaNarrative?: string; // CriteriaNarrative.
+    };
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of core_badges_get_user_badge_by_hash WS.
  *
  * WS Description: Returns the badge awarded to a user by hash.
