@@ -1966,7 +1966,7 @@
     "core.h5p.invalidAge": "典型的な年齢の入力形式が無効です。カンマ区切りで入力可能な形式は次のとおりです: 1, 34-45, -50, -59-",
     "core.h5p.keywordExists": "キーワードがすでに存在します!",
     "core.h5p.keywords": "キーワード",
-    "core.h5p.keywordsDescription": "あなたはカンマで区切って複数キーワードを追加できます。キーワードを確定するには「Enter」または「追加」を押してください。",
+    "core.h5p.keywordsDescription": "あなたはカンマ区切りで複数のキーワードを追加できます。キーワードを確定するには「Enter」または「追加」を押してください。",
     "core.h5p.keywordsExits": "キーワードがすでに存在します!",
     "core.h5p.keywordsPlaceholder": "キーワードを追加する",
     "core.h5p.language": "言語",
