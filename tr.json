@@ -1084,7 +1084,7 @@
     "addon.mod_workshop.submissioncontent": "Gönderim içeriği",
     "addon.mod_workshop.submissiondeleteconfirm": "Aşağıdaki gönderimi silmek istediğinizden emin misiniz?",
     "addon.mod_workshop.submissiongrade": "Gönderim için not",
-    "addon.mod_workshop.submissiongradeof": "Gönderim için not ({{$a}} 'nın)",
+    "addon.mod_workshop.submissiongradeof": "({{$a}}) gönderiminin notu",
     "addon.mod_workshop.submissionrequiredcontent": "Bir miktar metin girmeniz veya dosya eklemeniz gerekiyor",
     "addon.mod_workshop.submissionrequiredtitle": "Bir başlık girmeniz gerekiyor.",
     "addon.mod_workshop.submissionsreport": "Çalıştay başvuruları raporu",
