@@ -1,5 +1,6 @@
 {
     "addon.mod_forum.advanced": "Avantiate",
+    "addon.storagemanager.deleteall": "Dele toto",
     "core.accounts": "Contos",
     "core.add": "Adde",
     "core.agelocationverification": "Verification de etate e location",
@@ -20,6 +21,7 @@
     "core.comments.addcomment": "Adde un commento",
     "core.comments.comments": "Commentos",
     "core.comments.commentscount": "Commentos ({{$a}})",
+    "core.comments.deletecommentbyon": "Dele commento inviate per {{$a.user}} le {{$a.time}}",
     "core.commentscount": "Commentos ({{$a}})",
     "core.considereddigitalminor": "Tu es troppo juvene per crear un conto sur iste sito.",
     "core.content": "Contento",
@@ -33,6 +35,12 @@
     "core.day": "die",
     "core.days": "dies",
     "core.decsep": ".",
+    "core.delete": "Dele",
+    "core.description": "Description",
+    "core.digitalminor": "Digital minor",
+    "core.digitalminor_desc": "Pro favor demanda tu genitor/tutor a continger:",
+    "core.download": "Discarga",
+    "core.downloadfile": "Discarga file",
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.login.accounts": "Contos",
@@ -45,7 +53,12 @@
     "core.user.address": "Adresse",
     "core.user.city": "Citate/localitate",
     "core.user.country": "Pais",
+    "core.user.department": "Departimento",
+    "core.user.description": "Description",
+    "core.user.editingteacher": "Maestro",
+    "core.user.student": "Studente",
     "freemium.accept": "Accepta",
     "workplace.continue": "Continua",
-    "workplace.coursefiles": "Files de curso obsolescente"
+    "workplace.coursefiles": "Files de curso obsolescente",
+    "workplace.deleted": "Delite"
 }
