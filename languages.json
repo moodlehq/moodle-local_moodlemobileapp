@@ -4,15 +4,15 @@
         "md5": "fdb108ca9da4e3ed92a3bdbb8be3042d",
         "name": "Аԥсуа бызшәа",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 4
     },
     "af": {
         "lang": "af",
-        "md5": "aaf01f12754fac6d4394fc8470e19ff6",
+        "md5": "ea60df25eb137d822bb3e2a58fce4f6b",
         "name": "Afrikaans",
         "local": 523,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2460
     },
     "sq": {
@@ -20,7 +20,7 @@
         "md5": "4317e593c217861fc645298fcd54f9f1",
         "name": "Shqip",
         "local": 233,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 467
     },
     "am": {
@@ -28,15 +28,15 @@
         "md5": "8252e4b4e5a9336cd51d3cc18afeecf7",
         "name": " አማርኛ",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 46
     },
     "ar": {
         "lang": "ar",
-        "md5": "b5ae3e6216cd7a76b7e2afc1113aa16b",
+        "md5": "99fb0d83e1b847dadea30b668f28fad7",
         "name": "العربية",
         "local": 770,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2870
     },
     "ar_wp": {
@@ -44,7 +44,7 @@
         "md5": "42589a5f0d444f6c7b9df84bdbe13377",
         "name": "بالعربي workplace",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 640
     },
     "an": {
@@ -52,7 +52,7 @@
         "md5": "895b3c19d8fe307139b994d75f80919b",
         "name": "Aragonés",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 1342
     },
     "oc_es": {
@@ -60,7 +60,7 @@
         "md5": "a5e0267855d000f1dbc3d659dc661fb8",
         "name": "Aranés",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 47
     },
     "hy": {
@@ -68,7 +68,7 @@
         "md5": "2670fae9a4ca9d9b3ad4d428356104de",
         "name": "Հայերեն",
         "local": 491,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2206
     },
     "ast": {
@@ -76,7 +76,7 @@
         "md5": "d45b7f247e93c6710739be81a2fcec05",
         "name": "Asturianu",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 860
     },
     "az": {
@@ -84,7 +84,7 @@
         "md5": "d43ab1f327ebbfd6b078b309097ac33b",
         "name": "Azərbaycanca",
         "local": 592,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2381
     },
     "bm": {
@@ -92,7 +92,7 @@
         "md5": "2c146389ea81cf06e01d4b91a8a5369f",
         "name": "Bamanankan",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 3
     },
     "ba": {
@@ -100,7 +100,7 @@
         "md5": "004b15e2f5338712b01d021bcf0be944",
         "name": "Башҡорт теле",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 23
     },
     "eu": {
@@ -108,7 +108,7 @@
         "md5": "d0731d6114df0f2977b720568bb14488",
         "name": "Euskara",
         "local": 770,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2870
     },
     "bar": {
@@ -116,7 +116,7 @@
         "md5": "c82716ed0ff67168c27e5eb8ca18dba7",
         "name": "Bairisch",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 214
     },
     "be": {
@@ -124,7 +124,7 @@
         "md5": "1134ecbd013d7ce87dfedfe1d37a5474",
         "name": "Беларуская",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 1621
     },
     "bn": {
@@ -132,7 +132,7 @@
         "md5": "5fc59e6b148d2af34af0b94e669ba94d",
         "name": "বাংলা",
         "local": 1,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 1224
     },
     "bi": {
@@ -140,7 +140,7 @@
         "md5": "be752fded09f2f3ef57807247dc11d64",
         "name": "Bislama",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 19
     },
     "bs": {
@@ -148,7 +148,7 @@
         "md5": "1edd41817cfbf15b1f9e65359f9eac6b",
         "name": "Bosanski",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 1238
     },
     "br": {
@@ -156,15 +156,15 @@
         "md5": "1f8e91f2a03c71c544a4f097f2874f69",
         "name": "Brezhoneg",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 12
     },
     "bg": {
         "lang": "bg",
-        "md5": "608fccd60b5eb750b30d673db00a81ce",
+        "md5": "61a920933588d58a53856d3d3223ef2b",
         "name": "Български",
         "local": 108,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 1694
     },
     "my": {
@@ -172,7 +172,7 @@
         "md5": "c21252256e3fba7c746746e206206c22",
         "name": "ဗမာစာ",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 1549
     },
     "ca_valencia": {
@@ -180,15 +180,15 @@
         "md5": "948fa1bfba902905eac7a69ee1f22178",
         "name": "Català (Valencià)",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 409
     },
     "ca": {
         "lang": "ca",
-        "md5": "a7ddad067a41b15efc5b4071b6f2f4c0",
+        "md5": "f35ec9bad7670ae27ef352695535df84",
         "name": "Català",
         "local": 758,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2841
     },
     "ca_wp": {
@@ -196,7 +196,7 @@
         "md5": "506f01ec9c32c21e023463fec0cba1bb",
         "name": "Català",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 436
     },
     "zh_cn": {
@@ -204,7 +204,7 @@
         "md5": "3eba5723c6dabac0a6c86e41483ff063",
         "name": "简体中文",
         "local": 491,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2465
     },
     "zh_cn_wp": {
@@ -212,7 +212,7 @@
         "md5": "318229b41c4cd84616856718f44a7ddc",
         "name": "Workplace 简体中文版",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 50
     },
     "zh_tw": {
@@ -220,7 +220,7 @@
         "md5": "7f8a418b8bcf2d0b4dc05a65bbc70f12",
         "name": "正體中文",
         "local": 466,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 2288
     },
     "zh_tw_wp": {
@@ -228,7 +228,7 @@
         "md5": "d84c6483b96ca73f164cd01ce80991df",
         "name": "Workplace 繁體中文版",
         "local": 0,
-        "lastupdate": 1725599238,
+        "lastupdate": 1725685766,
         "translated": 45
     },
     "hr": {
@@ -236,7 +236,7 @@
         "md5": "d866b2311cba7b7e93400b06c1e732f8",
         "name": "Hrvatski",
         "local": 161,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685766,
         "translated": 2009
     },
     "cs": {
@@ -244,7 +244,7 @@
         "md5": "1f84c739e0c3d305fc8bb4e10e43fe89",
         "name": "Čeština",
         "local": 770,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685766,
         "translated": 2770
     },
     "da_kursus": {
@@ -252,7 +252,7 @@
         "md5": "efbff673c78a2ee3d0ad566c886a24b2",
         "name": "Dansk (kursus)",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685766,
         "translated": 6
     },
     "da": {
@@ -260,7 +260,7 @@
         "md5": "5970b5773d269ad328fe853503b0ef6a",
         "name": "Dansk",
         "local": 750,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2843
     },
     "da_wp": {
@@ -268,7 +268,7 @@
         "md5": "4af84f5da272d4591141e12094be24c0",
         "name": "Dansk",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 118
     },
     "da_rum": {
@@ -276,7 +276,7 @@
         "md5": "e9784f9d86034cdd8cdda4ed08b75487",
         "name": "Dansk Rum",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 35
     },
     "prs": {
@@ -284,7 +284,7 @@
         "md5": "630fc9e803931e170cdc2fc76b62cee8",
         "name": "دری",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 415
     },
     "dv": {
@@ -292,7 +292,7 @@
         "md5": "b048eac4b3737fa2fefcdb8de57a1616",
         "name": "ދިވެހި",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 843
     },
     "nl": {
@@ -300,15 +300,15 @@
         "md5": "1b0d18b5e73f498c5af0b30c0f9dbc2f",
         "name": "Nederlands",
         "local": 770,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2870
     },
     "nl_wp": {
         "lang": "nl_wp",
-        "md5": "f9b555f7edc41502fa609c29c58a40a8",
+        "md5": "5f8a92a22d6c050ed1f1825fcf43d3a5",
         "name": "Nederlands",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 105
     },
     "dz": {
@@ -316,15 +316,15 @@
         "md5": "1f9c6cace4166c93a8bc28b92db7846f",
         "name": "རྫོང་ཁ",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 1471
     },
     "en": {
         "lang": "en",
-        "md5": "f1d7c5eb2f1d16f17a3c0d78056ff8c1",
+        "md5": "f69504ca5a6505979b52ced4acebb1d9",
         "name": "English",
         "local": 770,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2870
     },
     "en_ca": {
@@ -332,7 +332,7 @@
         "md5": "a80c9dbbd168773b98e5f3781ffb894a",
         "name": "English (Canada)",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 6
     },
     "en_kids": {
@@ -340,7 +340,7 @@
         "md5": "9d5f451eb52229af9fd6e2bc35680116",
         "name": "English",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 12
     },
     "en_ar": {
@@ -348,7 +348,7 @@
         "md5": "aec914c9c8aaff9cd0bc04c8c063a9e5",
         "name": "English (pirate)",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 92
     },
     "en_us": {
@@ -356,7 +356,7 @@
         "md5": "6bb463fce2a2678939a3f4a6c48e25f9",
         "name": "English (United States)",
         "local": 1,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 32
     },
     "en_us_k12": {
@@ -364,7 +364,7 @@
         "md5": "235a1a5432eaa30abadaa8748d46463f",
         "name": "English (United States) K12",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 61
     },
     "en_wp": {
@@ -372,7 +372,7 @@
         "md5": "ec9b367634e2944b2614abcc672d0c16",
         "name": "English",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 22
     },
     "en_us_wp": {
@@ -380,7 +380,7 @@
         "md5": "e6327096429a83dd5b8d237b3baa9a67",
         "name": "English (United States)",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 5
     },
     "eo": {
@@ -388,7 +388,7 @@
         "md5": "90ebbe6ecbc8cdd4d84047a8b468f465",
         "name": "Esperanto",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 582
     },
     "et": {
@@ -396,7 +396,7 @@
         "md5": "dec2a67c62161e14a13e77b362ff65f3",
         "name": "eesti",
         "local": 5,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 1925
     },
     "languages": {
@@ -408,7 +408,7 @@
         "md5": "2aa992882b0cf5efa532be5bcc8937e4",
         "name": "Èʋegbe",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "fo": {
@@ -416,7 +416,7 @@
         "md5": "0d97a7f63505de956fe77f75b95f7a20",
         "name": "Føroyskt",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 543
     },
     "fj": {
@@ -424,7 +424,7 @@
         "md5": "6b9e93704cc90dd24eb4bf4c5acd7d8b",
         "name": "VakaViti",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 220
     },
     "fil": {
@@ -432,7 +432,7 @@
         "md5": "41e131d959f750312e0d92070a8f8a33",
         "name": "Filipino",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 175
     },
     "fi_co": {
@@ -440,7 +440,7 @@
         "md5": "671fc524369d40c3adc7db9f546057c7",
         "name": "Suomi+",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 38
     },
     "fi": {
@@ -448,7 +448,7 @@
         "md5": "f09643cbd88af81151419854c344cd14",
         "name": "Suomi",
         "local": 293,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2263
     },
     "fr_ca": {
@@ -456,15 +456,15 @@
         "md5": "cede6bdad65aecaa46d3eff98d017bfd",
         "name": "Français (Canada)",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 164
     },
     "fr": {
         "lang": "fr",
-        "md5": "1705acc99d12d9f8206aae82286dc00e",
+        "md5": "a13e0bb7b562584c9c5ab57b5a6bf385",
         "name": "Français",
         "local": 749,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2847
     },
     "fr_ca_epi": {
@@ -472,7 +472,7 @@
         "md5": "fb7a919c62c62f340519d2f86a07f2a7",
         "name": "Francais Canada – Épicène",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 139
     },
     "fr_wp": {
@@ -480,7 +480,7 @@
         "md5": "90fa0b35851f09b3548c87fcd199668b",
         "name": "Français",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 139
     },
     "fr_incl": {
@@ -488,7 +488,7 @@
         "md5": "35fcbe9bb4d7c68f5671c4e0a4f58248",
         "name": "Français (écriture inclusive)",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 4
     },
     "gl": {
@@ -496,15 +496,15 @@
         "md5": "cf6c3b8dd1295b83e36f1d27cc3860fd",
         "name": "Galego",
         "local": 730,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2733
     },
     "ka": {
         "lang": "ka",
-        "md5": "6581d825b374b9410211a9d7666e4265",
+        "md5": "8ae02cce2378a09853f79a83bfe27c62",
         "name": "ქართული",
         "local": 54,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 733
     },
     "de_comm": {
@@ -512,7 +512,7 @@
         "md5": "2496094445ead09f849139d7880ac2a9",
         "name": "Deutsch (community)",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 38
     },
     "de_kids": {
@@ -520,23 +520,23 @@
         "md5": "645242e07d68b1985002901627ff31c1",
         "name": "Deutsch",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 74
     },
     "de_du": {
         "lang": "de_du",
-        "md5": "df7ce3aa54319587678f4abaa573d992",
+        "md5": "e0796f99afec7b6ff6e7b5753282e160",
         "name": "Deutsch (du)",
         "local": 770,
-        "lastupdate": 1725599239,
-        "translated": 917
+        "lastupdate": 1725685767,
+        "translated": 920
     },
     "de": {
         "lang": "de",
-        "md5": "0616fb0cff0d5005f483dea1ffc6bff1",
+        "md5": "9171d9036cb48669e425abfba8fbb5d6",
         "name": "Deutsch",
         "local": 770,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2870
     },
     "de_wp": {
@@ -544,7 +544,7 @@
         "md5": "a65a0a2f5d73839445030ab3e242fcd3",
         "name": "Deutsch",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 106
     },
     "de_ch": {
@@ -552,15 +552,15 @@
         "md5": "86f7ebae1a12da4fae5cbbec24d94b5d",
         "name": "Deutsch - Schweiz",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 27
     },
     "el": {
         "lang": "el",
-        "md5": "10ee88d57dd30f9a948bd443b8d9225a",
+        "md5": "4ad44e235af2dc59750ba15962c6dba0",
         "name": "Ελληνικά",
         "local": 523,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2461
     },
     "el_kids": {
@@ -568,7 +568,7 @@
         "md5": "751c338e18b69de2dd52112090609a36",
         "name": "Ελληνικά",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 10
     },
     "el_uni": {
@@ -576,7 +576,7 @@
         "md5": "9033b658e2352817ffd790d7b6c7800b",
         "name": "Ελληνικά για σχολές",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 20
     },
     "el_wp": {
@@ -584,7 +584,7 @@
         "md5": "c604a80876bfe2b4f6c254ef198b5760",
         "name": "Ελληνικά",
         "local": 326,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2051
     },
     "kl": {
@@ -592,7 +592,7 @@
         "md5": "2d51f764cfc0cbfe54a0a99ef9e22985",
         "name": "Kalaallisut",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 193
     },
     "gu": {
@@ -600,7 +600,7 @@
         "md5": "5b3af705df7cb7104e9ede4133264146",
         "name": "ગુજરાતી",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 717
     },
     "hat": {
@@ -608,7 +608,7 @@
         "md5": "0d40533bef45f58691e333da9e618756",
         "name": "Kreyòl Ayisyen",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 25
     },
     "ha": {
@@ -616,7 +616,7 @@
         "md5": "35fb063eb9187b01672abcd634fb8279",
         "name": "Hausa",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "haw": {
@@ -624,7 +624,7 @@
         "md5": "c56b3225fb80a4bb58ca125e53db7615",
         "name": "ʻŌlelo Hawaiʻi",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "he_kids": {
@@ -632,23 +632,23 @@
         "md5": "eeaf071f75a6b12da485788e9f882d3c",
         "name": "עברית בתי־ספר",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 75
     },
     "he": {
         "lang": "he",
-        "md5": "3dc48084d5b2f4d632ca547098a2e41c",
+        "md5": "1e823c86ee227c3552a3722b466625e5",
         "name": "עברית",
         "local": 255,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2037
     },
     "he_wp": {
         "lang": "he_wp",
-        "md5": "56828b4094b368e1a015f0260bda5981",
+        "md5": "b91ed34b335a47426cacda6247fe9ffc",
         "name": "עברית עבור Workplace",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 83
     },
     "hi_kids": {
@@ -656,7 +656,7 @@
         "md5": "c9290199163950d6f8f2532c44ea5090",
         "name": "हिंदी",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 12
     },
     "hi": {
@@ -664,7 +664,7 @@
         "md5": "4804829f262a0cd6a4f911686b6f38f4",
         "name": "हिंदी",
         "local": 371,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 957
     },
     "hi_wp": {
@@ -672,7 +672,7 @@
         "md5": "705edfceb7db090cea9f09e15283c397",
         "name": "वर्कप्लेस  के लिए  हिंदी",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "hr_schools": {
@@ -680,7 +680,7 @@
         "md5": "2d4312b3af3089842263add158ef20c8",
         "name": "Hrvatski",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 4
     },
     "hu": {
@@ -688,7 +688,7 @@
         "md5": "5a0d3c40ddbd3fd9e4c60edb9b636d5a",
         "name": "magyar",
         "local": 28,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 1936
     },
     "is": {
@@ -696,7 +696,7 @@
         "md5": "9dd8ff7ebe8f5d8e552fe68757a0ee44",
         "name": "Íslenska",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 1164
     },
     "ig": {
@@ -704,31 +704,31 @@
         "md5": "e9f81008d75c2e7b5d292ed66315d25a",
         "name": "Igbo",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 6
     },
     "id": {
         "lang": "id",
-        "md5": "279c6cccfe0db07064e3705a9e89fed3",
+        "md5": "f53cb93e461b74f61254ea4dc2ed2b3d",
         "name": "Bahasa Indonesia",
-        "local": 740,
-        "lastupdate": 1725599239,
-        "translated": 2777
+        "local": 742,
+        "lastupdate": 1725685767,
+        "translated": 2779
     },
     "ia": {
         "lang": "ia",
-        "md5": "fda4c07c3d64a6894a5b93fce2684e82",
+        "md5": "c31a2cd6a0ed714f68ecf379bf2812cb",
         "name": "Interlingua",
         "local": 0,
-        "lastupdate": 1725599239,
-        "translated": 62
+        "lastupdate": 1725685767,
+        "translated": 73
     },
     "iu": {
         "lang": "iu",
         "md5": "c26c167453c3a919a54befc2d1e48f7b",
         "name": "ᐃᓄᒃᑎᑐᑦ",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "ga": {
@@ -736,7 +736,7 @@
         "md5": "c7551421be768fe7bfbb8acec729c0b3",
         "name": "Gaeilge",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 666
     },
     "it": {
@@ -744,7 +744,7 @@
         "md5": "2667795a1a69f679f5306dc814afc77a",
         "name": "Italiano",
         "local": 367,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2465
     },
     "it_wp": {
@@ -752,7 +752,7 @@
         "md5": "fbb0e5e920a6747dc9ed2be84667e0f9",
         "name": "Italiano",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 18
     },
     "ja_kids": {
@@ -760,15 +760,15 @@
         "md5": "9d4fc702d97f0fc97302510ca0605512",
         "name": "Japanese",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 34
     },
     "ja": {
         "lang": "ja",
-        "md5": "8dc7120fefe5bd1f68b776ff8815e9c0",
+        "md5": "1e4f3642e90cb868c08311de6bbfcc2a",
         "name": "日本語",
         "local": 770,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2870
     },
     "ja_wp": {
@@ -776,7 +776,7 @@
         "md5": "7029f81c54933002c8a7c3214b3739d2",
         "name": "Workplace準拠の日本語",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 80
     },
     "kab": {
@@ -784,7 +784,7 @@
         "md5": "817e12ae454e3e3128e2c5c7de04343b",
         "name": "Taqbaylit",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 11
     },
     "kn": {
@@ -792,7 +792,7 @@
         "md5": "2275b695f58aad1543e676058ad8cb59",
         "name": "ಕನ್ನಡ",
         "local": 302,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 499
     },
     "kaa": {
@@ -800,7 +800,7 @@
         "md5": "616628d2cae24fab459675e8e8b72782",
         "name": "Qaraqalpaq tili",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "kk": {
@@ -808,7 +808,7 @@
         "md5": "82a187524d6582bd814513cfd8f25fa7",
         "name": "Қазақша",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 773
     },
     "km": {
@@ -816,7 +816,7 @@
         "md5": "fd186c3d7852848ac840516f36516575",
         "name": "ខ្មែរ",
         "local": 370,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 1921
     },
     "qxr": {
@@ -824,7 +824,7 @@
         "md5": "fe5045c42a4e8bea7f8006eb9578ef99",
         "name": "Kichwa - Cañar Highland",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "rw": {
@@ -832,7 +832,7 @@
         "md5": "f2e50ead03c90d9ea2a1c37810a31e8a",
         "name": "Kinyarwanda",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 4
     },
     "ko": {
@@ -840,7 +840,7 @@
         "md5": "0946cd82a9830b9186e705b105d15b3e",
         "name": "한국어",
         "local": 411,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 2035
     },
     "ckb": {
@@ -848,7 +848,7 @@
         "md5": "d9c8069199ef7c69e139d617f116c937",
         "name": "سۆرانی",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 907
     },
     "kmr": {
@@ -856,7 +856,7 @@
         "md5": "ca8c01b7f42bb706784babfe063c28f7",
         "name": "Kurmanji",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "fkv": {
@@ -864,7 +864,7 @@
         "md5": "873f257fe8c430ac54e5c54bde793cbf",
         "name": "Kvääni",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 4
     },
     "ky": {
@@ -872,7 +872,7 @@
         "md5": "b600b119af437f9a47b6abf12fe4e20d",
         "name": "Кыргызча",
         "local": 0,
-        "lastupdate": 1725599239,
+        "lastupdate": 1725685767,
         "translated": 752
     },
     "lo": {
@@ -880,7 +880,7 @@
         "md5": "26206172bb1b7456352e2a25864fa979",
         "name": "ລາວ",
         "local": 592,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685767,
         "translated": 2505
     },
     "la": {
@@ -888,15 +888,15 @@
         "md5": "111691309ddf62bcdb4b986a512051b3",
         "name": "Latin",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685767,
         "translated": 126
     },
     "lv": {
         "lang": "lv",
-        "md5": "a460347781da8e1f93b6c0b520d35098",
+        "md5": "d3b32d5bc687c67d44fb3f48299d846b",
         "name": "Latviešu",
         "local": 587,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685767,
         "translated": 2650
     },
     "lv_wp": {
@@ -904,7 +904,7 @@
         "md5": "ded253636c90c37c2ec87bf99fc7f15e",
         "name": "Latviešu",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685767,
         "translated": 3
     },
     "lt_uni": {
@@ -912,15 +912,15 @@
         "md5": "e40c774e8f1a812361aee1065d5f4fbe",
         "name": "Lietuvių (universitetas)",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685767,
         "translated": 773
     },
     "lt": {
         "lang": "lt",
-        "md5": "4d56dc3d30320615d07bcfcb7128c0ce",
+        "md5": "a13fcdec436a9f96f22130e4a2a4d6aa",
         "name": "Lietuvių",
         "local": 312,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2314
     },
     "lt_wp": {
@@ -928,7 +928,7 @@
         "md5": "e9b36bde26467976c20210676a5a8a63",
         "name": "Lietuvių",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 44
     },
     "dsb": {
@@ -936,7 +936,7 @@
         "md5": "5d957815629f348d738386327b8d0525",
         "name": "Dolnoserbski",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 97
     },
     "lg": {
@@ -944,7 +944,7 @@
         "md5": "8e5b94d9586f1bec66e6ead7d7292092",
         "name": "Luganda",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 3
     },
     "smj": {
@@ -952,7 +952,7 @@
         "md5": "52cbca6e7c27758f257dc2cfc881ad4c",
         "name": "Lulesamisk",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 4
     },
     "lb": {
@@ -960,7 +960,7 @@
         "md5": "ff31e6f8a9ca7a485d68b8abbb166b86",
         "name": "Lëtzebuergesch",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 75
     },
     "mk": {
@@ -968,7 +968,7 @@
         "md5": "0b358de1330fec6d2c4c30825528d9c6",
         "name": "Македонски",
         "local": 2,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1308
     },
     "mg": {
@@ -976,7 +976,7 @@
         "md5": "f7181d06330f754d997a9d87b32433ed",
         "name": "Malagasy",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 3
     },
     "ml": {
@@ -984,7 +984,7 @@
         "md5": "730621c1f2462d5fb3b6262f4fb1687e",
         "name": "മലയാളം",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 239
     },
     "ms": {
@@ -992,7 +992,7 @@
         "md5": "458309d9fb4ccc76c4cb4258129732df",
         "name": "Bahasa Melayu",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1506
     },
     "mi_tn": {
@@ -1000,7 +1000,7 @@
         "md5": "a701a4fc9b47621f2ae6016924b0f228",
         "name": "Māori - Tainui",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 162
     },
     "mi_wwow": {
@@ -1008,7 +1008,7 @@
         "md5": "407a4e8ae9d4ef09163a0ef8bff47650",
         "name": "Māori - Waikato",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1034
     },
     "mi": {
@@ -1016,7 +1016,7 @@
         "md5": "f9a381491e9e41b97617118c59bc59eb",
         "name": "Māori Te Reo",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 76
     },
     "arn": {
@@ -1024,7 +1024,7 @@
         "md5": "127c078776b5f429ec0870fffbd515fc",
         "name": "Mapudungún",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 11
     },
     "mr": {
@@ -1032,7 +1032,7 @@
         "md5": "0957212d482c929d581c98b4622f1f00",
         "name": "मराठी",
         "local": 335,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1073
     },
     "mh": {
@@ -1040,7 +1040,7 @@
         "md5": "b4fd5e05cafb3887eb785bd9323da92b",
         "name": "Ebon",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 18
     },
     "mwl": {
@@ -1048,7 +1048,7 @@
         "md5": "0200a378641d1a9fd3dda24aab48ff27",
         "name": "Mirandés",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 3
     },
     "mn": {
@@ -1056,7 +1056,7 @@
         "md5": "29f082fb4a0c6b7d0e4d19c87480d3e9",
         "name": "Монгол",
         "local": 447,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2441
     },
     "mn_mong": {
@@ -1064,7 +1064,7 @@
         "md5": "7b579919078354ef5fedac3930154c55",
         "name": "Mongolian",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 9
     },
     "mis": {
@@ -1072,7 +1072,7 @@
         "md5": "b943f611b0443f7338675ccfa7c1b7c8",
         "name": "Crnogorski",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 3
     },
     "zgh": {
@@ -1080,7 +1080,7 @@
         "md5": "572e8e41691641addf7c891adbd80805",
         "name": "ⵜⴰⵎⴰⵣⵉⵖⵜ",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 13
     },
     "ne": {
@@ -1088,7 +1088,7 @@
         "md5": "12144e41424b57a5039d0240a591ed57",
         "name": "नेपाली",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 234
     },
     "pcm": {
@@ -1096,7 +1096,7 @@
         "md5": "1c4ec1470d322dde0e3ef2bb21805344",
         "name": "Pidgin",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 11
     },
     "se": {
@@ -1104,7 +1104,7 @@
         "md5": "5832251428e791f7c93047ac65972577",
         "name": "Davvisámegiella",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 978
     },
     "no_gr": {
@@ -1112,7 +1112,7 @@
         "md5": "bb7a6e91e5f636c97ac42cf15843ba42",
         "name": "Norsk",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 157
     },
     "no": {
@@ -1120,7 +1120,7 @@
         "md5": "6db75da210109261f9d3c688cd6ee28a",
         "name": "Norsk",
         "local": 749,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2847
     },
     "nb": {
@@ -1128,7 +1128,7 @@
         "md5": "ea1bb719bb8841fb4dc9d773392553b1",
         "name": "Norsk - bokmål",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 9
     },
     "no_wp": {
@@ -1136,7 +1136,7 @@
         "md5": "5a5fcea81330ce23b1b97530b4a4630d",
         "name": "Norsk",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 106
     },
     "nn": {
@@ -1144,7 +1144,7 @@
         "md5": "3092b819cd7b15797e22dcd69923bcd9",
         "name": "Norsk - nynorsk",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 377
     },
     "oc_gsc": {
@@ -1152,7 +1152,7 @@
         "md5": "874c452f789c727f340f2f016900a0f2",
         "name": "Gascon",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1095
     },
     "oc_lnc": {
@@ -1160,7 +1160,7 @@
         "md5": "25d9e42ea7508eb67dca0a01ce6871b9",
         "name": "Occitan-Lengadocian",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1186
     },
     "or": {
@@ -1168,7 +1168,7 @@
         "md5": "c92e2b9cf1c918f1498bc8552711e74c",
         "name": "ଓଡ଼ିଆ",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 14
     },
     "om": {
@@ -1176,7 +1176,7 @@
         "md5": "bd5460cbba4eb260b4bce51ab193fa49",
         "name": "Afaan Oromoo",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 48
     },
     "pap": {
@@ -1184,7 +1184,7 @@
         "md5": "1721b30297ee534b924a2c06247a60b7",
         "name": "Papiamento",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 50
     },
     "ps": {
@@ -1192,7 +1192,7 @@
         "md5": "7c80e466306c3d4b28234281f8daf5e8",
         "name": "لیسي",
         "local": 730,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2349
     },
     "fa": {
@@ -1200,7 +1200,7 @@
         "md5": "f0a4970c3febd94e4c9fef3c2fe02a65",
         "name": "فارسی",
         "local": 125,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1700
     },
     "pl": {
@@ -1208,15 +1208,15 @@
         "md5": "7708ad18730f8e9fda25eee695d5d600",
         "name": "Polski",
         "local": 687,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2673
     },
     "pt_br": {
         "lang": "pt_br",
-        "md5": "0590f133d4b91500fb9fb9e7c5b5684b",
+        "md5": "5618f0e1cf0a30b4f175949eb81aacc5",
         "name": "Português - Brasil",
         "local": 750,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2851
     },
     "pt_br_wp": {
@@ -1224,7 +1224,7 @@
         "md5": "f534947f5a9062d17127531926859a6f",
         "name": "Português - Brasil",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 10
     },
     "pt": {
@@ -1232,7 +1232,7 @@
         "md5": "aedba1811526d019278d97b9853a6db1",
         "name": "Português - Portugal",
         "local": 770,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2870
     },
     "pt_br_kids": {
@@ -1240,15 +1240,15 @@
         "md5": "361e9b0cd0a0a0db00235e056d8ec72f",
         "name": "Português Brasil",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 73
     },
     "pt_br_uni": {
         "lang": "pt_br_uni",
-        "md5": "ff27980ec0e084b209cf74278e42053d",
+        "md5": "14efaf58b48500965bd500b00a61c07f",
         "name": "Português Brasil para Universidades",
         "local": 31,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 109
     },
     "pan": {
@@ -1256,7 +1256,7 @@
         "md5": "ec278da68b07331540f50d59bb3c5f28",
         "name": "ਪੰਜਾਬੀ",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 42
     },
     "qu": {
@@ -1264,15 +1264,15 @@
         "md5": "68b8d108330b970a5a7baf2f1d9a4a98",
         "name": "Quechua",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 4
     },
     "ro": {
         "lang": "ro",
-        "md5": "c9e0ed45652cdbb6cba86d79c64246ef",
+        "md5": "2312655765c52c8dd1e1a23a97f1ad33",
         "name": "Română",
         "local": 770,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2870
     },
     "ro_wp": {
@@ -1280,7 +1280,7 @@
         "md5": "0038a3ea2022e3ccf33d961484de687a",
         "name": "Română",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1377
     },
     "rm_surs": {
@@ -1288,15 +1288,15 @@
         "md5": "3456ceb6dc3e2a44ec8b58a6ca449829",
         "name": "Romansh Sursilvan",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 540
     },
     "ru": {
         "lang": "ru",
-        "md5": "a1c0e219e2f6c400a5fe2ae7fafb27b9",
+        "md5": "a70152df6c7b7b8d7ee0126f4ef6732b",
         "name": "Русский",
         "local": 355,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2351
     },
     "sm": {
@@ -1304,7 +1304,7 @@
         "md5": "8e98fe018b0c6c6599394abebdb7e9d7",
         "name": "Samoan",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 578
     },
     "sa": {
@@ -1312,7 +1312,7 @@
         "md5": "35beea704a162987e0319e049243ac48",
         "name": "Sanskrit",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 22
     },
     "sc": {
@@ -1320,7 +1320,7 @@
         "md5": "69729af031f654dd67561a21568e96fb",
         "name": "Sard",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 462
     },
     "gd": {
@@ -1328,7 +1328,7 @@
         "md5": "50723e44e7f396fd5931a858f3ba87d0",
         "name": "Gàidhlig",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 221
     },
     "sr_cr": {
@@ -1336,7 +1336,7 @@
         "md5": "ab040f4fbcb2561985903366560e2fb7",
         "name": "Српски",
         "local": 770,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2769
     },
     "sr_lt": {
@@ -1344,7 +1344,7 @@
         "md5": "9693cbd53ed2b921d2493748311137f5",
         "name": "Srpski",
         "local": 770,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2769
     },
     "tn": {
@@ -1352,7 +1352,7 @@
         "md5": "7a427642a80c34ded6305c17db13856a",
         "name": "Setswana",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 4
     },
     "scn": {
@@ -1360,15 +1360,15 @@
         "md5": "7e7571a0c8c36d19a5ddd33d39627849",
         "name": "Sicilianu",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 125
     },
     "szl": {
         "lang": "szl",
-        "md5": "6450b05a21f3442924d5ce709477f02f",
+        "md5": "669a81e6572a8f78a0541e92402acf9b",
         "name": "Ślōnski",
         "local": 466,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2357
     },
     "sd_ap": {
@@ -1376,7 +1376,7 @@
         "md5": "231c72648c7c8fc87fc12afe5682e4cb",
         "name": "سنڌي",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 4
     },
     "si": {
@@ -1384,7 +1384,7 @@
         "md5": "431f7d9a4a8fb4a9e5c8ebf27107a653",
         "name": "සිංහල",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1060
     },
     "sk": {
@@ -1392,7 +1392,7 @@
         "md5": "2ea2c719bf60eeee1cd14e7f3e8d0fa0",
         "name": "Slovenčina",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1950
     },
     "sl": {
@@ -1400,7 +1400,7 @@
         "md5": "bba7aa6aaddf6ab6cab8a7c1b62c80ae",
         "name": "Slovenščina",
         "local": 491,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2435
     },
     "so": {
@@ -1408,7 +1408,7 @@
         "md5": "ea6f348910e67b7e0c8703aaac43c638",
         "name": "Soomaali",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 334
     },
     "sma": {
@@ -1416,7 +1416,7 @@
         "md5": "5b6e51c1cc8559e7fc0a3700d4ee66b8",
         "name": "Sørsamisk",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 4
     },
     "es_ar": {
@@ -1424,7 +1424,7 @@
         "md5": "88beaa22b302a4754aa7a29f36a96526",
         "name": "Español - Argentina",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 231
     },
     "es_co": {
@@ -1432,15 +1432,15 @@
         "md5": "5375291f7338e7b0f50f2aebe58f18e5",
         "name": "Español - Colombia",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 55
     },
     "es_mx": {
         "lang": "es_mx",
-        "md5": "887161f6a24327cf599e2175f2cd6dc2",
+        "md5": "31fb418211ae49233df3347c570435a1",
         "name": "Español - México",
         "local": 770,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2871
     },
     "es_mx_kids": {
@@ -1448,15 +1448,15 @@
         "md5": "628bd9bed8e005d89782de5ad70717a7",
         "name": "Español - México",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 18
     },
     "es": {
         "lang": "es",
-        "md5": "5b8d6f0433c3ccf9c4798d1a93de4994",
+        "md5": "609637d74e3927cd88d94987b1cc27ec",
         "name": "Español - Internacional",
         "local": 749,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2849
     },
     "es_ve": {
@@ -1464,7 +1464,7 @@
         "md5": "193e85fd86bbfafb93b8057c02beba04",
         "name": "Español - Venezuela",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 22
     },
     "es_wp": {
@@ -1472,7 +1472,7 @@
         "md5": "03959fcc6d2816f30d09ee9b056fa7f0",
         "name": "Español",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 90
     },
     "sw": {
@@ -1480,7 +1480,7 @@
         "md5": "c5578f12f3f26cb9b4a5f0d9499ca17b",
         "name": "Kiswahili",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 181
     },
     "sv_fi": {
@@ -1488,7 +1488,7 @@
         "md5": "65ac52fe37893de4a69bebb5c2b628ec",
         "name": "Finlandssvenska",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 368
     },
     "sv": {
@@ -1496,15 +1496,15 @@
         "md5": "297482ed9235861aabaa3de1994a3ec5",
         "name": "Svenska",
         "local": 596,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 2561
     },
     "sv_wp": {
         "lang": "sv_wp",
-        "md5": "160099b587fd8d2e14148e1d2120f2b7",
+        "md5": "88010aaed2645aca138814d8959cf1cf",
         "name": "Svenska",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 96
     },
     "tl": {
@@ -1512,7 +1512,7 @@
         "md5": "10c38a86b1abb6f2c2fbfc2c3c4bc722",
         "name": "Tagalog",
         "local": 0,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 852
     },
     "tg": {
@@ -1520,7 +1520,7 @@
         "md5": "80254c44d08377614ca3f817e37ccff0",
         "name": "Тоҷикӣ",
         "local": 42,
-        "lastupdate": 1725599240,
+        "lastupdate": 1725685768,
         "translated": 1291
     },
     "ta_lk": {
@@ -1528,7 +1528,7 @@
         "md5": "048b3c02535a79b6f60174dfb475d0af",
         "name": "தமிழ்",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685768,
         "translated": 971
     },
     "ta": {
@@ -1536,7 +1536,7 @@
         "md5": "2ec1c2e6fd490dc0a65aa53a2c371d2b",
         "name": "Tamil",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685768,
         "translated": 769
     },
     "tt": {
@@ -1544,7 +1544,7 @@
         "md5": "c7587c5ca7be39d2f6a8c2a9aa41ad52",
         "name": "Татар",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685768,
         "translated": 18
     },
     "te": {
@@ -1552,7 +1552,7 @@
         "md5": "a56e4eaf2426fcb1588bf4a4f8644b89",
         "name": "తెలుగు ",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 1165
     },
     "tet": {
@@ -1560,7 +1560,7 @@
         "md5": "66d1d4f8d4c98d003a997b07c9830acb",
         "name": "Tetun Dili",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 3
     },
     "th": {
@@ -1568,7 +1568,7 @@
         "md5": "f1dde9a8fb79fbbb4b2ad4bd1b99ba1f",
         "name": "Thai",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 805
     },
     "xct": {
@@ -1576,7 +1576,7 @@
         "md5": "6460d1e352fc5e53dbff5d475b3441eb",
         "name": "Tibetan",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 6
     },
     "ti": {
@@ -1584,7 +1584,7 @@
         "md5": "3cfd63dfda694f0970eee7629e98a87e",
         "name": "ትግርኛ",
         "local": 20,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 683
     },
     "tpi": {
@@ -1592,7 +1592,7 @@
         "md5": "62f71bab845abdfbd316f8aab94ad1bf",
         "name": "Tok Pisin",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 181
     },
     "to": {
@@ -1600,15 +1600,15 @@
         "md5": "f171481dc1740ccc1c851dd3bace8a53",
         "name": "Tongan",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 621
     },
     "tr": {
         "lang": "tr",
-        "md5": "17fde82a3ee9f3049a95f9ba718e27f2",
+        "md5": "d228c32b98a6be17054242efdb56ea7c",
         "name": "Türkçe",
         "local": 742,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 2814
     },
     "tk": {
@@ -1616,7 +1616,7 @@
         "md5": "75e2e17bc58b90bd45210b385f1060e2",
         "name": "Turkmen",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 470
     },
     "uk": {
@@ -1624,7 +1624,7 @@
         "md5": "361f285a8a6c36f068e57b74954142c2",
         "name": "Українська",
         "local": 592,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 2595
     },
     "hsb": {
@@ -1632,7 +1632,7 @@
         "md5": "8e724580c35cc4e28e3aef6526903c40",
         "name": "Hornjoserbsce",
         "local": 337,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 1661
     },
     "ur": {
@@ -1640,7 +1640,7 @@
         "md5": "b24a3f02968ed669220510b7f37302fb",
         "name": "اردو",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 1840
     },
     "ug_lt": {
@@ -1648,7 +1648,7 @@
         "md5": "19e88c8ed9e6bf2a81c2865b62286edb",
         "name": "Uyghur - latin",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 3
     },
     "ug_ug": {
@@ -1656,7 +1656,7 @@
         "md5": "32737fba4f22ab5eada4aecd19d93071",
         "name": "ئۇيغۇرچە",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 222
     },
     "uz": {
@@ -1664,7 +1664,7 @@
         "md5": "a9e3d877b3d0410447bc805cf596bd90",
         "name": "O'zbekcha",
         "local": 459,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 1708
     },
     "ca_valencia_racv": {
@@ -1672,7 +1672,7 @@
         "md5": "d9e8ff89042949c833afdcd912c031c1",
         "name": "Valencià_RACV",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 4
     },
     "vi": {
@@ -1680,7 +1680,7 @@
         "md5": "f82d03e9dca363c8fd1a1f7105f08d3a",
         "name": "Vietnamese",
         "local": 423,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 1906
     },
     "cy": {
@@ -1688,7 +1688,7 @@
         "md5": "6c969c1f0cc4f1f17fbecf224e5f2e7f",
         "name": "Cymraeg",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 1145
     },
     "wo": {
@@ -1696,7 +1696,7 @@
         "md5": "1da6cbb8e45905741f51d89327cbbf8e",
         "name": "Wolof",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 62
     },
     "xh": {
@@ -1704,7 +1704,7 @@
         "md5": "216fcfc2d01c65c8250548f08e50b9ce",
         "name": "isiXhosa",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 6
     },
     "yo": {
@@ -1712,7 +1712,7 @@
         "md5": "9cc1119ef8da845b9fa1c816b2efb537",
         "name": "Yorùbá",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 4
     },
     "zu": {
@@ -1720,7 +1720,7 @@
         "md5": "689cc717dd4b7825b9a6accfb0863e21",
         "name": "isiZulu",
         "local": 0,
-        "lastupdate": 1725599241,
+        "lastupdate": 1725685769,
         "translated": 519
     }
 }
