@@ -8666,6 +8666,7 @@ export type AddonModBigbluebuttonbnMeetingInfoWSResponse = {
     guestaccessenabled?: boolean; // Guest access enabled.
     guestjoinurl?: string; // Guest URL.
     guestpassword?: string; // Guest join password.
+    showpresentations?: boolean; // Show presentation file.
     features?: { // List of features for the instance.
         name: string; // Feature name.
         isenabled: boolean; // Whether the feature is enabled.
