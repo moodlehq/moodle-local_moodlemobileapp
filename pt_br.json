@@ -2695,7 +2695,7 @@
     "workplace.program": "Programa",
     "workplace.programhelptext": "<ul><li>Programas podem conter diferentes cursos</li><li>Conclua os cursos para concluir o programa</li></ul>",
     "workplace.programhelptitle": "O que é um programa?",
-    "workplace.programlink": "Ver detalhes de \"{a}}\"",
+    "workplace.programlink": "Ver detalhes de \"{{$a}}\"",
     "workplace.programlinksingle": "Ver detalher do programa",
     "workplace.programs": "Programas",
     "workplace.programstructure": "Estrutura do programa",
