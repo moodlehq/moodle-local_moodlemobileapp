@@ -1103,7 +1103,7 @@
     "addon.mod_workshop_assessment_comments.dimensionnumber": "Kriterium {{$a}}",
     "addon.mod_workshop_assessment_numerrors.dimensioncommentfor": "Kommentar für {{$a}}",
     "addon.mod_workshop_assessment_numerrors.dimensiongradefor": "Bewertung für {{$a}}",
-    "addon.mod_workshop_assessment_numerrors.dimensionnumber": "Kriterium",
+    "addon.mod_workshop_assessment_numerrors.dimensionnumber": "Kriterium {{$a}}",
     "addon.mod_workshop_assessment_rubric.dimensionnumber": "Kriterium {{$a}}",
     "addon.mod_workshop_assessment_rubric.mustchooseone": "Sie müssen eines dieser Elemente auswählen",
     "addon.notes.addnewnote": "Neue Notiz hinzufügen",
