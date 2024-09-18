@@ -2704,7 +2704,7 @@
     "freemium.subscriptionfeature_enabled": "Habilitat",
     "freemium.subscriptionfeature_exceeded_customlanguagestrings": "S'estan ignorant {{ overflowCount }} cadenes d'idioma personalitzades",
     "freemium.subscriptionfeature_exceeded_custommenuitems": "S'estan ignorant {{ overflowCount }} elements de menú personalitzats",
-    "freemium.subscriptionfeature_exceeded_disabledfeatures": "Hi ha {{ overflowCount }} característiques configurades com a deshabilitades que encara estan habilitades",
+    "freemium.subscriptionfeature_exceeded_disabledfeatures": "Hi ha {{ overflowCount }} característiques configurades com a inhabilitades que encara estan habilitades",
     "freemium.subscriptionfeature_exceeded_remotethemes": "El vostre tema personalitzat no s'està aplicant",
     "freemium.subscriptionfeature_exceeded_sitelogo": "El vostre logotip del lloc no s'està aplicant",
     "freemium.subscriptionfeature_limited": "Limitat a {{ limit }}",
