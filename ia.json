@@ -1,6 +1,7 @@
 {
     "addon.coursecompletion.required": "Requirite",
     "addon.coursecompletion.status": "Stato",
+    "addon.messages.requests": "Requestas",
     "addon.mod_assign.numwords": "{{$a}} parolas",
     "addon.mod_feedback.preview": "Vide preliminarmente",
     "addon.mod_forum.advanced": "Avantiate",
@@ -154,7 +155,9 @@
     "core.policy.policyagreement": "Accordo de politica del sito",
     "core.policy.policyagreementclick": "Ligamine al accordo de politica del sito",
     "core.previous": "Previe",
+    "core.proceed": "Procede",
     "core.publicprofile": "Profilo public",
+    "core.quotausage": "Tu ha currentemente usate {{$a.used}}  de tu limite {{$a.total}}",
     "core.refresh": "Refresca",
     "core.remove": "Remove",
     "core.reportbuilder.reports": "Reportos",
