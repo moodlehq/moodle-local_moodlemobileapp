@@ -1,6 +1,7 @@
 {
     "addon.coursecompletion.required": "Requirite",
     "addon.coursecompletion.status": "Stato",
+    "addon.messages.requests": "Requestas",
     "addon.mod_assign.numwords": "{{$a}} parolas",
     "addon.mod_feedback.preview": "Vide preliminarmente",
     "addon.mod_forum.advanced": "Avantiate",
@@ -152,6 +153,8 @@
     "core.phone": "Telephono",
     "core.pictureof": "Photo de  {{$a}}",
     "core.previous": "Previe",
+    "core.proceed": "Procede",
+    "core.quotausage": "Tu ha currentemente usate {{$a.used}}  de tu limite {{$a.total}}",
     "core.refresh": "Refresca",
     "core.remove": "Remove",
     "core.reportbuilder.reports": "Reportos",
