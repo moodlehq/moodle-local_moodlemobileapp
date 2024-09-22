@@ -1999,7 +1999,7 @@
     "core.h5p.nocopyright": "このコンテンツに利用できる著作権情報はありません。",
     "core.h5p.offlineDialogBody": "私たちはこのタスクのあなたの完了に関する情報を送信できませんでした。あなたのインターネット接続を確認してください。",
     "core.h5p.offlineDialogHeader": "あなたのサーバへの接続が切断されました。",
-    "core.h5p.offlineDialogRetryButtonLabel": "リトライする",
+    "core.h5p.offlineDialogRetryButtonLabel": "今すぐリトライする",
     "core.h5p.offlineDialogRetryMessage": "リトライ :num....",
     "core.h5p.offlineSuccessfulSubmit": "結果を正常に送信しました。",
     "core.h5p.offlinedisabled": "サイトではH5Pパッケージをダウンロードできません。",
