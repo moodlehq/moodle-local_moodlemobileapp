@@ -1451,6 +1451,7 @@
     "core.fileuploader.addfiletext": "Dodaj datoteku",
     "core.fileuploader.attachedfiles": "Priložene datoteke",
     "core.fileuploader.audio": "Zvuk",
+    "core.fileuploader.audiotitle": "Snimi zvuk",
     "core.fileuploader.camera": "Kamera",
     "core.fileuploader.file": "Datoteka",
     "core.fileuploader.filesofthesetypes": "Dopuštene vrste datoteka:",
