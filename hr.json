@@ -1396,6 +1396,7 @@
     "core.filenotfound": "Nažalost, datoteka nije pronađena.",
     "core.fileuploader.addfiletext": "Dodaj datoteku",
     "core.fileuploader.audio": "Zvuk",
+    "core.fileuploader.audiotitle": "Snimi zvuk",
     "core.fileuploader.camera": "Kamera",
     "core.fileuploader.file": "Datoteka",
     "core.fileuploader.filesofthesetypes": "Dopuštene vrste datoteka:",
