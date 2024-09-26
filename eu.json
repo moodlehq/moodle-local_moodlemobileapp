@@ -358,7 +358,7 @@
     "addon.mod_assign.editsubmission": "Editatu bidalketa",
     "addon.mod_assign.erroreditpluginsnotsupported": "Ezin duzu bidalketa aplikazioan gehitu edo editatu gehigarri batzuk ez dutelako editatzea onartzen.",
     "addon.mod_assign.errorshowinginformation": "Ezin da bidalketaren informazioa erakutsi.",
-    "addon.mod_assign.extensionduedate": "Luzapenaren entregatze-data",
+    "addon.mod_assign.extensionduedate": "Entregatze-dataren luzapena",
     "addon.mod_assign.feedbacknotsupported": "Feedback hau ez da aplikazioan onartzen eta baliteke informazio guztia jasota ez egotea.",
     "addon.mod_assign.grade": "Kalifikazioa",
     "addon.mod_assign.graded": "Kalifikatua",
