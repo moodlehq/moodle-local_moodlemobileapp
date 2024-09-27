@@ -2550,7 +2550,7 @@
     "core.zoomout": "Zoom out",
     "freemium.accept": "Accept",
     "freemium.autologoutclosingtheapp": "Imediat după ce închizi aplicația",
-    "freemium.autologoutcustomtime": "Timp personalizat după părăsirea aplicației",
+    "freemium.autologoutcustomtime": "Durată de timp personalizată după ieșirea din aplicație",
     "freemium.autologoutdefault": "Implicit",
     "freemium.autologouttitle": "Delogare automată de pe acest dispozitiv",
     "freemium.biometriclogin": "Logare biometrică",
