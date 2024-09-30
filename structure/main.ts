@@ -8204,6 +8204,26 @@ type AddonModAssignLockSubmissionsWSParams = {
 export type AddonModAssignLockSubmissionsWSResponse = CoreWSExternalWarning[];
 
 /**
+ * Params of mod_assign_remove_submission WS.
+ *
+ * WS Description: Remove submission.
+ */
+type AddonModAssignRemoveSubmissionWSParams = {
+    userid: number; // User id.
+    assignid: number; // Assignment instance id.
+};
+
+/**
+ * Data returned by mod_assign_remove_submission WS.
+ *
+ * WS Description: Remove submission.
+ */
+export type AddonModAssignRemoveSubmissionWSResponse = {
+    status: boolean; // True if the submission was successfully removed and false if was not.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of mod_assign_reveal_identities WS.
  *
  * WS Description: Reveal the identities for a blind marking assignment
