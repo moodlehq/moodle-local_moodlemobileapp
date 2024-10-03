@@ -1085,6 +1085,7 @@
     "addon.privatefiles.sitefiles": "Файлы сайта",
     "addon.qtype_essay.maxwordlimitboundary": "Максимальное количество слов для этого вопроса - {{$a.limit}}. Вы пытаетесь отправить слов: {{$a.count}}. Сократите ответ и попробуйте еще раз.",
     "addon.qtype_essay.minwordlimitboundary": "В ответе на этот вопрос требуется не менее {{$a.limit}} слов(а). Вы пытаетесь отправить слов: {{$a.count}}. Расширьте свой ответ и попробуйте еще раз.",
+    "addon.qtype_ordering.moved": "{{$a.item}} перемещен. Новая позиция: {{$a.position}} из {{$a.total}}.",
     "addon.report_insights.actionsaved": "Ваш отзыв о «{{$a}}» сохранен.",
     "addon.report_insights.fixedack": "Подтвердить инсайт",
     "addon.report_insights.incorrectlyflagged": "Неправильно помечено",
