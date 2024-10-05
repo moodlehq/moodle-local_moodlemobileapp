@@ -87,7 +87,7 @@
     "addon.blog.blog": "Blog",
     "addon.blog.blogentries": "Mensagens do blog",
     "addon.blog.errorloadentries": "Erro ao carregar entradas de blog.",
-    "addon.blog.linktooriginalentry": "Aponta para a mensagem original do blog",
+    "addon.blog.linktooriginalentry": "Mensagem original do blog",
     "addon.blog.noentriesyet": "Nenhum ítem visível",
     "addon.blog.publishtonoone": "Rascunho (você mesmo)",
     "addon.blog.publishtosite": "Todos os usuários deste site",
