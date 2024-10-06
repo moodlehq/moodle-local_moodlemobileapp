@@ -2117,7 +2117,7 @@
     "core.login.policyacceptmandatory": "Ich verstehe und stimme den notwendigen Website-Richtlinien zu.",
     "core.login.policyagree": "Lesen Sie diese Infos zum Datenschutz sorgfältig. Sie müssen zustimmen, um die Website nutzen zu können. Stimmen Sie zu?",
     "core.login.policyagreement": "Infos zum Datenschutz",
-    "core.login.policyagreementclick": "URL zu den Datenschutzinfos",
+    "core.login.policyagreementclick": "Vereinbarung zur Website-Richtlinie",
     "core.login.potentialidps": "Verwenden Sie Ihr Nutzerkonto bei",
     "core.login.profileinvaliddata": "Ungültiger Wert",
     "core.login.recaptchachallengeimage": "reCaptcha Challenge-Bild",

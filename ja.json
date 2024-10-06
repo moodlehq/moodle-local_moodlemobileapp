@@ -1972,7 +1972,7 @@
     "core.h5p.reviewMessage": "あなたが共有する前に以下の情報をレビュしてください。",
     "core.h5p.saveChanges": "変更を保存する",
     "core.h5p.screenshots": "スクリーンショット",
-    "core.h5p.screenshotsDescription": "あなたのコンテンツのスクリーンショットを最大5件まで追加できます。",
+    "core.h5p.screenshotsDescription": "あなたのコンテンツのスクリーンショットを最大5枚まで追加できます。",
     "core.h5p.share": "共有",
     "core.h5p.shareFailed": "共有に失敗しました。",
     "core.h5p.shareTryAgain": "何か問題が発生したようです。もう一度共有してください。",
