@@ -1977,7 +1977,7 @@
     "core.h5p.shareFailed": "共有に失敗しました。",
     "core.h5p.shareTryAgain": "何か問題が発生したようです。もう一度共有してください。",
     "core.h5p.shared": "共有済み",
-    "core.h5p.sharingNote": "共有後、すべてのコンテンツ詳細を編集できます。",
+    "core.h5p.sharingNote": "すべてのコンテンツ詳細は共有後に編集できます。",
     "core.h5p.shortDescription": "短い説明",
     "core.h5p.shortDescriptionPlaceholder": "あなたのコンテンツの短い説明です。",
     "core.h5p.showadvanced": "拡張要素を表示する",
