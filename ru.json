@@ -390,7 +390,7 @@
     "addon.mod_assign.submissionstatus_draft": "Черновик (не отправлен на проверку)",
     "addon.mod_assign.submissionstatus_marked": "Оценено",
     "addon.mod_assign.submissionstatus_new": "Ответ не представлен",
-    "addon.mod_assign.submissionstatus_reopened": "Возобновлено",
+    "addon.mod_assign.submissionstatus_reopened": "Разрешен повторный ответ",
     "addon.mod_assign.submissionstatus_submitted": "Отправлено для оценивания",
     "addon.mod_assign.submissionstatusheading": "Состояние ответа",
     "addon.mod_assign.submissionteam": "Группы",
