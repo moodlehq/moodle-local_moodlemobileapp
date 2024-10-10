@@ -82,7 +82,7 @@
     "addon.blog.blog": "Blog",
     "addon.blog.blogentries": "Interventi blog",
     "addon.blog.errorloadentries": "Si è verificato un errore durante il caricamento del blog.",
-    "addon.blog.linktooriginalentry": "Collegamento all'intervento originale",
+    "addon.blog.linktooriginalentry": "intervento blog originale",
     "addon.blog.noentriesyet": "Non ci sono interventi visibili",
     "addon.blog.publishtonoone": "Personale (Bozza)",
     "addon.blog.publishtosite": "Su questo sito",
