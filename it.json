@@ -89,7 +89,7 @@
     "addon.blog.entrybody": "Testo dell'intervento",
     "addon.blog.entrytitle": "Titolo intervento",
     "addon.blog.errorloadentries": "Si è verificato un errore durante il caricamento del blog.",
-    "addon.blog.linktooriginalentry": "Collegamento all'intervento originale",
+    "addon.blog.linktooriginalentry": "intervento blog originale",
     "addon.blog.noentriesyet": "Non ci sono interventi visibili",
     "addon.blog.publishto": "Pubblicazione",
     "addon.blog.publishtonoone": "Personale (Bozza)",
