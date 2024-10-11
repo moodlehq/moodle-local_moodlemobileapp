@@ -4,6 +4,7 @@
     "addon.blog.associatewithmodule": "Blag faoi {{$a.modtype}}: {{$a.modname}}",
     "addon.blog.associations": "Gaolmhaireachtaí",
     "addon.blog.blog": "Blag",
+    "addon.blog.blogdeleteconfirm": "Scrios an iontráil blag seo",
     "addon.blog.blogentries": "Iontrálacha blag",
     "addon.blog.entrybody": "Corp na hiontrála blag",
     "addon.blog.entrytitle": "Teideal na hiontrála",

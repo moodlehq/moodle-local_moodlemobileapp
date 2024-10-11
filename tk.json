@@ -73,6 +73,7 @@
     "addon.blog.associatewithmodule": "Blog ýaz -  {{$a.modtype}}: {{$a.modname}}",
     "addon.blog.associations": "Birleşmeler",
     "addon.blog.blog": "Blog",
+    "addon.blog.blogdeleteconfirm": "Şu blog girizmäni ýok etmeli?",
     "addon.blog.blogentries": "Blog ýazgylary",
     "addon.blog.entrybody": "Blog girizmäniň esasy bölegi.",
     "addon.blog.entrytitle": "Girizmäniň ady",

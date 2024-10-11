@@ -90,6 +90,8 @@
     "addon.mod_assign.numberofsubmissionsneedgradingcountdescription": "Abgaben zur Bewertung: {{count}}",
     "addon.mod_assign.numberofsubmittedassignmentscountdescription": "Abgegebene Aufgaben: {{count}}",
     "addon.mod_assign.numberofteamscountdescription": "Teams: {{count}}",
+    "addon.mod_assign.removesubmissionconfirm": "Möchtest du wirklich deine Abgabe löschen?",
+    "addon.mod_assign.removesubmissionconfirmwithtimelimit": "Möchtest du wirklich deine Abgabe löschen? Beachte bitte, dass dadurch dein Zeitlimit nicht zurückgesetzt wird.",
     "addon.mod_assign.submissionnotsupported": "Diese Abgabe wird von der App nicht unterstützt, so dass Infos fehlen könnten.",
     "addon.mod_assign.submitassignment_help": "Sobald die Aufgabe abgegeben ist, kannst du nichts mehr ändern.",
     "addon.mod_assign.syncblockedusercomponent": "Bewertung",

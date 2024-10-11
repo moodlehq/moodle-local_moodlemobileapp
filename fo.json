@@ -115,6 +115,7 @@
     "addon.mod_assign.numwords": "{{$a}} orð",
     "addon.mod_assign.outof": "{{$a.current}} av {{$a.total}}",
     "addon.mod_assign.submission": "Innlating",
+    "addon.mod_assign.submissionempty": "Einki var latið inn",
     "addon.mod_assign.submissionnoteditable": "Studentur kann ikki broyta hesa innlating",
     "addon.mod_assign.submissionstatus": "Innlatingarstøða",
     "addon.mod_assign.submissionstatus_": "Eingin innlating",

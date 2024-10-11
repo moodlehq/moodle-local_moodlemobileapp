@@ -22,6 +22,7 @@
     "addon.blog.associatewithmodule": "ಬ್ಲಾಗ್ ಬಗ್ಗೆ{{$a.modtype}}: {{$a.modname}}",
     "addon.blog.associations": "ಅಸೋಸಿಯೇಷನ್ಸ್ಸ್",
     "addon.blog.blog": "ಬ್ಲಾಗ್",
+    "addon.blog.blogdeleteconfirm": "'{{$a}}' ಬ್ಲಾಗ್ ನಮೂದನ್ನು ಅಳಿಸಿ?",
     "addon.blog.blogentries": "ಬ್ಲಾಗ್ ನಮೂದುಗಳು",
     "addon.blog.entrybody": "ಬ್ಲಾಗ್ ಎಂಟ್ರಿ ಬಾಡಿ",
     "addon.blog.entrytitle": "ಪ್ರವೇಶ ಶೀರ್ಷಿಕೆ",
