@@ -94,7 +94,7 @@
     "addon.blog.entrybody": "متن بند المدونة",
     "addon.blog.entrytitle": "عنوان المشاركة",
     "addon.blog.errorloadentries": "خطأ عند تحميل مدخلات المدونة.",
-    "addon.blog.linktooriginalentry": "رابط الدخول إلى المدونة الأصلية",
+    "addon.blog.linktooriginalentry": "مدخل المدونة الأصلية",
     "addon.blog.noentriesyet": "لا توجد مشاركات ظاهرة هنا",
     "addon.blog.publishto": "النشر إلى",
     "addon.blog.publishtonoone": "أنت (مسودة)",
