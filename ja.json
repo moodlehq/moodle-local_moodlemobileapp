@@ -2043,7 +2043,7 @@
     "core.h5p.showless": "表示を減らす",
     "core.h5p.showmore": "さらに表示する",
     "core.h5p.size": "サイズ",
-    "core.h5p.someKeywordsExits": "すでに存在するキーワードもあります。",
+    "core.h5p.someKeywordsExits": "これらのキーワードの一部はすでに存在しています。",
     "core.h5p.source": "ソース",
     "core.h5p.startingover": "あなたは再開します。",
     "core.h5p.subContentWarning": "サブコンテンツ (画像、問題等) はオーサリングツールで特に指定がない限り、:license の下で共有されます。",

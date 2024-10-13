@@ -86,7 +86,7 @@
     "addon.blog.entrybody": "Текст на статията",
     "addon.blog.entrytitle": "Заглавие на статията",
     "addon.blog.errorloadentries": "Грешка при зареждане на статии от блог.",
-    "addon.blog.linktooriginalentry": "Хипервръзка към оригиналната статия",
+    "addon.blog.linktooriginalentry": "Оригинален запис в блога",
     "addon.blog.noentriesyet": "Тук няма видими статии",
     "addon.blog.publishto": "Публикувано за",
     "addon.blog.publishtonoone": "Само за Вас (чернова)",
