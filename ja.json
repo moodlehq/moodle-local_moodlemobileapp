@@ -1833,7 +1833,7 @@
     "core.h5p.additionallicenseinfo": "ライセンスに関する追加情報",
     "core.h5p.address": "アドレス",
     "core.h5p.age": "標準的な年齢",
-    "core.h5p.ageDescription": "このコンテンツのターゲットオーディエンスです。入力可能な形式をカンマで区切ってください: 1,34-45,-50,59-",
+    "core.h5p.ageDescription": "このコンテンツの対象者です。入力可能な形式をカンマで区切ってください: 1,34-45,-50,59-",
     "core.h5p.altText": "代替テキスト",
     "core.h5p.author": "作成者",
     "core.h5p.authorcomments": "作成者コメント",
