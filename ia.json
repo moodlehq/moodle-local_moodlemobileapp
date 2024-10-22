@@ -119,6 +119,7 @@
     "core.login.policyagree": "Tu debe concordar con iste politica per continuar a usar iste sito. Tu concorda?",
     "core.login.policyagreement": "Accordo de politica del sito",
     "core.login.policyagreementclick": "Ligamine al accordo de politica del sito",
+    "core.login.profileinvaliddata": "Valor invalide",
     "core.login.selectacountry": "Selectiona un pais",
     "core.login.startsignup": "Crea nove conto",
     "core.login.username": "Nomine de usator",
