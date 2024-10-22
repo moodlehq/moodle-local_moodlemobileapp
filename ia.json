@@ -115,6 +115,7 @@
     "core.login.password": "Contrasigno",
     "core.login.passwordforgotten": "Contrasigno oblidate",
     "core.login.passwordforgotteninstructions2": "Per reinitialisar tu contrasigno, submitte tu nomine de usator o tu adresse de e-posta a basso. Si nos pote trovar te in le base de datos, un e-posta essera iniate a tu adresse de e-posta, con instructiones de como obtener novemente accesso.",
+    "core.login.profileinvaliddata": "Valor invalide",
     "core.login.resendemail": "Reinvia e-posta de confirmation",
     "core.login.selectacountry": "Selectiona un pais",
     "core.login.startsignup": "Crea nove conto",
