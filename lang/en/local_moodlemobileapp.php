@@ -625,7 +625,6 @@ $string['core.search.noresults'] = 'No results for "{{$a}}"';
 $string['core.search.noresultshelp'] = 'Check for typos or try using different keywords';
 $string['core.search.resultby'] = 'By {{$a}}';
 $string['core.searching'] = 'Searching';
-$string['core.selectall'] = 'Select all';
 $string['core.serverconnection'] = 'Error connecting to the server: {{details}}';
 $string['core.settings.about'] = 'About';
 $string['core.settings.appsettings'] = 'App settings';
