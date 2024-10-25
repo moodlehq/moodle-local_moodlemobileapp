@@ -2117,7 +2117,7 @@
     "core.login.policyacceptmandatory": "Jeg forstår og godtar de obligatoriske retningslinjene for nettstedet",
     "core.login.policyagree": "Du må godta avtalen for å bruke denne portalen. Godtar du den?",
     "core.login.policyagreement": "Avtale for bruk av portalen",
-    "core.login.policyagreementclick": "Klikk her for å lese bruksavtalen",
+    "core.login.policyagreementclick": "Brukervilkår",
     "core.login.potentialidps": "Klikk på knappen for å logge inn:",
     "core.login.profileinvaliddata": "Ugyldig verdi",
     "core.login.recaptchachallengeimage": "reCAPTCHA utfordringsbilde",

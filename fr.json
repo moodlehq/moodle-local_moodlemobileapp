@@ -462,7 +462,7 @@
     "addon.mod_bigbluebuttonbn.end_session_confirm_title": "Voulez-vous vraiment terminer la session ?",
     "addon.mod_bigbluebuttonbn.mod_form_field_closingtime": "Fermer",
     "addon.mod_bigbluebuttonbn.mod_form_field_openingtime": "Ouverture",
-    "addon.mod_bigbluebuttonbn.userlimitreached": "Le nombre d’utilisateur permis dans une réunion a été atteint.",
+    "addon.mod_bigbluebuttonbn.userlimitreached": "Le nombre d’utilisateurs permis dans une réunion a été atteint.",
     "addon.mod_bigbluebuttonbn.view_conference_action_end": "Terminer la session",
     "addon.mod_bigbluebuttonbn.view_conference_action_join": "Entrer dans la session",
     "addon.mod_bigbluebuttonbn.view_error_unable_join_student": "Impossible de se connecter au serveur BigBlueButton.",
