@@ -2007,6 +2007,8 @@
     "core.h5p.reviewAndShare": "Przejrzyj i udostępnij",
     "core.h5p.reviewInfo": "Przejrzyj informacje",
     "core.h5p.reviewMessage": "Przed udostępnieniem zapoznaj się z poniższymi informacjami",
+    "core.h5p.rotateLeft": "Obróć w lewo",
+    "core.h5p.rotateRight": "Obróć w prawo",
     "core.h5p.saveChanges": "Zapisz zmiany",
     "core.h5p.screenshots": "Zrzuty ekranu",
     "core.h5p.screenshotsDescription": "Dodaj maksymalnie pięć zrzutów ekranu swojej zawartości",
