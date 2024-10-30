@@ -2438,6 +2438,7 @@
     "core.selectacategory": "Por favor, selecione uma categoria",
     "core.selectacourse": "Selecione uma disciplina",
     "core.selectagroup": "Selecione um grupo",
+    "core.selectall": "Selecionar tudo",
     "core.send": "Enviar",
     "core.sending": "A enviar",
     "core.serverconnection": "Erro ao ligar ao servidor: {{details}}",

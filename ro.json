@@ -2443,7 +2443,7 @@
     "core.selectacategory": "Vă rugăm să selectați o categorie",
     "core.selectacourse": "Selectează un curs",
     "core.selectagroup": "Selectează un grup",
-    "core.selectall": "Selectează tot",
+    "core.selectall": "Selectează totul",
     "core.send": "Trimite",
     "core.sending": "Se trimite",
     "core.serverconnection": "Eroare la conectarea la server: {{details}}",

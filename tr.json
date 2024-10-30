@@ -2420,6 +2420,7 @@
     "core.selectacategory": "Lütfen bir kategori seçin",
     "core.selectacourse": "Bir kurs seç",
     "core.selectagroup": "Bir grup seç",
+    "core.selectall": "Tümünü seç",
     "core.send": "Gönder",
     "core.sending": "Gönderiliyor",
     "core.serverconnection": "Sunucuya bağlanırken hata oluştu: {{details}}",

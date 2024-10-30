@@ -2241,6 +2241,7 @@
     "core.selectacategory": "请选择一个类别",
     "core.selectacourse": "选择一门课程",
     "core.selectagroup": "选择一个小组",
+    "core.selectall": "全选",
     "core.send": "发送",
     "core.sending": "正在发送",
     "core.settings.about": "关于",

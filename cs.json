@@ -2442,7 +2442,7 @@
     "core.selectacategory": "Vyberte kategorii",
     "core.selectacourse": "Vyberte kurz",
     "core.selectagroup": "Vyberte skupinu",
-    "core.selectall": "Vyberat vše",
+    "core.selectall": "Vybrat vše",
     "core.send": "Odeslat",
     "core.sending": "Odesílání",
     "core.serverconnection": "Chyba při připojování k serveru: {{details}}",

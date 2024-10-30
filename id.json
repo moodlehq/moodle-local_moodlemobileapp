@@ -2438,6 +2438,7 @@
     "core.selectacategory": "Silakan pilih kategori",
     "core.selectacourse": "Pilih kursus",
     "core.selectagroup": "Pilih grup",
+    "core.selectall": "Pilih semua",
     "core.send": "Kirim",
     "core.sending": "Mengirimkan",
     "core.serverconnection": "Kesalahan saat menyambung ke server: {{details}}",

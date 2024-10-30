@@ -1353,6 +1353,7 @@
     "core.selectacategory": "དབྱེ་ཁག་ཅིག་གདམ་ཁ་རྐྱབས་གནང་།",
     "core.selectacourse": "སློབ་ཚན་སེལ་འཐུ་འབད།",
     "core.selectagroup": "སྡེ་ཚན་སེལ་འཐུ་འབད།",
+    "core.selectall": "ཆ་མཉམ་སེལ་འཐུ་འབད།",
     "core.send": "གཏང་",
     "core.sending": "གཏང་དོ།",
     "core.settings.accessstatement": "འཛུལ་སྤྱོད་ གསལ་བཤད།",

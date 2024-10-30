@@ -2412,6 +2412,7 @@
     "core.selectacategory": "Vælg en kategori",
     "core.selectacourse": "Vælg et kursus",
     "core.selectagroup": "Vælg en gruppe",
+    "core.selectall": "Marker alle",
     "core.send": "Send",
     "core.sending": "Sender",
     "core.serverconnection": "Fejl ved forbindelse til serveren: {{details}}",

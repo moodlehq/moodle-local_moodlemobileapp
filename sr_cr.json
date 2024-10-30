@@ -2437,6 +2437,7 @@
     "core.selectacategory": "Молимо вас да изаберете категорију",
     "core.selectacourse": "Изабери курс",
     "core.selectagroup": "Изабери групу",
+    "core.selectall": "Изабери све",
     "core.send": "Пошаљи",
     "core.sending": "Шаље се",
     "core.serverconnection": "Грешка приликом повезивања са сервером: {{details}}",

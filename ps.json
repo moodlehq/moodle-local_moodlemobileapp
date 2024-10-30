@@ -2043,6 +2043,7 @@
     "core.selectacategory": "هیله ده یوه کټګوري وټاکئ",
     "core.selectacourse": "یو کورس وټاکئ",
     "core.selectagroup": "یوه ډله وټاکئ",
+    "core.selectall": "ټول وټاکئ",
     "core.send": "ولېږئ",
     "core.sending": "استول",
     "core.serverconnection": "له پالنګر سره په نښلولو کې تېروتنه: {{details}}",

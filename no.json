@@ -2420,6 +2420,7 @@
     "core.selectacategory": "Vennligst velg en kategori",
     "core.selectacourse": "Velg et kurs",
     "core.selectagroup": "Velg en gruppe",
+    "core.selectall": "Velg alle",
     "core.send": "Send",
     "core.sending": "Sender",
     "core.serverconnection": "Feil ved tilkobling til serveren: {{details}}",
