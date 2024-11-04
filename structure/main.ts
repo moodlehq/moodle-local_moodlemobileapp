@@ -12817,6 +12817,7 @@ export type AddonModH5pactivityGetUserAttemptsWSResponse = {
             }[];
         }; // Attempts used to grade the activity.
     }[];
+    totalattempts: number; // Total number of attempts.
     warnings?: CoreWSExternalWarning[];
 };
 
