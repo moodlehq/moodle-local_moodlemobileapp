@@ -1634,6 +1634,7 @@
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} inden kursusstart",
     "core.course.section": "Sektion",
     "core.course.startdate": "Startdato",
+    "core.course.studentsmust": "Studerende skal",
     "core.course.thisweek": "Denne uge",
     "core.course.todo": "To do",
     "core.course.tour_navigation_course_index_student_content": "Gennemse aktiviteter og følg din fremgang.",

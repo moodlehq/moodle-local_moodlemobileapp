@@ -1327,6 +1327,8 @@
     "core.grades.aggregatemean": "Средна оценка",
     "core.grades.aggregatesum": "Естествено",
     "core.grades.average": "Средно",
+    "core.grades.badgrade": "Предоставената оценка е невалидна",
+    "core.grades.calculatedgrade": "Изчислена оценка",
     "core.grades.category": "Категория",
     "core.grades.contributiontocoursetotal": "Дял в оценката за курса",
     "core.grades.feedback": "Забележка",
