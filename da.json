@@ -462,6 +462,7 @@
     "addon.mod_bigbluebuttonbn.view_message_viewers": "Betragtere",
     "addon.mod_bigbluebuttonbn.view_nojoin": "Du har ikke en rolle der tillader dig at deltage i sessionen",
     "addon.mod_bigbluebuttonbn.view_recording_format_presentation": "Præsentation",
+    "addon.mod_bigbluebuttonbn.view_recording_list_action_play": "Spil",
     "addon.mod_bigbluebuttonbn.view_section_title_recordings": "Optagelser",
     "addon.mod_book.errorchapter": "Fejl under læsning af kapitel.",
     "addon.mod_book.modulenameplural": "Bøger",
