@@ -1,0 +1,20 @@
+{
+    "addon.blog.publishtonoone": "Tú (borrador)",
+    "addon.coursecompletion.nottracked": "Tú actualmente no estás siendo monitoreado en cuanto a tu grado de avance de este curso",
+    "addon.mod_url.modulenameplural": "Enlaces web",
+    "core.areyousure": "¿Estás seguro?",
+    "core.course": "Espacio",
+    "core.courses.availablecourses": "Espacios de aprendizaje disponibles",
+    "core.courses.categories": "Categorías de espacios",
+    "core.courses.courses": "Espacios",
+    "core.courses.notenroled": "Tú no estás inscrito en este curso",
+    "core.decsep": ".",
+    "core.labelsep": ":",
+    "core.listsep": ",",
+    "core.login.loginsteps": "Para tener acceso completo a este sitio, necesitas primeramente crear una cuenta.",
+    "core.mod_url": "Enlace web",
+    "core.notenrolledprofile": "Tú no puedes ver el perfil porque este usuario no está inscrito en este espacio",
+    "core.parentlanguage": "es_mx",
+    "core.policy.policyagree": "Tú deberás estar de acuerdo con estas condiciones antes de seguir usando este sitio. ¿Estás de acuerdo?",
+    "workplace.coursefiles": "Archivos de espacio heredados"
+}

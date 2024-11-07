@@ -1,0 +1,21 @@
+{
+    "addon.mod_forum.advanced": "Advanced",
+    "core.add": "Addem",
+    "core.all": "Evri",
+    "core.allgroups": "Evri groups",
+    "core.allparticipants": "Evri participants",
+    "core.answer": "Ansa",
+    "core.areyousure": "Yu sure?",
+    "core.back": "Go back",
+    "core.block.blocks": "Ol blocks",
+    "core.cancel": "Cancelem",
+    "core.comments.addcomment": "Addem wan comment...",
+    "core.courses.availablecourses": "Ol available courses",
+    "core.decsep": ".",
+    "core.labelsep": ":",
+    "core.listsep": ",",
+    "core.login.add": "Addem",
+    "core.login.cancel": "Cancelem",
+    "core.thisdirection": "ltr",
+    "core.user.address": "Address"
+}

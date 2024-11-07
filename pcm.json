@@ -1,0 +1,13 @@
+{
+    "addon.blog.addnewentry": "Add one new entry",
+    "addon.blog.entrytitle": "Title of Entry",
+    "addon.blog.noentriesyet": "No visible entries dey here",
+    "core.add": "Add",
+    "core.all": "Everything",
+    "core.comments.addcomment": "Add one comment....",
+    "core.decsep": ".",
+    "core.labelsep": ":",
+    "core.listsep": ",",
+    "core.login.add": "Add",
+    "core.user.address": "Address"
+}
