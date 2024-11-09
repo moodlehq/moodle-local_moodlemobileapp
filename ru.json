@@ -284,7 +284,7 @@
     "addon.messages.messagenotsent": "Сообщение не было отправлено. Пожалуйста, повторите попытку позже.",
     "addon.messages.messagepreferences": "Настройки сообщений",
     "addon.messages.messages": "Сообщения",
-    "addon.messages.muteconversation": "Приглушить звук",
+    "addon.messages.muteconversation": "Отключить звук",
     "addon.messages.mutedconversation": "Приглушенная беседа",
     "addon.messages.newmessage": "Новое сообщение",
     "addon.messages.newmessages": "Новые сообщения",

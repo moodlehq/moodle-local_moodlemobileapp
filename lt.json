@@ -1839,6 +1839,8 @@
     "core.h5p.reviewAndShare": "Peržiūrėti ir pasidalinti",
     "core.h5p.reviewInfo": "Peržiūrėti informaciją",
     "core.h5p.reviewMessage": "Prieš dalindamiesi peržiūrėkite toliau pateiktą informaciją",
+    "core.h5p.rotateLeft": "Pasukti kairėn",
+    "core.h5p.rotateRight": "Pasukti dešinėn",
     "core.h5p.saveChanges": "Išsaugoti pakeitimus",
     "core.h5p.screenshots": "Ekrano nuotraukos",
     "core.h5p.screenshotsDescription": "Pridėkite iki penkių savo turinio ekrano kopijų",
