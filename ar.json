@@ -2117,7 +2117,7 @@
     "core.login.policyacceptmandatory": "إنني أفهم سياسة الموقع الإجبارية وأوافق عليها",
     "core.login.policyagree": "يجب الموافقة على هذه الشروط للإستمرار في إستخدام الموقع. هل أنت موافق؟",
     "core.login.policyagreement": "إتفاقية سياسة الموقع",
-    "core.login.policyagreementclick": "رابط إلى اتفاقية سياسة الموقع",
+    "core.login.policyagreementclick": "اتفاقية سياسة الموقع",
     "core.login.potentialidps": "الدخول باستخدام حسابك في :",
     "core.login.profileinvaliddata": "قيمة غير صالحة",
     "core.login.recaptchachallengeimage": "صورة اختبار reCAPTCHA",
