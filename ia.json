@@ -1,4 +1,5 @@
 {
+    "addon.badges.badges": "Insignias",
     "addon.coursecompletion.required": "Requirite",
     "addon.coursecompletion.status": "Stato",
     "addon.messages.requests": "Requestas",
@@ -105,6 +106,7 @@
     "core.login.forcepasswordchangenotice": "Tu debe cambiar tu contrasigno per proceder",
     "core.login.forgotaccount": "Contrasigno perdite?",
     "core.login.help": "Adjuta",
+    "core.login.instructions": "Instructiones",
     "core.login.invalidemail": "Adresse de e-posta invalide",
     "core.login.login": "Authentica te",
     "core.login.loginsteps": "Per un accesso plen al sito, tu debe prime crear un conto.",
@@ -121,6 +123,7 @@
     "core.login.policyagreement": "Accordo de politica del sito",
     "core.login.policyagreementclick": "Ligamine al accordo de politica del sito",
     "core.login.profileinvaliddata": "Valor invalide",
+    "core.login.security_question": "Demanda de securitate",
     "core.login.selectacountry": "Selectiona un pais",
     "core.login.startsignup": "Crea nove conto",
     "core.login.username": "Nomine de usator",
