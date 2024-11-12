@@ -1,4 +1,5 @@
 {
+    "addon.badges.badges": "Insignias",
     "addon.coursecompletion.required": "Requirite",
     "addon.coursecompletion.status": "Stato",
     "addon.messages.requests": "Requestas",
@@ -105,6 +106,7 @@
     "core.login.forcepasswordchangenotice": "Tu debe cambiar tu contrasigno per proceder",
     "core.login.forgotaccount": "Contrasigno perdite?",
     "core.login.help": "Adjuta",
+    "core.login.instructions": "Instructiones",
     "core.login.invalidemail": "Adresse de e-posta invalide",
     "core.login.invalidusername": "Le nomine de usator pote solmente continer characteres alphanumeric minuscule (litteras e numeros), sublineas (_), hyphen (-), puncto (.) o symbol o a (@).",
     "core.login.login": "Authentica te",
@@ -119,6 +121,7 @@
     "core.login.passwordforgotteninstructions2": "Per reinitialisar tu contrasigno, submitte tu nomine de usator o tu adresse de e-posta a basso. Si nos pote trovar te in le base de datos, un e-posta essera iniate a tu adresse de e-posta, con instructiones de como obtener novemente accesso.",
     "core.login.profileinvaliddata": "Valor invalide",
     "core.login.resendemail": "Reinvia e-posta de confirmation",
+    "core.login.security_question": "Demanda de securitate",
     "core.login.selectacountry": "Selectiona un pais",
     "core.login.startsignup": "Crea nove conto",
     "core.login.username": "Nomine de usator",
