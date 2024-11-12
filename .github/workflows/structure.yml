@@ -19,7 +19,7 @@ jobs:
       MOODLE_REPOSITORY: 'https://github.com/moodle/moodle'
     steps:
     - name: Checking out code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Checking out Moodle ${{ env.MOODLE_BRANCH }}
       run: |
