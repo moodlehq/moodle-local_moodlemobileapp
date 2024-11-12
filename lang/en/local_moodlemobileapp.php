@@ -827,46 +827,6 @@ $string['workplace.teams.isoverdue'] = 'Has overdue or expired items';
 
 /* AUTO END */
 
-// Deprecated since v4.0.0
-$string['core.settings.errorsyncsite'] = 'Error synchronising site data. Please check your Internet connection and try again.';
-$string['core.settings.enablesyncwifi'] = 'Allow sync only when on Wi-Fi';
-$string['core.login.changepasswordinstructions'] = 'You cannot change your password in the app. Please click the following button to open the site in a web browser to change your password. Take into account you need to close the browser after changing the password as you will not be redirected to the app.';
-$string['core.login.changepasswordlogoutinstructions'] = 'If you prefer to change site or log out, please click the following button:';
-
-// Deprecated since v4.1.0
-$string['addon.calendar.timebefore'] = '{{value}} {{units}} before';
-$string['core.login.contactyouradministrator'] = 'Contact your site administrator for further help.';
-$string['core.login.contactyouradministratorissue'] = 'Please ask your site administrator to check the following issue: {{$a}}';
-$string['core.login.faqcannotconnectanswer'] = 'Please, contact your site administrator.';
-$string['core.login.faqcannotconnectquestion'] = 'I typed my site address correctly but I still can\'t connect.';
-$string['core.login.helpmelogin'] = '<p>There are many thousands of Moodle sites around the world. This app can only connect to Moodle sites that have specifically enabled Mobile app access.</p><p>If you can\'t connect to your Moodle site then you need to contact your site administrator and ask them to read <a href="http://docs.moodle.org/en/Mobile_app" target="_blank">http://docs.moodle.org/en/Mobile_app</a></p><p>To test the app in a Moodle demo site type <i>teacher</i> or <i>student</i> in the <i>Site address</i> field and click the <b>Connect button</b>.</p>';
-$string['core.whoissiteadmin'] = '"Site Administrators" are the people who manage the Moodle at your school/university/company or learning organisation. If you don\'t know how to contact them, please contact your teachers/trainers.';
-$string['freemium.subscriptionplan_bma'] = 'BMA';
-$string['freemium.subscriptionplan_premium'] = 'Premium';
-$string['freemium.subscriptionplan_pro'] = 'Pro';
-
-// Deprecated since v4.2.0
-$string['core.reportbuilder.filtersapplied'] = 'There may be filters applied to this view. To edit filters or change the sorting order, <a href="{{$a}}">open this report on your browser.</a>';
-$string['core.reportbuilder.showcolumns'] = 'Show columns';
-$string['core.reportbuilder.hidecolumns'] = 'Hide columns';
-$string['core.sitenotfound'] = 'Site not found';
-
-// Deprecated since v4.3.0
-$string['core.courses.confirmselfenrol'] = 'Are you sure you want to enrol yourself in this course?';
-$string['core.courses.errorselfenrol'] = 'An error occurred while self enrolling.';
-$string['core.courses.selfenrolment'] = 'Self enrolment';
-$string['core.login.loggedoutssodescription'] = 'You have to authenticate again. You need to log in to the site in a browser window.';
-$string['core.login.logininsiterequired'] = 'You need to log in to the site in a browser window.';
-$string['core.login.reconnectssodescription'] = 'Your session has expired. Please log in again in a browser window to continue.';
-$string['core.settings.enablefirebaseanalytics'] = 'Enable Firebase analytics';
-$string['core.settings.enablefirebaseanalyticsdescription'] = 'If enabled, the app will collect anonymous data usage.';
-$string['freemium.autologouttitle'] = 'Automatically log out from this device';
-$string['freemium.autologoutcustomtime'] = 'Custom time after leaving the app';
-$string['freemium.autologoutclosingtheapp'] = 'Immediately after leaving the app';
-$string['freemium.autologoutdefault'] = 'Default';
-$string['freemium.feature_autologout'] = 'Auto logout';
-$string['freemium.settingsoptions_autologout'] = 'Auto logout';
-
 // Deprecated since v4.4.0
 $string['addon.mod_quiz.finishnotsynced'] = 'Finished but not synchronised';
 $string['core.login.policyacceptmandatory'] = 'I understand and agree to the mandatory site policies';
