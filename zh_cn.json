@@ -1122,6 +1122,7 @@
     "addon.privatefiles.sitefiles": "站点文件",
     "addon.qtype_essay.maxwordlimitboundary": "本问题的字数限制为{{$a.limit}}字，而您试图提交{{$a.count}}字。请减少字数并重试。",
     "addon.qtype_essay.minwordlimitboundary": "本问题要求至少回答{{$a.limit}}字，而您试图提交{{$a.count}}字。请增加字数并重试。",
+    "addon.qtype_ordering.moved": "{{$a.item}} 移动到新位置: {{$a.total}}中的{{$a.position}} 。",
     "addon.report_insights.actionsaved": "您对‘{{$a}}’的反馈已保存。",
     "addon.report_insights.fixedack": "接受",
     "addon.report_insights.incorrectlyflagged": "标记不正确",
