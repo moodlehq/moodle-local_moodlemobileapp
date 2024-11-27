@@ -2625,7 +2625,7 @@
     "core.user.description": "الوصف",
     "core.user.details": "التفاصيل",
     "core.user.detailsnotavailable": "تفاصيل هذا المستخدم غير متاحة لك.",
-    "core.user.editingteacher": "معلم",
+    "core.user.editingteacher": "المعلم",
     "core.user.email": "عنوان البريد الإلكتروني",
     "core.user.emailagain": "إعادة إدخال البريد الإلكتروني للتأكيد ",
     "core.user.errorloaduser": "خطأ عند تحميل المستخدم.",
