@@ -1,6 +1,6 @@
 {
     "addon.badges.alignment": "Вирівнювання",
-    "addon.badges.awardedto": "Присуджено {$ a}}",
+    "addon.badges.awardedto": "Присуджено {{$a}}",
     "addon.badges.badgedetails": "Детальніше про відзнаку",
     "addon.badges.badges": "Відзнаки",
     "addon.badges.bendorsement": "Підтвердження",
