@@ -58,6 +58,7 @@
     "addon.mod_forum.discussionlistsortbylastpostdesc": "Òrdina pi data di criazzioni di l'ùrtimu post, a scìnniri",
     "addon.mod_quiz.stateinprogress": "Abbiatu",
     "addon.notifications.markallread": "Marca tutti liggiuti",
+    "addon.notifications.notifications": "Nutìfichi",
     "core.add": "Agghiunci",
     "core.ago": "{{$a}} nnarrè",
     "core.all": "Tutti",

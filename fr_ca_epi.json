@@ -1,8 +1,10 @@
 {
     "addon.coursecompletion.required": "Requis",
     "addon.coursecompletion.status": "Statuts",
+    "addon.messages.type_search": "Résultats de la recherche",
     "addon.mod_assign.numwords": "{{$a}} mots",
     "addon.mod_feedback.preview": "Aperçu",
+    "addon.mod_forum.group": "Groupe",
     "addon.privatefiles.files": "Fichiers",
     "addon.privatefiles.sitefiles": "Fichiers du site",
     "addon.storagemanager.deleteall": "Tout effacer",

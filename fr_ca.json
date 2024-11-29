@@ -1,6 +1,7 @@
 {
     "addon.coursecompletion.required": "Requis",
     "addon.coursecompletion.status": "Statuts",
+    "addon.messages.type_search": "Résultats de la recherche",
     "addon.mod_assign.applytoteam": "Appliquer les notes et la rétroaction à tout le groupe",
     "addon.mod_assign.numwords": "{{$a}} mots",
     "addon.mod_assign_feedback_comments.pluginname": "Rétroaction par commentaires",
@@ -9,6 +10,7 @@
     "addon.mod_chat.modulenameplural": "Clavardages",
     "addon.mod_choice.modulenameplural": "Consultations",
     "addon.mod_feedback.preview": "Aperçu",
+    "addon.mod_forum.group": "Groupe",
     "addon.mod_wiki.modulenameplural": "Wikis",
     "addon.mod_wiki.pagename": "Nom de page",
     "addon.privatefiles.files": "Fichiers",

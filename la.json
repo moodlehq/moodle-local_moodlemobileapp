@@ -3,6 +3,7 @@
     "addon.block_recentactivity.pluginname": "agitatio recens",
     "addon.mod_assign.numwords": "{{$a}} verba",
     "addon.mod_forum.advanced": "provectus",
+    "addon.mod_forum.group": "genus",
     "addon.privatefiles.files": "loculī",
     "addon.privatefiles.sitefiles": "loculī positī",
     "addon.storagemanager.deleteall": "delēre totus",
