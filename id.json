@@ -353,7 +353,7 @@
     "addon.mod_assign.addnewattemptfromprevious": "Tambahkan upaya baru berdasarkan pengajuan sebelumnya",
     "addon.mod_assign.addsubmission": "Kirimkan Pengajuan (Tugas/Laporan)",
     "addon.mod_assign.allowsubmissionsanddescriptionfromdatesummary": "Detail tugas dan formulir penyerahan akan tersedia dari <strong>{{$a}}</strong>",
-    "addon.mod_assign.allowsubmissionsfromdate": "Izinkan pengajuan dari dari",
+    "addon.mod_assign.allowsubmissionsfromdate": "Izinkan pengajuan dari",
     "addon.mod_assign.allowsubmissionsfromdatesummary": "Tugas ini akan menerima kiriman dari <strong>{{$a}}</strong>",
     "addon.mod_assign.applytoteam": "Terapkan nilai dan umpan balik ke seluruh grup",
     "addon.mod_assign.assignmentisdue": "Penugasan jatuh tempo",
