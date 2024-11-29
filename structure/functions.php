@@ -135,7 +135,7 @@ function print_ws_structure($wsname, $type, $structure, $useparams) {
  * Login required: " . ($structure->loginrequired ? 'yes' : 'no');*/
 echo "
  */
-${export}type $type = ".convert_to_ts(null, $typestructure).";\n";
+{$export}type $type = ".convert_to_ts(null, $typestructure).";\n";
 }
 
 /**

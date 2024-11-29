@@ -35,7 +35,18 @@ function get_all_ws_structures() {
     $functions = $DB->get_records('external_functions', array('services' => 'moodle_mobile_app'), 'name');
     $functiondescs = array();
     foreach ($functions as $function) {
-        $functiondescs[$function->name] = external_api::external_function_info($function);
+        try {
+            $functiondescs[$function->name] = external_api::external_function_info($function);
+        } catch (Exception $exception) {
+            // Fake response to see errors.
+            $functiondescs[$function->name] = new StdClass();
+            $functiondescs[$function->name]->parameters_desc = null;
+            $functiondescs[$function->name]->returns_desc = null;
+            $functiondescs[$function->name]->description = $exception->getMessage();
+            $functiondescs[$function->name]->loginrequired = null;
+            $functiondescs[$function->name]->allowed_from_ajax = null;
+            $functiondescs[$function->name]->readonlysession = null;
+        }
     }
 
     return $functiondescs;
