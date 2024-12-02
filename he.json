@@ -1683,6 +1683,7 @@
     "core.login.usernamerequired": "דרוש שם משתמש",
     "core.login.usernotaddederror": "משתמש לא התווסף - טעות",
     "core.login.webservicesnotenabled": "Web Services לא מאופשרים באתר זה. אנא פנה למנהל האתר באם רצונך לשנות זאת",
+    "core.login.yourenteredsite": "התחברות לאתר שלך",
     "core.lostconnection": "לקוד הזיהוי המאובטח שלך פג התוקף, ולכן החיבור נותק. עליך להתחבר שוב.",
     "core.mainmenu.home": "ראשי",
     "core.mainmenu.logout": "התנתקות",
