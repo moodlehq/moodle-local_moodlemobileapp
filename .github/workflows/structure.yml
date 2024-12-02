@@ -11,10 +11,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        moodle_branch: ['main', 'MOODLE_405_STABLE', 'MOODLE_404_STABLE', 'MOODLE_403_STABLE', 'MOODLE_401_STABLE']
+        moodle_branch: ['main', 'MOODLE_405_STABLE', 'MOODLE_404_STABLE', 'MOODLE_403_STABLE']
     env:
       dbtype: pgsql
-      php: 8.1
+      php: 8.2
       MOODLE_BRANCH: ${{ matrix.moodle_branch || 'main' }}
       MOODLE_REPOSITORY: 'https://github.com/moodle/moodle'
     steps:
@@ -28,7 +28,7 @@ jobs:
     - name: Setting up DB ${{ env.dbtype }}
       uses: m4nu56/postgresql-action@v1
       with:
-        postgresql version: 13
+        postgresql version: 14
         postgresql db: test
         postgresql user: test
         postgresql password: test
