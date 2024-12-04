@@ -1072,6 +1072,7 @@
     "addon.privatefiles.sitefiles": "Sivuston tiedostot",
     "addon.qtype_essay.maxwordlimitboundary": "Vastauksen sallitun sanamäärän maksimi on {{$a.limit}} sanaa. Olet palauttamassa {{$a.count}} sanaa. Ole hyvä ja tiivistä vastaustasi.",
     "addon.qtype_essay.minwordlimitboundary": "Vastauksen sallitun sanamäärän minimi on {{$a.limit}} sanaa. Olet palauttamassa {{$a.count}} sanaa. Ole hyvä ja laajenna vastaustasi.",
+    "addon.qtype_ordering.moved": "Kohde {{$a.item}} on siirtynyt. Uusi sijainti: {{$a.position}} / {{$a.total}}.",
     "addon.report_insights.actionsaved": "Palautteesi \"{{$a}}\" on tallennettu.",
     "addon.report_insights.fixedack": "Hyväksy",
     "addon.report_insights.incorrectlyflagged": "Virheellinen ennuste",
