@@ -267,6 +267,8 @@
     "core.h5p.reviewAndShare": "Revisar i compartir",
     "core.h5p.reviewInfo": "Revisar informació",
     "core.h5p.reviewMessage": "Si us plau, revisa la següent informació abans de compartir",
+    "core.h5p.rotateLeft": "Girar a l'esquerra",
+    "core.h5p.rotateRight": "Girar a la dreta",
     "core.h5p.saveChanges": "Guardar canvis",
     "core.h5p.screenshots": "Captures de pantalla",
     "core.h5p.screenshotsDescription": "Afegeix fins a cinc captures de pantalla del teu contingut",
