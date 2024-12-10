@@ -742,7 +742,7 @@
     "addon.mod_lesson.detailedstats": "Išsamūs statistiniai duomenys",
     "addon.mod_lesson.didnotanswerquestion": "Neatsakė į šį klausimą.",
     "addon.mod_lesson.displayofgrade": "Įvertinimų rodymas (tik besimokantiesiems)",
-    "addon.mod_lesson.displayscorewithessays": "Surinkote {{$a.score}} iš {{$a.tempmaxgrade}} už automatiškai vertinamus klausimus.<br />Vėliau jūsų {{$a.essayquestions}} esė klausimas (-ai) bus įvertintas (-i) ir įtrauktas (-i) <br />į galutinį balą.<br /><br />Dabartinis jūsų įvertis be esė klausimo (-ų) yra {{$a.score}} iš {{$a.grade}}.",
+    "addon.mod_lesson.displayscorewithessays": "Surinkote {{$a.score}} iš {{$a.tempmaxgrade}} už automatiškai vertinamus klausimus.<br />Vėliau jūsų {{$a.essayquestions}} esė klausimas (-ai) bus įvertintas (-i) ir įtrauktas (-i) <br />į galutinį balą.<br /><br />Dabartinis jūsų įvertinimas be esė klausimo (-ų) yra {{$a.score}} iš {{$a.grade}}.",
     "addon.mod_lesson.displayscorewithoutessays": "Jūsų balas yra {{$a.score}} (iš {{$a.grade}}).",
     "addon.mod_lesson.emptypassword": "Slaptažodis negali būti tuščias",
     "addon.mod_lesson.enterpassword": "Įveskite slaptažodį:",
