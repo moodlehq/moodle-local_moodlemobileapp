@@ -874,7 +874,7 @@
     "addon.mod_page.modulenameplural": "Pàgines",
     "addon.mod_quiz.answercolon": "Resposta:",
     "addon.mod_quiz.attempt": "Intent {{$a}}",
-    "addon.mod_quiz.attemptduration": "Temps emprat",
+    "addon.mod_quiz.attemptduration": "Durada",
     "addon.mod_quiz.attemptfirst": "Primer intent",
     "addon.mod_quiz.attemptlast": "Darrer intent",
     "addon.mod_quiz.attemptnumber": "Intent",
