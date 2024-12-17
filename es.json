@@ -2029,6 +2029,8 @@
     "core.h5p.reviewAndShare": "Revisar y Compartir",
     "core.h5p.reviewInfo": "Revisar información",
     "core.h5p.reviewMessage": "Por favor revise la información debajo antes de compartir",
+    "core.h5p.rotateLeft": "Girar a la izquierda",
+    "core.h5p.rotateRight": "Girar a la derecha",
     "core.h5p.saveChanges": "Guardar cambios",
     "core.h5p.screenshots": "Pantallazos",
     "core.h5p.screenshotsDescription": "Añadir hasta cinco pantallazos de su contenido",
