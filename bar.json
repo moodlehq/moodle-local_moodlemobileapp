@@ -90,7 +90,6 @@
     "addon.mod_assign.numberofteams": "Gruppn",
     "addon.mod_assign.submissionteam": "Gruppn",
     "addon.mod_forum.advanced": "Fortgschrittn",
-    "addon.mod_forum.group": "Gruppn",
     "addon.mod_workshop_assessment_accumulative.dimensioncommentfor": "Kommentar fia {{$a}}",
     "addon.mod_workshop_assessment_accumulative.dimensiongradefor": "Note fia {{$a}}",
     "addon.mod_workshop_assessment_numerrors.dimensiongradefor": "Note fia {{$a}}",

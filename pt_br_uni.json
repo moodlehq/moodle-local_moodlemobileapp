@@ -1,7 +1,7 @@
 {
     "addon.block_completionstatus.pluginname": "Status da conclusão da disciplina",
     "addon.block_myoverview.browseallcourses": "Buscar por todas as disciplinas",
-    "addon.block_myoverview.nocoursesenrolled": "Você não está atualmente matriculado em nenhuma disciplina",
+    "addon.block_myoverview.nocoursesenrolled": "Você ainda não está matriculado em nenhuma disciplina.",
     "addon.block_myoverview.nocoursesenrolleddescription": "Busque por todas as disciplinas disponíveis abaixo e comece a aprender.",
     "addon.block_myoverview.noresult": "Sua pesquisa não corresponde a nenhuma disciplina.",
     "addon.block_myoverview.noresultdescription": "Ajuste sua busca ou navegue em todas as disciplinas abaixo.",

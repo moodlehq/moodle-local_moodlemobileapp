@@ -278,7 +278,7 @@
     "addon.messages.selfconversation": "Лично пространство",
     "addon.messages.selfconversationdefaultmessage": "Запазване чернови на съобщения, хипервръзки, бележки и т.н. за ползване по-късно.",
     "addon.messages.sendcontactrequest": "Изпращане предложение за контакт",
-    "addon.messages.type_blocked": "Блокирани контакти",
+    "addon.messages.type_blocked": "Блокиран",
     "addon.messages.type_offline": "Офлайн",
     "addon.messages.type_online": "Онлайн",
     "addon.messages.type_search": "Резултати от търсенето",

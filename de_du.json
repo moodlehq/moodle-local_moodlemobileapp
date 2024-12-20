@@ -175,6 +175,7 @@
     "addon.mod_glossary.errorloadingentry": "Fehler beim Laden des Eintrags",
     "addon.mod_glossary.errorloadingglossary": "Fehler beim Laden des Glossars",
     "addon.mod_glossary.noentriesfound": "Keine Einträge",
+    "addon.mod_glossary.searchquery": "Suchanfrage",
     "addon.mod_h5pactivity.downloadh5pfile": "H5P-Datei herunterladen",
     "addon.mod_h5pactivity.errorgetactivity": "Fehler beim Laden der H5P-Aktivitätsdaten",
     "addon.mod_h5pactivity.filestatenotdownloaded": "Das H5P-Paket ist nicht heruntergeladen. Du musst es zuerst herunterladen, um es nutzen zu können.",

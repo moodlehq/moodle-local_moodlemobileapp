@@ -1,6 +1,5 @@
 {
     "addon.block_completionstatus.pluginname": "Class completion status",
-    "addon.block_myoverview.nocoursesenrolled": "You are currently not enrolled in any classes.",
     "addon.blog.associatewithcourse": "Blog about class {{$a.coursename}}",
     "addon.calendar.courseevents": "Class events",
     "addon.calendar.typecourse": "Class event",
@@ -26,7 +25,6 @@
     "core.courses.availablecourses": "Available classes",
     "core.courses.categories": "Class categories",
     "core.courses.courses": "Classes",
-    "core.courses.enrolme": "Enroll me in this class",
     "core.courses.mycourses": "My classes",
     "core.courses.nocourses": "No class information to show.",
     "core.courses.nocoursesyet": "No classes in this category",
