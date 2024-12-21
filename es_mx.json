@@ -1589,7 +1589,7 @@
     "core.copytoclipboard": "Copiar al portapapeles",
     "core.course": "Curso",
     "core.course.activitydisabled": "Su  organización ha deshabilitado esta actividad en la App mobile.",
-    "core.course.activitynotyetviewableremoteaddon": "Su organización instaló un plugin complemento de terceros que todavía no está soportado.",
+    "core.course.activitynotyetviewableremoteaddon": "Su organización instaló un plugin que todavía no está soportado.",
     "core.course.allsections": "Todas las secciones",
     "core.course.aria:sectionprogress": "Progreso de sección:",
     "core.course.availablespace": "Usted tiene actualmente {{available}} de espacio libre.",
