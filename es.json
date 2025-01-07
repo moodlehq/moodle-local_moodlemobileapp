@@ -2409,7 +2409,7 @@
     "core.reportbuilder.reports": "Informes",
     "core.reportbuilder.reportsource": "Origen del informe",
     "core.reportbuilder.showcolumns": "Mostrar columnas",
-    "core.reportbuilder.timecreated": "Tiempo de creado",
+    "core.reportbuilder.timecreated": "Fecha de matriculación al curso",
     "core.required": "Obligatorio",
     "core.requireduserdatamissing": "En este perfil de usuario faltan datos requeridos. Por favor, rellene estos datos en su sitio e inténtelo otra vez.<br>{{$a}}",
     "core.resourcedisplayopen": "Abrir",
