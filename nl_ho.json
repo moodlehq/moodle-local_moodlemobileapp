@@ -1,0 +1,13 @@
+{
+    "addon.mod_assign.graded": "Beoordeeld",
+    "addon.mod_assign.gradedby": "Beoordeeld door",
+    "addon.mod_assign.gradedfollowupsubmit": "Beoordeeld - opnieuw ingediend",
+    "addon.mod_assign.gradedon": "Beoordeeld op",
+    "addon.mod_assign.notgraded": "Niet beoordeeld",
+    "addon.mod_lesson.defaultessayresponse": "Je essay zal worden beoordeeld door je docent.",
+    "core.grades.notgraded": "Niet beoordeeld",
+    "core.parentlanguage": "nl",
+    "core.teachers": "Docenten",
+    "core.user.editingteacher": "Docent",
+    "core.user.teacher": "Docent zonder bewerken"
+}
