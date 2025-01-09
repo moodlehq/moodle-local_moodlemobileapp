@@ -383,7 +383,7 @@
     "addon.mod_assign.grade": "Ocena",
     "addon.mod_assign.graded": "Ocenione",
     "addon.mod_assign.gradedby": "Ocenione przez",
-    "addon.mod_assign.gradedfollowupsubmit": "Ocenione - otrzymano kolejne zadanie",
+    "addon.mod_assign.gradedfollowupsubmit": "Ocenione - ponownie przesłane",
     "addon.mod_assign.gradedon": "Ocenione dnia",
     "addon.mod_assign.gradelocked": "Ta ocena jest zablokowana lub nadpisana w dzienniku ocen",
     "addon.mod_assign.gradenotsynced": "Ocena niezsynchronizowana",
