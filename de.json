@@ -2657,7 +2657,7 @@
     "core.usernologin": "Für dieses Nutzerkonto wurde die Authentifizierung widerrufen.",
     "core.usernotfullysetup": "Nutzerkonto unvollständig",
     "core.users": "Nutzer/innen",
-    "core.usersuspended": "Registrierung ausgesetzt",
+    "core.usersuspended": "Registrierung gesperrt",
     "core.view": "Anzeigen",
     "core.viewcode": "Code zeigen",
     "core.vieweditor": "Editor zeigen",
