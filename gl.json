@@ -2129,7 +2129,7 @@
     "core.login.faqwhatisurlanswer": "<p>Se non pode atopar o seu sitio por nome, tente buscar polo seu enderezo URL do sitio Moodle (ou enderezo web) no seu lugar.</p><p>Para atopar o seu enderezo do sitio:</p><ol><li>Abra un navegador web e vaia á súa páxina de acceso do sitio de Moodle.</li><li>Na parte superior da páxina, na barra de enderezos, verá o enderezo URL do seu sitio Moodle, por exemplo «campus.example.edu».<br>{{$imaxe}}</li><li>Copiar o URL (non copiar o /login nin o que vén despois), pegalo no <strong>seu sitio</strong> na aplicación, a continuación, toque <strong>Conectar ao seu sitio</strong></li><li>Agora podes iniciar sesión no teu sitio co teu nome de usuario e contrasinal.</li></ol><p>Se intentou buscar por enderezo URL e aínda non pode atopar o seu sitio de Moodle, póñase en contacto coa persoa que coida de Moodle no seu centro de ensino ou organización de aprendizaxe.</p>",
     "core.login.faqwhatisurlquestion": "Como podo atopar o meu sitio?",
     "core.login.faqwhereisqrcode": "Onde podo atopar o código QR?",
-    "core.login.faqwhereisqrcodeanswer": "<p>Se o seu centro de ensino ou provedor de aprendizaxe o activou, atopará un código QR no sitio web na parte inferior da súa páxina de perfil de usuario.</p>{{$imaxe}}",
+    "core.login.faqwhereisqrcodeanswer": "<p>Se o seu centro de ensino ou provedor de aprendizaxe o activou, atopará un código QR no sitio web na parte inferior da súa páxina de perfil de usuario.</p>{{$image}}",
     "core.login.findyoursite": "Atopar o seu sitio",
     "core.login.firsttime": "É esta a súa primeira vez aquí?",
     "core.login.forcepasswordchangenotice": "Para continuar, deberá cambiar o seu contrasinal.",
