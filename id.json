@@ -402,7 +402,7 @@
     "addon.mod_assign.markingworkflowstate": "Menilai status alur kerja",
     "addon.mod_assign.markingworkflowstateinmarking": "Sedang dinilai",
     "addon.mod_assign.markingworkflowstateinreview": "Sedang diulas",
-    "addon.mod_assign.markingworkflowstatenotmarked": "Tak dinilai",
+    "addon.mod_assign.markingworkflowstatenotmarked": "Belum dinilai",
     "addon.mod_assign.markingworkflowstatereadyforrelease": "Siap dirilis",
     "addon.mod_assign.markingworkflowstatereadyforreview": "Penilaian selesai",
     "addon.mod_assign.markingworkflowstatereleased": "Dirilis",
