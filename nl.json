@@ -529,7 +529,7 @@
     "addon.mod_choice.cannotsubmit": "Er was een probleem bij het insturen van je keuze. Probeer opnieuw",
     "addon.mod_choice.choiceoptions": "Keuze-opties",
     "addon.mod_choice.errorgetchoice": "Fout bij het ophalen van de keuzegegevens.",
-    "addon.mod_choice.full": "(volledig)",
+    "addon.mod_choice.full": "(Volzet)",
     "addon.mod_choice.limita": "Limiet: {{$a}}",
     "addon.mod_choice.modulenameplural": "Keuzes",
     "addon.mod_choice.noresultsviewable": "De resultaten zijn nu niet zichtbaar.",
