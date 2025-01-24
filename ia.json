@@ -1,4 +1,6 @@
 {
+    "addon.badges.alignment": "Alineamento",
+    "addon.badges.badgedetails": "Detalios de insignia",
     "addon.badges.badges": "Insignias",
     "addon.coursecompletion.required": "Requirite",
     "addon.coursecompletion.status": "Stato",
@@ -119,6 +121,7 @@
     "core.login.password": "Contrasigno",
     "core.login.passwordforgotten": "Contrasigno oblidate",
     "core.login.passwordforgotteninstructions2": "Per reinitialisar tu contrasigno, submitte tu nomine de usator o tu adresse de e-posta a basso. Si nos pote trovar te in le base de datos, un e-posta essera iniate a tu adresse de e-posta, con instructiones de como obtener novemente accesso.",
+    "core.login.potentialidps": "Accede usante tu conto sur:",
     "core.login.profileinvaliddata": "Valor invalide",
     "core.login.resendemail": "Reinvia e-posta de confirmation",
     "core.login.security_question": "Demanda de securitate",
