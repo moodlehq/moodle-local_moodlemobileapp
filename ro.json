@@ -2773,6 +2773,8 @@
     "workplace.active": "Activ",
     "workplace.all": "Toate",
     "workplace.aria:courseactions": "Acțiuni în curs",
+    "workplace.catalogue.catalogue": "Catalog",
+    "workplace.catalogue.categories": "Categorii",
     "workplace.certificationmsgactive": "Certificarea <strong>\"{{$a.fullname}}\"</strong> trebuie completată până în <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "Certificarea strong>\"{{$a.fullname}}\"</strong> este completă",
     "workplace.certificationmsgcompletedexpired": "Certificarea <strong>\"{{$a.fullname}}\"</strong> este finalizată. Va expira în <strong>{{$a.date}}</strong>",

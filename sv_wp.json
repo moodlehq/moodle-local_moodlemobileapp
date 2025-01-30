@@ -18,6 +18,7 @@
     "workplace.active": "Aktiv",
     "workplace.all": "Alla",
     "workplace.aria:courseactions": "Kurshändelser",
+    "workplace.catalogue.categories": "Kategorier",
     "workplace.certificationmsgactive": "Certifiering <strong>\"{{$a.fullname}}\"</strong> måste slutföras före <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "Certifiering <strong>\"{{$a.fullname}}\"</strong> är slutförd",
     "workplace.certificationmsgcompletedexpired": "Certifiering <strong>\"{{$a.fullname}}\"</strong> är slutförd. Det går ut den <strong>{{$a.date}}</strong>",
