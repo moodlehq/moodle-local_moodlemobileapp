@@ -609,7 +609,7 @@
     "workplace.programs": "البرامج",
     "workplace.programstructure": "هيكل البرنامج",
     "workplace.progress": "اكتمل {{$a}}%",
-    "workplace.progresscompleted": "اكتمل {{$a.Completed}} من {{$a.total}}.",
+    "workplace.progresscompleted": "اكتمل {{$a.completed}} من {{$a.total}}",
     "workplace.recentlyaccessedcourses": "الدورات التي تم الوصول إليها مؤخرا",
     "workplace.review": "مراجعة",
     "workplace.seecontent": "عرض المحتوى",
