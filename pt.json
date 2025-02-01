@@ -599,7 +599,7 @@
     "addon.mod_data.single": "Ver registo",
     "addon.mod_data.tagarea_data_records": "Registos de dados",
     "addon.mod_data.timeadded": "Data e hora de criação",
-    "addon.mod_data.timemodified": "Data e hora da última modificação",
+    "addon.mod_data.timemodified": "Data e hora de modificação",
     "addon.mod_data.usedate": "Incluir na pesquisa.",
     "addon.mod_data_fields_file.fieldtypelabel": "Ficheiro",
     "addon.mod_data_fields_picture.fieldtypelabel": "Imagem",
