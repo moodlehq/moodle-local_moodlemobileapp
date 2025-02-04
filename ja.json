@@ -2405,7 +2405,7 @@
     "core.removefiles": "ファイルを削除する {{$a}}",
     "core.reportbuilder.filtersapplied": "この表示にはフィルタが適用されている場合があります。フィルタを編集または並べ替え順を変更する場合、<a href=\"{{$a}}\">あなたのブラウザでこのレポートを開いてください。</a>",
     "core.reportbuilder.hidecolumns": "列を非表示",
-    "core.reportbuilder.modifiedby": "編集",
+    "core.reportbuilder.modifiedby": "最終更新者",
     "core.reportbuilder.reports": "レポート",
     "core.reportbuilder.reportsource": "レポートソース",
     "core.reportbuilder.showcolumns": "列を表示",

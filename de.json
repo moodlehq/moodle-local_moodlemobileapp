@@ -997,7 +997,7 @@
     "addon.mod_scorm.gradescoes": "Lernobjekte",
     "addon.mod_scorm.gradesum": "Summe der Bewertungen",
     "addon.mod_scorm.highestattempt": "Bester Versuch",
-    "addon.mod_scorm.incomplete": "Unvollständig",
+    "addon.mod_scorm.incomplete": "Nicht bestanden",
     "addon.mod_scorm.lastattempt": "Letzter vollständiger Versuch",
     "addon.mod_scorm.modulenameplural": "Lernpakete",
     "addon.mod_scorm.newattempt": "Neuen Versuch beginnen",
