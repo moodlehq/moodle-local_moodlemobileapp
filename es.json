@@ -1892,7 +1892,7 @@
     "core.h5p.additionallicenseinfo": "Cualquier información adicional acerca de la licencia",
     "core.h5p.address": "Dirección",
     "core.h5p.age": "Edad típica",
-    "core.h5p.ageDescription": "La audiencia objetivo de este contenido. Formatos posibles de ingreso separados por comas: \"1,34-45,-50,59-\".",
+    "core.h5p.ageDescription": "La audiencia objetivo de este contenido. Formatos posibles separados por comas: \"1,34-45,-50,59-\".",
     "core.h5p.altText": "Texto alterno",
     "core.h5p.author": "Autor",
     "core.h5p.authorcomments": "Comentarios del autor",
