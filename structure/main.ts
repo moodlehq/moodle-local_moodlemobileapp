@@ -266,9 +266,6 @@ export type AddonBadgesGetUserBadgeByHashWSResponse = {
         email?: string; // User email.
         version?: string; // Version.
         language?: string; // Language.
-        imageauthorname?: string; // Name of the image author.
-        imageauthoremail?: string; // Email of the image author.
-        imageauthorurl?: string; // URL of the image author.
         imagecaption?: string; // Caption of the image.
         badgeurl: string; // Badge URL.
         endorsement?: {
@@ -352,9 +349,6 @@ export type AddonBadgesGetUserBadgesWSResponse = {
         email?: string; // User email.
         version?: string; // Version.
         language?: string; // Language.
-        imageauthorname?: string; // Name of the image author.
-        imageauthoremail?: string; // Email of the image author.
-        imageauthorurl?: string; // URL of the image author.
         imagecaption?: string; // Caption of the image.
         badgeurl: string; // Badge URL.
         endorsement?: {
