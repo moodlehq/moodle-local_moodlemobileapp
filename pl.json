@@ -682,7 +682,7 @@
     "addon.mod_forum.pinupdated": "Opcja przypięcia została zapisana.",
     "addon.mod_forum.postaddedsuccess": "Wpis został dodany.",
     "addon.mod_forum.postingroup": "Publikowanie w grupie „{{groupname}}”.",
-    "addon.mod_forum.postisprivatereply": "To jest prywatna odpowiedź. Widoczna jest jedynie dla Ciebie oraz dla każdego, kto ma możliwość przeglądania prywatnych odpowiedzi, na przykład nauczycieli lub menedżerów.",
+    "addon.mod_forum.postisprivatereply": "To jest prywatna odpowiedź. (Nauczyciele i inni użytkownicy mający możliwość przeglądania prywatnych odpowiedzi również mogą ją zobaczyć.)",
     "addon.mod_forum.posttoforum": "Wyślij wpis na forum",
     "addon.mod_forum.posttomygroups": "Skopiuj post do wszystkich grup",
     "addon.mod_forum.privatereply": "Odpowiedz prywatnie",
