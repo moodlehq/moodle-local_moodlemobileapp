@@ -73,6 +73,7 @@
     "core.downloadfile": "Descargar archivo",
     "core.edit": "Editar",
     "core.editor.h3": "Encabezado (grande)",
+    "core.editor.h4": "Encabezado (mediano)",
     "core.error": "Error",
     "core.expand": "Expandir",
     "core.explanationdigitalminor": "Esta información es necesaria para determinar si su edad supera la edad de consentimiento digital. Esta es la edad en la que una persona puede dar su consentimiento a los términos y condiciones y a que sus datos se almacenen y procesen legalmente.",
