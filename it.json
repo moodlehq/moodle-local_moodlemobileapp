@@ -2372,6 +2372,8 @@
     "workplace.catalogue.catalogue": "Catalogo",
     "workplace.catalogue.categories": "Categorie",
     "workplace.catalogue.clearall": "Pulisci tutto",
+    "workplace.catalogue.noresultsfor": "Nessun risultato per '{{$a}}'",
+    "workplace.catalogue.trydifferentskeyword": "Provare a utilizzare parole chiave o configurazioni di filtro diverse",
     "workplace.certificationmsgactive": "La certificazione <strong>\"{{$a.fullname}}\"</strong> deve essere completata entro il <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "La certificazione <strong>\"{{$a.fullname}}\"</strong> è completata",
     "workplace.certificationmsgcompletedexpired": "La certificazione <strong>\"{{$a.fullname}}\"</strong> è completata. Scadrà il <strong>{{$a.date}}</strong>",

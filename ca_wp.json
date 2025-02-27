@@ -336,6 +336,8 @@
     "workplace.catalogue.catalogue": "Catàleg",
     "workplace.catalogue.categories": "Categories",
     "workplace.catalogue.clearall": "Esborrar tot",
+    "workplace.catalogue.noresultsfor": "No hi ha resultats per a '{{$a}}'",
+    "workplace.catalogue.trydifferentskeyword": "Prova d'utilitzar paraules clau o una configuració de filtre diferents",
     "workplace.certificationmsgactive": "La certificació <strong>«{{$a.fullname}}»</strong> ha de ser completada per <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "S'ha completat la certificació <strong>«{{$a.fullname}}»</strong>",
     "workplace.certificationmsgcompletedexpired": "S'ha completat la certificació <strong>«{{$a.fullname}}»</strong>. Acabarà el <strong>{{$a.date}}</strong>",

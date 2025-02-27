@@ -2777,6 +2777,8 @@
     "workplace.catalogue.catalogue": "カタログ",
     "workplace.catalogue.categories": "カテゴリ",
     "workplace.catalogue.clearall": "全てクリアにする",
+    "workplace.catalogue.noresultsfor": "'{{$a}}'に該当する検索結果は見つかりませんでした。",
+    "workplace.catalogue.trydifferentskeyword": "別のキーワードを試すか、フィルターの設定を変更してください。",
     "workplace.certificationmsgactive": "認証<strong>「{{$a.fullname}}」</strong>は<strong>{{$a.date}}</strong>までに完了する必要があります。",
     "workplace.certificationmsgcompleted": "認証<strong>「{{$a.fullname}}」を完了しました。",
     "workplace.certificationmsgcompletedexpired": "認証<strong>「{{$a.fullname}}」を完了しました。これは<strong>{{$a.date}}</strong>に有効期限が切れます。",

@@ -36,6 +36,8 @@
     "workplace.catalogue.catalogue": "カタログ",
     "workplace.catalogue.categories": "カテゴリ",
     "workplace.catalogue.clearall": "全てクリアにする",
+    "workplace.catalogue.noresultsfor": "'{{$a}}'に該当する検索結果は見つかりませんでした。",
+    "workplace.catalogue.trydifferentskeyword": "別のキーワードを試すか、フィルターの設定を変更してください。",
     "workplace.certificationmsgactive": "認定証 <strong>\"{{$a.fullname}}\"</strong> は期日 <strong>{{$a.date}}</strong> までに完了する必要があります",
     "workplace.certificationmsgcompleted": "認定証 <strong>\"{{$a.fullname}}\"</strong> が完了しました",
     "workplace.certificationmsgcompletedexpired": "認定証 <strong>\"{{$a.fullname}}\"</strong> が完了しました。<strong>{{$a.date}}</strong> に期限切れになります",

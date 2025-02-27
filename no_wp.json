@@ -15,6 +15,8 @@
     "workplace.catalogue.catalogue": "Katalog",
     "workplace.catalogue.categories": "Kategorier",
     "workplace.catalogue.clearall": "Tøm alle",
+    "workplace.catalogue.noresultsfor": "Ingen resultater for '{{$a}}'",
+    "workplace.catalogue.trydifferentskeyword": "Prøv å bruke andre søkeord eller filterkonfigurasjon",
     "workplace.certificationmsgactive": "Sertifisering <strong>\"{{$a.fullname}}\"</strong> må være fullført innen <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "Sertifiseringen <strong> \"{{$a.fullname}}\"</strong> er fullført",
     "workplace.certificationmsgcompletedexpired": "Sertifiseringen <strong>\"{{$a.fullname}}\"</strong> er fullført. Den utløper <strong>{{$a.date}}</strong>",

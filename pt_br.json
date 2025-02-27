@@ -2753,6 +2753,7 @@
     "workplace.catalogue.catalogue": "Catálogo",
     "workplace.catalogue.categories": "Categorias",
     "workplace.catalogue.clearall": "Limpar tudo",
+    "workplace.catalogue.noresultsfor": "Nenhum resultado para '{{$a}}'",
     "workplace.certificationmsgactive": "A certificação <strong>\"{{$a.fullname}}\"</strong> deve ser concluída até <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "A certificação <strong>\"{{$a.fullname}}\"</strong> está concluída.",
     "workplace.certificationmsgcompletedexpired": "A certificação <strong>\"{{$a.fullname}}\"</strong> está concluída. Ela vai expirar em <strong>{{$a.date}}</strong>",

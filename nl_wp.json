@@ -14,6 +14,8 @@
     "workplace.catalogue.catalogue": "Catalogus",
     "workplace.catalogue.categories": "Categorieën",
     "workplace.catalogue.clearall": "Alles leegmaken",
+    "workplace.catalogue.noresultsfor": "Geen resultaten voor '{{$a}}'",
+    "workplace.catalogue.trydifferentskeyword": "Probeer verschillende trefwoorden of filter instellingen te gebruiken",
     "workplace.certificationmsgactive": "Certificering <strong>\"{{$a.fullname}}\"</strong> moet voltooid worden voor <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "Certificering <strong>\"{{$a.fullname}}\"</strong> is voltooid",
     "workplace.certificationmsgcompletedexpired": "Certificering <strong>\"{{$a.fullname}}\"</strong> is voltooid. De certificering verloopt op <strong>{{$a.date}}</strong>",
