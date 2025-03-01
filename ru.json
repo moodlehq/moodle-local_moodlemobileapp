@@ -569,7 +569,7 @@
     "addon.mod_feedback.complete_the_form": "Ответьте на вопросы",
     "addon.mod_feedback.completed_feedbacks": "Отправлено ответов",
     "addon.mod_feedback.continue_the_form": "Продолжить ответы на вопросы...",
-    "addon.mod_feedback.feedback_is_not_open": "эта анкета обратной связи не открыта",
+    "addon.mod_feedback.feedback_is_not_open": "Эта анкета обратной связи не открыта",
     "addon.mod_feedback.feedback_submitted_offline": "Этот отзыв был сохранён, для отправки позже.",
     "addon.mod_feedback.feedbackclose": "Разрешить отвечать до",
     "addon.mod_feedback.feedbackopen": "Разрешить отвечать с",
