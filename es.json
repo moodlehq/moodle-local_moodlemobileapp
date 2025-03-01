@@ -639,7 +639,7 @@
     "addon.mod_feedback.show_entries": "Mostrar respuestas",
     "addon.mod_feedback.show_nonrespondents": "Mostrar sin respuesta",
     "addon.mod_feedback.started": "Iniciado",
-    "addon.mod_feedback.this_feedback_is_already_submitted": "Usted ya ha finalizado esta actividad.",
+    "addon.mod_feedback.this_feedback_is_already_submitted": "Usted ya ha entregado esta retroalimentación.",
     "addon.mod_folder.emptyfilelist": "No hay archivos que mostrar.",
     "addon.mod_folder.modulenameplural": "Carpetas",
     "addon.mod_forum.addanewdiscussion": "Añadir un nuevo tema de debate",

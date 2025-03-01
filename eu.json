@@ -639,7 +639,7 @@
     "addon.mod_feedback.show_entries": "Erakutsi erantzunak",
     "addon.mod_feedback.show_nonrespondents": "Erakutsi erantzun gabeak",
     "addon.mod_feedback.started": "Hasita",
-    "addon.mod_feedback.this_feedback_is_already_submitted": "Dagoeneko egina duzu jarduera hau.",
+    "addon.mod_feedback.this_feedback_is_already_submitted": "Dagoeneko inkesta hau bidali duzu.",
     "addon.mod_folder.emptyfilelist": "Ez dago fitxategirik erakusteko.",
     "addon.mod_folder.modulenameplural": "Karpetak",
     "addon.mod_forum.addanewdiscussion": "Gehitu eztabaidagaia",
