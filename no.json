@@ -638,7 +638,7 @@
     "addon.mod_feedback.show_entries": "Vis responser",
     "addon.mod_feedback.show_nonrespondents": "Vis brukere som ikke har svart",
     "addon.mod_feedback.started": "Startet",
-    "addon.mod_feedback.this_feedback_is_already_submitted": "Du har allerede fullført denne aktiviteten.",
+    "addon.mod_feedback.this_feedback_is_already_submitted": "Du har allerede besvart denne feedbacken.",
     "addon.mod_folder.emptyfilelist": "Det er ingen filer å vise.",
     "addon.mod_folder.modulenameplural": "Mapper",
     "addon.mod_forum.addanewdiscussion": "Legg til diskusjonsemne",
