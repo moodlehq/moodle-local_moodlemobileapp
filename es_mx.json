@@ -938,7 +938,7 @@
     "addon.mod_quiz.startattempt": "Iniciar intento",
     "addon.mod_quiz.startedon": "Iniciado",
     "addon.mod_quiz.stateabandoned": "Nunca enviados",
-    "addon.mod_quiz.statefinished": "Terminados",
+    "addon.mod_quiz.statefinished": "Terminado",
     "addon.mod_quiz.statefinisheddetails": "Enviado {{$a}}",
     "addon.mod_quiz.stateinprogress": "En progreso",
     "addon.mod_quiz.stateoverdue": "Vencido",
