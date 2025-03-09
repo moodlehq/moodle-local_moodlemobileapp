@@ -28,6 +28,8 @@
     "core.decsep": ".",
     "core.digitalminor": "Menor digital",
     "core.digitalminor_desc": "Por favor solicitar a su padre o tutor que contacte a:",
+    "core.editor.h3": "Encabezado (grande)",
+    "core.editor.h4": "Encabezado (mediano)",
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.login.accounts": "Cuentas",
