@@ -230,6 +230,8 @@ export type AddonBadgesGetBadgeWSResponse = {
         image: string; // URL to the image.
         description: string; // Description of the badge class.
         hostedUrl?: string; // Identifier of the open badge for this assertion.
+        courseid?: number; // Id of the course.
+        coursefullname?: string; // Full name of the course.
         alignment?: { // Alignment.
             id?: number; // Alignment id.
             badgeid?: number; // Badge id.
@@ -275,6 +277,7 @@ export type AddonBadgesGetUserBadgeByHashWSResponse = {
         expireperiod?: number; // Expire period.
         type?: number; // Type.
         courseid?: number; // Course id.
+        coursefullname?: string; // Full name of the course.
         message?: string; // Message.
         messagesubject?: string; // Message subject.
         attachment?: number; // Attachment.
@@ -358,6 +361,7 @@ export type AddonBadgesGetUserBadgesWSResponse = {
         expireperiod?: number; // Expire period.
         type?: number; // Type.
         courseid?: number; // Course id.
+        coursefullname?: string; // Full name of the course.
         message?: string; // Message.
         messagesubject?: string; // Message subject.
         attachment?: number; // Attachment.
@@ -3822,38 +3826,6 @@ export type CoreGetComponentStringsWSResponse = {
 }[];
 
 /**
- * Params of core_grades_get_enrolled_users_for_search_widget WS.
- *
- * WS Description: ** DEPRECATED ** Please do not call this function any more. Use core_grades_get_enrolled_users_for_selector instead. Returns the enrolled users within and map some fields to the returned array of user objects.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-type CoreGradesGetEnrolledUsersForSearchWidgetWSParams = {
-    courseid: number; // Course Id.
-    actionbaseurl: string; // The base URL for the user option.
-    groupid?: number; // Group Id.
-};
-
-/**
- * Data returned by core_grades_get_enrolled_users_for_search_widget WS.
- *
- * WS Description: ** DEPRECATED ** Please do not call this function any more. Use core_grades_get_enrolled_users_for_selector instead. Returns the enrolled users within and map some fields to the returned array of user objects.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-export type CoreGradesGetEnrolledUsersForSearchWidgetWSResponse = {
-    users: {
-        id: number; // ID of the user.
-        profileimage?: string; // The location of the users larger image.
-        url?: string; // The link to the user report.
-        fullname?: string; // The full name of the user.
-        email?: string; // An email address - allow email as root@localhost.
-        active: boolean; // Are we currently on this item?.
-    }[];
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
  * Params of core_grades_get_enrolled_users_for_selector WS.
  *
  * WS Description: Returns the enrolled users within and map some fields to the returned array of user objects.
@@ -3997,30 +3969,6 @@ export type CoreGradesGetGradeitemsWSResponse = {
         id: string; // An ID for the grade item.
         itemname: string; // The full name of the grade item.
         category?: string; // The grade category of the grade item.
-    }[];
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of core_grades_get_groups_for_search_widget WS.
- *
- * WS Description: ** DEPRECATED ** Please do not call this function any more. Use core_group_get_groups_for_selector instead. Get the group/(s) for a course
- */
-type CoreGradesGetGroupsForSearchWidgetWSParams = {
-    courseid: number; // Course Id.
-    cmid?: number; // Course module Id.
-};
-
-/**
- * Data returned by core_grades_get_groups_for_search_widget WS.
- *
- * WS Description: ** DEPRECATED ** Please do not call this function any more. Use core_group_get_groups_for_selector instead. Get the group/(s) for a course
- */
-export type CoreGradesGetGroupsForSearchWidgetWSResponse = {
-    groups: {
-        id: string; // An ID for the group.
-        name: string; // The full name of the group.
-        groupimageurl?: string; // Group image URL.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -8979,6 +8927,7 @@ export type AddonModChoiceGetChoiceOptionsWSResponse = {
  */
 type AddonModChoiceGetChoiceResultsWSParams = {
     choiceid: number; // Choice instance id.
+    groupid?: number; // Group ID. 0 for all participants, empty for active group.
 };
 
 /**
@@ -15958,52 +15907,6 @@ type AddonReportInsightsActionExecutedWSParams = {
  * WS Description: Stores an action executed over a group of predictions.
  */
 export type AddonReportInsightsActionExecutedWSResponse = {
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of report_insights_set_fixed_prediction WS.
- *
- * WS Description: Flags a prediction as fixed.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-type AddonReportInsightsSetFixedPredictionWSParams = {
-    predictionid: number; // The prediction id.
-};
-
-/**
- * Data returned by report_insights_set_fixed_prediction WS.
- *
- * WS Description: Flags a prediction as fixed.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-export type AddonReportInsightsSetFixedPredictionWSResponse = {
-    success: boolean; // True if the prediction was successfully flagged as fixed.
-    warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of report_insights_set_notuseful_prediction WS.
- *
- * WS Description: Flags the prediction as not useful.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-type AddonReportInsightsSetNotusefulPredictionWSParams = {
-    predictionid: number; // The prediction id.
-};
-
-/**
- * Data returned by report_insights_set_notuseful_prediction WS.
- *
- * WS Description: Flags the prediction as not useful.
- *
- * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
- */
-export type AddonReportInsightsSetNotusefulPredictionWSResponse = {
-    success: boolean; // True if the prediction was successfully flagged as not useful.
     warnings?: CoreWSExternalWarning[];
 };
 
