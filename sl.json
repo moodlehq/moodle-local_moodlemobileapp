@@ -908,7 +908,7 @@
     "addon.mod_resource.modifieddate": "Spremenjeno {{$a}}",
     "addon.mod_resource.modulenameplural": "Datoteke",
     "addon.mod_resource.openthefile": "Odpri datoteko",
-    "addon.mod_resource.uploadeddate": "Uploaded {{$a}}",
+    "addon.mod_resource.uploadeddate": "Naloženo {{$a}}",
     "addon.mod_scorm.asset": "Element SCORM",
     "addon.mod_scorm.assetlaunched": "Element SCORM - pogledan",
     "addon.mod_scorm.attempts": "Poskusi",
