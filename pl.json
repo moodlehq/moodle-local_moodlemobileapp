@@ -1898,6 +1898,7 @@
     "core.h5p.changeplaceholder": "Zdjęcie przycięte, tekst zmieniony, itp.",
     "core.h5p.city": "Miasto",
     "core.h5p.close": "Zamknij",
+    "core.h5p.confirmCrop": "Potwierdź przycięcie",
     "core.h5p.confirmdialogbody": "Potwierdź, że chcesz kontynuować. Nie można cofnąć tego działania.",
     "core.h5p.confirmdialogheader": "Potwierdź działanie",
     "core.h5p.confirmlabel": "Potwierdź",
