@@ -1007,7 +1007,7 @@
     "addon.mod_scorm.score": "Puntuazioa",
     "addon.mod_scorm.scormstatusnotdownloaded": "SCORM pakete hau ez dago aurretik jaitsita. Automatikoki jaitsiko da irekitzen duzunean.",
     "addon.mod_scorm.scormstatusoutdated": "SCORM pakete hau eguneratua izan da azkenekoz jaitsi zenuenetik. Automatikoki jaitsiko da irekitzen duzunean.",
-    "addon.mod_scorm.suspended": "Etenda",
+    "addon.mod_scorm.suspended": "Bertan behera utzita",
     "addon.mod_scorm.toc": "TOC",
     "addon.mod_scorm.warningofflinedatadeleted": "{{number}}. saiakeraren lineaz kanpoko datu batzuk ezabatu dira ezin izan direlako saiakera berri gisa hartu.",
     "addon.mod_scorm.warningsynconlineincomplete": "Saiakera batzuk ezin izan dira gunearekin sinkronizatu azken online saiakera ez delako oraindik bukatu. Mesedez, bukatu online saiakera aurretik.",
