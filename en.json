@@ -1687,7 +1687,7 @@
     "core.courses.notenrollable": "You cannot enrol yourself in this course.",
     "core.courses.otherenrolments": "Other enrolments",
     "core.courses.password": "Enrolment key",
-    "core.courses.paymentrequired": "This course requires a payment for entry.",
+    "core.courses.paymentrequired": "This course requires a payment for entry",
     "core.courses.refreshcourses": "Refresh courses",
     "core.courses.reload": "Reload",
     "core.courses.removefromfavourites": "Unstar this course",

@@ -1687,7 +1687,7 @@
     "core.courses.notenrollable": "لا يمكنك الانضمام إلى هذا المساق.",
     "core.courses.otherenrolments": "الانضمامات الأخرى",
     "core.courses.password": "مفتاح الانضمام",
-    "core.courses.paymentrequired": "هذا المقرر غير مجاني ، لذا يجب دفع القيمة للدخول.",
+    "core.courses.paymentrequired": "هذا المساق يتطلب دفع تكلفة لدخوله",
     "core.courses.refreshcourses": "تنشيط المقررات",
     "core.courses.reload": "إعادة التحميل",
     "core.courses.removefromfavourites": "إرفع النجمة من هذا المساق",
