@@ -1686,7 +1686,7 @@
     "core.courses.notenrollable": "Ne možete sami da se upišete na ovaj kurs.",
     "core.courses.otherenrolments": "Ostali upisi",
     "core.courses.password": "Pristupna lozinka kursa",
-    "core.courses.paymentrequired": "Ovaj kurs nije besplatan.",
+    "core.courses.paymentrequired": "Ovaj kurs zahteva uplatu za upis",
     "core.courses.refreshcourses": "Osvežite kurseve",
     "core.courses.reload": "Učitaj ponovo",
     "core.courses.removefromfavourites": "Ukloni zvezdicu sa ovog kursa",

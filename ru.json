@@ -1545,7 +1545,7 @@
     "core.courses.notenroled": "Вы не записаны на этот курс",
     "core.courses.notenrollable": "Вы не можете самостоятельно записаться на этот курс.",
     "core.courses.password": "Кодовое слово",
-    "core.courses.paymentrequired": "Для регистрации на этом курсе требуется оплата",
+    "core.courses.paymentrequired": "Для зачисления на этот курс требуется оплата",
     "core.courses.reload": "Обновить",
     "core.courses.removefromfavourites": "Снять пометку с этого курса",
     "core.courses.search": "Найти",
