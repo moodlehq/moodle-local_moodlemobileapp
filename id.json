@@ -2777,6 +2777,8 @@
     "workplace.catalogue.catalogue": "Katalog",
     "workplace.catalogue.categories": "Kategori",
     "workplace.catalogue.clearall": "Hapus semua",
+    "workplace.catalogue.noresultsfor": "Tidak ada hasil untuk '{{$a}}'",
+    "workplace.catalogue.trydifferentskeyword": "Coba gunakan kata kunci atau konfigurasi filter yang berbeda",
     "workplace.certificationmsgactive": "Sertifikasi <strong>\"{{$a.fullname}}\"</strong> harus diselesaikan pada <strong>{{$a.date}}</strong>",
     "workplace.certificationmsgcompleted": "Sertifikasi <strong>\"{{$a.fullname}}\"</strong> selesai",
     "workplace.certificationmsgcompletedexpired": "Sertifikasi <strong>\"{{$a.fullname}}\"</strong> selesai. Masa berlakunya akan habis pada\n<strong>{{$a.date</strong>",
