@@ -5888,6 +5888,16 @@ export type CoreReportbuilderListReportsWSResponse = {
             flag: number; // Whether the tag is flagged as inappropriate.
             viewurl?: string; // The url to view the tag.
         }[];
+        customfields: {
+            data: { // Data.
+                value: string; // Value.
+                type: string; // Type.
+                shortname: string; // Shortname.
+                name: string; // Name.
+                hasvalue: boolean; // Hasvalue.
+                instanceid: number; // Instanceid.
+            }[];
+        };
         modifiedby: {
             id: number; // Id.
             email: string; // Email.
@@ -5953,6 +5963,16 @@ export type CoreReportbuilderRetrieveReportWSResponse = {
             flag: number; // Whether the tag is flagged as inappropriate.
             viewurl?: string; // The url to view the tag.
         }[];
+        customfields: {
+            data: { // Data.
+                value: string; // Value.
+                type: string; // Type.
+                shortname: string; // Shortname.
+                name: string; // Name.
+                hasvalue: boolean; // Hasvalue.
+                instanceid: number; // Instanceid.
+            }[];
+        };
         modifiedby: {
             id: number; // Id.
             email: string; // Email.
