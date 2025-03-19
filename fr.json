@@ -1687,7 +1687,7 @@
     "core.courses.notenrollable": "Vous ne pouvez pas vous inscrire vous-même à ce cours.",
     "core.courses.otherenrolments": "Toutes les inscriptions",
     "core.courses.password": "Clef d’inscription",
-    "core.courses.paymentrequired": "Un paiement est requis pour accéder à ce cours.",
+    "core.courses.paymentrequired": "Un paiement est requis pour accéder à ce cours",
     "core.courses.refreshcourses": "Actualiser les cours",
     "core.courses.reload": "Actualiser",
     "core.courses.removefromfavourites": "Retirer ce cours des favoris",
