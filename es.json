@@ -800,7 +800,7 @@
     "addon.mod_lesson.detailedstats": "Estadísticas detalladas",
     "addon.mod_lesson.didnotanswerquestion": "No ha contestado a esta pregunta.",
     "addon.mod_lesson.displayofgrade": "Mostrar calificación (sólo para estudiantes)",
-    "addon.mod_lesson.displayscorewithessays": "<p>Usted ha obtenido un total de {{$a.score}} sobre {{$a.tempmaxgrade}} en las preguntas calificadas de manera automática.<p>\n<p>Sus {{$a.essayquestions}} pregunta(s) de ensayo se calificarán  se añadirán a su calificación final.<p>\n<p>Su calificación actual sin incluir  las pregunta(s) ensayo es de {{$a.score}} sobre {{$a.grade}}.<p>",
+    "addon.mod_lesson.displayscorewithessays": "<p>Usted ha obtenido un total de {{$a.score}} sobre {{$a.tempmaxgrade}} en las preguntas calificadas de manera automática.<p>\n<p>Sus {{$a.essayquestions}} pregunta(s) de ensayo se calificarán y se añadirán a su calificación final posteriormente.<p>\n<p>Su calificación actual, sin incluir  las pregunta(s) ensayo, es de {{$a.score}} sobre {{$a.grade}}.<p>",
     "addon.mod_lesson.displayscorewithoutessays": "Su puntuación es {{$a.score}} (sobre {{$a.grade}}).",
     "addon.mod_lesson.emptypassword": "La contraseña no puede estar vacía",
     "addon.mod_lesson.enterpassword": "Por favor, escriba la contraseña:",
