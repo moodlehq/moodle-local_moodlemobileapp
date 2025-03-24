@@ -7039,6 +7039,39 @@ type CoreXapiStatementPostWSParams = {
 export type CoreXapiStatementPostWSResponse = boolean[];
 
 /**
+ * Params of editor_tiny_get_configuration WS.
+ *
+ * WS Description: Returns the TinyMCE configuration for a context.
+ */
+type EditorTinyGetConfigurationWSParams = {
+    contextlevel: string; // Context level: system, user, coursecat, course, module or block.
+    instanceid: number; // Instance ID of the context (e.g. course ID).
+};
+
+/**
+ * Data returned by editor_tiny_get_configuration WS.
+ *
+ * WS Description: Returns the TinyMCE configuration for a context.
+ */
+export type EditorTinyGetConfigurationWSResponse = {
+    contextid: number; // Context id.
+    branding: boolean; // Display the TinyMCE logo.
+    extendedvalidelements: string; // Extended valid elements.
+    installedlanguages: { // List of installed languages.
+        lang: string; // Language code.
+        name: string; // Language name.
+    }[];
+    plugins: { // Configuration of enabled plugins for the context.
+        name: string; // Name of the plugin.
+        settings: { // Settings of the plugin.
+            name: string; // Name of the setting.
+            value: string; // Value of the setting.
+        }[];
+    }[];
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of enrol_guest_get_instance_info WS.
  *
  * WS Description: Return guest enrolment instance information.
@@ -7638,6 +7671,7 @@ export type AddonModAssignGetAssignmentsWSResponse = {
             duedate: number; // Assignment due date.
             allowsubmissionsfromdate: number; // Allow submissions from date.
             grade: number; // Grade type.
+            gradepenalty: number; // If enabled, penalty will be applied to late submissions.
             timemodified: number; // Last time assignment was modified.
             completionsubmit: number; // If enabled, set activity as complete following submission.
             cutoffdate: number; // Date after which submission is not accepted without an extension.
@@ -15928,6 +15962,24 @@ type AddonReportInsightsActionExecutedWSParams = {
  */
 export type AddonReportInsightsActionExecutedWSResponse = {
     warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of tiny_premium_get_api_key WS.
+ *
+ * WS Description: Get the Tiny Premium API key from Moodle
+ */
+type TinyPremiumGetApiKeyWSParams = {
+    contextid: number; // The current context ID.
+};
+
+/**
+ * Data returned by tiny_premium_get_api_key WS.
+ *
+ * WS Description: Get the Tiny Premium API key from Moodle
+ */
+export type TinyPremiumGetApiKeyWSResponse = {
+    apikey: string; // The API key for Tiny Premium.
 };
 
 /**
