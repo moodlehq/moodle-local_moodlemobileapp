@@ -2104,7 +2104,7 @@
     "core.login.recaptchaincorrect": "Felaktigt svar på säkerhetsfrågan.",
     "core.login.reconnect": "Återanslut",
     "core.login.removeaccount": "Ta bort konto",
-    "core.login.resendemail": "Skicka om e-postmeddelande.",
+    "core.login.resendemail": "Skicka bekräftelsemail igen",
     "core.login.searchby": "Sök via:",
     "core.login.security_question": "Säkerhetsfråga",
     "core.login.selectacountry": "Välj ett land",
