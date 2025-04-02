@@ -1695,7 +1695,7 @@
     "core.currentdevice": "Aktuelle enhed",
     "core.custom": "Brugerdefineret",
     "core.dataprivacy.cancelrequest": "Annuller forespørgsel",
-    "core.dataprivacy.cancelrequestconfirmation": "Vil du virkelig annullere denne forespørgsel?",
+    "core.dataprivacy.cancelrequestconfirmation": "Ønsker du at annullere denne dataanmodning?",
     "core.dataprivacy.contactdataprotectionofficer": "Kontakt vores privatlivsassistent",
     "core.dataprivacy.createnewdatarequest": "Opret en ny henvendelse om persondata",
     "core.dataprivacy.datarequests": "Henvendelser om data",
