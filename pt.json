@@ -938,7 +938,7 @@
     "addon.mod_quiz.startattempt": "Iniciar tentativa",
     "addon.mod_quiz.startedon": "Iniciada",
     "addon.mod_quiz.stateabandoned": "Nunca submetidas",
-    "addon.mod_quiz.statefinished": "Terminada",
+    "addon.mod_quiz.statefinished": "Terminadas",
     "addon.mod_quiz.statefinisheddetails": "Submetida: {{$a}}",
     "addon.mod_quiz.stateinprogress": "Em progresso",
     "addon.mod_quiz.stateoverdue": "Tempo limite ultrapassado",
