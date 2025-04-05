@@ -2326,7 +2326,7 @@
     "core.policy.consentpagetitle": "Souhlas",
     "core.policy.contactdpo": "Pokud máte otázky týkající se zásad, obraťte se na Správce pro ochranu osobních údajů.",
     "core.policy.havereadandagreepolicy": "Přečetl jsem si {{policyname}} a souhlasím s nimi",
-    "core.policy.idontagree": "Ne, díky, odmítám {{$a}}",
+    "core.policy.idontagree": "Ne, díky, odmítám {{$a}}.",
     "core.policy.mustagreetocontinue": "Než budete pokračovat, musíte potvrdit všechny tyto zásady.",
     "core.policy.nopoliciesyet": "Zatím žádné zásady a dohody.",
     "core.policy.policiesagreements": "Zásady a souhlasy",
