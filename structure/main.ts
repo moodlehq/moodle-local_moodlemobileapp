@@ -14104,6 +14104,7 @@ export type AddonModQuizGetQuizzesByCoursesWSResponse = {
         autosaveperiod?: number; // Auto-save delay.
         hasfeedback?: number; // Whether the quiz has any non-blank feedback text.
         hasquestions?: number; // Whether the quiz has questions.
+        precreateattempts?: number; // Whether attempt pre-creation is enabled.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -14111,7 +14112,9 @@ export type AddonModQuizGetQuizzesByCoursesWSResponse = {
 /**
  * Params of mod_quiz_get_user_attempts WS.
  *
- * WS Description: Return a list of attempts for the given quiz and user.
+ * WS Description: Return a list of attempts for the given quiz and user. (Deprecated in favour of mod_quiz_get_user_quiz_attempts).
+ *
+ * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
  */
 type AddonModQuizGetUserAttemptsWSParams = {
     quizid: number; // Quiz instance id.
@@ -14123,7 +14126,9 @@ type AddonModQuizGetUserAttemptsWSParams = {
 /**
  * Data returned by mod_quiz_get_user_attempts WS.
  *
- * WS Description: Return a list of attempts for the given quiz and user.
+ * WS Description: Return a list of attempts for the given quiz and user. (Deprecated in favour of mod_quiz_get_user_quiz_attempts).
+ *
+ * @deprecatedonmoodle since ADDVERSIONHERE. This WS method is deprecated
  */
 export type AddonModQuizGetUserAttemptsWSResponse = {
     attempts: {
@@ -14139,7 +14144,7 @@ export type AddonModQuizGetUserAttemptsWSResponse = {
         currentpage?: number; // Attempt current page.
         preview?: number; // Whether is a preview attempt or not.
         state?: string; // The current state of the attempts. 'inprogress',
-                                             // 'overdue', 'finished' or 'abandoned'.
+                                             // 'overdue', 'finished' or 'abandoned'. For backwards compatibility, attempts in 'submitted' state will return 'finished' and attempts in 'notstarted' state will return 'inprogress'. To get attempts with all real states, call get_user_quiz_attempts() instead.
 
         timestart?: number; // Time when the attempt was started.
         timefinish?: number; // Time when the attempt was submitted.
@@ -14180,6 +14185,59 @@ export type AddonModQuizGetUserBestGradeWSResponse = {
     hasgrade: boolean; // Whether the user has a grade on the given quiz.
     grade?: number; // The grade (only if the user has a grade).
     gradetopass?: number; // The grade to pass the quiz (only if set).
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
+ * Params of mod_quiz_get_user_quiz_attempts WS.
+ *
+ * WS Description: Return a list of attempts for the given quiz and user.
+ */
+type AddonModQuizGetUserQuizAttemptsWSParams = {
+    quizid: number; // Quiz instance id.
+    userid?: number; // User id, empty for current user.
+    status?: string; // Quiz status: all, finished or unfinished.
+    includepreviews?: boolean; // Whether to include previews or not.
+};
+
+/**
+ * Data returned by mod_quiz_get_user_quiz_attempts WS.
+ *
+ * WS Description: Return a list of attempts for the given quiz and user.
+ */
+export type AddonModQuizGetUserQuizAttemptsWSResponse = {
+    attempts: {
+        id?: number; // Attempt id.
+        quiz?: number; // Foreign key reference to the quiz that was attempted.
+        userid?: number; // Foreign key reference to the user whose attempt this is.
+        attempt?: number; // Sequentially numbers this students attempts at this quiz.
+        uniqueid?: number; // Foreign key reference to the question_usage that holds the
+                                                 // details of the the question_attempts that make up this quiz
+                                                 // attempt.
+
+        layout?: string; // Attempt layout.
+        currentpage?: number; // Attempt current page.
+        preview?: number; // Whether is a preview attempt or not.
+        state?: string; // The current state of the attempts. 'inprogress',
+                                             // 'overdue', 'finished' or 'abandoned'.
+
+        timestart?: number; // Time when the attempt was started.
+        timefinish?: number; // Time when the attempt was submitted.
+                                                 // 0 if the attempt has not been submitted yet.
+
+        timemodified?: number; // Last modified time.
+        timemodifiedoffline?: number; // Last modified time via webservices.
+        timecheckstate?: number; // Next time quiz cron should check attempt for
+                                                     // state changes.  NULL means never check.
+
+        sumgrades?: number; // Total marks for this attempt.
+        gradeitemmarks?: { // If the quiz has additional grades set up, the mark for each grade for this attempt.
+            name: string; // The name of this grade item.
+            grade: number; // The grade this attempt earned for this item.
+            maxgrade: number; // The total this grade is out of.
+        }[];
+        gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
+    }[];
     warnings?: CoreWSExternalWarning[];
 };
 
