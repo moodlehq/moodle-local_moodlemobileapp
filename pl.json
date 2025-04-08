@@ -2171,7 +2171,7 @@
     "core.login.toggleremove": "Edytuj listę kont",
     "core.login.username": "Nazwa użytkownika",
     "core.login.usernamelowercase": "Dopuszczalne tylko małe litery",
-    "core.login.usernameoremail": "Wpisz nazwę użytkownika lub adres e-mail",
+    "core.login.usernameoremail": "Wpisz nazwę użytkownika LUB adres e-mail",
     "core.login.usernamerequired": "Nazwa użytkownika jest wymagana",
     "core.login.usernotaddederror": "Błąd - użytkownik nie został dodany.",
     "core.login.visitchangepassword": "Czy chcesz przejść na stronę do zmiany hasła?",
