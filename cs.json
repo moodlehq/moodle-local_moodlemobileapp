@@ -2307,7 +2307,7 @@
     "core.policy.acceptancestatusdeclined": "Odmítnuto",
     "core.policy.acceptancestatusdeclinedbehalf": "Odmítnuto jménem uživatele",
     "core.policy.acceptancestatuspending": "Čekající",
-    "core.policy.agreepolicies": "Potvrďte prosím souhlas s následujícími zásadami",
+    "core.policy.agreepolicies": "Potvrďte prosím souhlas s následujícími zásadami:",
     "core.policy.backtotop": "Zpět na začátek",
     "core.policy.consentpagetitle": "Souhlas",
     "core.policy.contactdpo": "Pokud máte otázky týkající se zásad, obraťte se na Správce pro ochranu osobních údajů.",
