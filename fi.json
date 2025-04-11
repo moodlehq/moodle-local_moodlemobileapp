@@ -2230,6 +2230,7 @@
     "core.user.roles": "Roolit",
     "core.user.sendemail": "Sähköposti",
     "core.user.student": "Opiskelija",
+    "core.user.supportmessagesent": "Viestisi on lähetetty.",
     "core.user.teacher": "Opettaja ilman muokkausoikeutta",
     "core.user.useraccount": "Käyttäjätunnus",
     "core.user.webpage": "Verkkosivu",
