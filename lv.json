@@ -1773,6 +1773,7 @@
     "core.fileuploader.addfiletext": "Pievienot failu",
     "core.fileuploader.attachedfiles": "Pievienotie faili",
     "core.fileuploader.audio": "Audio",
+    "core.fileuploader.audiotitle": "Ierakstīt audio",
     "core.fileuploader.camera": "Kamera",
     "core.fileuploader.confirmuploadfile": "Jūs gatavojaties augšupielādēt {{size}}. Vai tiešām vēlaties turpināt?",
     "core.fileuploader.confirmuploadunknownsize": "Nav iespējams aprēķināt augšupielādes lielumu. Vai tiešām vēlaties turpināt?",

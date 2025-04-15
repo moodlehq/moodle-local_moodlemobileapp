@@ -78,7 +78,7 @@
     "addon.block_timeline.next3months": "الأشهر الثلاثة القادمة",
     "addon.block_timeline.next6months": "الأشهر الستة القادمة",
     "addon.block_timeline.next7days": "الأيام السبعة القادمة",
-    "addon.block_timeline.nocoursesinprogress": "لا سياقات مستمرة حالياً",
+    "addon.block_timeline.nocoursesinprogress": "لا توجد مقررات قيد التقدم",
     "addon.block_timeline.noevents": "لا نشاطات تتطلب إجراءات",
     "addon.block_timeline.overdue": "المتأخرة",
     "addon.block_timeline.pluginname": "المخطط الزمني",
