@@ -414,7 +414,7 @@
     "addon.mod_assign.nosubmission": "この課題に関して提出されているものはありません。",
     "addon.mod_assign.notallparticipantsareshown": "提出物のない参加者は表示されていません",
     "addon.mod_assign.noteam": "どのグループのメンバでもない",
-    "addon.mod_assign.noteam_desc": "この課題はグループで提出する必要があります。あなたはどのグループにも属していないため提出を作成することはできません。グループに追加されるにはあなたの教師にご連絡ください。",
+    "addon.mod_assign.noteam_desc": "この課題はグループで提出する必要があります。あなたはどのグループにも属していないため提出を作成できません。グループに追加されるにはあなたの先生にご連絡ください。",
     "addon.mod_assign.notgraded": "未評定",
     "addon.mod_assign.numberofdraftsubmissions": "下書き",
     "addon.mod_assign.numberofdraftsubmissionscountdescription": "{{count}} 件の下書きがあります。",
