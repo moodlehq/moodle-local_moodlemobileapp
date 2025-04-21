@@ -9644,8 +9644,10 @@ export type AddonModFeedbackGetAnalysisWSResponse = {
             feedback: number; // The feedback instance id this records belongs to.
             template: number; // If it belogns to a template, the template id.
             name: string; // The item name.
+            nameformat?: number; // Name format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             label: string; // The item label.
             presentation: string; // The text describing the item or the available possible answers.
+            presentationformat?: number; // Presentation format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             typ: string; // The type of the item.
             hasvalue: number; // Whether it has a value or not.
             position: number; // The position in the list of questions.
@@ -9851,8 +9853,10 @@ export type AddonModFeedbackGetItemsWSResponse = {
         feedback: number; // The feedback instance id this records belongs to.
         template: number; // If it belogns to a template, the template id.
         name: string; // The item name.
+        nameformat?: number; // Name format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         label: string; // The item label.
         presentation: string; // The text describing the item or the available possible answers.
+        presentationformat?: number; // Presentation format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         typ: string; // The type of the item.
         hasvalue: number; // Whether it has a value or not.
         position: number; // The position in the list of questions.
@@ -9967,8 +9971,10 @@ export type AddonModFeedbackGetPageItemsWSResponse = {
         feedback: number; // The feedback instance id this records belongs to.
         template: number; // If it belogns to a template, the template id.
         name: string; // The item name.
+        nameformat?: number; // Name format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         label: string; // The item label.
         presentation: string; // The text describing the item or the available possible answers.
+        presentationformat?: number; // Presentation format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         typ: string; // The type of the item.
         hasvalue: number; // Whether it has a value or not.
         position: number; // The position in the list of questions.
