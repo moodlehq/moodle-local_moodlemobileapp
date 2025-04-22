@@ -609,7 +609,7 @@
     "addon.mod_forum.addanewdiscussion": "新增一個討論主題",
     "addon.mod_forum.addanewquestion": "新增一個問題",
     "addon.mod_forum.addanewtopic": "新增一個主題",
-    "addon.mod_forum.addtofavourites": "開始討論",
+    "addon.mod_forum.addtofavourites": "將討論標記星號",
     "addon.mod_forum.advanced": "進階",
     "addon.mod_forum.cannotadddiscussion": "必須是群組成員才能在此討論區添加議題",
     "addon.mod_forum.cannotadddiscussionall": "您沒有權限添加新議題給所有參與者",
