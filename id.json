@@ -2852,7 +2852,7 @@
     "workplace.progress": "{{$a}}% selesai",
     "workplace.progresscompleted": "{{$a.completed}} dari {{$a.total}} yang telah selesai",
     "workplace.recentlyaccessedcourses": "Kursus yang baru diakses",
-    "workplace.review": "Reviu",
+    "workplace.review": "Tinjau",
     "workplace.roleincontext": "{{$a.role}} pada {{$a.context}}",
     "workplace.seecontent": "Lihat konten",
     "workplace.setsandcoursesnotfound": "Tidak ada set atau kursus yang ditemukan",
