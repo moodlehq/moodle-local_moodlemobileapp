@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        moodle_branch: ['main', 'MOODLE_405_STABLE', 'MOODLE_404_STABLE', 'MOODLE_403_STABLE']
+        moodle_branch: ['main', 'MOODLE_500_STABLE', 'MOODLE_405_STABLE', 'MOODLE_404_STABLE']
     env:
       dbtype: pgsql
       php: 8.2
