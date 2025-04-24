@@ -1526,7 +1526,7 @@
     "core.courses.notenroled": "Et ole ilmoittautuneena kurssille",
     "core.courses.notenrollable": "Et voi itserekisteröityä tälle kursille.",
     "core.courses.password": "Kurssiavain",
-    "core.courses.paymentrequired": "Tämä kurssi vaatii osallistumismaksun.",
+    "core.courses.paymentrequired": "Tämä kurssi vaatii osallistumismaksun",
     "core.courses.reload": "Lataa uudelleen",
     "core.courses.removefromfavourites": "Poista suosikeista",
     "core.courses.search": "Hae",
