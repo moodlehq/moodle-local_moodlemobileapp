@@ -531,6 +531,7 @@
     "core.grades.badgrade": "Nota fornite es invalide",
     "core.grades.calculatedgrade": "Nota calculate",
     "core.grades.category": "Categoria",
+    "core.grades.contributiontocoursetotal": "Contribution de total de curso",
     "core.group": "Gruppo",
     "core.groupsseparate": "Gruppos separate",
     "core.groupsvisible": "Gruppos visibile",
