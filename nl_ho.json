@@ -16,6 +16,7 @@
     "addon.mod_lesson.modattemptsnoteacher": "Nalezen werkt alleen voor studenten",
     "addon.mod_workshop.givengrades": "Gegeven beoordelingen",
     "addon.mod_workshop.receivedgrades": "Behaalde beoordelingen",
+    "addon.mod_workshop.yourgrades": "Jouw beoordelingen",
     "core.course.studentsmust": "Studenten moeten",
     "core.decsep": ",",
     "core.grades.grades": "Beoordelingen",
@@ -25,5 +26,6 @@
     "core.parentlanguage": "nl",
     "core.teachers": "Docenten",
     "core.user.editingteacher": "Docent",
+    "core.user.student": "Student",
     "core.user.teacher": "Docent zonder bewerken"
 }
