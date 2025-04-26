@@ -532,7 +532,7 @@
     "addon.mod_choice.numberofuserinpercentage": "Prozent der Antworten",
     "addon.mod_choice.previewing": "Diese Vorschau zeigt die verfügbaren Optionen für die Aktivität. Sie können Ihre Auswahl einreichen, sobald die Aktivität öffnet.",
     "addon.mod_choice.publishinfoanonafter": "Ergebnisse werden nach Ihrer Antwort ohne Namensnennung veröffentlicht.",
-    "addon.mod_choice.publishinfoanonclose": "Ergebnisse werden ohne Namensnennung nach Abschluss der Aktivität veröffentlicht.",
+    "addon.mod_choice.publishinfoanonclose": "Ergebnisse werden nach Abschluss der Aktivität ohne Namensnennung veröffentlicht.",
     "addon.mod_choice.publishinfofullafter": "Ergebnisse werden nach Ihrer Antwort vollständig mit Namensnennung veröffentlicht.",
     "addon.mod_choice.publishinfofullclose": "Ergebnisse werden nach Abschluss der Aktivität vollständig mit Namensnennung veröffentlicht.",
     "addon.mod_choice.publishinfonever": "Die Ergebnisse werden nach Ihrer Antwort nicht veröffentlicht.",
