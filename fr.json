@@ -314,7 +314,7 @@
     "addon.messages.nousersfound": "Aucun utilisateur trouvé",
     "addon.messages.numparticipants": "{{$a}} participants",
     "addon.messages.pendingcontactrequests": "Il y a {{$a}} demandes de contact en attente",
-    "addon.messages.removecontact": "Supprimer ce contact",
+    "addon.messages.removecontact": "Retirer ce contact",
     "addon.messages.removecontactconfirm": "Voulez-vous vraiment retirer {{$a}} de vos contacts ?",
     "addon.messages.removefromfavourites": "Retirer la conversation des favoris",
     "addon.messages.removefromyourcontacts": "Retirer des contacts",
