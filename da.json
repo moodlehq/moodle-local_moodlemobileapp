@@ -1681,7 +1681,7 @@
     "core.courses.notenrollable": "Du kan ikke selv tilmelde dig dette kursus.",
     "core.courses.otherenrolments": "Andre tilmeldinger",
     "core.courses.password": "Tilmeldingsnøgle",
-    "core.courses.paymentrequired": "Dette kursus kræver betaling for tilmelding.",
+    "core.courses.paymentrequired": "Dette kursus kræver betaling for adgang.",
     "core.courses.refreshcourses": "Genindlæs kurser",
     "core.courses.reload": "Genindlæs",
     "core.courses.removefromfavourites": "Fjern stjerne",
