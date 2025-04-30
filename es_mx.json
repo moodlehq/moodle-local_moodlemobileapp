@@ -2819,6 +2819,8 @@
     "workplace.orgstructure": "Estructura de organización",
     "workplace.overdue": "Retrasado",
     "workplace.pluginname": "Vista general del programa",
+    "workplace.proceedtocourse": "Avanzar al contenido del curso",
+    "workplace.proceedtoprogram": "Avanzar al contenido del programa",
     "workplace.program": "Programa",
     "workplace.programhelptext": "<ul><li>Los programas pueden contener diferentes cursos</li><li>Complete los cursos para completar el programa</li></ul>",
     "workplace.programhelptitle": "¿Qué es un programa?",
