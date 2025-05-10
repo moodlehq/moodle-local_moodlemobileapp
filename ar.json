@@ -2326,7 +2326,7 @@
     "core.policy.consentpagetitle": "الموافقة",
     "core.policy.contactdpo": "لأي أسئلة عن السياسات، يرجى الاتصال بمسؤول الخصوصية.",
     "core.policy.havereadandagreepolicy": "لقد قرأت {{policyname}} ووافقت عليها",
-    "core.policy.idontagree": "لا شكرا ، أنا أرفض {{$a}}",
+    "core.policy.idontagree": "لا أوافق على {{$a}}.",
     "core.policy.mustagreetocontinue": "قبل المتابعة تحتاج إلى الاعتراف بكل هذه السياسات.",
     "core.policy.nopoliciesyet": "لا سياسات أو اتفاقيات بعد.",
     "core.policy.policiesagreements": "السياسات والاتفاقيات",
