@@ -1,5 +1,6 @@
 {
     "addon.badges.alignment": "Uskladitev",
+    "addon.badges.awardedto": "Podeljeno {{$a}}",
     "addon.badges.badgedetails": "Podrobnosti značke",
     "addon.badges.badges": "Značke",
     "addon.badges.bendorsement": "Priporočilo",
@@ -1687,6 +1688,7 @@
     "core.fileuploader.addfiletext": "Dodaj datoteko",
     "core.fileuploader.attachedfiles": "Pripete datoteke",
     "core.fileuploader.audio": "Zvok",
+    "core.fileuploader.audiotitle": "Posnemi zvok",
     "core.fileuploader.camera": "Kamera",
     "core.fileuploader.confirmuploadfile": "Naložili boste {{size}}. Ali ste prepričani, da želite nadaljevati?",
     "core.fileuploader.confirmuploadunknownsize": "Velikosti prenosa ni bilo mogoče določiti. Ali ste prepričani, da želite nadaljevati?",
