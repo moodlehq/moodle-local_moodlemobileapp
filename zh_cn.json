@@ -1056,7 +1056,7 @@
     "addon.mod_workshop.gradinggradecalculated": "计算评价成绩",
     "addon.mod_workshop.gradinggradeof": "评价({{$a}})的成绩",
     "addon.mod_workshop.gradinggradeover": "覆盖评价成绩",
-    "addon.mod_workshop.modulenameplural": "互动评价",
+    "addon.mod_workshop.modulenameplural": "互评",
     "addon.mod_workshop.nogradeyet": "还没有成绩",
     "addon.mod_workshop.notassessed": "还没有评价",
     "addon.mod_workshop.notoverridden": "不覆盖",
