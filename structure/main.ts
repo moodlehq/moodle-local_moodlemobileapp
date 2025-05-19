@@ -891,6 +891,7 @@ export type AddonCalendarGetActionEventsByCourseWSResponse = {
             alttext: string; // Alttext.
             iconurl: string; // Iconurl.
             iconclass: string; // Iconclass.
+            purpose: string; // Purpose.
         };
         category?: {
             id: number; // Id.
@@ -1012,6 +1013,7 @@ export type AddonCalendarGetActionEventsByCoursesWSResponse = {
                 alttext: string; // Alttext.
                 iconurl: string; // Iconurl.
                 iconclass: string; // Iconclass.
+                purpose: string; // Purpose.
             };
             category?: {
                 id: number; // Id.
@@ -1136,6 +1138,7 @@ export type AddonCalendarGetActionEventsByTimesortWSResponse = {
             alttext: string; // Alttext.
             iconurl: string; // Iconurl.
             iconclass: string; // Iconclass.
+            purpose: string; // Purpose.
         };
         category?: {
             id: number; // Id.
@@ -1296,6 +1299,7 @@ export type AddonCalendarGetCalendarDayViewWSResponse = {
             alttext: string; // Alttext.
             iconurl: string; // Iconurl.
             iconclass: string; // Iconclass.
+            purpose: string; // Purpose.
         };
         category?: {
             id: number; // Id.
@@ -1468,6 +1472,7 @@ export type AddonCalendarGetCalendarEventByIdWSResponse = {
             alttext: string; // Alttext.
             iconurl: string; // Iconurl.
             iconclass: string; // Iconclass.
+            purpose: string; // Purpose.
         };
         category?: {
             id: number; // Id.
@@ -1680,6 +1685,7 @@ export type AddonCalendarGetCalendarMonthlyViewWSResponse = {
                     alttext: string; // Alttext.
                     iconurl: string; // Iconurl.
                     iconclass: string; // Iconclass.
+                    purpose: string; // Purpose.
                 };
                 category?: {
                     id: number; // Id.
@@ -1870,6 +1876,7 @@ export type AddonCalendarGetCalendarUpcomingViewWSResponse = {
             alttext: string; // Alttext.
             iconurl: string; // Iconurl.
             iconclass: string; // Iconclass.
+            purpose: string; // Purpose.
         };
         category?: {
             id: number; // Id.
@@ -2009,6 +2016,7 @@ export type AddonCalendarSubmitCreateUpdateFormWSResponse = {
             alttext: string; // Alttext.
             iconurl: string; // Iconurl.
             iconclass: string; // Iconclass.
+            purpose: string; // Purpose.
         };
         category?: {
             id: number; // Id.
@@ -2125,6 +2133,7 @@ export type AddonCalendarUpdateEventStartDayWSResponse = {
             alttext: string; // Alttext.
             iconurl: string; // Iconurl.
             iconclass: string; // Iconclass.
+            purpose: string; // Purpose.
         };
         category?: {
             id: number; // Id.
