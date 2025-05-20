@@ -2400,7 +2400,7 @@
     "core.reminders.timebefore": "{{value}} {{units}} avant",
     "core.reminders.units": "Unités",
     "core.reminders.value": "Valeur",
-    "core.remove": "Supprimer",
+    "core.remove": "Retirer",
     "core.removedownloadeddata": "Supprimer les données téléchargées",
     "core.removefiles": "Supprimer les fichiers {{$a}}",
     "core.reportbuilder.filtersapplied": "Des filtres peuvent être appliqués à cette vue. Pour modifier les filtres ou changer l’ordre de tri, <a href=\"{{$a}}\">ouvrez ce rapport dans votre navigateur.</a>",
