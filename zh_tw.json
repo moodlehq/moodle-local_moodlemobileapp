@@ -387,7 +387,7 @@
     "addon.mod_assign.grade": "成績",
     "addon.mod_assign.graded": "已評分",
     "addon.mod_assign.gradedby": "已評分由",
-    "addon.mod_assign.gradedfollowupsubmit": "已評分 - 已重新繳交",
+    "addon.mod_assign.gradedfollowupsubmit": "已評分 - 已重新提交",
     "addon.mod_assign.gradedon": "評分標準",
     "addon.mod_assign.gradelocked": "這一分數在這成績簿中是被鎖定或覆蓋的",
     "addon.mod_assign.gradenotsynced": "成績未同步",
