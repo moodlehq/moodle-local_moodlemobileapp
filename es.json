@@ -2548,7 +2548,7 @@
     "core.sitehome.sitenews": "Anuncios de la página",
     "core.sitemaintenance": "Este sitio está en fase de mantenimiento y no está disponible en este momento",
     "core.sitenotfoundhelp": "No pudimos encontrar el sitio que escribió. Por favor revise que no haya errores de teclado o inténtelo nuevamente después . Si sigue viendo este mensaje, póngase en contacto con su escuela o proveedor de aprendizaje.",
-    "core.siteunavailablehelp": "El sitio \"{{site}}\" no está disponible ahorita. Por favor inténtelo nuevamente más tarde o póngase en contacto con su escuela o proveedor de aprendizaje.",
+    "core.siteunavailablehelp": "El sitio \"{{site}}\" no está disponible ahora. Por favor inténtelo nuevamente más tarde o póngase en contacto con su escuela o proveedor de aprendizaje.",
     "core.size": "Tamaño",
     "core.sizeb": "bytes",
     "core.sizegb": "GB",
