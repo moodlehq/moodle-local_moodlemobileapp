@@ -852,7 +852,7 @@
     "addon.mod_lesson.retakelabelfull": "{{retake}}: {{grade}} {{timestart}} ({{duration}})",
     "addon.mod_lesson.retakelabelshort": "{{retake}}: {{grade}} {{timestart}}",
     "addon.mod_lesson.review": "Rückschau",
-    "addon.mod_lesson.reviewlesson": "Zur Lektion",
+    "addon.mod_lesson.reviewlesson": "Lektion überprüfen",
     "addon.mod_lesson.reviewquestionback": "Wiederholen",
     "addon.mod_lesson.reviewquestioncontinue": "Fortsetzen",
     "addon.mod_lesson.secondpluswrong": "Nicht ganz. Möchten Sie es noch einmal versuchen?",
