@@ -948,7 +948,7 @@
     "addon.mod_quiz.stateinprogress": "進行中",
     "addon.mod_quiz.stateoverdue": "過期",
     "addon.mod_quiz.stateoverduedetails": "必須在{{$a}}之前提交",
-    "addon.mod_quiz.submission_confirmation_unanswered": "尚未作答的問題：{{$a}}",
+    "addon.mod_quiz.submission_confirmation_unanswered": "尚未作答的試題數: {{$a}}",
     "addon.mod_quiz.submitallandfinish": "全部送出並結束",
     "addon.mod_quiz.summaryofattempt": "作答紀錄摘要",
     "addon.mod_quiz.summaryofattempts": "您的作答記錄",
