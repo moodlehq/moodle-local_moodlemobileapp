@@ -597,7 +597,7 @@
     "addon.mod_data.timemodified": "Hora de la modificació",
     "addon.mod_data.usedate": "Inclou en la cerca.",
     "addon.mod_data_fields_file.fieldtypelabel": "Camp de fitxer",
-    "addon.mod_data_fields_picture.fieldtypelabel": "Camp d'imatge",
+    "addon.mod_data_fields_picture.fieldtypelabel": "Imatge",
     "addon.mod_feedback.analysis": "Anàlisi",
     "addon.mod_feedback.anonymous": "Les respostes seran anònimes",
     "addon.mod_feedback.anonymous_entries": "Entrades anònimes ({{$a}})",
