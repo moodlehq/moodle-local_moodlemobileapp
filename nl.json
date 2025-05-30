@@ -572,7 +572,7 @@
     "addon.mod_data.errormustsupplyvalue": "Je moet hier een waarde geven.",
     "addon.mod_data.expired": "Deze activiteit is gesloten op {{$a}} en is niet langer beschikbaar",
     "addon.mod_data.fields": "Velden",
-    "addon.mod_data.foundrecords": "{{$a.num}} van {{$a.max}} ietms gevonden. (<a href=\"{{$a.reseturl}}\">Wis filter</a>)",
+    "addon.mod_data.foundrecords": "{{$a.num}} van {{$a.max}} items gevonden. (<a href=\"{{$a.reseturl}}\">Wis filter</a>)",
     "addon.mod_data.gettinglocation": "Locatie ophalen",
     "addon.mod_data.latlongboth": "Zowel de breedtegraad als de lengtegraad zijn vereist.",
     "addon.mod_data.locationnotenabled": "Locatie is niet ingeschakeld",
