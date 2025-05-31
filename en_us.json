@@ -1,6 +1,5 @@
 {
     "addon.block_recentactivity.pluginname": "Recent activity",
-    "addon.enrol_self.nopassword": "No enrollment key required.",
     "addon.enrol_self.password": "Enrollment key",
     "addon.enrol_self.pluginname": "Self enrollment",
     "addon.mod_assign.markingworkflowstate": "Grading workflow state",
@@ -8,7 +7,7 @@
     "addon.mod_assign.markingworkflowstatenotmarked": "Not graded",
     "addon.mod_assign.markingworkflowstatereadyforreview": "Grading completed",
     "addon.mod_quiz.marks": "Points",
-    "core.courses.enrolme": "Enroll me",
+    "core.courses.enrolme": "Enroll me in this course",
     "core.decsep": ".",
     "core.firstdayofweek": "0",
     "core.h5p.pddl": "Public Domain Dedication and License",

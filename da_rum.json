@@ -1,4 +1,5 @@
 {
+    "addon.block_myoverview.nocoursesenrolled": "For øjeblikket er du ikke tilmeldt nogen rum.",
     "addon.blog.associatewithcourse": "Blog om rummet \"{{$a.coursename}}\"",
     "addon.calendar.courseevents": "Rumbegivenheder",
     "addon.calendar.typecourse": "Rum",
@@ -13,6 +14,7 @@
     "core.courses.availablecourses": "Tilgængelige rum",
     "core.courses.categories": "Rumkategorier",
     "core.courses.courses": "Rum",
+    "core.courses.enrolme": "Tilmeld mig dette rum",
     "core.courses.mycourses": "Mine rum",
     "core.courses.nocourses": "Du er ikke tilmeldt nogen rum.",
     "core.courses.nocoursesyet": "Der er ingen rum i denne kategori",

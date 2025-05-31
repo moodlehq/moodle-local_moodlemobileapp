@@ -32,6 +32,8 @@
     "workplace.myinprogress.nocourses": "Neturite jokių vykstančių kursų",
     "workplace.myinprogress.pluginname": "Vykstantys kursai",
     "workplace.myinprogress.showhidden": "Rodyti paslėptus peržiūroje",
+    "workplace.proceedtocourse": "Pereiti į kurso turinį",
+    "workplace.proceedtoprogram": "Pereiti į programos turinį",
     "workplace.program": "Programa",
     "workplace.programhelptitle": "Kas yra programa?",
     "workplace.programlink": "Žiūrėti \"{{$a}}\" elementus",

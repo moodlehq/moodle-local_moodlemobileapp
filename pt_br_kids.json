@@ -1,11 +1,9 @@
 {
     "addon.badges.badges": "Medalhas",
-    "addon.badges.issuancedetails": "Validade da medalha",
-    "addon.badges.noalignment": "Esta medalha não possui habilidades ou padrões externos especificados.",
+    "addon.badges.course": "Curso: {{$a}}",
+    "addon.badges.expireddate": "Esta medalha expirou em {{$a}}.",
     "addon.badges.nobadges": "Atualmente, não há medalhas disponíveis para os usuários conquistarem.",
-    "addon.badges.norelated": "Esta medalha não possui medalhas relacionadas.",
     "addon.badges.relatedbages": "Medalhas Relacionadas",
-    "addon.badges.warnexpired": "(Esta medalha expirou!)",
     "addon.block_badges.pluginname": "Medalhas mais recentes",
     "addon.block_onlineusers.pluginname": "Usuários online",
     "addon.blog.publishtonoone": "Somente você (rascunho)",
