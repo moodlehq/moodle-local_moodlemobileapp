@@ -2244,7 +2244,7 @@
     "core.nopermissionerror": "Niestety, nie masz aktualnie uprawnień, aby wykonać tę czynność.",
     "core.nopermissions": "Brak odpowiednich uprawnień do wykonania ({{$a}})",
     "core.nopermissiontoaccesspage": "Nie masz uprawnień dostępu do tej strony.",
-    "core.noreplyname": "Nie odpowiadaj na ten mail",
+    "core.noreplyname": "Automatyczne powiadomienie - nie odpowiadaj na ten mail",
     "core.noresults": "Brak wyników",
     "core.noselection": "Brak wyboru",
     "core.notapplicable": "nd.",
