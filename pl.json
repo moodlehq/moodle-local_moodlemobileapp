@@ -877,7 +877,7 @@
     "addon.mod_quiz.clearchoice": "Odznacz mój wybór",
     "addon.mod_quiz.comment": "Komentarz",
     "addon.mod_quiz.completedon": "Ukończono",
-    "addon.mod_quiz.confirmclose": "Po przesłaniu odpowiedzi, nie będzie można ich zmienić.",
+    "addon.mod_quiz.confirmclose": "Po przesłaniu odpowiedzi nie będzie można ich zmienić.",
     "addon.mod_quiz.confirmcontinueoffline": "To podejście nie było synchronizowane od {{$a}}. Jeśli od tego czasu kontynuowałeś to podejście na innym urządzeniu, możesz utracić dane.",
     "addon.mod_quiz.confirmleavequizonerror": "Wystąpił błąd podczas zapisywania odpowiedzi. Czy na pewno chcesz wyjść z testu?",
     "addon.mod_quiz.confirmstart": "Test ma limit czasu: {{$a}}\nCzas będzie odliczany od momentu, kiedy rozpoczniesz swoją próbę. Musisz ją zakończyć przed jego upływem.\n\nCzy chcesz teraz rozpocząć próbę?",
