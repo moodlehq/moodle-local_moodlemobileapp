@@ -1795,7 +1795,7 @@
     "core.grades.rank": "排名",
     "core.grades.weight": "权重",
     "core.group": "小组",
-    "core.groupsseparate": "分隔小组",
+    "core.groupsseparate": "独立小组",
     "core.groupsvisible": "可视小组",
     "core.h5p.a11yTitle:label": "辅助技术标签",
     "core.h5p.acceptTerms": "我接受 <a href=\":url\" target=\"_blank\">使用条款</a>",
