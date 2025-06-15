@@ -562,7 +562,7 @@
     "addon.mod_data.errormustsupplyvalue": "您必须在此处提供一个值。",
     "addon.mod_data.expired": "对不起，此活动已于{{$a}}关闭，不再可用",
     "addon.mod_data.fields": "字段",
-    "addon.mod_data.foundrecords": "在 {{$a.max}} 记录中找到 {{$a.num}}。<a href=“{{$a.reseturl}}”>全部清除</a>",
+    "addon.mod_data.foundrecords": "在 {{$a.max}} 记录中找到 {{$a.num}}。<a href=\"{{$a.reseturl}}\">全部清除</a>",
     "addon.mod_data.gettinglocation": "获取位置",
     "addon.mod_data.latlongboth": "纬度和经度都是必需的。",
     "addon.mod_data.locationnotenabled": "定位被禁用",
