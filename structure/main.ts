@@ -4555,6 +4555,7 @@ export type AddonMessagesGetContactRequestsWSResponse = {
     canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
     canmessage: boolean; // If the user can be messaged.
     requirescontact: boolean; // If the user requires to be contacts.
+    cancreatecontact: boolean; // Is the user permitted to add a contact.
     contactrequests?: { // The contact requests.
         id: number; // The id of the contact request.
         userid: number; // The id of the user who created the contact request.
@@ -4616,6 +4617,7 @@ export type AddonMessagesGetConversationWSResponse = {
         canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
         canmessage: boolean; // If the user can be messaged.
         requirescontact: boolean; // If the user requires to be contacts.
+        cancreatecontact: boolean; // Is the user permitted to add a contact.
         contactrequests?: { // The contact requests.
             id: number; // The id of the contact request.
             userid: number; // The id of the user who created the contact request.
@@ -4685,6 +4687,7 @@ export type AddonMessagesGetConversationBetweenUsersWSResponse = {
         canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
         canmessage: boolean; // If the user can be messaged.
         requirescontact: boolean; // If the user requires to be contacts.
+        cancreatecontact: boolean; // Is the user permitted to add a contact.
         contactrequests?: { // The contact requests.
             id: number; // The id of the contact request.
             userid: number; // The id of the user who created the contact request.
@@ -4763,6 +4766,7 @@ export type AddonMessagesGetConversationMembersWSResponse = {
     canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
     canmessage: boolean; // If the user can be messaged.
     requirescontact: boolean; // If the user requires to be contacts.
+    cancreatecontact: boolean; // Is the user permitted to add a contact.
     contactrequests?: { // The contact requests.
         id: number; // The id of the contact request.
         userid: number; // The id of the user who created the contact request.
@@ -4812,6 +4816,7 @@ export type AddonMessagesGetConversationMessagesWSResponse = {
         canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
         canmessage: boolean; // If the user can be messaged.
         requirescontact: boolean; // If the user requires to be contacts.
+        cancreatecontact: boolean; // Is the user permitted to add a contact.
         contactrequests?: { // The contact requests.
             id: number; // The id of the contact request.
             userid: number; // The id of the user who created the contact request.
@@ -4882,6 +4887,7 @@ export type AddonMessagesGetConversationsWSResponse = {
             canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
             canmessage: boolean; // If the user can be messaged.
             requirescontact: boolean; // If the user requires to be contacts.
+            cancreatecontact: boolean; // Is the user permitted to add a contact.
             contactrequests?: { // The contact requests.
                 id: number; // The id of the contact request.
                 userid: number; // The id of the user who created the contact request.
@@ -4936,6 +4942,7 @@ export type AddonMessagesGetMemberInfoWSResponse = {
     canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
     canmessage: boolean; // If the user can be messaged.
     requirescontact: boolean; // If the user requires to be contacts.
+    cancreatecontact: boolean; // Is the user permitted to add a contact.
     contactrequests?: { // The contact requests.
         id: number; // The id of the contact request.
         userid: number; // The id of the user who created the contact request.
@@ -5056,6 +5063,7 @@ export type AddonMessagesGetSelfConversationWSResponse = {
         canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
         canmessage: boolean; // If the user can be messaged.
         requirescontact: boolean; // If the user requires to be contacts.
+        cancreatecontact: boolean; // Is the user permitted to add a contact.
         contactrequests?: { // The contact requests.
             id: number; // The id of the contact request.
             userid: number; // The id of the user who created the contact request.
@@ -5163,6 +5171,7 @@ export type AddonMessagesGetUserContactsWSResponse = {
     canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
     canmessage: boolean; // If the user can be messaged.
     requirescontact: boolean; // If the user requires to be contacts.
+    cancreatecontact: boolean; // Is the user permitted to add a contact.
     contactrequests?: { // The contact requests.
         id: number; // The id of the contact request.
         userid: number; // The id of the user who created the contact request.
@@ -5395,6 +5404,7 @@ export type AddonMessagesMessageSearchUsersWSResponse = {
         canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
         canmessage: boolean; // If the user can be messaged.
         requirescontact: boolean; // If the user requires to be contacts.
+        cancreatecontact: boolean; // Is the user permitted to add a contact.
         contactrequests?: { // The contact requests.
             id: number; // The id of the contact request.
             userid: number; // The id of the user who created the contact request.
@@ -5422,6 +5432,7 @@ export type AddonMessagesMessageSearchUsersWSResponse = {
         canmessageevenifblocked: boolean; // If the user can still message even if they get blocked.
         canmessage: boolean; // If the user can be messaged.
         requirescontact: boolean; // If the user requires to be contacts.
+        cancreatecontact: boolean; // Is the user permitted to add a contact.
         contactrequests?: { // The contact requests.
             id: number; // The id of the contact request.
             userid: number; // The id of the user who created the contact request.
