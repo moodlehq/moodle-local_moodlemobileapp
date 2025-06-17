@@ -2091,7 +2091,7 @@
     "core.course.viewcourse": "檢視課程",
     "core.course.warningmanualcompletionmodified": "某個活動的手動完成狀態已在網站上被修改。",
     "core.course.warningofflinemanualcompletiondeleted": "課程「{{name}}」的一些離線手動完成紀錄已被刪除。{{error}}",
-    "core.course.youmust": "你必須",
+    "core.course.youmust": "您必須",
     "core.coursenogroups": "您不是此課程中任何分組的成員。",
     "core.courses.addtofavourites": "將課程標記星號",
     "core.courses.aria:coursecategory": "課程類別",
