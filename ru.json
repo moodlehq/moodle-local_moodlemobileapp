@@ -2028,7 +2028,7 @@
     "core.nograde": "Без оценки",
     "core.none": "Пусто",
     "core.nopasswordchangeforced": "Вы не можете продолжить, не поменяв свой пароль.",
-    "core.nopermissions": "Извините, но у Вас нет прав сделать это ({{$a}})",
+    "core.nopermissions": "Извините, но у Вас нет прав делать это ({{$a}})",
     "core.nopermissiontoaccesspage": "У вас нет разрешения на доступ к этой странице.",
     "core.noreplyname": "Не нужно отвечать на это сообщение",
     "core.noresults": "Нет результатов",
