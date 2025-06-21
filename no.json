@@ -1152,6 +1152,7 @@
     "addon.privatefiles.sitefiles": "Portalfiler",
     "addon.qtype_essay.maxwordlimitboundary": "Ordgrensen for dette spørsmålet er {{$a.limit}} ord, og du prøver å sende inn {{$a.count}} ord. Forkort svaret og prøv igjen.",
     "addon.qtype_essay.minwordlimitboundary": "Dette spørsmålet krever et svar på minst {{$a.limit}} ord, og du prøver å sende inn {{$a.count}} ord. Utvid svaret ditt og prøv igjen.",
+    "addon.qtype_ordering.moved": "{{$a.item}} flyttet. Ny posisjon: {{$a.position}} av {{$a.total}}.",
     "addon.report_insights.actionsaved": "Din tilbakemelding om '{{$a}}' er lagret.",
     "addon.report_insights.fixedack": "Godta",
     "addon.report_insights.incorrectlyflagged": "Feilmerket",
