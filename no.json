@@ -1162,6 +1162,7 @@
     "addon.qtype_numerical.invalidnumbernounit": "Du må legge inn et gyldig tall. Ikke ta med enheter i svaret ditt.",
     "addon.qtype_numerical.pleaseenterananswer": "Vennligst angi et svar",
     "addon.qtype_numerical.unitnotselected": "Du må velge en enhet.",
+    "addon.qtype_ordering.moved": "{{$a.item}} flyttet. Ny posisjon: {{$a.position}} av {{$a.total}}.",
     "addon.qtype_shortanswer.pleaseenterananswer": "Vennligst skriv inn et svar",
     "addon.qtype_truefalse.pleaseselectananswer": "Vennligst velg et svar.",
     "addon.report_insights.actionsaved": "Din tilbakemelding om '{{$a}}' er lagret.",
