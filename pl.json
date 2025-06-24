@@ -870,7 +870,7 @@
     "addon.mod_page.modulenameplural": "Strony",
     "addon.mod_quiz.answercolon": "Odpowiedź:",
     "addon.mod_quiz.attempt": "Próba {{$a}}",
-    "addon.mod_quiz.attemptduration": "Czas wykonania",
+    "addon.mod_quiz.attemptduration": "Czas trwania",
     "addon.mod_quiz.attemptfirst": "Pierwsze podejście",
     "addon.mod_quiz.attemptlast": "Ostatnie podejście",
     "addon.mod_quiz.attemptnumber": "Podejście",
