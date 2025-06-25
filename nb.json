@@ -349,5 +349,11 @@
     "core.login.add": "Legg til",
     "core.parentlanguage": "no",
     "core.user.address": "Adresse",
-    "freemium.accept": "Aksepter"
+    "freemium.accept": "Aksepter",
+    "workplace.aboutthiscourse": "Om dette kurset",
+    "workplace.aboutthisprogram": "Om dette programmet",
+    "workplace.all": "Alle",
+    "workplace.catalogue.allavailablecourses": "Alle tilgjengelige kurs",
+    "workplace.catalogue.catalogue": "Læringskatalog",
+    "workplace.catalogue.categories": "Kategorier"
 }

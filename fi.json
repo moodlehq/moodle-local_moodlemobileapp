@@ -2051,7 +2051,7 @@
     "core.filenotfound": "Valitettavasti tiedostoa ei löydy",
     "core.fileuploader.addfiletext": "Lisää tiedosto",
     "core.fileuploader.attachedfiles": "Liitetyt tiedostot",
-    "core.fileuploader.audio": "Ääni",
+    "core.fileuploader.audio": "Audio",
     "core.fileuploader.audiotitle": "Tallenna ääni",
     "core.fileuploader.camera": "Kamera",
     "core.fileuploader.confirmuploadfile": "Olet lataamassa {{size}}. Oletko varma, että haluat jatkaa?",
