@@ -2751,6 +2751,7 @@
     "workplace.catalogue.allavailablecourses": "Alle tilgjengelige kurs",
     "workplace.catalogue.catalogue": "Kurskatalog",
     "workplace.catalogue.categories": "Kategorier",
+    "workplace.catalogue.clearall": "Tøm alle",
     "workplace.certificationmsgactive": "Sertifiseringen <strong>«{{$a.fullname}}»</strong> må fullføres innen <strong>{{$a.dato}}</strong>",
     "workplace.certificationmsgcompleted": "Sertifiseringen <strong>«{{$a.fullname}}»</strong> er fullført",
     "workplace.certificationmsgcompletedexpired": "Sertifiseringen <strong>«{{$a.fullname}}»</strong> er fullført. Den utløper <strong>{{$a.date}}</strong>",
