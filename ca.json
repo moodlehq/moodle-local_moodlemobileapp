@@ -603,7 +603,7 @@
     "addon.mod_feedback.anonymous_entries": "Entrades anònimes ({{$a}})",
     "addon.mod_feedback.anonymous_user": "Usuari anònim",
     "addon.mod_feedback.average": "Mitjana",
-    "addon.mod_feedback.captchaofflinewarning": "Les retroaccions amb captcha no es poden completar si aquest no està configurat, o no es pot connectar amb el servidor.",
+    "addon.mod_feedback.captchaofflinewarning": "Les retroaccions amb CAPTCHA no es poden completar fora de línia, o si aquest no està configurat, o si no es pot connectar amb el servidor.",
     "addon.mod_feedback.complete_the_form": "Responeu les preguntes",
     "addon.mod_feedback.completed_feedbacks": "Respostes enviades",
     "addon.mod_feedback.completedfeedbackscountdescription": "Hi ha {{count}} respostes enviades.",
