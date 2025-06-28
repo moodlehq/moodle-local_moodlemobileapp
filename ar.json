@@ -466,7 +466,7 @@
     "addon.mod_assign.viewsubmission": "معاينة التسليم",
     "addon.mod_assign.warningsubmissiongrademodified": "علامة التسليم قد تم تعديلها في الموقع.",
     "addon.mod_assign.warningsubmissionmodified": "تسليم المستخدم قد تم تعديله في الموقع.",
-    "addon.mod_assign.wordlimit": "كلمة الحد",
+    "addon.mod_assign.wordlimit": "حد عدد الكلمات",
     "addon.mod_assign_feedback_comments.pluginname": "تعليقات الإفادة",
     "addon.mod_assign_feedback_editpdf.pluginname": "التعليق على PDF",
     "addon.mod_assign_feedback_file.pluginname": "الإفادة بملف",
