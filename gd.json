@@ -139,7 +139,11 @@
     "core.clicktohideshow": "Brùth airson a leudachadh no a lùghdachadh",
     "core.close": "Dùin",
     "core.collapse": "Lùghdaich",
+    "core.comments": "Beachdan",
     "core.comments.addcomment": "Cuir beachd ris...",
+    "core.comments.comments": "Beachdan",
+    "core.comments.commentscount": "Beachdan ({{$a}})",
+    "core.commentscount": "Beachdan ({{$a}})",
     "core.considereddigitalminor": "Tha thu ro òg airson cunntas a chruthachadh an seo",
     "core.content": "Susbaint",
     "core.continue": "Ceart gu leòr",
@@ -147,6 +151,7 @@
     "core.course.hiddenfromstudents": "Falaichte bho oileanaich",
     "core.course.startdate": "Ceann-là toiseachaidh a' chùrsa",
     "core.courses.availablecourses": "Cùrsaichean a tha rim faighinn",
+    "core.courses.categories": "Caiteagoraidhean cùrsa",
     "core.courses.courses": "Cùrsaichean",
     "core.courses.mycourses": "Mo chùrsaichean",
     "core.date": "Ceann-là",
@@ -241,6 +246,7 @@
     "core.week": "Seachdain",
     "freemium.accept": "Gabh ris",
     "workplace.continue": "Ceart gu leòr",
+    "workplace.coursefiles": "Faidhlichean cùrsa dìleabach",
     "workplace.nothingtodisplay": "Chan eil dad ann ri fhoillseachadh",
     "workplace.teams.fullname": "Ainm slàn"
 }
