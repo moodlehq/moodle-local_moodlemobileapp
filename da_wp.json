@@ -111,7 +111,7 @@
     "workplace.teams.filterisnotequalto": "Er ikke lig med",
     "workplace.teams.filterstab": "Filtre",
     "workplace.teams.filterstartswith": "Starter med",
-    "workplace.teams.globalmanager": "Manager",
+    "workplace.teams.globalmanager": "Leder",
     "workplace.teams.jobsnumber": "Jobs",
     "workplace.teams.learning": "Læring",
     "workplace.teams.orgfiltercustomise": "Tilpas",
@@ -119,10 +119,10 @@
     "workplace.teams.orgfiltereverybody": "Vis alle, der rapporterer til mig",
     "workplace.teams.orgstructure": "Organisationsstruktur",
     "workplace.teams.pluginname": "Teamoverblik",
-    "workplace.teams.position": "Position",
+    "workplace.teams.position": "Stilling",
     "workplace.teams.resetall": "Nulstil alt",
     "workplace.teams.seeprofile": "Vis profil",
-    "workplace.teams.withsubdepartments": "Inkluder underpositioner",
-    "workplace.teams.withsubpositions": "Inkluder underpositioner",
+    "workplace.teams.withsubdepartments": "Inkluder underafdelinger",
+    "workplace.teams.withsubpositions": "Inkluder understillinger",
     "workplace.todo": "To-do:"
 }
