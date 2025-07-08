@@ -1,5 +1,6 @@
 {
     "addon.badges.alignment": "Poravnanje",
+    "addon.badges.awardedto": "Dodijeljeno {{$a}}",
     "addon.badges.badgedetails": "Detalji značke",
     "addon.badges.badges": "Značke",
     "addon.badges.bendorsement": "Odobrenje",
@@ -2419,6 +2420,7 @@
     "core.selectall": "Odaberite sve",
     "core.send": "Šalji",
     "core.sending": "Slanje",
+    "core.sent": "Poslano",
     "core.settings.about": "O",
     "core.settings.accessstatement": "Izjava o dostupnosti",
     "core.settings.appsettings": "Postavke aplikacije",
