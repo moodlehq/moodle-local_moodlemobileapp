@@ -1,5 +1,6 @@
 {
     "addon.badges.alignment": "Poravnanje",
+    "addon.badges.awardedto": "Dodijeljeno {{$a}}",
     "addon.badges.badgedetails": "Detalji značke",
     "addon.badges.badges": "Značke",
     "addon.badges.bendorsement": "Odobrenje",
