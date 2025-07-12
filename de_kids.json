@@ -1,5 +1,6 @@
 {
     "addon.block_onlineusers.pluginname": "Wer ist online?",
+    "addon.enrol_guest.passwordinvalid": "Falsches Kennwort!",
     "addon.mod_assign.submitassignment_help": "Wenn die Aufgabe abgegeben ist, kannst du nichts mehr ändern.",
     "addon.mod_forum.addanewdiscussion": "Neues Thema anfangen",
     "addon.mod_forum.addanewquestion": "Neue Frage stellen",
@@ -44,7 +45,7 @@
     "core.login.invalidusername": "Schreibe den Anmeldenamen in Kleinbuchstaben. Du kannst auch Zahlen und folgende Zeichen verwenden: Unterstreichen (_), Bindestrich (-), Punkt (.) und das Zeichen @",
     "core.login.login": "Anmelden",
     "core.login.loginsteps": "Wir freuen uns, dass du dich hier anmelden möchtest. Wenn du noch nie angemeldet warst, frage deine Lehrerin oder deinen Lehrer nach den Zugangsdaten.",
-    "core.login.mustconfirm": "Gib die Daten noch einmal ein",
+    "core.login.mustconfirm": "Gib die Daten nochmal ein",
     "core.login.newaccount": "Neu anmelden",
     "core.login.passwordforgotteninstructions2": "Du hast dein Kennwort vergessen und möchtest ein neues haben? Trage deinen Anmeldenamen oder die E-Mail-Adresse hier ein. Wenn alles stimmt, schicken wir dir sofort eine E-Mail.",
     "core.login.usernamelowercase": "Schreibe den Anmeldenamen in Kleinbuchstaben.",
