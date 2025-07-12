@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "ログインに失敗しました、再度ログインしてください ...",
     "addon.mod_lesson.lowscore": "最低評点",
     "addon.mod_lesson.lowtime": "最短時間",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "最大受験回数に達しました - 次のページに移動しています。",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "あなたはこの問題の受験回数上限に達しました。レッスンは次のページに進みます。",
     "addon.mod_lesson.modattemptsnoteacher": "学生レビューは学生にのみ表示されます。",
     "addon.mod_lesson.modulenameplural": "レッスン",
     "addon.mod_lesson.noanswer": "1つまたはそれ以上の問題が解答されていません。戻って解答を送信してください。",

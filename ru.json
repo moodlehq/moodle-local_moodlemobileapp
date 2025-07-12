@@ -782,7 +782,7 @@
     "addon.mod_lesson.loginfail": "Логин неверный, пожалуйста, попробуйте еще раз...",
     "addon.mod_lesson.lowscore": "Низший балл",
     "addon.mod_lesson.lowtime": "Наименьшее время",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Достигнуто максимальное количество попыток - переходим к следующей странице",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Вы достигли максимального количества попыток для этого вопроса. Теперь лекция перейдет на следующую страницу.",
     "addon.mod_lesson.modattemptsnoteacher": "Только студенты могут повторно проходить лекцию.",
     "addon.mod_lesson.modulenameplural": "Лекции",
     "addon.mod_lesson.noanswer": "На один или несколько вопросов не получено ответа. Пожалуйста, вернитесь и представьте ответ.",

@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "Login gagal, coba lagi...",
     "addon.mod_lesson.lowscore": "Skor terendah",
     "addon.mod_lesson.lowtime": "Daftar waktu terendah",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Upaya pengerjaaan telah maksimum  - Lanjutkan ke halaman berikutnya",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Anda telah mencapai jumlah percobaan maksimum untuk pertanyaan ini. Pelajaran sekarang akan berlanjut ke halaman berikutnya.",
     "addon.mod_lesson.modattemptsnoteacher": "Siswa hanya boleh meninjau pekerjaan siswa.",
     "addon.mod_lesson.modulenameplural": "Pelajaran",
     "addon.mod_lesson.noanswer": "Satu atau lebih pertanyaan tidak memiliki jawaban yang diberikan. Silakan kembali dan kirimkan jawaban.",

@@ -830,7 +830,7 @@
     "addon.mod_lesson.loginfail": "A autenticação falhou. Tente de novo...",
     "addon.mod_lesson.lowscore": "Nota mais baixa",
     "addon.mod_lesson.lowtime": "Tempo mínimo",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Atingiu o número máximo de tentativas permitido - A lição vai avançar para a página seguinte",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Atingiu o número máximo de tentativas permitido para esta pergunta. A lição vai avançar para a página seguinte",
     "addon.mod_lesson.modattemptsnoteacher": "A possibilidade de revisão só funciona para os alunos.",
     "addon.mod_lesson.modulenameplural": "Lições",
     "addon.mod_lesson.noanswer": "Uma ou mais perguntas ainda estão por responder. Por favor, volte atrás e submeta uma resposta.",

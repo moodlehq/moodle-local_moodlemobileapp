@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "Sarrerak huts egin du. Saiatu berriro, mesedez...",
     "addon.mod_lesson.lowscore": "Puntuazio baxua",
     "addon.mod_lesson.lowtime": "Denbora baxua",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Gehieneko saiakera-kopurura iritsi zara. Hurrengo orrira jauzi",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Galdera honentzako zehaztutako gehieneko saiakera kopurura iritsi zara. Jarraian ikasgaiko hurrengo orria erakutsiko da.",
     "addon.mod_lesson.modattemptsnoteacher": "Ikaslearen berrikuspena soilik ikasleen eskura dago.",
     "addon.mod_lesson.modulenameplural": "Ikasgaiak",
     "addon.mod_lesson.noanswer": "Galdera batek edo gehiagok ez du erantzunik. Mesedez, joan atzera eta osatu.",
