@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "Nesprávné heslo. Zkuste to prosím znovu.",
     "addon.mod_lesson.lowscore": "Nejhorší známka",
     "addon.mod_lesson.lowtime": "Nejkratší čas",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Vyčerpali jste maximální počet pokusů – následuje další stránka přednášky",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Vyčerpali jste maximální počet pokusů o zodpovězení této úlohy. Přednáška se nyní přesune na další stránku.",
     "addon.mod_lesson.modattemptsnoteacher": "Revize funguje pouze studentům",
     "addon.mod_lesson.modulenameplural": "Přednášky",
     "addon.mod_lesson.noanswer": "Neodpověděli jste jednu nebo více otázek. Prosím, vraťte se zpět a zadejte odpověď.",

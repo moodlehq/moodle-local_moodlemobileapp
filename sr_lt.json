@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "Pogrešna prijava, molimo pokušajte ponovo...",
     "addon.mod_lesson.lowscore": "Naslabiji rezultat",
     "addon.mod_lesson.lowtime": "Najkraće vreme",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Dostignut je maksimalan broj pokušaja - prelazi se na sledeću stranicu",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Dostigli ste maksimalan broj pokušaja za ovo pitanje. Lekcija će sada preći na sledeću stranicu.",
     "addon.mod_lesson.modattemptsnoteacher": "Polaznički pregled funkcioniše samo za polaznike",
     "addon.mod_lesson.modulenameplural": "Lekcije",
     "addon.mod_lesson.noanswer": "Na jedno ili više pitanja nije dat odgovor. Molimo vratite se nazad i dajte svoj odgovor.",
