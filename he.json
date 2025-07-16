@@ -1482,6 +1482,7 @@
     "core.fileuploader.addfiletext": "הוספת קובץ",
     "core.fileuploader.attachedfiles": "קבצים מצורפים",
     "core.fileuploader.audio": "קול",
+    "core.fileuploader.audiotitle": "הקלטת שמע",
     "core.fileuploader.camera": "מצלמה",
     "core.fileuploader.confirmuploadfile": "את/ה עומד/ת להעלות קובץ בגודל {{size}}. האם את/ה רוצא/ה להמשיך?",
     "core.fileuploader.errorcapturingaudio": "שגיאה בלכידת הקול.",
