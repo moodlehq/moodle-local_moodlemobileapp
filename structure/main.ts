@@ -10988,6 +10988,108 @@ export type AddonModForumPrepareDraftAreaForPostWSResponse = {
 };
 
 /**
+ * Params of mod_forum_set_forum_subscription WS.
+ *
+ * WS Description: Subscribe or unsubscribe the user to a forum.
+ */
+type AddonModForumSetForumSubscriptionWSParams = {
+    forumid: number; // Forum that the user wants to subscribe or unsubscribe from.
+    targetstate: boolean; // The target state.
+};
+
+/**
+ * Data returned by mod_forum_set_forum_subscription WS.
+ *
+ * WS Description: Subscribe or unsubscribe the user to a forum.
+ */
+export type AddonModForumSetForumSubscriptionWSResponse = {
+    id: number; // Id.
+    name: string; // Name.
+    state: {
+        groupmode: number; // Groupmode.
+        gradingenabled: boolean; // Gradingenabled.
+    };
+    userstate: {
+        tracked: number; // Tracked.
+        subscribed: number; // Subscribed.
+    };
+    capabilities: {
+        viewdiscussions: boolean; // Viewdiscussions.
+        create: boolean; // Create.
+        subscribe: boolean; // Subscribe.
+        grade: boolean; // Grade.
+    };
+    urls: {
+        create: string; // Create.
+        markasread: string; // Markasread.
+        view: string; // View.
+        sortrepliesasc: string; // Sortrepliesasc.
+        sortrepliesdesc: string; // Sortrepliesdesc.
+        sortlastpostasc: string; // Sortlastpostasc.
+        sortlastpostdesc: string; // Sortlastpostdesc.
+        sortcreatedasc: string; // Sortcreatedasc.
+        sortcreateddesc: string; // Sortcreateddesc.
+        sortdiscussionasc: string; // Sortdiscussionasc.
+        sortdiscussiondesc: string; // Sortdiscussiondesc.
+        sortstarterasc: string; // Sortstarterasc.
+        sortstarterdesc: string; // Sortstarterdesc.
+        sortgroupasc: string; // Sortgroupasc.
+        sortgroupdesc: string; // Sortgroupdesc.
+    };
+};
+
+/**
+ * Params of mod_forum_set_forum_tracking WS.
+ *
+ * WS Description: Track or not unread messages in a forum for the user.
+ */
+type AddonModForumSetForumTrackingWSParams = {
+    forumid: number; // Forum that the user wants tracking for.
+    targetstate: boolean; // The target state.
+};
+
+/**
+ * Data returned by mod_forum_set_forum_tracking WS.
+ *
+ * WS Description: Track or not unread messages in a forum for the user.
+ */
+export type AddonModForumSetForumTrackingWSResponse = {
+    id: number; // Id.
+    name: string; // Name.
+    state: {
+        groupmode: number; // Groupmode.
+        gradingenabled: boolean; // Gradingenabled.
+    };
+    userstate: {
+        tracked: number; // Tracked.
+        subscribed: number; // Subscribed.
+    };
+    capabilities: {
+        viewdiscussions: boolean; // Viewdiscussions.
+        create: boolean; // Create.
+        subscribe: boolean; // Subscribe.
+        grade: boolean; // Grade.
+    };
+    urls: {
+        create: string; // Create.
+        markasread: string; // Markasread.
+        view: string; // View.
+        sortrepliesasc: string; // Sortrepliesasc.
+        sortrepliesdesc: string; // Sortrepliesdesc.
+        sortlastpostasc: string; // Sortlastpostasc.
+        sortlastpostdesc: string; // Sortlastpostdesc.
+        sortcreatedasc: string; // Sortcreatedasc.
+        sortcreateddesc: string; // Sortcreateddesc.
+        sortdiscussionasc: string; // Sortdiscussionasc.
+        sortdiscussiondesc: string; // Sortdiscussiondesc.
+        sortstarterasc: string; // Sortstarterasc.
+        sortstarterdesc: string; // Sortstarterdesc.
+        sortgroupasc: string; // Sortgroupasc.
+        sortgroupdesc: string; // Sortgroupdesc.
+    };
+};
+
+/**
  * Params of mod_forum_set_lock_state WS.
  *
  * WS Description: Set the lock state for the discussion
