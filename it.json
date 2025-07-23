@@ -799,7 +799,7 @@
     "addon.mod_lesson.loginfail": "Login fallito, prova ancora...",
     "addon.mod_lesson.lowscore": "Voti peggiori",
     "addon.mod_lesson.lowtime": "Tempi peggiori",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "È stato raggiunto il massimo numero di tentativi - Passaggio alla pagina successiva",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "È stato raggiunto il massimo numero di tentativi della domanda. Passaggio alla pagina successiva.",
     "addon.mod_lesson.modattemptsnoteacher": "La revisione funziona solo per gli studenti.",
     "addon.mod_lesson.modulenameplural": "Lezioni",
     "addon.mod_lesson.noanswer": "Non è stata data risposta ad una o più domande. Torna indietro e dai una risposta.",

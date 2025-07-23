@@ -829,7 +829,7 @@
     "addon.mod_lesson.loginfail": "Erro de login, por favor tente novamente...",
     "addon.mod_lesson.lowscore": "Pontuação baixa",
     "addon.mod_lesson.lowtime": "Tempo breve",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Número máximo de tentativas atingido - indo para a próxima página",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Você atingiu o número máximo de tentativas para esta questão. A lição agora seguirá para a próxima página.",
     "addon.mod_lesson.modattemptsnoteacher": "A revisão dos estudantes só é ativa para eles.",
     "addon.mod_lesson.modulenameplural": "Lições",
     "addon.mod_lesson.noanswer": "Uma ou mais questões estão sem resposta. Por favor, volte e envie uma resposta.",
