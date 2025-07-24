@@ -688,7 +688,7 @@
     "addon.mod_forum.modeflatoldestfirst": "Visualitza les respostes, començant per la més antiga",
     "addon.mod_forum.modenested": "Visualitza les respostes escalonades",
     "addon.mod_forum.modulenameplural": "Fòrums",
-    "addon.mod_forum.numdiscussions": "{{numdiscussions}} discussions",
+    "addon.mod_forum.numdiscussions": "{{numdiscussions}} debats",
     "addon.mod_forum.numreplies": "{{numreplies}} respostes",
     "addon.mod_forum.pindiscussion": "Fixa aquest debat",
     "addon.mod_forum.pinupdated": "La opció de fixar s'ha actualitzat.",
