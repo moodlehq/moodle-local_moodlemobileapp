@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "Connexion échouée, veuillez réessayer…",
     "addon.mod_lesson.lowscore": "Note la plus basse",
     "addon.mod_lesson.lowtime": "Plus courte durée",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Le nombre maximal de tentatives a été atteint - On passe à la page suivante",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Vous avez atteint le nombre maximal d’essais pour cette question. La leçon va maintenant passer à la page suivante.",
     "addon.mod_lesson.modattemptsnoteacher": "La critique par les étudiants ne fonctionne que pour les étudiants.",
     "addon.mod_lesson.modulenameplural": "Leçons",
     "addon.mod_lesson.noanswer": "Une ou plusieurs questions n’ont pas de réponse donnée. Veuillez revenir en arrière et donner une réponse.",
