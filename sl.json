@@ -2825,7 +2825,7 @@
     "core.user.detailsnotavailable": "Podrobnosti tega uporabnika niso na voljo.",
     "core.user.editingteacher": "Učitelj",
     "core.user.email": "E-poštni naslov",
-    "core.user.emailagain": "E-sporočilo (ponovno)",
+    "core.user.emailagain": "E-poštni naslov (ponovno)",
     "core.user.errorloaduser": "Napaka pri nalaganju uporabnika.",
     "core.user.firstname": "Ime",
     "core.user.idnumber": "Številka ID",

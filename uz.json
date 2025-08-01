@@ -1,5 +1,7 @@
 {
     "addon.badges.alignment": "Joylashuv",
+    "addon.badges.awardedto": "{{$a}} ga berildi",
+    "addon.badges.badgedetails": "Nishon tafsilotlari",
     "addon.badges.issueremail": "E-mail",
     "addon.badges.language": "Til",
     "addon.badges.nobadges": "Nishonlar mavjud emas.",
