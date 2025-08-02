@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "فشلت عملية الدخول، اعد المحاولة",
     "addon.mod_lesson.lowscore": "الدرجة الدنيا",
     "addon.mod_lesson.lowtime": "أقل وقت",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "تم الوصول إلى أقصى عدد مسموح به من المحاولات - الانتقال إلى الصفحة التالية",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "لقد وصلت إلى أقصى عدد مسموح به من المحاولات لهذا السؤال. سينتقل بك الدرس الآن إلى الصفحة التالية.",
     "addon.mod_lesson.modattemptsnoteacher": "معاينة الطالب تعمل فقط للطلاب",
     "addon.mod_lesson.modulenameplural": "دروس",
     "addon.mod_lesson.noanswer": "لم تُعطَ إجابة سؤال واحد أو أكثر. لطفاً، إرجع إليها وقدم لها إجابة.",
