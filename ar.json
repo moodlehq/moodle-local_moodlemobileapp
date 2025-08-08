@@ -297,7 +297,7 @@
     "addon.messages.individualconversations": "خاصة",
     "addon.messages.info": "معلومات المستخدم",
     "addon.messages.isnotinyourcontacts": "{{$a}} ليس ضمن جهات اتصالك",
-    "addon.messages.message": "الرسالة",
+    "addon.messages.message": "مراسلة",
     "addon.messages.messagenotsent": "لم يتم إرسال الرسالة. ترجى المحاولة لاحقًا.",
     "addon.messages.messagepreferences": "تفضيلات المراسلة",
     "addon.messages.messages": "الرسائل",
