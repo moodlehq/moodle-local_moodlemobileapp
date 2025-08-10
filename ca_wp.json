@@ -460,7 +460,6 @@
     "core.numwords": "{{$a}} paraules",
     "core.ok": "OK",
     "core.pagea": "Pàgina {{$a}}",
-    "core.parentlanguage": "ca",
     "core.phone": "Telèfon",
     "core.pictureof": "Imatge de {{$a}}",
     "core.policy.policyagree": "Has d’acceptar aquesta política per continuar utilitzant aquest lloc. Estàs d’acord?",
