@@ -1082,7 +1082,7 @@
     "addon.notes.warningnotenotsent": "Не получилось добавить заметку(и) к курсу {{course}}. {{error}}",
     "addon.notifications.errorgetnotifications": "Ошибка получения уведомлений.",
     "addon.notifications.markallread": "Пометить все прочитанным",
-    "addon.notifications.notificationpreferences": "Настройка уведомлений",
+    "addon.notifications.notificationpreferences": "Настройки уведомлений",
     "addon.notifications.notifications": "Уведомления",
     "addon.notifications.playsound": "Проигрывать звук",
     "addon.notifications.therearentnotificationsyet": "Уведомлений нет.",
