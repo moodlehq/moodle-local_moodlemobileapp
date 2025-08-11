@@ -2678,6 +2678,49 @@ export type CoreCourseCheckUpdatesWSResponse = {
 };
 
 /**
+ * Params of core_courseformat_get_overview_information WS.
+ *
+ * WS Description: Get the course overview information for an specific activity type.
+ */
+type CoreCourseformatGetOverviewInformationWSParams = {
+    courseid: number; // Course id.
+    modname: string; // The module name, or "resource" to get all resources overview.
+};
+
+/**
+ * Data returned by core_courseformat_get_overview_information WS.
+ *
+ * WS Description: Get the course overview information for an specific activity type.
+ */
+export type CoreCourseformatGetOverviewInformationWSResponse = {
+    courseid: number; // The ID of the course this overview table belongs to.
+    hasintegration: boolean; // Indicates if there is any integration available for this overview table.
+    headers: { // Headers.
+        name: string; // The name of the header.
+        key: string; // The key of the header, used to identify it.
+        align: string; // The text alignment of the header.
+    }[];
+    activities: { // Activities.
+        name: string; // The name of the activity.
+        modname: string; // The module name of the activity.
+        contextid: number; // The context ID of the activity.
+        cmid: number; // The course module ID of the activity.
+        url: string; // The URL of the activity, if available.
+        haserror: boolean; // Indicate if the activity has an error.
+        items: { // The items associated with the activity, exported using overviewitem_exporter.
+            key: string; // The key of the overview item, used to identify it.
+            name: string; // The name of the overview item.
+            contenttype: string; // The type of content this overview item has.
+            exportertype: string; // The class name of the exporter used to export the content of this overview item.
+            alertlabel: string; // The label for the alert associated with this overview item.
+            alertcount: string; // The count of alerts associated with this overview item.
+            contentjson: string; // The JSON encoded content data for the overview item.
+            extrajson: string; // The JSON encoded extra data for the overview item.
+        }[];
+    }[];
+};
+
+/**
  * Params of core_course_get_categories WS.
  *
  * WS Description: Return category details
@@ -4641,6 +4684,7 @@ export type AddonMessagesGetConversationWSResponse = {
         timecreated: number; // The timecreated timestamp for the message.
     }[];
     candeletemessagesforallusers?: boolean; // If the user can delete messages in the conversation for all users.
+    cansendmessagetoconversation?: boolean; // If the user can send messages in the conversation.
 };
 
 /**
@@ -4711,6 +4755,7 @@ export type AddonMessagesGetConversationBetweenUsersWSResponse = {
         timecreated: number; // The timecreated timestamp for the message.
     }[];
     candeletemessagesforallusers?: boolean; // If the user can delete messages in the conversation for all users.
+    cansendmessagetoconversation?: boolean; // If the user can send messages in the conversation.
 };
 
 /**
@@ -4911,6 +4956,7 @@ export type AddonMessagesGetConversationsWSResponse = {
             timecreated: number; // The timecreated timestamp for the message.
         }[];
         candeletemessagesforallusers?: boolean; // If the user can delete messages in the conversation for all users.
+        cansendmessagetoconversation?: boolean; // If the user can send messages in the conversation.
     }[];
 };
 
@@ -5087,6 +5133,7 @@ export type AddonMessagesGetSelfConversationWSResponse = {
         timecreated: number; // The timecreated timestamp for the message.
     }[];
     candeletemessagesforallusers?: boolean; // If the user can delete messages in the conversation for all users.
+    cansendmessagetoconversation?: boolean; // If the user can send messages in the conversation.
 };
 
 /**
