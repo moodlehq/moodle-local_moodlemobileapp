@@ -2721,6 +2721,25 @@ export type CoreCourseformatGetOverviewInformationWSResponse = {
 };
 
 /**
+ * Params of core_courseformat_log_view_overview_information WS.
+ *
+ * WS Description: Logs the course overview information page has been visited on an external application.
+ */
+type CoreCourseformatLogViewOverviewInformationWSParams = {
+    courseid: number; // Course id.
+};
+
+/**
+ * Data returned by core_courseformat_log_view_overview_information WS.
+ *
+ * WS Description: Logs the course overview information page has been visited on an external application.
+ */
+export type CoreCourseformatLogViewOverviewInformationWSResponse = {
+    status: boolean; // Status: true if success.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of core_course_get_categories WS.
  *
  * WS Description: Return category details
