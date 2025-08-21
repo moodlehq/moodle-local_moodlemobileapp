@@ -329,6 +329,7 @@
     "addon.mod_assign_submission_file.pluginname": "Fayl biriktirish",
     "addon.mod_assign_submission_onlinetext.pluginname": "Onlayn matn shaklidagi javoblar",
     "addon.mod_assign_submission_onlinetext.wordlimitexceeded": "Ushbu topshiriqqa qoʻyilgan so'zlar soniga cheklov {{$a.limit}}ga teng. Sizning javobingiz esa {{$a.count}} soʻzdan iborat. Iltimos, javobingizni yana bir bor tekshirib qayta urinib koʻring.",
+    "addon.mod_bigbluebuttonbn.view_section_title_presentation": "Taqdimot fayli",
     "addon.mod_bigbluebuttonbn.view_section_title_recordings": "Qaydlar",
     "addon.mod_book.errorchapter": "Kitob bobi o'qilishida hato ro'y berdi.",
     "addon.mod_book.modulenameplural": "Kitoblar",

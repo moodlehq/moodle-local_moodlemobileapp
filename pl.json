@@ -451,6 +451,7 @@
     "addon.mod_assign.submittedlate": "Zadanie zostało przesłane {{$a}} po terminie",
     "addon.mod_assign.submittedovertime": "Zadanie zostało przesłane {{$a}} po upływie terminu",
     "addon.mod_assign.submittedundertime": "Zadanie zostało przesłane {{$a}} w terminie",
+    "addon.mod_assign.subpagetitle": "{{$a.contextname}} - {{$a.subpage}}",
     "addon.mod_assign.syncblockedusercomponent": "ocena użytkownika",
     "addon.mod_assign.timelimit": "Limit czasu",
     "addon.mod_assign.timemodified": "Ostatnio modyfikowane",
