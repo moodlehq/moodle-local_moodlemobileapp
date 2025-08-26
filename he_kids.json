@@ -1,7 +1,7 @@
 {
     "addon.block_completionstatus.pluginname": "מצבי השלמת מרחב־הלימוד",
     "addon.block_myoverview.hiddencourses": "מרחבי לימוד מוסתרים",
-    "addon.block_myoverview.pluginname": "מרחבי הלימוד שלי",
+    "addon.block_myoverview.pluginname": "מרחבי הלמידה שלי",
     "addon.block_myoverview.title": "שם מרחב הלימוד",
     "addon.block_sitemainmenu.pluginname": "תפריט ראשי",
     "addon.blog.associatewithcourse": "פרסום ידיעת בלוג המשוייכת למרחב־לימוד זה {{$a.coursename}}",
