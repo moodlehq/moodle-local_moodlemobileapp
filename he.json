@@ -1476,6 +1476,7 @@
     "core.errordownloading": "שגיאה בהורדת קובץ",
     "core.errordownloadingsomefiles": "שגיאה בהורדת קבצי המודול. יתכן וחלק מהקבצים חסרים.",
     "core.expand": "הרחבה",
+    "core.explanationdigitalminor": "מידע זה נדרש כדי לקבוע אם גילך מעל גיל ההסכמה הדיגיטלי. זהו הגיל שבו אדם יכול להסכים לתנאים וההגבלות ולאחסון ועיבוד חוקי של הנתונים שלו.",
     "core.favourites": "מועדף",
     "core.filename": "שם הקובץ",
     "core.filenotfound": "לצערנו הקובץ לא נמצא.",
