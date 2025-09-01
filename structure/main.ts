@@ -16235,6 +16235,7 @@ type TinyPremiumGetApiKeyWSParams = {
  */
 export type TinyPremiumGetApiKeyWSResponse = {
     apikey: string; // The API key for Tiny Premium.
+    usecloud: boolean; // Whether to use the cloud version of Tiny Premium plugins or self-hosted.
 };
 
 /**
