@@ -2296,7 +2296,7 @@
     "core.grades.aggregatemean": "Média",
     "core.grades.aggregatesum": "Natural",
     "core.grades.average": "Média",
-    "core.grades.badgrade": "A nota fornecida é inválida",
+    "core.grades.badgrade": "A nota indicada é inválida",
     "core.grades.calculatedgrade": "Nota calculada",
     "core.grades.category": "Categoria",
     "core.grades.contributiontocoursetotal": "Contribuição para o total da disciplina",
