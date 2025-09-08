@@ -8761,6 +8761,8 @@ export type AddonModBigbluebuttonbnGetBigbluebuttonbnsByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         meetingid: string; // Meeting id.
         timemodified: number; // Last time the instance was modified.
     }[];
@@ -8986,6 +8988,8 @@ export type AddonModBookGetBooksByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         numbering: number; // Book numbering configuration.
         navstyle: number; // Book navigation style configuration.
         customtitles: number; // Book custom titles type.
@@ -9126,6 +9130,8 @@ export type AddonModChoiceGetChoicesByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         publish?: boolean; // If choice is published.
         showresults?: number; // 0 never, 1 after answer, 2 after close, 3 always.
         display?: number; // Display mode (vertical, horizontal).
@@ -10275,6 +10281,8 @@ export type AddonModFolderGetFoldersByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         revision: number; // Incremented when after each file changes, to avoid cache.
         timemodified: number; // Last time the folder was modified.
         display: number; // Display type of folder contents on a separate page or inline.
@@ -12390,6 +12398,8 @@ export type AddonModGlossaryGetGlossariesByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         allowduplicatedentries: number; // If enabled, multiple entries can have the same concept name.
         displayformat: string; // Display format type.
         mainglossary: number; // If enabled this glossary is a main glossary.
@@ -12876,6 +12886,8 @@ export type AddonModImscpGetImscpsByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         revision?: number; // Revision.
         keepold?: number; // Number of old IMSCP to keep.
         structure?: string; // IMSCP structure.
@@ -12933,6 +12945,8 @@ export type AddonModLabelGetLabelsByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         timemodified: number; // Last time the label was modified.
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -13683,6 +13697,8 @@ export type AddonModLtiGetLtisByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         timecreated?: number; // Time of creation.
         timemodified?: number; // Time of last modification.
         typeid?: number; // Type id.
@@ -13780,6 +13796,8 @@ export type AddonModPageGetPagesByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         content: string; // Page content.
         contentformat: number; // Content format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         contentfiles: CoreWSExternalFile[];
@@ -14195,6 +14213,8 @@ export type AddonModQuizGetQuizzesByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         timeopen?: number; // The time when this quiz opens. (0 = no restriction.).
         timeclose?: number; // The time when this quiz closes. (0 = no restriction.).
         timelimit?: number; // The time limit for quiz attempts, in seconds.
@@ -14668,6 +14688,8 @@ export type AddonModResourceGetResourcesByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         contentfiles: CoreWSExternalFile[];
         tobemigrated: number; // Whether this resource was migrated.
         legacyfiles: number; // Legacy files flag.
@@ -14776,6 +14798,8 @@ export type AddonModScormGetScormsByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         packagesize?: number; // SCORM zip package size.
         packageurl?: string; // SCORM zip package URL.
         version?: string; // SCORM version (SCORM_12, SCORM_13, SCORM_AICC).
@@ -15013,6 +15037,8 @@ export type AddonModUrlGetUrlsByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         externalurl: string; // External URL.
         display: number; // How to display the url.
         displayoptions: string; // Display options (width, height).
@@ -15258,6 +15284,8 @@ export type AddonModWikiGetWikisByCoursesWSResponse = {
         groupmode?: number; // Group mode.
         groupingid?: number; // Group id.
         lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         timecreated?: number; // Time of creation.
         timemodified?: number; // Time of last modification.
         firstpagetitle?: string; // First page title.
