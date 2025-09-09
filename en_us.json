@@ -29,5 +29,6 @@
     "core.strftimerecent": "%I:%M %p, %b %d",
     "core.strftimerecentfull": "%a, %b %d, %Y, %I:%M %p",
     "core.strftimetime": "%I:%M %p",
-    "core.thisdirection": "ltr"
+    "core.thisdirection": "ltr",
+    "workplace.catalogue.catalogue": "Catalog"
 }
