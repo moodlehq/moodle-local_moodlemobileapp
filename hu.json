@@ -1451,7 +1451,7 @@
     "core.error": "Hiba",
     "core.errordownloading": "Nem sikerült letölteni az állományt.",
     "core.expand": "Kinyitás",
-    "core.explanationdigitalminor": "Erre az adatra nagykorúsága megállapításához van szükség. A nagykorú jogosult feltételeket vállalni, adatai pedig tárolhatók és feldolgozhatók.",
+    "core.explanationdigitalminor": "Az adat annak megállapításához szükséges, hogy ön eléri-e a digitális hozzájárulási korhatárt. Ez az az életkor, melytől egy illető már önállóan jogosult a felhasználási feltételek elfogadására, és hozzájárulhat, hogy az adatait eltárolják és feldolgozzák.",
     "core.favourites": "Megjelölt",
     "core.filename": "Állománynév",
     "core.filenotfound": "Nincs meg az állomány.",
