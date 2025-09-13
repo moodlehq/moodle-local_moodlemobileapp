@@ -352,7 +352,7 @@
     "addon.mod_assign.currentattempt": "Попытка {{$a}}.",
     "addon.mod_assign.currentattemptof": "Номер этой попытки -  {{$a.attemptnumber}}. (Разрешено попыток - {{$a.maxattempts}})",
     "addon.mod_assign.currentgrade": "Текущая оценка в журнале",
-    "addon.mod_assign.cutoffdate": "Запретить отправку после",
+    "addon.mod_assign.cutoffdate": "Запретить ответы после",
     "addon.mod_assign.defaultteam": "Группа по умолчанию",
     "addon.mod_assign.duedate": "Последний срок сдачи",
     "addon.mod_assign.duedatereached": "Срок сдачи этого задания уже истек",
