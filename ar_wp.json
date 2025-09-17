@@ -434,7 +434,6 @@
     "core.numwords": "{{$a}} كلمة",
     "core.ok": "حسنا",
     "core.pagea": "صفحة {{$a}}",
-    "core.parentlanguage": "ar",
     "core.phone": "الهاتف",
     "core.pictureof": "صورة {{$a}}",
     "core.policy.policyagree": "يجب أن توافق على هذه السياسة لمواصلة استخدام هذا الموقع. هل توافق؟",
