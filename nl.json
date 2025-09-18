@@ -831,7 +831,7 @@
     "addon.mod_lesson.loginfail": "Login mislukt. Probeer nog eens...",
     "addon.mod_lesson.lowscore": "Laagste score",
     "addon.mod_lesson.lowtime": "kortste duur",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "Maximum aantal pogingen bereikt - we gaan verder naar de volgende pagina.",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Je hebt het Maximaal aantal pogingen bereikt voor deze vraag. De les gaat verder naar de volgende pagina.",
     "addon.mod_lesson.modattemptsnoteacher": "Nalezen werkt alleen voor leerlingen",
     "addon.mod_lesson.modulenameplural": "Lessen",
     "addon.mod_lesson.noanswer": "Eén of meerdere vragen zijn niet beantwoord. Ga terug en geef een antwoord.",
