@@ -5816,6 +5816,26 @@ export type AddonNotesViewNotesWSResponse = {
 };
 
 /**
+ * Params of core_output_load_fontawesome_icon_system_map WS.
+ *
+ * WS Description: Load the mapping of moodle pix names to fontawesome icon names
+ */
+type CoreOutputLoadFontawesomeIconSystemMapWSParams = {
+    themename: string; // The theme to fetch the map for.
+};
+
+/**
+ * Data returned by core_output_load_fontawesome_icon_system_map WS.
+ *
+ * WS Description: Load the mapping of moodle pix names to fontawesome icon names
+ */
+export type CoreOutputLoadFontawesomeIconSystemMapWSResponse = {
+    component: string; // The component for the icon.
+    pix: string; // Value to map the icon from.
+    to: string; // Value to map the icon to.
+}[];
+
+/**
  * Params of core_question_update_flag WS.
  *
  * WS Description: Update the flag state of a question attempt.
