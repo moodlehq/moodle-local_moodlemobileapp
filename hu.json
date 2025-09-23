@@ -90,7 +90,7 @@
     "addon.blog.blogentries": "Blogüzenetek",
     "addon.blog.entrybody": "Blogüzenet törzse",
     "addon.blog.entrytitle": "Üzenet címe",
-    "addon.blog.linktooriginalentry": "Kapcsolás az eredeti blogüzenethez",
+    "addon.blog.linktooriginalentry": "Eredeti blogbejegyzés",
     "addon.blog.noentriesyet": "Itt nincsenek látható üzenetek",
     "addon.blog.publishto": "Közzéteendő itt",
     "addon.blog.publishtonoone": "Csak én (piszkozat)",
