@@ -8,5 +8,10 @@
     "core.login.add": "Adicionar",
     "core.parentlanguage": "pt_br",
     "core.settings.accessstatement": "Declaração de acessibilidade",
-    "freemium.accept": "Aceitar"
+    "freemium.accept": "Aceitar",
+    "workplace.active": "Ativo",
+    "workplace.lookingfordifferentsite": "Procurando um site diferente?",
+    "workplace.nonproductionsitemessage": "Este é um site de não produção",
+    "workplace.tablabel": "Mais",
+    "workplace.teams.withsubpositions": "Incluir subposições"
 }
