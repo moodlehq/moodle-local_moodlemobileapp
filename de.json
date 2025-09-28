@@ -694,7 +694,7 @@
     "addon.mod_forum.pinupdated": "Die Anpinnoption wurde aktualisiert.",
     "addon.mod_forum.postaddedsuccess": "Der Beitrag wurde erfolgreich eingefügt.",
     "addon.mod_forum.postingroup": "Senden an Gruppe \"{{groupname}}\"",
-    "addon.mod_forum.postisprivatereply": "Dies ist eine private Antwort. (Trainer/nnen und Personen mit dem Recht \"Private Antworten anzeigen\" können diese ebenfalls sehen.)",
+    "addon.mod_forum.postisprivatereply": "Dies ist eine private Antwort. (Trainer/innen und Personen mit dem Recht \"Private Antworten anzeigen\" können diese ebenfalls sehen.)",
     "addon.mod_forum.posttoforum": "Beitrag absenden",
     "addon.mod_forum.posttomygroups": "Kopie an alle Gruppen senden",
     "addon.mod_forum.privatereply": "Privat antworten",
