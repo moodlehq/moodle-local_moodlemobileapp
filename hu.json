@@ -1322,6 +1322,7 @@
     "core.content": "Tartalom",
     "core.continue": "Folytatás",
     "core.course": "Kurzus",
+    "core.course.communicationroomlink": "Beszélgetés a kurzus résztvevőinek",
     "core.course.completion_automatic:done": "Kész:",
     "core.course.completion_automatic:failed": "Sikertelen:",
     "core.course.completion_automatic:todo": "Teendő:",

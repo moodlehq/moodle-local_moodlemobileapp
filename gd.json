@@ -166,6 +166,7 @@
     "core.courses.categories": "Caiteagoiridhean cùrsa",
     "core.courses.courses": "Cùrsaichean",
     "core.courses.frontpage": "Dachaigh na làraich",
+    "core.courses.ignore": "Leig seachad",
     "core.courses.mycourses": "Na cùrsaichean agam",
     "core.courses.nocoursesyet": "Chan eil cùrsaichean sam bith sa chaiteagoiridh seo.",
     "core.courses.reload": "Ath-luchdaich",
