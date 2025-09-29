@@ -3512,6 +3512,26 @@ export type CoreCourseViewCourseWSResponse = {
 };
 
 /**
+ * Params of core_course_view_module_instance_list WS.
+ *
+ * WS Description: Logs that a module instance list has been viewed on an external application.
+ */
+type CoreCourseViewModuleInstanceListWSParams = {
+    courseid: number; // Course id.
+    modname: string; // The module name, or "resource" if viewing resources list.
+};
+
+/**
+ * Data returned by core_course_view_module_instance_list WS.
+ *
+ * WS Description: Logs that a module instance list has been viewed on an external application.
+ */
+export type CoreCourseViewModuleInstanceListWSResponse = {
+    status: boolean; // Status: true if success.
+    warnings?: CoreWSExternalWarning[];
+};
+
+/**
  * Params of core_enrol_get_course_enrolment_methods WS.
  *
  * WS Description: Get the list of course enrolment methods
