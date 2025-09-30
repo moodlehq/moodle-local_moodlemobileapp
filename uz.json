@@ -21,6 +21,7 @@
     "addon.badges.nobadges": "Hozirda foydalanuvchilar olishi mumkin bo‘lgan nishonlar mavjud emas.",
     "addon.badges.norelated": "Bu nishonning bog‘liq nishonlari yo‘q.",
     "addon.badges.version": "Versiya",
+    "addon.badges.warnexpired": "(Bu nishon muddati tugagan!)",
     "addon.block_activitymodules.pluginname": "Faoliyatlar",
     "addon.block_activityresults.pluginname": "Kurs elementlari natijalari",
     "addon.block_badges.pluginname": "So'nggi nishonlarim",
