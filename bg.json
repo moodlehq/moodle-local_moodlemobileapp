@@ -1581,7 +1581,7 @@
     "core.courses.nocoursesyet": "Няма курсове в тази категория",
     "core.courses.nosearchresults": "Няма резултати",
     "core.courses.notenroled": "Вие не сте записани в този курс",
-    "core.courses.paymentrequired": "Този курс изисква заплащане за влизане.",
+    "core.courses.paymentrequired": "Този курс се заплаща задължително при записване.",
     "core.courses.reload": "Презареждане",
     "core.courses.removefromfavourites": "Не показвай този курс като отбелязан",
     "core.courses.search": "Търсене",
