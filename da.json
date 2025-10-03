@@ -691,7 +691,7 @@
     "addon.mod_forum.pinupdated": "Fastgøringsindstillingen er opdateret",
     "addon.mod_forum.postaddedsuccess": "Dit indlæg er tilføjet.",
     "addon.mod_forum.postingroup": "Slå op i gruppen \"{{gruppenavn}}\".",
-    "addon.mod_forum.postisprivatereply": "Dette er et privat svar. (Lærere og andre brugere med beføjelse til at se private svar, kan også se det.)",
+    "addon.mod_forum.postisprivatereply": "Dette er et privat svar. (Lærere og andre brugere med rettighed til at se private svar, kan også se det.)",
     "addon.mod_forum.posttoforum": "Send til forum",
     "addon.mod_forum.posttomygroups": "Send til alle grupper",
     "addon.mod_forum.privatereply": "Svar privat",
