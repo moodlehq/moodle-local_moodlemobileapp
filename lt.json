@@ -2903,7 +2903,7 @@
     "core.start": "Pradėti",
     "core.startingtime": "Pradžios laikas: {{$a}}",
     "core.storingfiles": "Saugomi failai",
-    "core.strftimedate": "%Y %B %d",
+    "core.strftimedate": "%Y m. %B %d d.",
     "core.strftimedatefullshort": "%y/%m/%d",
     "core.strftimedatemonthabbr": "%d %b %Y",
     "core.strftimedateshort": "%B %d",
