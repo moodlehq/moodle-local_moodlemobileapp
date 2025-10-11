@@ -108,7 +108,7 @@
     "addon.calendar.calendarevents": "Esdeveniments del calendari",
     "addon.calendar.calendarreminders": "Recordatoris del calendari",
     "addon.calendar.categoryevents": "Esdeveniments de categoria",
-    "addon.calendar.confirmeventdelete": "Esteu segur que voleu suprimir l'esdeveniment «{{$a}}»?",
+    "addon.calendar.confirmeventdelete": "Confirmeu que voleu suprimir l'esdeveniment «{{$a}}»?",
     "addon.calendar.confirmeventseriesdelete": "L'esdeveniment «{{$a.name}}» és part d'una sèrie. Voleu esborrar només aquest esdeveniment o bé tots els {{$a.count}} de la sèrie?",
     "addon.calendar.courseevents": "Esdeveniments del curs",
     "addon.calendar.currentmonth": "Mes actual",
