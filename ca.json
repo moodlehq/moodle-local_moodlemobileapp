@@ -792,7 +792,7 @@
     "addon.mod_lesson.attemptheader": "Intent",
     "addon.mod_lesson.attemptsremaining": "Us resten {{$a}} intents",
     "addon.mod_lesson.averagescore": "Puntuació mitjana",
-    "addon.mod_lesson.averagetime": "Temps promig",
+    "addon.mod_lesson.averagetime": "Mitjana de temps",
     "addon.mod_lesson.branchtable": "Contingut",
     "addon.mod_lesson.cannotfindattempt": "Error: no es pot trobar l'intent",
     "addon.mod_lesson.cannotfinduser": "Error: no es poden trobar els usuaris",
