@@ -1581,6 +1581,8 @@
     "core.course.manualcompletionnotsynced": "Qo'lda bajarish sinxronlashtirilmagan",
     "core.course.nocontentavailable": "Ayni paytda tarkib mavjud emas",
     "core.course.refreshcourse": "Kursni yangilang",
+    "core.course.relativedatessubmissionduedateafter": "Kurs boshlanganidan {{$a.datediffstr}} keyin",
+    "core.course.relativedatessubmissionduedatebefore": "Kurs boshlanishidan {{$a.datediffstr}} oldin",
     "core.course.section": "Bo'lim",
     "core.course.startdate": "Kurs boshlangan sana (kurs boshlanishi sanasi)",
     "core.course.studentsmust": "Talabalar bajarishi kerak",
