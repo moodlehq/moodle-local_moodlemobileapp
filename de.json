@@ -2906,7 +2906,7 @@
     "core.sent": "Gesendet",
     "core.serverconnection": "Fehler beim Verbinden zum Server: {{details}}",
     "core.settings.about": "Über die App",
-    "core.settings.accessstatement": "Aussagen zur Barrierefreiheit",
+    "core.settings.accessstatement": "Erklärung zur Barrierefreiheit",
     "core.settings.appsettings": "Einstellungen der App",
     "core.settings.appversion": "Version",
     "core.settings.cannotsyncloggedout": "Die Website kann nicht synchronisiert werden. Versuchen Sie es noch einmal, wenn Sie eingeloggt sind.",
