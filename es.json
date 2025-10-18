@@ -894,7 +894,7 @@
     "addon.mod_quiz.confirmcontinueoffline": "Este intento no se ha sincronizado desde {{$a}}. Si ha continuado este intento en otro dispositivo después de esta hora, podría perder datos.",
     "addon.mod_quiz.confirmleavequizonerror": "Ocurrió un error al guardar las respuestas. ¿Está seguro de querer abandonar el cuestionario?",
     "addon.mod_quiz.confirmstart": "El cuestionario tiene un tiempo límite de {{$a}}. Luego de iniciar, el tiempo empezará a contar y no podrá pausarse. Debe finalizarlo antes de que el tiempo termine. ¿Seguro que desea empezar ahora?",
-    "addon.mod_quiz.confirmstartheader": "Tiempo limite",
+    "addon.mod_quiz.confirmstartheader": "Tiempo límite",
     "addon.mod_quiz.connectionerror": "La conexión de red se ha perdido. (Ha fallado el guardado automático).\n\nAnote las respuestas introducidas en esta página en los últimos minutos, y trate de volver a conectarse.\n\nUna vez que la conexión se haya restablecido, sus respuestas deben ser guardados y este mensaje desaparecerá.",
     "addon.mod_quiz.continueattemptquiz": "Continuar el último intento",
     "addon.mod_quiz.continuepreview": "Continuar la previsualización anterior",
