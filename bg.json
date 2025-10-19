@@ -702,7 +702,7 @@
     "addon.mod_quiz.confirmclose": "След като веднъж предадете този опит, Вие повече няма да можете да променяте отговорите си за този опит.",
     "addon.mod_quiz.confirmstart": "Този тест е с продължителност {{$a}}. Времето започва да тече от момента, в който започнете Вашия опит. Трябва да предадете Вашия опит преди времето да изтече. Сигурни ли сте, че искате за започнете сега?",
     "addon.mod_quiz.confirmstartheader": "Тест с времеви лимит",
-    "addon.mod_quiz.continueattemptquiz": "Продължаване на последния опит",
+    "addon.mod_quiz.continueattemptquiz": "Продължаване на вашия опит",
     "addon.mod_quiz.continuepreview": "Продължаване на последния преглед",
     "addon.mod_quiz.errordownloading": "Грешка при изтегляне на изискваните данни.",
     "addon.mod_quiz.feedback": "Забележка",
