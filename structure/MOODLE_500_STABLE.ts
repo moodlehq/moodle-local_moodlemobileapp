@@ -3993,6 +3993,7 @@ export type CoreGradesGetGroupsForSelectorWSResponse = {
         id: string; // An ID for the group.
         name: string; // The full name of the group.
         groupimageurl?: string; // Group image URL.
+        participation: boolean; // Is this a participation group?.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -4279,6 +4280,7 @@ export type CoreGroupGetGroupsForSelectorWSResponse = {
         id: string; // An ID for the group.
         name: string; // The full name of the group.
         groupimageurl?: string; // Group image URL.
+        participation: boolean; // Is this a participation group?.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
