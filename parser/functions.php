@@ -194,11 +194,6 @@ function build_lang(&$language) {
                 // Prevent {0}} coming from TinyMCE strings.
                 $text = str_replace('{0}}', '{0}', $text);
             } else {
-                // @TODO: Remove that line when core.cannotconnect and core.login.invalidmoodleversion are completelly changed to use $a
-                if (($appkey == 'core.cannotconnect' || $appkey == 'core.login.invalidmoodleversion') && strpos($text, '2.4')) {
-                    echo "\n*DEBUG* Found 2.4 in $lang $appkey \n";
-                    $text = str_replace('2.4', '{{$a}}', $text);
-                }
                 $language->local++;
             }
 
