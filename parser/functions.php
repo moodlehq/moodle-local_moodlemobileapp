@@ -191,6 +191,8 @@ function build_lang(&$language) {
                 $text = preg_replace('/@@.+?@@(<br>)?\\s*/', '', $text);
                 // Prevent double.
                 $text = str_replace(['{{{', '}}}'], ['{{', '}}'], $text);
+                // Prevent {0}} coming from TinyMCE strings.
+                $text = str_replace('{0}}', '{0}', $text);
             } else {
                 // @TODO: Remove that line when core.cannotconnect and core.login.invalidmoodleversion are completelly changed to use $a
                 if (($appkey == 'core.cannotconnect' || $appkey == 'core.login.invalidmoodleversion') && strpos($text, '2.4')) {
