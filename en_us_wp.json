@@ -1,4 +1,6 @@
 {
+    "addon.badges.expirydate": "Expiration date",
+    "addon.badges.issuancedetails": "Badge expiration",
     "core.decsep": ".",
     "core.listsep": ",",
     "core.parentlanguage": "en_us",
