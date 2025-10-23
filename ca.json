@@ -2319,7 +2319,7 @@
     "core.h5p.age": "Interval d'edat",
     "core.h5p.ageDescription": "El públic objectiu d'aquest contingut. Formats d'entrada disponibles separats per comes: «1,34-45,-50,59-».",
     "core.h5p.altText": "Text alternatiu",
-    "core.h5p.author": "Autor/a",
+    "core.h5p.author": "Autor o autora",
     "core.h5p.authorcomments": "Comentaris de l'autor",
     "core.h5p.authorcommentsdescription": "Comentaris per a l'editor del contingut. (Aquest text no es publicarà com a part de la informació dels drets d'autor.)",
     "core.h5p.authorname": "Nom de l'autor",
