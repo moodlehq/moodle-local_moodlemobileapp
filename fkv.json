@@ -1,6 +1,5 @@
 {
     "core.decsep": ".",
     "core.labelsep": ":",
-    "core.listsep": ",",
-    "core.parentlanguage": "no"
+    "core.listsep": ","
 }
