@@ -298,6 +298,7 @@
     "core.now": "no",
     "core.numwords": "{{$a}} ord",
     "core.ok": "OK",
+    "core.parentlanguage": "no",
     "core.phone": "Telefon",
     "core.policy.policyagree": "Du må godta avtalen for å bruke denne nettstaden. Godtek du den?",
     "core.policy.policyagreement": "Avtale for bruk av nettstaden",

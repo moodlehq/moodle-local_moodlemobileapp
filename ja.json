@@ -801,7 +801,7 @@
     "addon.mod_lesson.congratulations": "おめでとうございます - レッスンの最後に到達しました。",
     "addon.mod_lesson.continue": "続ける",
     "addon.mod_lesson.continuetonextpage": "続けて次のページに移動します。",
-    "addon.mod_lesson.defaultessayresponse": "あなたの作文はあなたの教師によって評定されます。",
+    "addon.mod_lesson.defaultessayresponse": "あなたの作文はあなたの教師により評定されます。",
     "addon.mod_lesson.detailedstats": "詳細統計",
     "addon.mod_lesson.didnotanswerquestion": "この問題に解答していません。",
     "addon.mod_lesson.displayofgrade": "評点を表示する (学生のみ)",
