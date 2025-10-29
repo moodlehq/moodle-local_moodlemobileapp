@@ -16,6 +16,7 @@
     "core.login.accounts": "アカウント",
     "core.login.add": "ついか",
     "core.mod_glossary": "ようごしゅう",
+    "core.parentlanguage": "ja",
     "core.settings.accessstatement": "アクセシビリティせってい",
     "core.strftimedate": "%Y年 %m月 %d日",
     "core.strftimedatefullshort": "%y/%m/%d",
