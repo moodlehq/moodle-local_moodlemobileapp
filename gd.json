@@ -221,6 +221,7 @@
     "core.login.help": "Cuideachadh",
     "core.login.invaliddate": "Ceann-là ceàrr",
     "core.login.invalidemail": "Seòladh puist-dealain neo-bhrìgheil",
+    "core.login.invalidusername": "Chan fhaod an t-ainm-cleachdaidh ach caractaran beaga litir-àireamhail (litrichean agus àireamhan), fo-loidhne (_), tàthan (-), puing-stad (.) no samhla aig (@) a chleachdadh.",
     "core.login.login": "Log a-steach",
     "core.login.loginsteps": "Feumaidh tu cunntas a chruthachadh an toiseach mus ruig thu air a h-uile càil air an làrach.",
     "core.login.missingemail": "Seòladh puist-d a dhìth",
