@@ -422,6 +422,7 @@
     "addon.mod_choice.responsesa": "Javoblar: {{$a}}",
     "addon.mod_choice.responsesresultgraphheader": "Grafik ko‘rinishi",
     "addon.mod_choice.savemychoice": "Javob saqlansin",
+    "addon.mod_choice.userchoosethisoption": "Bu variantni tanlagan foydalanuvchilar",
     "addon.mod_choice.yourselection": "Sizning tanlovingiz",
     "addon.mod_data.actionsmenu": "Amallar menyusi",
     "addon.mod_data.add": "Yozuv qo'shish",
