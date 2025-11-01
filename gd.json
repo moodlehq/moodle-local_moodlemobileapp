@@ -253,6 +253,8 @@
     "core.mainmenu.logout": "Log a-mach",
     "core.maxfilesize": "Meud as motha ceadaichte do fhaidhlichean ùra: {{$a}}",
     "core.maxsizeandattachments": "Uas-mheud fhaidhle: {{$a.size}}, uas-mheud àireamh fhaidhlichean: {{$a.attachments}}",
+    "core.min": "mionaid",
+    "core.mins": "mionaidean",
     "core.minute": "mionaid",
     "core.minutes": "mionaidean",
     "core.misc": "Measgachadh",
