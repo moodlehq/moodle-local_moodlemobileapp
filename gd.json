@@ -179,7 +179,7 @@
     "core.courses.reload": "Ath-luchdaich",
     "core.courses.search": "Lorg",
     "core.courses.searchcourses": "Lorg ann an cùrsaichean",
-    "core.courses.therearecourses": "",
+    "core.courses.therearecourses": "Tha {{$a}} cùrsaichean ann",
     "core.date": "Ceann-là",
     "core.day": "là",
     "core.days": "làithean",
