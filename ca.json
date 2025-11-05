@@ -621,7 +621,7 @@
     "addon.mod_feedback.maximal": "Màxim",
     "addon.mod_feedback.minimal": "Mínim",
     "addon.mod_feedback.mode": "Mode",
-    "addon.mod_feedback.modulenameplural": "Retroalimentació",
+    "addon.mod_feedback.modulenameplural": "Retroaccions",
     "addon.mod_feedback.non_anonymous": "El nom de l'usuari es registrarà i es mostrarà amb les respostes",
     "addon.mod_feedback.non_anonymous_entries": "Entrades no anònimes ({{$a}})",
     "addon.mod_feedback.non_respondents_students": "Estudiants que no han respost ({{$a}})",
