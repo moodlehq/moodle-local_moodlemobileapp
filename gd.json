@@ -128,6 +128,8 @@
     "addon.privatefiles.files": "Faidhlichean",
     "addon.privatefiles.privatefiles": "Faidhlichean prìobhaideach",
     "addon.privatefiles.sitefiles": "Faidhlichean na làraich",
+    "addon.report_insights.incorrectlyflagged": "Air a chomharrachadh le mearachd",
+    "addon.report_insights.notuseful": "Neo-fheumail",
     "addon.storagemanager.deleteall": "Dubh às uile",
     "core.accounts": "Cunntasan",
     "core.add": "Cuir ris",
