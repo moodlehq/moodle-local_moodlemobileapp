@@ -5,6 +5,7 @@
     "addon.mod_scorm.enter": "Starta",
     "addon.mod_scorm.suspended": "Avstängd",
     "addon.storagemanager.alldata": "All data",
+    "core.course.hiddenfromstudents": "Dold för deltagare",
     "core.course.studentsmust": "Deltagare måste",
     "core.course.youmust": "Du ska",
     "core.courses.addtofavourites": "Markera som favorit",
