@@ -18495,6 +18495,9 @@ export type CoreSiteGetPublicConfigWSResponse = {
     tool_mobile_qrcodetype?: number; // QR login configuration.
     warnings?: CoreWSExternalWarning[];
     showloginform: number; // Display default login form.
+    tool_mfa_enabled?: boolean; // Whether MFA is enabled for the site.
+    enableloginrecaptcha?: boolean; // Whether login reCAPTCHA is enabled.
+    enableforgotpasswordrecaptcha?: boolean; // Whether forgot password reCAPTCHA is enabled.
 };
 
 /**
