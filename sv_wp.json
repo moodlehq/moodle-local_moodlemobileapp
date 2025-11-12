@@ -1,6 +1,7 @@
 {
     "addon.block_myoverview.allincludinghidden": "Alla (inklusive dolda)",
     "addon.block_myoverview.hiddencourses": "Dolda",
+    "addon.mod_assign.attemptreopenmethod": "Bevilja försök",
     "addon.mod_assign.markingworkflowstate": "Status arbetsflöde för bedömning",
     "addon.mod_scorm.enter": "Starta",
     "addon.mod_scorm.suspended": "Avstängd",
