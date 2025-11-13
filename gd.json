@@ -223,6 +223,7 @@
     "core.login.forcepasswordchangenotice": "Feumaidh tu am facal-faire agad atharrachadh gus dol air adhart",
     "core.login.forgotaccount": "Facal-faire air chall?",
     "core.login.help": "Cuideachadh",
+    "core.login.instructions": "Stiùireadh",
     "core.login.invaliddate": "Ceann-là ceàrr",
     "core.login.invalidemail": "Seòladh puist-dealain neo-bhrìgheil",
     "core.login.invalidusername": "Chan fhaod an t-ainm-cleachdaidh ach caractaran beaga litir-àireamhail (litrichean agus àireamhan), fo-loidhne (_), tàthan (-), puing-stad (.) no samhla aig (@) a chleachdadh.",
