@@ -1295,7 +1295,7 @@
     "core.course.completion_manual:aria:done": "{{$a}} bajarildi deb belgilangan. Bekor qilish uchun bosing.",
     "core.course.completion_manual:aria:markdone": "{{$a}} ni bajarildi deb belgilash",
     "core.course.completion_manual:done": "Bajarildi",
-    "core.course.completion_manual:markdone": "Bajarildi deb belgilash",
+    "core.course.completion_manual:markdone": "Bajarilgan deb belgilash",
     "core.course.completion_setby:auto:done": "Bajarildi: {{$a.condition}} (belgilovchi: {{$a.setby}})",
     "core.course.completion_setby:auto:todo": "Bajarilishi kerak: {{$a.condition}} (belgilovchi: {{$a.setby}})",
     "core.course.completion_setby:manual:done": "{{$a.activityname}} {{$a.setby}} tomonidan bajarildi deb belgilangan. Bekor qilish uchun bosing.",
