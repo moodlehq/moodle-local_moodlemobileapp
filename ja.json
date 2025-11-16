@@ -259,7 +259,7 @@
     "addon.enrol_self.pluginname": "自己登録",
     "addon.messageoutput_airnotifier.processorsettingsdesc": "デバイス設定",
     "addon.messageoutput_airnotifier.pushdisabledwarning": "あなたのユーザはこのサイトの通知をモバイルデバイスで受信していません。通知設定ページでモバイル通知を有効にしてください。",
-    "addon.messages.acceptandaddcontact": "承認およびコンタクトに追加する",
+    "addon.messages.acceptandaddcontact": "承認してコンタクトに追加する",
     "addon.messages.addcontact": "コンタクトに追加する",
     "addon.messages.addcontactconfirm": "本当にあなたのコンタクトに {{$a}} を追加してもよろしいですか?",
     "addon.messages.addtofavourites": "会話に星を付ける",
