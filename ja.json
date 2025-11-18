@@ -266,7 +266,7 @@
     "addon.messages.addcontactconfirm": "本当にあなたのコンタクトに {{$a}} を追加してもよろしいですか?",
     "addon.messages.addtofavourites": "会話に星を付ける",
     "addon.messages.addtoyourcontacts": "コンタクトに追加する",
-    "addon.messages.blocknoncontacts": "不明なユーザをブロックする",
+    "addon.messages.blocknoncontacts": "不明なユーザからのメッセージをブロックする",
     "addon.messages.blockuser": "ユーザをブロックする",
     "addon.messages.blockuserconfirm": "本当に {{$a}} をブロックしてもよろしいですか?",
     "addon.messages.cantblockuser": "すべてのユーザにメッセージを送信できるパーミッションのロールであるため、あなたは {{$a}} をブロックできません。",
