@@ -2034,7 +2034,7 @@
     "core.course.availablespace": "Atualmente, dispõe aproximadamente de {{available}} de espaço livre.",
     "core.course.cannotdeletewhiledownloading": "Os ficheiros não podem ser apagados enquanto a atividade está a ser descarregada. Por favor, aguarde que o descarregamento termine.",
     "core.course.changesofflinemaybelost": "Quaisquer alterações efetuadas nesta atividade enquanto estiver offline não podem ser guardadas. <br><br>Ligue o seu dispositivo à internet para evitar perder o seu progresso.",
-    "core.course.communicationroomlink": "Conversar com os participantes da displina",
+    "core.course.communicationroomlink": "Conversar com os participantes da disciplina",
     "core.course.completion_automatic:done": "Concluída:",
     "core.course.completion_automatic:failed": "Sem aprovação:",
     "core.course.completion_automatic:todo": "Por concluir:",
