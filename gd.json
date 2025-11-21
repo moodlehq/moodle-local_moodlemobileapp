@@ -1,4 +1,8 @@
 {
+    "addon.badges.alignment": "Co-thaobhadh",
+    "addon.badges.awardedto": "Air a bhuileachadh air {{$a}}",
+    "addon.badges.badgedetails": "Mion-fhios mun t-suaicheantas",
+    "addon.badges.badges": "Suaicheantasan",
     "addon.block_calendarmonth.pluginname": "Mìosachan",
     "addon.block_newsitems.pluginname": "Naidheachd as ùire",
     "addon.block_searchforums.pluginname": "Lorg sna foruman",
@@ -191,7 +195,7 @@
     "core.edit": "Deasaich",
     "core.error": "Mearachd",
     "core.expand": "Leudaich",
-    "core.explanationdigitalminor": "Tha am fiosrachadh seo deatamach gus dearbhadh a bheil thu thairis air an aois aontachaidh didseatach.  Seo an aois aig am faod neach aontachadh ri cumhaidhean agus cùmhnantan agus ris an dàta aca a bhith air a chruinneachadh agus air a chumail.",
+    "core.explanationdigitalminor": "Tha am fiosrachadh seo deatamach gus dearbhadh a bheil thu thairis air an aois aontachaidh didseatach.  Seo an aois aig am faod neach aontachadh ri cumhaichean agus cùmhnantan agus ris an dàta aca a bhith air a chruinneachadh agus air a chumail.",
     "core.favourites": "Comharraichte le rionnag",
     "core.fileuploader.more": "Barrachd",
     "core.filter": "Criathrag",
