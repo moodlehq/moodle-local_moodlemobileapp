@@ -268,7 +268,7 @@
     "addon.messages.blockuser": "ユーザをブロックする",
     "addon.messages.blockuserconfirm": "本当に {{$a}} をブロックしてもよろしいですか?",
     "addon.messages.cantblockuser": "すべてのユーザにメッセージを送信できるパーミッションのロールであるため、あなたは {{$a}} をブロックできません。",
-    "addon.messages.contactableprivacy": "受け入れるメッセージの送信元:",
+    "addon.messages.contactableprivacy": "次の送信元からメッセージを受信する:",
     "addon.messages.contactableprivacy_coursemember": "マイコンタクトおよびマイコースの誰でも",
     "addon.messages.contactableprivacy_onlycontacts": "マイコンタクトのみ",
     "addon.messages.contactableprivacy_site": "サイトの誰でも",
