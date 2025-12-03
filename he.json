@@ -394,7 +394,7 @@
     "addon.mod_assign.numberofteams": "קבוצות",
     "addon.mod_assign.numwords": "{{$a}} מילים",
     "addon.mod_assign.outof": "{{$a.current}} מתוך ס\"ה {{$a.total}}",
-    "addon.mod_assign.overdue": "<font color=\"red\">\nהמטלה באיחור של:\n{{$a}}</font>",
+    "addon.mod_assign.overdue": "המטלה באיחור של: {{$a}}",
     "addon.mod_assign.removesubmission": "מחיקת הגשה",
     "addon.mod_assign.submission": "הגשה",
     "addon.mod_assign.submissioneditable": "סטודנטים יכולים לערוך הגשה זו",

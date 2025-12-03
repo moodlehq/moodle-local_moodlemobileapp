@@ -1047,7 +1047,7 @@
     "addon.mod_wiki.titleshouldnotbeempty": "Il titolo non può essere vuoto",
     "addon.mod_wiki.viewpage": "Visualizza pagina",
     "addon.mod_wiki.wikipage": "Pagina wiki",
-    "addon.mod_wiki.wrongversionlock": "Un altro utente ha modificato questa pagina mentre la stavi modificando anche tu. Le tue modifiche son ora obsolete.",
+    "addon.mod_wiki.wrongversionlock": "Un altro utente ha modificato questa pagina mentre la stavi modificando anche tu. Le tue modifiche sono ora obsolete.",
     "addon.mod_workshop.alreadygraded": "Ha già un voto",
     "addon.mod_workshop.areainstructauthors": "Istruzioni di consegna",
     "addon.mod_workshop.areainstructreviewers": "Istruzioni per la valutazione",
