@@ -830,7 +830,7 @@
     "addon.mod_lesson.loginfail": "Giriş hatalı, lütfen tekrar deneyin...",
     "addon.mod_lesson.lowscore": "Düşük puan",
     "addon.mod_lesson.lowtime": "Düşük zaman",
-    "addon.mod_lesson.maximumnumberofattemptsreached": "En fazla uygulama sayısına ulaşıldı - Sonraki sayfaya gidiliyor",
+    "addon.mod_lesson.maximumnumberofattemptsreached": "Bu soru için deneme sınırına ulaştınız. Ders şimdi bir sonraki sayfaya geçecektir",
     "addon.mod_lesson.modattemptsnoteacher": "Öğrenci değerlendirmesi sadece öğrenciler için çalışır.",
     "addon.mod_lesson.modulenameplural": "Dersler",
     "addon.mod_lesson.noanswer": "Bir veya daha fazla soruya cevap verilmedi. Lütfen geri dönün ve bir cevap verin.",
