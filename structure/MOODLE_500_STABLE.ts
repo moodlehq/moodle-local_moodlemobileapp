@@ -2746,7 +2746,7 @@ export type CoreCourseGetContentsWSResponse = {
     availabilityinfo?: string; // Availability information.
     component?: string; // The delegate component of this section if any.
     itemid?: number; // The optional item id delegate component can use to identify its instance.
-    modules: { // List of module.
+    modules: { // List of modules.
         id: number; // Activity id.
         url?: string; // Activity url.
         name: string; // Activity module name.
@@ -2778,9 +2778,8 @@ export type CoreCourseGetContentsWSResponse = {
         }; // Activity badge to display near the name.
         customdata?: string; // Custom data (JSON encoded).
         noviewlink?: boolean; // Whether the module has no view page.
-        completion?: number; // Type of completion tracking:
-                                     // 0 means none, 1 manual, 2 automatic.
-
+        candisplay?: boolean; // Whether the module should be displayed on the course page.
+        completion?: number; // Type of completion tracking: 0 means none, 1 manual, 2 automatic.
         completiondata?: {
             state: number; // Overall completion state of this course module.
             timecompleted: number; // Course completion timestamp.
@@ -2842,9 +2841,7 @@ export type CoreCourseGetContentsWSResponse = {
             filessize: number; // Total files size.
             lastmodified: number; // Last time files were modified.
             mimetypes: string[]; // Files mime types.
-            repositorytype?: string; // The repository type for
-                                             // the main file.
-
+            repositorytype?: string; // The repository type for the main file.
         }; // Contents summary information.
     }[];
 }[];
