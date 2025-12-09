@@ -1873,6 +1873,7 @@
     "core.grades.calculatedgrade": "Hisoblangan baho",
     "core.grades.category": "Toifa",
     "core.grades.contributiontocoursetotal": "Kurs jami bahosiga hissasi",
+    "core.grades.fail": "Muvaffaqiyatsizlik",
     "core.grades.feedback": "Taqriz",
     "core.grades.gradebook": "Baholar jurnali",
     "core.grades.gradeitem": "Baholanayotgan element",
