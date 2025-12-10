@@ -18,6 +18,7 @@
     "addon.tinymce.tiny:no_color": "No color",
     "addon.tinymce.tiny:remove_color": "Remove color",
     "addon.tinymce.tiny:text_color": "Text color",
+    "assets.mimetypes.group:optimised_image": "Image files to be optimized, such as badges",
     "core.courses.enrolme": "Enroll me in this course",
     "core.decsep": ".",
     "core.firstdayofweek": "0",
