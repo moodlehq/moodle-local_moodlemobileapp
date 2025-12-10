@@ -8,6 +8,7 @@
     "addon.mod_assign.markingworkflowstatenotmarked": "Not graded",
     "addon.mod_assign.markingworkflowstatereadyforreview": "Grading completed",
     "addon.mod_quiz.marks": "Points",
+    "assets.mimetypes.group:optimised_image": "Image files to be optimized, such as badges",
     "core.courses.enrolme": "Enroll me",
     "core.decsep": ".",
     "core.firstdayofweek": "0",
