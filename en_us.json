@@ -10,6 +10,7 @@
     "addon.mod_quiz.marks": "Points",
     "assets.mimetypes.group:optimised_image": "Image files to be optimized, such as badges",
     "core.courses.enrolme": "Enroll me",
+    "core.dataprivacy.statuscancelled": "Canceled",
     "core.decsep": ".",
     "core.firstdayofweek": "0",
     "core.h5p.pddl": "Public Domain Dedication and License",
