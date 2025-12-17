@@ -1553,7 +1553,7 @@
     "assets.mimetypes.application/xhtml_xml": "מסמך XHTML",
     "assets.mimetypes.archive": "ארכיון ({{$a.EXT}})",
     "assets.mimetypes.audio": "קובץ שמע ({{$a.EXT}})",
-    "assets.mimetypes.default": "{{$a.mimetype}}\nGoogle Translate\nעזור עם זהמחרוזת המכילה סימניה",
+    "assets.mimetypes.default": "{{$a.mimetype}}",
     "assets.mimetypes.document/unknown": "קובץ",
     "assets.mimetypes.group:archive": "קבצי ארכיון",
     "assets.mimetypes.group:audio": "קבצי שמע",
