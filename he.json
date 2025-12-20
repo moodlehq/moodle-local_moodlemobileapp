@@ -100,6 +100,7 @@
     "addon.calendar.calendarreminders": "תזכורות יומן",
     "addon.calendar.categoryevents": "אירועים בקטגוריה",
     "addon.calendar.confirmeventdelete": "האם למחוק אירוע \"{{$a}}\"?",
+    "addon.calendar.confirmeventseriesdelete": "האירוע \"{{$a.name}}\" הוא חלק מסדרה. האם ברצונך למחוק רק את האירוע הזה, או את כל {{$a.count}} האירועים בסדרה?",
     "addon.calendar.courseevents": "אירועי קורס",
     "addon.calendar.currentmonth": "החודש הנוכחי",
     "addon.calendar.daynext": "היום הבא",
