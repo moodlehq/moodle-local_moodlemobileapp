@@ -7051,6 +7051,9 @@ export type CoreWebserviceGetSiteInfoWSResponse = {
                  // Only returned when limitconcurrentlogins is used.
 
     policyagreed?: number; // Whether user accepted all the policies.
+    usercanchangeconfig?: boolean; // Whether the user can change the site configuration.
+    usercanviewconfig?: boolean; // Whether the user can view the site administration tree.
+    sitesecret?: string; // The site secret, only returned to users with moodle/site:config capability (usually admins).
 };
 
 /**
@@ -13949,6 +13952,11 @@ export type AddonModQuizGetAttemptDataWSResponse = {
             maxgrade: number; // The total this grade is out of.
         }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
+        feedback?: {
+            feedbacktext?: string; // Feedback text to display (only if set).
+            feedbackformat?: number; // Feedback format (only if set).
+            feedbackinlinefiles?: CoreWSExternalFile[];
+        }; // Feedback information.
     };
     messages: string[]; // Access messages, will only be returned for users with mod/quiz:preview capability,
                  // for other users this method will throw an exception if there are messages.
@@ -14036,6 +14044,11 @@ export type AddonModQuizGetAttemptReviewWSResponse = {
             maxgrade: number; // The total this grade is out of.
         }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
+        feedback?: {
+            feedbacktext?: string; // Feedback text to display (only if set).
+            feedbackformat?: number; // Feedback format (only if set).
+            feedbackinlinefiles?: CoreWSExternalFile[];
+        }; // Feedback information.
     };
     additionaldata: {
         id: string; // Id of the data.
@@ -14422,6 +14435,11 @@ export type AddonModQuizGetUserAttemptsWSResponse = {
             maxgrade: number; // The total this grade is out of.
         }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
+        feedback?: {
+            feedbacktext?: string; // Feedback text to display (only if set).
+            feedbackformat?: number; // Feedback format (only if set).
+            feedbackinlinefiles?: CoreWSExternalFile[];
+        }; // Feedback information.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -14444,6 +14462,11 @@ type AddonModQuizGetUserBestGradeWSParams = {
 export type AddonModQuizGetUserBestGradeWSResponse = {
     hasgrade: boolean; // Whether the user has a grade on the given quiz.
     grade?: number; // The grade (only if the user has a grade).
+    feedback?: {
+        feedbacktext?: string; // Feedback text to display (only if set).
+        feedbackformat?: number; // Feedback format (only if set).
+        feedbackinlinefiles?: CoreWSExternalFile[];
+    }; // Feedback information.
     gradetopass?: number; // The grade to pass the quiz (only if set).
     warnings?: CoreWSExternalWarning[];
 };
@@ -14497,6 +14520,11 @@ export type AddonModQuizGetUserQuizAttemptsWSResponse = {
             maxgrade: number; // The total this grade is out of.
         }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
+        feedback?: {
+            feedbacktext?: string; // Feedback text to display (only if set).
+            feedbackformat?: number; // Feedback format (only if set).
+            feedbackinlinefiles?: CoreWSExternalFile[];
+        }; // Feedback information.
     }[];
     warnings?: CoreWSExternalWarning[];
 };
@@ -14612,6 +14640,11 @@ export type AddonModQuizStartAttemptWSResponse = {
             maxgrade: number; // The total this grade is out of.
         }[];
         gradednotificationsenttime?: number; // Time when the student was notified that manual grading of their attempt was complete.
+        feedback?: {
+            feedbacktext?: string; // Feedback text to display (only if set).
+            feedbackformat?: number; // Feedback format (only if set).
+            feedbackinlinefiles?: CoreWSExternalFile[];
+        }; // Feedback information.
     };
     warnings?: CoreWSExternalWarning[];
 };
