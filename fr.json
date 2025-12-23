@@ -3004,7 +3004,7 @@
     "core.site": "Site",
     "core.sitehome.sitehome": "Accueil du site",
     "core.sitehome.sitenews": "Annonces du site",
-    "core.sitemaintenance": "Ce site est actuellement en maintenance. Il est donc temporairement non disponible",
+    "core.sitemaintenance": "Ce site est en cours de maintenance, et donc temporairement non disponible",
     "core.sitenotfoundhelp": "Impossible de trouver le site indiqué. Veuillez contrôler d’éventuelles fautes de frappe ou réessayer plus tard. Si ce message persiste, contactez votre institution.",
     "core.siteunavailablehelp": "Le site « {{site}} » n’est actuellement pas disponible. Veuillez réessayer plus tard ou contacter votre institution.",
     "core.size": "Taille",
