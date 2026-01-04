@@ -6,7 +6,7 @@
     "addon.badges.bendorsement": "Потвърждение",
     "addon.badges.claimcomment": "Коментар за одобрение",
     "addon.badges.claimid": "URL за потвърждаваща организация",
-    "addon.badges.contact": "Контакт",
+    "addon.badges.contact": "Имейл",
     "addon.badges.course": "Курс: {{$a}}",
     "addon.badges.dateawarded": "Дата на издаване",
     "addon.badges.expired": "Просрочен",
