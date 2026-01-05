@@ -305,7 +305,7 @@
     "addon.messages.mutedconversation": "ミュート済み会話",
     "addon.messages.newmessage": "新しいメッセージ",
     "addon.messages.newmessages": "新しいメッセージ",
-    "addon.messages.nocontactrequests": "コンタクトリストはありません。",
+    "addon.messages.nocontactrequests": "コンタクトリクエストはありません。",
     "addon.messages.nocontactsgetstarted": "コンタクトなし",
     "addon.messages.nofavourites": "星付きの会話はありません。",
     "addon.messages.nogroupconversations": "グループ会話なし",
