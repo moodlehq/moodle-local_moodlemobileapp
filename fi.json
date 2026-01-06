@@ -2470,7 +2470,7 @@
     "core.policy.backtotop": "Takaisin ylös",
     "core.policy.consentpagetitle": "Suostumus",
     "core.policy.contactdpo": "Jos sinulla on kysyttävää käytänteistä, ota yhteyttä tietosuojavastaavaan.",
-    "core.policy.idontagree": "En hyväksy: {{$a}}.",
+    "core.policy.idontagree": "En hyväksy: {{$a}}",
     "core.policy.mustagreetocontinue": "Ennen kuin voit jatkaa sinun täytyy hyväksyä kaikki nämä käytänteet.",
     "core.policy.policiesagreements": "Käytänteet ja suostumukset",
     "core.policy.policyagree": "Sinun täytyy hyväksyä tämä käyttösopimus voidaksesi jatkaa sivun käyttöä. Hyväksytkö käyttösopimuksen?",
