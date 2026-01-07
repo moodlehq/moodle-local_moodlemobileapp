@@ -1152,7 +1152,7 @@
     "addon.privatefiles.files": "Dateien",
     "addon.privatefiles.privatefiles": "Meine Dateien",
     "addon.privatefiles.sitefiles": "Dateien der Website",
-    "addon.qtype_essay.maxwordlimitboundary": "Diese Frage darf mit höchstens {{$a.limit}} Wörtern beantwortet werden, Sie versuchen aber {{$a.count}} Wörter einzureichen. Formulieren Sie Ihre Antwort kürzer und versuchen Sie es nochmal.",
+    "addon.qtype_essay.maxwordlimitboundary": "Diese Frage darf mit höchstens {{$a.limit}} Wörtern beantwortet werden. Sie versuchen aber {{$a.count}} Wörter einzureichen. Formulieren Sie Ihre Antwort kürzer und versuchen Sie es nochmal.",
     "addon.qtype_essay.minwordlimitboundary": "Die Antwort auf diese Frage muss mindestens {{$a.limit}} Wörter lang sein, Sie versuchen aber {{$a.count}} Wörter einzureichen. Formulieren Sie ihre Antwort länger und versuchen Sie es nochmal.",
     "addon.qtype_ordering.moved": "{{$a.item}} bewegt. Neue Position: {{$a.position}} von {{$a.total}}.",
     "addon.report_insights.actionsaved": "Ihr Feedback zu '{{$a}}' wurde gespeichert.",

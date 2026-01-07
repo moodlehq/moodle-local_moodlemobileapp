@@ -287,7 +287,7 @@
     "addon.privatefiles.couldnotloadfiles": "Die Dateiliste kann nicht geladen werden.",
     "addon.privatefiles.emptyfilelist": "Keine Dateien zum Anzeigen",
     "addon.privatefiles.erroruploadnotworking": "Leider ist es im Moment nicht möglich, Dateien auf deine Website hochzuladen.",
-    "addon.qtype_essay.maxwordlimitboundary": "Diese Frage darf mit höchstens {{$a.limit}} Wörtern beantwortet werden, du versuchst aber {{$a.count}} Wörter einzureichen. Formuliere deine Antwort kürzer und versuche es nochmal.",
+    "addon.qtype_essay.maxwordlimitboundary": "Diese Frage darf mit höchstens {{$a.limit}} Wörtern beantwortet werden. Du versuchst aber {{$a.count}} Wörter einzureichen. Formuliere deine Antwort kürzer und versuche es nochmal.",
     "addon.qtype_essay.minwordlimitboundary": "Die Antwort auf diese Frage muss mindestens {{$a.limit}} Wörter lang sein, du versuchst {{$a.count}} Wörter einzureichen. Bitte formuliere deine Antwort länger und versuche es nochmal.",
     "addon.storagemanager.confirmdeleteallsitedata": "Alle von der Website heruntergeladenen Daten löschen?",
     "addon.storagemanager.confirmdeletecourses": "Heruntergeladenen Daten aus allen Kursen löschen?",
