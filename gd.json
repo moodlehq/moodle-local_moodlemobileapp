@@ -45,7 +45,7 @@
     "addon.calendar.allday": "Fad an là",
     "addon.calendar.calendar": "Mìosachan",
     "addon.calendar.categoryevents": "Tachartasan chaiteagoiridh",
-    "addon.calendar.confirmeventdelete": "A bheil thu cinnteach gu bheil thu airson an tachartas \"{{$a}}\" a dhubhadh às?",
+    "addon.calendar.confirmeventdelete": "A bheil thu da-rìreabh airson an tachartas \"{{$a}}\" a dhubhadh às?",
     "addon.calendar.confirmeventseriesdelete": "Tha an tachartas \"{{$a.name}}\" na phàirt de shreath.  An e an tachartas seo a-mhàin a tha thu airson a dhubhadh às, no na {{$a.count}} tachartasan uile san t-sreath?",
     "addon.calendar.courseevents": "Tachartasan a' chùrsa",
     "addon.calendar.daynext": "An ath-là",
