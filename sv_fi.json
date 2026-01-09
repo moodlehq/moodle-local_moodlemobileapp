@@ -76,8 +76,6 @@
     "addon.enrol_guest.guestaccess_withpassword": "Inträde för gästanvändare",
     "addon.enrol_self.password": "Kursnyckel",
     "addon.enrol_self.pluginname": "Självregistrering",
-    "addon.messages.blocknoncontacts": "Blockera alla meddelanden från personer som inte finns på min kontaktlista",
-    "addon.messages.type_search": "Sökresultat",
     "addon.messages.useentertosend": "Använd <em>Enter</em> för att skicka",
     "addon.mod_assign.addsubmission": "Sänd in svar",
     "addon.mod_assign.attemptreopenmethod_untilpass": "Automatiskt tills godkänt",

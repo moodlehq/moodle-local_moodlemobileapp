@@ -15,6 +15,7 @@
     "addon.mod_scorm.notattempted": "No se ha intentado",
     "addon.mod_scorm.organizations": "Organizaciones",
     "addon.mod_scorm.passed": "Pasado",
+    "core.activities": "Actividades",
     "core.decsep": ",",
     "core.labelsep": ":",
     "core.listsep": ";",

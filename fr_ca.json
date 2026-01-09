@@ -1,7 +1,6 @@
 {
     "addon.coursecompletion.required": "Requis",
     "addon.coursecompletion.status": "Statuts",
-    "addon.messages.type_search": "Résultats de la recherche",
     "addon.mod_assign.applytoteam": "Appliquer les notes et la rétroaction à tout le groupe",
     "addon.mod_assign.feedback": "Rétroaction",
     "addon.mod_assign.numwords": "{{$a}} mots",
@@ -17,6 +16,7 @@
     "addon.privatefiles.files": "Fichiers",
     "addon.privatefiles.sitefiles": "Fichiers du site",
     "addon.storagemanager.deleteall": "Tout effacer",
+    "core.activities": "Activités",
     "core.add": "Ajouter",
     "core.all": "Tout",
     "core.allgroups": "Tous les groupes",

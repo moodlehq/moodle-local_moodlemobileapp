@@ -4,7 +4,6 @@
     "addon.calendar.invalidtimedurationuntil": "The date and time ye selected for duration until is before the start time of the event. Please correct this before proceeding.",
     "addon.calendar.nopermissiontoupdatecalendar": "Sorry, but ye do not currently have permissions to update calendar event",
     "addon.coursecompletion.nottracked": "Ye are currently not being tracked by completion in this course",
-    "addon.messages.nousersfound": "Nay users found",
     "addon.mod_assign.confirmsubmission": "Are ye sure ye want to submit yer work for grading? Ye will not be able to make any more changes.",
     "addon.mod_assign.noonlinesubmissions": "This assignment does not require ye to submit anything online",
     "addon.mod_assign.submitassignment_help": "Once this assignment is submitted ye will not be able to make any more changes.",
