@@ -431,7 +431,7 @@
     "addon.mod_assign.outof": "{{$a.current}} de {{$a.total}}",
     "addon.mod_assign.overdue": "La tasca ha vençut fa: {{$a}}",
     "addon.mod_assign.removesubmission": "Suprimeix la tramesa",
-    "addon.mod_assign.removesubmissionconfirm": "Confirmeu que voleu suprimir les dades de la tramesa?",
+    "addon.mod_assign.removesubmissionconfirm": "Confirmeu que voleu suprimir la vostra tramesa?",
     "addon.mod_assign.removesubmissionconfirmwithtimelimit": "Confirmeu que voleu eliminar la vostra tramesa? Tingueu en compte que això no restablirà el vostre límit de temps.",
     "addon.mod_assign.submission": "Tramesa",
     "addon.mod_assign.submissioneditable": "L'estudiant pot editar aquesta tramesa",
