@@ -11074,6 +11074,7 @@ export type AddonModForumGetForumsByCoursesWSResponse = {
     lockdiscussionafter?: number; // After what period a discussion is locked.
     istracked?: boolean; // If the user is tracking the forum.
     unreadpostscount?: number; // The number of unread posts for tracked forums.
+    showimmediately?: boolean; // Whether to show replies immediately in a Q&A forum.
 }[];
 
 /**
