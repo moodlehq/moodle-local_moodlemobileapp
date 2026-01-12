@@ -1899,6 +1899,7 @@
     "core.grades.lettergrade": "Harfli baho",
     "core.grades.manualitem": "Qo‘lda kiritiladigan element",
     "core.grades.nogradesreturned": "Baholar yo'q",
+    "core.grades.nooutcome": "Natija yo‘q",
     "core.grades.notgraded": "Baholanmagan",
     "core.grades.outcome": "Natija",
     "core.grades.pass": "O‘tish",
