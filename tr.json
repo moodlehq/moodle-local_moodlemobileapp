@@ -2035,6 +2035,7 @@
     "core.course.confirmpartialdownloadsize": "<strong> En azından </strong> {{size}} dosyasını indirmek üzeresiniz. {{availableSpace}} Devam etmek istediğinizden emin misiniz?",
     "core.course.couldnotloadsectioncontent": "Bölüm içeriği yüklenemedi. Lütfen daha sonra tekrar deneyiniz.",
     "core.course.couldnotloadsections": "Bölümler yüklenemedi. Lütfen daha sonra tekrar deneyiniz.",
+    "core.course.course:viewoverview": "Etkinliklere genel bakış",
     "core.course.courseindex": "Kurs dizini",
     "core.course.coursesummary": "Kurs özeti",
     "core.course.done": "Yapıldı",
