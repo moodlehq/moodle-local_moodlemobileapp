@@ -1554,7 +1554,7 @@
     "core.completion-alt-manual-y": "Completada: {{$a}}. Seleccioneu-lo per marcar-ho com a no completada.",
     "core.completion-alt-manual-y-override": "Completada: {{$a.modname}} (establert per {{$a.overrideuser}}). Seleccioneu-ho per a marcar-ho com a no completada.",
     "core.confirmcanceledit": "Confirmeu que voleu sortir d'aquesta pàgina? Tots els canvis fets es perdran.",
-    "core.confirmdeletefile": "Esteu segur que voleu suprimir el fitxer?",
+    "core.confirmdeletefile": "Confirmeu que voleu suprimir el fitxer?",
     "core.confirmleaveunknownchanges": "Confirmeu que voleu abandonar aquesta pàgina? Els canvis que tingueu per desar es perdran.",
     "core.confirmloss": "N'esteu segur? Es perdran tots els canvis.",
     "core.confirmopeninbrowser": "Voleu obrir-ho al navegador?",
