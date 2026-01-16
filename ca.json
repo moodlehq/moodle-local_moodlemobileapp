@@ -1968,7 +1968,7 @@
     "core.completion-alt-manual-n-override": "No completada: {{$a.modname}} (establert per {{$a.overrideuser}}). Seleccioneu-ho per a marcar-ho com a completada.",
     "core.completion-alt-manual-y": "Completada: {{$a}}. Seleccioneu-lo per marcar-ho com a no completada.",
     "core.completion-alt-manual-y-override": "Completada: {{$a.modname}} (establert per {{$a.overrideuser}}). Seleccioneu-ho per a marcar-ho com a no completada.",
-    "core.confirmdeletefile": "Esteu segur que voleu suprimir el fitxer?",
+    "core.confirmdeletefile": "Confirmeu que voleu suprimir el fitxer?",
     "core.confirmleavepagedescription": "Els canvis no desats es perdran.",
     "core.confirmleavepagetitle": "Voleu sortir de la pàgina?",
     "core.confirmloss": "N'esteu segur? Es perdran tots els canvis.",
