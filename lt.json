@@ -2362,7 +2362,7 @@
     "core.sending": "Siunčiama",
     "core.serverconnection": "Klaida jungiantis prie serverio: {{details}}",
     "core.settings.about": "Apie",
-    "core.settings.accessstatement": "Pritaikomumo patvirtinimas",
+    "core.settings.accessstatement": "Prieinamumo patvirtinimas",
     "core.settings.appsettings": "Programėlės nustatymai",
     "core.settings.appversion": "Programėlės versija",
     "core.settings.cannotsyncoffline": "Svetainės sinchronizacija nepavyko, nes jūsų įrenginys neprijungtas prie interneto.",
