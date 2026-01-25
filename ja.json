@@ -312,7 +312,7 @@
     "addon.messages.pendingcontactrequests": "{{$a}} 件の保留コンタクトリクエストがあります。",
     "addon.messages.removecontact": "コンタクトから削除する",
     "addon.messages.removecontactconfirm": "本当にあなたのコンタクトから {{$a}} を削除してもよろしいですか?",
-    "addon.messages.removefromfavourites": "会話から星を解除する",
+    "addon.messages.removefromfavourites": "会話の星を解除する",
     "addon.messages.removefromyourcontacts": "コンタクトから削除する",
     "addon.messages.requests": "リクエスト",
     "addon.messages.requirecontacttomessage": "あなたがメッセージを送信できるようにするには {{$a}} にコンタクトへの追加をリクエストする必要があります。",

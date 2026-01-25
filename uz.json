@@ -736,6 +736,8 @@
     "addon.mod_lesson.or": "YOKI",
     "addon.mod_lesson.overview": "Ko'zdan kechirish",
     "addon.mod_lesson.preview": "Ko'rib chiqish",
+    "addon.mod_lesson.progressbarteacherwarning2": "Siz ushbu darsni tahrirlay olganingiz sababli progres panelini ko‘ra olmaysiz",
+    "addon.mod_lesson.progresscompleted": "Siz darsning {{$a}} fozini yakunladingiz",
     "addon.mod_lesson.question": "Savol",
     "addon.mod_lesson.rawgrade": "Qayta ishlanmagan baho",
     "addon.mod_lesson.reports": "Hisobotlar",
