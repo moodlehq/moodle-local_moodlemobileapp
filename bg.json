@@ -1540,6 +1540,8 @@
     "core.course.insufficientavailablequota": "Вашето устройство не може да намери място, за да запази това изтегляне. Може би е използвало място за обновяване на приложенията и системата си. Моля, освободете място преди да опитате пак.",
     "core.course.insufficientavailablespace": "Вие се опитвате да изтеглите {{size}}. Това няма да остави свободно място за нормална работа на устройството. Моля, освободете място преди да опитате пак.",
     "core.course.nocontentavailable": "В момента няма достъпно съдържание.",
+    "core.course.overview_info": "Преглед на всички дейности в курса, с дати и друга информация.",
+    "core.course.overview_missing_title": "Информацията за {{$a}} не е налична.",
     "core.course.refreshcourse": "Опресняване на курса",
     "core.course.relativedatessubmissionduedateafter": "{{$a.datediffstr}} след началото на курса",
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} преди началото на курса",
