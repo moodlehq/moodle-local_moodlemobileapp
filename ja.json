@@ -318,7 +318,7 @@
     "addon.messages.requirecontacttomessage": "あなたがメッセージを送信できるようにするには {{$a}} にコンタクトへの追加をリクエストする必要があります。",
     "addon.messages.searchcombined": "人およびメッセージを検索する",
     "addon.messages.selfconversation": "パーソナルスペース",
-    "addon.messages.selfconversationdefaultmessage": "後でアクセスするため、下書きメッセージ、リンク、ノート等を保存します。",
+    "addon.messages.selfconversationdefaultmessage": "下書きメッセージ、リンク、ノート等を保存して後でアクセスできるようにします。",
     "addon.messages.sendcontactrequest": "コンタクトリクエストを送信する",
     "addon.messages.showdeletemessages": "メッセージ削除を表示する",
     "addon.messages.unabletomessage": "あなたはこのユーザにメッセージを送信できません。",
