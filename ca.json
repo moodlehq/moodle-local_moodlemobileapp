@@ -3123,7 +3123,7 @@
     "core.wanttochangesite": "Voleu canviar de lloc o tancar la sessió?",
     "core.warningofflinedatadeleted": "Les dades fora de línia de {{component}} «{{name}}» s'han eliminat. {{error}}",
     "core.warningofflinedatadeletedreason": "S'han fet canvis més recents en aquesta activitat des d'un dispositiu diferent.",
-    "core.warnopeninbrowser": "<p>Esteu a punt de sortir de l'aplicació per obrir l'URL següent al navegador del vostre dispositiu. Voleu continuar?</p>\n<p><b>{{url}}</b></p>",
+    "core.warnopeninbrowser": "<p>Ara sortireu de l'aplicació per obrir l'URL següent al navegador del vostre dispositiu. Voleu continuar?</p>\n<p><b>{{url}}</b></p>",
     "core.week": "Setmana",
     "core.weeks": "setmanes",
     "core.whatisyourage": "Quants anys teniu?",
