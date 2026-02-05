@@ -236,6 +236,7 @@
     "addon.coursecompletion.pending": "Kutilmoqda",
     "addon.coursecompletion.required": "Zaruriylar",
     "addon.coursecompletion.requiredcriteria": "Talab qilinadigan mezonlar",
+    "addon.coursecompletion.requirement": "Talab",
     "addon.coursecompletion.status": "Status",
     "addon.coursecompletion.viewcoursereport": "Kurs hisobotini ko‘rish",
     "addon.enrol_guest.guestaccess_withoutpassword": "Mehmon kirishi",
