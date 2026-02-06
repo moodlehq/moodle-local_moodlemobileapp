@@ -2923,7 +2923,7 @@
     "core.settings.cordovadeviceuuid": "CordovaデバイスUUID",
     "core.settings.cordovaversion": "Cordovaバージョン",
     "core.settings.currentlanguage": "現在の言語",
-    "core.settings.debugdisplay": "デバックメッセージを表示する",
+    "core.settings.debugdisplay": "デバッグメッセージを表示する",
     "core.settings.debugdisplaydescription": "この設定を有効にした場合、可能であればエラーモーダルはエラーに関する詳細データを表示します。",
     "core.settings.developeroptions": "開発者オプション",
     "core.settings.deviceinfo": "デバイス情報",
