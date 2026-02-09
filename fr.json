@@ -3199,7 +3199,7 @@
     "freemium.nottoday": "Pas aujourd’hui",
     "freemium.qrlogindisabled": "L’authentification dans l’app avec un code QR n’est pas activée pour le site : <br><br>{{url}}",
     "freemium.qrloginexpiredkey": "Le code QR est échu. Veuillez actualiser la page avec le code QR et le re-scanner.",
-    "freemium.qrloginipmismatch": "L’appareil que vous utiliser pour vous connecter ne semble pas être dans le même réseau que l’appareil qui affiche le code QR. Veuillez vous assurer que les deux appareils sont connectés au même réseau (p. ex. même réseau Wi-Fi).<br><br>Si l’erreur persiste, veuillez contacter l’administrateur du site.",
+    "freemium.qrloginipmismatch": "L’appareil que vous utilisez pour vous connecter ne semble pas être dans le même réseau que l’appareil qui affiche le code QR. Veuillez vous assurer que les deux appareils sont connectés au même réseau (p. ex. même réseau Wi-Fi).<br><br>Si l’erreur persiste, veuillez contacter l’administrateur du site.",
     "freemium.ratetheapp": "Avez-vous du plaisir avec notre app ?",
     "freemium.ratetheapp_feedbackko": "Dites-nous ce qui n’a pas marché",
     "freemium.ratetheapp_feedbackmessage": "Votre feedback sera anonyme",
