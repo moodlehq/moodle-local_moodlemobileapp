@@ -346,7 +346,7 @@
     "addon.messages.wouldliketocontactyou": "あなたへのコンタクト希望",
     "addon.messages.you": "あなた:",
     "addon.messages.youhaveblockeduser": "あなたはこのユーザをブロックしました。",
-    "addon.messages.yourcontactrequestpending": "あなたのコンタクトリクエストは {{$a}} により保留されています。",
+    "addon.messages.yourcontactrequestpending": "あなたのコンタクトリクエストは {{$a}} により保留中です。",
     "addon.mod_assign.acceptsubmissionstatement": "提出時宣誓文を承認してください。",
     "addon.mod_assign.addattempt": "別の提出を許可する",
     "addon.mod_assign.addnewattempt": "新しい提出を追加する",

@@ -2150,7 +2150,7 @@
     "core.login.or": "LUB",
     "core.login.password": "Hasło",
     "core.login.passwordforgotten": "Zapomniane hasło",
-    "core.login.passwordforgotteninstructions2": "Aby zresetować hasło, wprowadź poniżej swoją nazwę użytkownika lub adres e-mail. Jeżeli uda nam się znaleźć Twoje dane w bazie danych, zostanie wysłana wiadomość na Twój adres e-mail z instrukcją jak uzyskać ponownie dostęp.",
+    "core.login.passwordforgotteninstructions2": "Aby zresetować hasło, wprowadź poniżej <i>nazwę użytkownika</i> <b>LUB</b> <i>adres e-mail</i>.\n<br><br> Jeżeli uda nam się znaleźć Twoje dane w bazie danych, zostanie wysłana wiadomość na Twój adres e-mail z instrukcją, jak uzyskać ponownie dostęp.",
     "core.login.passwordrequired": "Hasło jest wymagane",
     "core.login.potentialidps": "Zaloguj się używając swojego konta:",
     "core.login.profileinvaliddata": "Niewłaściwa wartość",
