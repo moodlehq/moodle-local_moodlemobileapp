@@ -2748,7 +2748,7 @@
     "freemium.subscriptionfeature_disabled": "Deshabilitado",
     "freemium.subscriptionfeature_enabled": "Habilitado",
     "freemium.subscriptionfeature_exceeded_customlanguagestrings": "{{ overflowCount }} cadenas de texto de idioma personalizadas están siendo ignoradas",
-    "freemium.subscriptionfeature_exceeded_custommenuitems": "{{ overflowCount }} {{ overflowCount }} elementos personalizados de menú están siendo ignorados",
+    "freemium.subscriptionfeature_exceeded_custommenuitems": "{{ overflowCount }} elementos personalizados de menú están siendo ignorados",
     "freemium.subscriptionfeature_exceeded_disabledfeatures": "{{ overflowCount }} características deshabilitadas configuradas todavía están habilitadas",
     "freemium.subscriptionfeature_exceeded_remotethemes": "Su tema personalizado no está siendo aplicado",
     "freemium.subscriptionfeature_exceeded_sitelogo": "Su logo del sitio no está siendo aplicado",
