@@ -2011,7 +2011,7 @@
     "core.course.communicationroomlink": "Bate-papo com os participantes do curso",
     "core.course.completion_automatic:done": "Feito:",
     "core.course.completion_automatic:failed": "Falhou:",
-    "core.course.completion_automatic:todo": "A fazer:",
+    "core.course.completion_automatic:todo": "Tarefas:",
     "core.course.completion_manual:aria:done": "{{$a}} está marcado como concluído. Pressione para desfazer.",
     "core.course.completion_manual:aria:markdone": "Marcar {{$a}} como feito",
     "core.course.completion_manual:done": "Concluído",
