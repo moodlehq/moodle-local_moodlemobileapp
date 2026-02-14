@@ -1085,6 +1085,8 @@
     "addon.privatefiles.files": "Fayllar",
     "addon.privatefiles.privatefiles": "Shaxsiy fayllar",
     "addon.privatefiles.sitefiles": "Sayt fayllari",
+    "addon.qtype_essay.maxwordlimitboundary": "Bu savol uchun so'z chegarasi {{$a.limit}} so'zdan iborat va siz {{$a.count}} so'zni yuborishga harakat qilyapsiz. Iltimos, javobingizni qisqartiring va qaytadan urinib ko'ring.",
+    "addon.qtype_essay.minwordlimitboundary": "Bu savolga kamida {{$a.limit}} so'zdan iborat javob kerak va siz {{$a.count}} so'zni yuborishga harakat qilyapsiz. Iltimos, javobingizni kengaytiring va qaytadan urinib ko'ring.",
     "addon.qtype_ordering.moved": "{{$a.item}} siljitildi. Yangi holati: {{$a.position}} / {{$a.total}}.",
     "addon.report_insights.fixedack": "Qabul qilish",
     "addon.report_insights.incorrectlyflagged": "Notoʻgʻri belgilangan",
