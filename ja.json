@@ -1478,7 +1478,7 @@
     "assets.mimetypes.group:archive": "アーカイブファイル",
     "assets.mimetypes.group:audio": "オーディオファイル",
     "assets.mimetypes.group:document": "ドキュメントファイル",
-    "assets.mimetypes.group:html_audio": "ブラウザでネイティブにサポートされるオーディオファイル",
+    "assets.mimetypes.group:html_audio": "ブラウザがネイティブにサポートするオーディオファイル",
     "assets.mimetypes.group:html_track": "HTML trackファイル",
     "assets.mimetypes.group:html_video": "ブラウザでネイティブにサポートされるビデオオファイル",
     "assets.mimetypes.group:image": "イメージファイル",
