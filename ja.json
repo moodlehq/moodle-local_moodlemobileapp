@@ -1918,7 +1918,7 @@
     "assets.mimetypes.group:audio": "オーディオファイル",
     "assets.mimetypes.group:document": "ドキュメントファイル",
     "assets.mimetypes.group:html_audio": "ブラウザがネイティブにサポートするオーディオファイル",
-    "assets.mimetypes.group:html_track": "HTML trackファイル",
+    "assets.mimetypes.group:html_track": "HTMLトラックファイル",
     "assets.mimetypes.group:html_video": "ブラウザでネイティブにサポートされるビデオオファイル",
     "assets.mimetypes.group:image": "イメージファイル",
     "assets.mimetypes.group:media_source": "ストリーミングメディア",
