@@ -1483,7 +1483,7 @@
     "assets.mimetypes.group:html_video": "ブラウザでネイティブにサポートされるビデオファイル",
     "assets.mimetypes.group:image": "イメージファイル",
     "assets.mimetypes.group:media_source": "ストリーミングメディア",
-    "assets.mimetypes.group:optimised_image": "最適化するイメージファイル (バッジ等)",
+    "assets.mimetypes.group:optimised_image": "最適化対象イメージファイル (バッジ等)",
     "assets.mimetypes.group:presentation": "プレゼンテーションファイル",
     "assets.mimetypes.group:sourcecode": "ソースコード",
     "assets.mimetypes.group:spreadsheet": "スプレッドシートファイル",
