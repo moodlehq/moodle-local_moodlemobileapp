@@ -1,5 +1,17 @@
 {
+    "addon.mod_forum.advanced": "Avançat",
+    "core.add": "Ajustar",
+    "core.agelocationverification": "Verificacion de l’edat e dau luòc",
+    "core.all": "Totei(s)",
+    "core.allgroups": "Totei lei gropes",
+    "core.allparticipants": "Totei lei participants",
+    "core.back": "Tornar",
+    "core.comments.addcomment": "Ajustar un comentari…",
+    "core.courses.availablecourses": "Cors disponibles",
     "core.decsep": ".",
     "core.labelsep": ":",
-    "core.listsep": ","
+    "core.listsep": ",",
+    "core.login.add": "Ajustar",
+    "core.user.address": "Adreiça",
+    "freemium.accept": "Acceptar"
 }
