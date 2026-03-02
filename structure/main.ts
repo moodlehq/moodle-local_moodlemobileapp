@@ -8948,6 +8948,7 @@ export type AddonModBigbluebuttonbnMeetingInfoWSResponse = {
     participantplural?: boolean; // Several participants ?.
     canjoin: boolean; // Can join.
     ismoderator: boolean; // Is moderator.
+    usermustwaittojoin?: boolean; // User must wait to join.
     presentations: {
         url: string; // Presentation URL.
         iconname: string; // Icon name.
