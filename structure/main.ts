@@ -9145,6 +9145,10 @@ export type AddonModChoiceGetChoiceResultsWSResponse = {
         percentageamount: number; // Percentage of users answers.
     }[];
     warnings?: CoreWSExternalWarning[];
+    userresponse: {
+        optionid: number; // Option id.
+        text: string; // Text of the choice option.
+    }[];
 };
 
 /**
