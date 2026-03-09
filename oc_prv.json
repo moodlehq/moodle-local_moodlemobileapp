@@ -10,6 +10,8 @@
     "core.block.blocks": "Blòts",
     "core.cancel": "Anullar",
     "core.category": "Categoria",
+    "core.choose": "Chausir",
+    "core.choosedots": "Chausir…",
     "core.comments.addcomment": "Ajustar un comentari…",
     "core.courses.availablecourses": "Cors disponibles",
     "core.courses.categories": "Categorias de cors",
@@ -18,6 +20,8 @@
     "core.listsep": ",",
     "core.login.add": "Ajustar",
     "core.login.cancel": "Anullar",
+    "core.login.changepassword": "Cambiar lo senhau",
     "core.user.address": "Adreiça",
+    "core.user.city": "Vila",
     "freemium.accept": "Acceptar"
 }
