@@ -20,6 +20,9 @@
     "core.comments.comments": "Comentaris",
     "core.comments.commentscount": "Comentaris ({{$a}})",
     "core.commentscount": "Comentaris ({{$a}})",
+    "core.considereddigitalminor": "Siatz tròp jove per crear un còmpte sus aquest site.",
+    "core.content": "Contengut",
+    "core.continue": "Contuniar",
     "core.courses.availablecourses": "Cors disponibles",
     "core.courses.categories": "Categorias de cors",
     "core.decsep": ".",
@@ -30,5 +33,6 @@
     "core.login.changepassword": "Cambiar lo senhau",
     "core.user.address": "Adreiça",
     "core.user.city": "Vila",
-    "freemium.accept": "Acceptar"
+    "freemium.accept": "Acceptar",
+    "workplace.continue": "Contuniar"
 }
