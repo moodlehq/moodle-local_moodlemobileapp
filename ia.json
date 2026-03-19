@@ -6,7 +6,7 @@
     "addon.badges.bendorsement": "Aval",
     "addon.badges.claimcomment": "Commento de aval",
     "addon.badges.claimid": "Reclama URL",
-    "addon.badges.contact": "Contacto de emissor",
+    "addon.badges.contact": "Eposta",
     "addon.badges.course": "Curso: {{$a}}",
     "addon.badges.dateawarded": "Data emittite",
     "addon.badges.expired": "Expirate",
