@@ -2,6 +2,7 @@
     "addon.block_onlineusers.pluginname": "Wer ist online?",
     "addon.enrol_guest.passwordinvalid": "Falsches Kennwort!",
     "addon.mod_assign.submitassignment_help": "Wenn die Aufgabe abgegeben ist, kannst du nichts mehr ändern.",
+    "addon.mod_choice.previewing": "Du kannst erst wählen, wenn die Aktivität beginnt.",
     "addon.mod_forum.addanewdiscussion": "Neues Thema anfangen",
     "addon.mod_forum.addanewquestion": "Neue Frage stellen",
     "addon.mod_forum.addanewtopic": "Neues Thema anfangen",
