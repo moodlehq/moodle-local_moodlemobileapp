@@ -103,6 +103,7 @@
     "addon.mod_chat.showincompletesessions": "Unvollständige Sessions anzeigen",
     "addon.mod_choice.cannotsubmit": "Deine Auswahl wurde nicht gespeichert. Versuche es nochmal.",
     "addon.mod_choice.errorgetchoice": "Fehler beim Laden der Abstimmung",
+    "addon.mod_choice.previewing": "Dies ist nur eine Vorschau der verfügbaren Optionen für die Aktivität. Du kannst deine Auswahl einreichen, sobald die Aktivität öffnet.",
     "addon.mod_choice.publishinfoanonafter": "Ergebnisse werden nach deiner Antwort ohne Namensnennung veröffentlicht.",
     "addon.mod_choice.publishinfofullafter": "Ergebnisse werden nach deiner Antwort vollständig mit Namensnennung veröffentlicht.",
     "addon.mod_choice.publishinfonever": "Die Ergebnisse werden nach deiner Antwort nicht veröffentlicht.",
