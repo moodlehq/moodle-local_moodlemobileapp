@@ -22,6 +22,8 @@
     "core.considereddigitalminor": "Siatz tròp jove per crear un còmpte sus aquest site.",
     "core.content": "Contengut",
     "core.continue": "Contuniar",
+    "core.course": "Cors",
+    "core.course.coursesummary": "Somari dau cors",
     "core.courses.availablecourses": "Cors disponibles",
     "core.courses.categories": "Categorias de cors",
     "core.courses.courses": "Cors",
@@ -31,8 +33,10 @@
     "core.login.add": "Ajustar",
     "core.login.cancel": "Anullar",
     "core.login.changepassword": "Cambiar lo senhau",
+    "core.login.createaccount": "Crear mon còmpte",
     "core.user.address": "Adreiça",
     "core.user.city": "Vila",
+    "core.user.country": "País",
     "freemium.accept": "Acceptar",
     "workplace.continue": "Contuniar"
 }
