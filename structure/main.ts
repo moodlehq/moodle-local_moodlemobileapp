@@ -3596,6 +3596,7 @@ export type CoreEnrolGetEnrolledUsersWSResponse = {
     username?: string; // Username policy is defined in Moodle security config.
     firstname?: string; // The first name(s) of the user.
     lastname?: string; // The family name of the user.
+    initials?: string; // The initials of the user.
     fullname: string; // The fullname of the user.
     email?: string; // An email address - allow email as root@localhost.
     address?: string; // Postal address.
@@ -3715,6 +3716,7 @@ export type CoreEnrolSearchUsersWSResponse = {
     firstname?: string; // The first name(s) of the user.
     lastname?: string; // The family name of the user.
     fullname: string; // The fullname of the user.
+    initials?: string; // The initials of the user.
     email?: string; // An email address - allow email as root@localhost.
     address?: string; // Postal address.
     phone1?: string; // Phone 1.
@@ -3942,6 +3944,7 @@ export type CoreGradesGetEnrolledUsersForSelectorWSResponse = {
         firstname?: string; // The first name(s) of the user.
         lastname?: string; // The family name of the user.
         fullname: string; // The fullname of the user.
+        initials?: string; // The initials of the user.
         email?: string; // An email address - allow email as root@localhost.
         address?: string; // Postal address.
         phone1?: string; // Phone 1.
@@ -4005,6 +4008,7 @@ export type CoreGradesGetGradableUsersWSResponse = {
         firstname?: string; // The first name(s) of the user.
         lastname?: string; // The family name of the user.
         fullname: string; // The fullname of the user.
+        initials?: string; // The initials of the user.
         email?: string; // An email address - allow email as root@localhost.
         address?: string; // Postal address.
         phone1?: string; // Phone 1.
@@ -4483,6 +4487,7 @@ export type AddonMessagesDataForMessageareaSearchMessagesWSResponse = {
     contacts: {
         userid: number; // The user's id.
         fullname: string; // The user's name.
+        initials?: string; // The initials of the user.
         profileimageurl: string; // User picture URL.
         profileimageurlsmall: string; // Small user picture URL.
         ismessaging: boolean; // If we are messaging the user.
@@ -4632,6 +4637,7 @@ type AddonMessagesGetContactRequestsWSParams = {
 export type AddonMessagesGetContactRequestsWSResponse = {
     id: number; // The user id.
     fullname: string; // The user's name.
+    initials?: string; // The initials of the user.
     profileurl: string; // The link to the user's profile page.
     profileimageurl: string; // User picture URL.
     profileimageurlsmall: string; // Small user picture URL.
@@ -4694,6 +4700,7 @@ export type AddonMessagesGetConversationWSResponse = {
     members: {
         id: number; // The user id.
         fullname: string; // The user's name.
+        initials?: string; // The initials of the user.
         profileurl: string; // The link to the user's profile page.
         profileimageurl: string; // User picture URL.
         profileimageurlsmall: string; // Small user picture URL.
@@ -4765,6 +4772,7 @@ export type AddonMessagesGetConversationBetweenUsersWSResponse = {
     members: {
         id: number; // The user id.
         fullname: string; // The user's name.
+        initials?: string; // The initials of the user.
         profileurl: string; // The link to the user's profile page.
         profileimageurl: string; // User picture URL.
         profileimageurlsmall: string; // Small user picture URL.
@@ -4845,6 +4853,7 @@ type AddonMessagesGetConversationMembersWSParams = {
 export type AddonMessagesGetConversationMembersWSResponse = {
     id: number; // The user id.
     fullname: string; // The user's name.
+    initials?: string; // The initials of the user.
     profileurl: string; // The link to the user's profile page.
     profileimageurl: string; // User picture URL.
     profileimageurlsmall: string; // Small user picture URL.
@@ -4895,6 +4904,7 @@ export type AddonMessagesGetConversationMessagesWSResponse = {
     members: {
         id: number; // The user id.
         fullname: string; // The user's name.
+        initials?: string; // The initials of the user.
         profileurl: string; // The link to the user's profile page.
         profileimageurl: string; // User picture URL.
         profileimageurlsmall: string; // Small user picture URL.
@@ -4966,6 +4976,7 @@ export type AddonMessagesGetConversationsWSResponse = {
         members: {
             id: number; // The user id.
             fullname: string; // The user's name.
+            initials?: string; // The initials of the user.
             profileurl: string; // The link to the user's profile page.
             profileimageurl: string; // User picture URL.
             profileimageurlsmall: string; // Small user picture URL.
@@ -5022,6 +5033,7 @@ type AddonMessagesGetMemberInfoWSParams = {
 export type AddonMessagesGetMemberInfoWSResponse = {
     id: number; // The user id.
     fullname: string; // The user's name.
+    initials?: string; // The initials of the user.
     profileurl: string; // The link to the user's profile page.
     profileimageurl: string; // User picture URL.
     profileimageurlsmall: string; // Small user picture URL.
@@ -5143,6 +5155,7 @@ export type AddonMessagesGetSelfConversationWSResponse = {
     members: {
         id: number; // The user id.
         fullname: string; // The user's name.
+        initials?: string; // The initials of the user.
         profileurl: string; // The link to the user's profile page.
         profileimageurl: string; // User picture URL.
         profileimageurlsmall: string; // Small user picture URL.
@@ -5252,6 +5265,7 @@ type AddonMessagesGetUserContactsWSParams = {
 export type AddonMessagesGetUserContactsWSResponse = {
     id: number; // The user id.
     fullname: string; // The user's name.
+    initials?: string; // The initials of the user.
     profileurl: string; // The link to the user's profile page.
     profileimageurl: string; // User picture URL.
     profileimageurlsmall: string; // Small user picture URL.
@@ -5485,6 +5499,7 @@ export type AddonMessagesMessageSearchUsersWSResponse = {
     contacts: {
         id: number; // The user id.
         fullname: string; // The user's name.
+        initials?: string; // The initials of the user.
         profileurl: string; // The link to the user's profile page.
         profileimageurl: string; // User picture URL.
         profileimageurlsmall: string; // Small user picture URL.
@@ -5513,6 +5528,7 @@ export type AddonMessagesMessageSearchUsersWSResponse = {
     noncontacts: {
         id: number; // The user id.
         fullname: string; // The user's name.
+        initials?: string; // The initials of the user.
         profileurl: string; // The link to the user's profile page.
         profileimageurl: string; // User picture URL.
         profileimageurlsmall: string; // Small user picture URL.
@@ -6637,6 +6653,7 @@ export type CoreUserGetCourseUserProfilesWSResponse = {
     firstname?: string; // The first name(s) of the user.
     lastname?: string; // The family name of the user.
     fullname: string; // The fullname of the user.
+    initials?: string; // The initials of the user.
     email?: string; // An email address - allow email as root@localhost.
     address?: string; // Postal address.
     phone1?: string; // Phone 1.
@@ -6760,6 +6777,7 @@ export type CoreUserGetUsersByFieldWSResponse = {
     firstname?: string; // The first name(s) of the user.
     lastname?: string; // The family name of the user.
     fullname: string; // The fullname of the user.
+    initials?: string; // The initials of the user.
     email?: string; // An email address - allow email as root@localhost.
     address?: string; // Postal address.
     phone1?: string; // Phone 1.
@@ -7318,6 +7336,7 @@ export type CoreGradesGradereportGraderGetUsersInReportWSResponse = {
         firstname?: string; // The first name(s) of the user.
         lastname?: string; // The family name of the user.
         fullname: string; // The fullname of the user.
+        initials?: string; // The initials of the user.
         email?: string; // An email address - allow email as root@localhost.
         address?: string; // Postal address.
         phone1?: string; // Phone 1.
@@ -7821,6 +7840,9 @@ export type AddonModAssignGetAssignmentsWSResponse = {
             maxattempts: number; // Maximum number of attempts allowed.
             markingworkflow: number; // Enable marking workflow.
             markingallocation: number; // Enable marking allocation.
+            markercount: number; // Number of markers.
+            multimarkmethod: string; // Method to use when combining marks to a final grade.
+            multimarkrounding: number; // Rounding direction to use when handling decimal marks.
             markinganonymous: number; // Enable marking anonymous.
             requiresubmissionstatement: number; // Student must accept submission statement.
             preventsubmissionnotingroup?: number; // Prevent submission not in group.
@@ -7919,6 +7941,7 @@ export type AddonModAssignGetParticipantWSResponse = {
         firstname?: string; // The first name(s) of the user.
         lastname?: string; // The family name of the user.
         fullname: string; // The fullname of the user.
+        initials?: string; // The initials of the user.
         email?: string; // An email address - allow email as root@localhost.
         address?: string; // Postal address.
         phone1?: string; // Phone 1.
@@ -8228,7 +8251,6 @@ export type AddonModAssignGetUserFlagsWSResponse = {
             mailed: number; // Mailed.
             extensionduedate: number; // Extension due date.
             workflowstate?: string; // Marking workflow state.
-            allocatedmarker: number; // Allocated marker.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -8273,6 +8295,7 @@ type AddonModAssignListParticipantsWSParams = {
     onlyids?: boolean; // Do not return all user fields.
     includeenrolments?: boolean; // Do return courses where the user is enrolled.
     tablesort?: boolean; // Apply current user table sorting preferences.
+    marking?: boolean; // Are we marking instead of grading?.
 };
 
 /**
@@ -8286,6 +8309,7 @@ export type AddonModAssignListParticipantsWSResponse = {
     firstname?: string; // The first name(s) of the user.
     lastname?: string; // The family name of the user.
     fullname: string; // The fullname of the user.
+    initials?: string; // The initials of the user.
     email?: string; // Email address.
     address?: string; // Postal address.
     phone1?: string; // Phone 1.
@@ -8637,6 +8661,7 @@ type AddonModAssignSubmitGradingFormWSParams = {
     assignmentid: number; // The assignment id to operate on.
     userid: number; // The user id the submission belongs to.
     jsonformdata: string; // The data from the grading form, encoded as a json array.
+    marker?: boolean; // Flag, false if grading, true if marking.
 };
 
 /**
@@ -10439,6 +10464,7 @@ export type AddonModForumAddDiscussionPostWSResponse = {
         author: {
             id?: number; // Id.
             fullname?: string; // Fullname.
+            initials?: string; // Initials.
             isdeleted?: boolean; // Isdeleted.
             groups?: { // Groups.
                 id: number; // Id.
@@ -10624,6 +10650,7 @@ export type AddonModForumGetDiscussionPostWSResponse = {
         author: {
             id?: number; // Id.
             fullname?: string; // Fullname.
+            initials?: string; // Initials.
             isdeleted?: boolean; // Isdeleted.
             groups?: { // Groups.
                 id: number; // Id.
@@ -10766,6 +10793,7 @@ export type AddonModForumGetDiscussionPostsWSResponse = {
         author: {
             id?: number; // Id.
             fullname?: string; // Fullname.
+            initials?: string; // Initials.
             isdeleted?: boolean; // Isdeleted.
             groups?: { // Groups.
                 id: number; // Id.
@@ -11010,7 +11038,9 @@ export type AddonModForumGetForumDiscussionsWSResponse = {
         totalscore: number; // The post message total score.
         mailnow: number; // Mail now?.
         userfullname: string; // Post author full name.
+        userinitials?: string; // Post author initials.
         usermodifiedfullname: string; // Post modifier full name.
+        usermodifiedinitials?: string; // Post modifier initials.
         userpictureurl: string; // Post author picture.
         usermodifiedpictureurl: string; // Post modifier picture.
         numreplies: number; // The number of replies in the discussion.
@@ -18578,53 +18608,6 @@ type CoreSiteValidateSubscriptionKeyWSParams = {
 export type CoreSiteValidateSubscriptionKeyWSResponse = {
     validated: boolean; // Whether the key is validated or not.
     warnings?: CoreWSExternalWarning[];
-};
-
-/**
- * Params of tool_moodlenet_search_courses WS.
- *
- * WS Description: For some given input search for a course that matches
- */
-type ToolMoodlenetSearchCoursesWSParams = {
-    searchvalue: string; // Search value.
-};
-
-/**
- * Data returned by tool_moodlenet_search_courses WS.
- *
- * WS Description: For some given input search for a course that matches
- */
-export type ToolMoodlenetSearchCoursesWSResponse = {
-    courses: {
-        id: number; // Course id.
-        fullname: string; // Course full name.
-        hidden: number; // Is the course visible.
-        viewurl: string; // Next step of import.
-        coursecategory: string; // Category name.
-        courseimage: string; // Course image.
-    }[];
-};
-
-/**
- * Params of tool_moodlenet_verify_webfinger WS.
- *
- * WS Description: Verify if the passed information resolves into a WebFinger profile URL
- */
-type ToolMoodlenetVerifyWebfingerWSParams = {
-    profileurl: string; // The profile url that the user has given us.
-    course: number; // The course we are adding to.
-    section: number; // The section within the course we are adding to.
-};
-
-/**
- * Data returned by tool_moodlenet_verify_webfinger WS.
- *
- * WS Description: Verify if the passed information resolves into a WebFinger profile URL
- */
-export type ToolMoodlenetVerifyWebfingerWSResponse = {
-    result: boolean; // Was the passed content a valid WebFinger?.
-    message: string; // Our message for the user.
-    domain?: string; // Domain to redirect the user to.
 };
 
 /**
