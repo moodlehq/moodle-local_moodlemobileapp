@@ -602,6 +602,7 @@
     "core.grades.gradelong": "{{$a.grade}} / {{$a.max}}",
     "core.grades.gradepass": "Comharra pas",
     "core.grades.grades": "Comharran",
+    "core.grades.lettergrade": "Comharra litreach",
     "core.gradeverb": "Comharraich",
     "core.group": "Buidheann",
     "core.groupsseparate": "Buidhnean fa leth",
