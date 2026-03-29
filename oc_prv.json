@@ -1,5 +1,6 @@
 {
     "addon.mod_forum.advanced": "Avançat",
+    "addon.mod_forum.group": "Grope",
     "addon.privatefiles.files": "Fichiers",
     "addon.storagemanager.deleteall": "Tot suprimir",
     "core.add": "Ajustar",
@@ -47,6 +48,12 @@
     "core.filter": "Filtre",
     "core.folder": "Dorsier",
     "core.forcepasswordchangenotice": "Devètz cambiar lo senhau per contuniar.",
+    "core.fulllistofcourses": "Totei lei cors",
+    "core.gradenoun": "Nòta",
+    "core.gradeverb": "Avalorar",
+    "core.group": "Grope",
+    "core.groupsseparate": "Gropes desseparats",
+    "core.groupsvisible": "Gropes visibles",
     "core.labelsep": ":",
     "core.listsep": ",",
     "core.login.add": "Ajustar",
@@ -58,6 +65,7 @@
     "core.login.forgotaccount": "Avètz perdut lo senhau ?",
     "core.mod_file": "Fichier",
     "core.settings.currentlanguage": "Lenga en usatge",
+    "core.settings.general": "Generau",
     "core.summary": "Somari",
     "core.user.address": "Adreiça",
     "core.user.city": "Vila",
@@ -70,5 +78,6 @@
     "core.viewer.default": "Per defaut",
     "freemium.accept": "Acceptar",
     "workplace.continue": "Contuniar",
-    "workplace.deleted": "Suprimit"
+    "workplace.deleted": "Suprimit",
+    "workplace.teams.fullname": "Nom complet"
 }
