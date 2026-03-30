@@ -5606,6 +5606,7 @@ export type AddonMessagesSendInstantMessagesWSResponse = {
     timecreated?: number; // The timecreated timestamp for the message.
     conversationid?: number; // The conversation id for this message.
     useridfrom?: number; // The user id who sent the message.
+    cantsendtouser?: string; // The user that could not be sent to.
     candeletemessagesforallusers?: boolean; // If the user can delete messages in the conversation for all users.
 }[];
 
@@ -11072,6 +11073,23 @@ export type AddonModForumGetForumsByCoursesWSResponse = {
     istracked?: boolean; // If the user is tracking the forum.
     unreadpostscount?: number; // The number of unread posts for tracked forums.
 }[];
+
+/**
+ * Params of mod_forum_mark_posts_read WS.
+ *
+ * WS Description: Mark forum posts as read.
+ */
+type AddonModForumMarkPostsReadWSParams = {
+    postids: number[]; // List of post IDs to mark as read.
+    discussionid: number; // The discussion the posts belong to.
+};
+
+/**
+ * Data returned by mod_forum_mark_posts_read WS.
+ *
+ * WS Description: Mark forum posts as read.
+ */
+export type AddonModForumMarkPostsReadWSResponse = boolean;
 
 /**
  * Params of mod_forum_prepare_draft_area_for_post WS.
