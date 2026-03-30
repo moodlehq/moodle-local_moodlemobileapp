@@ -1027,7 +1027,7 @@
     "addon.mod_url.accessurl": "URL öffnen",
     "addon.mod_url.modulenameplural": "Links/URLs",
     "addon.mod_url.pointingtourl": "Verlinkte URL",
-    "addon.mod_wiki.cannoteditpage": "Sie können diese Seite nicht bearbeiten.",
+    "addon.mod_wiki.cannoteditpage": "Sie dürfen diese Seite nicht bearbeiten.",
     "addon.mod_wiki.cannotviewpage": "Sie können diese Seite nicht anzeigen.",
     "addon.mod_wiki.createpage": "Seite erstellen",
     "addon.mod_wiki.editingpage": "Die Seite '{{$a}}' wird bearbeitet",
