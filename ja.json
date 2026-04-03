@@ -2048,7 +2048,7 @@
     "core.h5p.screenshotsDescription": "あなたのコンテンツのスクリーンショットを最大5枚まで追加できます。",
     "core.h5p.share": "共有",
     "core.h5p.shareFailed": "共有に失敗しました。",
-    "core.h5p.shareTryAgain": "何か問題が発生したようです。もう一度共有してください。",
+    "core.h5p.shareTryAgain": "H5P Hubと通信できませんでした。後ほど再度お試しください。",
     "core.h5p.shared": "共有済み",
     "core.h5p.sharingNote": "すべてのコンテンツ詳細は共有後に編集できます。",
     "core.h5p.shortDescription": "短い説明",

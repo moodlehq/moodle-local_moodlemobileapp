@@ -2048,7 +2048,7 @@
     "core.h5p.screenshotsDescription": "Add up to five screenshots of your content",
     "core.h5p.share": "Share",
     "core.h5p.shareFailed": "Share failed.",
-    "core.h5p.shareTryAgain": "Something went wrong, please try to share again.",
+    "core.h5p.shareTryAgain": "Couldn't communicate with the H5P Hub. Please try again later.",
     "core.h5p.shared": "Shared",
     "core.h5p.sharingNote": "All content details can be edited after sharing",
     "core.h5p.shortDescription": "Short description",
