@@ -2490,7 +2490,7 @@
     "core.h5p.screenshotsDescription": "Tambahkan hingga lima tangkapan layar konten Anda",
     "core.h5p.share": "Bagikan",
     "core.h5p.shareFailed": "Gagal berbagi.",
-    "core.h5p.shareTryAgain": "Ada yang tidak beres, coba bagikan lagi.",
+    "core.h5p.shareTryAgain": "Tidak dapat berkomunikasi dengan Hub H5P. Silakan coba lagi nanti.",
     "core.h5p.shared": "Dibagikan",
     "core.h5p.sharingNote": "Semua detail konten dapat diedit setelah dibagikan",
     "core.h5p.shortDescription": "Deskripsi Singkat",

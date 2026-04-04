@@ -2490,7 +2490,7 @@
     "core.h5p.screenshotsDescription": "Fügen Sie bis zu fünf Bildschirmfotos zu Ihrem Inhalt hinzu",
     "core.h5p.share": "Teilen",
     "core.h5p.shareFailed": "Teilen fehlgeschlagen",
-    "core.h5p.shareTryAgain": "Irgendwas ist schief gegangen. Versuchen Sie es später nochmal.",
+    "core.h5p.shareTryAgain": "Die Verbindung zum H5P-Hub konnte nicht hergestellt werden. Versuchen Sie es später nochmal.",
     "core.h5p.shared": "Geteilt",
     "core.h5p.sharingNote": "Die Details zum Inhalt können nach dem Teilen weiter bearbeitet werden.",
     "core.h5p.shortDescription": "Kurze Beschreibung",
