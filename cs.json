@@ -2048,7 +2048,7 @@
     "core.h5p.screenshotsDescription": "Přidejte až pět snímků obrazovky svého obsahu",
     "core.h5p.share": "Sdílet",
     "core.h5p.shareFailed": "Sdílení se nezdařilo.",
-    "core.h5p.shareTryAgain": "Něco se pokazilo, zkuste to prosím sdílet znovu.",
+    "core.h5p.shareTryAgain": "Nepodařilo se komunikovat s H5P Hubem. Zkuste to prosím znovu později.",
     "core.h5p.shared": "Sdíleno",
     "core.h5p.sharingNote": "Veškeré podrobnosti obsahu lze po sdílení upravit",
     "core.h5p.shortDescription": "Stručný popis",
