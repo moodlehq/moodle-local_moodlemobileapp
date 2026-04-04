@@ -2332,7 +2332,7 @@
     "core.h5p.screenshotsDescription": "Kontentingizning beshtagacha skrinshotini qo‘shing",
     "core.h5p.share": "Ulashish",
     "core.h5p.shareFailed": "Ulashish amalga oshmadi.",
-    "core.h5p.shareTryAgain": "Nimadir noto‘g‘ri ketdi, iltimos, qayta ulashishga urinib ko‘ring.",
+    "core.h5p.shareTryAgain": "H5P Hub bilan aloqa o'rnatib bo'lmadi. Iltimos, keyinroq qayta urinib ko'ring.",
     "core.h5p.shared": "Ulashildi",
     "core.h5p.sharingNote": "Barcha kontent tafsilotlari ulashilgandan keyin tahrirlanishi mumkin",
     "core.h5p.shortDescription": "Qisqa ta'rif",
