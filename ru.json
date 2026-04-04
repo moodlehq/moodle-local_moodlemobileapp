@@ -2483,7 +2483,7 @@
     "core.h5p.screenshotsDescription": "Добавьте до пяти снимков экрана вашего контента",
     "core.h5p.share": "Поделиться",
     "core.h5p.shareFailed": "Поделиться не удалось.",
-    "core.h5p.shareTryAgain": "Что-то пошло не так, попробуйте поделиться еще раз.",
+    "core.h5p.shareTryAgain": "Не удалось установить связь с хабом H5P. Попробуйте позже.",
     "core.h5p.shared": "Общее",
     "core.h5p.sharingNote": "Все детали контента могут быть отредактированы после публикации.",
     "core.h5p.shortDescription": "Краткое описание",
