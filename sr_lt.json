@@ -2489,7 +2489,7 @@
     "core.h5p.screenshotsDescription": "Dodajte do pet snimaka ekrana svog sadržaja",
     "core.h5p.share": "Podeli",
     "core.h5p.shareFailed": "Deljenje nije uspelo.",
-    "core.h5p.shareTryAgain": "Nešto nije u redu, pokušajte ponovo da podelite.",
+    "core.h5p.shareTryAgain": "Nije moguće povezati se sa H5P Hub. Molimo pokušajte ponovo kasnije.",
     "core.h5p.shared": "Podeljeno",
     "core.h5p.sharingNote": "Svi detalji sadržaja mogu se uređivati/menjati nakon deljenja",
     "core.h5p.shortDescription": "Kratak opis",
