@@ -2047,7 +2047,7 @@
     "core.h5p.screenshotsDescription": "Додајте до пет снимака екрана свог садржаја",
     "core.h5p.share": "Подели",
     "core.h5p.shareFailed": "Дељење није успело.",
-    "core.h5p.shareTryAgain": "Нешто није у реду, покушајте поново да поделите.",
+    "core.h5p.shareTryAgain": "Није могуће повезати се са H5P Hub. Молимо покушајте поново касније.",
     "core.h5p.shared": "Подељено",
     "core.h5p.sharingNote": "Сви детаљи садржаја могу се уређивати/мењати након дељења",
     "core.h5p.shortDescription": "Кратак опис",
