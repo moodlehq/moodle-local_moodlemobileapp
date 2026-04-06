@@ -2471,7 +2471,7 @@
     "core.h5p.screenshotsDescription": "Adicione até cinco capturas de tela do seu conteúdo",
     "core.h5p.share": "Compartilhar",
     "core.h5p.shareFailed": "Falha no compartilhamento.",
-    "core.h5p.shareTryAgain": "Algo deu errado, tente compartilhar novamente.",
+    "core.h5p.shareTryAgain": "Não foi possível se comunicar com o H5P Hub. Tente novamente mais tarde.",
     "core.h5p.shared": "Compartilhado",
     "core.h5p.sharingNote": "Todos os detalhes do conteúdo podem ser editados após o compartilhamento",
     "core.h5p.shortDescription": "Descrição curta",
