@@ -2471,7 +2471,7 @@
     "core.h5p.screenshotsDescription": "Legg til opptil fem skjermbilder av innholdet ditt",
     "core.h5p.share": "Del",
     "core.h5p.shareFailed": "Deling mislyktes.",
-    "core.h5p.shareTryAgain": "Noe gikk galt. Prøv å dele på nytt.",
+    "core.h5p.shareTryAgain": "Mislykket tilkobling med H5P-hub, vennligst prøv på nytt.",
     "core.h5p.shared": "Delt",
     "core.h5p.sharingNote": "Alle innholdsdetaljer kan redigeres etter deling",
     "core.h5p.shortDescription": "Kort beskrivelse",
