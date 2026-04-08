@@ -19,6 +19,7 @@
     "core.courses.nocourses": "Du er ikke tilmeldt nogen rum.",
     "core.courses.nocoursesyet": "Der er ingen rum i denne kategori",
     "core.courses.notenroled": "Du er ikke indskrevet i dette rum",
+    "core.courses.notenrollable": "Du kan ikke melde dig selv til dette rum.",
     "core.courses.paymentrequired": "Dette rum kræver betaling for tilmelding.",
     "core.courses.searchcourses": "Find rum",
     "core.courses.therearecourses": "Der er {{$a}} rum",

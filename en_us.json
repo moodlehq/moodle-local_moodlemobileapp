@@ -23,6 +23,7 @@
     "addon.tinymce.tiny:text_color": "Text color",
     "assets.mimetypes.group:optimised_image": "Image files to be optimized, such as badges",
     "core.courses.enrolme": "Enroll me in this course",
+    "core.courses.notenrollable": "You cannot enroll yourself in this course.",
     "core.dataprivacy.statuscancelled": "Canceled",
     "core.decsep": ".",
     "core.firstdayofweek": "0",

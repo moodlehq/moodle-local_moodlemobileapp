@@ -24,6 +24,7 @@
     "core.courses.nocourses": "Ei työtilatietoja näytettäväksi",
     "core.courses.nocoursesyet": "Ei työtiloja tässä kategoriassa",
     "core.courses.notenroled": "Et ole ilmoittautuneena työtilaan",
+    "core.courses.notenrollable": "Et voi itse liittyä tälle työtila-alueelle.",
     "core.courses.paymentrequired": "Tämä työtila vaatii osallistumismaksun.",
     "core.courses.searchcourses": "Etsi työtiloja",
     "core.courses.therearecourses": "Yhteensä {{$a}} työtilaa",

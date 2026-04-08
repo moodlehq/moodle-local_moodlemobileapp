@@ -153,6 +153,7 @@
     "core.courses.mycourses": "دەرىسلىكىم",
     "core.courses.mymoodle": "باش ئېكىران",
     "core.courses.nocoursesyet": "بۇ كاتېگورىيەدە دەرىسلىك تېپىلمىدى",
+    "core.courses.notenrollable": "ئۆزىڭىز بۇ دەرىسلىككە قوبۇل قىلىنالمايسىز",
     "core.courses.search": "ئىزدەش",
     "core.courses.searchcourses": "ئىزدەڭ",
     "core.decsep": ".",

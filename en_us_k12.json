@@ -31,6 +31,7 @@
     "core.courses.nocourses": "No class information to show.",
     "core.courses.nocoursesyet": "No classes in this category",
     "core.courses.notenroled": "You are not enrolled in this class",
+    "core.courses.notenrollable": "You cannot enroll yourself in this class.",
     "core.courses.paymentrequired": "This class requires a payment for entry.",
     "core.courses.searchcourses": "Search classes",
     "core.courses.therearecourses": "There are {{$a}} classes",

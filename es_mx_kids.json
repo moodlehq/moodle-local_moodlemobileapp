@@ -8,6 +8,7 @@
     "core.courses.categories": "Categorías de espacios",
     "core.courses.courses": "Espacios",
     "core.courses.notenroled": "Tú no estás inscrito en este curso",
+    "core.courses.notenrollable": "Tú no te puedes inscribir en este curso",
     "core.decsep": ".",
     "core.labelsep": ":",
     "core.listsep": ",",

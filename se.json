@@ -258,7 +258,6 @@
     "addon.mod_assign_submission_comments.pluginname": "Kommentárat sisaaddimii",
     "addon.mod_assign_submission_file.pluginname": "Fiilasisaaddimat",
     "addon.mod_assign_submission_onlinetext.pluginname": "Online sisaaddin",
-    "addon.mod_bigbluebuttonbn.mod_form_field_closingtime": "Áigemearri searvat",
     "addon.mod_book.navnexttitle": "Boahtte: {{$a}}",
     "addon.mod_book.navprevtitle": "Ovddit {{$a}}",
     "addon.mod_chat.beep": "Njurggát",

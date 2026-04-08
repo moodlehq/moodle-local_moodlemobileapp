@@ -277,6 +277,7 @@
     "core.courses.mycourses": "Mina kurser",
     "core.courses.mymoodle": "Mitt Moodle",
     "core.courses.notenroled": "Du har inte registrerat dig på den här kursen",
+    "core.courses.notenrollable": "Du kan inte registrera dig på den här kursen just nu.",
     "core.courses.reload": "Ladda om",
     "core.decsep": ",",
     "core.delete": "Radera",

@@ -140,6 +140,9 @@
     "core.viewer.theme": "Thème",
     "core.week": "Semaine",
     "core.yes": "Oui",
+    "freemium.subscriptionfeature_exceeded_qrlogin": "Pas disponible",
+    "freemium.subscriptionfeature_included": "Inclu",
+    "freemium.subscriptionfeature_notincluded": "Pas inclu",
     "workplace.continue": "Continuer",
     "workplace.deleted": "Supprimé",
     "workplace.teams.fullname": "Nom complet"

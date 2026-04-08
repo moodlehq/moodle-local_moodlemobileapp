@@ -66,6 +66,7 @@
     "core.areyousure": "Sì sicuru?",
     "core.back": "Nnarrè",
     "core.comments.addcomment": "Agghiunci un cummentu...",
+    "core.course.activitydate:opened": "Abbiatu:",
     "core.course.completion_automatic:todo": "Di fari:",
     "core.course.completion_setby:auto:todo": "Di fari: {{$a.condition}} (mpustatu di {{$a.setby}})",
     "core.course.coursesummary": "Suntu dû cursu",

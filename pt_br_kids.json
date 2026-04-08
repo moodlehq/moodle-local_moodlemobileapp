@@ -40,6 +40,7 @@
     "core.courses.categories": "Categorias de curso",
     "core.courses.courses": "Cursos",
     "core.courses.notenroled": "Você não está inscrito neste curso",
+    "core.courses.notenrollable": "Você não pode se inscrever sozinho neste curso.",
     "core.decsep": ".",
     "core.downloadfile": "Baixar arquivo",
     "core.labelsep": ":",

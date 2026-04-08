@@ -51,6 +51,7 @@
     "core.courses.nocourses": "אין מידע שניתן להציג על מרחב־הלימוד",
     "core.courses.nocoursesyet": "אין מרחבי־לימוד בקטגוריה זו",
     "core.courses.notenroled": "אינך רשום למרחב־לימוד זה",
+    "core.courses.notenrollable": "לא ניתן להירשם למרחב־לימוד המסוים, בשלב זה.",
     "core.courses.paymentrequired": "מרחב־לימוד זה מצריך תשלום לכניסה",
     "core.courses.searchcourses": "חיפוש מרחבי־לימוד",
     "core.courses.therearecourses": "ישנם {{$a}} מרחבי־לימוד",

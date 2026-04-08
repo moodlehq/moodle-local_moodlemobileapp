@@ -1,5 +1,6 @@
 {
     "core.courses.enrolme": "Enroll me in this course",
+    "core.courses.notenrollable": "You cannot enroll yourself in this course.",
     "core.decsep": ".",
     "core.listsep": ",",
     "core.parentlanguage": "en_us",

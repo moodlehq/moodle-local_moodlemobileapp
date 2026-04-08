@@ -72,6 +72,7 @@
     "core.course.overriddennotice": "Yer final grade from this activity was manually adjusted.",
     "core.courses.nocoursesyet": "Nay courses in thy category",
     "core.courses.notenroled": "Ye are not enrolled in this course",
+    "core.courses.notenrollable": "Ye can not enrol yourself in this course.",
     "core.decsep": ".",
     "core.forcepasswordchangenotice": "Ye must change yer password to proceed.",
     "core.labelsep": ":",
@@ -95,5 +96,6 @@
     "core.parentlanguage": "en",
     "core.policy.policyagree": "Ye must agree to this policy to continue using this site.  Do ye agree?",
     "core.search.err_minlength": "Ye must enter at least {{$a.format}} characters here.",
+    "core.user.cannotviewprofile": "Ye cannot view the profile of this user",
     "core.yes": "Aye"
 }
