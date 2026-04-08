@@ -841,7 +841,7 @@ $string['freemium.upsell_unlockpremiumfeatures_title'] = 'Unlock Premium feature
 $string['freemium.upsell_unlockpremiumfeatures_upgradeprice'] = '{{ price }}/year';
 $string['freemium.upsell_unlockpremiumfeatures_yourplanlimit'] = 'Your plan';
 $string['freemium.upsell_upgradeforunlimited'] = 'Upgrade for unlimited';
-$string['freemium.upsell_upgradefreemessage'] = 'You are currently on the free plan, upgrade to unlock more features.';
+$string['freemium.upsell_upgradefreemessage'] = 'You are currently on the {{ plan }} plan, upgrade to unlock more features.';
 $string['freemium.upsell_upgradefreetitle'] = 'Upgrade your plan';
 $string['workplace.teams.isoverdue'] = 'Has overdue or expired items';
 
