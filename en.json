@@ -2765,7 +2765,7 @@
     "freemium.upsell_renewexpiring": "Your subscription will expire in {{ days }} days",
     "freemium.upsell_renewtitle": "Renew your subscription",
     "freemium.upsell_upgradefreeaccept": "Upgrade",
-    "freemium.upsell_upgradefreemessage": "You are currently on the free plan, upgrade to unlock more features.",
+    "freemium.upsell_upgradefreemessage": "You are currently on the {{ plan }} plan, upgrade to unlock more features.",
     "freemium.upsell_upgradefreepostpone": "Later",
     "freemium.upsell_upgradefreetitle": "Upgrade your plan",
     "workplace.aboutthiscourse": "About this course",
