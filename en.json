@@ -3267,7 +3267,7 @@
     "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }}/year",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "Your plan",
     "freemium.upsell_upgradeforunlimited": "Upgrade for unlimited",
-    "freemium.upsell_upgradefreemessage": "You are currently on the free plan, upgrade to unlock more features.",
+    "freemium.upsell_upgradefreemessage": "You are currently on the {{ plan }} plan, upgrade to unlock more features.",
     "freemium.upsell_upgradefreetitle": "Upgrade your plan",
     "workplace.aboutthiscourse": "About this course",
     "workplace.aboutthisprogram": "About this program",
