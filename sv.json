@@ -2183,6 +2183,7 @@
     "core.filenotfound": "Det gick tyvärr inte att hitta filen.",
     "core.fileuploader.addfiletext": "Lägg till fil",
     "core.fileuploader.attachedfiles": "Bifogade filer",
+    "core.fileuploader.audiotitle": "Spela in ljud",
     "core.fileuploader.camera": "Kamera",
     "core.fileuploader.confirmuploadfile": "Du är på väg att ladda upp {{size}}. Är du säker på att du vill fortsätta?",
     "core.fileuploader.confirmuploadunknownsize": "Det gick inte att beräkna storleken på uppladdningen. Är du säker på att du vill fortsätta?",
