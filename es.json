@@ -2409,7 +2409,7 @@
     "core.h5p.helpChoosingLicense": "Ayúdame a elegir una licencia",
     "core.h5p.hideadvanced": "Ocultar avanzadas",
     "core.h5p.icon": "Ícono",
-    "core.h5p.iconDescription": "640x480px. En caso contrario, el contenido seleccionado usará el ícono de la categoría",
+    "core.h5p.iconDescription": "640x480px. En caso contrario, el contenido seleccionado usará el icono de la categoría",
     "core.h5p.invalidAge": "Formato de entrada inválido para edad típica. Formatos de entrada posibles separados por comas: \"1, 34-45, -50, -59-\".",
     "core.h5p.keywordExists": "¡Ya existe palabra clave!",
     "core.h5p.keywords": "Palabras clave",
