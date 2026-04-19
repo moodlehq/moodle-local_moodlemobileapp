@@ -18,6 +18,9 @@
     "core.comments.comments": "टिप्पणियाँ",
     "core.comments.commentscount": "टिप्पणियाँ ({{$a}}) २.",
     "core.commentscount": "टिप्पणियाँ ({{$a}}) २.",
+    "core.considereddigitalminor": "त्वं अत्र अस्मिन्संस्थाने खाते वा निर्माणाय अतीव कनिष्ठः असि",
+    "core.content": "सन्तुष्टः",
+    "core.continue": "अग्रेSनय",
     "core.courses.availablecourses": "उपलब्धाः पाठ्यक्रमाः",
     "core.decsep": ".",
     "core.error": "सन्सय",
@@ -27,5 +30,6 @@
     "core.login.login": "सम्प्रवेश",
     "core.mainmenu.home": "गृहादिषु",
     "core.user.address": "पत्रसङ्केतः",
-    "freemium.accept": "अक्केप्त"
+    "freemium.accept": "अक्केप्त",
+    "workplace.continue": "अग्रेSनय"
 }
