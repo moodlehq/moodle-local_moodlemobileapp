@@ -1983,7 +1983,7 @@
     "core.course.confirmpartialdownloadsize": "Du är på väg att hämta <strong>minst</strong> {{size}}.{{availableSpace}} Är du säker på att du vill fortsätta?",
     "core.course.couldnotloadsectioncontent": "Det gick inte att läsa sektionens innehåll. Vänligen försök igen senare.",
     "core.course.couldnotloadsections": "Det gick inte att läsa sektionen. Vänligen försök igen senare.",
-    "core.course.courseindex": "Kursindex",
+    "core.course.courseindex": "Kursmeny",
     "core.course.coursesummary": "Kurssammanfattning",
     "core.course.done": "Slutförd",
     "core.course.downloadcourse": "Ladda ned kurs",
