@@ -2471,7 +2471,7 @@
     "core.h5p.screenshotsDescription": "Tilføj op til fem skærmbilleder af dit indhold",
     "core.h5p.share": "Del",
     "core.h5p.shareFailed": "Deling fejlet.",
-    "core.h5p.shareTryAgain": "Noget gik galt, prøv at dele igen.",
+    "core.h5p.shareTryAgain": "Kunne ikke kommunikere med H5P Hub. Prøv igen senere",
     "core.h5p.shared": "Delt",
     "core.h5p.sharingNote": "Alle indholdsdetaljer kan redigeres efter deling",
     "core.h5p.shortDescription": "Kort beskrivelse",
