@@ -965,6 +965,7 @@
     "core.question.answersaved": "Responsa salveguardate",
     "core.question.complete": "Complete",
     "core.question.correct": "Correcte",
+    "core.question.feedback": "Commentario (feedback o retroaction)",
     "core.question.incorrect": "Incorrecte",
     "core.question.information": "Information",
     "core.question.invalidanswer": "responsa incomplete",
