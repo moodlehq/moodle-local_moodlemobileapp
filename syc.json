@@ -1,4 +1,6 @@
 {
+    "core.decsep": ".",
+    "core.listsep": ",",
     "core.thisdirection": "rtl",
     "freemium.accept": "ܐܬܩܒܠ"
 }
