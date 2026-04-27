@@ -48,7 +48,7 @@
     "core.login.loginsteps": "Wir freuen uns, dass du dich hier anmelden möchtest. Wenn du noch nie angemeldet warst, frage deine Lehrerin oder deinen Lehrer nach den Zugangsdaten.",
     "core.login.mustconfirm": "Gib die Daten nochmal ein",
     "core.login.newaccount": "Neu anmelden",
-    "core.login.passwordforgotteninstructions2": "Du hast dein Kennwort vergessen und möchtest ein neues haben? Trage deinen Anmeldenamen oder die E-Mail-Adresse hier ein. Wenn alles stimmt, schicken wir dir sofort eine E-Mail.",
+    "core.login.passwordforgotteninstructions2": "Du hast dein Kennwort vergessen und möchtest ein neues haben? Trage deinen Anmeldenamen oder deine E-Mail-Adresse hier ein. Wenn alles stimmt, schicken wir dir sofort eine E-Mail.",
     "core.login.usernamelowercase": "Schreibe den Anmeldenamen in Kleinbuchstaben.",
     "core.mainmenu.logout": "Abmelden",
     "core.mod_url": "Weblink",
