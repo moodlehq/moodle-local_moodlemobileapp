@@ -99,6 +99,7 @@
     "addon.mod_assign.warningsubmissionmodified": "Die Abgabe wurde auf der Website geändert.",
     "addon.mod_assign_submission_onlinetext.wordlimitexceeded": "Die maximale Anzahl von Wörtern für diese Aufgabenlösung ist {{$a.limit}}. Deine Antwort hat aber {{$a.count}} Wörter. Verkürze deinen Text und speichere ihn nochmal.",
     "addon.mod_chat.confirmloss": "Bist du sicher? Der Chat-Verlauf könnte verloren gehen.",
+    "addon.mod_chat.entermessage": "Schreibe deine Mitteilung",
     "addon.mod_chat.errorwhileconnecting": "Fehler beim Verbinden zum Chat",
     "addon.mod_chat.errorwhilegettingchatdata": "Fehler beim Abrufen des Chats",
     "addon.mod_chat.errorwhilegettingchatusers": "Fehler beim Anzeigen von Personen im Chat",

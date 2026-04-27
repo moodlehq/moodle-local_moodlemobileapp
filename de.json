@@ -504,7 +504,7 @@
     "addon.mod_chat.confirmloss": "Sind Sie sicher? Der Chat-Verlauf könnte verloren gehen.",
     "addon.mod_chat.currentusers": "Aktuelle Nutzer/innen",
     "addon.mod_chat.enterchat": "Chat betreten",
-    "addon.mod_chat.entermessage": "Mitteilung schreiben",
+    "addon.mod_chat.entermessage": "Schreiben Sie Ihre Mitteilung.",
     "addon.mod_chat.errorwhileconnecting": "Fehler beim Verbinden zum Chat",
     "addon.mod_chat.errorwhilegettingchatdata": "Fehler beim Abrufen des Chats",
     "addon.mod_chat.errorwhilegettingchatusers": "Fehler beim Anzeigen von Personen im Chat",
