@@ -404,7 +404,7 @@
     "addon.mod_assign.multipleteams": "Talde bateko baino gehiagoko partaidea",
     "addon.mod_assign.multipleteams_desc": "Zereginak taldekako bidalketa behartzen du. Zu talde bat baino gehiagoko kidea zara. Bidalketak egin ahal izateko talde bakar bateko kidea izan behar duzu. Mesedez jarri harremanetan zure irakaslearekin zure talde-partaidetzak aldatu ditzan.",
     "addon.mod_assign.noattempt": "Saiakerarik ez",
-    "addon.mod_assign.nomoresubmissionsaccepted": "Soilik epearen luzapena jaso duten kideei baimenduta.",
+    "addon.mod_assign.nomoresubmissionsaccepted": "Soilik epearen luzapena jaso duten partaideei baimenduta.",
     "addon.mod_assign.noonlinesubmissions": "Zeregin honek ez du ezer on-line aurkezteko eskatzen",
     "addon.mod_assign.nosubmission": "Ez dago bildalketarik zeregin honetan",
     "addon.mod_assign.notallparticipantsareshown": "Bidalketarik egin ez duten ikasleak ez dira erakusten.",
