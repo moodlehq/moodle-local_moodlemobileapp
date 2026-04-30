@@ -839,7 +839,6 @@ $string['freemium.upsell_renewexpiring'] = 'Your subscription will expire in {{ 
 $string['freemium.upsell_renewtitle'] = 'Renew your subscription';
 $string['freemium.upsell_unlockpremiumfeatures_message'] = 'See what you\'re missing with a {{ plan }} plan';
 $string['freemium.upsell_unlockpremiumfeatures_title'] = 'Unlock Premium features';
-$string['freemium.upsell_unlockpremiumfeatures_upgradeprice'] = '{{ price }}/year';
 $string['freemium.upsell_unlockpremiumfeatures_yourplanlimit'] = 'Your plan';
 $string['freemium.upsell_upgradeforunlimited'] = 'Upgrade for unlimited';
 $string['freemium.upsell_upgradefreemessage'] = 'You are currently on the {{ plan }} plan, upgrade to unlock more features.';
