@@ -665,6 +665,7 @@
     "core.fileuploader.addfiletext": "Adde file",
     "core.fileuploader.attachedfiles": "Files attachate",
     "core.fileuploader.filesofthesetypes": "Typos de file acceptate:",
+    "core.fileuploader.invalidfiletype": "Le typo de file {{$a}} non pote esser acceptate.",
     "core.fileuploader.nofilesattached": "Nulle files attachate",
     "core.filter": "Filtro",
     "core.folder": "Dossier",
