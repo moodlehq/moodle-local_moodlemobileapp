@@ -2765,7 +2765,7 @@
     "freemium.upsell_renewexpiring": "Zure harpidetza {{ days }} egunetan iraungiko da",
     "freemium.upsell_renewtitle": "Berritu zure harpidetza",
     "freemium.upsell_upgradefreeaccept": "Eguneratu",
-    "freemium.upsell_upgradefreemessage": "Une honetan {{plan}} planean zaude, eguneratu ezazu funtzio gehiago desblokeatzeko.",
+    "freemium.upsell_upgradefreemessage": "Une honetan {{ plan }} planean zaude, eguneratu ezazu funtzio gehiago desblokeatzeko.",
     "freemium.upsell_upgradefreepostpone": "Beranduago",
     "freemium.upsell_upgradefreetitle": "Eguneratu zure plana",
     "workplace.aboutthiscourse": "Ikastaro honi buruz",
