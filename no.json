@@ -3259,7 +3259,7 @@
     "workplace.roleincontext": "{{$a.role}} i {{$a.context}}",
     "workplace.seecontent": "Vis innhold",
     "workplace.setsandcoursesnotfound": "Fant ingen sett eller kurs",
-    "workplace.sortbyduedate": "Sorter etter konklusjonsdato",
+    "workplace.sortbyduedate": "Sorter etter fullførtdato",
     "workplace.sortbylastaccess": "Sorter etter sist åpnet",
     "workplace.sortbyname": "Sortér etter navn",
     "workplace.start": "Start",
