@@ -393,7 +393,7 @@
     "addon.mod_assign.hiddenuser": "Participante",
     "addon.mod_assign.latesubmissions": "Envíos retrasados",
     "addon.mod_assign.latesubmissionsaccepted": "Permitido hasta {{$a}}",
-    "addon.mod_assign.markingworkflowstate": "Estado del flujograma calificador",
+    "addon.mod_assign.markingworkflowstate": "Estado del el flujo de trabajo para calificar",
     "addon.mod_assign.markingworkflowstateinmarking": "En calificación",
     "addon.mod_assign.markingworkflowstateinreview": "En revisión",
     "addon.mod_assign.markingworkflowstatenotmarked": "No calificado",
