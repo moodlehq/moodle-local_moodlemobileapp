@@ -2482,7 +2482,7 @@
     "core.h5p.screenshotsDescription": "أضف ما أقصاه خمس لقطات شاشة من المحتوى الخاص بك",
     "core.h5p.share": "مشاركة",
     "core.h5p.shareFailed": "فشلت المشاركة",
-    "core.h5p.shareTryAgain": "وقع خطأ ما، يرجى محاولة المشاركة مرة أخرى.",
+    "core.h5p.shareTryAgain": "تعذر الاتصال مع مركز H5P. ترجى المحاولة مرة أخرى لاحقًا.",
     "core.h5p.shared": "تمت مشاركته",
     "core.h5p.sharingNote": "يمكن تحرير كل تفاصيل المحتوى بعد مشاركته",
     "core.h5p.shortDescription": "الوصف المختصر",
