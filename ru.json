@@ -3084,7 +3084,7 @@
     "core.upgraderunning": "Сайт обновляется, повторите попытку позже.",
     "core.user": "Пользователь",
     "core.user.address": "Адрес",
-    "core.user.cannotviewprofile": "Вы не можете просматривать профиль этого пользователя",
+    "core.user.cannotviewprofile": "Вы не можете просмотреть профиль этого пользователя",
     "core.user.city": "Город",
     "core.user.completeprofile": "Заполнить профиль",
     "core.user.completeprofilehelp": "Если у вас возникли проблемы с заполнением профиля, повторите попытку позже или обратитесь в ваше учебное заведение.",
