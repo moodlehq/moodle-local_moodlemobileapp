@@ -421,7 +421,7 @@
     "addon.mod_assign.numberofdraftsubmissionscountdescription": "Entwürfe: {{count}}",
     "addon.mod_assign.numberofparticipants": "Teilnehmer/innen",
     "addon.mod_assign.numberofparticipantscountdescription": "Teilnehmer/innen: {{count}}",
-    "addon.mod_assign.numberofsubmissionsneedgrading": "Bewertung erwartet",
+    "addon.mod_assign.numberofsubmissionsneedgrading": "Noch zu bewerten",
     "addon.mod_assign.numberofsubmissionsneedgradingcountdescription": "Abgaben zur Bewertung: {{count}}",
     "addon.mod_assign.numberofsubmittedassignments": "Abgegeben",
     "addon.mod_assign.numberofsubmittedassignmentscountdescription": "Abgegebene Aufgaben: {{count}}",
