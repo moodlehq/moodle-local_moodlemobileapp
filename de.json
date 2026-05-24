@@ -2520,7 +2520,7 @@
     "core.imageviewer": "Bildanzeige",
     "core.info": "Infos",
     "core.invalidformdata": "Falsche Formulardaten",
-    "core.invalidusername": "Der Anmeldename enthält ungültige Zeichen",
+    "core.invalidusername": "Der Anmeldename enthält ungültige Zeichen.",
     "core.ioscookieshelp": "Eingebettete Inhalte benötigen möglicherweise Cookies, um zu funktionieren. Aktivieren Sie für diese App die iOS-Einstellung \"Cross-Website-Tracking zulassen\" und versuchen Sie es noch einmal.",
     "core.labelsep": ": ",
     "core.labelvalue": "{{$a.label}}: {{$a.value}}",
