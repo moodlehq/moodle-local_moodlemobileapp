@@ -197,6 +197,10 @@ function build_lang(&$language) {
                 $language->local++;
             }
 
+            // Remove spaces after {{ and before }}.
+            $text = preg_replace('/{{\\s+/', '{{', $text);
+            $text = preg_replace('/\\s+}}/', '}}', $text);
+
             $translations[$appkey] = html_entity_decode($text);
         }
     }
