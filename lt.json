@@ -2592,7 +2592,7 @@
     "freemium.biometricloginloginwithfingerprint": "Prisijungimas su pirštų antspaudais",
     "freemium.biometricloginloginwithtouchid": "Prisijungimas su „TouchID",
     "freemium.biometricloginskip": "Kol kas praleisti",
-    "freemium.biometricloginsuccessfullyenabled": "{{ biometricMethod }} įjungtas.",
+    "freemium.biometricloginsuccessfullyenabled": "{{biometricMethod}} įjungtas.",
     "freemium.biometricloginturnoff": "Šią funkciją galite bet kada įjungti ir išjungti nustatymų dalyje.",
     "freemium.biometriclogintypefaceid": "„FaceID“",
     "freemium.biometriclogintypefingerprint": "Piršto antspaudas",
