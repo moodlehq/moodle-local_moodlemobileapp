@@ -8,6 +8,7 @@
     "addon.mod_scorm.enter": "Starta",
     "addon.mod_scorm.suspended": "Avstängd",
     "addon.storagemanager.alldata": "All data",
+    "core.course.course:viewoverview": "Visa aktivitetsöversikt i kurser",
     "core.course.emptyconditionsinfo": "Det finns inga slutförandevillkor för denna aktivitet.",
     "core.course.hiddenfromstudents": "Dold för deltagare",
     "core.course.overview_info": "En översikt av alla aktiviteter i kursen, med datum och annan information.",
