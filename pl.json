@@ -2018,7 +2018,7 @@
     "core.h5p.screenshotsDescription": "Dodaj maksymalnie pięć zrzutów ekranu swojej zawartości",
     "core.h5p.share": "Udostępnij",
     "core.h5p.shareFailed": "Udostępnianie nie powiodło się.",
-    "core.h5p.shareTryAgain": "Coś poszło nie tak. Spróbuj udostępnić ponownie.",
+    "core.h5p.shareTryAgain": "Nie udało się nawiązać połączenia z H5P. Spróbuj ponownie później.",
     "core.h5p.shared": "Udostępnione",
     "core.h5p.sharingNote": "Wszystkie szczegóły dot. zawartości można edytować po udostępnieniu",
     "core.h5p.shortDescription": "Krótki opis",
