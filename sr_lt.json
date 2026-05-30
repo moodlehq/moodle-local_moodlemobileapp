@@ -3262,7 +3262,6 @@
     "freemium.upsell_renewtitle": "Obnovite pretplatu",
     "freemium.upsell_unlockpremiumfeatures_message": "Pogledajte šta propuštate sa {{plan}} planom",
     "freemium.upsell_unlockpremiumfeatures_title": "Otključajte funkcije Premium plana",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }}/godišnje",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "Vaš plan",
     "freemium.upsell_upgradeforunlimited": "Nadogradite plan za neograničeno korišćenje svih funkcija",
     "freemium.upsell_upgradefreemessage": "Trenutno koristite {{plan}} plan, nadogradite ga kako biste otključali dodatne funkcije.",

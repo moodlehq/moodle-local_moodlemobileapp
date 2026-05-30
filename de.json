@@ -3265,7 +3265,6 @@
     "freemium.upsell_renewtitle": "Erneuern Sie Ihr Abo",
     "freemium.upsell_unlockpremiumfeatures_message": "Entdecken Sie, was Ihnen mit einem {{plan}} Abo entgeht",
     "freemium.upsell_unlockpremiumfeatures_title": "Premium-Funktionen freischalten",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }}/Jahr",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "Ihr Abonnement",
     "freemium.upsell_upgradeforunlimited": "Upgrade auf unbeschränkt",
     "freemium.upsell_upgradefreemessage": "Sie nutzen aktuell das {{plan}}-Abo. Führen Sie ein Upgrade durch, um weitere Funktionen freizuschalten.",

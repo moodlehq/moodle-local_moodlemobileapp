@@ -3265,7 +3265,6 @@
     "freemium.upsell_renewtitle": "Renew your subscription",
     "freemium.upsell_unlockpremiumfeatures_message": "See what you're missing with a {{plan}} plan",
     "freemium.upsell_unlockpremiumfeatures_title": "Unlock Premium features",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }}/year",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "Your plan",
     "freemium.upsell_upgradeforunlimited": "Upgrade for unlimited",
     "freemium.upsell_upgradefreemessage": "You are currently on the {{plan}} plan, upgrade to unlock more features.",

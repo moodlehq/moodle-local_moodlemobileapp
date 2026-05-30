@@ -3265,7 +3265,6 @@
     "freemium.upsell_renewtitle": "Perbarui langganan Anda",
     "freemium.upsell_unlockpremiumfeatures_message": "Lihat apa yang Anda lewatkan dengan paket {{plan}}",
     "freemium.upsell_unlockpremiumfeatures_title": "Buka fitur Premium",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }}/tahun",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "Paket Anda",
     "freemium.upsell_upgradeforunlimited": "Tingkatkan untuk tidak terbatas",
     "freemium.upsell_upgradefreemessage": "Saat ini Anda berada di paket {{plan}}, tingkatkan untuk membuka lebih banyak fitur.",

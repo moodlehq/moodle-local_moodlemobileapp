@@ -3265,7 +3265,6 @@
     "freemium.upsell_renewtitle": "Obnovit předplatné",
     "freemium.upsell_unlockpremiumfeatures_message": "Zjistěte, co vám s tarifem {{plan}} uniká",
     "freemium.upsell_unlockpremiumfeatures_title": "Odemkněte prémiové funkce",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ cena }}/rok",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "Váš plán",
     "freemium.upsell_upgradeforunlimited": "Upgradujte pro neomezený",
     "freemium.upsell_upgradefreemessage": "Momentálně máte tarif {{plan}}. Upgradujte a odemkněte si další funkce.",

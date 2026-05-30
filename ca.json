@@ -3248,7 +3248,6 @@
     "freemium.upsell_renewtitle": "Renoveu la vostra subscripció",
     "freemium.upsell_unlockpremiumfeatures_message": "Descobriu tot el que us perdeu amb el pla {{plan}}",
     "freemium.upsell_unlockpremiumfeatures_title": "Desbloquegeu les funcions Premium",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }} anuals",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "El vostre pla",
     "freemium.upsell_upgradeforunlimited": "Actualitzeu a il·limitat",
     "freemium.upsell_upgradefreemessage": "Actualment esteu al pla {{plan}}, actualitzeu per a desbloquejar més funcions.",

@@ -3266,7 +3266,6 @@
     "freemium.upsell_renewtitle": "Renovar su suscripción",
     "freemium.upsell_unlockpremiumfeatures_message": "Descubra lo que se estás perdiendo con un plan {{plan}}",
     "freemium.upsell_unlockpremiumfeatures_title": "Desbloquear las funciones Premium",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }}/año",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "Su plan",
     "freemium.upsell_upgradeforunlimited": "Actualizar a ilimitado",
     "freemium.upsell_upgradefreemessage": "Usted actualmente está en el plan  {{plan}}; actualice para desbloquear más características.",

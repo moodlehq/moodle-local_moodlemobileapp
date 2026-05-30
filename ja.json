@@ -3265,7 +3265,6 @@
     "freemium.upsell_renewtitle": "あなたのサブスクリプションを更新する",
     "freemium.upsell_unlockpremiumfeatures_message": "{{plan}} プランであなたが見逃しているものをチェックする",
     "freemium.upsell_unlockpremiumfeatures_title": "プレミアム機能を利用可能にする",
-    "freemium.upsell_unlockpremiumfeatures_upgradeprice": "{{ price }}/年",
     "freemium.upsell_unlockpremiumfeatures_yourplanlimit": "あなたのプラン",
     "freemium.upsell_upgradeforunlimited": "無制限へのアップグレード",
     "freemium.upsell_upgradefreemessage": "現在、あなたは {{plan}} プランを利用中です。アップグレードしてさらに多くの機能をお試しください。",
