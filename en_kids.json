@@ -1,0 +1,14 @@
+{
+    "addon.mod_url.modulenameplural": "Weblinks",
+    "core.course": "Space",
+    "core.courses.availablecourses": "Available learning spaces",
+    "core.courses.categories": "Space categories",
+    "core.courses.courses": "Spaces",
+    "core.decsep": ".",
+    "core.labelsep": ":",
+    "core.listsep": ",",
+    "core.mod_url": "Weblink",
+    "core.notenrolledprofile": "You can't see the profile because this user is not enrolled in this space",
+    "core.parentlanguage": "en",
+    "workplace.coursefiles": "Legacy space files"
+}
