@@ -2548,7 +2548,7 @@
     "core.strftimedatemonthabbr": "%d %b %Y",
     "core.strftimedateshort": "%d %B",
     "core.strftimedatetime": "%d %B %Y, %H:%M %p",
-    "core.strftimedatetimeshort": "%d/%m/%Y %H:%M",
+    "core.strftimedatetimeshort": "%d/%m/%y %H:%M",
     "core.strftimedaydate": "%A, %d de %B de %Y",
     "core.strftimedaydatetime": "%A, %d %b %Y, %H:%M",
     "core.strftimedayshort": "%A, %d %B",
