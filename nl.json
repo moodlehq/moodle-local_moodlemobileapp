@@ -2487,7 +2487,7 @@
     "core.h5p.screenshotsDescription": "Voeg maximaal vijf screenshots van je inhoud toe",
     "core.h5p.share": "Deel",
     "core.h5p.shareFailed": "Delen is mislukt.",
-    "core.h5p.shareTryAgain": "Er is iets misgegaan, probeer opnieuw te delen.",
+    "core.h5p.shareTryAgain": "Kon niet communiceren met de HP Hub. Probeer later opnieuw",
     "core.h5p.shared": "Gedeeld",
     "core.h5p.sharingNote": "Alle inhoudsdetails kunnen na het delen worden bewerkt",
     "core.h5p.shortDescription": "Korte beschrijving",
