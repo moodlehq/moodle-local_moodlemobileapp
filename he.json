@@ -2381,6 +2381,7 @@
     "workplace.programs": "תוכניות לימודים",
     "workplace.recentlyaccessedcourses": "קורסים אשר נצפו לאחרונה",
     "workplace.roleincontext": "{{$a.role}} ב- {{$a.context}}",
+    "workplace.searchplaceholder": "חיפוש קורסים או תוכניות לימודים",
     "workplace.teams.apply": "עדכון",
     "workplace.teams.filtercontains": "מכיל",
     "workplace.teams.filterdoesnotcontain": "אינו מכיל",

@@ -617,6 +617,7 @@
     "workplace.progresscompleted": "اكتمل {{$a.completed}} من {{$a.total}}",
     "workplace.recentlyaccessedcourses": "الدورات التي تم الوصول إليها مؤخرا",
     "workplace.review": "مراجعة",
+    "workplace.searchplaceholder": "ابحث عن الدورات أو البرامج",
     "workplace.seecontent": "عرض المحتوى",
     "workplace.setsandcoursesnotfound": "لا يوجد مجموعات او مقررات دراسية",
     "workplace.sortbyduedate": "الترتيب حسب تاريخ الانتهاء",
