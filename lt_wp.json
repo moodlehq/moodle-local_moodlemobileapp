@@ -43,6 +43,7 @@
     "workplace.progress": "{{$a}}% baigta",
     "workplace.progresscompleted": "{{$a.completed}} iš {{$a.total}} užbaigtų",
     "workplace.recentlyaccessedcourses": "Neseniai atidaryti kursai",
+    "workplace.searchplaceholder": "Ieškoti kursų ir programų",
     "workplace.sortbyduedate": "Rūšiuoti pagal sudarymo datą",
     "workplace.sortbylastaccess": "Rūšiuoti pagal paskutinį apsilankymą",
     "workplace.sortbyname": "Rūšiuoti pagal pavadinimą",

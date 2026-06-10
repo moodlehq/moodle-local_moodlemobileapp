@@ -614,7 +614,7 @@
     "core.comments.addcomment": "Cuir beachd ri...",
     "core.comments.comments": "Beachdan",
     "core.comments.commentscount": "Beachdan ({{$a}})",
-    "core.comments.deletecommentbyon": "Dubh às am beachd a chaidh fhàgail le {{$a.user}} aig {{$a.time}}",
+    "core.comments.deletecommentbyon": "Dubh às am beachd a chaidh a phostadh le {{$a.user}} aig {{$a.time}}",
     "core.comments.eventcommentdeleted": "Beachd air a dhubhadh às",
     "core.comments.nocomments": "",
     "core.comments.savecomment": "Sàbhail beachd",
