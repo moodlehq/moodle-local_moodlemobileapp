@@ -1152,6 +1152,7 @@
     "addon.qtype_numerical.invalidnumbernounit": "Ви повинні ввести коректне число (десятковий знак - крапка!). Не додавайте назву одиниці виміру до своєї відповіді.",
     "addon.qtype_numerical.pleaseenterananswer": "Введіть відповідь",
     "addon.qtype_numerical.unitnotselected": "Ви маєте вибрати одиницю виміру.",
+    "addon.qtype_ordering.moved": "{{$a.item}} переміщено. Нове положення: {{$a.position}} з {{$a.total}}.",
     "addon.qtype_shortanswer.pleaseenterananswer": "Будь ласка введіть відповідь",
     "addon.qtype_truefalse.pleaseselectananswer": "Будь ласка виберіть відповідь",
     "addon.report_insights.actionsaved": "Ваш відгук про '{{$a}}' збережено.",
