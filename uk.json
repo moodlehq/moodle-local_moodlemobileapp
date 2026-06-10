@@ -1142,6 +1142,7 @@
     "addon.privatefiles.sitefiles": "Файли сайту",
     "addon.qtype_essay.maxwordlimitboundary": "Обмеження слів для цього запитання – {{$a.limit}} слів, і ви намагаєтеся надіслати {{$a.count}} слів. Скоротіть відповідь і повторіть спробу.",
     "addon.qtype_essay.minwordlimitboundary": "На це запитання потрібна відповідь принаймні {{$a.limit}} слів, і ви намагаєтеся надіслати {{$a.count}} слів. Розширте свою відповідь і повторіть спробу.",
+    "addon.qtype_ordering.moved": "{{$a.item}} переміщено. Нове положення: {{$a.position}} з {{$a.total}}.",
     "addon.report_insights.actionsaved": "Ваш відгук про '{{$a}}' збережено.",
     "addon.report_insights.fixedack": "Прийняти",
     "addon.report_insights.incorrectlyflagged": "Неправильно позначено",
