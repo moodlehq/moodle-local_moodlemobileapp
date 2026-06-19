@@ -2575,7 +2575,7 @@
     "core.tag.errorareanotsupported": "Aquesta àrea d'etiquetes no està suportada a l'aplicació.",
     "core.tag.inalltagcoll": "Arreu",
     "core.tag.itemstaggedwith": "{{$a.tagarea}} etiquetada amb «{{$a.tag}}»",
-    "core.tag.noresultsfor": "Cap resultat per a \"{{$a}}\"",
+    "core.tag.noresultsfor": "Cap resultat per a «{{$a}}»",
     "core.tag.notagsfound": "No s'han trobat etiquetes coincidents amb «{{$a}}»",
     "core.tag.searchtags": "Cerca etiquetes",
     "core.tag.showingfirsttags": "S'estan mostrant les {{$a}} etiquetes més populars",
