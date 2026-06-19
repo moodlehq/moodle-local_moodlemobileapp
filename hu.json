@@ -2096,7 +2096,7 @@
     "core.h5p.screenshotsDescription": "Legfeljebb 5 képernyőkép hozzáadása a tartalomhoz",
     "core.h5p.share": "Megosztás",
     "core.h5p.shareFailed": "Megosztás sikertelen.",
-    "core.h5p.shareTryAgain": "Nem sikerült kapcsolatba lépni a H5P Hub-bal. Kérjük, próbálja meg később!",
+    "core.h5p.shareTryAgain": "Nem sikerült kapcsolatba lépni a H5P Hub-bal. Kérjük, próbálja újra később!",
     "core.h5p.shared": "Megosztva",
     "core.h5p.sharingNote": "A tartalom minden részlete módosítható a megosztás után",
     "core.h5p.shortDescription": "Rövid leírás",
