@@ -351,7 +351,7 @@
     "addon.mod_assign.attempt": "Intent {{$a}}",
     "addon.mod_assign.attempthistory": "Intents previs",
     "addon.mod_assign.attemptnumber": "Número d'intent",
-    "addon.mod_assign.attemptreopenmethod": "Intents addicionals",
+    "addon.mod_assign.attemptreopenmethod": "Intents permesos",
     "addon.mod_assign.attemptreopenmethod_automatic": "Automàticament",
     "addon.mod_assign.attemptreopenmethod_manual": "Manualment",
     "addon.mod_assign.attemptreopenmethod_none": "Mai",
