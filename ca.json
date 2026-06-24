@@ -359,7 +359,7 @@
     "addon.mod_assign.assignmentisdue": "La tasca ha vençut",
     "addon.mod_assign.assigntimeleft": "Temps restant",
     "addon.mod_assign.attemptnumber": "Número d'intent",
-    "addon.mod_assign.attemptreopenmethod": "Intents addicionals",
+    "addon.mod_assign.attemptreopenmethod": "Intents permesos",
     "addon.mod_assign.attemptreopenmethod_manual": "Manualment",
     "addon.mod_assign.attemptreopenmethod_untilpass": "Automàticament fins superació",
     "addon.mod_assign.attemptsettings": "Configuració dels intents",
