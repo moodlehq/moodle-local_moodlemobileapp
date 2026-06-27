@@ -992,6 +992,8 @@
     "core.question.notanswered": "Gun fhreagairt",
     "core.question.notyetanswered": "Gun a fhreagairt fhathast",
     "core.question.partiallycorrect": "Ceart gu ìre",
+    "core.question.questionno": "Ceist {{$a}}",
+    "core.question.requiresgrading": "Feumach air comharrachadh",
     "core.quotausage": "Tha thu air {{$a.used}} den mheud ceadaichte agad {{$a.total}} a chleachdadh thuige seo.",
     "core.refresh": "Nuadhaich",
     "core.remove": "Thoir às",
