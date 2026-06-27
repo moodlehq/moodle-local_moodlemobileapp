@@ -109,6 +109,8 @@
     "core.user.department": "Departament",
     "core.user.description": "Descripcion",
     "core.user.editingteacher": "Professor",
+    "core.user.email": "Adreiça electronica",
+    "core.user.emailagain": "Confirmar l'adreiça electronica",
     "core.user.firstname": "Nom",
     "core.user.idnumber": "Numèro d’identificacion",
     "core.user.institution": "Institucion",
