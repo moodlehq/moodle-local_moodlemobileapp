@@ -932,7 +932,7 @@
     "addon.mod_quiz.outofshort": "{{$a.grade}}/{{$a.maxgrade}}",
     "addon.mod_quiz.overallfeedback": "Galdetegiko feedback orokorra",
     "addon.mod_quiz.overdue": "Atzeratuta",
-    "addon.mod_quiz.overduemustbesubmittedby": "Saiakera hau epez kanpo dago. Dagoeneko bidalita egon beharko luke. Galdetegia kalifikatua izatea nahi baduzu, {{$a}}(e)rako bidali behar duzu. Ez baduzu data horretarako bidaltzen, saiakera hau ez da aintzat hartuko.",
+    "addon.mod_quiz.overduemustbesubmittedby": "Saiakera hau epez kanpo dago. Dagoeneko bidalita egon beharko luke. Galdetegia kalifikatua izatea nahi baduzu, {{$a}}(e)rako bidali behar duzu. Ez baduzu data horretarako bidaltzen, saiakera honetako puntuazioak ez dira aintzat hartuko.",
     "addon.mod_quiz.preview": "Aurreikusi",
     "addon.mod_quiz.previewquiznow": "Aurreikusi galdetegia orain",
     "addon.mod_quiz.quiznavigation": "Galdetegiaren nabigazioa",
