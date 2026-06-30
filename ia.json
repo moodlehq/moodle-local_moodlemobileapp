@@ -274,6 +274,8 @@
     "addon.mod_assign_submission_file.pluginname": "Submissiones de file",
     "addon.mod_assign_submission_onlinetext.pluginname": "Submisssiones de texto in linea",
     "addon.mod_assign_submission_onlinetext.wordlimitexceeded": "Le limite de parolas pro iste asignation es {{$a.limit}} parolas e tu es tentante submitter {{$a.count}} parolas. Per favor, revide tu submission e tenta de novo.",
+    "addon.mod_data_fields_file.fieldtypelabel": "File",
+    "addon.mod_data_fields_picture.fieldtypelabel": "Imagine",
     "addon.mod_feedback.preview": "Vide preliminarmente",
     "addon.mod_forum.advanced": "Avantiate",
     "addon.notes.addnewnote": "Adde un nove nota",
