@@ -84,6 +84,7 @@
     "core.login.invalidemail": "Adreiça de corriel valida",
     "core.login.login": "Se connectar",
     "core.login.loginsteps": "Per un accès complet au site, vos fau crear un còmpte.",
+    "core.login.logoof": "Logo de {{$a}}",
     "core.login.password": "Senhau",
     "core.login.passwordforgotten": "Senhau perdut",
     "core.mainmenu.home": "Accuelh",
