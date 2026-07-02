@@ -1101,7 +1101,7 @@
     "addon.mod_workshop.taskdone": "Deber realizado",
     "addon.mod_workshop.taskfail": "Trabajo fallido",
     "addon.mod_workshop.taskinfo": "Información del deber",
-    "addon.mod_workshop.tasktodo": "Deber a realizar",
+    "addon.mod_workshop.tasktodo": "Trabajo por hacer",
     "addon.mod_workshop.userplan": "Planificador de taller",
     "addon.mod_workshop.userplancurrentphase": "Fase actual",
     "addon.mod_workshop.warningassessmentmodified": "El envío fue modificado en el sitio.",

@@ -2010,7 +2010,7 @@
     "core.course": "Curs",
     "core.course.activitydate:closed": "Tancada el",
     "core.course.activitydate:closes": "Es tanca el",
-    "core.course.activitydate:opened": "Oberta el",
+    "core.course.activitydate:opened": "Es va obrir el",
     "core.course.activitydate:opens": "S'obre el",
     "core.course.activitynotavailableoffline": "Aquesta activitat no està disponible fora de línia.",
     "core.course.activityrequiresconnection": "Aquesta activitat només està disponible amb connexió a Internet. Si el vostre dispositiu està fora de línia, no hi podreu accedir.",
