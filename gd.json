@@ -1006,6 +1006,7 @@
     "core.refresh": "Nuadhaich",
     "core.remove": "Thoir às",
     "core.reportbuilder.reports": "Aithisgean",
+    "core.reportbuilder.reportsource": "Tùs na h-aithisge",
     "core.reportbuilder.timecreated": "Uair aig an deach a chruthachadh",
     "core.required": "Deatamach",
     "core.resourcedisplayopen": "Fosgail",
@@ -1124,5 +1125,10 @@
     "workplace.deleted": "Air a dhubhadh às",
     "workplace.moreinfo": "Barrachd fiosrachaidh",
     "workplace.nothingtodisplay": "Chan eil dad ri fhoillseachadh",
-    "workplace.teams.fullname": "Ainm slàn"
+    "workplace.teams.apply": "Cuir an gnìomh",
+    "workplace.teams.filterendswith": "A’ crìochnachadh le",
+    "workplace.teams.filterisanyvalue": "Le luach sam bith",
+    "workplace.teams.filterstartswith": "A’ tòiseachadh le",
+    "workplace.teams.fullname": "Ainm slàn",
+    "workplace.teams.resetall": "Ath-shuidhich uile"
 }
