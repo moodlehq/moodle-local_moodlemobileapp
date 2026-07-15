@@ -2910,7 +2910,6 @@
     "core.settings.estimatedfreespace": "Beregnet ledig plads",
     "core.settings.filesystemroot": "Filsystemets rod",
     "core.settings.fontsize": "Tekststørrelse",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "Låst",
     "core.settings.forcedsetting": "Denne indstilling er blevet tvunget af din webstedskonfiguration.",
     "core.settings.general": "Generelt",
