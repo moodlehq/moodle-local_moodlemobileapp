@@ -2490,7 +2490,6 @@
     "core.settings.estimatedfreespace": "推定空き容量",
     "core.settings.filesystemroot": "ファイルシステムルート",
     "core.settings.fontsize": "テキストサイズ",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "ロック",
     "core.settings.forcedsetting": "この設定はあなたのサイト設定により強制されています。",
     "core.settings.general": "一般",
