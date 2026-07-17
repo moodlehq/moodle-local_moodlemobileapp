@@ -2477,7 +2477,6 @@
     "core.settings.estimatedfreespace": "Espai lliure estimat",
     "core.settings.filesystemroot": "Arrel del fitxer de sistema",
     "core.settings.fontsize": "Mida de la lletra",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "Bloquejat",
     "core.settings.forcedsetting": "Aquest paràmetre està forçat per la configuració del vostre lloc.",
     "core.settings.general": "General",
