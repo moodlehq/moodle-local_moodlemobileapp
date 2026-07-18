@@ -1134,6 +1134,7 @@
     "workplace.deleted": "Air a dhubhadh às",
     "workplace.moreinfo": "Barrachd fiosrachaidh",
     "workplace.nothingtodisplay": "Chan eil dad ri fhoillseachadh",
+    "workplace.roleincontext": "{{$a.role}} ann an {{$a.context}}",
     "workplace.teams.apply": "Cuir an gnìomh",
     "workplace.teams.filterendswith": "A’ crìochnachadh le",
     "workplace.teams.filterisanyvalue": "Le luach sam bith",
