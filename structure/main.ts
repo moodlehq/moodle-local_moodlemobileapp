@@ -7524,6 +7524,7 @@ export type CoreGradesGradereportUserGetGradeItemsWSResponse = {
             averageformatted?: string; // Grade average.
             feedback?: string; // Grade feedback.
             feedbackformat?: number; // Feedback format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            parentcategoryid?: number; // Parent category id.
         }[];
     }[];
     warnings?: CoreWSExternalWarning[];
@@ -11347,6 +11348,26 @@ export type AddonModForumSetPinStateWSResponse = {
         istimed?: boolean; // Istimed.
         visible?: boolean; // Visible.
     };
+};
+
+/**
+ * Params of mod_forum_set_read_state WS.
+ *
+ * WS Description: Set the read or unread state for a forum post for the current user.
+ */
+type AddonModForumSetReadStateWSParams = {
+    postid: number; // Identifier of the post whose read state will be changed.
+    targetstate: boolean; // Target read state (true = read, false = unread).
+};
+
+/**
+ * Data returned by mod_forum_set_read_state WS.
+ *
+ * WS Description: Set the read or unread state for a forum post for the current user.
+ */
+export type AddonModForumSetReadStateWSResponse = {
+    status: boolean; // True if the operation succeeded.
+    warnings?: CoreWSExternalWarning[];
 };
 
 /**
@@ -18581,6 +18602,7 @@ export type CoreSiteGetPublicConfigWSResponse = {
     tool_mobile_androidappid?: string; // Android app's unique identifier.
     tool_mobile_setuplink?: string; // App download page.
     tool_mobile_qrcodetype?: number; // QR login configuration.
+    tool_mobile_enabledeeplinkautologin?: boolean; // Whether auto-login is enabled for deep links in the mobile app.
     warnings?: CoreWSExternalWarning[];
     showloginform: number; // Display default login form.
     tool_mfa_enabled?: boolean; // Whether MFA is enabled for the site.
