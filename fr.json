@@ -2312,7 +2312,7 @@
     "core.grades.gradebook": "Carnet de notes",
     "core.grades.gradeitem": "Élément d’évaluation",
     "core.grades.gradelong": "{{$a.grade}} / {{$a.max}}",
-    "core.grades.gradepass": "Note pour passer",
+    "core.grades.gradepass": "Note de réussite",
     "core.grades.grades": "Notes",
     "core.grades.lettergrade": "Note lettre",
     "core.grades.manualitem": "Élément manuel",
