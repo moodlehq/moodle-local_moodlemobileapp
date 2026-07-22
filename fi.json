@@ -2254,7 +2254,7 @@
     "core.userdetails": "Käyttäjätiedot",
     "core.usernotfullysetup": "Käyttäjää ei ole määritetty kokonaan",
     "core.users": "Käyttäjät",
-    "core.view": "Näytä",
+    "core.view": "Katso",
     "core.viewprofile": "Näytä profiili",
     "core.warningofflinedatadeleted": "Komponentin {{component}} offline-tiedot '{{name}}' on poistettu. {{error}}",
     "core.week": "Viikko",
