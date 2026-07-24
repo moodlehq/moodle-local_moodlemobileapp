@@ -1932,6 +1932,7 @@
     "core.course.nextactivitynotfound": "Nākošā aktivitāte netika atrasta. Iespējams, tā ir paslēpta vai izdzēsta.",
     "core.course.nocontentavailable": "Pašlaik nav pieejams nekāds saturs.",
     "core.course.overriddennotice": "Šīs aktivitātes gala vērtējums tika manuāli koriģēts.",
+    "core.course.overview_info": "Pārskats par visām kursa aktivitātēm, to datumiem un citu informāciju.",
     "core.course.previousactivity": "Iepriekšējā aktivitāte",
     "core.course.previousactivitynotfound": "Iepriekšējā aktivitāte nav atrasta. Iespējams, tā ir paslēpta vai izdzēsta.",
     "core.course.refreshcourse": "Atsvaidzināt kursu",
