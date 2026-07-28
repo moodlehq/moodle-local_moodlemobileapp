@@ -205,6 +205,8 @@
     "addon.enrol_guest.guestaccess_withoutpassword": "Accesso de hospite",
     "addon.enrol_guest.guestaccess_withpassword": "Accesso de hospite require contrasigno",
     "addon.enrol_guest.passwordinvalid": "Contrasigno de accesso incorrecte, per favor essaya novemente",
+    "addon.enrol_self.password": "Clave de inscription",
+    "addon.enrol_self.pluginname": "Auto-inscription",
     "addon.messages.acceptandaddcontact": "Accepta e adde a contactos",
     "addon.messages.addcontact": "Adde contacto",
     "addon.messages.addcontactconfirm": "Es tu secur que tu vole adder {{$a}} a tu contactos?",
