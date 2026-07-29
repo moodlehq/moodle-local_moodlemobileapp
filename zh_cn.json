@@ -2340,7 +2340,6 @@
     "core.settings.estimatedfreespace": "估计的可用空间",
     "core.settings.filesystemroot": "文件系统根目录",
     "core.settings.fontsize": "字体大小",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "已锁定",
     "core.settings.forcedsetting": "此设置是由您的站点配置强制设置的。",
     "core.settings.general": "常规项",
