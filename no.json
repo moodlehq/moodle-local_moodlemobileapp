@@ -2903,7 +2903,6 @@
     "core.settings.estimatedfreespace": "Estimert ledig plass",
     "core.settings.filesystemroot": "Filsystemrot",
     "core.settings.fontsize": "Tekststørrelse",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "Låst",
     "core.settings.forcedsetting": "Denne innstillingen har blitt tvunget av portalens konfigurasjon.",
     "core.settings.general": "Generell",
