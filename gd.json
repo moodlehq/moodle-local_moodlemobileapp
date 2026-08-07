@@ -916,7 +916,7 @@
     "core.login.login": "Log a-steach",
     "core.login.loginsteps": "Feumaidh tu cunntas a chruthachadh an toiseach mus ruig thu air a h-uile càil air an làraich.",
     "core.login.missingemail": "Seòladh puist-d a dhìth",
-    "core.login.missingfirstname": "Ainm thoirte a dhìth",
+    "core.login.missingfirstname": "Ainm tugta a dhìth",
     "core.login.missinglastname": "Sloinneadh a dhìth",
     "core.login.mustconfirm": "Feumaidh tu an cunntas agad a dhearbhadh",
     "core.login.newaccount": "Cunntas ùr",
