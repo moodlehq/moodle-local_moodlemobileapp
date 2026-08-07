@@ -2423,7 +2423,7 @@
     "core.h5p.screenshotsDescription": "Pridėkite iki penkių savo turinio ekrano kopijų",
     "core.h5p.share": "Bendrinti",
     "core.h5p.shareFailed": "Bendrinti nepavyko.",
-    "core.h5p.shareTryAgain": "Kažkas ne taip, pabandykite bendrinti dar kartą.",
+    "core.h5p.shareTryAgain": "Nepavyko užmegzti ryšio su „H5P Hub“. Prašome pabandyti vėliau.",
     "core.h5p.shared": "Bendrinama",
     "core.h5p.sharingNote": "Visą informaciją apie turinį galima redaguoti po bendrinimo",
     "core.h5p.shortDescription": "Trumpas aprašymas",
