@@ -1876,6 +1876,7 @@
     "core.tag.searchtags": "Vyhľadať štítky",
     "core.tag.showingfirsttags": "Zobraziť {{$a}} najpopulárnejších štítkov",
     "core.tag.tag": "Tag",
+    "core.tag.tagarea_badge": "Odznaky",
     "core.tag.tagarea_course": "Kurzy",
     "core.tag.tagarea_course_modules": "Aktivity a zdroje",
     "core.tag.tagarea_post": "Príspevky blogu",
