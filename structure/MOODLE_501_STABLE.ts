@@ -10427,6 +10427,7 @@ export type AddonModForumAddDiscussionPostWSResponse = {
         id: number; // Id.
         subject: string; // Subject.
         replysubject: string; // Replysubject.
+        label: string; // Label.
         message: string; // Message.
         messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         author: {
@@ -10612,6 +10613,7 @@ export type AddonModForumGetDiscussionPostWSResponse = {
         id: number; // Id.
         subject: string; // Subject.
         replysubject: string; // Replysubject.
+        label: string; // Label.
         message: string; // Message.
         messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         author: {
@@ -10754,6 +10756,7 @@ export type AddonModForumGetDiscussionPostsWSResponse = {
         id: number; // Id.
         subject: string; // Subject.
         replysubject: string; // Replysubject.
+        label: string; // Label.
         message: string; // Message.
         messageformat: number; // Message format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
         author: {
