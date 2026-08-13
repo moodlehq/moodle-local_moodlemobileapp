@@ -595,7 +595,7 @@
     "addon.mod_forum.pindiscussion": "Beszélgetés kitűzése",
     "addon.mod_forum.pinupdated": "Fölülre helyezését frissítettük.",
     "addon.mod_forum.postaddedsuccess": "Hozzászólását sikeresen hozzáadtuk.",
-    "addon.mod_forum.postisprivatereply": "A hozzászólás magánjellegű volt. Magánválaszok megtekintésére jogosultakon, pl. tanárokon és vezetőkön kívül  mások nem láthatják.",
+    "addon.mod_forum.postisprivatereply": "A hozzászólás magánjellegű volt. (A tanárokon és a magánjellegű válaszok megtekintésére jogosultakon kívül mások nem láthatják.)",
     "addon.mod_forum.posttoforum": "Hozzászólás a fórumhoz",
     "addon.mod_forum.posttomygroups": "Minden csoporthoz másolat küldése",
     "addon.mod_forum.privatereply": "Magánjellegű válaszadás",
