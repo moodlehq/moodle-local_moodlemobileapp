@@ -2750,7 +2750,6 @@
     "core.settings.estimatedfreespace": "Розрахунковий вільний простір",
     "core.settings.filesystemroot": "Коренева файлова система",
     "core.settings.fontsize": "Розмір тексту",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "Заблоковано",
     "core.settings.forcedsetting": "Це налаштування було вимушене конфігурацією вашого сайту.",
     "core.settings.general": "Основне",
