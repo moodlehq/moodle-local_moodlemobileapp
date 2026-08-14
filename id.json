@@ -2081,7 +2081,7 @@
     "core.course.nextactivitynotfound": "Aktivitas berikutnya tidak ditemukan. Mungkin saja telah disembunyikan atau dihapus.",
     "core.course.nocontentavailable": "Tidak ada konten tersedia untuk saat ini.",
     "core.course.overriddennotice": "Nilai akhir anda dari aktivitas ini telah disesuaikan secara manual.",
-    "core.course.overview_info": "Gambaran umum semua kegiatan dalam kursus, dengan tanggal dan informasi lainnya.",
+    "core.course.overview_info": "Gambaran umum semua aktivitas dalam kursus, dengan tanggal dan informasi lainnya.",
     "core.course.overview_missing_title": "Informasi {{$a}} tidak tersedia.",
     "core.course.previousactivity": "Aktivitas sebelumnya",
     "core.course.previousactivitynotfound": "Aktivitas sebelumnya tidak ditemukan. Mungkin saja telah disembunyikan atau dihapus.",

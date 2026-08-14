@@ -799,6 +799,7 @@
     "addon.mod_quiz.statefinished": "Befejezte",
     "addon.mod_quiz.statefinisheddetails": "Leadott: {{$a}}",
     "addon.mod_quiz.stateinprogress": "Folyamatban",
+    "addon.mod_quiz.statenotstarted": "Nincs elkezdve",
     "addon.mod_quiz.stateoverdue": "Határidőn túli",
     "addon.mod_quiz.stateoverduedetails": "Leadanadó eddig: {{$a}}",
     "addon.mod_quiz.statesubmitted": "Leadva",
