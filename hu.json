@@ -1905,6 +1905,7 @@
     "core.filenotfound": "Nincs meg az állomány.",
     "core.fileuploader.addfiletext": "Állomány hozzáadása",
     "core.fileuploader.attachedfiles": "Csatolt állományok",
+    "core.fileuploader.audio": "Hang",
     "core.fileuploader.errorcapturingaudio": "Hiba a hang rögzítése közben.",
     "core.fileuploader.errorcapturingvideo": "Nem sikerült videofelvételt készíteni.",
     "core.fileuploader.filesofthesetypes": "Elfogadott állománytípusok:",
