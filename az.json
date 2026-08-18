@@ -362,6 +362,7 @@
     "addon.mod_assign.cannotsubmitduetostatementsubmission": "Siz tətbiqdə cavab verə bilməzsiniz, çünki cavabə təqdim etmə bəyanatını saytdan almaq mümkün olmadı.",
     "addon.mod_assign.confirmstart": "Sizin göndərişinizin vaxt limiti {{$a}} olacaq. Başladığınız zaman Vaxt ölçən geri saymağa başlayacaq və bu dayandırıla bilməz. Siz göndərişinizi bu vaxt bitənə qədər tamamlamalısınız. İndi başlamaq istədiyinizə əminsiniz?",
     "addon.mod_assign.confirmsubmission": "İşinizi qiymətləndirmə üçün göndərmək istədiyinizə əminsiniz? Sizin əlavə dəyişikliklər etmək imkanınız olmayacaq.",
+    "addon.mod_assign.currentassigngrade": "Tapşırıq üzrə cari qiymət",
     "addon.mod_assign.currentattempt": "Bu {{$a}} cəhdidir.",
     "addon.mod_assign.currentattemptof": "Bu {{$a.attemptnumber}} cəhdidir ( {{$a.maxattempts}} cəhdlərinə icazə verilir).",
     "addon.mod_assign.currentgrade": "Jurnaldaki cari qiymət",
