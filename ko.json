@@ -1903,7 +1903,6 @@
     "core.settings.estimatedfreespace": "예상 여유 공간",
     "core.settings.filesystemroot": "파일 시스템 루트",
     "core.settings.fontsize": "글자 크기",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "강제됨",
     "core.settings.forcedsetting": "이 설정은 사이트 구성에 의해 강제되었습니다.",
     "core.settings.general": "기본",

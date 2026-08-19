@@ -2361,7 +2361,6 @@
     "core.settings.estimatedfreespace": "Beräknat ledigt utrymme",
     "core.settings.filesystemroot": "Filsystemrot",
     "core.settings.fontsize": "Teckenstorlek",
-    "core.settings.fontsizecharacter": "A",
     "core.settings.forced": "Låst",
     "core.settings.forcedsetting": "Denna inställning har bestämts av webbplatsinställningarna.",
     "core.settings.general": "Allmänt",
