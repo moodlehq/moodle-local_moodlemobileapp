@@ -917,6 +917,7 @@
     "core.location": "Àite",
     "core.login.accounts": "Cunntasan",
     "core.login.add": "Cuir ris",
+    "core.login.auth_email": "Fèin-chlàradh le post-d",
     "core.login.cancel": "Trèig",
     "core.login.changepassword": "Atharraich facal-faire",
     "core.login.createaccount": "Cruthaich an cunntas ùr agam",
