@@ -14,7 +14,7 @@ jobs:
         moodle_branch: ['main', 'MOODLE_502_STABLE', 'MOODLE_501_STABLE', 'MOODLE_500_STABLE', 'MOODLE_405_STABLE']
     env:
       dbtype: pgsql
-      php: 8.3
+      php: 8.4
       MOODLE_BRANCH: ${{ matrix.moodle_branch || 'main' }}
       MOODLE_REPOSITORY: 'https://github.com/moodle/moodle'
     steps:
