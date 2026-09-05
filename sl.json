@@ -2449,7 +2449,7 @@
     "core.login.recaptchaexpired": "Preverjanje je poteklo. Znova odgovorite na varnostno vprašanje.",
     "core.login.recaptchaincorrect": "Odgovor na varnostno vprašanje ni pravilen.",
     "core.login.reconnect": "Ponovno se povežite",
-    "core.login.resendemail": "Ponovno pošlji e-sporočilo",
+    "core.login.resendemail": "Ponovno pošlji potrditveno sporočilo",
     "core.login.searchby": "Išči po:",
     "core.login.security_question": "Varnostno vprašanje",
     "core.login.selectacountry": "Izberite državo",
