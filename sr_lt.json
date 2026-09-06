@@ -2326,7 +2326,7 @@
     "core.grades.lettergrade": "Slovna ocena",
     "core.grades.manualitem": "Ručne stavke",
     "core.grades.nogradesreturned": "Nema dobijenih ocena",
-    "core.grades.nooutcome": "Bez ishoda učenja",
+    "core.grades.nooutcome": "Nema ishoda učenja",
     "core.grades.notgraded": "Nije ocenjeno",
     "core.grades.outcome": "Ishod učenja",
     "core.grades.pass": "Prelazna ocena",
