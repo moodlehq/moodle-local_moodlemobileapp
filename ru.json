@@ -1539,7 +1539,7 @@
     "addon.tinymce.tiny:rupee_sign": "Символ рупии",
     "addon.tinymce.tiny:save": "Сохранить",
     "addon.tinymce.tiny:save_if_save_plugin_activated": "Сохранить (если плагин save активирован)",
-    "addon.tinymce.tiny:scope": "Область действия",
+    "addon.tinymce.tiny:scope": "Область применения",
     "addon.tinymce.tiny:search": "Поиск",
     "addon.tinymce.tiny:select...": "Выбрать...",
     "addon.tinymce.tiny:select_all": "Выделить все",
