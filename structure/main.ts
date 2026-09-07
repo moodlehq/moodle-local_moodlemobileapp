@@ -2825,6 +2825,7 @@ export type CoreCourseGetContentsWSResponse = {
         url?: string; // Activity url.
         name: string; // Activity module name.
         instance?: number; // Instance id.
+        lang?: string; // Forced activity language.
         contextid?: number; // Activity context id.
         description?: string; // Activity description.
         visible?: number; // Is the module visible.
@@ -2941,21 +2942,28 @@ type CoreCourseGetCourseModuleWSParams = {
 export type CoreCourseGetCourseModuleWSResponse = {
     cm: {
         id: number; // The course module id.
-        course: number; // The course id.
+        coursemodule: number; // Course module id.
+        course: number; // Course id.
+        name: string; // Activity name.
+        intro?: string; // Activity introduction.
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: number; // If visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         module: number; // The module type id.
-        name: string; // The activity name.
         modname: string; // The module component name (forum, assign, etc..).
         instance: number; // The activity instance id.
-        section: number; // The module section id.
         sectionnum: number; // The module section number.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
         completion: number; // If completion is enabled.
         idnumber?: string; // Module id number.
         added?: number; // Time added.
         score?: number; // Score.
         indent?: number; // Indentation.
-        visible?: number; // If visible.
         visibleoncoursepage?: number; // If visible on course page.
         visibleold?: number; // Visible old.
         completiongradeitemnumber?: number; // Completion grade item.
@@ -3000,21 +3008,28 @@ type CoreCourseGetCourseModuleByInstanceWSParams = {
 export type CoreCourseGetCourseModuleByInstanceWSResponse = {
     cm: {
         id: number; // The course module id.
-        course: number; // The course id.
+        coursemodule: number; // Course module id.
+        course: number; // Course id.
+        name: string; // Activity name.
+        intro?: string; // Activity introduction.
+        introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        introfiles?: CoreWSExternalFile[];
+        section?: number; // Course section id.
+        visible?: number; // If visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Group id.
+        lang?: string; // Forced activity language.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         module: number; // The module type id.
-        name: string; // The activity name.
         modname: string; // The module component name (forum, assign, etc..).
         instance: number; // The activity instance id.
-        section: number; // The module section id.
         sectionnum: number; // The module section number.
-        groupmode: number; // Group mode.
-        groupingid: number; // Grouping id.
         completion: number; // If completion is enabled.
         idnumber?: string; // Module id number.
         added?: number; // Time added.
         score?: number; // Score.
         indent?: number; // Indentation.
-        visible?: number; // If visible.
         visibleoncoursepage?: number; // If visible on course page.
         visibleold?: number; // Visible old.
         completiongradeitemnumber?: number; // Completion grade item.
@@ -4362,7 +4377,7 @@ export type CoreGroupGetCourseUserGroupsWSResponse = {
 /**
  * Params of core_group_get_groups_for_selector WS.
  *
- * WS Description: Get the group/(s) for a course
+ * WS Description: Get the group/(s) for a course or course module
  */
 type CoreGroupGetGroupsForSelectorWSParams = {
     courseid: number; // Course Id.
@@ -4372,7 +4387,7 @@ type CoreGroupGetGroupsForSelectorWSParams = {
 /**
  * Data returned by core_group_get_groups_for_selector WS.
  *
- * WS Description: Get the group/(s) for a course
+ * WS Description: Get the group/(s) for a course or course module
  */
 export type CoreGroupGetGroupsForSelectorWSResponse = {
     groups: {
@@ -7815,10 +7830,21 @@ export type AddonModAssignGetAssignmentsWSResponse = {
         shortname: string; // Course short name.
         timemodified: number; // Last time modified.
         assignments: { // Assignment info.
-            id: number; // Assignment id.
-            cmid: number; // Course module id.
+            id: number; // Activity instance id.
+            coursemodule: number; // Course module id.
             course: number; // Course id.
-            name: string; // Assignment name.
+            name: string; // Activity name.
+            intro?: string; // Activity introduction.
+            introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+            introfiles?: CoreWSExternalFile[];
+            section?: number; // Course section id.
+            visible?: boolean; // Visible.
+            groupmode?: number; // Group mode.
+            groupingid?: number; // Group id.
+            lang?: string; // Forced activity language.
+            enableaitools?: number; // AI tools status.
+            enabledaiactions?: string; // Enabled AI actions.
+            cmid: number; // Course module id.
             nosubmissions: number; // No submissions.
             submissiondrafts: number; // Submissions drafts.
             sendnotifications: number; // Send notifications.
@@ -7842,7 +7868,8 @@ export type AddonModAssignGetAssignmentsWSResponse = {
             maxattempts: number; // Maximum number of attempts allowed.
             markingworkflow: number; // Enable marking workflow.
             markingallocation: number; // Enable marking allocation.
-            markercount: number; // Number of markers.
+            markercount: number; // Number of required markers.
+            optionalmarkercount?: number; // Number of optional markers.
             multimarkmethod: string; // Method to use when combining marks to a final grade.
             multimarkrounding: number; // Rounding direction to use when handling decimal marks.
             markinganonymous: number; // Enable marking anonymous.
@@ -7858,9 +7885,6 @@ export type AddonModAssignGetAssignmentsWSResponse = {
                 name: string; // Name.
                 value: string; // Value.
             }[];
-            intro?: string; // Assignment intro, not allways returned because it deppends on the activity configuration.
-            introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
-            introfiles?: CoreWSExternalFile[];
             introattachments?: CoreWSExternalFile[];
             activity?: string; // Description of activity.
             activityformat?: number; // Activity format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
@@ -11079,14 +11103,21 @@ type AddonModForumGetForumsByCoursesWSParams = {
             returned.
  */
 export type AddonModForumGetForumsByCoursesWSResponse = {
-    id: number; // Forum id.
+    id: number; // Activity instance id.
+    coursemodule: number; // Course module id.
     course: number; // Course id.
-    type: string; // The forum type.
-    name: string; // Forum name.
-    intro: string; // The forum intro.
+    name: string; // Activity name.
+    intro: string; // Activity introduction.
     introformat: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
     introfiles?: CoreWSExternalFile[];
+    section?: number; // Course section id.
+    visible?: boolean; // Visible.
+    groupmode?: number; // Group mode.
+    groupingid?: number; // Group id.
     lang?: string; // Forced activity language.
+    enableaitools?: number; // AI tools status.
+    enabledaiactions?: string; // Enabled AI actions.
+    type: string; // The forum type.
     duedate?: number; // Duedate for the user.
     cutoffdate?: number; // Cutoffdate for the user.
     assessed: number; // Aggregate type.
@@ -12731,18 +12762,25 @@ type AddonModH5pactivityGetH5pactivitiesByCoursesWSParams = {
 export type AddonModH5pactivityGetH5pactivitiesByCoursesWSResponse = {
     h5pactivities: {
         id: number; // The primary key of the record.
+        coursemodule: number; // Course module id.
         course: number; // Course id this h5p activity is part of.
         name: string; // The name of the activity module instance.
         timecreated?: number; // Timestamp of when the instance was added to the course.
         timemodified?: number; // Timestamp of when the instance was last modified.
         intro: string; // H5P activity description.
         introformat?: number; // Intro format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+        section?: number; // Course section id.
+        visible?: number; // Visible.
+        groupmode?: number; // Group mode.
+        groupingid?: number; // Grouping id.
+        lang?: string; // Language code.
+        enableaitools?: number; // AI tools status.
+        enabledaiactions?: string; // Enabled AI actions.
         grade?: number; // The maximum grade for submission.
         displayoptions: number; // H5P Button display options.
         enabletracking: number; // Enable xAPI tracking.
         grademethod: number; // Which H5P attempt is used for grading.
         contenthash?: string; // Sha1 hash of file content.
-        coursemodule: number; // Coursemodule.
         context: number; // Context.
         introfiles: { // Introfiles.
             filename?: string; // File name.
@@ -14456,6 +14494,7 @@ export type AddonModQuizGetQuizzesByCoursesWSResponse = {
         hasfeedback?: number; // Whether the quiz has any non-blank feedback text.
         hasquestions?: number; // Whether the quiz has questions.
         precreateattempts?: number; // Whether attempt pre-creation is enabled.
+        duedate?: number; // The due date for the quiz. (0 = no due date.).
     }[];
     warnings?: CoreWSExternalWarning[];
 };
