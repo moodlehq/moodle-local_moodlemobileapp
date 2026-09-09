@@ -21,9 +21,10 @@
     "addon.mod_scorm.browse": "ቅድመ ትይታ",
     "core.accounts": "የመጠቀሚያ አካውንቶች",
     "core.activities": "ተሳትፎዎች",
-    "core.add": "መጨመር",
+    "core.add": "ጨምር",
     "core.cancel": "ሰርዝ",
     "core.close": "ዝጋ",
+    "core.comments.addcomment": "አስተያየት ይጻፉ...",
     "core.content": "ይዘት",
     "core.courses.search": "ፈልግ",
     "core.decsep": ".",
@@ -33,7 +34,7 @@
     "core.info": "መረጃ",
     "core.listsep": ";",
     "core.login.accounts": "የመጠቀሚያ አካውንቶች",
-    "core.login.add": "መጨመር",
+    "core.login.add": "ጨምር",
     "core.login.cancel": "ሰርዝ",
     "core.login.help": "እገዛ",
     "core.login.newaccount": "አዲስ መዝገብ ",
@@ -45,5 +46,6 @@
     "core.settings.accessstatement": "የተደራሽነት መግለጫ",
     "core.settings.language": "ቋንቋ",
     "core.settings.preferences": "ምርጫዎች",
-    "core.size": "መጠን"
+    "core.size": "መጠን",
+    "freemium.accept": "ተቀበል"
 }
