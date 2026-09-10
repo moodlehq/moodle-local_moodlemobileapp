@@ -2306,7 +2306,7 @@
     "core.grades.nogradesreturned": "Nenhuma avaliação calculada",
     "core.grades.nooutcome": "Nenhum resultado de aprendizagem",
     "core.grades.notgraded": "Não há notas",
-    "core.grades.outcome": "Meta",
+    "core.grades.outcome": "Resultado de aprendizagem",
     "core.grades.pass": "Avançar",
     "core.grades.percentage": "Porcentagem",
     "core.grades.range": "Intervalo",
