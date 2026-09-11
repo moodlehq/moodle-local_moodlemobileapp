@@ -704,7 +704,7 @@
     "addon.mod_forum.tagarea_forum_posts": "Foroetako mezuak",
     "addon.mod_forum.thisforumhasduedate": "Foro honetan idazteko amaiera-data {{$a}} da.",
     "addon.mod_forum.thisforumisdue": "Foro honetan idazteko amaiera-data {{$a}} zen.",
-    "addon.mod_forum.thisforumisthrottled": "Foro honek mezu-kopuru mugatua du denbora-tarte jakin batean. Une honetan honela ezarrita dago:   {{$a.blockafter}} mezu bidaltzea {{$a.blockperiod}}(e)ko epean",
+    "addon.mod_forum.thisforumisthrottled": "Foro honek denbora-tarte jakin batean idatzi daitekeen mezu-kopurua mugatuta dauka. Une honetan honela ezarrita dago: gehienez {{$a.blockafter}} mezu bidali daitezke {{$a.blockperiod}}(e)ko epean.",
     "addon.mod_forum.unlockdiscussion": "Desblokeatu eztabaida hau",
     "addon.mod_forum.unpindiscussion": "Kendu eztabaida honen finkatzea",
     "addon.mod_forum.unread": "Irakurri gabe",
