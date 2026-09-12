@@ -3248,7 +3248,7 @@
     "freemium.subscriptionplanlearnmore": "Saber más",
     "freemium.upsell_batchdownloads_message": "Ahorre tiempo descargando varios cursos a la vez.",
     "freemium.upsell_batchdownloads_title": "Mejore su plan para descargas en masa",
-    "freemium.upsell_coursedownload_managers_message": "El plan {{plan}} permite {{limit}} cursos por dispositivo. Desbloquee descargas ilimitadas.",
+    "freemium.upsell_coursedownload_managers_message": "El plan {{plan}} permite {{limit}} cursos por dispositivos. Desbloquee dispositivos ilimitados.",
     "freemium.upsell_coursedownload_managers_title": "Se ha alcanzado el límite de descarga de cursos",
     "freemium.upsell_coursedownload_message": "Su plan {{plan}} permite un máximo de {{limit}} descargas por dispositivo.",
     "freemium.upsell_coursedownload_message_additional": "Mejore su plan para dar a todos los usuarios descargas ilimitadas para acceso fuera de línea.",
