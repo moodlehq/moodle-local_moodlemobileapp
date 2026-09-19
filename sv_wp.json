@@ -25,6 +25,7 @@
     "core.listsep": ";",
     "core.login.usernameoremail": "Ange antingen användarnamn eller e-postadress - inte båda",
     "core.parentlanguage": "sv",
+    "core.settings.disableall": "Inaktivera alla notiser",
     "core.user.manager": "Administratör",
     "core.user.student": "Deltagare",
     "core.usersuspended": "Registrering avstängd",

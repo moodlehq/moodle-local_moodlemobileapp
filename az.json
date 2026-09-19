@@ -2230,6 +2230,7 @@
     "core.invalidformdata": "Verilənlərin forması səhvdir",
     "core.ioscookieshelp": "Daxil edilmiş məzmun işləmək üçün kukilər tələb edə bilər. Lütfən tətbiqin iOS ayarlarına keçin, \"Veb-saytlar arası izləməyə icazə verilsin\" seçimini aktiv edin və yenidən cəhd edin.",
     "core.labelsep": ":",
+    "core.labelvalue": "{{$a.label}}: {{$a.value}}",
     "core.lastaccess": "Son erişim",
     "core.lastdownloaded": "Sonuncu endirilən",
     "core.lastmodified": "Son dəyişilmələr",
