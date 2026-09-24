@@ -3063,7 +3063,7 @@
     "core.timerelativetomorrow": "Bihar, {{$a}}",
     "core.timerelativeyesterday": "Atzo, {{$a}}",
     "core.timesup": "Denbora amaitu egin da!",
-    "core.timezone": "Ordu eremua",
+    "core.timezone": "Ordu-eremua",
     "core.today": "Gaur",
     "core.toggledelete": "Aldatu ezabatze botoiak",
     "core.tryagain": "Saiatu berriro",
