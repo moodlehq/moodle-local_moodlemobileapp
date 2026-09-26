@@ -64,9 +64,16 @@
     "addon.mod_assign.addsubmission": "setz eng nei Soumissioun dobäi",
     "addon.mod_assign.allowsubmissionsfromdate": "erlab Soumissiounsformulairen",
     "addon.mod_assign.applytoteam": "gëff dem ganze Groupe Punkten a Feedback",
+    "addon.mod_forum.advanced": "Erweidert",
     "core.accounts": "Konten",
     "core.activities": "Activitéiten",
     "core.add": "dobäi machen",
+    "core.all": "All",
+    "core.allgroups": "All d'Gruppen",
+    "core.allparticipants": "All d'Participanten",
+    "core.answer": "Äntwert",
+    "core.areyousure": "Bass du sécher?",
+    "core.back": "Zeréck",
     "core.comments.addcomment": "Commentéier",
     "core.courses.nocourses": "Fir dëse Cours gëtt et keng Informatiounen",
     "core.decsep": ".",
@@ -74,5 +81,7 @@
     "core.login.accounts": "Konten",
     "core.login.add": "dobäi machen",
     "core.login.invaliddate": "Ongültegen Datum",
-    "core.settings.accessstatement": "Zougangsangaben"
+    "core.settings.accessstatement": "Zougangsangaben",
+    "core.user.address": "Adress",
+    "freemium.accept": "Akzeptéieren"
 }
