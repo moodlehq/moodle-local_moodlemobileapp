@@ -8186,6 +8186,25 @@ export type AddonModAssignGetSubmissionStatusWSResponse = {
                 format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
             }[];
         }[];
+        markerfeedback?: { // Feedback broken down by individual marker, when the assignment uses multiple markers.
+            markerid: number; // Id of the marker who gave this feedback (-1 if the grader identity is hidden).
+            position: number; // Marker position for this assignment (1, 2, ...).
+            workflowstate?: string; // Workflow state of this marker's mark.
+            plugins?: { // Feedback plugin info for this marker.
+                type: string; // Submission plugin type.
+                name: string; // Submission plugin name.
+                fileareas?: { // Fileareas.
+                    area: string; // File area.
+                    files?: CoreWSExternalFile[];
+                }[];
+                editorfields?: { // Editorfields.
+                    name: string; // Field name.
+                    description: string; // Field description.
+                    text: string; // Field value.
+                    format: number; // Text format (1 = HTML, 0 = MOODLE, 2 = PLAIN, or 4 = MARKDOWN).
+                }[];
+            }[];
+        }[];
     }; // Feedback for the last attempt.
     previousattempts?: { // List all the previous attempts did by the user.
         attemptnumber: number; // Attempt number.
