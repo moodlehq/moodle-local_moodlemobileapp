@@ -684,7 +684,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} 返信",
     "addon.mod_forum.pindiscussion": "このディスカッションにピン留めする",
     "addon.mod_forum.pinupdated": "ピン留めオプションが更新されました。",
-    "addon.mod_forum.postaddedsuccess": "あなたの投稿が正常に追加されました。",
+    "addon.mod_forum.postaddedsuccess": "投稿が追加されました。",
     "addon.mod_forum.postingroup": "{{groupname}}に投稿しています。",
     "addon.mod_forum.postisprivatereply": "これはプライベート返信です (教師およびプライベート返信を閲覧できるケイパビリティのあるユーザのみ閲覧できます)。",
     "addon.mod_forum.posttoforum": "フォーラムに投稿する",

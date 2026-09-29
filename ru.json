@@ -684,7 +684,7 @@
     "addon.mod_forum.numreplies": "Ответов - {{numreplies}}",
     "addon.mod_forum.pindiscussion": "Закрепить обсуждение",
     "addon.mod_forum.pinupdated": "Настройка закрепления обновлена.",
-    "addon.mod_forum.postaddedsuccess": "Ваше сообщение успешно добавлено",
+    "addon.mod_forum.postaddedsuccess": "Ваше сообщение добавлено.",
     "addon.mod_forum.postingroup": "Публикация в группе «{{groupname}}».",
     "addon.mod_forum.postisprivatereply": "Это личный ответ. Он виден только вам и тем, у кого есть право просматривать личные ответы, например учителям.",
     "addon.mod_forum.posttoforum": "Отправить в форум",

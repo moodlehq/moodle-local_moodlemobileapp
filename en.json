@@ -684,7 +684,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} replies",
     "addon.mod_forum.pindiscussion": "Pin this discussion",
     "addon.mod_forum.pinupdated": "The pin option has been updated.",
-    "addon.mod_forum.postaddedsuccess": "Your post was successfully added.",
+    "addon.mod_forum.postaddedsuccess": "Post added.",
     "addon.mod_forum.postingroup": "Posting in group \"{{groupname}}\".",
     "addon.mod_forum.postisprivatereply": "This is a private reply. (Teachers and other users with the capability to view private replies can also see it.)",
     "addon.mod_forum.posttoforum": "Post to forum",

@@ -684,7 +684,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} respuestas",
     "addon.mod_forum.pindiscussion": "Fijar esta discusión",
     "addon.mod_forum.pinupdated": "La opción de fijación ha sido actualizada.",
-    "addon.mod_forum.postaddedsuccess": "Su mensaje ha sido añadido con éxito.",
+    "addon.mod_forum.postaddedsuccess": "Publicación añadida.",
     "addon.mod_forum.postingroup": "Publicando en grupo \"{{groupname}}\".",
     "addon.mod_forum.postisprivatereply": "Esta es una contestación privada. (Los profesores y otros usuarios con la capacidad para ver contestaciones privadas también pueden verla).",
     "addon.mod_forum.posttoforum": "Enviar al foro",
