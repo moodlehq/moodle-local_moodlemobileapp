@@ -688,7 +688,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} Antworten",
     "addon.mod_forum.pindiscussion": "Dieses Thema anpinnen",
     "addon.mod_forum.pinupdated": "Die Anpinnoption wurde aktualisiert.",
-    "addon.mod_forum.postaddedsuccess": "Der Beitrag wurde erfolgreich eingefügt.",
+    "addon.mod_forum.postaddedsuccess": "Beitrag hinzugefügt",
     "addon.mod_forum.postingroup": "Senden an Gruppe \"{{groupname}}\"",
     "addon.mod_forum.postisprivatereply": "Dies ist eine private Antwort. (Trainer/innen und Personen mit dem Recht \"Private Antworten anzeigen\" können diese ebenfalls sehen.)",
     "addon.mod_forum.posttoforum": "Beitrag absenden",
