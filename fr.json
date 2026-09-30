@@ -684,7 +684,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} réponses",
     "addon.mod_forum.pindiscussion": "Épingler cette discussion",
     "addon.mod_forum.pinupdated": "Le réglage épinglé a été modifié.",
-    "addon.mod_forum.postaddedsuccess": "Votre message a été enregistré.",
+    "addon.mod_forum.postaddedsuccess": "Message enregistré.",
     "addon.mod_forum.postingroup": "Publication dans le groupe « {{groupname}} ».",
     "addon.mod_forum.postisprivatereply": "Ceci est une réponse privée (les enseignants et autres utilisateurs ayant la capacité de voir les réponses privées peuvent aussi la voir).",
     "addon.mod_forum.posttoforum": "Envoyer",
