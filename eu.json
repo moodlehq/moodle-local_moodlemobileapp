@@ -688,7 +688,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} erantzun",
     "addon.mod_forum.pindiscussion": "Finkatu eztabaida hau",
     "addon.mod_forum.pinupdated": "Finkatze-aukera eguneratu da.",
-    "addon.mod_forum.postaddedsuccess": "Zure mezua ondo gehitu da.",
+    "addon.mod_forum.postaddedsuccess": "Mezua gehituta.",
     "addon.mod_forum.postingroup": "\"{{groupname}}\" taldean idazten.",
     "addon.mod_forum.postisprivatereply": "Hau erantzun pribatu bat da. (Irakasleek eta erantzun pribatuak ikusteko baimena duten erabiltzaileek ere ikusi ahal dute.)",
     "addon.mod_forum.posttoforum": "Bidali mezua forora",

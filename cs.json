@@ -688,7 +688,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} odpovědí",
     "addon.mod_forum.pindiscussion": "Připíchnout tuto diskusi nahoru",
     "addon.mod_forum.pinupdated": "Volba připínáčku byla aktualizována.",
-    "addon.mod_forum.postaddedsuccess": "Váš příspěvek byl úspěšně přidán.",
+    "addon.mod_forum.postaddedsuccess": "Příspěvek byl přidán.",
     "addon.mod_forum.postingroup": "Odesílání do skupiny \"{{groupname}}\".",
     "addon.mod_forum.postisprivatereply": "Toto je soukromá odpověď. (Můžou to vidět i učitelé a další uživatelé, kteří mají možnost zobrazit soukromé odpovědi.)",
     "addon.mod_forum.posttoforum": "Poslat do fóra",
