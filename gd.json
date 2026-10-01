@@ -54,6 +54,8 @@
     "addon.block_recentactivity.pluginname": "Gnìomhachd o chionn ghoirid",
     "addon.block_recentlyaccessedcourses.nocourses": "Gun chùrsaichean o chionn ghoirid",
     "addon.block_recentlyaccessedcourses.pluginname": "Cùrsaichean air an ruigheachd o chionn ghoirid",
+    "addon.block_recentlyaccesseditems.noitems": "Gun nithean o chionn ghoirid",
+    "addon.block_recentlyaccesseditems.pluginname": "Nithean air an ruigheachd o chionn ghoirid",
     "addon.block_searchforums.pluginname": "Lorg sna foruman",
     "addon.block_sitemainmenu.pluginname": "Prìomh chlàr-iùil",
     "addon.blog.addnewentry": "Cuir innteart ùr ris",
