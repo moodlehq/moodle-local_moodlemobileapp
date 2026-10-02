@@ -2109,6 +2109,8 @@
     "core.publicprofile": "Profilo public",
     "core.question.answer": "Responsa",
     "core.question.answersaved": "Responsa salveguardate",
+    "core.question.certainty": "Certitude",
+    "core.question.certainty_help": "Le punctuage basate super le certitude require que tu indica quanto fidel tu pensa que tu responsa es. Le nivellos disponibile es:\n\nNivello de certitude        | C=1 (Incerte) | C=2 (Medie) | C=3 (Assatis certe)\n--------------------------- | ------------ | ----------- | ------------------\nPunctos si correcte         |   1          |    2        |      3\nPunctos si errate           |   0          |   -2        |     -6\nProbabilitate de correction |  <67%        | 67-80%      |    >80%\n\nLe melior punctos es obtenite per recognoscer le incertitude. Per exemplo, si tu pensa que il ha plus de un probabilitate in tres de esser errate, tu deberea entrar C=1 e evitar le risco de un puncto negative.",
     "core.question.complete": "Complete",
     "core.question.correct": "Correcte",
     "core.question.feedback": "Commentario (feedback o retroaction)",
