@@ -688,7 +688,7 @@
     "addon.mod_forum.numreplies": "Број одговора: {{numreplies}}",
     "addon.mod_forum.pindiscussion": "Фиксирај ову дискусију",
     "addon.mod_forum.pinupdated": "Опција за фиксирање је ажурирана.",
-    "addon.mod_forum.postaddedsuccess": "Ваша порука је успешно додата.",
+    "addon.mod_forum.postaddedsuccess": "Порука је додата.",
     "addon.mod_forum.postingroup": "Слање порука у групи \"{{groupname}}\".",
     "addon.mod_forum.postisprivatereply": "Ово је приватни одговор (предавачи и други корисници који имају одговарајући способност могу такође да виде приватне одговоре).",
     "addon.mod_forum.posttoforum": "Пошаљи поруку на форум",
