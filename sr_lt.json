@@ -688,7 +688,7 @@
     "addon.mod_forum.numreplies": "Broj odgovora: {{numreplies}}",
     "addon.mod_forum.pindiscussion": "Fiksiraj ovu diskusiju",
     "addon.mod_forum.pinupdated": "Opcija za fiksiranje je ažurirana.",
-    "addon.mod_forum.postaddedsuccess": "Vaša poruka je uspešno dodata.",
+    "addon.mod_forum.postaddedsuccess": "Poruka je dodata.",
     "addon.mod_forum.postingroup": "Slanje poruka u grupi \"{{groupname}}\".",
     "addon.mod_forum.postisprivatereply": "Ovo je privatni odgovor (predavači i drugi korisnici koji imaju odgovarajući sposobnost mogu takođe da vide privatne odgovore).",
     "addon.mod_forum.posttoforum": "Pošalji poruku na forum",
