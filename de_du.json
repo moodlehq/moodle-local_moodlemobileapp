@@ -611,7 +611,7 @@
     "core.login.toggleremove": "Nutzerkontenliste bearbeiten",
     "core.login.unsupportedsite": "Die Website ist über die App nicht zugänglich.",
     "core.login.unsupportedsitemessage": "Auf {{site}} kann mit dieser App nicht zugegriffen werden. <br><br> Du kannst aber weiterhin einen Webbrowser verwenden.",
-    "core.login.usernameoremail": "Gib den Anmeldenamen oder die E-Mail-Adresse ein.",
+    "core.login.usernameoremail": "Gib den Anmeldenamen oder die E-Mail ein",
     "core.login.usernamerequired": "Anmeldename fehlt",
     "core.login.visitchangepassword": "Möchtest du die Website aufrufen, um das Kennwort zu ändern?",
     "core.login.webservicesnotenabled": "Webservices sind für diese Website nicht aktiviert.",
