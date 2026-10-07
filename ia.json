@@ -894,6 +894,7 @@
     "addon.privatefiles.files": "Files",
     "addon.privatefiles.privatefiles": "Files private",
     "addon.privatefiles.sitefiles": "Files de sito",
+    "addon.qtype_ddimageortext.pleasedraganimagetoeachdropregion": "Tu responsa non es complete: pro favor, trahe un elemento a cata region de deponer.",
     "addon.report_insights.fixedack": "Accepta",
     "addon.report_insights.incorrectlyflagged": "Marcate incorrectemente",
     "addon.report_insights.notapplicable": "Non applicabile",
