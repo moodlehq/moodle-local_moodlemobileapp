@@ -2752,7 +2752,7 @@
     "freemium.subscriptionfeature_exceeded_disabledfeatures": "{{overflowCount}} fitur yang dinonaktifkan yang dikonfigurasi masih diaktifkan",
     "freemium.subscriptionfeature_exceeded_remotethemes": "Tema kustom Anda tidak diterapkan",
     "freemium.subscriptionfeature_exceeded_sitelogo": "Logo situs Anda tidak diterapkan",
-    "freemium.subscriptionfeature_limited": "Terbatas pada {{limit}}",
+    "freemium.subscriptionfeature_limited": "Dibatasi hingga {{limit}}",
     "freemium.subscriptionfeature_unlimited": "Tak terbatas",
     "freemium.subscriptionplan": "Paket berlangganan",
     "freemium.subscriptionplan_expired": "Kedaluwarsa",
