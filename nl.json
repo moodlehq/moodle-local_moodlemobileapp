@@ -2050,7 +2050,7 @@
     "core.course.courseindex": "Cursusindex",
     "core.course.coursesummary": "Samenvatting cursus",
     "core.course.done": "Klaar",
-    "core.course.downloadcourse": "Download cursus",
+    "core.course.downloadcourse": "Cursus downloaden",
     "core.course.downloadcoursesprogressdescription": "Cursussen downloaden: {{count}} gedownload van {{total}}.",
     "core.course.downloadsectionprogressdescription": "Sectie downloaden: {{count}} gedownload van {{total}}.",
     "core.course.emptyconditionsinfo": "Er zijn geen voltooiingsvoorwaarden ingesteld voor deze activiteit.",
