@@ -2118,6 +2118,7 @@
     "core.dataprivacy.statusdeleted": "Usunięte",
     "core.dataprivacy.statusexpired": "Wygasły",
     "core.dataprivacy.statuspending": "Trwający",
+    "core.dataprivacy.statuspreprocessing": "Przetwarzanie wstępne",
     "core.dataprivacy.statusprocessing": "Przetwarzanie",
     "core.dataprivacy.statusready": "Gotowe do pobrania",
     "core.dataprivacy.statusrejected": "Odrzucony",
