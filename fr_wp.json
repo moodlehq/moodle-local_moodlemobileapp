@@ -93,7 +93,7 @@
     "workplace.myavailable.nocourses": "Vous n'avez pas de nouveaux cours disponibles",
     "workplace.myavailable.pluginname": "Nouveaux cours disponibles",
     "workplace.mycourses": "Mes cours",
-    "workplace.myinprogress.blocktitle": "Formation en cours ({{$a}})",
+    "workplace.myinprogress.blocktitle": "Formations en cours ({{$a}})",
     "workplace.myinprogress.donthide": "Ne pas cacher",
     "workplace.myinprogress.hidden": "Caché",
     "workplace.myinprogress.hidefromview": "Cacher",
