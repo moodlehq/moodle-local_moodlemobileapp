@@ -43,7 +43,7 @@
     "core.login.forcepasswordchangenotice": "Ändere jetzt erst einmal dein Kennwort und merke es dir gut",
     "core.login.forgotaccount": "Kennwort vergessen?",
     "core.login.invalidemail": "Die E-Mail-Adresse funktioniert nicht.",
-    "core.login.invalidusername": "Schreibe den Anmeldenamen in Kleinbuchstaben. Du kannst auch Zahlen und folgende Zeichen verwenden: Unterstreichen (_), Bindestrich (-), Punkt (.) und das Zeichen @",
+    "core.login.invalidusername": "Schreibe den Anmeldenamen in Kleinbuchstaben. Es können auch Zahlen und folgende Zeichen drin sein: Unterstrich _, Bindestrich –, Punkt . und das Zeichen @",
     "core.login.login": "Anmelden",
     "core.login.loginsteps": "Wir freuen uns, dass du dich hier anmelden möchtest. Wenn du noch nie angemeldet warst, frage deine Lehrerin oder deinen Lehrer nach den Zugangsdaten.",
     "core.login.mustconfirm": "Gib die Daten nochmal ein",
