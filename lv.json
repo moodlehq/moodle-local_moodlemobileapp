@@ -2458,7 +2458,7 @@
     "core.login.yourenteredsite": "Izveidojiet savienojumu ar savu vietni",
     "core.lostconnection": "Jūsu autentifikācijas marķieris ir nederīgs vai ir beidzies derīguma termiņš. Jums būs jāatjauno savienojums ar vietni.",
     "core.mainmenu.home": "Sākums",
-    "core.mainmenu.logout": "Atslēgties",
+    "core.mainmenu.logout": "Izrakstīties",
     "core.mainmenu.switchaccount": "Pārslēgt kontu",
     "core.maxfilesize": "Maksimālais jauno failu lielums: {{$a}}",
     "core.maxsizeandattachments": "Maksimālais jaunas datnes izmērs:  {{$a.size}}, pielikumu skaits {{$a.attachments}}",
