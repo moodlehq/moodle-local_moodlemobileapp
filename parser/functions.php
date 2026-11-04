@@ -186,8 +186,8 @@ function build_lang(&$language) {
             if ($file != APPMODULENAME) {
                 $text = str_replace('$a->@', '$a.', $text);
                 $text = str_replace('$a->', '$a.', $text);
-                $text = str_replace('{$a', '{{$a', $text);
-                $text = str_replace('}', '}}', $text);
+                $text = preg_replace('/(?<!\{)\{\$a/', '{{$a', $text);
+                $text = preg_replace('/}(?!})/', '}}', $text);
                 $text = preg_replace('/@@.+?@@(<br>)?\\s*/', '', $text);
                 // Prevent double.
                 $text = str_replace(['{{{', '}}}'], ['{{', '}}'], $text);
