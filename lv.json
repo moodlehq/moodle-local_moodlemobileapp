@@ -1566,6 +1566,7 @@
     "core.course.aria:sectionprogress": "Sadaļas progress:",
     "core.course.availablespace": "Pašlaik jums ir aptuveni {{available}} brīvas vietas.",
     "core.course.cannotdeletewhiledownloading": "Failus nevar izdzēst, kamēr darbība tiek lejupielādēta. Lūdzu, uzgaidiet, līdz lejupielāde tiks pabeigta.",
+    "core.course.communicationroomlink": "Sazinieties ar kursa dalībniekiem",
     "core.course.completion_automatic:done": "Paveikts:",
     "core.course.completion_automatic:failed": "Neizdevās:",
     "core.course.completion_automatic:todo": "Jāpaveic:",
