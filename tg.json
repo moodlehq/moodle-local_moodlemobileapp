@@ -920,7 +920,7 @@
     "core.completion-alt-manual-n": "Иҷро нашуд: {{$a}}. Интихоб намоед, то ки унсурро ҳамчун иҷрошуда қайд кунед",
     "core.completion-alt-manual-n-override": "Иҷро нашудааст. {$ A-> modname}} нестам (танзим кардаед {$ a-> overrideuser}}). Ҳамчун тамоман ба қайд гиред.",
     "core.completion-alt-manual-y": "Иҷро шуд: {{$a}}. Интихоб намоед, то ки унсури курсро ҳамчун иҷронашуда қайд кунед",
-    "core.completion-alt-manual-y-override": "Иҷро шуд: {{a-> modname}}} {{a-> overrideuser}} -ро танзим мекунад. Нишонае, ки ба анҷом нарасидааст, интихоб кунед",
+    "core.completion-alt-manual-y-override": "Иҷро шуд: {{a-> modname}} {{a-> overrideuser}} -ро танзим мекунад. Нишонае, ки ба анҷом нарасидааст, интихоб кунед",
     "core.confirmdeletefile": "Шумо боварӣ доред, ки ин файлро нест кардан мехоҳед?",
     "core.considereddigitalminor": "Шумо ноболиғи рақамӣ шуморида мешавед.",
     "core.content": "Мӯҳтаво",
