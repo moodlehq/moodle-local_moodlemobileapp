@@ -568,6 +568,7 @@
     "core.user.email": "Tuatusi i-meli",
     "core.user.emailagain": "I-meli (toe fai)",
     "core.user.firstname": "Igoa muamua",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Numera ID",
     "core.user.institution": "Institution",
     "core.user.lastname": "IgoaMulimuli",

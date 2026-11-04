@@ -1,5 +1,6 @@
 {
     "addon.badges.badges": "Белгилер",
+    "addon.badges.coursebadges": "Белгилер",
     "addon.block_activitymodules.pluginname": "Курстун элементтери",
     "addon.block_activityresults.pluginname": "Курс элементтери үчүн баалар",
     "addon.block_badges.pluginname": "Акыркы белгилер",
@@ -517,6 +518,7 @@
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} курс башталганча",
     "core.course.section": "Бөлүм",
     "core.course.startdate": "Курсту баштоо күнү",
+    "core.coursecontact": "Курс менен байланышуу",
     "core.courses.availablecourses": "Жеткиликтүү курстар",
     "core.courses.categories": "Курстардын категориялары",
     "core.courses.courses": "Курстар",
@@ -748,6 +750,7 @@
     "core.user.email": "Электрондук почта",
     "core.user.emailagain": "Электрондук почта (дагы бир ирет)",
     "core.user.firstname": "Атыӊыз",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Жеке номер",
     "core.user.institution": "Мекеме (уюм)",
     "core.user.interests": "Кызыгуулары",

@@ -1,9 +1,11 @@
 {
     "addon.badges.badges": "Medalhas",
     "addon.badges.course": "Curso: {{$a}}",
+    "addon.badges.coursebadges": "Medalhas",
     "addon.badges.expireddate": "Esta medalha expirou em {{$a}}.",
     "addon.badges.nobadges": "Atualmente, não há medalhas disponíveis para os usuários conquistarem.",
     "addon.badges.relatedbages": "Medalhas Relacionadas",
+    "addon.badges.sitebadges": "Medalhas do Site",
     "addon.block_badges.pluginname": "Medalhas mais recentes",
     "addon.block_onlineusers.pluginname": "Usuários online",
     "addon.blog.publishtonoone": "Somente você (rascunho)",

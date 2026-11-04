@@ -1,7 +1,9 @@
 {
+    "addon.badges.coursebadges": "Bálkkašumit",
     "addon.badges.issueremail": "E-poasta",
     "addon.badges.language": "Giella",
     "addon.badges.nobadges": "Ii oktage bálkkašupmi leat olámuttus.",
+    "addon.badges.sitebadges": "Portálabálkkašumit",
     "addon.block_activitymodules.pluginname": "Aktivitehtat",
     "addon.block_badges.pluginname": "Ođđaseamos bálkkašumit",
     "addon.block_blogmenu.pluginname": "Bloggafállu",
@@ -348,6 +350,8 @@
     "addon.mod_forum.lastpost": "Ođđaseamos čálus",
     "addon.mod_forum.lockdiscussion": "Lohkkat dán digaštallama",
     "addon.mod_forum.lockupdated": "Lohkkadanválljejupmi lea ođasmahttojuvvon",
+    "addon.mod_forum.markread": "Merke lohkkojuvvon",
+    "addon.mod_forum.markunread": "Merke logakeahttán",
     "addon.mod_forum.message": "Diehtu",
     "addon.mod_forum.modeflatnewestfirst": "Čájet vástádusaid láskut, ođđaseamos čállosa álggos",
     "addon.mod_forum.modeflatoldestfirst": "Čájet vástádusaid láskut, boarráseamos čállosa álggos",

@@ -566,6 +566,7 @@
     "core.user.email": "ईमेल ठेगाना",
     "core.user.emailagain": "ईमेल (फेरि)",
     "core.user.firstname": "नाम",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "ID नम्बर",
     "core.user.institution": "विद्यालय",
     "core.user.interests": "रूचिहरु",

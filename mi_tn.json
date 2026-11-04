@@ -149,6 +149,7 @@
     "core.user.email": "Kāinga Imēra",
     "core.user.emailagain": "Imēra (anō)",
     "core.user.firstname": "Ingoa Tuatahi",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "tātai  ID",
     "core.user.institution": "Wānanga",
     "core.user.lastname": "Ingoa Whānau",

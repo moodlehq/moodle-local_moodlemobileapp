@@ -1,5 +1,7 @@
 {
     "addon.badges.badges": "ಲಾಂಛನಗಳು",
+    "addon.badges.coursebadges": "ಲಾಂಛನಗಳು",
+    "addon.badges.sitebadges": "ತಾಣದ ಲಾಂಛನಗಳು",
     "addon.block_blogtags.pluginname": "ಬ್ಲಾಗಿನ ಕುಣಿಕೆ",
     "addon.block_calendarmonth.pluginname": "ಪಂಚಾಂಗ",
     "addon.block_calendarupcoming.pluginname": "ಮುಂದೆ ಬರುವ ಕಾರ್ಯಕ್ರಮಗಳು",
@@ -103,7 +105,6 @@
     "addon.mod_forum.forumnodiscussionsyet": "ಈ ಚರ್ಚಾ ವೇದಿಕೆಯಲ್ಲಿ ಈವರೆಗೂ ಯಾವುದೇ ಚರ್ಚೆಗಳಿಲ್ಲ",
     "addon.mod_forum.group": "ಗುಂಪು",
     "addon.mod_forum.modulenameplural": "ವೇದಿಕೆಗಳು",
-    "addon.mod_forum.numdiscussions": "{{numdiscussions}} ಚರ್ಚೆಗಳು",
     "addon.mod_forum.numreplies": "{{numreplies}} ಹಿಮ್ಮಾಹಿತಿಗಳು",
     "addon.mod_forum.posttomygroups": "ಎಲ್ಲಾ ಗುಂಪುಗಳಿಗೂ ಒಂದು ನಕಲನ್ನು ಕಳಿಸಿರಿ",
     "addon.mod_forum.refreshposts": "ಉತ್ತರಗಳನ್ನು ನವೀಕರಿಸಿ",
@@ -214,7 +215,6 @@
     "core.contenteditingsynced": "ನೀವು ಬರೆಯುತ್ತಿರುವ ವಿಷಯವನ್ನು ಈಗಾಗಲೇ ನವೀಕರಿಸಲಾಗಿದೆ.",
     "core.contentlinks.chooseaccount": "ಖಾತೆಯನ್ನು ಆರಿಸಿ",
     "core.contentlinks.chooseaccounttoopenlink": "ಕೊಂಡಿಯನ್ನು ತೆರೆಯಲು ಖಾತೆಯನ್ನು ಆರಿಸಿ",
-    "core.contentlinks.confirmurlothersite": "ಈ ಕೊಂಡಿ ಬೇರೆಯ ತಾಣದ್ದಾಗಿದೆ. ನೀವು ಅದನ್ನು ತೆರೆಯಲು ಇಚ್ಛಿಸುವಿರೆ?",
     "core.contentlinks.errornoactions": "ಈ ಕೊಂಡಿಯನ್ನು ಹೇಗೆ ಬಳಸುವುದೆಂದು ತಿಳಿದಿಲ್ಲ.",
     "core.contentlinks.errornosites": "ಈ ಕೊಂಡಿಯನ್ನು ಉಪಯೋಗಿಸುವ ಯಾವುದೇ ತಾಣವಿಲ್ಲ",
     "core.continue": "ಮುಂದುವರೆ",

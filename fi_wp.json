@@ -8,6 +8,7 @@
     "core.listsep": ";",
     "core.noselection": "Ei valintaa",
     "core.parentlanguage": "fi",
+    "core.reportbuilder.errorreportview": "Et voi tarkastella tätä raporttia",
     "core.reportbuilder.modifiedby": "Muokannut",
     "core.reportbuilder.reportsource": "Raporttilähde",
     "core.search.err_minlength": "Kirjoita vähintään {{$a.format}} merkkiä.",

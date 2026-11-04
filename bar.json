@@ -200,6 +200,7 @@
     "core.user.email": "E-Mail-Adress",
     "core.user.emailagain": "E-Mail (nu amal)",
     "core.user.firstname": "Firnam",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.lastcourseaccess": "Letzta Zougrif afn Kuars",
     "core.user.profile": "Profil",
     "core.user.student": "Schüla",

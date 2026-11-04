@@ -153,6 +153,7 @@
     "core.user.editingteacher": "Enseignant",
     "core.user.email": "Adresse de courriel",
     "core.user.firstname": "Prénom",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Numéro d'identification",
     "core.user.institution": "Institution",
     "core.user.lastname": "Nom",

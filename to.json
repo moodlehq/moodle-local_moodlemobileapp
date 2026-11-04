@@ -610,6 +610,7 @@
     "core.user.email": "Tu'asila 'Imeili",
     "core.user.emailagain": "(toe) 'Imeili",
     "core.user.firstname": "Hingoa",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Fika ID",
     "core.user.institution": "'Api ako",
     "core.user.lastname": "Hingoa fakaiku",

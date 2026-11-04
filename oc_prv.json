@@ -133,6 +133,7 @@
     "core.user.email": "Adreiça electronica",
     "core.user.emailagain": "Confirmar l'adreiça electronica",
     "core.user.firstname": "Nom",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Numèro d’identificacion",
     "core.user.institution": "Institucion",
     "core.user.interests": "Interès",

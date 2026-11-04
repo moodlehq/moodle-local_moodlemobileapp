@@ -58,6 +58,7 @@
     "core.course.startdate": "Data de início da disciplina",
     "core.course.viewcourse": "Ver disciplina",
     "core.course.warningofflinemanualcompletiondeleted": "Alguma conclusão manual offline da disciplina '{{name}}' foi excluída. {{error}}",
+    "core.coursecontact": "Administradores da disciplina",
     "core.coursenogroups": "Você não é membro de nenhum grupo nesta disciplina.",
     "core.courses.addtofavourites": "Adicionar esta disciplina aos favoritos",
     "core.courses.aria:coursecategory": "Curso da disciplina",

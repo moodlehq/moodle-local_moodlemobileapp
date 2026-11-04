@@ -1,6 +1,8 @@
 {
     "addon.badges.badges": "تامغىلار",
+    "addon.badges.coursebadges": "تامغىلار",
     "addon.badges.nobadges": "ھېچقانداق تامغا يوق",
+    "addon.badges.sitebadges": "بىكەت تامغىسى",
     "addon.block_badges.pluginname": "يېڭى تامغا",
     "addon.block_blogmenu.pluginname": "مۇنبەر تىزىملىكى",
     "addon.block_blogrecent.pluginname": "يېڭى تېمىلار",

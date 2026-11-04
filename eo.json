@@ -904,6 +904,7 @@
     "core.user.email": "Retpoŝto",
     "core.user.emailagain": "Poŝto (denove)",
     "core.user.firstname": "Antaŭnomo",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Numero de ID",
     "core.user.institution": "Institucio",
     "core.user.interests": "Interesoj",

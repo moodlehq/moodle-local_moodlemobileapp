@@ -124,6 +124,7 @@
     "core.user.editingteacher": "rhētor",
     "core.user.email": "tabellarius",
     "core.user.emailagain": "tabellarius (iterum)",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "numerus ID",
     "core.user.student": "discipulus",
     "core.userdeleted": "hanc usorem deletus est",

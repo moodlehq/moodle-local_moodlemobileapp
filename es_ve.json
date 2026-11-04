@@ -78,6 +78,7 @@
     "core.course.overview_missing_title": "La información de {{$a}} no está disponible.",
     "core.course.relativedatessubmissionduedateafter": "{{$a.datediffstr}} después del inicio del curso",
     "core.course.relativedatessubmissionduedatebefore": "{{$a.datediffstr}} antes del inicio del curso",
+    "core.coursecontact": "Contactos del curso",
     "core.courses.aria:coursecategory": "Categoría del curso",
     "core.courses.aria:coursename": "Nombre del curso",
     "core.courses.aria:favourite": "El curso está marcado con estrella",

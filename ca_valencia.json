@@ -266,6 +266,7 @@
     "core.completion-alt-manual-y-override": "Completada: {{$a.modname}} (establit per {{$a.overrideuser}}). Seleccioneu-ho per a marcar-ho com a no completada.",
     "core.course.overriddennotice": "La vostra qualificació final en esta activitat s'ha modificat manualment.",
     "core.course.thisweek": "Esta setmana",
+    "core.coursecontact": "Administradors de curs",
     "core.courses.enrolme": "Inscriu-me en este curs",
     "core.courses.frontpage": "Primera plana",
     "core.courses.ignore": "Ignora",

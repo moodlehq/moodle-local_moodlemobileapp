@@ -192,6 +192,8 @@
     "addon.mod_forum.erroremptysubject": "Skelbimo tema negali būti tuščia.",
     "addon.mod_forum.group": "Grupė",
     "addon.mod_forum.lastpost": "Paskutinis skelbimas",
+    "addon.mod_forum.markread": "Žymėti kaip perskaitytą",
+    "addon.mod_forum.markunread": "Žymėti kaip neperskaitytą",
     "addon.mod_forum.message": "Žinutės tekstas",
     "addon.mod_forum.modeflatnewestfirst": "Rodyti atsakymus standartiškai, pirmiausia rodant naujausią",
     "addon.mod_forum.modeflatoldestfirst": "Rodyti atsakymus standartiškai, pirmiausia rodant seniausią",

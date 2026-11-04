@@ -877,6 +877,7 @@
     "core.user.email": "Seoladh ríomhphoist",
     "core.user.emailagain": "Ríomhphost (arís)",
     "core.user.firstname": "Céadainm",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Uimhir aitheantais",
     "core.user.institution": "Foras",
     "core.user.lastname": "Sloinne",

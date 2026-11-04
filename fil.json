@@ -161,6 +161,7 @@
     "core.user.email": "Address ng Email",
     "core.user.emailagain": "Email (ulit)",
     "core.user.firstname": "Pangalan",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "Bilang ng ID",
     "core.user.institution": "Institusyon",
     "core.user.lastname": "Apelyido",

@@ -83,6 +83,7 @@
     "core.user.editingteacher": "መምህር",
     "core.user.email": "የ ኢሜል አድራሻ",
     "core.user.firstname": "የመጀመሪያ ስም",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.student": "ተማሪ",
     "core.viewer.default": "ነባሪ",
     "freemium.accept": "ተቀበል",

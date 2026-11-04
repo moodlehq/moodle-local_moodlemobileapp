@@ -206,6 +206,7 @@
     "core.user.email": "Tikotiko vaka imeli",
     "core.user.emailagain": "Imeli (cakava tale)",
     "core.user.firstname": "Matai ni yaca",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "aidi",
     "core.user.institution": "Vanua ni vuli torocake",
     "core.user.interests": "Gagadre",

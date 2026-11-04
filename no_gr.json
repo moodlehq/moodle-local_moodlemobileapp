@@ -144,6 +144,7 @@
     "core.user.email": "E-postadresse",
     "core.user.emailagain": "E-post (igjen)",
     "core.user.firstname": "Fornavn",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "ID-nummer",
     "core.user.institution": "Institusjon",
     "core.user.lastname": "Etternavn",

@@ -1,7 +1,9 @@
 {
     "addon.badges.badges": "ჯილდოები",
+    "addon.badges.coursebadges": "ჯილდოები",
     "addon.badges.language": "ენა",
     "addon.badges.nobadges": "ჯილდოები არ არის ხელმისაწვდომი",
+    "addon.badges.sitebadges": "საიტის ჯილდოები",
     "addon.block_activitymodules.pluginname": "აქტივობები",
     "addon.block_badges.pluginname": "ჩემი უკანასკნელი ჯილდოები",
     "addon.block_blogmenu.pluginname": "ბლოგის მენიუ",
@@ -708,6 +710,7 @@
     "core.user.email": "ელ-ფოსტის მისამართი",
     "core.user.emailagain": "ელ-ფოსტის გამეორება",
     "core.user.firstname": "სახელი",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "ID ნომერი",
     "core.user.institution": "დაწესებულება",
     "core.user.interests": "ინტერესები",

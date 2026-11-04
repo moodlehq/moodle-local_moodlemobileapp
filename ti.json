@@ -662,6 +662,7 @@
     "core.user.email": "ኣድራሻ ኢመይል",
     "core.user.emailagain": "ኣድራሻ ኢመይል (ከምብሓዱሽ)",
     "core.user.firstname": "ናይ መጀመርያ ስም",
+    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
     "core.user.idnumber": "መለለዩ ቁፅሪ",
     "core.user.institution": "ትካል",
     "core.user.interests": "ድሌታት",
