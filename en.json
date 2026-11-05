@@ -404,7 +404,7 @@
     "addon.mod_assign.markingworkflowstatereleased": "Released",
     "addon.mod_assign.modulenameplural": "Assignments",
     "addon.mod_assign.multiplemarkersnotsupported": "Multiple markers are not yet supported by the app and cannot be modified.",
-    "addon.mod_assign.multiplemarkersnotsupportedfeedback": "This assignment can have multiple markers. Any feedback from them is only available in the browser.",
+    "addon.mod_assign.multiplemarkersnotsupportedfeedback": "This attempt can have multiple markers. Any feedback from them is only available in the browser.",
     "addon.mod_assign.multipleteams": "Member of more than one group",
     "addon.mod_assign.multipleteams_desc": "The assignment requires submission in groups. You are a member of more than one group. To be able to submit you must be a member of only one group. Please contact your teacher to change your group membership.",
     "addon.mod_assign.noattempt": "No attempt",
