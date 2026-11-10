@@ -688,7 +688,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} svar",
     "addon.mod_forum.pindiscussion": "Fest denne diskusjonen",
     "addon.mod_forum.pinupdated": "Festevalget har blitt oppdatert",
-    "addon.mod_forum.postaddedsuccess": "Posting av innlegget ditt var vellykket.",
+    "addon.mod_forum.postaddedsuccess": "Publisering av innlegget ditt var vellykket.",
     "addon.mod_forum.postingroup": "Poster i gruppen \"{{groupname}}\".",
     "addon.mod_forum.postisprivatereply": "Dette er et privat svar. (Lærere og andre brukere med mulighet til å se private svar kan også se det.)",
     "addon.mod_forum.posttoforum": "Legg inn i forumet",
