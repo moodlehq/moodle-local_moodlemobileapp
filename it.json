@@ -694,7 +694,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} interventi",
     "addon.mod_forum.pindiscussion": "Metti la discussione in evidenza",
     "addon.mod_forum.pinupdated": "L'evidenza della discussione è stata aggiornata.",
-    "addon.mod_forum.postaddedsuccess": "Il tuo intervento è stato aggiunto con successo.",
+    "addon.mod_forum.postaddedsuccess": "L'intervento è stato aggiunto.",
     "addon.mod_forum.postingroup": "Post nel gruppo \"{{groupname}}\".",
     "addon.mod_forum.postisprivatereply": "Questa è una risposta privata e non è visibile ad altri utenti ad eccezione di coloro che posseggono il privilegio di visualizzare risposte private, come i docenti.",
     "addon.mod_forum.posttoforum": "Invia al forum",
