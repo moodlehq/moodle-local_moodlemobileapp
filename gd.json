@@ -265,6 +265,8 @@
     "addon.mod_data.menuchoose": "Tagh...",
     "addon.mod_data.more": "Barrachd",
     "addon.mod_data.search": "Lorg",
+    "addon.mod_data_fields_file.fieldtypelabel": "Faidhle",
+    "addon.mod_data_fields_picture.fieldtypelabel": "Ìomhaigh",
     "addon.mod_feedback.complete_the_form": "Freagair na ceistean...",
     "addon.mod_feedback.completed_feedbacks": "Freagairtean a chuireadh a-steach",
     "addon.mod_feedback.modulenameplural": "Luachadh",
