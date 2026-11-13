@@ -2005,6 +2005,7 @@
     "core.course.confirmpartialdownloadsize": "Jūs ruošiatės atsisiųsti <strong>mažiausiai</strong> {{size}}.{{availableSpace}} Ar tikrai norite tęsti?",
     "core.course.couldnotloadsectioncontent": "Nepavyko įkelti dalies turinio. Prašome pabandyti vėliau.",
     "core.course.couldnotloadsections": "Nepavyko įkelti dalių. Prašome pabandyti vėliau.",
+    "core.course.course:viewoverview": "Peržiūrėti veiklų apžvalgą",
     "core.course.courseindex": "Kurso rodyklė",
     "core.course.coursesummary": "Kurso santrauka",
     "core.course.done": "Atlikta",
