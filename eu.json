@@ -404,7 +404,7 @@
     "addon.mod_assign.markingworkflowstatereleased": "Argitaratuta",
     "addon.mod_assign.modulenameplural": "Zereginak",
     "addon.mod_assign.multiplemarkersnotsupported": "Kalifikatzaile anitz egotea oraindik ez dago sostengatuta aplikazioan eta ezin da aldatu.",
-    "addon.mod_assign.multiplemarkersnotsupportedfeedback": "Zeregin honek hainbat kalifikatzaile izan ditzake. Euren feedbacka nabigatzailean soilik dago eskuragarri.",
+    "addon.mod_assign.multiplemarkersnotsupportedfeedback": "Saiakera honek hainbat kalifikatzaile izan ditzake. Euren feedbacka nabigatzailean soilik dago eskuragarri.",
     "addon.mod_assign.multipleteams": "Talde bateko baino gehiagoko partaidea",
     "addon.mod_assign.multipleteams_desc": "Zereginak taldekako bidalketa behartzen du. Zu talde bat baino gehiagoko kidea zara. Bidalketak egin ahal izateko talde bakar bateko kidea izan behar duzu. Mesedez jarri harremanetan zure irakaslearekin zure talde-partaidetzak aldatu ditzan.",
     "addon.mod_assign.noattempt": "Saiakerarik ez",
