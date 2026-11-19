@@ -2947,7 +2947,7 @@
     "core.user.profile": "Perfil",
     "core.user.roles": "Roles",
     "core.user.sendemail": "Correo-e",
-    "core.user.student": "O alumnado",
+    "core.user.student": "Alumno",
     "core.user.support": "Contacte co servizo de asistencia do sitio",
     "core.user.supportmessagesent": "A súa mensaxe foi enviada.",
     "core.user.supportsubject": "[App] {{subject}}",

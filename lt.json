@@ -683,7 +683,7 @@
     "addon.mod_forum.numreplies": "{{numreplies}} atsakymų",
     "addon.mod_forum.pindiscussion": "Prisegti šią diskusiją",
     "addon.mod_forum.pinupdated": "Smeigtuko parinktis buvo atnaujinta.",
-    "addon.mod_forum.postaddedsuccess": "Jūsų skelbimas sėkmingai įtrauktas.",
+    "addon.mod_forum.postaddedsuccess": "Įrašas pridėtas.",
     "addon.mod_forum.postingroup": "Skelbiama grupėje „{{groupname}}“.",
     "addon.mod_forum.postisprivatereply": "Tai privatus atsakymas. (Dėstytojai ir kiti naudotojai, galintys peržiūrėti privačius atsakymus, taip pat gali tai matyti.)",
     "addon.mod_forum.posttoforum": "Skelbti forume",
