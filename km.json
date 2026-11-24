@@ -2088,7 +2088,7 @@
     "core.user.emailagain": "អ៊ីមែល (ម្ដងទៀត)",
     "core.user.errorloaduser": "កំហុសក្នុងការផ្ទុកអ្នកប្រើ",
     "core.user.firstname": "នាមខ្លួន",
-    "core.user.fullnamedisplay": "{{$a.firstname}} {{$a.lastname}}",
+    "core.user.fullnamedisplay": "{{$a.lastname}} {{$a.firstname}}",
     "core.user.idnumber": "លេខសម្គាល់",
     "core.user.institution": "ស្ថាប័ន",
     "core.user.interests": "ចំណាប់អារម្មណ៍",
