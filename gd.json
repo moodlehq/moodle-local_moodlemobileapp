@@ -5,6 +5,7 @@
     "addon.badges.badges": "Suaicheantasan",
     "addon.badges.bendorsement": "Aonta",
     "addon.badges.claimcomment": "Beachd aontaidh",
+    "addon.badges.claimid": "URL an agartais",
     "addon.badges.course": "Cùrsa: {{$a}}",
     "addon.badges.coursebadges": "Suaicheantasan",
     "addon.badges.dateawarded": "Ceann-là lìbhrighidh",
